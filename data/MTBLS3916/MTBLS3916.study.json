@@ -1,0 +1,508 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-11-21T00:00:00",
+        "statusUpdateTime": "2022-11-21T08:43:06.184894",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS3916",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-12-02",
+        "publicReleaseDate": "2022-11-21",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "ENVO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS3916",
+                "filename": "s_MTBLS3916.txt",
+                "title": "Community-integrated multi-omics facilitates screening and isolation of the organohalide dehalogenation microorganism",
+                "description": "<p>A variety of anthropogenic organohalide contaminants generated from industry are released into the environment, and thus cause serious pollution that endangers human health. In the present study, we investigated the microbial community composition of industrial saponification wastewater using 16S rRNA sequencing, providing genomic insights of potential organohalide dehalogenation bacteria (OHDBs) by whole-metagenome sequencing. We also explored yet-to-culture OHDBs involved in the microbial community. Microbial diversity analysis reveals that Proteobacteria and Patescibacteria phyla dominate microbiome abundance of the wastewater. In addition, a total of six bacterial groups (Rhizobiales, Rhodobacteraceae, Rhodospirillales, Flavob\u1ea1cteriales, Micrococcales, and Saccharimonadales) were found as biomarkers in the key organohalide removal module. Ninety-four metagenome-assembled genomes (MAGs) were reconstructed from the microbial community, and 105 hydrolytic dehalogenase genes within 42 MAGs were identified, suggesting that the potential for hydrolytic organohalide dehalogenation is present in the microbial community. Subsequently, we characterized the organohalide dehalogenation of an isolated OHDB, Microbacterium sp. J1-1, which shows the dehalogenation activities of chloropropanol, dichloropropanol, and epichlorohydrin. This study provides a community-integrated multi-omics approach to gain functional OHDBs for industrial organohalide dehalogenation.</p>",
+                "submissionDate": "2021-12-02",
+                "publicReleaseDate": "2022-11-21",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Yiqun",
+                        "lastName": "Huang",
+                        "email": "yiqunhuang@sjtu.edu.cn",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "18601680297",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Lingyu",
+                        "lastName": "Wen",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "wastewater treatment plant",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ENVO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ENVO_00002043"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "16s ribosomal gene sequencing assay",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OBI",
+                            "file": "http://data.bioontology.org/ontologies/OBI",
+                            "version": "29",
+                            "description": "Ontology for Biomedical Investigations"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0002763"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Community-integrated multi-omics facilitates screening and isolation of the organohalide dehalogenation microorganism",
+                        "authorList": "Yiqun Huang, Lingyu Wen, Lige Zhang, Jijun Xu, Weiwei Wang, Haiyang Hu, Ping Xu, Zhao Li,  and Hongzhi Tang",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Stage",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Stage",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C48308"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples from a WWTP in Shandong Province of China were collected from the following 5 phases: <strong>raw water</strong> (<strong>RW</strong>), <strong>aeration tank</strong> (<strong>AT</strong>), <strong>secondary sedimentation tank</strong> (<strong>SST</strong>), <strong>contact oxidation reactor</strong> (<strong>COR</strong>) and <strong>final sedimentation tank</strong> (<strong>FST</strong>). The <strong>AT</strong> and <strong>SST</strong> phases comprise the activated sludge module, while the <strong>COR</strong> and <strong>FST</strong> phase comprise the contact oxidation module. The examined wastewater samples have two characteristics of interest: (1) The samples contain various chlorinated organic substances, such as dichloropropane, dichloroisopropyl ether and chloroacetone; (2) The water samples have a chloride ion concentration of 23,000-26,000 mg/L that is maintained at this level throughout the wastewater treatment process. More detailed physical and chemical information for each of the different treatment phases can be found in <strong>Table S1</strong> in the paper associated with this study.</p><p><br></p><p>A total of 20 wastewater samples were taken from 5 different stages of saponification wastewater treatment. The wastewater samples were filtered with 5 \u03bcm filter membrane, and the filtrate was filtered with 0.2 \u03bcm filter membrane and then taken for following assay.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>After grinding the sample with liquid nitrogen, add 400 \u03bcL of pre-cooled methanol:acetonitrile:water solution (4:4:2, v/v) and vortex to mix, let samples stand at -20 \u00b0C for 60 min, centrifuge at 14,000 x g at 4 \u00b0C for 20 min, and take it vacuum dry. For mass spectrometry analysis, add 100 \u03bcL of acetonitrile aqueous solution (acetonitrile:water, 1:1, v/v) to re-dissolve and vortex, centrifuge at 14,000 x g at 4 \u00b0C for 15 min, and take 2 \u03bcL of supernatant for analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>An Ultimate 3000 Ultra High Performance Liquid Chromatography System (Dionex) and ACQUITY UPLC BEH C18 column (100 mm x 2.1 mm, 1.7 \u03bcm, Waters, USA) was used for chromatographic separation. The column temperature was 40 \u00b0C and the flow rate was 0.3 mL/min. The mobile phase A was water and 0.1% formic acid and B mobile phase was acetonitrile. The metabolites were eluted with the following gradient: 0.0-0.5 min, 5% B; 0.5-1.0 min, 5% B; 1.0-9.0 min, 5-100% B; 9.0-12.0 min, 100% B; 12.0-15.0 min, 5% B.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>An Q-Exactive Quadrupole-Electrostatic Field Orbitrap High Resolution Mass Spectrometer (Thermo Fisher Scientific) was used for mass detection. ESI conditions were: Ion Source Gas1 (Gas1), 60; Ion Source Gas2 (Gas2), 60; Curtain gas (CUR), 30; source temperature, 320 \u00b0C; IonSapary Voltage Floating (ISVF), \u00b13500 V (pos and neg); MS scan m/z range, 80-1200 Da; product ion scan resolution, 17500; MS scan accumulation time, 0.20 s/spectra; product ion scan accumulation time, 0.05 s/spectra.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The raw data is processed by <strong>Compound Discoverer</strong> 3.0 (Thermo Fisher Scientific) software for peak extraction, peak alignment, peak correction and standardization.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite structure identification uses accurate mass matching (&lt;25 ppm) and secondary spectrum matching methods to search databases such as <strong>Bio cyc</strong>, <strong>HMDB</strong>, <strong>metlin</strong>, <strong>HFMDB</strong>, <strong>Lipidmaps</strong>, etc.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - reverse phase",
+                        "filename": "a_MTBLS3916_LC-MS_alternating_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,735 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-01-20T00:00:00",
+        "statusUpdateTime": "2022-01-20T11:33:35.057063",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "/home/sapista/MetabolightsDATA/ISAcreatorMetaboLights/Configurations/MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS587",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-12-15",
+        "publicReleaseDate": "2022-01-20",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS587",
+                "filename": "s_MTBLS587.txt",
+                "title": "Novel automated workflow for spectral alignment and mass calibration in MS imaging using a sputtered Ag nanolayer",
+                "description": "Mass spectrometry imaging (MSI) is a technique that can map analyte spatial distribution directly onto a tissue section. This enables the spatial correlation of molecular entities with a tissue morphology to be investigated. Analyte annotation in MSI is intrinsically linked to the mass accuracy of the data. Mass accuracy and analyte identification are determined by such factors as the experimental set up and the data processing workflow. We present an MSI data processing workflow that uses a label-free approach to compensate for mass shifts. The algorithms developed were designed to perform efficiently even for datasets much larger than computer's memory. Herein, we present the application of the developed processing workflow to a dataset with more than 13.000 pixels and \u223c50.000 mass channels. We assessed the overall mass accuracy in the range m/z 400 to 1200 using silver and gold sputtered nanolayers. With our novel processing workflow we were able to obtain mass errors as low as 5\u202fppm using a TOF instrument.",
+                "submissionDate": "2017-12-15",
+                "publicReleaseDate": "2022-01-20",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Pere",
+                        "lastName": "R\u00e0fols",
+                        "email": "pere.rafols@urv.cat",
+                        "affiliation": "Department of Electronic Engineering, Rovira i Virgili University, IISPV, Tarragona, 43007, Spain",
+                        "address": "Avinguda Pa\u00efsos Catalans 26, 43007 Tarragona, Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Esteban Del",
+                        "lastName": "Castillo",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Oscar",
+                        "lastName": "Yanes",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jes\u00fas",
+                        "lastName": "Brezmes",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Xavier",
+                        "lastName": "Correig",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "matrix-assisted laser desorption-ionisation imaging mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000054"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Proof of Concept Study",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "method development and validation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BAO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.bioassayontology.org/bao#BAO_0010225"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Novel automated workflow for spectral alignment and mass calibration in MS imaging using a sputtered Ag nanolayer",
+                        "authorList": "R\u00e0fols P, Castillo ED, Yanes O, Brezmes J, Correig X",
+                        "pubMedID": "29729739",
+                        "doi": "10.1016/j.aca.2018.03.031",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Indium tin oxide (ITO)-coated glass slides were obtained from Bruker Daltonics (Bremen, Germany). The gold and silver targets used for sputtering coating were obtained from Kurt J. Lesker Company (Hastings, England) with a purity grade higher than 99.995%.</p><p><br></p><p>Liver tissue was obtained from C57BL/6 mice, snap frozen at -80 \u00b0C after collection and stored and shipped at this temperature until analysis. Dr M. Teresa Colomina, Professor of Psychobiology at the Research Center for Behavioral Assessment (CRAMC) of the Universitat Rovira i Virgili provided the animal tissues. The tissues were sectioned at -20 \u00b0C in slices 10 \u00b5m thick using a Leica CM-1950 cryostat (Leica Biosystems Nussloch GmbH) located at the Centre for Omic Sciences (COS) of the Universitat Rovira i Virgili and mounted on ITO coated slides by directly placing the glass slide at ambient temperature onto the section. To remove residual humidity, samples were dried in a desiccator under vacuum for 15 min after tissue mounting.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>MS tissues images were acquired using a MALDI TOF/TOF UltrafleXtreme instrument with SmartBeam II Nd:YAG/355 nm laser from Bruker Daltonics. Acquisitions were carried out using a large laser spot, operated at 2 kHz at an attenuated power of 50%, collecting a total of 500 shots/pixel with a raster size of 100 \u00b5m for the MMA assessment and 40 mm for the liver with a high-pixel count acquisition. MS spectra were acquired in positive reflection mode, at 2.5 GHz in a mass range between m/z 400 to 1200, with a manually optimized extraction delay. The spectrometer was calibrated prior to tissue image acquisitions using Ag+ peaks as reference masses.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>MS images were acquired using <strong>FlexImaging 3.0</strong> software from Bruker. Each image was exported to <strong>XMASS</strong> data format using instrument manufacturer software packages (<strong>FlexImaging</strong> and <strong>Compass export</strong>). The raw data was loaded using the rMSI package written in-house<strong>[1]</strong>. This package provides a data storage format based on segmented matrices and optimized for processing large MSI datasets in R language. Then a pre-processing workflow consisting of smoothing, alignment, recalibration and peak detection was applied. The pre-processing was carried out using the in-house developed <strong>rMSIproc</strong> R package (<a href='https://github.com/prafols/rMSI' rel='noopener noreferrer' target='_blank'>https://github.com/prafols/rMSI</a>).</p><p><br></p><p><strong>Smoothing:</strong></p><p>The first step in the processing chain is a smoothing stage using the well-known <strong>Savitzky-Golay algorithm[2]</strong> which has the important property of retaining the exact position of mass peaks. The smoothing stage improves the performance of the following processing methods because it reduces noise. Therefore, the alignment routine becomes more robust since the random noise reduction provides a better correlation between spectra. Peak detection is also improved because it becomes less sensitive to noise peaks.</p><p><br></p><p><strong>Label-free alignment:</strong></p><p>The spectra of an MS image present some degree of mass miss- alignment between pixels for several experimental reasons. The goal of a label-free alignment algorithm is to project all the spectra onto the same mass axis without using any reference peaks based on spectral correlations that can compensate for the experimental mass drifts.</p><p><br></p><p><strong>Mass recalibration:</strong></p><p>After the label-free alignment stage, all the spectra share a common m/z axis. Thus, the whole dataset can be recalibrated using the same reference. Here, the average spectrum is recalculated using the aligned spectra to avoid double peaks and wider peak issues. Then, the average spectrum is used to calculate the mass calibration function using reference masses. Each reference peak position is located in the average spectrum and recorded together with its theoretical mass. A <strong>Loess smoother</strong> is used to predict the calibrated m/z axis. In this study, we used the Ag peaks from the AgAu layer as internal reference <strong>[3]-[5]</strong>. However, standard compound or matrix peaks can be used for this purpose as well. Refer to <strong>Table S</strong>1 in the paper associated with this study for the complete list of peaks used for calibration.</p><p><br></p><p><strong>Peak detection:</strong></p><p>After the alignment and recalibration stage, peaks can be detected with reduced mass error. However, the number of data points used to represent a peak is not accurate enough if the peak is represented directly by a data point. When all spectra have been converted to a list of peaks everything is merged into a single matrix to represent the whole dataset.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> R\u00e0fols P, Torres S, Ram\u00edrez N, Del Castillo E, Yanes O, Brezmes J, Correig X. rMSI: an R package for MS imaging data handling and visualization. Bioinformatics. 2017 Aug 1;33(15):2427-2428. doi:10.1093/bioinformatics/btx182. PMID:28369250.</p><p><strong>[2]</strong> Savitzky A, Golay MJE, Smoothing and differentiation of data by simplified least squares procedures, Anal. Chem. 36 (1964) 1627-1639, doi:10.1021/ac60214a047.</p><p><strong>[3]</strong> Dufresne M, Masson JF, Chaurand P. Sodium-Doped Gold-Assisted Laser Desorption Ionization for Enhanced Imaging Mass Spectrometry of Triacylglycerols from Thin Tissue Sections. Anal Chem. 2016 Jun 7;88(11):6018-25. doi:10.1021/acs.analchem.6b01141. PMID:27145160.</p><p><strong>[4]</strong> Dufresne M, Thomas A, Breault-Turcot J, Masson JF, Chaurand P. Silver-assisted laser desorption ionization for high spatial resolution imaging mass spectrometry of olefins from thin tissue sections. Anal Chem. 2013 Mar 19;85(6):3318-24. doi:10.1021/ac3037415. PMID:23425078.</p><p><strong>[5]</strong> Seku\u0142a J, Nizio\u0142 J, Rode W, Ruman T. Gold nanoparticle-enhanced target (AuNPET) as universal solution for laser desorption/ionization mass spectrometry analysis and imaging of low molecular weight compounds. Anal Chim Acta. 2015 May 22;875:61-72. doi:10.1016/j.aca.2015.01.046. PMID:25937107.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>No metabolites were formally identified as this was a proof-of-concept/method development study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Preparation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Silver and gold nanolayers were deposited over the 10 \u00b5m tissue sections using an ATC Orion 8-HV (AJA International, N. Scituate, MA, USA) sputtering system. An argon atmosphere with a pressure of 30 mTor was used to create the plasma in the gun. The working distance of the plate was set to 35 mm. The silver layer was deposited in DC mode at 100 W for 10 s. The gold layer was deposited in RF mode at 60 W for 35 s. These deposition modes were selected so that the liver tissue could be coated with both metals faster and without pumping the sputter chamber vacuum various times to replace the target. Since the deposition times used in this study were very short, the substrate temperature did not increase during the deposition. The argon ion current was adjusted to 20 ml/min for both DC and RF modes.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample mounting",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample preservation",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Tissue modification",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sectioning instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Section thickness",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Matrix",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Matrix application",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Histology",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Histology",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>No histology information was provided in this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Stain",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "High-res image",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Low-res image",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "MS Imaging -",
+                        "filename": "a_MTBLS587_MSImaging___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

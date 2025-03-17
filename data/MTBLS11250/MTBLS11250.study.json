@@ -1,0 +1,945 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-10-18T11:35:30.415946",
+        "statusUpdateTime": "2024-10-18T11:35:30.415946",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS11250",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2024-09-27",
+        "publicReleaseDate": "2024-10-18",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/ontology",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "SNOMED",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "T4FS",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "LOINC",
+                "file": "http://data.bioontology.org",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "FDC-GDMT",
+                "file": "http://data.bioontology.org",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS11250",
+                "filename": "s_MTBLS11250.txt",
+                "title": "G6PD deficiency triggers dopamine loss and the initiation of Parkinson\u2019s Disease pathogenesis",
+                "description": "Loss of dopaminergic neurons in Parkinson\u2019s disease (PD) is preceded by loss of synaptic dopamine (DA) and accumulation of proteinaceous aggregates. Linking these deficits is critical to restoring DA signaling in PD. Using murine and human pluripotent stem cell (hPSC) models of PD coupled with human postmortem tissue, we show that accumulation of a-syn micro-aggregates impairs metabolic flux through the pentose phosphate pathway (PPP). This leads to decreased NADPH and GSH levels, resulting in DA oxidation and decreased total DA levels. We find that a-syn anchors the PPP enzyme G6PD to synaptic vesicles via the a-syn C-terminus, and that this interaction is lost in PD. We find G6PD clinical mutations are associated with PD diagnosis, and G6PD deletion phenocopies PD pathology. Finally, we find that restoring NADPH or GSH levels through genetic and pharmacological intervention blocks DA-oxidation and rescues steady-state DA levels identifying G6PD as a pharmacological target against PD.",
+                "submissionDate": "2024-09-27",
+                "publicReleaseDate": "2024-10-18",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Morgan",
+                        "lastName": "Stykel",
+                        "email": "",
+                        "affiliation": "Department of Molecular and Cellular Biology, The University of Guelph, Guelph ON, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "G.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Shehani",
+                        "lastName": "Siripala",
+                        "email": "",
+                        "affiliation": "Departments of Clinical Neuroscience, University of Calgary, Calgary, AB, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "V.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Eric",
+                        "lastName": "Soubeyrand",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Carla",
+                        "lastName": "Coackley",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "research manager",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "T4FS",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/T4FS_0000486"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ping",
+                        "lastName": "Lu",
+                        "email": "ping.lu1@ucalgary.ca",
+                        "affiliation": "Departments of Clinical Neuroscience, University of Calgary, Calgary, AB, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "research manager",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "T4FS",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/T4FS_0000486"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Suelen",
+                        "lastName": "Camargo",
+                        "email": "",
+                        "affiliation": "Departments of Clinical Neuroscience,  University of Calgary, Calgary, AB, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Technician",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C63861"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Sharanya",
+                        "lastName": "Thevasenan",
+                        "email": "",
+                        "affiliation": "Departments of Clinical Neuroscience,  University of Calgary, Calgary, AB, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Student",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "LOINC",
+                                    "file": "http://data.bioontology.org",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.bioontology.org/ontology/LNC/LP182271-9"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Gerardo",
+                        "lastName": "Figueroa",
+                        "email": "",
+                        "affiliation": "Departments of Clinical Neuroscience,  University of Calgary, Calgary, AB, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "Balderas",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Student",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75561"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Raphaella",
+                        "lastName": "So",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "W.L.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Erica",
+                        "lastName": "Stuart",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Rachi",
+                        "lastName": "Panchal",
+                        "email": "",
+                        "affiliation": "Department of Biochemistry, University of Toronto, Toronto, ON, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Elissavet-Kalliopi",
+                        "lastName": "Akrioti",
+                        "email": "",
+                        "affiliation": "Laboratory of Cellular and Molecular Neurobiology-Stem Cells, Hellenic Pasteur Institute, Athens, Greece",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jeffery",
+                        "lastName": "Joseph",
+                        "email": "",
+                        "affiliation": "Pathology and Laboratory Medicine, University of Calgary, Calgary, AB, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Omid",
+                        "lastName": "Haji-Ghassemi",
+                        "email": "",
+                        "affiliation": "Biological Sciences, University of Calgary, Calgary, AB, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Era",
+                        "lastName": "Taoufik",
+                        "email": "",
+                        "affiliation": "Laboratory of Cellular and Molecular Neurobiology-Stem Cells, Hellenic Pasteur Institute, Athens, Greece",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Tariq",
+                        "lastName": "Akhtar",
+                        "email": "",
+                        "affiliation": "Department of Molecular and Cellular Biology, The University of Guelph, Guelph ON, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "A.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Joel",
+                        "lastName": "Watts",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "C.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/769038007"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Scott",
+                        "lastName": "Ryan",
+                        "email": "",
+                        "affiliation": "Departments of Clinical Neuroscience, University of Calgary, Calgary, AB, Canada",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "D.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "hiPSC cell",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BTO",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/BTO_0006081"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Parkinson Disease",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C26845"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Alpha-Synuclein",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C90119"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/ontology",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "G6PD deficiency triggers dopamine loss and the initiation of Parkinson\u2019s Disease pathogenesis",
+                        "authorList": "Morgan G. Stykel, Shehani V. Siripala, Eric Soubeyrand, Carla L. Coackley, Ping Lu, Suelen Camargo, Sharanya Thevasenan, Gerardo Balderas Figueroa, Raphaella W.L. So, Erica Stuart, Rachi Panchal, Elissavet-Kalliopi Akrioti, Jeffery Joseph, Omid Haji-Ghassemi, Era Taoufik, Tariq A. Akhtar, Joel C. Watts, Scott D. Ryan",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "FDC-GDMT",
+                                "file": "http://data.bioontology.org",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://vocab.fairdatacollective.org/gdmt/Submitted"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "https://www.ebi.ac.uk/ols4/api",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16631"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "timepoint",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Humanisogenic induced pluripotent stem cell were labeled with either 5 mM U-C13-Glucose or [1,2]-C13-Glucose for 24 or 3 h.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were extracted with a cold solvent of 80:20 methanol:H2O.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chromatographical separation of metabolites is performed on Zorbax SB-C18 UHPLC column (2.1 mm x 50 mm x 1.8 um, Agilent, Part number 822700-902) at the flow rate of 600 uL/min using a binary solvent system: solvent A, 10 mM tributylamine, 10 mM acetate pH 7.5 in 97/3% (v/v) mass spectrometry grade water/methanol and solvent B, mass spectrometry grade acetonitrile. The gradient is 0 min, 0% B; 1 min, 0% B; 2 min, 25% B; 3.5 min, 25% B; 5 min, 55% B; 6.5 min, 55% B; 8.5 min, 100% B; 10 min, 100% B; 11 min, 0% B. Sample injection volume is 2 uL.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolic analysis is performed on a Q Exactive Hybrid Quadrupole-Orbitrap Mass Spectrometer (Thermo-Fisher). The mass spectrometer was run in negative full scan mode at a resolution of 140,000 scanning from 50-750 m/z.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite data is analyzed by El-MAVEN software package. </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites is identified by matching observed m/z signals (+/-10ppm) and chromatographic retention times to those observed from commercial metabolite standards (LMSLSTM Sigma-Aldrich). </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS11250_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

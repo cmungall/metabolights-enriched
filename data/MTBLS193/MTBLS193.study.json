@@ -1,0 +1,525 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-01-17T10:56:32.036000",
+        "statusUpdateTime": "2017-01-17T10:56:32.036000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS193",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-04-21",
+        "publicReleaseDate": "2016-10-03",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS193",
+                "filename": "s_MTBLS193.txt",
+                "title": "Metabolomics approach to understand the resource partitioning in Chlorella during growth",
+                "description": "We use untargeted high-resolution mass spectrometry to understand the metabolic differences at exponential and stationary growth stages using 22 Chlorella strains collected from South East Asia. Using this data, we demonstrate the use of a filtering procedure based on the SVD on the untargeted metabolite profile data, compared over two growth stages and run in four batches, and to remove structure in data related to day of sample assay. This approach preserves signal of demonstrable biological origin (strain-related variation in mass feature intensity) after minimizing the influence of batch effects. Our approach will be broadly applicable in metabolomics analysis to identify and remove batch effects. See MTBLS129 for associated study.",
+                "submissionDate": "2015-04-21",
+                "publicReleaseDate": "2016-10-03",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Sanjay",
+                        "lastName": "Swarup",
+                        "email": "sanjay@nus.edu.sg",
+                        "affiliation": "Singapore Centre for Environmental Life Sciences Engineering (SCELSE), National University of Singapore",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "(+65)65167933",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Shivshankar ",
+                        "lastName": "Umashankar",
+                        "email": "shivshankar@nus.edu.sg",
+                        "affiliation": "Singapore Centre for Environmental Life Sciences Engineering (SCELSE), National University of Singapore",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Rohan ",
+                        "lastName": "Williams",
+                        "email": "lsirbhw@nus.edu.sg",
+                        "affiliation": "Singapore Centre for Environmental Life Sciences Engineering (SCELSE), National University of Singapore",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Siew-Moi",
+                        "lastName": "Phang",
+                        "email": "phang@um.edu.my",
+                        "affiliation": "Institute of Ocean and Earth Sciences (IOES), University of Malaya",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Batch effects",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Coordinate Regulation of Metabolite Glycosylation and Stress Hormone Biosynthesis by TT8 in Arabidopsis.",
+                        "authorList": "Rai A, Umashankar S, Rai M, Kiat LB, Bing JA, Swarup S.",
+                        "pubMedID": "27432888",
+                        "doi": "10.1104/pp.16.00421",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Time",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Phase",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25257"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Origin",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Location",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25341"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Batch",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "block",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005067"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "A total of 22 Malaysian microalgal strains were obtained from University of Malaya Algae Culture Collection. For detailed sample collection methods please refer to Vello et al., 2014 [1].\n</p>\nRef:</br>\n[1] Vello V, Phang SM, Chu WL, Majid NA, Lim PE, Loh SK. Lipid productivity and fatty acid composition-guided selection of Chlorella strains isolated from Malaysia for biodiesel production. J Appl Phycol. 2014;26(3)1399-1413. doi: 10.1007/s10811-013-0160-y.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Cell disruption was achieved using bead beating of the cell pellets, specifically a Tomy micro smash MS 100 bead beater (Tomy Seiko Co., Tokyo, Japan) along with lysing matrix Y from MP Biomedical lysing kit (MP Biomedicals, Solon, OH). The screw-top micro centrifuge tubes containing Lysing matrix constituted 0.5 mm diameter Yttria-Stabilized Zirconium oxide beads. Lyophilized algae cells weighing 50 mg were added to lysing matrix along with 1 ml pre cooled 80% methanol. The sample was subjected to bead beating at 4,000 rpm for 20 s and then thawed in ice for a minute. This procedure was repeated five times, the extract was then centrifuged twice at 11,000 x g for 10 min at 4 \u00b0C. The supernatant was pipetted out and filtered through 0.2 \u00b5m syringe filters (Sartorius Stedim Biotech). The final extract was kept in -80 \u00b0C refrigerator till the analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Chromatography separations were carried out using a Zorbax Eclipse Plus C18 (2.1 x 50 mm, 1.8 \u00b5m) reverse phase column on an Agilent Infinity 1290 UPLC system. The temperatures for column and auto sampler were 50 \u00b0C and 7 \u00b0C, respectively. The mobile phase consisted of de-ionized water with 0.1% formic acid (solvent A) and LC-MS grade acetonitrile (ACN) with 0.1% formic acid (solvent B). A gradient elution was conducted for separations using the following method: isocratic elution with 5% B for 0.5 min, followed by a 10 min gradient to 98% B, which was kept for 2 min, then re-equilibrated at 5% B for 2.5 min. The flow rate was 0.3 ml/min and injection volume was 3 \u00b5l.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The samples were subjected to an Agilent Q-TOF 6540 mass spectrometer after separation through liquid chromatography. The analysis was carried out in positive mode with ESI as source for ions with a mass range between 50 to 1200 m/z. The nebulizer pressure (psi), source gas temperature (\u00b0C), dry and sheet gas flow (l/hour), capillary voltage (V) and sheet gas temperatures (\u00b0C) were 40, 250, 12, 12, 4000 and 350, respectively.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw data files from Q-TOF (.d files) were converted into mzXML format using msconvert of the ProteoWizard suite [1][2]. The parameters defined in XCMS for data generated using Q-TOF were used (method = \u2018centWave\u2019, ppm = 30, peakwidth = c(5,60), prefilter = c(0,0), snthresh=6, peak grouping: bw = 5, minsamp = 1, mzwid = 0.015; retention time correction algorithm: \u2018obiwarp\u2019) (Patti et al., 2012), and a total of 67,467 features were extracted using the XCMS package (version 1.38) [3] in R statistical computing environment (version 3.1) (R Core Team, 2014). Log transformation followed by centering and scaling was performed on the dataset during the data preprocessing stages, to remove any primary inter-sample variation. SVD-based batch effect removal procedure was used to correct for assay-related (batch) effects.\n</p>\nRef:</br>\n[1] Kessner D, Chambers M, Burke R, Agus D, Mallick P. ProteoWizard: open source software for rapid proteomics tools development. Bioinformatics. 2008 Nov 1;24(21):2534-6. doi: 10.1093/bioinformatics/btn323.</br>\n[2] Chambers MC, Maclean B, Burke R, Amodei D, Ruderman DL, Neumann S, Gatto L, Fischer B, Pratt B, Egertson J, Hoff K, Kessner D, Tasman N, Shulman N, Frewen B, Baker TA, Brusniak MY, Paulse C, Creasy D, Flashner L, Kani K, Moulding C, Seymour SL, Nuwaysir LM, Lefebvre B, Kuhlmann F, Roark J, Rainer P, Detlev S, Hemenway T, Huhmer A, Langridge J, Connolly B, Chadick T, Holly K, Eckels J, Deutsch EW, Moritz RL, Katz JE, Agus DB, MacCoss M, Tabb DL, Mallick P. A cross-platform toolkit for mass spectrometry and proteomics. Nat Biotechnol. 2012 Oct;30(10):918-20. doi: 10.1038/nbt.2377.</br>\n[3] Smith CA, Want EJ, O'Maille G, Abagyan R, Siuzdak G. XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification. Anal Chem. 2006 Feb 1;78(3):779-87.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "6540 Q-TOF LC/MS (Agilent)",
+                        "filename": "a_MTBLS193_algal_metabolomics_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

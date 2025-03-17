@@ -1,0 +1,765 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-04-17T08:50:44.837000",
+        "statusUpdateTime": "2019-04-17T08:50:44.837000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\Users\\Thermo\\Documents\\MetaboLights\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS774",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-10-28",
+        "publicReleaseDate": "2019-04-17",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "GO",
+                "file": "http://data.bioontology.org/ontologies/GO",
+                "version": "1358",
+                "description": "Gene Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CL",
+                "file": "http://purl.obolibrary.org/obo/cl.owl",
+                "version": "2018-07-07",
+                "description": "Cell Ontology"
+            },
+            {
+                "comments": [],
+                "name": "PORO",
+                "file": "http://purl.obolibrary.org/obo/poro",
+                "version": "2016-09-13",
+                "description": "Porifera (sponge) ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                "version": "2014-11-20",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS774",
+                "filename": "s_MTBLS774.txt",
+                "title": "Imidazole ketone erastin induces ferroptosis and slows tumor growth in a mouse lymphoma model",
+                "description": "Ferroptosis is a form of regulated cell death that can be induced by inhibition of the cystine-glutamate antiporter, system xc-. Among the existing system xc- inhibitors, imidazole ketone erastin (IKE) is a potent, metabolically stable inhibitor of system xc- and inducer of ferroptosis potentially suitable for in\u00a0vivo applications. We investigated the pharmacokinetic and pharmacodynamic features of IKE in a diffuse large B cell lymphoma (DLBCL) xenograft model and demonstrated that IKE exerted an antitumor effect by inhibiting system xc-, leading to glutathione depletion, lipid peroxidation, and the induction of ferroptosis biomarkers both in\u00a0vitro and in\u00a0vivo. Using\u00a0untargeted lipidomics and qPCR, we identified distinct features of lipid metabolism in IKE-induced ferroptosis. In addition, biodegradable\u00a0polyethylene glycol-poly(lactic-co-glycolic acid) nanoparticles were employed to aid in IKE delivery and exhibited reduced toxicity compared with free IKE in a DLBCL xenograft model.",
+                "submissionDate": "2018-10-28",
+                "publicReleaseDate": "2019-04-17",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Brent",
+                        "lastName": "Stockwell",
+                        "email": "bstockwell@columbia.edu",
+                        "affiliation": "Columbia University",
+                        "address": "1208 NWC Building, 550 West 120th Street, M.C. 4846 New York,NY,10027",
+                        "fax": "(212) 854-3293",
+                        "midInitials": "R",
+                        "phone": "(212) 854-2948",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ferroptosis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "GO",
+                            "file": "http://data.bioontology.org/ontologies/GO",
+                            "version": "1358",
+                            "description": "Gene Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/GO_0097707"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lymphoma",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BAO",
+                            "file": "http://data.bioontology.org/ontologies/BAO",
+                            "version": "19",
+                            "description": "BioAssay Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/DOID_0060058"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "28",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Imidazole Ketone Erastin Induces Ferroptosis and Slows Tumor Growth in a Mouse Lymphoma Model",
+                        "authorList": "Zhang Yan, Tan Hui, Daniels Jacob D., Zandkarimi Fereshteh, Liu Hengrui, Brown Lewis M., Uchida Koji, O'Connor Owen A., Stockwell Brent R.",
+                        "pubMedID": "30799221",
+                        "doi": "10.1016/j.chembiol.2019.01.008",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C28038"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Cell line",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Cell Line",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CL",
+                                "file": "http://purl.obolibrary.org/obo/cl.owl",
+                                "version": "2018-07-07",
+                                "description": "Cell Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CL_0000010"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Animal model",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Animal Model",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C71164"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C28038"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Drug 1",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Drug",
+                            "termSource": {
+                                "comments": [],
+                                "name": "PORO",
+                                "file": "http://purl.obolibrary.org/obo/poro",
+                                "version": "2016-09-13",
+                                "description": "Porifera (sponge) ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHEBI_23888"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Concentration Drug 1",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Concentration",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                                "version": "2014-11-20",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002820"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Drug 2",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Drug",
+                            "termSource": {
+                                "comments": [],
+                                "name": "PORO",
+                                "file": "http://purl.obolibrary.org/obo/poro",
+                                "version": "2016-09-13",
+                                "description": "Porifera (sponge) ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHEBI_23888"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Concentration Drug 2",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Concentration",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                                "version": "2014-11-20",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002820"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Timepoint",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C68568"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "SCID model",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "NOD.CB17-Prkdc-scid/J Mouse",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C15167"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Category",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Category",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25372"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<div><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c36=\"\" class=\"fadeIn animated ng-star-inserted\">In vitro study </span></span> </div><div>SUDHL-6 cell line was obtained from ATCC and cultured in RPMI-1640 (ATCC 30-2001) with 10% FBS and 1% pen-strep, maintained in a humidified environment at 37 \u00b0C and 5% CO2 in an incubator. <span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\">Cells were treated with DMSO, 1 \u03bcM IKE, or 500 nM IKE, with or without </span></span><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span><span><span><span><span><span>ferroptosis inhibitors </span></span></span></span></span></span></span></span></span></span><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span><span><span><span><span><span><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\">10 \u03bcM </span></span></span></span>ferrostatin-1 </span></span></span></span></span></span></span></span>(fer-1) and 10 \u03bcM </span></span><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span><span><span><span><span><span>\u03b2-mercaptoethanol (</span></span></span></span></span></span></span></span>\u03b2-Me) </span></span><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span><span><span><span><span><span><span><span>or 10&nbsp;\u03bcM deferoxamine (DFO) </span></span></span></span></span></span></span></span></span></span>for 24 hrs.</span></span></div><div><span><span><span><span><span><span><span><span><br></span></span></span></span></span></span></span></span></div><div><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c36=\"\" class=\"fadeIn animated ng-star-inserted\">In vivo study </span></span></div><div><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\">The\n animal studies reported in this study adhered to the ARRIVE\nguidelines. All animal study protocols were approved by the Columbia\nUniversity Institutional Animal Care and Use Committee (IACUC).</span></span></div><div><span>Male </span><span>NOD-<em>Prkdc</em><sup><em>em26Cd52</em></sup><em>Il2rg</em><sup><em>em26Cd22</em></sup>/NjuCrl (NCG) (Charles River, strain code 572) mice 6&nbsp;weeks of age were injected with 10 million SUDHL-6 cells subcutaneously. Visible tumors appeared after 2&nbsp;weeks. Tumour size was measured by electronic caliper every 2&nbsp;days and calculated using the formula: 0.5 x length x width</span><sup>2</sup>. After another 2&nbsp;weeks, mice were randomly separated into group of 3 mice per cage with roughly tumor size (1,200&nbsp;mm<sup>3</sup>).\n Mice were dosed at 50&nbsp;mg/kg IKE by IP <span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\">and samples were\ncollected at 0, 1, 2, 3, 4, 6, and 24&nbsp;h with three mice per time point. Control mice were dosed with DMSO vehicle by IP and samples were collected at 24\n h.</span></span> Mice were euthanized using a CO<sub>2</sub><span><span> gas chamber\nbefore xenograft dissection. Tumors were dissected and\ndivided into 6 segments, frozen on dry ice, and stored at -80 \u00b0C.</span></span><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"></span></span></div>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<div>In vitro study <br></div><div>The lipids were extracted from each cell sample using a modified Matyash method. Five million cells for each sample type were homogenized in 250 \u03bcl cold methanol containing 0.1% butylated hydroxyl toluene (BHT) with a micro tip sonicator. Homogenized samples were transferred to fresh glass tubes containing 850 \u03bcl of cold methyl-tert-butyl ether (MTBE) and vortex-mixed for 30 sec. To enhance extraction efficiency of lipids, the samples were incubated overnight at 4 \u00b0C on the shaker. On the next day, 200 \u03bcl of cold water was added to each sample, and incubated for 20 min on ice before centrifugation at 3,000 rpm for 20 min at 4 \u00b0C. The organic layer was collected followed by drying under a gentle stream of nitrogen gas on ice and stored at -80 \u00b0C until LC-MS analysis. The protein pellet was used to measure protein concentration using Bio-Rad protein assay.  The samples were re-constituted in a solution containing IPA/ ACN /water (4:3:1, v/v/v) containing mixture of internal standard for further MS analysis. <br></div><div><br></div><div>In vivo study&nbsp; <br></div><div>Frozen tissue (25 mg) was homogenized in 15 \u03bcl/mg pre-chilled methanol containing 0.1% butylated hydroxyl-toluene (BHT) at speed 5 for 30 secs using a Bead Ruptor 4 (OMNI International). Then, 300 \u03bcl of tissue lysate were transferred to a glass vials containing 1000 \u03bcl ice-cold methyl-tert-butyl ether (MTBE) and vortex-mixed for 30 sec. The sample are stored in the -20 \u00b0C freezer overnight to enhance lipids extraction. The following day, 250 \u03bcl of ice-cold methanol was added to each sample and vortex-mixed for 30 sec vigorously. Samples were incubated on dry ice for 20 min on the shaker followed by centrifugation at 3,000 rpm for 20 min at 4\u00b0C. Finally, 1000 \u03bcl of upper phase containing lipids were transferred to fresh glass vials, and evaporated to dryness under the stream of N2 gas. The samples were re-constituted in a solution containing IPA/ ACN /water (4:3:1, v/v/v) containing mixture of internal standard for further MS analysis.<br></div><div><br></div><div>Experimental controls</div><div><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\">Blank; acetonitrile:water (50:50 v/v) <br></span></span></div><div><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\">Matrix; 2-propanol:acetonitrile:water (4:3:1, v/v/v)</span></span><br><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\">Internal standard; PLASH\u00ae LIPIDOMIX\u00ae Mass Spec Standard ((Avanti Polar Lipids, INC., Alabaster, AL, USA)</span></span></span></span></div><div><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\">Quality control; </span></span></span></span><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span _ngcontent-c17=\"\" class=\"ng-star-inserted\"><span _ngcontent-c35=\"\" class=\"ng-star-inserted\"><span>a quality control (QC) sample was prepared by combining 40&nbsp;\u03bcl of\neach sample to assess the reproducibility of the features through the\nruns.</span></span></span></span></span></div>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Chromatographic separation of extracted lipids was carried out at 55 \u00b0C on Acquity UPLC HSS T3 column (2.1\u00d7 100 mm, 1.8 \u03bcm) over a 17 min gradient elution. Mobile phase A consisted of ACN/water (60:40, v/v) and mobile phase B was IPA/ACN/water (85:10:5, v/v/v) both containing 10 mM ammonium acetate and 0.1% acetic acid. After injection, the gradient was held at 60% mobile phase A for 1.5 min. For the next 12 min, the gradient was ramped in a linear fashion to 100% B and held at this composition for 3 min. The eluent composition returned to the initial condition in 1 min, and the column was re-equilibrated for an additional 1 min before the next injection was conducted. The flow rate was set to 400 \u00b5l/min and injection volumes were 5 \u00b5l using the flow-through needle mode in both positive and negative ionization modes. The QC sample was injected between the samples and at the end of the run to monitor the performance and the stability of the MS platform. This QC sample was also injected at least 5 times at the beginning of the UPLC/MS run, in order to condition the column. ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The Synapt G2 mass spectrometer (Waters, Manchester, U.K.) was operated in both positive and negative electrospray ionization (ESI) modes. For positive mode, a capillary voltage and sampling cone voltage of 3 kV and 32 V were used. The source and desolvation temperature were kept at 120 \u00b0C and 500 \u00b0C, respectively. Nitrogen was used as desolvation gas with a flow rate of 900 L/hr. For negative mode, a capillary voltage of -2 kV and a cone voltage of 30 V were used. The source temperature was 120 \u00b0C, and desolvation gas flow was set to 900 L/hr. Dependent on the ionization mode the protonated molecular ion of leucine encephalin ([M+H]+, m/z 556.2771) or the deprotonated molecular ion ( [M-H]-, m/z 554.2615) was used as a lock mass for mass accuracy and reproducibility. Leucine enkephalin was introduced to the lock mass at a concentration of 2 ng/\u00b5l (50% ACN containing 0.1% formic acid), and a flow rate of 10 \u00b5l/min. The data was collected in duplicates in the centroid data independent (MSE) mode over the mass range m/z 50 to 1600 Da with an acquisition time of 0.1 secs per scan. The QC samples were also acquired in enhanced data independent ion mobility (IMS-MSE) in both positive and negative modes for enhancing the structural assignment of lipid species. The ESI source settings were the same as described above. The traveling wave velocity was set to 650 m/s and wave height was 40 V. The helium gas flow in the helium cell region of the ion-mobility spectrometry (IMS) cell was set to 180 ml/min to reduce the internal energy of the ions and minimize fragmentation. Nitrogen as the drift gas was held at a flow rate of 90 ml/min in the IMS cell. The low collision energy was set to 4 eV, and high collision energy was ramping from 25 to 65 eV in the transfer region of the T-Wave device to induce fragmentation of mobility-separated precursor ions. ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<div>All raw data files were converted to netCDF format using DataBridge tool implemented in MassLynx software (Waters, version 4.1). Then, they were subjected to peak-picking, retention time alignment, and grouping using XCMS package6 (version 3.2.0) in R (version 3.5.1) environment.  For the peak picking, the CentWave algorithm7 was used with the peak width window of 2-25 s. For peak grouping, bandwidth and m/z-width of 2 s and 0.01 Da were used, respectively. After retention time alignment and filling missing peaks, an output data frame was generated containing the list of time-aligned detected features (m/z and retention time) and the relative signal intensity (area of the chromatographic peak) in each sample. Technical variations such as noise were assessed and removed from extracted features' list based on the ratios of average relative signal intensities of the blanks to QC samples (blank/QC &gt;1.5). Also, peaks with variations larger than 30% in QCs were eliminated. Multivariate and univariate analyses were performed using MetaboAnalyst 8(version 4.0) and in R (version 3.5.1) environment. Group differences were calculated using VIP scores of PLS-DA model and one-way ANOVA (p &lt; 0.05) and false discovery rate of 5% to control for multiple comparisons. </div>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Structural elucidation and validation of significant features were initially obtained by searching monoisotopic masses against the available online databases such as METLIN, HMDB, LipidMAPS, with a mass tolerance of 5 ppm. Fragment ion information obtained by tandem MS (UPLC-IMS-MSE) analysis for further structural elucidation. IMS-MSE data were processed using MSE viewer (Version 1.3, Waters Corp., MA, USA).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS774_cell_pos_ike-ferroptosis_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Negative (LC-MS (Negative))",
+                        "filename": "a_MTBLS774_cell_neg_ike-ferroptosis_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS774_xeno_pos_ike-ferroptosis_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Negative (LC-MS (Negative))",
+                        "filename": "a_MTBLS774_xeno_neg_ike-ferroptosis_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

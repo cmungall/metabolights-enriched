@@ -1,0 +1,596 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-08-16T16:52:15.317000",
+        "statusUpdateTime": "2017-08-16T16:52:15.317000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS345",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2016-05-06",
+        "publicReleaseDate": "2016-10-05",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MESH",
+                "file": "http://data.bioontology.org/ontologies/MESH",
+                "version": "10",
+                "description": "Medical Subject Headings"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS345",
+                "filename": "s_MTBLS345.txt",
+                "title": "Influence of early life exposure, host genetics and diet on the mouse gut microbiome and metabolome",
+                "description": "Although the gut microbiome plays important roles in host physiology, health and disease, we lack understanding of the complex interplay between host genetics and early life environment on the microbial and metabolic composition of the gut. We used the genetically diverse Collaborative Cross mouse system to discover that early life history impacts the microbiome composition, whereas dietary changes have only a moderate effect. By contrast, the gut metabolome was shaped mostly by diet, with specific non-dietary metabolites explained by microbial metabolism. Quantitative trait analysis identified mouse genetic trait loci (QTL) that impact the abundances of specific microbes. Human orthologues of genes in the mouse QTL are implicated in gastrointestinal cancer. Additionally, genes located in mouse QTL for Lactobacillales abundance are implicated in arthritis, rheumatic disease and diabetes. Furthermore, Lactobacillales abundance was predictive of higher host T-helper cell counts, suggesting an important link between Lactobacillales and host adaptive immunity. Correlations between specific operational taxonomic units (OTUs) and B-cell counts, body weight and neuromuscular function (rotarod performance) were also observed. This study is the first to determine and rank the complex contributions of built environment, host genetics and diet in shaping gut microbial and metabolite composition, host fitness and behavior.",
+                "submissionDate": "2016-05-06",
+                "publicReleaseDate": "2016-10-05",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Tom",
+                        "lastName": "Metz",
+                        "email": "thomas.metz@pnnl.gov",
+                        "affiliation": "PNNL",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "O.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Systems Biology",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MESH",
+                            "file": "http://data.bioontology.org/ontologies/MESH",
+                            "version": "10",
+                            "description": "Medical Subject Headings"
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/MESH/D049490"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "microbiome",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004982"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Collaborative Cross",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Influence of early life exposure, host genetics and diet on the mouse gut microbiome and metabolome.",
+                        "authorList": "Snijders AM, Langley SA, Kim YM, Brislawn CJ, Noecker C, Zink EM, Fansler SJ, Casey CP, Miller DR, Huang Y, Karpen GH, Celniker SE, Brown JB, Borenstein E, Jansson JK, Metz TO, Mao JH.",
+                        "pubMedID": "27892936",
+                        "doi": "10.1038/nmicrobiol.2016.221",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Strain",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "strain",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005135"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sex",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Gender",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17357"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Facility",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Place",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25319"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Food",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Food",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C62695"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Collaborative Cross (CC) mouse strains were obtained from UNC Chapel Hill and handled under an approved IACUC protocol.  For each of 30 strains, two males and two females were housed separately and maintained on PicoLab Rodent Diet 20 (5053). All mice were maintained on the same water and food sources. Fecal samples were collected from each strain at 12 weeks of age. Mice from the same 30 CC strains were then transferred to a LBNL to investigate the stability of the gut microbiome in response to a new environment. Fecal samples were collected from each cage 24 hrs after cage change at 2, 4, 6 and 8 weeks after arrival at LBNL. Fecal samples were stored at -80 \u00b0C for downstream metabolite and microbial analyses. Genotyping data for all CC mice was obtained from UNC (http://csbio.unc.edu/CCstatus/index.py).\n",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolites were extracted from mouse fecal samples taken 12 weeks after birth and 8 weeks after transfer to LBNL using a methanol/sonication method. Briefly, portions of the homogenized samples were weighed and extracted with cold (-20 \u00b0C) methanol proportionally (1 ml solvent per 100 mg homogenate) in a microcentrifuge tube. The average weight of the homogenized fecal samples was 69.3 \u00b1 26.3 mg (mean \u00b1 standard deviation). 100 \u00b5l of each methanol extract was transferred to glass vials and dried in a speed-vac concentrator (Labconco CentriVap Benchtop Vacuum Concentrator; Kansas City, MO). Dried metabolite extracts were chemically derivatized using a modified version of the protocol used to create FiehnLib. Briefly, dried metabolite extracts were dried again to remove any residual water if they had been stored at -80 \u00b0C. To protect carbonyl groups and reduce the number of tautomeric isomers, 20 \u00b5l of methoxyamine in pyridine (30 mg/ml) was added to each sample, followed by vortexing for 30 s and incubation at 37 \u00b0C with generous shaking (1000 rpm) for 90 min. At this point, the sample vials were inverted one time to capture any condensation of solvent at the cap surface, followed by a brief centrifugation at 1000 x g for 1 min.  To derivatize hydroxyl and amine groups to trimethylsilyated (TMS) forms, 80 \u00b5l of N-methyl-N-(trimethylsilyl)trifluoroacetamide (MSTFA) with 1 % trimethylchlorosilane (TMCS) were then added to each vial, followed by vortexing for 10 s and incubation at 37 \u00b0C with shaking (1000 rpm) for 30 min. Again, the sample vials were inverted one time, followed by centrifugation at 1000 x g for 5 min.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "A HP-5MS column (30 m \u00d7 0.25 mm \u00d7 0.25 \u00b5m; Agilent Technologies, Inc) was used for untargeted metabolomics analyses. The sample injection mode was splitless, and 1 \u00b5l of each sample was injected. The injection port temperature was held at 250 \u00b0C throughout the analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "An Agilent GC 7890A coupled with a single quadrupole MSD 5975C (Agilent Technologies, Inc; Santa Clara, CA) was used, and the samples were blocked and analyzed in random order for each Experiment. The GC oven was held at 60 \u00b0C for 1 min after injection, and the temperature was then increased to 325 \u00b0C by 10 \u00b0C/min, followed by a 5 min hold at 325 \u00b0C. The helium gas flow rates for each Experiment were determined by the Agilent Retention Time Locking function based on analysis of deuterated myristic acid and were in the range of 0.45-0.5 ml/min. Data were collected over the mass range 50 - 550 m/z. A mixture of FAMEs (C8-C28) was analyzed once per day together with the samples for retention index alignment purposes during subsequent data analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Agilent .D files were converted to netCDF format using Agilent Chemstation, followed by conversion to binary files using Metabolite Detector.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "GC-MS raw data files were processed using the Metabolite Detector software, version 2.5 beta. Retention indices (RI) of detected metabolites were calculated based on the analysis of the FAMEs mixture, followed by their chromatographic alignment across all analyses after deconvolution. Metabolites were initially identified by matching experimental spectra to an augmented version of FiehnLib (i.e., the Agilent Fiehn Metabolomics Retention Time Locked (RTL) Library, containing spectra and validated retention indices for over 700 metabolites), using a Metabolite Detector match probability threshold of 0.6 (combined retention index and spectral probability). All metabolite identifications were manually validated to reduce deconvolution errors during automated data-processing and to eliminate false identifications. The NIST 08 GC-MS library was also used to cross validate the spectral matching scores obtained using the Agilent library and to provide identifications of unmatched metabolites (Level 2 identifications). The three most abundant fragment ions in the spectra of each identified metabolite were automatically determined by Metabolite Detector, and their summed abundances were integrated across the GC elution profile; fragment ions due to trimethylsilylation (i.e. m/z 73 and 147) were excluded from the determination of metabolite abundance.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "5975C Series GC/MSD (Agilent)",
+                        "filename": "a_MTBLS345_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "5975C Series GC/MSD (Agilent)",
+                        "filename": "a_MTBLS345_metabolite_profiling_mass_spectrometry-1.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "5975C Series GC/MSD (Agilent)",
+                        "filename": "a_MTBLS345_metabolite_profiling_mass_spectrometry-2.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

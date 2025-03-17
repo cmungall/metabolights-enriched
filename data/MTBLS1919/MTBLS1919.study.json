@@ -1,0 +1,689 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-11-21T00:00:00",
+        "statusUpdateTime": "2020-11-21T17:00:57.000808",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1919",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-07-14",
+        "publicReleaseDate": "2020-11-21",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "SWO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1919",
+                "filename": "s_MTBLS1919.txt",
+                "title": "A Python-based pipeline for preprocessing LC-MS data for untargeted metabolomics workflows",
+                "description": "Preprocessing data in a reproducible and robust way is one of the current challenges in untargeted metabolomics workflows. Data curation in liquid chromatography-mass spectrometry (LC-MS) involves the removal of unwanted features (retention time; m/z pairs) to retain only high-quality data for subsequent analysis and interpretation. The present work introduces a package for the Python programming language for pre-processing LC-MS data for quality control procedures in untargeted metabolomics workflows. It is a versatile strategy that can be customized or fit for purpose according to the specific metabolomics application. It allows performing quality control procedures to ensure accuracy and reliability in LC-MS measurements, and it allows preprocessing metabolomics data to obtain cleaned matrices for subsequent statistical analysis. The capabilities of the package are showcased with pipelines for an LC-MS system suitability check, system conditioning, signal drift evaluation, and data curation. These applications were implemented to preprocess data corresponding to a new suite of plasma candidate plasma reference materials developed by the National Institute of Standards and Technology (NIST; hypertriglyceridemic, diabetic, and African-American plasma pools) to be used in untargeted metabolomics studies. in addition to NIST SRM 1950 \u2013 Metabolites in Frozen Human Plasma. The package offers a rapid and reproducible workflow that can be used in an automated or semi-automated fashion, and it is an open and free tool available to all users.",
+                "submissionDate": "2020-07-14",
+                "publicReleaseDate": "2020-11-21",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Nicol\u00e1s",
+                        "lastName": "Zabalegui",
+                        "email": "zabaleguinicolas@gmail.com",
+                        "affiliation": "Centro de Investigaciones en Bionanociencias (CIBION), Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas (CONICET), Godoy Cruz 2390, C1425FQD, Ciudad de Buenos Aires, Argentina.",
+                        "address": "Godoy Cruz 2390, CABA, Argentina",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+54 11 4899-5500 ext. 5596",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "co-author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002036"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Gabriel",
+                        "lastName": "Riquelme",
+                        "email": "griquelme.chm@gmail.com",
+                        "affiliation": "Centro de Investigaciones en Bionanociencias (CIBION), Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas (CONICET), Godoy Cruz 2390, C1425FQD, Ciudad de Buenos Aires, Argentina.",
+                        "address": "Godoy Cruz 2390, CABA, Argentina",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+54 11 4899-5500 ext. 5596",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Mar\u00eda",
+                        "lastName": "Monge",
+                        "email": "mslab.cibion@gmail.com",
+                        "affiliation": "Centro de Investigaciones en Bionanociencias (CIBION), Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas (CONICET), Godoy Cruz 2390, C1425FQD, Ciudad de Buenos Aires, Argentina.",
+                        "address": "Godoy Cruz 2390, CABA, Argentina",
+                        "fax": "",
+                        "midInitials": "E.",
+                        "phone": "+5411-4899-5500 ext. 5614",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Christina",
+                        "lastName": "Jones",
+                        "email": "christina.jones@nist.gov",
+                        "affiliation": "National Institute of Standards and Technology, Gaithersburg, MD, 20899-8392, USA.",
+                        "address": "100 Bureau Drive, Gaithersburg, MD 20899",
+                        "fax": "",
+                        "midInitials": "M.",
+                        "phone": "+1 301 975 4561",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "co-author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002036"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Pablo",
+                        "lastName": "Marchi",
+                        "email": "pmarchi@fi.uba.ar",
+                        "affiliation": "Facultad de Ingenier\u00eda, Universidad de Buenos Aires, Paseo Col\u00f3n 850, C1063ACV, Ciudad de Buenos Aires, Argentina",
+                        "address": "Paseo Col\u00f3n 850, CABA, Argentina",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+54 11 4899-5500",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "co-author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002036"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Python",
+                        "termSource": {
+                            "comments": [],
+                            "name": "SWO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/swo/SWO_0000118"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "data cleaning",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "preprocessing",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "reference materials",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "data curation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "system suitability",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "drachm",
+                        "termSource": {
+                            "comments": [],
+                            "name": "UO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/UO_0010032"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Workflow",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42753"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A Python-Based Pipeline for Preprocessing LC-MS Data for Untargeted Metabolomics Workflows.",
+                        "authorList": "Riquelme G, Zabalegui N, Marchi P, Jones CM, Monge ME.",
+                        "pubMedID": "33081373",
+                        "doi": "10.3390/metabo10100416",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>SRM 1950 Metabolites in Frozen Human Plasma and candidate RM 8231 Frozen Human Plasma Suite for Metabolomics (hypertriglyceridemic, diabetic and African-American plasma samples) were provided the Metabolomics Quality Assurance and Quality Control Program led by NIST. All NIST plasma samples were collected after informed consent under approved IRB protocols reviewed by the NIST Human Subjects Protection Office. Details on the preparation of SRM 1950 have been published. Bioreclamation, Inc. (Hicksville, NY) collected whole blood from 100 donors (1:1 male to female ratio) between 40 and 50 years of age after an overnight fast and a 72 h abstention from medication. Lithium heparin was used as the anticoagulant. The collected blood was centrifuged at 8000 \u00d7 g for 25 min at 4 \u00b0C to obtain plasma. Each donor\u2019s plasma was thawed once. Subsequently, all donor plasma was blended together and aliquoted into individual vials to produce the SRM. The diabetic plasma material (RM 8231-1) was created by Solomon Park Research Laboratories, Inc. It was created from a pool of 6 female donors and 5 male donors between 34 and 68 years of age after an overnight fast, each meeting the specified ranges for glucose (&gt;126 mg/dL) and triglycerides (&lt;150 mg/dL). Solomon Park Research Laboratories, Inc. (Kirkland, WA) also created the hypertriglyceridemic plasma material (RM 8231-2). The donor pool consisted of 11 male donors between 31 and 72 years of age after an overnight fast, each meeting the NIST-specified ranges for glucose (&lt;100 mg/dL) and triglycerides (&gt;300 mg/dL). The diabetic and hypertriglyceridemic plasma were obtained by centrifuging the respective collected blood at 251 rad/s for 10 min, followed by additional centrifugation at 397 rad/s. Lithium heparin was used as the anticoagulant for both, and plasma from each donor was thawed once and blended to make the respective donor pools before aliquoting into individual vials. BioreclamationIVT (Westbury, NY) collected whole blood from 16 donors (1:1 male to female ratio) between 20 and 25 years of age after an overnight fast using K2 ethylenediaminetetraacetic acid (EDTA) as the anticoagulant for the African-American plasma (RM 8231-3). The 16 units of blood were subsequently thawed and pooled by Solomon Park Research Laboratories similar to the diabetic and hypertriglyceridemic plasma materials. Samples were shipped on dry ice to CONICET and stored at -80 \u00b0C until use.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Plasma samples were thawed on a water-ice bath prior to sample preparation. Each plasma sample was split into 6 aliquots for individual sample preparation and stored at -80 \u00b0C. As well, a pooled/intrastudy QC was created from equal aliquots of each plasma sample, and subsequently aliquoted and stored at -80 \u00b0C. After thawing samples in a water-ice bath, 10 \u00b5L of 40 \u00b5M isotopically labeled leucine solution was added to 50 \u00b5L of each plasma sample and QC sample to be used as internal standard. Subsequently, samples were vortex-mixed and 180 \u00b5L of methanol/acetonitrile (50:50 v/v) was added to precipitate proteins. Samples were vortex-mixed for 30 s, stored at -20 \u00b0C for 1 h, and centrifuged at 21382 \u00d7g for 20 min at 4 \u00b0C. After centrifugation, 180 \u03bcL of supernatant was transferred to new microcentrifuge tubes and frozen at \u221280 \u00b0C for 30 min after the addition of 180 \u03bcL of ultrapure water. Subsequently, samples were lyophilized for 38 h at \u221280 \u00b0C and 50 mTorr using a Telstar LYOQuest-85 freeze-dryer (Telstar, Madrid, Spain). Subsequently, sample residues were thawed on a water-ice bath for 30 min, reconstituted in 150 \u03bcL of water/methanol (80:20 v/v), vortex-mixed for 30 s, centrifuged for 20 min at 21382 \u00d7g and 4 \u00b0C,&nbsp;and 140 \u03bcL of supernatant was transferred to LC vials and analyzed by UPLC-QTOF-MS. </p><p><br></p><p>For pooled/intra-study QC samples, 138.6 \u03bcL was transferred to LC vials and spiked with 1.4 \u03bcL of a system suitability QC sample (SSS*), consisting of a chemical standard mixture.</p><p><br></p><p>The standard mixture solution (SSS*) was prepared in ultrapure water containing the following compounds: Leucine enkephalin 25 \u00b5M, Lysophosphatidylcholine (0:0/18:0) 17.9 \u00b5M, L-Phenylalanyl-L-phenylalanine 100 \u00b5M, L-Tryptophan 100 \u00b5M and Alogliptin 50 \u00b5M. This solution was diluted 100-fold to be used as a system suitability QC sample and analyzed before conditioning the analytical platform and at the end of the batch.]</p><p><br></p><p>Process blank samples, consisting of ultrapure water, underwent the same process as plasma samples and were pooled in a single vial.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>UPLC-MS experiments were performed with a Waters ACQUITY UPLC I Class system fitted with a Waters ACQUITY UPLC BEH C18 column (2.1 \u00d7 100 mm, 1.7 \u03bcm particle size, Waters Corporation, Milford, MA, USA), coupled to a Xevo G2S QTOF mass spectrometer (Waters Corporation, Manchester, UK) with an electrospray ionization (ESI) source. Gradient elution was used in the chromatographic separation method. Mobile phases consisted of water with 0.1% acetic acid (mobile phase A) and acetonitrile (mobile phase B), and the method used the following gradient program: 0\u22121 min 10% B; 1\u22122.5 min 10\u221215% B; 2.5\u22124 min 15\u221222% B; 4\u22126 min 22\u221238% B; 6\u22129 min 38\u221265% B; 9\u221212 min 65\u221280% B; 12\u2212 16 min 80\u2212100% B; 16\u221219 min 100% B. The flow rate was constant at 0.25 mL min\u22121 for 12 min and was increased to 0.30 mL min\u22121 between 12 and 19 min. Each sample injection was followed by a wash injection, where the gradient was returned to its initial conditions in 14 min. The injection volume was 2 \u03bcL. The autosampler tray and column temperatures were set at 5 and 35 \u00b0C, respectively.&nbsp;Six process replicates were acquired for candidate reference material plasma samples.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The mass spectrometer was operated in positive ion mode. The typical resolving power and mass accuracy of the Xevo G2S QTOF mass spectrometer were 27102 FWHM and 2.7 ppm at m/z 556.2771, respectively. The mass spectrometer ion source was operated with a probe capillary voltage of 2.5 kV and a sampling cone voltage of 30 V. The source and desolvation gas temperatures were set to 120 and 300 \u00b0C, respectively. The nitrogen gas desolvation flow rate was 600 L h\u22121, and the cone desolvation flow rate was 10 L h\u22121. The mass spectrometer was calibrated before the batch analysis across the range of m/z 50\u22121200 using a 0.5 mM sodium formate solution prepared in isopropanol/water (90:10 v/v). Data were drift corrected during acquisition using a leucine enkephalin (<em>m/z</em> 556.2771) reference spray infused at 5 \u03bcL min\u22121, every 60 s. The scan time was set to 0.5 s and data were acquired in MSE continuum mode in the range of m/z 50\u22121200.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data acquisition and processing were carried out using MassLynx version 4.1 (Waters Corp., Milford, MA, USA). Spectral features (retention time (Rt), m/z pairs) were extracted from UPLC-QTOF-MS data using Progenesis QI version 2.1 (Nonlinear Dynamics, Waters Corp., Milford, MA, USA). The procedure included retention time alignment, peak picking, deisotoping, integration, and grouping together adducts derived from the same compound.</p><p><br></p><p>Raw data conversion:\tRaw MS data in Waters .RAW format where converted to mzML format in centroid mode using ProteoWizard\u2019s msconvert software (version 3.0) with the following parameters: min distance = 0.01, snr = 1. </p><p>&nbsp;</p><p>Python package:\tThe package was implemented in python 3.6. and uses the Pandas library to work with a data matrix in tabular form. Raw MS data is read using the pyopenms library and routines for analyzing data were implemented using the Numpy, Scipy and Scikit-Learn libraries. Examples of web applications were built using the Bokeh library. The pyopenms package was used to read raw MS data in the mzML format. Peak picking functions were implemented using a CWT-based algorithm with parameters optimized for chromatographic or spectral data. Additional functions were implemented for chromatogram-building, for accumulating consecutive MS scans, detecting features using the CentWave algorithm, and for feature detection. MSData, Chromatogram, Roi and MSSpectrum were created using an object-oriented programming approach to abstract the aforementioned functionality and work with raw data.  </p><p>&nbsp;</p><p>Curation tools:\tMethods for filtering features in the data matrix are encapsulated in the Data Container, Processor and Pipeline objects. The Data Container uses Pandas DataFrames to store the data matrix and the descriptors associated with features and samples. The sample mapping attribute of the Data Container object associates sample types to sample classes and it is used to set a default behaviour for the different filters applied to the data matrix. The Pipeline object stores a list of Processor objects to build customized data curation strategies. </p><p>&nbsp;</p><p>Statistical analysis:\tPrincipal component analysis (PCA) models are built using the Scikit-Learn implementation. It is used in the pipeline to track data quality, identify potential outliers in the data set, identify sample clusters and evaluate time-related systematic variance or signal drift. The LOESS smoother used in Batch Correction is implemented in the statsmodels package.&nbsp;&nbsp;</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Feature identification was out of the scope of the present manuscript.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS1919_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS1919_LC-MS_positive_reverse-phase_metabolite_profiling-1.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

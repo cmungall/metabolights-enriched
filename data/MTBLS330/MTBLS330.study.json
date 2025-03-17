@@ -1,0 +1,699 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-03-05T16:40:49.793000",
+        "statusUpdateTime": "2018-03-05T16:40:49.793000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS330",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2016-03-22",
+        "publicReleaseDate": "2018-03-05",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BIOMODELS",
+                "file": "http://data.bioontology.org/ontologies/BIOMODELS",
+                "version": "3",
+                "description": "BioModels Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "FLOPO",
+                "file": "http://data.bioontology.org/ontologies/FLOPO",
+                "version": "1",
+                "description": "Flora Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "26",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS330",
+                "filename": "s_MTBLS330.txt",
+                "title": "The WEIZMASS spectral library for high-confidence metabolite identification",
+                "description": "Annotation of metabolites is an essential, yet problematic, aspect of mass spectrometry (MS)-based metabolomics assays. The current repertoire of definitive annotations of metabolite spectra in public MS databases is limited and suffers from lack of chemical and taxonomic diversity. Furthermore, the heterogeneity of the data prevents the development of universally applicable metabolite annotation tools. Here we present a combined experimental and computational platform to advance this key issue in metabolomics. WEIZMASS is a unique reference metabolite spectral library developed from high-resolution MS data acquired from a structurally diverse set of 3,540 plant metabolites. We also present MatchWeiz, a multi-module strategy using a probabilistic approach to match library and experimental data. This strategy allows efficient and high-confidence identification of dozens of metabolites in model and exotic plants, including metabolites not previously reported in plants or found in few plant species to date.",
+                "submissionDate": "2016-03-22",
+                "publicReleaseDate": "2018-03-05",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Nir",
+                        "lastName": "Shahaf",
+                        "email": "nir.shachaf@weizmann.ac.il",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Asaph",
+                        "lastName": "Aharoni",
+                        "email": "asaph.aharoni@weizmann.ac.il",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "WEIZMASS",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "MatchWeiz",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The WEIZMASS spectral library for high-confidence metabolite identification.",
+                        "authorList": "Shahaf N, Rogachev I, Heinig U, Meir S, Malitsky S, Battat M, Wyner H, Zheng S, Wehrens R, Aharoni A.",
+                        "pubMedID": "27571918",
+                        "doi": "10.1038/ncomms12423",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Tissue",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Tissue",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C12801"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Life cycle stage",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "life cycle stage",
+                            "termSource": {
+                                "comments": [],
+                                "name": "BAO",
+                                "file": "http://data.bioontology.org/ontologies/BAO",
+                                "version": "26",
+                                "description": "BioAssay Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000105"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "A. thaliana plants (ecotype Col-0) were grown as previously described[1]. 9 plant tissues were analysed including young and mature leaves (12 days, 3\u20134 weeks and 6\u20137 weeks after sowing, respectively), inflorescence and inflorescence leaves, closed buds, open flowers and siliques in 2 development stages (1 and 2 cm lengths).\n</p>\nTomato plants (S. lycopersicum cv. Microtom) were grown as previously described[2]. The following tomato tissues were analysed: fruit skin and flesh in 5 developmental stages (immature green, mature green, breaker, orange and red fruit), leaves (young and mature), buds, flower buds, open flowers, pollen and roots.\n</p>\nPlants of several genus of the Lemnaceae family (L. gibba, S. polyrhiza and S. oligo (L. punctata)) were grown as previously described[3]. In the case of L. gibba tissues, the plants were transferred to Petri dishes followed by manual separation of mature, young and rhizome plant parts.\n</p>\nFor annotation validations by spiking into plant tissues, 3 samples were prepared for consecutive injections: the plant tissue containing the endogenous metabolites; the spikes of the relevant chemical standard into the corresponding plant matrix; and a mix of 4 or 5 of the relevant pure chemical standards. The plant tissues were diluted, respectively, with an extraction buffer to compensate for the change in concentration resulting from the addition of the chemical standards. Spiked samples were prepared by mixing of plant extract (80 \u00b5l) with the mix of standards (20 \u00b5l). The pure plant tissue was prepared by mixing of plant extract (80 \u00b5l) with dilution solution (20 \u00b5l). The pure mix of chemical standards was prepared by mixing of dilution solution (80 \u00b5l) with the mix of standards (20 \u00b5l).\n</p>\nRef:</br>\n[1] Bocobza SE, Malitsky S, Ara\u00fajo WL, Nunes-Nesi A, Meir S, Shapira M, Fernie AR, Aharoni A. Orchestration of thiamin biosynthesis and central metabolism by combined action of the thiamin pyrophosphate riboswitch and the circadian clock in Arabidopsis. Plant Cell. 2013 Jan;25(1):288-307. doi:10.1105/tpc.112.106385. PMID:23341335</br>\n[2] Itkin M, Rogachev I, Alkan N, Rosenberg T, Malitsky S, Masini L, Meir S, Iijima Y, Aoki K, de Vos R, Prusky D, Burdman S, Beekwilder J, Aharoni A. GLYCOALKALOID METABOLISM1 is required for steroidal alkaloid glycosylation and prevention of phytotoxicity in tomato. Plant Cell. 2011 Dec;23(12):4507-25. doi:10.1105/tpc.111.088732. PMID:22180624</br>\n[3] Vunsh R, Heinig U, Malitsky S, Aharoni A, Avidov A, Lerner A, Edelman M. Manipulating duckweed through genome duplication. Plant Biol (Stuttg). 2015 Jan;17 Suppl 1:115-9. doi:10.1111/plb.12212. PMID:25040392</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Frozen leaves of A. thaliana from 3.5-week-old wild-type Columbia-0 plants were ground and extracted with an extraction solution (80% methanol and 0.1% formic acid) at a ratio of 1:3 (w/v). Samples were sonicated for 20 min in a bath sonicator, vortexed and centrifuged for 12 min at 14,000 x g, and the supernatant was filtered through 0.22 \u00b5m polyvinylidene difluoride filters. Tomato tissues were extracted using 100% methanol (1:3 (w/v)), and otherwise prepared as Arabidopsis leaves above. Lemnaceae family samples were also prepared as Arabidopsis leaves above.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "5 \u00b5l of the sample was injected to LC\u2013MS. Analysis was performed using a UPLC-QTOF system (HDMS Synapt, Waters), with the ultra performance liquid chromatography (UPLC) column connected online to a photodiode array detector and then to the MS detector. A 100 x 2.1-mm i.d., 1.7-\u00b5m UPLC BEH C18 column (Waters) was used for the separation of metabolites. The mobile phase consisted of 0.1% formic acid in acetonitrile: water [5:95, (vol/vol); phase A] and 0.1% formic acid (vol/vol) in acetonitrile (phase B). The linear gradient was from 100 to 72% phase A over 22 min, from 72 to 0% phase A over 14 min, then held at 100% phase B for further 2 min; and then returned to the initial conditions (100% phase A) in 0.5 min and conditioning at 100% phase A for 1.5 min. A divert valve (Rheodyne) excluded 1.0 and 38 min from the injection. The flow rate was 0.3 ml/min, and the column temperature was kept at 35 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Masses of the eluted compounds were detected by a qTOF HDMS Synapt mass spectrometer, equipped with an electrospray ionization (ESI) source. Acquisition was performed separately in positive and negative ESI modes. The following settings were applied during the LC-MS runs: divert valve (Rheodine), excluding 0\u20131.8 min and 43\u201350 min following injection; capillary spray at 3.0 kV; cone voltage at 28 eV; and collision energy at 4 eV. For the MS/MS experiments, collision energies were 10\u201325 eV for positive mode and 15\u201340 eV for negative mode. Full-scan mass spectra were acquired from 50\u20131,500 Da. Argon was used as the collision gas for collision-induced dissociation MS/MS experiments. The mass spectrometer was calibrated using sodium formate, and leucine enkephalin was used as the lock mass. The UV spectra were acquired from 200 to 500 nm. Data acquisition was performed in the MSE mode with energy ramp that records an exact mass precursor and fragment ion information from every detectable component in a sample. MSE mode rapidly alternates between two functions: the first acquiring low-energy exact mass precursor ion spectra and the second acquiring elevated-energy exact mass fragment ion spectra. The collision energy was set to 4 eV for low-energy function and to 10\u201330 eV ramp for the high-energy function in the positive ion mode (15\u201335 eV in the negative ion mode). Scan time for each function was set to 0.25 s. In addition, a mixture of 15 standard metabolites, injected after each 10 samples, was used for quality control and two additional pool samples used subsequently for retention time correction were injected in the beginning and end of each analytical sequence. MassLynx software version 4.1 (Waters) was used to control the instrument and calculate accurate masses. The MSE mode with energy ramp was used to add as much of the specific fragmentation patterns of each metabolite as possible in one continuous run. A preliminary test of the ramp mode was conducted, in which library records of tandem MS/MS data were compared with ramp mode fragmentations. The test results indicated that in the majority of cases at least two of the most abundant MS/MS fragments could also be detected in the MSE mode (62% of 49 metabolites in the NI MS mode and 70% of 62 samples in the PI MS mode). In this preliminary test a decrease in peak intensities of roughly 25\u201330% was also observed due to the energy ramp, indicating a reduction in the dynamic range.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The raw instrument data were first converted to NetCDF format using the MassLynx Databridge (http://www.waters.com). The NetCDF files containing data from the first and second MS channels were then converted into data matrices using the R (http://www.r-project.org) packages XCMS[1] and CAMERA[2].\n</p>\nRef:</br>\n[1] Smith CA, Want EJ, O'Maille G, Abagyan R, Siuzdak G. XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification. Anal Chem. 2006 Feb 1;78(3):779-87. doi:10.1021/ac051437y. PMID:16448051</br>\n[2] Kuhl C, Tautenhahn R, B\u00f6ttcher C, Larson TR, Neumann S. CAMERA: an integrated strategy for compound spectra extraction and annotation of liquid chromatography/mass spectrometry data sets. Anal Chem. 2012 Jan 3;84(1):283-9. doi:10.1021/ac202450g. PMID:22111785</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "MatchWeiz, coupled to the WEIZMASS library was used to annotate peaks.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS330_POS_Lemna_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Negative (LC-MS (Negative))",
+                        "filename": "a_MTBLS330_NEG_Lemna_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS330_POS_Tomato_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Negative (LC-MS (Negative))",
+                        "filename": "a_MTBLS330_NEG_Tomato_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS330_POS_Arab_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Negative (LC-MS (Negative))",
+                        "filename": "a_MTBLS330_NEG_Arab_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

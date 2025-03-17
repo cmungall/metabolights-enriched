@@ -1,0 +1,631 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-02-17T00:00:00",
+        "statusUpdateTime": "2023-02-17T13:38:13.843291",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS6886",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2023-01-13",
+        "publicReleaseDate": "2023-02-17",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "processAFP",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "PR",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "HP",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS6886",
+                "filename": "s_MTBLS6886.txt",
+                "title": "TGF-\u03b2 uncouples glycolysis and inflammation in macrophages and controls the survival during sepsis",
+                "description": "<p>The mechanisms by which macrophage metabolism is regulated and the effects of metabolism on diseases remain largely unknown. We show here that TGF-\u03b2 regulates the glycolysis of macrophages independently of inflammatory cytokine production, and thus affects the survival in experimental sepsis. Specifically, TGF-\u03b2 increased expression and activity of phosphofructokinase-1 liver type (PFKL) in macrophages and thus promoted their glycolysis during cell activation, yet paradoxically suppressed the production of proinflammatory cytokines in the same macrophages. The upregulation of glycolysis was mediated by a mTOR-c-MYC dependent pathway, whereas the inhibition of cytokines was ascribed to the activation of SMAD3 and a downregulated activation of the pro-inflammatory transcription factors AP-1, NFkB and STAT1. Importantly, in an LPS-induced endotoxemia and CLP-sepsis models, TGF-\u03b2 enhancement of macrophage glycolysis led to a decreased survival in mice, which was associated with increased blood coagulation. Analysis of cohorts of patients with sepsis and covid-19 revealed that the expression of PFKL, TGF-\u03b2 receptor TGFBRI and coagulation factor F13A1 in myeloid cells positively correlated with the progression of the disease. Thus, TGF-\u03b2 is emerging as a critical cytokine regulating macrophage metabolism and could serve as a therapeutic target in patients with sepsis.</p>",
+                "submissionDate": "2023-01-13",
+                "publicReleaseDate": "2023-02-17",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Thierry",
+                        "lastName": "Gauthier",
+                        "email": "thierry.gauthier@nih.gov",
+                        "affiliation": "",
+                        "address": "National Institute of Health",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "(301) 496-2088",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153193"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Sepsis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "HP",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/HP_0100806"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "TGF-\u03b2 uncouples glycolysis and inflammation in macrophages and controls survival during sepsis.",
+                        "authorList": "Gauthier T, Yao C, Dowdy T, Jin W, Lim YJ, Pati\u00f1o LC, Liu N, Ohlemacher SI, Bynum A, Kazmi R, Bewley CA, Mitrovic M, Martin D, Morell RJ, Eckhaus M, Larion M, Tussiwand R, O'Shea JJ, Chen W.",
+                        "pubMedID": "37552767",
+                        "doi": "10.1126/scisignal.ade0385",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Cell culture</strong></p><p>Mouse macrophages were obtained from the peritonea of mice treated with&nbsp;mL of thioglycolate&nbsp;% for - days (Becton Dickinson). Macrophages were washed twice in PBS and let adhere in plates for&nbsp;min at room temperature (RT) followed by a wash. The bone marrow was extracted and cultured in RPMI containing 0 % of FBS and 0 ng/mL of M-CSF (Peprotech) and cultured in Petri dishes for&nbsp;days (with a change of medium at day ). The cells were harvested with accutase (Thermo Fisher) and re-seeded. The peritoneal macrophage cells were then cultured in RPMI containing antibiotics (Penicillin/Streptomycin), Na pyruvate and glutamine and without FBS. </p><p><br></p><p><strong>Metabolomics Sample Preparation</strong></p><p>Macrophages were seeded onto tissue culture treated plates (10 million per plate, total of 20 million per condition). Macrophages were treated with TGF-beta (5 ng/mL) for 24 h (or ctrl media) followed by LPS treatment (10 ng/mL) for another 24 h. Cells were washed with PBS. Then,&nbsp;1 mL of water was evenly dispensed, and the plates were placed on dry ice to snap freeze and stored at -80 \u00b0C overnight. Each frozen culture dish was slightly thawed on ice to scrape, aspirate and transfer 0.9 mL of the cell solution to&nbsp;15 mL conical tubes. Samples were snap-frozen on dry ice and stored at -80 \u00b0C until extraction.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Bligh-Dyer biphasic extraction previously described was adapted and implemented to extract and separate polar and non-polar metabolites<strong>[1]</strong>. Cells were sonicated for 30 s at 40 Amps followed by vortexing for 10 s (medium speed) to homogenize prior to aspirating 0.04 mL aliquots for protein quantification used later to normalize metabolite abundance. An equivolume of methanol (MeOH) was added to the aqueous cell homogenate followed by addition of 0.1 mL 50% aqueous MeOH spiked with the qualitative internal standards [(qIS), consisting of 100 ng/mL nitrodracylic acid (NDA) and 125 ng/mL isocaramidine sulfate (ICS)]). The solution was vortexed for 10 s and incubated for 10 min, follow by the addition of 100 \u00b5L chilled chloroform spiked with the qIS of 50 ng/mL phenyl-N-pyridinyl acrylamide (PNPA) to achieve a final ratio of 2:2:1.5 of a water:MeOH:CCl4 solution. The solution was vortexed for 15 s and incubated for 30 min. Samples were centrifuged for 20 min at 12,000 x g at 4 \u00b0C. The two resulting phases (upper aqueous polar and lower organic lipid) were transferred to separate 1.5 mL Eppendorf tubes and evaporated at room temperature under a dry nitrogen stream.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Lita A, Pliss A, Kuzmin A, Yamasaki T, Zhang L, Dowdy T, Burks C, de Val N, Celiku O, Ruiz-Rodado V, Nicoli ER, Kruhlak M, Andresson T, Das S, Yang C, Schmitt R, Herold-Mende C, Gilbert MR, Prasad PN, Larion M. IDH1 mutations induce organelle defects via dysregulated phospholipids. Nat Commun. 2021 Jan 27;12(1):614. doi:10.1038/s41467-020-20752-6. PMID:33504762.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>All mobile phase and reagents were composed of LCMS grade additives and Optima LC/MS Grade solvents (Fisher Scientific Hampton, NH, USA) unless otherwise indicated. LC/MS data for polar and nonpolar phase was acquired via Agilent 6545 QTOF with a dual Agilent Jet Stream (AJS) electrospray ionization (ESI) source coupled with an Infinity II 1290 UHPLC system courtesy of Laboratory of Bioorganic Chemistry, NIDDK using similar conditions previously described<strong>[1]</strong>.</p><p><br></p><p><strong>LIPID_neg:</strong></p><p>The hydrophobic lower phase was reconstituted in 100 \u00b5L 50:25:25 ratio of methanol/ACN/water ratio for LC/MS to measure of the nonpolar metabolites and lipidome. Lipidomic features were resolved using Acquity UPLC CSH 1.7\u2009\u00b5m, 2.1 x 50\u2009mm C18 column (Waters Corp. Mass., USA) with a mobile phase gradient consisting of ACN/water (30/70) containing 5\u2009mM ammonium formate and 0.15% v/v formic acid (Solvent A) and IPA/ACN (90/10) containing 10\u2009mM ammonium formate and 0.15% v/v formic acid (Solvent B) at column temperature of 45\u2009\u00b0C and flow rate of 0.250\u2009mL/min. In ESI negative mode, hydrophobic extracts were resolved using gradient: 0.0-0.1\u2009min, 1% B; 0.8\u2009min, 5% B; 2.0\u2009min, 35% B; 4.5\u2009min, 38% B; 4.75\u2009min, 40% B; 7.5\u2009min, 71% B; 8.5\u2009min, 80.5% B; 9.5\u2009min, 91.5% B; 11.0\u2009min, 98% B; 12.25\u2009min, 100% B; 12.5\u2009min, 99 % B; 13.5\u2009min, 1% B; equilibrate, 1.5\u2009min.</p><p><br></p><p><strong>LIPID_pos:</strong></p><p>The hydrophobic lower phase was reconstituted in 100 \u00b5L 50:25:25 ratio of methanol/ACN/water ratio for LC/MS to measure of the nonpolar metabolites and lipidome. Lipidomic features were resolved using Acquity UPLC CSH 1.7\u2009\u00b5m, 2.1 x\u200950\u2009mm C18 column (Waters Corp. Mass., USA) with a mobile phase gradient consisting of ACN/water (30/70) containing 5\u2009mM ammonium formate and 0.15% v/v formic acid (Solvent A) and IPA/ACN (90/10) containing 10\u2009mM ammonium formate and 0.15% v/v formic acid (Solvent B) at column temperature of 45\u2009\u00b0C and flow rate of 0.250\u2009mL/min. In ESI-positive mode, hydrophobic extracts were resolved using: 0.0-0.1\u2009min, 1% B; 0.3\u2009min, 5% B; 1.75\u2009min, 35% B; 4.25\u2009min, 38% B; 4.5\u2009min, 40% B; 7.25\u2009min, 71% B; 9.25\u2009min, 98% B; 10.25\u2009min, 100% B; 10.5\u2009min, 99% B; 11.25\u2009min, 1% B; equilibrate, 1.5\u2009min.</p><p><br></p><p><strong>HILIC_neg:</strong></p><p>In order to achieve broad detection and resolve highly polar metabolites, the zwitterionic InfinityLab Poroshell 120 HILIC-Z 2.1 x 50\u2009mm, 2.7\u2009\u00b5m column (Agilent Technologies, Ca., USA) column was used for ESI negative/positive modes. The polar extracts were resuspended in 100 \u00b5L 60% methanol (aq). The upper phase, polar extracts were resolved using water/acetonitrile (88/12) containing 10\u2009mM ammonium acetate and 0.15% v/v formic acid (Solvent A) and acetonitrile/water (90/10) containing 10\u2009mM ammonium acetate and 0.15% v/v formic acid (Solvent B) at column temperature 30\u2009\u00b0C. The following gradient was applied at a flow rate of 0.24\u2009mL/min: 100% B, 0.5\u2009min; 95% B, 2.0\u2009min; 60% B, 3.0\u2009min; 35% B, 5\u2009min; hold 0.25\u2009min; 0% B, 6.0\u2009min; hold 0.5\u2009min; 100% B, 7.25\u2009min.</p><p><br></p><p><strong>HILIC_pos:</strong></p><p>In order to achieve broad detection and resolve highly polar metabolites, the zwitterionic InfinityLab Poroshell 120 HILIC-Z 2.1 x 50\u2009mm, 2.7\u2009\u00b5m column (Agilent Technologies, Ca., USA) column was used for ESI negative/positive modes. The polar extracts were resuspended in 100 \u00b5L 60% methanol (aq). The upper phase, polar extracts were resolved using water/acetonitrile (88/12) containing 10\u2009mM ammonium acetate and 0.15% v/v formic acid (Solvent A) and acetonitrile/water (90/10) containing 10\u2009mM ammonium acetate and 0.15% v/v formic acid (Solvent B) at column temperature 30\u2009\u00b0C. The following gradient was applied at a flow rate of 0.24\u2009mL/min: 100% B, 0.5\u2009min; 95% B, 2.0\u2009min; 60% B, 3.0\u2009min; 35% B, 5\u2009min; hold 0.25\u2009min; 0% B, 6.0\u2009min; hold 0.5\u2009min; 100% B, 7.25\u2009min.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Lita A, Pliss A, Kuzmin A, Yamasaki T, Zhang L, Dowdy T, Burks C, de Val N, Celiku O, Ruiz-Rodado V, Nicoli ER, Kruhlak M, Andresson T, Das S, Yang C, Schmitt R, Herold-Mende C, Gilbert MR, Prasad PN, Larion M. IDH1 mutations induce organelle defects via dysregulated phospholipids. Nat Commun. 2021 Jan 27;12(1):614. doi:10.1038/s41467-020-20752-6. PMID:33504762.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>During acquisition, extracts were randomized prior to injection to reduce analytical bias related to batch effect or sample order. Pooled quality control (QC) samples composed of 10% volume from each sample were injected periodically over the course of the experiment.</p><p><br></p><p><strong>LIPID_neg:</strong></p><p>The following MS parameters were applied: drying gas temperature (temp), 150\u2009\u00b0C; gas flow, 7\u2009L/min; nebulizer, 45\u2009psi; sheath gas temp, 350\u2009\u00b0C; sheath gas flow, 12\u2009L/min; capillary voltage, 3000\u2009V; nozzle voltage, 25\u2009V; fragmentor, 90\u2009V; skimmer, 50\u2009V; scan rate, 3.0 spectra/s.</p><p><br></p><p><strong>LIPID_pos:</strong></p><p>MS parameters were applied as follows: injection volume, 6.5\u2009\u00b5L; drying gas temp, 150\u2009\u00b0C; gas flow, 6\u2009L/min; nebulizer, 40\u2009psi; sheath gas temp, 350\u2009\u00b0C; sheath gas flow, 12\u2009L/min; capillary voltage, 3500\u2009V; nozzle voltage, 35\u2009V; fragmentor, 150\u2009V; skimmer, 50\u2009V; scan rate, 3.5 spectra/s.</p><p><br></p><p><strong>HILIC_neg:</strong></p><p>MS parameters were applied as follows: drying gas temperature, 250\u2009\u00b0C; sheath gas temperature, 325\u2009\u00b0C; nebulizer, 45\u2009psi; skimmer, 50\u2009V; octopole radio frequency, 750\u2009V; scan rate, 4 spectra/s. In ESI negative mode, mass spectra were acquired over a voltage gradient of capillary 3000\u2009V, nozzle 1500\u2009V and fragmentor 80\u2009V.</p><p><br></p><p><strong>HILIC_pos:</strong></p><p>MS parameters were applied as follows: drying gas temperature, 250\u2009\u00b0C; sheath gas temperature, 325\u2009\u00b0C; nebulizer, 45\u2009psi; skimmer, 50\u2009V; octopole radio frequency, 750\u2009V; scan rate, 4 spectra/s. In ESI positive mode, MS spectra were acquired over a voltage gradient of capillary 3500\u2009V, nozzle 2000 V and fragmentor 165\u2009V.</p><p><br></p><p>Wash cycles consisted of strong wash (50% MeOH, 25% Isopropanol (IPA), and 25% Water), seal wash (10% IPA and 90% water) and needle wash (50% IPA) to eliminate carryover between consecutive injections.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Pooled QC samples (TIC and XIC) were chromatographically examined to inspect consistency of elution times, signals and mass accuracy, particularly for qIS and known metabolites. Agilent <strong>Masshunter Profinder</strong> B.08.00 was used to bin mass features on basis of m/z with retention time (RT) matrices. Bins were manually inspected for consistent integration for each reported compound across every samples. Precursor m/z for each bin alignment was determined using the molecular feature extraction algorithm to deconvolute, integrate and envelope parent ions, adducts (H-, H+) and natural isotopes defined in each composite spectrum. Logical binning was aligned based on restriction to 0.5 min elution window and target mass selection of \u00b12.0 mDa.</p><p><br></p><p>Following preprocessing, raw abundance to sample-specific internal standard ratios were determined to correct abundances, followed by normalization via sample-specific protein quantification (as determined via BCA protein analysis). For polar feature analysis based on the HILIC-Z gradient, the qIS NDA and ICS abundances were uses for the ESI negative and positive mode data, respectively. The qIS PNPA was used to correct abundance for both ESI positive and negative mode data acquired from nonpolar extracts using the reverse phase C18 gradient. Normalized abundance data acquired from both polar and nonpolar phases were combined according to sample ID for further comparative analysis. <strong>Metabolanalyst</strong> 4.0 was utilized to conduct biostatistical analysis with student t-test assuming equal variance and to generate figures for comparative analysis. Graphs were generated via <strong>Excel</strong>.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass feature annotation was restricted to those with measured accurate mass within \u00b12.0 mDa of the of database selection via <strong>METLIN</strong> (<a href='https://metlin.scripps.edu/' rel='noopener noreferrer' target='_blank'>https://metlin.scripps.edu/</a>), <strong>Human Metabolite Database</strong> (<a href='https://HMDA.ca/' rel='noopener noreferrer' target='_blank'>https://HMDA.ca/</a>) and <strong>LIPIDMAPS</strong> (<a href='https://www.lipidmaps.org/' rel='noopener noreferrer' target='_blank'>https://www.lipidmaps.org/</a>).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS6886_LC-MS_positive_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS6886_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS6886_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - hilic",
+                        "filename": "a_MTBLS6886_LC-MS_negative_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

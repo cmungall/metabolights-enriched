@@ -1,0 +1,632 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-07-13T00:00:00",
+        "statusUpdateTime": "2020-07-13T09:31:54.467704",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS816",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-12-25",
+        "publicReleaseDate": "2020-07-13",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS816",
+                "filename": "s_MTBLS816.txt",
+                "title": "Correlation-based Deconvolution (CorrDec) to generate high-quality MS2 spectra from data-independent acquisition in multi-sample studies (Urine assay)",
+                "description": "<p>Data-independent acquisition mass spectrometry (DIA-MS) is essential for information-rich spectral annotations in untargeted metabolomics. However, the acquired MS2 spectra are highly complex, posing significant annotation challenges. We have developed a correlation-based deconvolution (CorrDec) method that uses ion abundance correlations in multi-sample studies using DIA-MS as an update of our MS-DIAL software. CorrDec is based on the assumption that peak intensities of precursor and fragment ions correlate across samples, and exploits this quantitative information to deconvolute complex DIA spectra. CorrDec clearly improved deconvolution of the original MS-DIAL deconvolution method (MS2Dec) in a dilution series of chemical standards and a 224-sample urinary metabolomics study. The primary advantage of CorrDec over MS2Dec is the ability to discriminate co-eluting low-abundance compounds. CorrDec requires the measurement of multiple samples to successfully deconvolute DIA spectra, and our randomized assessment demonstrated that CorrDec can contribute to studies with as few as 10 unique samples. The presented methodology improves compound annotation and identification in multi-sample studies and will be useful for applications in large cohort studies.</p><p><br></p><p><strong>Urine assay</strong> is reported in the current study <a href='https://www.ebi.ac.uk/metabolights/MTBLS816' rel='noopener noreferrer' target='_blank'><strong>MTBLS816</strong></a>.</p><p><strong>Chemical standards assay</strong> is reported in <a href='https://www.ebi.ac.uk/metabolights/MTBLS787' rel='noopener noreferrer' target='_blank'><strong>MTBLS787</strong></a>.</p>",
+                "submissionDate": "2018-12-25",
+                "publicReleaseDate": "2020-07-13",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Tada",
+                        "lastName": "Ipputa",
+                        "email": "tipputa@nig.ac.jp",
+                        "affiliation": "Department of Genetics, SOKENDAI (Graduate University for Advanced Studies), Shizuoka, Japan",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Tsugawa",
+                        "lastName": "Hiroshi",
+                        "email": "hiroshi.tsugawa@riken.jp",
+                        "affiliation": "RIKEN Center for Sustainable Resource Science, Yokohama, Kanagawa, Japan",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Romanas",
+                        "lastName": "Chaleckis",
+                        "email": "romanas.chaleckis@gmail.com",
+                        "affiliation": "Gunma University Initiative for Advanced Research (GIAR), Gunma University, Gunma, Japan and Division of Physiological Chemistry 2, Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Stockholm, Sweden ",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Isabel",
+                        "lastName": "Meister",
+                        "email": "isabel.meister@gunma-u.ac.jp",
+                        "affiliation": "Gunma University Initiative for Advanced Research (GIAR), Gunma University, Gunma, Japan and Division of Physiological Chemistry 2, Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Stockholm, Sweden ",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Pei",
+                        "lastName": "Zhang",
+                        "email": "peizhang@gunma-u.ac.jp",
+                        "affiliation": "Gunma University Initiative for Advanced Research (GIAR), Gunma University, Gunma, Japan and Division of Physiological Chemistry 2, Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Stockholm, Sweden ",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Craig",
+                        "lastName": "Wheelock",
+                        "email": "craig.wheelock@ki.se",
+                        "affiliation": "Gunma University Initiative for Advanced Research (GIAR), Gunma University, Gunma, Japan and Division of Physiological Chemistry 2, Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Stockholm, Sweden ",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "E",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Masanori",
+                        "lastName": "Arita",
+                        "email": "arita@nig.ac.jp",
+                        "affiliation": "National Institute of Genetics, Shizuoka, Japan",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Nikolaos",
+                        "lastName": "Lazarinis",
+                        "email": "Nikolaos.Lazarinis@ki.se",
+                        "affiliation": "Karolinska University Hospital Huddinge, Stockholm, Sweden",
+                        "address": "Division of Respiratory Medicine and Allergy, Department of Medicine, Karolinska University Hospital Huddinge, Stockholm, Sweden.",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Barbro",
+                        "lastName": "Dahl\u00e9n",
+                        "email": "Barbro.Dahlen@ki.se",
+                        "affiliation": "Karolinska University Hospital Huddinge, Stockholm, Sweden",
+                        "address": "Division of Respiratory Medicine and Allergy, Department of Medicine, Karolinska University Hospital Huddinge, Stockholm, Sweden.",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000524"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Correlation-based Deconvolution (CorrDec) to generate high-quality MS2 spectra from data-independent acquisition in multi-sample studies",
+                        "authorList": "Tada Ipputa, Chaleckis Romanas, Tsugawa Hiroshi, Meister Isabel, Zhang Pei, Lazarinis Nikolaos, Dahl\u00e9n Barbro, Wheelock Craig E., Arita Masanori",
+                        "pubMedID": "",
+                        "doi": "10.1021/acs.analchem.0c01980",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sample",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C43359"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Batch",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "block",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005067"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Urine for metabolomics analysis was stored at \u221270 \u00b0C until assay. The non-targeted AIF metabolomics data of the urine samples from asthma study was used (detailed description can be found in the original publication<strong>[1]</strong>) to investigate CorrDec performance.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Lazarinis N, Bood J, Gomez C, Kolmert J, Lantz AS, Gyllfors P, Davis A, Wheelock CE, Dahl\u00e9n SE, Dahl\u00e9n B. Leukotriene E4 induces airflow obstruction and mast cell activation through the cysteinyl leukotriene type 1 receptor. J Allergy Clin Immunol. 2018 Oct;142(4):1080-1089. doi:10.1016/j.jaci.2018.02.024. PMID:29518425</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For non-targeted AIF metabolomics samples were prepared as described previously<strong>[1]</strong> with the following modifications. Urine samples (n = 224) and quality control (QC) sample pooled from all study samples were first normalized to SG of 1.0025. Then samples were diluted 10-fold with acetonitrile containing internal standards (see <strong>Table S6</strong> in the paper associated with this study). Samples were measured in four analytical batches, each batch consisting of 49-63 samples with QC sample injections every 5 samples and a water blank at the end of the batch sequence (see <strong>Table S8</strong> in the paper associated with this study). Each batch was prepared separately before analysis and samples kept at 10 \u00b0C in the autosampler until LC-MS measurement. </p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Chaleckis R, Naz S, Meister I, Wheelock CE. LC-MS-Based Metabolomics of Biofluids Using All-Ion Fragmentation (AIF) Acquisition. Methods Mol Biol. 2018;1730:45-58. doi:10.1007/978-1-4939-7592-1_3. PMID:29363064</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Solvents used for the LC-MS analysis and sample preparation were of LC-MS grade and purchased from Wako (Japan). LC-MS measurements in AIF mode were performed as described previously[1][2]. Briefly, metabolite separation was performed on a HILIC SeQuant ZIC-HILIC (Merck, Darmstadt, Germany) column 100 A\u030a (100 x 2.1 mm, 3.5 \u03bcm particle size) coupled to a guard column (2.1 x 20 mm, 3.5 \u03bcm particle size). Sample analysis was performed using water with 0.1% formic acid (pH 2.63; solvent A) and acetonitrile with 0.1% formic acid (solvent B). The elution gradient used was as follows: isocratic step at 95% B for 1.5 min, 95 to 40% B in 12 min, maintained at 40% B for 2 min, then decreasing to 25% B at 14.2 min, maintained for 2.8 min, then returned to initial conditions over 1 min, and a column re-equilibration phase of 7 min. The flow rate was 0.3 ml/min, injection volume 2 \u03bcl, and the column oven was maintained at 25 \u00b0C. </p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Naz S, Gallart-Ayala H, Reinke SN, Mathon C, Blankley R, Chaleckis R, Wheelock CE. Development of a Liquid Chromatography-High Resolution Mass Spectrometry Metabolomics Method with High Specificity for Metabolite Identification Using All Ion Fragmentation Acquisition. Anal Chem. 2017 Aug 1;89(15):7933-7942. doi:10.1021/acs.analchem.7b00925. PMID:28641411</p><p><strong>[2]</strong> Chaleckis R, Naz S, Meister I, Wheelock CE. LC-MS-Based Metabolomics of Biofluids Using All-Ion Fragmentation (AIF) Acquisition. Methods Mol Biol. 2018;1730:45-58. doi:10.1007/978-1-4939-7592-1_3. PMID:29363064</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data was acquired in positive ionization mode on an Agilent 6550 Q-TOF-MS system in centroid mode. Nitrogen was used as a sheath gas and drying gas at a flow of 8 and 15 l/min, respectively. The drying and sheath gas temperature was set at 250 \u00b0C with the nebulizer pressure at 35 psig and voltage 3000 V. Data was obtained with a mass range of 40\u22121200 m/z in AIF mode including 3 sequential experiments at alternating collision energies: 1 full scan at 0 eV (fragmentor voltage 380 V), followed by 1 MS/MS scan at 10 eV (fragmentor voltage at 175 V), and then followed by 1 MS/MS scan at 30 eV (fragmentor voltage at 380 V). The data acquisition rate was 6 scans/s.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data was transformed from Agilent .d format to .abf format using <a href='https://www.reifycs.com/AbfConverter/' rel='noopener noreferrer' target='_blank'>Reifycs Abf (Analysis Base File) Converter</a> for the analysis in the MS-DIAL software as described in the publication associated with this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data was analysed using MS-DIAL software as described in the publication associated with this study.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS816_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

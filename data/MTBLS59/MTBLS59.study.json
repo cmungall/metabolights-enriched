@@ -1,0 +1,630 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-06-20T15:11:52",
+        "statusUpdateTime": "2016-06-20T15:11:52",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS59",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2013-10-14",
+        "publicReleaseDate": "2013-10-24",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "26",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NIFSTD",
+                "file": "http://data.bioontology.org/ontologies/NIFSTD",
+                "version": "21",
+                "description": "Neuroscience Information Framework (NIF) Standard Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS59",
+                "filename": "s_MTBLS59.txt",
+                "title": "A benchmark spike-in data set for biomarker identification in metabolomics",
+                "description": "The development and the validation of innovative approaches for biomarker selection are of paramount importance in many -omics technologies. Unfortunately, the actual testing of new methods on real data is difficult, because in real data sets, one can never be sure about the \u201ctrue\u201d biomarkers. In this paper, we present a publicly available metabolomic ultra performance liquid chromatography\u2013mass spectrometry spike-in data set for apples. The data set consists of 10 control samples and three spiked sets of the same size (G1,G2,G3), where naturally occurring compounds are added in different concentrations. In this sense, the data set can serve as a test bed to assess the performance of new algorithms (eg. biomarker selection, peak picking, etc.) and compare them with previously published results. The dataset includes the raw CDF files for all the injections. The raw data are organized in four assays: positive ion mode, negative ion mode, injections of the standard mixes (in both positive and negative ion modes). The spiked compounds are: epicatechin (CHEBI 90), catechin (CHEBI 15600), cyanidin-3-galactoside (CHEBI 27475), quercetin-3-galactoside (CHEBI 67486), quercetin-3-glucoside (CHEBI 28299), quercetin-3-rhamnoside (CHEBI 17558), resveratrol (CHEBI 27881), phloridzin (CHEBI 8113), quercetin (CHEBI 16243). All the compounds except resveratrol and cyanidin-3-galactoside are known to be present in the apple extracts. Spiking concentrations have been defined taking as a reference the ones measured in a pooled apple extract. A detailed description of the spiking concentration in the three group is included in the spiking.pdf file.",
+                "submissionDate": "2013-10-14",
+                "publicReleaseDate": "2013-10-24",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Pietro",
+                        "lastName": "Franceschi",
+                        "email": "pietro.franceschi@fmach.it",
+                        "affiliation": "Biostatistics and Data Management - Fondazione E. Mach",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ron",
+                        "lastName": "Wehrens",
+                        "email": "ron.wehrens@fmach.it",
+                        "affiliation": "Biostatistics and Data Management - Fondazione E. Mach",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Benchmarking dataset",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NIFSTD",
+                            "file": "http://data.bioontology.org/ontologies/NIFSTD",
+                            "version": "21",
+                            "description": "Neuroscience Information Framework (NIF) Standard Ontology"
+                        },
+                        "termAccession": "http://ontology.neuinfo.org/NIF/DigitalEntities/NIF-Investigation.owl#nlx_inv_20090406"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "metabolomic profiling",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000752"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "spiking",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002852"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A benchmark spike-in data set for biomarker identification in metabolomics.",
+                        "authorList": "Pietro Franceschi, Domenico Masuero, Urska Vrhovsek, Fulvio Mattivi, Ron Wehrens",
+                        "pubMedID": "",
+                        "doi": "10.1002/cem.1420",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "Stability-based biomarker selection.",
+                        "authorList": "Wehrens R, Franceschi P, Vrhovsek U, Mattivi F.",
+                        "pubMedID": "21962342",
+                        "doi": "10.1016/j.aca.2011.01.039",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Spiking",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43359"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Apple Sample",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "biological replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002091"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Twenty apples, variety Golden Delicious, have been purchased locally. Extracts of every single fruit were prepared as shown previously [1]. The core of the fruit was removed with a corer, and each apple was cut into equal slices. Three slices (cortex and skin) from the opposite side of each fruit were used for the preparation of aqueous acetone extracts.\n</p>\nRef:</br>\n[1] Vrhovsek U, Rigo A, Tonon D, Mattivi F. Quantitation of polyphenols in different apple varieties. J Agric Food Chem. 2004 Oct 20;52(21):6532-8. PMID:15479019</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The samples were homogenized in a blender Osterizer mod. 847-86 (Oster GmbH, Germany) at speed one in a mixture of acetone/water (70/30 w/w).\n</p>\nExtracts of 10 apples were used as controls, and the extracts of the other 10 apples were used to create the spiked samples. The latter were divided into three aliquots and spiked with different concentrations of known compounds. The full data set, then, consists of four groups of 10 samples each. The concentrations and nature of the spiking compounds were chosen in order to simulate the conditions of a typical two-class metabolomic experiment. Some of these biomarkers are known to be naturally present in Golden Delicious apples, and for these, an artificial increase of concentration simulates their relative accumulation in tissues. Two compounds not naturally present in the matrix were also added (trans-resveratrol and cyanidin-3-galactoside), with the objective of simulating the biological synthesis of a new compound. The concentration of the biomarkers was chosen by taking as a reference the concentrations of the biomarker compounds measured in a pooled apple extract. The spiking concentration was constant in each group, but the use of different extracts conserves the absolute natural variation in marker levels between apples. As a consequence, any variation in concentration comes from analytical or biological variability. In each of the three groups, the spiking compounds are added in different concentrations, corresponding to approximate target increases of 20%, 40%, and 100%; in this way, for example, group 1 has 100% increase of quercetin-3-rhamnoside and phloridzin. The concentrations of trans-resveratrol and cyanidin-3-galactoside were chosen in such a way that the peak intensities should be in line with those of the other spike-in compounds.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Before the injection, acetone was evaporated by rotary evaporation, the samples were brought back to the original volume with ethanol and were filtered with a 0.22 \u00b5m filter (Millipore, Bedford, USA).\n</p>\nUltra performance liquid chromatography\u2013mass spectrometry spectra were acquired on an ACQUITY\u2013SYNAPT Q-TOF (Waters, Milford, USA) in positive and negative ion mode with the following chromatographic conditions:</br>\nColumn: BEH C18 1.7 um, 2.1 x 50mm; Column temperature 40 \u00b0C; Injection volume 5 \u00b5l; Eluent flux 0.8 ml/min; Solvent A 0.1% formic acid in H2O; Solvent B 0.1% formic acid in MeOH; Gradient: Linear gradient from 0% to 100% of solvent B in 10 min, 100% of B for 2 min, 100% A within 0.1min, Equilibration for 2.9 min.\n</p>\nNo technical replicates were performed.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Ultra performance liquid chromatography\u2013mass spectrometry spectra were acquired on an ACQUITY\u2013SYNAPT Q-TOF (Waters, Milford, USA) in positive and negative ion mode with the following mass spectrometry conditions:</br>\nMass spectrometer: SYNAPT Q-TOF (Waters); Mass range 50\u20133000 Da; Capillary 3 kV; Sampling cone 25 V; Extraction cone 3 V; Source temperature 150 \u00b0C; Desolvation temperature 500 \u00b0C; Cone gas flow 50 l/h; Desolvation gas flow 1000 l/h.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw data were transformed to the open NetCDF format by the DataBridge built-in utility of the MassLynx software (Waters Corp., Milford, MA).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The CDF files were imported into R [1], which was used for the data analysis, with the XCMS package [2]. Feature detection was performed on the full data set using the matched-filter algorithm [2] with the following parameters: fwhm=20, max=50, snthresh=4, step=0.05. After peak picking, only features present in at least one-half of the 10 samples of one of the four groups were retained, thus keeping the default value for the \u201cgroup\u201d function in XCMS. A linear retention time correction was performed, followed by the re-analysis of the profile data at the positions of missing peaks (peak filling). No further processing of the peak intensities (e.g., normalization) was performed.\n</p>\nFeature list annotation was performed by the R package CAMERA [3] with default parameters. The resulting annotated peak lists contain columns giving retention time and m/z value of each feature, one column for the isotope annotation, one for the common adducts, and one for the group number. The latter is obtained by clustering the features considering their retention time and the correlation between the extracted ion chromatograms to identify co-eluting ions. As a result of this procedure, the features are grouped into groups (\u201cpcgroups\u201d), which are likely to be related to the same metabolite.\n</p>\nTo construct a data base containing the features corresponding to the spiked compounds, two standard mixtures were subject to the same analytical pipeline. The first mixture contained catechin, epicatechin, cyanidin-3-galactoside, quercetin-3-glucoside, and quercetin-3-rhamnoside; the second contained catechin, quercetin, trans-resveratrol, phloridzin, and quercetin-3-galactoside. In keeping to what was performed on the apple extract, peak picking on each chromatogram was performed by XCMS, with the same parameters used for the samples.\n</p>\nRef:</br>\n[1] Team R D C. R: A Language and Environment for Statistical Computing. Vienna, Austria, 2011. ISBN 3-900051-07-0.</br>\n[2] Smith CA, Want EJ, O'Maille G, Abagyan R, Siuzdak G. XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification. Anal Chem. 2006 Feb 1;78(3):779-87. PMID:16448051</br>\n[3] Kuhl C, Tautenhahn R, Neumann S. CAMERA: collection of annotation related methods for mass spectrometry data, 2010. R package version 1.5.9.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS59_pos_std_mix_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS59_pos_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS59_neg_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS59_neg_std_mix_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,556 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-08-30T00:00:00",
+        "statusUpdateTime": "2022-08-30T10:25:24.052101",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2427",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-01-27",
+        "publicReleaseDate": "2021-03-15",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2427",
+                "filename": "s_MTBLS2427.txt",
+                "title": "The impact of nutritional supplementation on sweat metabolomic content",
+                "description": "Sweat is emerging as a prominent biosource for real-time human performance monitoring applications. Although promising, sources of variability must be identified to truly utilize sweat for biomarker applications. In this proof-of-concept study, a targeted metabolomics method was applied to sweat collected from the forearms of participants in a 12-week exercise program who ingested either low or high nutritional supplementation twice daily. The data establish the use of dried powder mass as a method for metabolomic data normalization from sweat samples. Additionally, the results support the hypothesis that ingestion of regular nutritional supplementation semi-quantitatively impact the sweat metabolome. For example, a receiver operating characteristic (ROC) curve of relative normalized metabolite quantities show an area under the curve of 0.82 suggesting the sweat metabolome can moderately predict if an individual is taking nutritional supplementation. Finally, a significant correlation between physical performance and the sweat metabolome are established. For instance, the data illustrate that by utilizing multiple linear regression modeling approaches, sweat metabolite quantities can predict VO<sub>2</sub> max (<i>p</i> = 0.0346), peak lower body Windage (<i>p</i> = 0.0112), and abdominal circumference (<i>p</i> = 0.0425). The results illustrate the need to account for dietary nutrition in biomarker discovery applications involving sweat as a biosource.",
+                "submissionDate": "2021-01-27",
+                "publicReleaseDate": "2021-03-15",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Sean",
+                        "lastName": "Harshman",
+                        "email": "Sean.harshman@wright.edu",
+                        "affiliation": "UES Inc, Air Force Research Laboratory",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "W.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jennifer",
+                        "lastName": "Martin",
+                        "email": "Jennifer.martin.39@us.af.mil",
+                        "affiliation": "Air Force Research Laboratory",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "A",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "diet",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002755"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "biomarker",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_59163"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The Impact of Nutritional Supplementation on Sweat Metabolomic Content: A Proof-of-Concept Study",
+                        "authorList": "Harshman Sean W., Browder Andrew B., Davidson Christina N., Pitsch Rhonda L., Strayer Kraig E., Schaeublin Nicole M., Phelps Mandy S., O'Connor Maegan L., Mackowski Nicholas S., Barrett Kristyn N., Eckerle Jason J., Strang Adam J., Martin Jennifer A.",
+                        "pubMedID": "34026725",
+                        "doi": "10.3389/fchem.2021.659583",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Gender",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Gender",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17357"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sampling time",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Study participant",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Participant",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C29867"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Nutritional supplementation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Nutritional Supplementation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C15425"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>All volunteer human subjects (n=13) were male members of the United States Air Force of variable age (19-35) and rank stationed at Wright-Patterson Air Force Base (AFB) in Dayton, Ohio, USA. Permission to perform human subjects research was obtained, prior to the study's start, from the Wright-Patterson AFB Institutional Review Board (IRB  FWR20150032H). Volunteers were informed of the protocol and permitted to ask questions, then provided informed written consent to participate.</p><p><br></p><p>Participants' sweat was sampled during an ongoing physical fitness and nutritional intervention study within the Air Force Research Laboratory<strong>[1]</strong>. Prior to (Pre) and following (Post) the 12-week fitness program, physical performance was evaluated by measuring weight, VO2 max, resting heart rate (HR), abdominal circumference (Ab Circ), %body fat, push-ups, sit-ups, and upper body (UBW) and lower body Wingate (LBW) testing as outlined previously<strong>[1]</strong>. Additionally, as part of the previous experiment<strong>[1]</strong>, volunteers were provided a twice daily (7 days a week for 12 weeks), orally ingested, liquid high nutritional dietary supplementation (n=7) or low nutritional supplementation (n=6) drink. Finally, study participants performed programmed daily (Monday through Friday) strength training and/or cardiovascular exercise routines over the 12-week period. See <strong>Data S1</strong>, <strong>S2</strong>, and <strong>S3</strong> in the paper associated with this study for additional information regarding the experiment design, physical performance evaluation results, and participant exercise information.</p><p><br></p><p>Sweat was collected from forearms of participants performing their routine cardio workout on either a stationary bike, elliptical, or treadmill, as part of the larger previous experiment<strong>[1]</strong>, on weeks 1, 5, 6, or 7, and week 12 (see <strong>Data S1</strong> in the paper associated with this study). Week 5, 6, or 7 was used as a mid-point collection due to less than 100% attendance among participants. The temperature and humidity (%RH) within the exercise laboratory was measured during collection with a Kestrel 4500NV weather tracker (Temperature: 22.2 \u00b1 1.3 \u00baC, %RH: 0.2%, see <strong>Data S4</strong> in the paper associated with this study). Percent max heart rate (%maxHR), determined during a prior VO2 max test was utilized to regulate intensity among workouts (Parvo Medics, Sandy, UT, USA). Workouts consisted of periods of variable %maxHR over a 22-min exercise program. Please see <strong>Data S3</strong> in the paper associated with this study, for a summary of the exercise protocols, exercises performed, and training loads from exercises.</p><p><br></p><p>Sweat was collected via a forearm patch, as described previously<strong>[2][3]</strong>. Briefly, both forearms at the inner side of the arm between the elbow and wrist with minimal hair were wiped thoroughly with a brand new 2-propanol wipe (BD Biosciences, San Jose, CA, USA). Following, each forearm was rinsed for 5-10 s with tap water and allowed to air dry. As previously described<strong>[3]</strong>, a modified patch was applied to the center, estimated as the hairless area approximately at the middle between the elbow and wrist, of the dried forearm. </p><p><br></p><p>Immediately at the conclusion of the exercise, free sweat within the patch was aspirated with a 5 ml syringe and needle, blunt tipped (needle and syringe, Hamilton, Reno, NV, USA). The aspirate was placed in the top of a 0.1 \u03bcm polyvinylidene difluoride (PVDF) centrifugal filter, 1 filter per arm (Ultrafree-CL PVDF filter, Millipore, Burlington, MA, USA). Additionally, the nylon piece from the collection pouch was added to the corresponding arm's centrifugal filter, using forceps, and both filters were spun at 3,000 x g for 10 min. The filtrates, from both arms were pooled together. A 100 \u03bcl aliquot and a 20 \u03bcl aliquot of the pooled filtered sweat were made to perform sweat pH and chloride measurements, as described in the next sections. Additionally, a 250 \u03bcl aliquot of the combined filtered sweat was placed into a dried, pre-weighed lo-bind Eppendorf tube and frozen on liquid nitrogen (balance, Mettler Toledo, Columbus, Ohio, USA, Eppendorf, Hamburg, Germany). Aliquots were lyophilized to dryness, reweighed, and stored at -80 \u00baC until use (Labconco, Kansas City, MO, USA). The mass of the dried sweat was determined by subtracting the dried sweat mass from the dried empty tube mass. Please see <strong>Data S5</strong> in the paper associated with this study, for the determined dried sweat masses.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Zwilling CE, Strang A, Anderson E, Jurcsisn J, Johnson E, Das T, Kuchan MJ, Barbey AK. Enhanced physical and cognitive performance in active duty Airmen: evidence from a randomized multimodal physical fitness and nutritional intervention. Sci Rep. 2020 Oct 19;10(1):17826. doi:10.1038/s41598-020-74140-7. Erratum in: Sci Rep. 2021 Feb 9;11(1):3820. PMID:33077817.</p><p><strong>[2]</strong> Brisson GR, Boisvert P, P\u00e9ronnet F, Perrault H, Boisvert D, Lafond JS. A simple and disposable sweat collector. Eur J Appl Physiol Occup Physiol. 1991;63(3-4):269-72. doi:10.1007/BF00233860. Erratum in: Eur J Appl Physiol 1993;66(6):552. PMID:1761019.</p><p><strong>[3]</strong> Harshman SW, Pitsch RL, Schaeublin NM, Smith ZK, Strayer KE, Phelps MS, Qualley AV, Cowan DW, Rose SD, O'Connor ML, Eckerle JJ, Das T, Barbey AK, Strang AJ, Martin JA. Metabolomic stability of exercise-induced sweat. J Chromatogr B Analyt Technol Biomed Life Sci. 2019 Sep 15;1126-1127:121763. doi:10.1016/j.jchromb.2019.121763. PMID:31430684.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>All metabolomics samples were reconstituted in 250 \u03bcl of 50% acetonitrile (aq) supplemented with 30 \u03bcM of each isotopically labeled standard: taurine, choline, creatinine, citrulline, pyrrolidine, alanine, arginine, glutamic acid, histidine, isoleucine, leucine, lysine, methionine, phenylalanine, proline, tyrosine and valine (Resuspension Buffer, solvents: Optima Grade, ThermoFisher Scientific, Waltham, MA, USA). Please see Data S6 in the paper associated with this study, for information regarding the isotopic label, manufacturer, and purity. Samples were thoroughly mixed. 10 \u03bcl of each sample were removed, combined to create a pooled sample, and thoroughly mixed. The samples and pooled sample were transferred to vials for liquid chromatography mass spectrometry (LC-MS) analysis. All samples were run in a random order determined within the Microsoft Excel program using the RANDBETWEEN function (Redmond, WA, USA). Pooled samples were analyzed after every 10 unknown sweat samples with blank injections (50% acetonitrile (aq)) run after every sweat sample and pooled sample.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>All sweat samples, pooled samples, standard curves, and blanks (2 \u03bcl injections) were separated via hydrophilic interaction liquid chromatography (HILIC) on a Vanquish Horizon UPLC system paired with high resolution accurate mass (HRAM) detection on a Q-Exactive HF mass spectrometer (Thermo Fisher Scientific). Separations were performed at 170 \u03bcl/min using a Waters Acquity BEH Amide column (130 \u00c5, 1.7 \u03bcm, 2.1 mm x 100 mm) with mobile phase A consisting of 10 mM ammonium formate in 4.5% acetonitrile (aq) and mobile phase B consisting of 10 mM ammonium formate in 95.5% acetonitrile (aq) (MS grade, &gt;=99.0%, Sigma Aldrich, St. Louis, MO, USA). A 30-min gradient of mobile phases was run, beginning with 90% mobile phase B for 5 min. The %B transitioned to 65% at 18.5 min and held at 65% for 5 min (23.5 min). The gradient returned to 90% B at 24.5 min and remained at 90% B for the remainder of the run.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Q-Exactive HF mass spectrometer (Thermo Fisher Scientific) source was operated in positive ionization mode with 3.5 kV spray voltage, 250 \u00baC capillary temperature, and sheath gas of 30. The intact mass scans were acquired at 60,000 resolution over a 65 to 400 m/z range (profile) with a 1 x 10^6 AGC target and a 50 ms maximum ion accumulation time.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Calibration curves for 23 compounds previously identified in human sweat, were generated in Resuspension Buffer across various ranges (5 and 300 \u03bcM)<strong>[1]-[9]</strong>. Calibration curves were analyzed, in increasing concentration, by LC-MS at the beginning, middle, and end of the overall sample analyses, as described in the following section. Peak areas and retention times for each compound, including the isotopically labeled compounds, were determined using the Tracefinder EFS software package (v. 3.2, Thermo Fisher Scientific). Calibration curves were created for each individual compound by plotting theoretical concentration, in \u03bcM, on the x-axis and the unlabeled/isotopically labeled peak area ratio of all calibrant injections on the y-axis. A line of best fit was fit to the data and an equation of the line was generated (Prism Graphpad Software, v. 9.0, La Jolla, CA, USA). For those compounds where an isotopically labeled version of the compound were unavailable, raw peak areas of all calibrant injections were plotted on the y-axis rather than the unlabeled/isotopically labeled peak area ratios. Please see <strong>Data S7</strong> in the paper associated with this study, for individual compound: quantitative ion, calibration ranges, line of best fit equation, and R2 value of the best fit line. </p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Liappis N, Kelderbacher SD, Kesseler K, Bantzer P. Quantitative study of free amino acids in human eccrine sweat excreted from the forearms of healthy trained and untrained men during exercise. Eur J Appl Physiol Occup Physiol. 1979;42(4):227-34. doi:10.1007/BF00423292. PMID:535594.</p><p><strong>[2]</strong> Calder\u00f3n-Santiago M, Priego-Capote F, Jurado-G\u00e1mez B, Luque de Castro MD. Optimization study for metabolomics analysis of human sweat by liquid chromatography-tandem mass spectrometry in high resolution mode. J Chromatogr A. 2014 Mar 14;1333:70-8. doi:10.1016/j.chroma.2014.01.071. PMID:24529403.</p><p><strong>[3]</strong> Calder\u00f3n-Santiago M, Priego-Capote F, Turck N, Robin X, Jurado-G\u00e1mez B, Sanchez JC, Luque de Castro MD. Human sweat metabolomics for lung cancer screening. Anal Bioanal Chem. 2015 Jul;407(18):5381-92. doi:10.1007/s00216-015-8700-8. PMID:25935675.</p><p><strong>[4]</strong> Dutkiewicz EP, Lin JD, Tseng TW, Wang YS, Urban PL. Hydrogel micropatches for sampling and profiling skin metabolites. Anal Chem. 2014 Mar 4;86(5):2337-44. doi:10.1021/ac4039338. PMID:24517117.</p><p><strong>[5]</strong> Hooton K, Han W, Li L. Comprehensive and Quantitative Profiling of the Human Sweat Submetabolome Using High-Performance Chemical Isotope Labeling LC-MS. Anal Chem. 2016 Jul 19;88(14):7378-86. doi:10.1021/acs.analchem.6b01930. PMID:27351466.</p><p><strong>[6]</strong> Macedo AN, Mathiaparanam S, Brick L, Keenan K, Gonska T, Pedder L, Hill S, Britz-McKibbin P. The Sweat Metabolome of Screen-Positive Cystic Fibrosis Infants: Revealing Mechanisms beyond Impaired Chloride Transport. ACS Cent Sci. 2017 Aug 23;3(8):904-913. doi:10.1021/acscentsci.7b00299. PMID:28852705.</p><p><strong>[7]</strong> Delgado-Povedano MM, Calder\u00f3n-Santiago M, Luque de Castro MD, Priego-Capote F. Metabolomics analysis of human sweat collected after moderate exercise. Talanta. 2018 Jan 15;177:47-65. doi:10.1016/j.talanta.2017.09.028. PMID:29108583.</p><p><strong>[8]</strong> Harshman SW, Pitsch RL, Smith ZK, O'Connor ML, Geier BA, Qualley AV, Schaeublin NM, Fischer MV, Eckerle JJ, Strang AJ, Martin JA. The proteomic and metabolomic characterization of exercise-induced sweat for human performance monitoring: A pilot investigation. PLoS One. 2018 Nov 1;13(11):e0203133. doi:10.1371/journal.pone.0203133. PMID:30383773.</p><p><strong>[9]</strong> Harshman SW, Pitsch RL, Schaeublin NM, Smith ZK, Strayer KE, Phelps MS, Qualley AV, Cowan DW, Rose SD, O'Connor ML, Eckerle JJ, Das T, Barbey AK, Strang AJ, Martin JA. Metabolomic stability of exercise-induced sweat. J Chromatogr B Analyt Technol Biomed Life Sci. 2019 Sep 15;1126-1127:121763. doi:10.1016/j.jchromb.2019.121763. PMID:31430684.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Peak areas and retention times for pooled samples and unknown sweat samples were determined using the Tracefinder EFS software and quantitative ions as described for the calibration standards. The quantitative values for each unknown and pooled sample injection were determined by inputting the unlabeled/isotopically labeled peak area ratio or peak area for those compounds without an isotopically labeled compound pair in to the equation (y) of the line of best fit for each individual compound and solving for x (see <strong>Data S7</strong> in the paper associated with this study).</p><p><br></p><p>Basic statistical analysis was performed within the Prism Graphpad Software Suite (v. 9.0.0, LaJolla, CA, USA). All additional statistical analyses were performed using RStudio software suite (Boston, MA, USA). PCA plots and heatmaps were illustrated using '<strong>heatmap.2</strong>' and '<strong>ggbiplo</strong>t' packages.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS2427_LC-MS_positive_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

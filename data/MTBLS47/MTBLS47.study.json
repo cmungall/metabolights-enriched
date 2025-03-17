@@ -1,0 +1,474 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-06-07T16:48:28",
+        "statusUpdateTime": "2016-06-07T16:48:28",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS47",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2013-07-01",
+        "publicReleaseDate": "2014-03-01",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS47",
+                "filename": "s_MTBLS47.txt",
+                "title": "Metabolomic Characterization of Knock-Out Mutants in Arabidopsis - Development of a Metabolite Profiling Database for Knock-Out Mutants in Arabidopsis (MeKO)",
+                "description": "Despite recent intensive research efforts in functional genomics, the functions of only a limited number of Arabidopsis (Arabidopsis thaliana) genes have been determined experimentally. Thus, improving gene annotation remains a major challenge in plant science. Because metabolite profiling can characterize the metabolomic phenotype of a genetic perturbation of plant metabolism, it provides clues to the function of genes of interest. In this regard, we chose 50 Arabidopsis mutants including a set of characterized and uncharacterized mutants, which resemble wild-type plants. We performed metabolite profiling of the plants using gas chromatography-mass spectrometry (GC-MS). To make the dataset available as an efficient public functional genomics tool for hypothesis generation, we developed the MeKO database, which allows evaluation of whether a mutation affects metabolism during normal growth. This database contains images of mutants, statistical data analyses, and data on differential metabolite accumulation. Non-processed data, including chromatograms, mass spectra, and experimental meta-data, follow the guidelines of the Metabolomics Standards Initiative (MSI) and are freely downloadable. Proof-of-concept analysis suggests that the MeKO database is highly useful for gene annotation and for generation of hypotheses for genes of interest. MeKO is publicly available at http://prime.psc.riken.jp/meko/.",
+                "submissionDate": "2013-07-01",
+                "publicReleaseDate": "2014-03-01",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Atsushi",
+                        "lastName": "Fukushima",
+                        "email": "a-fukush@psc.riken.jp",
+                        "affiliation": "RIKEN Plant Science Center",
+                        "address": "1-7-22, Yokohama, Kanagawa 230-0045, Japan",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "author",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "metabolomic profiling",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000752"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolomic Characterization of Knock-Out Mutants in Arabidopsis - Development of a Metabolite Profiling Database for Knock-Out Mutants in Arabidopsis (MeKO).",
+                        "authorList": "Atsushi Fukushima, Miyako Kusano, Mami Iwasa, Makoto Kobayashi, Naomi Hayashi, Akiko Watanabe-Takahashi, Tomoko Narisawa, Takayuki Tohge, Kazuki Saito",
+                        "pubMedID": "24828308",
+                        "doi": "http://dx.doi.org/10.1104/pp.114.240986",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Batch",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "block",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005067"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "As described in [1], sterilized seeds were stratified at 5 \u00b0C for 2 d, and were successively sown on Murashige and Skoog (MS) medium containing 1% sucrose. Plants were cultivated in controlled growth chambers at 22 \u00b0C in 16-h light and 8-h dark conditions for 18 d. The aerial regions were harvested with 20 different biological replicates, 6 h after the onset of the bright phase. All plant materials were frozen immediately in liquid nitrogen to quench enzymatic activity. Harvested samples with a fresh weight (FW) over 7 mg were used for GC-MS-based metabolite profiling. An equivalent of 55.6 \u00b5g of derivatized samples was injected.\n</p>\nRef:</br>\n[1] Kusano M, Fukushima A, Arita M, Jonsson P, Moritz T, Kobayashi M, Hayashi N, Tohge T, Saito K. Unbiased characterization of genotype-dependent metabolic regulations by metabolomic approach in Arabidopsis thaliana. BMC Syst Biol. 2007 Nov 21;1:53.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "As described in [1], each sample was extracted with a concentration of 5 mg fresh weight of tissues per ml extraction medium (methanol/chloroform/water [3:1:1 v/v/v]) containing 10 stable isotope reference compounds using a Retsch mixer mill MM310 at a frequency of 30 Hz for 3 min at 4 \u00b0C. Each isotope was adjusted to a final concentration of 15 ng per \u00b5l injection. After centrifugation for 5 min at 15,100 x g, 100 \u00b5l of the supernatant was used for further analysis. The extracts were evaporated to dryness in a Savant SPD2010 SpeedVac Concentrator (Thermo Electron Corporation, Waltham, MA, USA).\n</p>\nDerivatization:</br>\nFor methoximation, 30 \u00b5l of methoxyamine hydrochloride (20 mg/ml in pyridine) was added to the sample. After 24 h of derivatization at room temperature, the sample was trimethylsilylated for 1 h using 30 \u00b5l of MSTFA with 1% TMCS at 37 \u00b0C with shaking. After silylation, 20 \u00b5l of n-heptane was added. All the derivatization steps were performed in the vacuum glove box VSC-100 (Sanplatec, Japan) filled with 99.9995% (G3 grade) of dry nitrogen.\n</p>\nRef:</br>\n[1] Kusano M, Fukushima A, Arita M, Jonsson P, Moritz T, Kobayashi M, Hayashi N, Tohge T, Saito K. Unbiased characterization of genotype-dependent metabolic regulations by metabolomic approach in Arabidopsis thaliana. BMC Syst Biol. 2007 Nov 21;1:53.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "As described in [1], 1\u00b5l of each sample was injected in the splitless mode by an CTC CombiPAL autosampler (CTC analytics, Zwingen, Switzerland) into an Agilent 6890N gas chromatograph (Agilent Technologies, Wilmingston, USA) equipped with a 30 m x 0.25 mm inner diameter fused-silica capillary column with a chemically bound 0.25-\u00b5l film Rtx-5 Sil MS stationary phase (RESTEK, Bellefonte, USA) for metabolome analysis. Helium was used as the carrier gas at a constant flow rate of 1 ml/min. The temperature program for metabolome analysis started with a 2-min isothermal step at 80 \u00b0C and this was followed by temperature ramping at 30 \u00b0C to a final temperature of 320 \u00b0C, which was maintained for 3.5 min.\n</p>\nRef:</br>\n[1] Kusano M, Fukushima A, Arita M, Jonsson P, Moritz T, Kobayashi M, Hayashi N, Tohge T, Saito K. Unbiased characterization of genotype-dependent metabolic regulations by metabolomic approach in Arabidopsis thaliana. BMC Syst Biol. 2007 Nov 21;1:53.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The transfer line and the ion source temperatures were 250 and 200\u00b0C, respectively. Ions were generated with a 70-eV electron beam at an ionization current of 2.0 mA. Data acquisition was on a Pegasus IV TOF MS instrument (LECO, St. Joseph, MI, USA) at an acquisition rate of 30 spectra/s in the mass range of a mass-to-charge ratio of m/z = 60-800. The solvent delay was 237 s.\n</p>\nAlkane standard mixtures (C8-C20 and C21-C40) were purchased from Sigma-Aldrich (Tokyo, Japan) and used for calculating the retention index (RI). The normalized response for calculating the signal intensity of each metabolite from the mass-detector response was obtained with each selected ion current unique in each metabolite MS spectrum to normalize the peak response. For quality control, we injected methylstearate in every 6 samples. Quality control (QC) samples were prepared by mixing 100 \u00b5l of extracts of each wild-type sample. 6 QC samples per batch were run(30 samples in total).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Non-processed MS data from GC-TOF/MS analysis were exported in NetCDF format generated by chromatography processing and mass spectral deconvolution software, Leco ChromaTOF version 3.22 (LECO, St. Joseph, MI, USA) to MATLAB 6.5 (Mathworks, Natick, MA, USA), where all data-pretreatment procedures, such as smoothing, alignment, time-window setting, and peak deconvolution, were carried out by using hyphenated data analysis (HDA) [1][2].\n</p>\nRef:</br>\n[1] Jonsson P, Gullberg J, Nordstrom A, Kusano M, Kowalczyk M, Sjostrom M, Moritz T (2004) A strategy for identifying differences in large series of metabolomic samples analyzed by GC/MS. Anal Chem 76: 1738-1745. PMID:15018577</br>\n[2] Jonsson P, Johansson ES, Wuolikainen A, Lindberg J, Schuppe-Koistinen I, Kusano M, Sjostrom M, Trygg J, Moritz T, Antti H (2006) Predictive metabolite profiling applying hierarchical multivariate curve resolution to GC-MS data--a potential tool for multi-parametric diagnosis. J Proteome Res 5: 1407-1414. PMID:16739992</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The resolved MS spectra were matched against reference mass spectra using the NIST mass spectral search program for the NIST/EPA/NIH mass spectral library (version 2.0) and our custom software for peak annotation written in JAVA. Peaks were identified or annotated based on their RIs and a reference mass spectra comparison to the Golm Metabolome Database (GMD) and our in-house spectral library. The metabolites were identified by comparison with the RIs from library databases (GMD and our own library) and with the mass spectra of authentic standards, and the metabolites were defined as annotated metabolites upon comparison with the mass spectra and RIs from these two libraries. The 5 batches of metabolite profiles were combined using the HDA method [1][2]. To correct the \u201cbatch effect\u201d we applied COMBAT normalization [3] to our quality samples consisting of Col-0 wild-type plants for each batch. Data were normalized using the CCMN algorithm [4].\n</p>\nRef: </br>\n[1] Jonsson P, Gullberg J, Nordstrom A, Kusano M, Kowalczyk M, Sjostrom M, Moritz T (2004) A strategy for identifying differences in large series of metabolomic samples analyzed by GC/MS. Anal Chem 76: 1738-1745. PMID:15018577</br>\n[2] Jonsson P, Johansson ES, Wuolikainen A, Lindberg J, Schuppe-Koistinen I, Kusano M, Sjostrom M, Trygg J, Moritz T, Antti H (2006) Predictive metabolite profiling applying hierarchical multivariate curve resolution to GC-MS data--a potential tool for multi-parametric diagnosis. J Proteome Res 5: 1407-1414. PMID:16739992</br>\n[3] Johnson WE, Li C, Rabinovic A (2007) Adjusting batch effects in microarray expression data using empirical Bayes methods. Biostatistics 8: 118-127. PMID:16632515</br>\n[4] Redestig H, Fukushima A, Stenlund H, Moritz T, Arita M, Saito K, Kusano M (2009) Compensation for systematic cross-contribution improves normalization of mass spectrometry based metabolomics data. Anal Chem 81: 7974-7980. doi:10.1021/ac901143w. PMID:19743813</br>",
+                        "uri": "",
+                        "version": "MATLAB 6.5",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Leco Pegasus III",
+                        "filename": "a_MTBLS47_gc0003_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

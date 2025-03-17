@@ -1,0 +1,486 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-06-02T16:43:19",
+        "statusUpdateTime": "2016-06-02T16:43:19",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS38",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2014-02-07",
+        "publicReleaseDate": "2014-02-07",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "26",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS38",
+                "filename": "s_MTBLS38.txt",
+                "title": "Metabolite Standards for the development and validation of MassCascade",
+                "description": "A collection of biologically-relevant plant metabolite standards. The standards are fully semantically annotated with peak information, ChEBI identifiers, and chemical ontology. The standards were acquired on on a high-resolution LC-MS/MS Orbitrap instrument.",
+                "submissionDate": "2014-02-07",
+                "publicReleaseDate": "2014-02-07",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Stephan",
+                        "lastName": "Beisken",
+                        "email": "beisken@ebi.ac.uk",
+                        "affiliation": "European Bioinformatics Institute",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Mark",
+                        "lastName": "Earll",
+                        "email": "mark.earll@syngenta.com",
+                        "affiliation": "Syngenta Biosciences",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "MassCascade",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "reference compound",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BAO",
+                            "file": "http://data.bioontology.org/ontologies/BAO",
+                            "version": "26",
+                            "description": "BioAssay Ontology"
+                        },
+                        "termAccession": "http://www.bioassayontology.org/bao#BAO_0002092"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "MassCascade: Visual Programming for LC-MS Data Processing in Metabolomics.",
+                        "authorList": "Beisken S, Earll M, Portwood D, Seymour M, Steinbeck C.",
+                        "pubMedID": "26279687",
+                        "doi": "10.1002/minf.201400016",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1.0",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    }
+                ],
+                "factors": [],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Reference standards were commercially purchased from Fluka Analytical, Sigma-Aldrich, and C/D/N Isotopes or prepared in-house. Stock standard solutions were prepared for the analytical reference standards at a concentration of 1000 \u00b5g/ml in 20/80 HPLC analytical grade Ethanol/Water and then diluted 10x for injection.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All samples were run on a Waters Acquity\u00ae UPLC system (Waters Corporation, USA), HSS T3 150 x 2 mm, 1.7 \u00b5m particles, UPLC column at 30 \u00b0C oven temperature. The solvents used for the assay consisted of 0.2% Formic Acid (Solvent A) and 98/2/0.2 Acetonitrile/Water/Formic Acid (Solvent B). Gradient [time (min) / %B] starting at flow rate 0.25 ml/min: 2.5/0, 7.5/10 (flow rate to 0.4 ml/min), 10.0/100, 12.0/100, 18.0/0, 25.0/0. Aliquots of 2 \u00b5l were injected.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The compounds were detected using a Thermo LTQ Velos Orbitrap mass spectrometer operating in positive and negative Electrospray ionization (ESI) mode at a resolution of 30,000 with a scan range from 85-900 m/z and 95-900 m/z respectively. MS/MS spectra were obtained in a data dependent manner through higher-energy collisional dissociation (HCD, normalized collision energy: 50.0) at a resolution of 7,500: The two most intense mass spectral peaks detected in each scan were fragmented to give MS2 spectra (100-900 m/z). Full scan data was acquired in FT (accurate mass) mode, MS/MS spectra were acquired in centroid mode. The LTQ Velos Orbitrap used the Xcalibur control software version 2.1.0 for data acquisition.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw files were converted to mzML format using the ProteoWizard (http://proteowizard.sourceforge.net/) with 'Peak Picking' for MS1. The resulting mzML files were processed with MassCascade (https://bitbucket.org/sbeisken/masscascadeknime/wiki/Home). Processing included noise reduction, deconvolution, annotation, and identification of signals relevant to the metabolite standard",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Annotation of LC-MS/MS metabolite peaks was performed by searching an in-house prepared mass spectral library and manual curation taking into account both MS levels. All metabolite standards have identified M+H or M-H peaks, and were identified by their accurate mass, isotope pattern, putative fragments in MS1, and MS2 fragments. The 'fragmentation' columns holds a clearly identified fragment peak in MS1. A fragment peak is clearly identified if it can be rationalized via a fragmentation pattern, e.g., loss of CO2, has a positively correlated mass chromatogram, and - if possible - a (weak) isotope pattern.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ Orbitrap Velos (Thermo Scientific)",
+                        "filename": "a_MTBLS38_metabolite_standards_for_the_development_and_validation_of_masscascade_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ Orbitrap Velos (Thermo Scientific)",
+                        "filename": "a_MTBLS38_metabolite_standards_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

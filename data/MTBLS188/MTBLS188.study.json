@@ -1,0 +1,579 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-11-17T00:00:00",
+        "statusUpdateTime": "2022-11-17T17:43:37.032829",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS188",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-04-08",
+        "publicReleaseDate": "2015-05-10",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "PO",
+                "file": "http://data.bioontology.org/ontologies/PO",
+                "version": "10",
+                "description": "Plant Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "26",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "16",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "80",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "26",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS188",
+                "filename": "s_MTBLS188.txt",
+                "title": "Supplemental data for CAMERA, an integrated strategy for compound spectra extraction and annotation of liquid chromatography/mass spectrometry data sets",
+                "description": "Liquid chromatography coupled to mass spectrometry is routinely used for metabolomics experiments. In contrast to the fairly routine and automated data acquisition steps, subsequent compound annotation and identification require extensive manual analysis and thus form a major bottleneck in data interpretation. Here we present CAMERA, a Bioconductor package integrating algorithms to extract compound spectra, annotate isotope and adduct peaks, and propose the accurate compound mass even in highly complex data. To evaluate the algorithms, we compared the annotation of CAMERA against a manually defined annotation for a mixture of known compounds spiked into a complex matrix at different concentrations. CAMERA successfully extracted accurate masses for 89.7% and 90.3% of the annotatable compounds in positive and negative ion modes, respectively. Furthermore, we present a novel annotation approach that combines spectral information of data acquired in opposite ion modes to further improve the annotation rate. We demonstrate the utility of CAMERA in two different, easily adoptable plant metabolomics experiments, where the application of CAMERA drastically reduced the amount of manual analysis.",
+                "submissionDate": "2015-04-08",
+                "publicReleaseDate": "2015-05-10",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Carsten",
+                        "lastName": "Kuhl",
+                        "email": "ckuhl@ipb-halle.de",
+                        "affiliation": "IPB Halle",
+                        "address": "Weinberg 3\n06120 Halle",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Christoph",
+                        "lastName": "B\u00f6ttcher",
+                        "email": "cboettch@ipb-halle.de",
+                        "affiliation": "IPB Halle",
+                        "address": "Weinberg 3\n06120 Halle",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Steffen",
+                        "lastName": "Neumann",
+                        "email": "sneumann@ipb-halle.de",
+                        "affiliation": "IPB Halle",
+                        "address": "Weinberg 3\n06120 Halle",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "spike-in quality control role",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0001140"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "16",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "CAMERA: an integrated strategy for compound spectra extraction and annotation of liquid chromatography/mass spectrometry data sets.",
+                        "authorList": "Kuhl C, Tautenhahn R, B\u00f6ttcher C, Larson TR, Neumann S.",
+                        "pubMedID": "22111785",
+                        "doi": "10.1021/ac202450g",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "matrix",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "matrix",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "16",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002743"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "spike-in concentration",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "concentration",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "16",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002820"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All solvents used for sample preparation and analyses were of LC/MS-grade quality (CHROMASOLV, Fluka). A list of standard compounds used for the recovery experiment including sum formulas, molar masses, PubChem IDs can be found in the Supplemental Information S3 included in MTBLS188 as MTBLS188_si_003.csv. Arabidopsis thaliana (ecotype Col-0) was grown for six weeks on a soil/vermiculite mixture (3/2) in a growth cabinet with 8 h light (150 \u03bcE/m2/s) at 22 \u00b0C and 16 h dark at 20 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Extraction of leaves. Leaf material was homogenized in liquid nitrogen using a pestle and mortar and aliquots of 100 \u00b1 5 mg were weighed into pre-cooled 2 ml, round bottom tubes (Eppendorf). After addition of 200 \u03bcl methanol/water, 80/20\n(v/v) pre-cooled at -40 \u00b0C the samples were immediately vortexed for 15 s, sonicated for 15 min at 20 \u00b0C and centrifuged for 10 min at 19000 \u00d7 g. The supernatants were transferred to new 2 ml tubes and the remaining pellets subjected to a second extraction using 200 \u03bcl methanol/water, 80/20 (v/v). The combined extracts were evaporated to dryness in a vacuum centrifuge at 30 \u00b0C, thoroughly reconstituted in 200 \u03bcl methanol/water, 30/70 (v/v) and filtered using 0.2 \u03bcm PTFE syringe filters (Whatman).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Chromatographic separations were performed on an Acquity UPLC system (Waters) equipped with a HSS T3 column (100 \u00d7 1.0mm, particle size 1.8 \u03bcm, Waters) applying the following binary gradient at a flowrate of 150 \u03bcl/min : 0-1 min, isocratic 95% A (water/formic acid, 99.9/0.1 (v/v)), 5% B (acetonitrile/formic acid, 99.9/0.1 (v/v)); 1-16 min, linear from 5 to 95% B;\n16-18 min, isocratic 95% B; 18-20 min, isocratic 5% B. The injection volume was 2.7\u03bcl (full loop injection).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Eluted compounds were detected from m/z 100-1000 using a MicrOTOF-Q-II hybrid quadrupole time-of-flight mass spectrometer (Bruker Daltonics) equipped with an Apollo II electrospray ion source in positive and negative ion mode using following instrument settings: nebulizer gas, nitrogen, 1.6 bar; dry gas, nitrogen, 6 l/min, 190 \u00b0C; capillary, -5500 V (+4000 V); end plate offset, -500 V; funnel 1 RF, 200 Vpp; funnel 2 RF, 200 Vpp; in-source CID energy, 0 V; hexapole RF, 100 Vpp; quadrupole ion energy, 5 eV; collision gas, argon; collision energy, 10 eV; collision RF 200/400 Vpp (timing 50/50); transfer time, 70 \u00b5s; pre pulse storage, 5 \u00b5s; pulser frequency, 10 kHz; spectra rate, 3 Hz. Internal mass calibration of each analysis was performed by infusion of 20 \u00b5l 10 mM lithium formiate in isopropanol/water, 1/1 (v/v) at a gradient time of 18 min using a diverter valve.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw data was converted to mzData with Bruker CompassXport version 1.3.3. Processing of raw data was performed with the XCMS package. For the feature detection we used the XCMS centWave algorithm with the following parameters: snthresh = 6, ppm = 30, peakwidth = (5,12), prefilter = (2,200). The feature alignment was performed with the standard group.density algorithm from XCMS with bw = 3 and mzwid = 0.015. Afterwards, each dataset was processed with CAMERA functions in the following order groupFWHM, findIsotopes, groupCorr, findAdducts using standard parameters.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For the evaluation we used a mixture of 39 known compounds (short: MM39), covering a broad mass range between 161 and 822 Da and different physico-chemical properties (see Supplementary Information S3). The mixture was measured as pure solution and spiked in different concentrations (20,5,1,0.2 \u03bcM) into methanolic extracts of Arabidopsis thaliana leaves, to simulate a realistically complex matrix.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "micrOTOF-Q II ESI-Qq-TOF (Bruker)",
+                        "filename": "a_MTBLS188_metabolite_profiling_mass_spectrometry_positive.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "micrOTOF-Q II ESI-Qq-TOF (Bruker)",
+                        "filename": "a_MTBLS188_metabolite_profiling_mass_spectrometry_negative.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

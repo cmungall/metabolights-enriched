@@ -1,0 +1,534 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-08-26T00:00:00",
+        "statusUpdateTime": "2024-08-26T16:36:36.638664",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS3305",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-08-20",
+        "publicReleaseDate": "2024-08-26",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "COVIDO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CIDO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS3305",
+                "filename": "s_MTBLS3305.txt",
+                "title": "Absolute quantification of serum cytokines and metabolome reveals the glycylproline regulating antibody-fading in convalescent COVID-19 patients",
+                "description": "<p>The COVID-19 pandemic has incurred tremendous costs worldwide and is still threatening public health in the 'new normal'. The association between neutralizing antibody levels and metabolic alterations in convalescent patients with COVID-19 is still poorly understood. In the present work, we conducted absolutely quantitative profiling to compare the plasma cytokines and metabolome of ordinary convalescent patients with antibodies (CA), convalescents with rapidly faded antibodies (CO) and healthy subjects. As a result, we identified that cytokines such as M-CSF and IL-12p40 and plasma metabolites such as glycylproline (gly-pro) and long-chain acylcarnitines could be associated with antibody fading in COVID-19 convalescent patients. Following feature selection, we built machine-learning-based classification models using 17 features (6 cytokines and 11 metabolites). Overall accuracies of more than 90% were attained in at least 6 machine-learning models. Of note, the dipeptide gly-pro, a product of enzymatic peptide cleavage catalyzed by dipeptidyl peptidase 4 (DPP4), strongly accumulated in CO individuals compared with the CA group. Furthermore, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) vaccination experiments in healthy mice demonstrated that supplementation of gly-pro down-regulates SARS-CoV-2-specific receptor-binding domain antibody levels and suppresses immune responses, whereas the DPP4 inhibitor sitagliptin can counteract the inhibitory effects of gly-pro upon SARS-CoV-2 vaccination. Our findings not only reveal the important role of gly-pro in the immune responses to SARS-CoV-2 infection but also indicate a possible mechanism underlying the beneficial outcomes of treatment with DPP4 inhibitors in convalescent COVID-19 patients, shedding light on therapeutic and vaccination strategies against COVID-19.</p>",
+                "submissionDate": "2021-08-20",
+                "publicReleaseDate": "2024-08-26",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Zhu",
+                        "lastName": "Yang",
+                        "email": "yang.zhu@gmail.com",
+                        "affiliation": "Hong Kong Baptist University",
+                        "address": "OEW901, Oen Hall Building West Wing,\nHo Sin Hang Campus, Hong Kong Baptist University",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "COVID-19",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CIDO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/DOID_0080600"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Clinical Biochemistry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000064"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Plasma metabolome and cytokine profile reveal glycylproline modulating antibody fading in convalescent COVID-19 patients.",
+                        "authorList": "Yang Z, Wu D, Lu S, Qiu Y, Hua Z, Tan F, Zhang C, Zhang L, Zhang DY, Zhou X, Cai Z, Shang Y, Lin SH.",
+                        "pubMedID": "35943976",
+                        "doi": "10.1073/pnas.2117089119",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Age",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Age",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25150"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Biological sex",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Sex",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C28421"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Ethics and Patient Samples</strong></p><p>All studies performed in the present work were approved by the Wuhan Jinyintan Hospital Ethics Committee (no. KY-2020-83) and written informed consents were obtained from patients. All SARS-CoV-2 cases were diagnosed based on RT-PCR analysis of viral RNA. The severity of COVID-19 was determined by the attending doctors based on the clinical diagnostic guidelines of the Chinese Health Commission (sixth edition). Healthy subjects were recruited from healthcare workers and laboratory workers at Wuhan Jinyintan Hospital and Wuhan Institute of Virology, Chinese Academy of Sciences. None of them had previously experienced SARS-CoV-2 infection. The blood samples of the convalescent patients (both the CA and CO groups) were collected at 40-70 d after the confirmation of COVID-19 onset. All patients had been cured and discharged before the sample collection. No diabetic person was included in the cohort. All blood samples were collected after fasting overnight and by potassium-ethylenediaminetetraacetic acid blood collection tubes. The anti-SARS-CoV-2 IgG was detected with RBD IgG enzyme-linked immunosorbent assay ELISA kits (Wuhan anbo Bio Co., Ltd) following the manufacturer\u2019s instructions (SI Appendix).</p><p><br></p><p><strong>Sample Collection and Grouping</strong></p><p>All the convalescent patients (both CA and CO groups) were discharged from the hospital after 2 consecutive negative results from throat swab tests for SARS-CoV-2.&nbsp;All patients were followed up for months after discharging and their plasma samples were collected 40-70 days after the first onset of the disease symptoms onset. All blood samples were collected with potassium-EDTA blood collection tubes after overnight fasting. We classified the convalescent patients into the CA and CO groups according to the results of the ELISA test of anti-SARS-CoV-2 IgG following the manufacturer\u2019s instructions. Briefly, 100 \u03bcL of diluted plasma samples (from 1:100 to 1: 800 dilution) was added to pre-coated plates, and the plates were then incubated at 37 \u00b0C for 1 h. After washing, 100 \u03bcL of horseradish peroxidase (HRP)-conjugated RBD protein of SARS-CoV-2 was added into each well, followed by 30 more min of incubation at 37 \u00b0C. After washing, the OD value at 450 nm (A450) was determined. The cutoff for negative was calculated by summing 0.090 and the average A450 of negative-control. A sample was determined negative when its A450 was below this cutoff value. The remained plasma samples were then stored at -80 \u00b0C.</p><p><br></p><p><strong>Absolute Quantification and Analysis of Inflammatory Factors and Metabolome in Plasmas</strong></p><p>Plasmas were separated from all blood samples by centrifugation. The inflammatory factors were quantified using the All Human Inflammation Array Q3 kit (RayBiotech Life, Inc) and metabolites were absolutely quantified by using Q300 Kit (Metabo-Profile) and QTRAP 6500+ triple quadrupole mass spectrometer (SCIEX). The data were processed using R language with R packages STATS, RSTATIX, EMMEANS and ROPLS. The features selection with LASSO was performed with the GLMNET package. Machine learning is conducted with machine learning applications of MATLAB (version R2018b; MathWorks). See SI Appendix for the details.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolomics of plasma samples were prepared and quantified as according to previously described method with modification<strong>[1]</strong>. In brief, the standard solutions (5.0 mg/mL) were made by dissolving the accurately weighed chemicals in appropriate solutions including water, methanol, sodium hydroxide solution or hydrochloric acid solution. Then the stock calibration solutions were mixed from the appropriate amounts of individual stock solutions following the instruction of the manufacturer. After thawing at 4 \u00b0C, 20-\u03bcL aliquots of the samples were added to a 96-well plate. Also were added to the plate the calibration solutions of 8 various concentrations, quality control (QC) samples (equally mixed samples) as well as solvent blank. Then 120 \u03bcL of standard solution was added to each well. The microporous plate was covered with aluminum film, placed on constant temperature mixer, and vibrated at 10 \u00b0C, 650 rpm for 20 min. After centrifugation at 4000 x g for 20 min, 30 \u03bcL supernatant from each well was transferred to a new 96-well plate. The derivative reagents of Q300 Kit were added to all wells and the plate was covered and incubated at 1200 rpm at 30 \u00b0C to carry out derivatization for 60 min. After derivatization, 330 \u03bcL of precooled 50% methanol solution was added to each well and mixed with the samples at 1200 rpm at 10 \u00b0C for 5 min. Then the plat were centrifuged at 4000 x g, 4 \u00b0C for 30 min. Finally, the supernatant was further transferred to a new 96-well plate and put into the automatic sampler of UPLC-MS analysis.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Xie G, Wang L, Chen T, Zhou K, Zhang Z, Li J, Sun B, Guo Y, Wang X, Wang Y, Zhang H. A metabolite array technology for precision medicine. Analytical Chemistry. 2021 Apr 2;93(14):5709-17. doi:10.1021/acs.analchem.0c04686.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Shim-pack UFLC SHIMADZU CBM A ultrahigh-performance liquid chromatography (UHPLC) system (SHIMADZU, Japan) coupled with QTRAP 6500+ triple quadrupole mass spectrometer (Sciex, Washington, USA) was used to analyze the metabolomics. ACQUITY UPLC BEH C18 1.7 \u00b5m VanGuard pre-column (2.1mm x 5 mm) and ACQUITY UPLC BEH C18 1.7 \u00b5m analytical column (2.1 x 100 mm) (Waters Corporation, Milford, MA, USA) were applied to this system. The mobile phases A and B were 0.1% formic acid solution in water and acetonitrile-IPA mixture (70:30, v/v), respectively. A 5-\u03bcL injection of each sample was maintained at 40 \u00b0C and the flow rate was 0.40 mL/min. The mobile phase gradient was: 0.0-1.0 min (5% B), 1.0-11.0 min (5-78% B), 11.0-13.5 min (78-95% B), 13.5-14.0 min (95-100% B), 14.0-16.0 min (100% B), 16.0-16.1 min (100-5% B) and 16.1-18.0 min (5% B).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The mass spectrometer was operated in the both positive and negative modes, with capillary voltages of 1.5 and 2.0 kV, respectively. The source and desolvation temperatures were 150 and 550 \u00b0C, respectively. The flow rate of desolvation gas was 1000 L/h.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The raw MS data were processed using a website-based platform named Targeted Metabolome Batch Quantification (TMBQ, Metabo-profile Co., Ltd, Shanghai, China). Peaks A calibration curve was plotted for each standard based on the results from calibration solutions of various concentrations. The metabolite concentration in each sample was calculated from the equation y = ax + b fitted to the calibration curve. The correctness of all calibration curves and integrated peak areas corresponding to each compound was checked manually.</p><p><br></p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Targeted metabolomic analysis was performed. All metabolites were identified according to the corresponding precursor peaks and fragment peaks generated from the standards.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - reverse phase",
+                        "filename": "a_MTBLS3305_LC-MS_alternating_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,614 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-05-28T00:00:00",
+        "statusUpdateTime": "2024-05-28T15:22:41.379481",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS9985",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "19/04/2024",
+        "publicReleaseDate": "28/05/2024",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS9985",
+                "filename": "s_MTBLS9985.txt",
+                "title": "Tubular insulin-induced gene 1 deficiency promotes NAD+ consumption and exacerbates kidney fibrosis",
+                "description": "<p>Profibrotic proximal tubular (PT) were identified as a unique phenotype of PTCs in renal fibrosis by single-cell RNA sequencing (scRNA-seq). Controlling the process of renal fibrosis requires understanding how to manage the S1 subset's branch to the S3 subset rather than to the profibrotic PT subset. Insulin-induced gene 1 (Insig1) is one of the branch-dependent genes involved in controlling this process, although its role in renal fibrosis is unknown. Here, we discovered that tubular Insig1 deficiency, rather than fibroblast Insig1 deficiency, play a detrimental role in the pathogenesis of renal fibrosis in vivo and in vitro. Overexpression of Insig1 profoundly inhibited renal fibrosis. Mechanistically, Insig1 deletion in PTCs boosted SREBP1 nuclear localization, increasing Aldh1a1 transcriptional activity, causing excessive NAD+ consumption and ER enlargement, as well as accelerating renal fibrosis. We also identified nicardipine as a selective inhibitor of Aldh1a1, which could restore NAD+ and maintain ER homeostasis, as well as improve renal fibrosis. Together, our findings support tubular Insig1 as a new therapeutic target for chronic kidney disease (CKD).</p>",
+                "submissionDate": "19/04/2024",
+                "publicReleaseDate": "28/05/2024",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Xiaowen",
+                        "lastName": "Yu",
+                        "email": "",
+                        "affiliation": "Department of Nephrology, Children\u2019s Hospital of Nanjing Medical University, Guangzhou Road #72, Nanjing 210008, China",
+                        "address": "0086-25-8311-7309",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "yuxiaowen@njmu.edu.cn",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "NAD",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_13389"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "INSIG1",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OMIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OMIT_0032982"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Kidney Fibrosis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C201689"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ALDH1A1",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OMIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OMIT_0030183"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "chronic kidney disease",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0003884"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Tubular insulin-induced gene 1 deficiency promotes NAD<sup>+</sup> consumption and exacerbates kidney fibrosis.",
+                        "authorList": "Li S, Qin J, Zhao Y, Wang J, Huang S, Yu X.",
+                        "pubMedID": "38806641",
+                        "doi": "10.1038/s44321-024-00081-7",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Biological replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "biological replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002091"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Animal Core Facility of Nanjing Medical University (Nanjing, China) provided male C57BL/6 mice (8-10 weeks old, 22 \u00b1 3 g). All mice in the study were housed under controlled conditions (temperature 20-26 \u00b0C, humidity 40-70%) and a 12-h light-dark cycle). Animal Care and Use Committee of Nanjing Medical University (2007001).</p><p><br></p><p><strong>Generation of renal proximal tubular or fibroblast Insig1 conditional knockout mouse strains</strong></p><p>Insig1flox/wt mice (T020103, C57BL/6J) were generated using CRISPR/Cas9 genome engineering by GemPharmatech (Nanjing, Jiangsu, China). After that, Insig1flox/wt self-crossing produced Insig1flox/flox mice. Kap-Cre (The Jackson Laboratory, stock number: 008781) and S100A4-Cre mice (The Jackson Laboratory, stock number: 030644) was bred with Insig1flox/flox mice to create F1. In order to create renal proximal tubular and fibroblast-specific conditional Insig1 knockout mice (Insig1dKap and Insig1dS100A4 mice), F1 were then bred with the opposite sex of Insig1flox/flox. The control group consisted of Insig1flox/flox mice.</p><p><br></p><p><strong>Unilateral ureteral obstruction (UUO)-induced fibrosis model</strong></p><p>Briefly, 8-week-old male C57BL/6J mice were put into groups at random: Insig1flox/flox (WT) group, UUO-treated WT group, Insig1flox/flox; Kap-Cre (KO) group and UUO-treated KO group. Mice were anesthetized, and a lateral incision was made on the back. After being exposed, the left ureter was permanently ligated by being secured at 2 locations with a silk suture. As sham controls, similar procedures were performed on sham-operated animals without ureteric ligation. All left renal tissues were gathered for additional examination following a 14 days modeling period. The mice were sacrificed with sodium pentobarbital euthanasia (30 mg/kg, intraperitoneally (i.p.) and kidney tissue were immediately collected for further study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>First, take all samples of the customer into a 2 mL EP tube, add 2 steel balls, put them into the tissue grinder, grind at 55 Hz for 60 s, and then homogenize the samples. Accurately weigh 59.2-100.0 mg (\u00b1 1%) of the homogenized sample into a 2 mL EP tube, add accurately 0.6 mL of methanol (including internal standard), and vortex for 30 s (samples with a sample size less than 50 mg were extracted by half of the experimental system). Add 2 steel balls, put them into the tissue grinder, and grind for 60 s at 50 Hz. Centrifuge at 4 \u00b0C for 10 min at 12,000 rpm, and the supernatant was filtered through 0.22 \u03bcm membrane to obtain the prepared samples for LC-MS. Take 20 \u03bcL from each sample to the quality control (QC) samples (QC samples were used to monitor deviations of the analytical results from these pool mixtures and compare them to the errors caused by the analytical instrument itself). Use the samples for LC-MS detection.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chromatographic separation was accomplished in an Thermo Vanquish system equipped with an ACQUITY UPLC HSS T3 (150 x 2.1 mm, 1.8 \u03bcm, Waters) column maintained at 40 \u00b0C. The temperature of the autosampler was 8 \u00b0C. Gradient elution of analytes was carried out with 0.1% formic acid in water (A2) and 0.1% formic acid in acetonitrile (B2) or 5 mM ammonium formate in water (A3) and acetonitrile (B3) at a flow rate of 0.25 mL/min. Injection of 2 \u03bcL of each sample was done after equilibration. An increasing linear gradient of solvent B2/B3 (v/v) was used as follows: 0.0-1.0 min, 2% B2/B3; 1.0-9.0 min, 2-50% B2/B3; 9.0-12.0 min, 50-98% B2/B3; 12.0-13.5 min, 98% B2/B3; 13.5-14.0 min, 98-2% B2/B3; 14.0-20.0 min, 2% B2-positive model (14.0-17.0 min, 2% B3-negative model).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The ESI-MSn experiments were executed on the Thermo Q Exactive Focus mass spectrometer with the spray voltage of 3.5 and -2.5 kV in positive and negative modes, respectively. Sheath gas and auxiliary gas were set at 30 and 10 arbitrary units, respectively. The capillary temperature was 325 \u00b0C. respectively. The Orbitrap analyzer scanned over a mass range of 81-1000 m/z for full scan at a mass resolution of 70 000.&nbsp;Data-dependent acquisition&nbsp;(DDA) MS/MS experiments were performed with HCD scan. The normalized collision energy was 30 eV. Dynamic exclusion was implemented to remove some unnecessary information in MS/MS spectra.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The obtained raw data is converted into&nbsp;mzXML&nbsp;format (XCMS&nbsp;input file format) via the&nbsp;Proteowizard&nbsp;software (v3.0.8789). Using the&nbsp;XCMS&nbsp;package of&nbsp;R&nbsp;(v3.3.2) for peaks identification, peaks filtration, peaks alignment. For peak picking, the following parameters were used: centWave, m/z = 25/15 ppm, peakwidth = c(10,60)/(5,30), prefilter = c(10,100). For peak grouping, bw = 5/2, mzwid = 0.025/0.015, minfrac = 0.5 were used, In the extracted ion features, only the variables having more than 50% of the nonzero measurement values in at least one group were kept. Differentially abundant metabolites were analyzed using bioinformatics methods, and all procedures were performed by BioNovogene (Suzhou, China).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Compound identification of metabolites by MS/MS spectra with an in-house database established with available authentic standards.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS9985_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS9985_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

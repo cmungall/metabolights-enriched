@@ -1,0 +1,568 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-04-28T14:54:40",
+        "statusUpdateTime": "2016-04-28T14:54:40",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS273",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-11-06",
+        "publicReleaseDate": "2016-04-28",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "DOID",
+                "file": "http://data.bioontology.org/ontologies/DOID",
+                "version": "568",
+                "description": "Human Disease Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS273",
+                "filename": "s_MTBLS273.txt",
+                "title": "Metabolic phenotyping of ex-vivo breast samples by DESI mass spectrometry imaging",
+                "description": "This study involves the analysis of surgically resected samples from patients undergoing breast surgery. The samples published here have been used as part of the publication by [1], and all experimental details can be found within. Desorption electrospray ionisation mass spectrometry imaging (DESI MSI) was used to provide spatially resolved metabolic profiles across the various tissue samples, which in combination with histological assessment allows characterisation of changes across distinct tissue types. In being able to characterise the metabolic differences between tissue types, it becomes possible to predict future unknown samples using a data-driven histological approach to enhance current disease prognoses. </p> Ref:</br> [1] Guenther S, Muirhead LJ, Speller AV, Golf O, Strittmatter N, Ramakrishnan R, Goldin RD, Jones E, Veselkov K, Nicholson J, Darzi A, Takats Z. Spatially resolved metabolic phenotyping of breast cancer by desorption electrospray ionization mass spectrometry. Cancer Res. 2015 May 1;75(9):1828-37. doi:10.1158/0008-5472.CAN-14-2258. PMID:25691458",
+                "submissionDate": "2015-11-06",
+                "publicReleaseDate": "2016-04-28",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "James",
+                        "lastName": "McKenzie",
+                        "email": "j.mckenzie@imperial.ac.uk",
+                        "affiliation": "Department of Surgery and Cancer",
+                        "address": "Imperial College, London",
+                        "fax": "",
+                        "midInitials": "S",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Data manager",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Zoltan",
+                        "lastName": "Takats",
+                        "email": "z.takats@imperial.ac.uk",
+                        "affiliation": "Department of Surgery and Cancer",
+                        "address": "Imperial College, London",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "desorption electrospray ionisation mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000484"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "breast cancer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "DOID",
+                            "file": "http://data.bioontology.org/ontologies/DOID",
+                            "version": "568",
+                            "description": "Human Disease Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/DOID_1612"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Spatially resolved metabolic phenotyping of breast cancer by desorption electrospray ionization mass spectrometry.",
+                        "authorList": "Guenther S, Muirhead LJ, Speller AV, Golf O, Strittmatter N, Ramakrishnan R, Goldin RD, Jones E, Veselkov K, Nicholson J, Darzi A, Takats Z.",
+                        "pubMedID": "25691458",
+                        "doi": "10.1158/0008-5472.can-14-2258",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Adipose tissue",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Boolean",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C45254"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Connective tissue",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Boolean",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C45254"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Glandular tissue",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Boolean",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C45254"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Stroma tissue",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Boolean",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C45254"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Tumour",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Boolean",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C45254"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "This was a single center, prospective observational study performed at Charing Cross Hospital (London, United Kingdom; REC 11/LO/0686). Tissue was sampled intraoperatively using a disposable core biopsy gun (Tru-Core II 14G x 10 cm). One biopsy sample was taken from each tumor and 4 to 5 biopsy samples were taken from the tumor bed; at 3, 6, 9, and 12 o'clock and, from the posterior/deep cavity wall where possible.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Preparation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Preparation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Frozen tissue sections (thickness, 15 \u00b5m) were prepared from each sample and subjected to DESI MSI.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample mounting",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample preservation",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sectioning instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Section thickness",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For DESI analysis, tissue sections were brought to room temperature. DESI MSI was carried out using a home-built DESI ion source coupled to a high-resolution orbital trapping mass spectrometer (Exactive, Thermo Scientifc GmbH). The DESI ion source was operated at a spatial resolution of 100 \u00b5m using nitrogen pressure of 4 bar, high voltage of 4.5 kV, a solvent mixture of methanol and water in a ratio 95:5 and a flow rate of 1.5 \u00b5l/min. The mass analysis was carried out in negative ion mode in the mass range m/z = 200\u20131,000 at a nominal mass resolution of 100,000 at m/z = 200 and a mass accuracy of \u00b1 2 ppm.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Spatial resolution",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Histology",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Histology",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "After DESI imaging, tissue sections were hematoxylin and eosin (H&E) stained and underwent histologic examination.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Stain",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "High-res image",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Low-res image",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All Thermo raw mass spectrometric data were converted to imzML format via imzML Converter (version 1.0.5) [1] and imported into MATLAB (R2013a) for preprocessing and analysis. Preprocessed data were subjected to multivariate statistical data analysis.\n</p>\nRef:</br>\n[1] MALDI MSI Interest Group: Msimaging. http://www.maldi-msi.org (2011).</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolite identification was not performed.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive",
+                        "filename": "a_MTBLS273_desi-imaging-breast_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

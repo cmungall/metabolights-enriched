@@ -1,0 +1,666 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-06-24T15:46:59.799000",
+        "statusUpdateTime": "2019-06-24T15:46:59.799000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\Users\\Fiona\\Downloads\\ISAcreatorMetaboLights\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS624",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-02-06",
+        "publicReleaseDate": "2019-06-24",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MESH",
+                "file": "http://data.bioontology.org/ontologies/MESH",
+                "version": "10",
+                "description": "Medical Subject Headings"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "PLOSTHES",
+                "file": "http://data.bioontology.org/ontologies/PLOSTHES",
+                "version": "5",
+                "description": "PLOS Thesaurus"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS624",
+                "filename": "s_MTBLS624.txt",
+                "title": "Mapping the metabolism of five amino acids in bloodstream form Trypanosoma brucei using U-13C-labelled substrates and LC\u2013MS",
+                "description": "The metabolism of the parasite Trypanosoma brucei has been the focus of numerous studies since the 1940s. Recently it was shown, using metabolomics coupled with heavy-atom isotope labelled glucose, that the metabolism of the bloodstream form parasite is more complex than previously thought. The present study also raised a number of questions regarding the origin of several metabolites, for example succinate, only a proportion of which derives from glucose. In order to answer some of these questions and explore the metabolism of bloodstream form T. brucei in more depth we followed the fate of five heavy labelled amino acids \u2013 glutamine, proline, methionine, cysteine and arginine \u2013 using an LC\u2013MS based metabolomics approach. We found that some of these amino acids have roles beyond those previously thought and we have tentatively identified some unexpected metabolites which need to be confirmed and their function determined.",
+                "submissionDate": "2018-02-06",
+                "publicReleaseDate": "2019-06-24",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Fiona",
+                        "lastName": "Achcar",
+                        "email": "fiona.achcar@glasgow.ac.uk",
+                        "affiliation": "University of Glasgow",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Michael",
+                        "lastName": "Barrett",
+                        "email": "michael.barrett@glasgow.ac.uk",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "P",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Amino Acid Metabolism Pathway",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39730"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Parasitic protozoans",
+                        "termSource": {
+                            "comments": [],
+                            "name": "PLOSTHES",
+                            "file": "http://data.bioontology.org/ontologies/PLOSTHES",
+                            "version": "5",
+                            "description": "PLOS Thesaurus"
+                        },
+                        "termAccession": "http://localhost/plosthes.2017-1#9192"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Trypanosoma",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MESH",
+                            "file": "http://data.bioontology.org/ontologies/MESH",
+                            "version": "10",
+                            "description": "Medical Subject Headings"
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/MESH/D014345"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "isotopic tracer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_35206"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000524"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Mapping the metabolism of five amino acids in bloodstream form Trypanosoma brucei using U-13C-labelled substrates and LC\u2013MS.",
+                        "authorList": "Johnston K, Kim DH, Kerkhoven EJ, Burchmore R, Barrett MP, Achcar F.",
+                        "pubMedID": "31028136",
+                        "doi": "10.1042/BSR20181601",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Labelling",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "isotopic labelling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "18",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001677"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "pH",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "pH measurement",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "18",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002354"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Trypanosoma brucei brucei bloodstream form (s427) was cultured in vitro in Creek\u2019s \u2018Minimal\u2019 Media (CMM)[1] with 10% FBS Gold at 37 \u00b0C, 5% CO2. The 3 arginine kinase genes, Tb427tmp.160.4560, Tb427tmp.160.4570, Tb427tmp.160.4590 (Tb927.9.6290, Tb927.9.6250 and Tb927.9.6210 in the 927 reference genome) were knocked out in the bloodstream form s427 strain to obtain strain \u0394ak.\n</br></br>\n13C-labelled tracking:</br>\nT. b. brucei strain 427 was grown in CMM + 10% FBS Gold (PAA, Piscataway, NJ) at 37 \u00b0C, 5% CO2 for U-13C-labelled tracking. For L-methionine studies, a 1:1 mix of unlabelled and U-13C L-methionine (50 \u03bcM L-methionine and 50 \u03bcM U-13C L-methionine) was added to the parasite culture medium (starting density of 2 x 10^4 cells/ml). For L-glutamine and L-cysteine studies, a 1:1 mix of unlabelled and U-13C glutamine or cysteine (500 \u03bcM unlabelled and 500 \u03bcM U-13C) was added to the parasite culture medium. For L-proline and L-arginine, 100% labelled compound was used at a concentration of 200 \u03bcM as significant levels of unlabelled L-proline and L-arginine are present in the serum. Cells were incubated at 37 \u00b0C, 5% CO2 for 48 h.\n</br></br>\npH stress:</br>\nT. b. brucei strain 427 wild type (WT) and arginine kinase knockout (\u0394ak) cells were cultured in CMM with 10% FBS Gold at 37 \u00b0C, 5% CO2 as described above and allow them to reach a density of 2 x 10^6 cells/ml. After a density of 2 x 10^6 cells/ml was achieved, WT and \u0394ak cells were centrifuged at 1250 x g for 10 min and the cells were then resuspended in CMM at pH 8.7 (pH stress) and pH 7.4 (controls) and incubated for 120 min.\n</br></br>\nRef:</br>\n[1] Creek DJ, Nijagal B, Kim DH, Rojas F, Matthews KR, Barrett MP. Metabolomics guides rational development of a simplified cell culture medium for drug screening against Trypanosoma brucei. Antimicrob Agents Chemother. 2013 Jun;57(6):2768-79. doi:10.1128/AAC.00044-13. PMID:23571546</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Trypanosomes were grown to mid-log phase and a sample volume equivalent to 5 x 10^7 cells was rapidly cooled to 4 \u00b0C by submerging a 50 ml Falcon tube containing the parasites in a dry ice/ethanol bath. Samples were kept on ice (or 4 \u00b0C) from this step onwards. Samples were centrifuged at 1250 x g for 10 min, and most supernatant, except 1 ml, was removed. The pellet was resuspended in the remaining 1 ml of medium. This was transferred to an Eppendorf tube and briefly centrifuged at 1250 x g to completely remove the supernatant. The cell pellet was washed in cold 1 x PBS and metabolites extracted by resuspending in 100 \u03bcl chloroform:methanol:water (ratio1:3:1 v/v/v) with internal standards and by vigorously shaking for 1 h at 4 \u00b0C. Samples were centrifuged at 16,000 x g for 10 min and the supernatant collected and stored at \u221280 \u00b0C under argon.\n</br></br>\n13C-labelled tracking:</br>\nMetabolites weere extracted as above. Samples were prepared in triplicate (biological replicates) and for every labelled setup a control with the equal concentration of unlabelled compound was set up, also in triplicate. Fresh medium and spent medium controls (for the L-methionine, L-proline and L-arginine experiments) were also collected and 5 \u03bcl were added to 100 \u03bcl extraction solvent (CMW 1:3:1) prior to analysis.\n</br></br>\npH stress:</br>\nMetabolites weere extracted as above. Equal volumes from all the samples were mixed to create a quality control (QC) sample in order to assess instrument performance. All samples were prepared in four biological replicates.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The sample platform chosen for this project was liquid chromatography coupled with mass spectrometry. All samples were separated on a Dionex Ultimate 3000 RSLC liquid chromatography system (Dionex, Camberley, Surrey) with ZIC-pHILIC 150 x 4.6 mm, 5 \u00b5m column (Merck Sequant) prior to mass detection on an Q-Exactive Orbitrap mass spectrometer (Thermo Fisher Scientific, Hemel Hempstead, U.K.). For HPLC gradient, ZIC-pHILIC solvent A was 20 mM ammonium carbonate in H2O, and solvent B was 100% acetonitrile. A linear gradient of the mobile phases was applied, in which samples were eluted from 80% B to 5% B over 15 min, followed by another linear gradient from 5% B to 80% B over 2 min, and 80% B was held for 7 min for re-equilibration. With each experiment a set of authentic standards was run prior to the sample set.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "LC\u2013MS analysis was performed on a Q-Exactive Orbitrap mass spectrometer (Thermo Fisher Scientific, Hemel Hempstead, U.K.) in positive and negative electrospray mode (m/z 70\u20131400, resolution 50,000), using 10 \u03bcl injection volume and a flow rate of 300 \u03bcl/min.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw LC\u2013MS data files were converted to mzXML using ProteoWizard msconvert[1].\n</br></br>\nRef:</br>\n[1] Adusumilli R, Mallick P. Data Conversion with ProteoWizard msConvert. Methods Mol Biol. 2017;1550:339-368. doi:10.1007/978-1-4939-6747-6_23. PMID:28188540</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data were processed using XCMS[1] for peak picking and mzMatch for peak grouping, filtering and putative identifications[2]. Metabolite identification was performed by matching accurate masses and retention times of authentic standards. Level 1 metabolite identification according to the metabolomics standards initiative[3][4], but when standards were not available masses and labelling patterns were used, hence these identifications should be considered as putative (Level 2 identification). Isotopic profiles were analysed using mzMatch-ISO[5].\n</br></br>\nNo Metabolite annotation files were provided for this study.\n</br></br>\nRef:</br>\n[1] Benton HP, Wong DM, Trauger SA, Siuzdak G. XCMS2: processing tandem mass spectrometry data for metabolite identification and structural characterization. Anal Chem. 2008 Aug 15;80(16):6382-9. doi:10.1021/ac800795f. PMID:18627180</br>\n[2] Scheltema RA, Jankevics A, Jansen RC, Swertz MA, Breitling R. PeakML/mzMatch: a file format, Java library, R library, and tooL-chain for mass spectrometry data analysis. Anal Chem. 2011 Apr 1;83(7):2786-93. doi:10.1021/ac2000994. PMID:21401061</br>\n[3] Sumner L.W., Lei Z., Nikolau B.J., Saito K., Roessner U. and Trengove R. (2014) Proposed quantitative and alphanumeric metabolite identification metrics. Metabolomics 10, 1047\u20131049. doi:10.1007/s11306-014-0739-6</br>\n[4] Sumner LW, Amberg A, Barrett D, Beale MH, Beger R, Daykin CA, Fan TW et al. Proposed minimum reporting standards for chemical analysis Chemical Analysis Working Group (CAWG) Metabolomics Standards Initiative (MSI). Metabolomics. 2007 Sep;3(3):211-221. doi:10.1007/s11306-007-0082-2. PMID:24039616</br>\n[5] Chokkathukalam A, Jankevics A, Creek DJ, Achcar F, Barrett MP, Breitling R. mzMatch-ISO: an R tool for the annotation and relative quantification of isotope-labelled mass spectrometry data. Bioinformatics. 2013 Jan 15;29(2):281-3. doi:10.1093/bioinformatics/bts674. PMID:23162054</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS624_POS_label_MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS624_NEG_label_MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS624_POS_arg_RNAi_MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS624_NEG_arg_RNAi_MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

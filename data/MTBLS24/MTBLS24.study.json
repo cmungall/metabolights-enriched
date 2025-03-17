@@ -1,0 +1,496 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2015-12-17T14:00:55",
+        "statusUpdateTime": "2015-12-17T14:00:55",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS24",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2012-10-21",
+        "publicReleaseDate": "2012-10-21",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "26",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "25",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "16",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "93",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "HP",
+                "file": "http://data.bioontology.org/ontologies/HP",
+                "version": "518",
+                "description": "Human Phenotype Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS24",
+                "filename": "s_MTBLS24.txt",
+                "title": "Analysis of human urine reveals metabolic changes related to the development of acute kidney injury following cardiac surgery",
+                "description": "In an effort to identify novel biomarkers capable of predicting the development of acute kidney injury (AKI) after cardiac surgery with cardiopulmonary bypass (CPB) use, urine specimens were collected before and at 4 and 24 hours after surgery from 106 patients and analyzed by means of nuclear magnetic resonance (NMR) spectroscopy and machine learning methods.",
+                "submissionDate": "2012-10-21",
+                "publicReleaseDate": "2012-10-21",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Wolfram",
+                        "lastName": "Gronwald",
+                        "email": "wolfram.gronwald@klinik.uni-r.de",
+                        "affiliation": "University of Regensburg",
+                        "address": "Institute of Functional Genomics University of Regensburg Josef-Engert-Str. 9 93053 Regensburg Germany",
+                        "fax": "00499419435020",
+                        "midInitials": "",
+                        "phone": "00499419435015",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Acute kidney injury",
+                        "termSource": {
+                            "comments": [],
+                            "name": "HP",
+                            "file": "http://data.bioontology.org/ontologies/HP",
+                            "version": "518",
+                            "description": "Human Phenotype Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/HP_0001919"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "16",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Analysis of human urine reveals metabolic changes related to the development of acute kidney injury following cardiac surgery",
+                        "authorList": "Zacharias Helena U., Schley Gunnar, Hochrein Jochen, Klein Matthias S., K\u00f6berle Carmen, Eckardt Kai-Uwe, Willam Carsten, Oefner Peter J., Gronwald Wolfram",
+                        "pubMedID": "",
+                        "doi": "10.1007/s11306-012-0479-4",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Time Collected Urine sample",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Acute Kidney Injury",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "injury",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000546"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "In total, 106 patients undergoing cardiac surgery with CPB use at the University Clinic of Erlangen-Nuremberg from July 2009 thru August 2010 were included in this study. Operative procedures included coronary artery bypass grafting (CABG), aortic and/or mitral valve surgery (replacement and repair), combinations of CABG and heart valve surgery, and thoracic aortic surgery. For the determination of SCr levels, serum specimens were collected for each patient on the day before surgery and daily thereafter at 6:00 am. For patient classification according to the AKIN-criteria, SCr levels until the second day after surgery were taken into account. Of the 106 patients, 34 were diagnosed with AKI following surgery. In all five patients that required post-operative RRT, treatment was initiated more than 24 h after surgery. Hence, RRT did not affect metabolite levels in the simultaneously collected urine and plasma specimens. Written declarations of consent had been obtained from all study participants before inclusion. Spot urine samples were collected on the day before surgery, and at 4 and 24 hours after surgery. Urine was centrifuged at 1,500 rpm for 5 min and the clear supernatant was immediately frozen and stored at -80 \u00b0C until NMR analysis. At 24 hours, an additional EDTA-plasma specimen was collected from each patient and stored at -80 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For NMR measurements of urine specimens, 400 \u03bcl of urine were mixed with 200 \u03bcl of 0.1 mol/l phosphate buffer at pH 7.4 and 50 \u03bcl of 29.02 mmol/l 3-trimethylsilyl-2,2,3,3-tetradeuteropropionate (TSP) in deuterium oxide as internal standard (Sigma-Aldrich, Taufkirchen, Germany). EDTA-plasma specimens were ultrafiltrated with a cutoff of 10 kD to remove macromolecules and lipids. For subsequent NMR analysis, 400 \u03bcl of the ultrafiltrate were treated as described above.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "NMR experiments were carried out at 298 K on a 600 MHz Bruker Avance III spectrometer (BrukerBioSpin, Rheinstetten, Germany).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "A 1D NOESY presaturation pulse sequence was used to analyze the urine samples. For each sample 128 scans were collected into 64k data points using a spectral width of 12.336 kHz (20 ppm) and an acquisition time of 2.66 s per FID.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For equidistant binning, the region from 9.5 to 0.5 ppm of the 1D spectra was evenly split into bins of 0.01-ppm width using Amix 3.9.11 (BrukerBioSpin, Rheinstetten, Germany). After exclusion of the solvent area and the area containing the broad urea signal from 6.5 to 4.5 ppm, 701 bins remained for each 1D spectrum. Signal integrals from each bin were imported into the statistical-analysis software R version 2.14.0. To compensate for global variations in urine concentration caused, for example, by differences in fluid intake, all spectra were normalized prior to analysis by Quantile Normalization to achieve equal distributions of feature intensities across spectra. This approach corrects for dilution effects but preserves differences in concentration of individual metabolites due to other effects. For Quantile Normalization, the functions contained in the R-package affy (http://cran.r-project.org/web/packages/affy) were used.",
+                        "uri": "http://cran.r-project.org/web/packages/affy",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Assignments were obtained by comparison with reference spectra of pure compounds and verified by two dimensional NMR spectroscopy including 1H-13C Heteronuclear Signal Quantum Coherence (HSQC) and 1H-13C Heteronuclear Multiple Bond Correlation (HMBC) Spectroscopy.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Bruker",
+                        "filename": "a_MTBLS24_helena_metabolite_profiling_NMR_spectroscopy_15_10_2012.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

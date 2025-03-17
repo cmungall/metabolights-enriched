@@ -1,0 +1,624 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-06-20T00:00:00",
+        "statusUpdateTime": "2022-06-20T17:29:48.996349",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS4017",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-12-20",
+        "publicReleaseDate": "2022-06-20",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "reproducemePrincipalInvestigator",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OMP",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "GAZ",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS4017",
+                "filename": "s_MTBLS4017.txt",
+                "title": "Multi-omic Landscape of Airway Microbe-Host Interactions in Chronic Obstructive Pulmonary Disease",
+                "description": "<p>The mechanistic role of the airway microbiome in chronic obstructive pulmonary disease (COPD) remains largely unexplored. We present a landscape of airway microbe-host interactions in COPD by an in-depth profiling of sputum metagenome, metabolome, host transcriptome and proteome from 99 COPD patients and 36 healthy individuals. Multi-omic data were integrated using a sequential mediation analysis, to assess in silico associations of the microbiome with neutrophilic or eosinophilic inflammation, two primary COPD inflammatory endotypes, mediated through microbial metabolic interaction with host gene expression. Mechanistic links of microbiome-metabolite-host interaction were identified leveraging microbial genetic information and established metabolite-human gene pairs. The strongest link for neutrophil-predominant COPD was altered tryptophan metabolism driven by airway lactobacilli resulting in reduced indole-3-acetic acid (IAA), which was in turn linked to perturbed host IL-22 signaling and epithelial cell apoptosis pathways. In vivo and in vitro studies showed that airway microbiome-derived IAA mitigates neutrophilic inflammation, apoptosis, emphysema, and lung function decline, via IL-22-mediated macrophage-epithelial cell crosstalk. Intranasal inoculation of two airway lactobacilli restored IAA and recapitulated its protective effects in mice. These findings provide the rationale for therapeutically targeting microbe-host interaction in COPD.</p><p><br></p><p><strong>Linked studies:</strong></p><p><strong>UPLC-MS/MS assays</strong> of original cohort human samples are reported in&nbsp;this study.</p><p><strong>UPLC-MS/MS&nbsp;assays</strong> of&nbsp;more recent cohort human samples are reported in&nbsp;<a href='https://www.ebi.ac.uk/metabolights/MTBLS5423' rel='noopener noreferrer' target='_blank'><strong>MTBLS5423</strong></a>.</p><p><strong>UPLC-MS/MS&nbsp;assays</strong> of&nbsp;more recent murine samples are reported in&nbsp;<a href='https://www.ebi.ac.uk/metabolights/MTBLS6894' rel='noopener noreferrer' target='_blank'><strong>MTBLS6894</strong></a>.</p>",
+                "submissionDate": "2021-12-20",
+                "publicReleaseDate": "2022-06-20",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Zhang",
+                        "lastName": "Wang",
+                        "email": "wangz@m.scnu.edu.cn",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "reproducemePrincipalInvestigator",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "https://w3id.org/reproduceme#PrincipalInvestigator"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "chronic obstructive pulmonary disease",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000341"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "airway microbiota",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "microbe-host interaction phenotype",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OMP",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OMP_0000197"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "indole-3-acetic acid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_16411"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Inflammation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C3137"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Apoptosis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17557"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Multi-omic Landscape of Airway Microbe-Host Interactions in Chronic Obstructive Pulmonary Disease",
+                        "authorList": "Zhengzheng Yan, Boxuan Chen, Yuqiong Yang, Xinzhu Yi, Mingyuan Wei, Gertrude Ecklu-Mensah, Mary M. Buschmann, Haiyue Liu, Jingyuan Gao, Weijie Liang, Xiaomin Liu, Junhao Yang, Wei Ma, Zhenyu Liang, Fengyan Wang, Dandan Chen, Lingwei Wang, Weijuan Shi, Martin R. Stampfli, Pan Li, Shenhai Gong, Xia Chen, Wensheng Shu, Emad M. El-Omar, Jack A. Gilbert, Martin J. Blaser, Hongwei Zhou, Rongchang Chen, Zhang Wang",
+                        "pubMedID": "",
+                        "doi": "10.1038/s41564-022-01196-8",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Location",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Geographic Location",
+                            "termSource": {
+                                "comments": [],
+                                "name": "GAZ",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000448"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Patients and samples:</strong></p><p>For the discovery cohort, induced sputum samples were collected from 72 patients with stable COPD and 18 age-matched healthy controls in the First Affiliated Hospital of Guangzhou Medical University, Guangzhou, China. For the validation cohort, induced sputum samples were obtained from 27 patients with stable COPD and 18 controls in Shenzhen People\u2019s Hospital in Shenzhen, China. The study was approved by the ethics committee of the 2 centers (reference number: 2017-22 and KY-LL-2020294-01). All COPD patients met the diagnostic criteria according to GOLD guideline<strong>[1]</strong>. The inclusion and exclusion criteria were described in previous studies<strong>[2][3]</strong>. Patients with antibiotic usage within 4 wk were excluded. All 135 individuals were subject to sputum metagenomic profiling, whereas 129 and 130 individuals had available samples for metabolomic and host transcriptomic profiling respectively; 124 individuals had matched 3 types of omic profiling. Sputum and serum proteome were profiled for a subset of 59 individuals.</p><p><br></p><p><strong>Quality control of sputum samples:</strong></p><p>Induced sputum was obtained from all subjects and quality controlled upon collection. Briefly, sputum plugs which contained the most viscous material were placed in a petri dish and isolated from saliva. The selected sputum plugs were prepared for cytology by dilution with 0.1% dithiothreitol solution and filtered through 48-\u03bcm nylon-mesh filter according to a standardized sputum processing protocol<strong>[4]</strong>. The numbers of total cells, squamous epithelial cells and leukocytes were counted and recorded. Sputum specimens with squamous epithelial cells:leukocytes&lt;1:2.5 were considered minimally contaminated with oropharyngeal materials and were acceptable for downstream experiments<strong>[5]</strong>. 5 and 2 sputum samples were excluded from Guangzhou and Shenzhen cohort respectively in the sputum quality control process.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> GOLD. Global Initiative for Chronic Obstructive Lung Disease. Global Strategy For the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease. 2019 Report. (2019).</p><p><strong>[2]</strong> Wang Z, Yang Y, Yan Z, Liu H, Chen B, Liang Z, Wang F, Miller BE et al. Multi-omic meta-analysis identifies functional signatures of airway microbiome in chronic obstructive pulmonary disease. ISME J. 2020 Nov;14(11):2748-2765. doi:10.1038/s41396-020-0727-y. PMID:32719402.</p><p><strong>[3]</strong> Wang Z, Liu H, Wang F, Yang Y, Wang X, Chen B, Stampfli MR, Zhou H, Shu W, Brightling CE, Liang Z, Chen R. A Refined View of Airway Microbiome in Chronic Obstructive Pulmonary Disease at Species and Strain-Levels. Front Microbiol. 2020 Jul 30;11:1758. doi:10.3389/fmicb.2020.01758. PMID:32849386.</p><p><strong>[4]</strong> Bafadhel M, McCormick M, Saha S, McKenna S, Shelley M, Hargadon B et al. Profiling of sputum inflammatory mediators in asthma and chronic obstructive pulmonary disease. Respiration. 2012;83(1):36-44. doi:10.1159/000330667. PMID:21912093.</p><p><strong>[5]</strong> Murray PR, Washington JA. Microscopic and baceriologic analysis of expectorated sputum. Mayo Clin Proc. 1975 Jun;50(6):339-44. PMID:1127999.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>40 \u00b5l of each sample from the 96-well plate was inserted with&nbsp;fetal bovine serum (more than 50, insert one for every 10 samples; 50 or less are not considered). 120 \u00b5l of pre-cooled methanol was added, followed by mixing and shaking for 1 min, and then placed in a refrigerator at -20 \u00b0C for 2h or overnight. Next, samples were centifuged (4,000 x g; 4 \u00b0C) for 30 min. 25 \u00b5l of each sample was placed in a new 96-well plate and diluted with 225 \u00b5l of 50% methanol. 50 \u00b5l of each sample was taken and mixed to make the QC sample. 60 \u00b5l of the supernatant was taken and transferred to a 96-well microplate, the membrane was sealed and then tested on the machine.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Sputum supernatant was subject to untargeted metabolomic characterization using Xevo G2-XS QTOF (Waters, UK) coupled to an ultra performance liquid chromatography (UPLC) system (Waters, UK). Chromatographic separations were performed using an ACQUITY UPLC column (100 mm x 2.0 mm, 1.7 \u03bcm, Waters, UK) for reverse phase separation. The column oven was maintained at 50 \u00b0C. The flow rate was 0.4 ml/min and the mobile phase consisted of solvent A (water + 0.1% formic acid) and solvent B (methanol + 0.1% formic acid). Gradient elution conditions were set as follows: 0~2 min, 100% phase A; 2~11 min, 0% to 100% B; 11~13 min, 100% B; 13~15 min, 0% to 100% A. The injection volume for each sample was 5 \u00b5l.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A high-resolution tandem mass spectrometer Xevo G2 XS QTOF (Waters, UK) was used to detect metabolites eluted form the column. The Q-TOF was operated in both positive and negative ion modes. For Positive ion mode, the capillary and sampling cone voltages were set at 3.0 kV and 40.0 V, respectively. For Negative ion mode, the capillary and sampling cone voltages were set at 2.0 kV and 40.0 V, respectively. The mass spectrometry data were acquired in Centroid MSE mode. The TOF mass range was from 50 to 1200 Da and the scan time was 0.2 s. For the MS/MS detection, all precursors were fragmented using 20-40 eV, and the scan time was 0.2 s. During the acquisition, the LE signal was acquired every 3 s to calibrate the mass accuracy. Furthermore, in order to evaluate the stability of the LC-MS during the whole acquisition, a quality control sample (Pool of all samples) was acquired after every 10 samples.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Raw</strong> metabolome data were converted into <strong>mzXML</strong> format and ion features were extracted using <strong>Progenesis QI (v2.2)</strong>. Low-quality ions (ions that were missing in over 50% of QC samples or over 80% of test samples), or ions with relative standard deviation greater than 30%, were filtered from downstream analysis<strong>[1]</strong>.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Dunn WB, Broadhurst D, Begley P, Zelena E, Francis-McIntyre S, Anderson N, Brown M, Knowles JD, Halsall A, Haselden JN, Nicholls AW, Wilson ID, Kell DB, Goodacre R; Human Serum Metabolome (HUSERMET) Consortium. Procedures for large-scale metabolic profiling of serum and plasma using gas chromatography and liquid chromatography coupled to mass spectrometry. Nat Protoc. 2011 Jun 30;6(7):1060-83. doi:10.1038/nprot.2011.335. PMID:21720319.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Identification of metabolites was performed by searching <strong>HMDB (v5.0)[1]</strong>, <strong>METLIN (v3.7.1)[2]</strong> and <strong>KEGG (v96.0)[3]</strong> databases. The resultant metabolite abundance matrix was subject to co-abundance clustering using <strong>WGCNA (v1.69)[4]</strong>. Differentially expressed transcriptome modules and sputum and serum proteins were obtained using <strong>glm</strong> in <strong>R</strong> with age, gender, site, smoking status and ICS usage being covariates.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Wishart DS, Feunang YD, Marcu A, Guo AC, Liang K, V\u00e1zquez-Fresno R, Sajed T et al. HMDB 4.0: the human metabolome database for 2018. Nucleic Acids Res. 2018 Jan 4;46(D1):D608-D617. doi:10.1093/nar/gkx1089. PMID:29140435.</p><p><strong>[2]</strong> Guijas C, Montenegro-Burke JR, Domingo-Almenara X, Palermo A, Warth B, Hermann G et al. METLIN: A Technology Platform for Identifying Knowns and Unknowns. Anal Chem. 2018 Mar 6;90(5):3156-3164. doi:10.1021/acs.analchem.7b04424. PMID:29381867.</p><p><strong>[3]</strong> Ogata H, Goto S, Sato K, Fujibuchi W, Bono H, Kanehisa M. KEGG: Kyoto Encyclopedia of Genes and Genomes. Nucleic Acids Res. 1999 Jan 1;27(1):29-34. doi:10.1093/nar/27.1.29. PMID:9847135.</p><p><strong>[4]</strong> Langfelder P, Horvath S. WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics. 2008 Dec 29;9:559. doi:10.1186/1471-2105-9-559. PMID:19114008.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS4017_LC-MS_POS_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS \u2013 negative - reverse phase",
+                        "filename": "a_MTBLS4017_LC-MS_NEG_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

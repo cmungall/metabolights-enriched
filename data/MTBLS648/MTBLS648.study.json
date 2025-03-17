@@ -1,0 +1,575 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-06-08T12:40:48.866000",
+        "statusUpdateTime": "2018-06-08T12:40:48.866000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "/home/diogo/Downloads/Configurations/MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS648",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-03-20",
+        "publicReleaseDate": "2018-06-08",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CSEO",
+                "file": "http://data.bioontology.org/ontologies/CSEO",
+                "version": "2",
+                "description": "Cigarette Smoke Exposure Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS648",
+                "filename": "s_MTBLS648.txt",
+                "title": "Effect of Pro-longevity drugs on Lipid profile, link between lipid signalling and longevity",
+                "description": "We report the effect of four lifespan modifying drugs and of combinations of these drugs on lipid profile in Caenorhabditis elegans. We investigated drug-drug interactions and identified beneficial drug interactions between drugs selected to target synergistic longevity mechanisms and pathways. We employ ultra-high performance liquid chromatography-mass spectrometry (UHPLC-MS) to compare the abundance of lipid species in treated and control animals. Adult nematodes were treated with rapamycin, rifampicin, psora-4 and allantoin and combinations of these compounds and the resulting change in lipid profiles, specifically in those of triacylglycerol (TAG), phosphatidylcholine (PC) and phosphatidylethanolamine (PE) were determined. We quantified changes resulting from treatment with the drug combinations relative to untreated controls and relative to animals treated with each constituent single drugs. We further determined the dependence of changes in lipid profiles on genes know to affect lipid metabolism using strains carrying mutations in these pathways. In particular, we determined lipid profiles in genetic model of caloric restriction (eat-2), strain lacking homolog of TGF\u03b2 (daf-7) and in strain lacking the SREBP/sbp-1 transcription factor.",
+                "submissionDate": "2018-03-20",
+                "publicReleaseDate": "2018-06-08",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Tesfahun",
+                        "lastName": "Admasu",
+                        "email": "tesfahun@u.nus.edu",
+                        "affiliation": "National University of Singapore",
+                        "address": "Yale-NUS College\n5 Engineering drive ",
+                        "fax": "",
+                        "midInitials": "D",
+                        "phone": "6594254104",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Student",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C75561"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CSEO",
+                            "file": "http://data.bioontology.org/ontologies/CSEO",
+                            "version": "2",
+                            "description": "Cigarette Smoke Exposure Ontology"
+                        },
+                        "termAccession": "http://scai.fraunhofer.de/CSEO#lipidomics"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "drug",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BAO",
+                            "file": "http://data.bioontology.org/ontologies/BAO",
+                            "version": "19",
+                            "description": "BioAssay Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_23888"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "aging",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/GO_0007568"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Doubling healthy lifespan using drug synergies",
+                        "authorList": "Tesfahun Dessale Admasu, Krishna Chaithanya Batchu, Diogo Barardo, Li Fang Ng, Vanessa Yuk Man Lam, Linfan Xiao, Markus R. Wenk, Nicholas S. Tolwinski, Jan Gruber",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Drug",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Adult nematodes were treated with drug, drug combination or vehicle for 2 days. For each condition, a pellet containing 2000 to 3000 nematodes were collected, washed with M9 buffer and transferred to polypropylene tubes containing 250 \u00b5l lysis buffer (20 mM 219 Tris-HCl pH 7.4, 100 mM NaCl, 0.5 mM EDTA, 5% glycerol) and incubated on ice for 15 min followed by homogenization using a bead beater (Precellys, France).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Lipids extraction from the lysed samples was carried out by Folchs extraction. Briefly, 800 \u00b5l of ice-cold chloroform-methanol (1:2 v/v) was added to the homogenates and vigorously vortexed for 1 min followed by shaking at 1200 RPM for 30 min using a thermomixer (Eppendorf, Hamburg, Germany). In order to minimize oxidation during extraction, 0.5% butylated hydroxytoluene (BHT) was added to the organic solvents. For method validation and to control lipid-class dependent differences in extraction and ionization, at the time of extraction samples were spiked with known amounts of internal standards (Avanti polar lipids, Alabaster, AL, USA) corresponding to each lipid class. Upon centrifugation, the organic phase was transferred to a fresh centrifuge tube and dried under vacuum using a vacuum concentrator (SpeedVac, Thermo Savant, Milford, USA). The dried lipid extract was reconstituted in 100 ml methanol and stored until the MS analysis was performed.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Lipid species were analyzed by liquid chromatography mass spectrometry (LC-MS). The extracted samples were evaporated, reconstituted in a small volume and the chromatographic separation was achieved on the Agilent 1290 Infinity LC system equipped with a ZORBAX Eclipse Plus C18 column (2.1 x 50 mm, 1.8 \u00b5m). Separation of the molecular species was done using a gradient elution. Solvent A was acetonitrile/H2O (60:40 v/v) with 10 mM ammonium formate, while solvent B was isopropanol/acetonitrile (90:10) containing 10 mM ammonium formate.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Sample was injected using an Agilent 1290 Infinity LC system (Agilent Technologies, Santa Clara, CA) coupled to a triple quadrupole (QqQ) instrument (Agilent 6490) for MS analysis. Chromatographic separation was achieved on the LC system equipped with a ZORBAX Eclipse Plus C18 column. Separation of the molecular species was done using a gradient elution. Solvent A was acetonitrile/H2O (60:40 v/v) with 10 mM ammonium formate, while solvent B was isopropanol/acetonitrile (90:10) containing 10mM ammonium formate. The flow rate was set to 0.4 ml/min and the column temperature was 45 \u00b0C. Solvent B was set at 40% at injection and increased linearly to 100% in 7 min, retained at this value for 2 min, decreased back to 40% in 1 min and then retained there until the end of the gradient by 14 min. The eluent was directed to the ESI source of the mass spectrometer operated in the positive ion mode. Lipids were ionized by ESI and each individual lipid molecular species was analyzed using a targeted dynamic multiple reaction monitoring (dMRM) approach measuring over several unique transitions with known precursor/product mass-to-charge ratio (m1/m3) and retention times. The MS conditions were as follows. For ESI: gas temperature, 300 \u00b0C, gas flow, 10 l/min; sheath gas temperature, 350 \u00b0C, sheath gas flow, 8 l/min, and capillary voltage, 3500 V. The resolution of the instrument is about 1,000 at m/z 760 and a mass accuracy of >200ppm. The minimum dwell time used was 19 ms while the run time was 14 min. MRM method was used where Q1 and Q3 were set to pass molecularly distinctive precursor and product ions, whereby collisions were induces in Q2 using N2.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "High-resolution LCMS data obtained on the 6490 QqQ Mass spectrometer were subjected to data processing on a Mass Hunter software (Agilent) workstation (version B.06.00). The identification of a particular species was based on accurate mass and/or retention times (RT). Signal intensities of the targeted species were compared with the intensities from the spiked internal standards and the retention times for the various classes were matched. The processed data were exported to excel and normalized to the internal standard.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Standards of PC, PE and TAG were analyzed under identical conditions and each individual lipid molecular species was analyzed using a targeted dynamic multiple reaction monitoring (dMRM) approach measuring over several unique transitions with known precursor/product mass-to-charge ratio (m1/m3) and 258 retention times.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography Tandem MS (LC-MS/MS)",
+                        "filename": "a_MTBLS648_PC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography Tandem MS (LC-MS/MS)",
+                        "filename": "a_MTBLS648_PE_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography Tandem MS (LC-MS/MS)",
+                        "filename": "a_MTBLS648_TAG_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

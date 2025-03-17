@@ -1,0 +1,538 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-04-24T00:00:00",
+        "statusUpdateTime": "2024-04-24T09:00:46.313924",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS7972",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2023-06-05",
+        "publicReleaseDate": "2024-04-24",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS7972",
+                "filename": "s_MTBLS7972.txt",
+                "title": "Exercise Activates Interferon Immune Response of the Liver via Gpld1 to Enhance Antiviral Innate Immunity",
+                "description": "<p>Healthy behavioral patterns could modulate organ functions to enhance the body\u2019s immunity. However, whether exercise regulates antiviral innate immunity remains elusive. Here, we found that exercise promotes type-I IFN (IFN-I) production in the liver and enhances IFN-I immune activity of the body. Despite the possibility that many exercise-induced factors could regulate IFN-I production, we identified Gpld1 as a crucial molecule and the liver as the major organ to promote IFN-I production after exercise. Exercise largely loses the efficiency to induce IFN-I in Gpld1-/- mice. Further studies demonstrated that exercise-produced 3-hydroxybutanoic acid (3-HB) critically induces Gpld1 expression in the liver. Gpld1 blocks the PP2A-IRF3 interaction and therefore enhances IRF3 activation and IFN-I production, and improves the body\u2019s antiviral ability. This study reveals that the exercise behavior improves antiviral innate immunity by linking the liver metabolism to systemic IFN-I activity, and uncovers an unknown function of liver cells in innate immunity.</p>",
+                "submissionDate": "2023-06-05",
+                "publicReleaseDate": "2024-04-24",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Tengfei",
+                        "lastName": "Ren",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "first author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002034"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jiuyi",
+                        "lastName": "He",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "co-author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002036"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "exercise",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000483"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Exercise activates interferon response of the liver via Gpld1 to enhance antiviral innate immunity.",
+                        "authorList": "Ren T, He J, Zhang T, Niu A, Yuan Y, Zuo Y, Miao Y, Zhang H, Zang L, Qiao C, Cao X, Yang X, Zheng Z, Xu Y, Wu D, Zheng H.",
+                        "pubMedID": "38809975",
+                        "doi": "10.1126/sciadv.adk5011",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The mice (C57BL/6) were randomly divided into a sedentary group and an exercise group. The mice in the exercised group exercised 3x times a day (in the morning, afternoon and evening) and 1 h each time in the running wheel for a total of 1 week. The mice in the sedentary group were provided with enough water and food to keep them in cages. After 1 week, blood was collected from mice in the exercising and sedentary groups, and this blood was placed in an anticoagulation tube. Then, the blood was centrifuged at 4 \u00b0C, 3000 rpm, for 10 min. After centrifugation, the supernatant was collected for LC-MS/MS analysis, and the excess plasma was stored at -80 <strong>\ufeff</strong>\u00b0C (avoiding repeated freezing and thawing). LC-MS/MS analysis was conducted by BiotechPack (BiotechPack, China).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Briefly, take 50 \u03bcL plasma sample, add 150 \u03bcL cold acetonitrile, vortex in an ice bath for 30 min, centrifuge at 12,000 rpm for 10 min at 4 \u00b0C, and take the supernatant for injection for 10 min \u03bcL detection.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chromatography Instrument: Thermo Fisher Scientific Ultimate 3000; Chromatographic column: Waters BEH C18 (150 x 2.1 mm, 2.5 \u00b5m);&nbsp;column temperature: 40 \u00b0C; mobile phase A: ACN; mobile phase B: 0.1% FA; flow rate: 0.3 mL/min; analysis time of each component: 15 min. Time (min), mobile phase: 0, A:5% / 95% B; 2, A:5% / B:95%; 10, A:95% / B:5%; 13, A:95%&nbsp;/ B:5%; 15, A:5%&nbsp;/ B:95%.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>MS parameters: TripleTOF5600+ Mass Spectrometer (AB SCIEX); Ion Source Gas1 (Gas 1), 50; Ion Source Gas2 (Gas 2), 50; Curtain Gas (CUR), 25; Source Tempreture, 500 \u00b0C (positive) / 450 \u00b0C (negative); Ion Sapary Voltage Floating (ISVF), 5500 V(positive) / 4400 V (negative); TOF MS scan range, 100-1200 Da; product ion scan range, 50-1000 Da; TOF MS scan accumulation time, 0.2 s; product ion scan accumulation time, 0.01 s. MS/MS parameters:&nbsp;information dependent acquisition (IDA); high sensitivity; declustering potential (DP), \u00b160 V; collision energy, 35 \u00b1 15 eV.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Convert the original data obtained by LC-MS into ABF format by Analysis Base File Converter software. Import the ABF format file to MS-DIAL 4.70, including peak extraction, de-noise, deconvolution, peak alignment, derive the 3D data matrix in CSV format (original data matrix).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Compare the extracted peak information with the database, and conduct full database retrieval of MassBank, Respect and GNPS. The 3D matrix includes sample information, retention time, mass to core ratio and mass spectrum response intensity (peak area). The database matching parameters are shown in the following table. Peak detection parameters: Minimum peak height, 1000 amplitude; Mass slice width, 0.1 Da. Alignment parameters setting: Retention time tolerance, 0.05 min; MS1 tolerance, 0.015 Da. Identification setting: Accurate mass tolerance (MS1), 0.01 Da; Accurate mass tolerance (MS2), 0.05 Da; Identification score cutoff, 80.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS7972_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS7972_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

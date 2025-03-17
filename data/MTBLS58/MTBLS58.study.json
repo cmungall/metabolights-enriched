@@ -1,0 +1,794 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-05-17T09:03:32.850000",
+        "statusUpdateTime": "2018-05-17T09:03:32.850000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Created With Tool",
+                "value": "mzml2isa 0.5.2"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS58",
+        "title": "",
+        "description": "",
+        "submissionDate": "2017-05-05",
+        "publicReleaseDate": "2018-05-17",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "IMS",
+                "file": "http://www.maldi-msi.org/download/imzml/imagingMS.obo",
+                "version": "1.2",
+                "description": "Imaging Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS58",
+                "filename": "s_MTBLS58.txt",
+                "title": "Metabolite annotation of rat epididymis with High-resolution imaging mass spectrometry",
+                "description": "Infertility or subfertility is a widespread problem with approximately 25% of couples seeking medical help. For about half the cases it lies in the male partner. Male infertility is caused by problems that affect sperm production, maturation and/or transport. In this study the role played by the epididymis in the post-testicular maturation of spermatozoa during its transit through this organ was investigated using FT-ICR imaging mass spectrometry of metabolites and the FDR-controlled metabolite annotation platform MetaSpace for high-resolution imaging mass spectrometry. This study together with MTBLS313 provides the accompanying data for FDR-controlled metabolite annotation for high-resolution imaging mass spectrometry.",
+                "submissionDate": "2017-05-05",
+                "publicReleaseDate": "2018-05-17",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Regis",
+                        "lastName": "Lavigne",
+                        "email": "regis.lavigne@univ-rennes1.fr",
+                        "affiliation": "U Rennes 1",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "matrix-assisted laser desorption-ionisation imaging mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000054"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "MetaSpace",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "infertility",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000545"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolite annotation of rat epididymis with High-resolution imaging mass spectrometry",
+                        "authorList": "",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": null
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Condition",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43359"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sample Growth Conditions",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43359"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "1 male adult wild-type rat was obtained from Inserm U1085 - Irset Research Institute (University of Rennes1, France). Animals were age 60 days and were reared under ad-lib conditions. Care and handling of all animals complied with EU directive 2010/63/EU on the protection of animals used for scientific purposes. The whole epididymis was excised from each animal immediately post-mortem, loosely wrapped rapidly in an aluminum foil and a 2.5% (w/v) carboxymethylcellulose (CMC) solution was poured to embed the epididymis to preserve their morphology. To remove air bubbles, the filled aluminum molds was gently freezed by depositing it on isopentane or dry ice, then on the nitrogen vapors and finally by progressively dipping the CMC/sample coated with aluminum foil into liquid nitrogen (or only flush with liquid nitrogen). Frozen tissues were stored at -80 \u00b0C until use to avoid degradation.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Preparation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Preparation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Sagittal sections of a rat epididymis (18 \u00b5m-thick sections) were collected on a cryomicrotome CM3050S (Leica, Wetzlar, Germany) as follows. Sixty consecutive sections were acquired at various distances among the entire epididymis. The sections were thaw-mounted onto indium tin oxide (ITO) coated glass slides (Bruker Daltonics, Bremen, Germany) and immediately desiccated. 2, 5 Dihydroxybenzoic Acid (DHB) MALDI-matrix was applied using the ImagePrep matrix deposition device (Bruker Daltonics). The method for matrix deposition was set as described: after an initialization step consisting in between 4-15 cycles; with a spray power at 20%, an incubation time of 10 s and a drying time of 50 s; was applied to obtain a final voltage difference of 0.2V. Just after the initialization phase, a second step of 30 s drying was applied. Then 12 fixed number of cycles (3th step) were performed with a final voltage difference at 0.05 V, a spray power at 20%, an incubation time of 30 s and a drying time under sensor control at 20% and a safe dry of 20 s; 18 fixed number of cycles (4th step) were performed with a final voltage difference at 0.1 V, a spray power at 20%, an incubation time of 30 s and a drying time under sensor control at 20% and a safe dry of 20 s; finally 52 fixed number of cycles (5th step) were performed with a final voltage difference at 0.15 V; a spray power at 20%, an incubation time of 30 s and a drying time under sensor control at 20% and a safe dry of 60 s.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample mounting",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample preservation",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Tissue modification",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sectioning instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Section thickness",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Matrix",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Matrix application",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For MALDI-MS measurements the prepared slides were mounted into a slide adapter (Bruker Daltonics) and loaded into the dual source of a 7T FTICR mass spectrometer solariX XR (Bruker Daltonics) equipped with a Paracell, at the resolving power R=130000 at m/z 400. The x-y raster width was set to 50 \u00b5m using smartbeam II laser optics with the laser focus setting \u2018small\u2019 (20-30 \u00b5m). For a pixel, a spectrum was accumulated from 50 laser shots. The laser was running at 1000 Hz and the ions were accumulated externally (hexapole) before being transferred into the ICR cell for a single scan. Each spectrum was internally calibrated by several point correction using: matrix cluster of DHB [C14H9O6+H+, m/z 273.039364] ,[heme +H+, m/z 616.176804] and known phospholipids present in the rat epididymis [C40H80NO8P+H+, m/z 734.569432], [C42H82NO8P+H+, m/z 760.585082], [C42H82NO8P+Na+, m/z 782.567026] and [C42H82NO8P+K+, m/z 798.540963]. Data was acquired for the mass range 100 < m/z < 1200 followed by a single zero filling and a sin-apodization. Online feature reduction was performed in the ftmsControl software, version 2.1.0 (Bruker Daltonics) to return only the peak centroids and intensities.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument manufacturer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Spatial resolution",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Target material",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pixel size x",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pixel size y",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Max count of pixel x",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Max count of pixel y",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Max dimension x",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Max dimension y",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Inlet type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Detector",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Detector mode",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Resolving power",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Resolving power m/z",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Native spectrum identifier format",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data file content",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Spectrum representation",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Spectrum representation",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Raw data file format",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument software",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument software version",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Line scan direction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Linescan sequence",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan pattern",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of scans",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Histology",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Histology",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Slides were scanned before matrix deposition. Teach marks, visible both on the optical image and underneath the matrix layer in the camera optic, were required for the correlation of the optical image with the sample in the instrument. Therefore, 3 correction fluid marks (using Tipp-Ex\u00ae) were spotted onto the slide corner and around the sample before taking each optical image. </P>Optical images were acquired on a Nikon coolscan V ED film scanner using a Nikon FH-G1 medical slide holder adapted to the scanner. Brightness and contrast settings were adjusted in accordance with the acquisition software recommendations: for a x-y raster width set to 50 \u03bcm (50 \u00b5m spatial resolution), the optical image resolution was set to a maximum of 2400 dpi and saved in .TIFF file format.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Stain",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "High-res image",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Low-res image",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Centroid data was exported into the imzML format by using the SCiLS Lab software, version 2016b (SCiLS, Bremen, Germany). Ion images were generated with the tolerance \u00b12.5 ppm. A hot-spot removal was performed for each image independently by setting the value of 1% highest-intensity pixels to the value of the 99\u2019th percentile followed by an edge-preserving denoising using a median 3 x 3-window filter.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolites were matched by sum formula using the HMDB database.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data Transformation software",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data Transformation software version",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "solariX",
+                        "filename": "a_MTBLS58_test_isa_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,669 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2021-01-18T00:00:00",
+        "statusUpdateTime": "2021-01-18T10:58:58.266063",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS183",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-03-11",
+        "publicReleaseDate": "2021-01-18",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "26",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "DOID",
+                "file": "http://data.bioontology.org/ontologies/DOID",
+                "version": "510",
+                "description": "Human Disease Ontology"
+            },
+            {
+                "comments": [],
+                "name": "JERM",
+                "file": "http://data.bioontology.org/ontologies/JERM",
+                "version": "14",
+                "description": "SysMO JERM Ontology of Systems Biology for Micro-Organisms"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "40",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "16",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "23",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "93",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS183",
+                "filename": "s_MTBLS183.txt",
+                "title": "The effects of oligomycin administration and glutamine deprivation on metabolic profile of MCF7 breast cancer cell line measured using [1,2-13C2]-D-glucose and [U-13C5]-L-glutamine as tracers",
+                "description": "This study aims to establish a comprehensive, genome-scale metabolic model (GSMM) combining different omics data of different regulatory levels of breast cancer cells in order to elucidate the way that these regulatory levels affect or determine each other. Together with transcriptomics, proteomics and metabolomics data obtained, fluxomics data was also to be integrated. In order to get the fluxomics data, MCF cells were incubated with either the medium containing [1,2-13C2]-D-glucose or [U-13C5]-L-glutamine for 8 or 24 hours. A good GSMM should answer any perturbations applied; therefore, different incubation conditions should be applied to generate different metabolic profiles that will help to test if the model of breast cancer works well. To this end, MCF cells were either administered oligomycine, which is an ATP synthase inhibitor, or were deprived of glutamine. Cells were counted before and after each incubation time so as to get the cell proliferation curve. Later, at the corresponding time points, cells and media were frozen to measure the concentrations of glucose, glutamine and lactate (not shown in the file) and the mass isotopomer distributions of glutamate, ribose, lactate, amino acids and TCA cycle intermediates (shown in the file). Finally, all these data was combined in order to estimate the flux rates of various reactions within the central carbon metabolism (not shown in the file). The fluxomics data obtained in this way is to be introduced in the GSMM designed.",
+                "submissionDate": "2015-03-11",
+                "publicReleaseDate": "2021-01-18",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Ibrahim H.",
+                        "lastName": "Polat",
+                        "email": "ihpolat@ub.edu",
+                        "affiliation": "Universitat de Barcelona",
+                        "address": "Av. Diagonal 643 Edifici Prevosti floor -2",
+                        "fax": "+34-934 021 559",
+                        "midInitials": "",
+                        "phone": "+34-934 021 217",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Main investigator of the project",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Pedro",
+                        "lastName": "Atauri",
+                        "email": "pde_atauri@ub.edu",
+                        "affiliation": "Universitat de Barcelona",
+                        "address": "",
+                        "fax": "+34-934 021 559",
+                        "midInitials": "",
+                        "phone": "+34-934 039281",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "technical advisor",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Silvia",
+                        "lastName": "Marin",
+                        "email": "silviamarin@ub.edu",
+                        "affiliation": "Universitat de Barcelona",
+                        "address": "",
+                        "fax": "+34-934 021 559",
+                        "midInitials": "",
+                        "phone": "+34-934 021 217",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "technical advisor",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Marta",
+                        "lastName": "Cascante",
+                        "email": "martacascante@ub.edu",
+                        "affiliation": "Universitat de Barcelona",
+                        "address": "",
+                        "fax": "+34-934 021 559",
+                        "midInitials": "",
+                        "phone": "+34-934 021 593",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator of the project",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "tracer-based metabolomics",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "breast cancer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "DOID",
+                            "file": "http://data.bioontology.org/ontologies/DOID",
+                            "version": "510",
+                            "description": "Human Disease Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/DOID_1612"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "MCF-7",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001203"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "isotopologue",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "16",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Fluxomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "JERM",
+                            "file": "http://data.bioontology.org/ontologies/JERM",
+                            "version": "14",
+                            "description": "SysMO JERM Ontology of Systems Biology for Micro-Organisms"
+                        },
+                        "termAccession": "http://www.mygrid.org.uk/ontology/JERMOntology"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "glutamine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "93",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "oligomycin",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "93",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The landscape of tiered regulation of breast cancer cell metabolism",
+                        "authorList": "Katzir Rotem, Polat Ibrahim H., Harel Michal, Katz Shir, Foguet Carles, Selivanov Vitaly A., Sabatier Philippe, Cascante Marta, Geiger Tamar, Ruppin Eytan",
+                        "pubMedID": "31780802",
+                        "doi": "10.1038/s41598-019-54221-y",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Incubation time",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Oligomycin",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Qualitative Concept",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Glutamine",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Qualitative Concept",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Tracer",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "tracer",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHEBI",
+                                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                                "version": "93",
+                                "description": "Chemical Entities of Biological Interest Ontology"
+                            },
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "MCF7 cells were seeded (1,000,000 per p100 plate, 65 plates in total) in growth medium (DMEM without phenol red supplemented with 10% FBS, 10 mM D-glucose, 1 mM sodium pyruvate, 2 mM glutamine, 0.1% antibiotic (penicillin 10 Units/ml-streptomycin 10 Units/ml), 0.01 mg/ml insulin, and 1% non-essential amino acids). 48 hrs after seeding, medium of all the plates was replaced by an adaptation medium (DMEM without phenol red with the same supplements except for the FBS that was changed for 10% dialyzed FBS (Sigma, F0392)). 24 hrs after adding the adaptation medium, the medium of the plates was removed, plates were washed once with PBS and 10 ml of fresh medium was added to each plate. The new media were different according to the experimental condition assayed, which were as follows:</br>\n- Condition 1.1: 100% [1,2-13C2]-D-glucose + glutamine + ethanol (a total of 12 plates, 6 for 8 hrs and 6 for 24 hrs measurements)</br>\n- Condition 1.2: glucose + 100% [U-13C5]-L-glutamine + ethanol (a total of 12 plates, 6 for 8 hrs and 6 for 24 hrs measurements)</br>\n- Condition 2:   100% [1,2-13C2]-D-glucose + ethanol (a total of 12 plates, 6 for 8 hrs and 6 for 24 hrs measurements)</br>\n- Condition 3.1: 100% [1,2-13C2]-D-glucose + glutamine + oligomycin (a total of 12 plates, 6 for 8 hrs and 6 for 24 hrs measurements)</br>\n- Condition 3.2: glucose + 100% [U-13C5]-L-glutamine + oligomycin (a total of 12 plates, 6 for 8 hrs and 6 for 24 hrs measurements)</br>\n- Condition 4:   glucose + glutamine + ethanol (natural colds) (a total of 5 plates, 3 for 0 hrs cell count, 1 for 8 hrs and 1 for 24 hrs measurements)\n</p>\nThe media used for all the incubation conditions was the same as adaptation medium, but including the indicated tracer elements. Final concentration of ethanol in all conditions was 0.05%. Oligomycin was dissolved in ethanol and was added to the media from conditions 3.1 and 3.2 to a final concentration of 10 \u00b5M of oligomycin and 0.05% of ethanol. All the measurements were conducted in triplicates except for condition 4.\n</p>\n0, 8 or 24 hrs after medium change, the media from all the plates were collected and frozen at -20 \u00baC, and the plates were washed twice with cold PBS. 3 plates from each condition and at each time point (conditions 1.1, 1.2, 2, 3.1 and 3.2, for 8 and 24 hrs, and condition 4 for 0 hrs) were used for cell counting; thus, cells were collected by trypsinization and propidium iodide and beads were added prior to analysis of cell number and viability using flow cytometry. The remaining pellet was washed twice in PBS to eliminate beads and propidium iodide, centrifuged and saved at -80 \u00baC for later use for RNA ribose extraction. The rest of the plates (3 for conditions 1.1, 1.2, 2, 3.1, 3.2 at 8 and 24 hrs, and 1 for condition 4 at 8 and 24 hrs) were frozen at -80 \u00baC for measurements of polar intracellular metabolites.\n</p>\nThe medium was used to measure lactate, glutamate and other amino acids\u2019 isotopologue distributions via GC/MS. The medium used for GC/MS was the one from the plates that were used for cell counting.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Extraction from incubation media and derivatization were different depending on the analyzed metabolite.\n</p>\nRibose (from RNA from frozen pellets):</br>\nRibose from RNA was isolated from the aqueous phase after addition of Trizol to the cell pellets. Purified RNA was hydrolyzed in 2 N HCl at 100 \u00b0C for 2 hrs and the solvent was evaporated to dryness under airflow. RNA ribose was converted to its ribose aldonitrile acetate derivative after treatment for 30 min at 100 \u00baC with hydroxylamine hydrochloride in pyridine (2% v/v) and then acetic anhydride for 1 hr more. Excess reagent and solvent were removed by evaporation with N2, and the derivatized ribose was redissolved in ethyl acetate just before GC/MS analysis.\n</p>\nLactate from incubation medium:</br>\nIncubation media were acidified with hydrochloric acid and lactic acid was extracted with ethyl acetate and evaporated to dryness under N2 flow. Lactate was derivatized to its lactic acid n-propylamide-heptafluorobutyric ester doing as follows: dried lactate samples were incubated at 75 \u00baC for 1 hr with dimethoxypropane and methanolic HCl. N-propylamine was added to the reaction mixture and heated at 100 \u00baC for 1 hr more. Samples were dried under a stream of N2. Derivative product was extracted with ethyl acetate and filtered through a glass wool packed pipette. Samples were dried under a stream of N2. Precipitates were then treated with dichloromethane and HFB anhydride at room temperature for 10 min. Samples were dried and dissolved in methylene chloride for GC/MS analysis.\n</p>\nGlutamate from incubation medium:</br>\nIncubation media were passed through Dowex-50WX8 columns and amino acids were eluted with 2N ammonium hydroxide. The solutions were evaporated to dryness by blowing air and next resuspended with water. These solutions were passed through Dowex-1X8 columns. Columns were washed with water and glutamate was collected with 0.5 N acetic acid. The acid solutions were evaporated to dryness. Glutamate was converted to its N-trifluoroacetyl-n-butyl ester; samples were heated for 1 hr at 100 \u00baC in butanolic HCl. They were then dried under a stream of N2 and methylene chloride and trifluoroacetic anhydride were added. After 20 min samples were dried under a stream of N2 and were dissolved in methylene chloride for injection into the GC/MS.\n</p>\nAmino acids from incubation medium:</br>\nIncubation media were passed through Dowex-50WX8 columns and amino acids were eluted with 2 N ammonium hydroxide. The solutions were evaporated to dryness by blowing air. Amino acids were converted to its N-trifluoroacetyl-n-butyl ester; samples were heated for 1 hr at 100 \u00baC in butanolic HCl. They were then dried under a stream of N2 and methylene chloride and trifluoroacetic anhydride were added. After 20 min samples were dried under a stream of N2 and were dissolved in methylene chloride for injection into the GC/MS.\n</p>\nPolar intracellular metabolites (from frozen plates):</br>\n1 ml of cold methanol (100% v/v) was added to the defrost plate. 1 min later 1 ml of cold water was added to the same plate. The content of the plate was scraped and all the content was transferred to a glass tube. Then, cell extracts were sonicated using a titanium probe. 2 ml of cold chloroform was added to the cell lysate and tubes were placed in a shaker for vigorous agitation at 4 \u00b0C for 30 min. Next, tubes were centrifuged and the upper phase containing the polar metabolites was transferred to a separate glass tube. The tubes containing the polar phase were immediately evaporated to dryness under airflow at room temperature. The intracellular polar metabolites were derivatized by adding 50 \u00b5l 2% (v/v) methoxamine hydrochloride in pyridine and shaken vigorously at 37 \u00b0C for 90 min. Next, N-methyl-N-(tert-butyldimethylsilyl)trifluoroacetamide (MBTSTFA) + 1% tert-butyldimetheylchlorosilane (TBDMCS) were added and samples were incubated for 1 hr at 55 \u00b0C. Content of tubes was transferred to ALS vials for GC/MS analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": " Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Gas chromatography (GC) conditions were different depending on the analyzed sample. For all samples/methods a constant He flow of 1 ml/min was applied. Inlet temperature and oven temperature ramps were different depending on the analyzed metabolite:\n</p>\nRibose:</br>\nInlet temp. 250 \u00baC; oven temperature programmed as follows: 185 \u00baC for 2 min, then a 5 \u00baC/min ramp to 200 \u00baC, followed by a 25 \u00baC/min ramp to 250 \u00baC and hold for 2 min. Retention time of ribose was 5.4 min.\n</p>\nLactate from incubation medium:</br>\nInlet temp. 200 \u00baC; oven temperature programmed as follows: 100 \u00baC for 3 min, then a 20 \u00baC/min ramp to 160 \u00baC and hold for 2 min. Retention time of lactate was 5.4 min.\n</p>\nGlutamate from incubation media:</br>\nInlet temp. 250 \u00baC; oven temperature programmed as follows: 215 \u00baC for 2 min, then a 9 \u00baC/min ramp to 224 \u00baC, followed by a 3 \u00baC/min ramp to 233 \u00baC and hold for 2 min. Retention time of glutamate was 3.8 min.\n</p>\nAmino acids from incubation media:</br>\nInlet temp. 250 \u00baC; oven temperature programmed as follows: 110 \u00baC for 1 min, then a 10 \u00baC/min ramp to 125 \u00baC, followed by a 5 \u00baC/min ramp to 153 \u00baC, next a 50 \u00baC/min ramp to 200 \u00baC, next a 5 \u00baC/min ramp to 216 \u00baC and hold for 1 min, and a final 25 \u00baC/min ramp to 250 \u00baC and hold for 2 min. Retention times of the different determined metabolites were: alanine, 5.3 min; serine, 6.6 min; proline, 9.6 min; aspartate + asparagine, 11.5 min; glutamate + glutamine, 12.8 min.\n</p>\nPolar intracellular metabolites:</br>\nInlet temp. 270 \u00baC; oven temperature programmed as follows: 100 \u00baC for 3 min, then a 10 \u00baC/min ramp to 165 \u00baC, followed by a 2.5 \u00baC/min ramp to 225 \u00baC, next a 25 \u00baC/min ramp to 265 \u00baC, and a final 7.5 \u00baC/min ramp to 300 \u00baC. Retention times of the different determined metabolites were: pyruvate, 8.2 min; fumarate, 18.0 min; a-ketoglutarate, 24.3 min; malate, 27.4 min; aspartate, 28.7 min; citrate, 37.6 min.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Mass spectrometer (MS) source temperature was 300 \u00baC for lactate, amino acids and ribose and 230 \u00baC for polar intracellular metabolites and glutamate. MS quadrupole temperature was 150 \u00baC for all the metabolites. Ion source was Chemical Ionization (CI) for lactate, amino acids and ribose and Electron Ionization (EI) for polar intracellular metabolites and fragments C2C4 and C2C5 of glutamate. Selected Ion Monitoring (SIM) was used in all the assays. Monitored m/z values were:\n</p>\n- Lactate from incubation medium: m/z 327, 328, 329, 330, 331, 332\n</p>\n- Glutamate from incubation medium: m/z 151, 152, 153, 154, 155, 156, 157 (fragment C2-C4 of glutamate) and 197, 198, 199, 200, 201, 202 (fragment C2-C5 of glutamate)\n</p>\n- Amino acids from incubation medium:</br>\n--- from RT 4.0 to 5.4 min, m/z values: 241, 242, 243, 244, 245, 246 (alanine);</br>\n--- from RT 6.0 to 6.72 min, m/z values: 353, 354, 355, 356, 357, 358 (serine);</br>\n--- from RT 9.4 to 10.5 min, m/z values: 295, 296, 297, 298, 299, 300, 301, 302 (proline);</br>\n--- from RT 11.0 to 12.5 min, m/z values: 341, 342, 343, 344, 345, 346, 347, 348 (aspartate + asparagine);</br>\n--- from RT 12.5 to the end, m/z values: 383, 384, 385, 386, 387, 388, 389, 390 (glutamate + glutamine);\n</p>\n-Polar intracellular metabolites:</br>\n--- from RT 7.8 to 10 min, m/z values: 173, 174, 175, 176, 177 (pyruvate C1C3);</br>\n--- from RT 17.9 to 20 min, m/z values: 286, 287, 288, 289, 290, 291, 292 (fumarate C1C4);</br>\n--- from RT 23 to 26 min, m/z values: 345, 346, 347, 348, 349, 350, 351, 352 (a-ketoglutarate C1C5);</br>\n--- from RT 26 to 28 min, m/z values: 418, 419, 420, 421, 422, 423, 424 (malate C1C4);</br>\n--- from RT 28 to 30 min, m/z values: 417, 418, 419, 420, 421, 422, 423 (aspartate C1C4);</br>\n--- from RT 35 to the end, m/z values: 590, 591, 592, 593, 594, 595, 596, 597 (citrate C1C6).\n</p>\n- Ribose: m/z 255, 256, 257, 258, 259, 260, 261, 262, 263, 264\n</p>\nAcceptance criteria: Only peaks with intensity of the Total Ion Chromatogram (TIC) lower than 8 million ions were accepted. Whether possible, only peaks with intensity of the Total Ion Chromatogram (TIC) higher than 1 million ions were used.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The ion clusters around the specific m/z were monitored for each analyzed metabolite to determine the fractional distribution of 13C. In brief, the areas of peaks for all ions in the cluster were extracted from raw data using equipment software. A value of each peak area is proportional to the fraction of ions with the same molecular weight. These data obtained represents the distribution of ions of various molecular weights that belong to the same compound or its fragment. Ions of various molecular weights are produced as a result of experimental isotope incorporation, the presence of isotopes in heteroatoms and the presence of natural abundance of 13C in the background. Also, derivatizing reagents often contain isotopes which contribute to the isotopologue distribution of the derivatized compound as well. Correction for all such contributions is necessary before one can determine the amount of isotope incorporation from artificially 13C labeled substrates and the distribution of isotopologues in the compound of interest. This correction was performed by using regression analysis using an in-house developed algorithm (R-mass).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "\nMetabolites are not identified, just mass isotopomer distributions as consequence of incubation in the presence of the tracer are determined.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Isotopologue distribution calculation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Isotopologue distribution calculation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The ion clusters around the specific m/z were monitored for each analyzed metabolite to determine the fractional distribution of 13C. In brief, the areas of peaks for all ions in the cluster were extracted from raw data using equipment software. A value of each peak area is proportional to the fraction of ions with the same molecular weight. These data obtained represents the distribution of ions of various molecular weights that belong to the same compound or its fragment. Ions of various molecular weights are produced as a result of experimental isotope incorporation, the presence of isotopes in heteroatoms and the presence of natural abundance of 13C in the background. Also, derivatizing reagents often contain isotopes which contribute to the isotopologue distribution of the derivatized compound as well. Correction for all such contributions is necessary before one can determine the amount of isotope incorporation from artificially 13C labeled substrates and the distribution of isotopologues in the compound of interest. This correction was performed by using regression analysis using an in-house developed algorithm (R-mass).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "23",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "23",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "5975C Series GC/MSD (Agilent)",
+                        "filename": "a_MTBLS183_metabolic_characterization_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

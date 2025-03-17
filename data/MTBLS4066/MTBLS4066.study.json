@@ -1,0 +1,459 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-10-10T00:00:00",
+        "statusUpdateTime": "2022-10-10T08:12:16.280407",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS4066",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2022-01-04",
+        "publicReleaseDate": "2022-10-10",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS4066",
+                "filename": "s_MTBLS4066.txt",
+                "title": "Metabolite profiling of Arabidopsis mutants of enzymes of lower glycolysis",
+                "description": "We have previously shown that in Arabidopsis the three enzymes of lower glycolysis phosphoglycerate mutase (PGAM), enolase and pyruvate kinase form a complex which play an important role in co-sub-cellar localization the mitochondria to the chloroplast. Given that their metabolites of these mutants, the complementation of pgam mutant and overexpression of PGAM are still unclear, here, we present the gas chromatography mass spectrometry-based metabolomics data and plant growth phenotypes of them. Compared with wild type, both sugar and amino acid are significantly changed at mutants of phosphoglycerate mutase, enolase, pyruvate kinase. Overexpression the PGAM could decrease the content of 3PGA, sugar and several amino acids and increase the content of alanine and pyruvate. In addition, pgam mutant could not be fully complemented by nuclear sub-localized, the side-directed-mutated and the E.coli PGAM at plant phenotype and metabolites profiling, especially  the content of 3PGA, serine and intermediates of TCA cycle.  These data suggested that the low glycolysis complex play an important role at both mitochondria-chloroplast co-subcellar localization and the metabolites exchange.",
+                "submissionDate": "2022-01-04",
+                "publicReleaseDate": "2022-10-10",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Youjun",
+                        "lastName": "Zhang",
+                        "email": "yozhang@mpimp-golm.mpg.de",
+                        "affiliation": "The Max Planck Institute of Molecular Plant Physiology",
+                        "address": "Am M\u00fchlenberg 1",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+4917622703257",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Study Site Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C93404"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography time-of-flight mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000735"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Glycolysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C28152"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolite profiling of Arabidopsis mutants of lower glycolysis.",
+                        "authorList": "Zhang Y, Fernie AR.",
+                        "pubMedID": "36220829",
+                        "doi": "10.1038/s41597-022-01673-z",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sample group",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "cohort",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004445"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Fresh weight",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Weight",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25208"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Plant growth conditions</strong></p><p><em>Arabidopsis thaliana</em>&nbsp;genotypes Columbia (Col-0) (WT), pgk (SALK_123919), pgam1-1 (SALK_003321), pgam 1-2 (SALK_029822), pgam 2-2 (SALK_002280), pgam1/2 (SALK_029822/ SALK_002280), enolase2-4 (SAIL_208_E09), pkc3 (GABI_187A04) and pkc4 (SALK_143658) mutants, PGAM1 overexpression lines and pgam1/2 complementation lines (nA- pgam1/2-1 (nuclear target PGAM1), sdmA-pgam1/2 -1 (non-functional PGAM1), E.pgam-pgam1/2 -1 (E.coli PGAM), sdmA-E.pgam-pgam1/2 -1 (E.coli PGAM and native promoter PGAM1 with nonfunctional PGAM1) and pgam-pgam1/2 (native PGAM1)) were used in this study. The seeds were plated on Murashige and Skoog medium supplemented with 1% (w/v) sucrose for 10 days, then the seedlings were transferred to soil under 8 h light (22 \u00b0C) / 16 h dark (18 \u00b0C) period in growth chamber at a light intensity of 120-150 \u03bcmol/m^2/s. The pre-bolting mature rosette leaves of 35-day old&nbsp;Arabidopsis&nbsp;were harvested for metabolite measurement after 2 h of light (10:00 am).</p><p><br></p><p><strong>Cloning genes of the PGAM</strong></p><p>The cytosolically localized PGAM1, PGAM1 with promoter and terminator, E.coli PGAM and enolase promoter were amplified&nbsp;and subcloned following the protocol published<strong>[1]</strong>. The gene specific primers with shorter 15 bp BP reaction adapter, and then amplified by full length BP reaction adapter, finally sub-cloned into gateway entry vectors the pDnor207 donor vector. The activity site of PGAM1 was mutated by 5 amino acid (H39, S80, K367, DH470) as primer. Expression vectors for overexpression and complementation were constructed using the Gateway LR reaction with pK7WG2 and PMDC110<strong>[2]</strong>.</p><p><br></p><p><strong>Plant transformation</strong></p><p>The construct was transformed into&nbsp;Agrobacterium tumefaciens&nbsp;strain GV3101 and then transformed by the floral dip method<strong>[3]</strong> into wild type plants or pgam1/2 double mutant by the green team of the Max Planck Institute of Molecular Plant Physiology. Homozygous overexpression (OE) lines and complementation were selected on MS plates containing 50&nbsp;mg/L Kanamycin or 100 mg/L Hygromycin. Resistant lines were transferred to soil to grow to maturity, and their transgenic status was confirmed by genomic PCR. Homozygous and complementation T3 seeds of the OE plants were used for further analysis.</p><p>&nbsp;</p><p><strong>Metabolite measurement</strong></p><p><em>Arabidopsis thaliana</em>&nbsp;(accession Col-0) plants were grown on soil in a climate chamber with 20 \u00b0C, 60% relative humidity (RH) during the day and 6 \u00b0C, 70% RH during the night in a 8/16 h light/dark cycle with of 120-150 \u03bcmol/m^2/s light intensity. After a week, plants were moved to a phytotron with a 8 h light period at a light intensity of 200 \u03bcmol/m^2/s, 20 \u00b0C, 60% RH and 16 \u00b0C during the 16 h night at 75% RH. Samples for metabolomics analysis were taken from 35-day old leaves. Samples were collected after 2 h of light. The time after imbibition was 0 h.</p><p><br></p><p><strong>Experimental design</strong></p><p>Given that glycolysis enzyme play an essential for the plant growth and development, here, the different glycolytic mutant, overexpression and complementation lines were compared with WT plant. The dataset composed of 2 parts: the first part is the 7 glycolytic mutants, 3 overexpression lines and 1 wild-type each with 6 biological replicates; the secondary part is the ipgam1/2 complementation lines with double mutant and WT with 6 biological replicates.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Zhang Y, Natale R, Domingues AP J\u00fanior, Toleco MR, Siemiatkowska B, F\u00e0bregas N, Fernie AR. Rapid Identification of Protein-Protein Interactions in Plants. Curr Protoc Plant Biol. 2019 Dec;4(4):e20099. doi:10.1002/cppb.20099. PMID:31714676.</p><p><strong>[2]</strong> Zhang Y, Beard KFM, Swart C, Bergmann S, Krahnert I, Nikoloski Z, Graf A, Ratcliffe RG, Sweetlove LJ, Fernie AR, Obata T. Protein-protein interactions and metabolite channelling in the plant tricarboxylic acid cycle. Nat Commun. 2017 May 16;8:15212. doi:10.1038/ncomms15212. PMID:28508886.</p><p><strong>[3]</strong> Clough SJ, Bent AF. Floral dip: a simplified method for Agrobacterium-mediated transformation of Arabidopsis thaliana. Plant J. 1998 Dec;16(6):735-43. doi:10.1046/j.1365-313x.1998.00343.x. PMID:10069079.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite profiling of&nbsp;Arabidopsis&nbsp;leaves was carried out by gas chromatography-mass spectrometry as described previously<strong>[1][2]</strong>. Briefly, around 50 mg plant materials were frozen and extracted in methanol followed by a subsequent extraction in chloroform, the upper phase was used for the GC-MS measurement<strong>[3][4]</strong>. Samples were derivatized using the standard protocol<strong>[2]</strong>. </p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Lisec J, Schauer N, Kopka J, Willmitzer L, Fernie AR. Gas chromatography mass spectrometry-based metabolite profiling in plants. Nat Protoc. 2006;1(1):387-96. doi:10.1038/nprot.2006.59. Erratum in: Nat Protoc. 2015 Sep;10(9):1457. PMID:17406261.</p><p><strong>[2]</strong> Perez de Souza L, Alseekh S, Naake T, Fernie A. Mass Spectrometry-Based Untargeted Plant Metabolomics. Curr Protoc Plant Biol. 2019 Dec;4(4):e20100. doi:10.1002/cppb.20100. PMID:31743625.</p><p><strong>[3]</strong> Zhang Y, Swart C, Alseekh S, Scossa F, Jiang L, Obata T, Graf A, Fernie AR. The Extra-Pathway Interactome of the TCA Cycle: Expected and Unexpected Metabolic Interactions. Plant Physiol. 2018 Jul;177(3):966-979. doi:10.1104/pp.17.01687. Epub 2018 May 23. PMID:29794018.</p><p><strong>[4]</strong> Zhang Y, Giese J, Kerbler SM, Siemiatkowska B, Perez de Souza L, Alpers J, Medeiros DB, Hincha DK, Daloso DM, Stitt M, Finkemeier I, Fernie AR. Two mitochondrial phosphatases, PP2c63 and Sal2, are required for posttranslational regulation of the TCA cycle in Arabidopsis. Mol Plant. 2021 Jul 5;14(7):1104-1118. doi:10.1016/j.molp.2021.03.023. Epub 2021 Mar 31. PMID:33798747.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Details of GC-EI-TOF-MS based profiling were reported previously<strong>[1][2]</strong>. Briefly, samples were processed using a Factor Four VF-5ms capillary column of dimensions 30 m length 0.25 mm i.d. and 0.25 \u00b5m film thickness with a 10 m EZ-guard pre-column (Varian Inc. Lake Forest CA)) mounted to a Agilent 6890N gas chromatograph (Agilent B\u00f6blingen Germany) in split 1/30 and splitless mode with 1 \u00b5L injection volume and electronic pressure control.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong>&nbsp;Erban A, Martinez-Seidel F, Rajarathinam Y, Dethloff F, Orf I, Fehrle I, Alpers J, Beine-Golovchuk O, Kopka J. Multiplexed Profiling and Data Processing Methods to Identify Temperature-Regulated Primary Metabolites Using Gas Chromatography Coupled to Mass Spectrometry. Methods Mol Biol. 2020;2156:203-239. doi:10.1007/978-1-0716-0660-5_15. PMID:32607984.</p><p><strong>[2]</strong> Perez de Souza L, Alseekh S, Naake T, Fernie A. Mass Spectrometry-Based Untargeted Plant Metabolomics. Curr Protoc Plant Biol. 2019 Dec;4(4):e20100. doi:10.1002/cppb.20100. PMID:31743625.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectrometric (MS) data were acquired through a Pegasus III TOF mass spectrometer (LECO Instrumente GmbH, M\u00f6nchengladbach, Germany). Details of GC-EI-TOF-MS based profiling were reported previously<strong>[1][2]</strong>. Briefly, the ion source is set to maximum instrument specifications, 250 \u00b0C. High-boiling metabolic components exhibit increased peak tailing at lower temperature settings. The recorded mass range is&nbsp;70-600 m/z at 20 scans/s. MS solvent delay with filaments turned off is 6.6-7.5 min, the remaining chromatography is fully monitored with omission of cool down periods. Manual mass defect is set to 0, filament bias current is -70 V and detector voltage is approximately 1700-1850 V depending on detector age. The instrument tune is automated and performed without EPA tune compliance.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Wagner C, Sefkow M, Kopka J. Construction and application of a mass spectral and retention time index database generated from plant GC/EI-TOF-MS metabolite profiles. Phytochemistry. 2003 Mar;62(6):887-900. doi:10.1016/s0031-9422(02)00703-3. PMID:12590116.</p><p><strong>[2]</strong> Erban A, Schauer N, Fernie AR, Kopka J. Nonsupervised construction and application of mass spectral and retention time index libraries from time-of-flight gas chromatography-mass spectrometry metabolite profiles. Methods Mol Biol. 2007;358:19-38. doi:10.1007/978-1-59745-244-1_2. PMID:17035678.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>ChromaTOF</strong> software (LECO Instrumente GmbH, M\u00f6nchengladbach, Germany) was used to process the acquired chromatograms. Metabolites were quantified after baseline correction (above noise = 1, peak smoothing = 5, peak width = 10, S/N = 1). Peak height representing arbitrary mass spectral ion currents of each mass fragment was normalized using the amount of the sample dry weight and Rorbitol for internal standardization of volume variations. The standard deviation was estimated to qualitatively and quantitatively validate metabolite data obtained from 6 biological samples.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Identification of metabolites was conducted using&nbsp;<strong>TagFinder[1]</strong>, the&nbsp;<strong>NIST08</strong>&nbsp;software&nbsp;and the mass spectral and retention time index reference collection of the&nbsp;<strong>Golm Metabolome Database[2]-[5]</strong>.</p><p><br></p><p>Statistical differences between groups were analyzed by Student\u2019s t-tests on the data. Results were determined to be statistically different at a probability level of P &lt; 0.05. Relative metabolite levels were obtained as the ratio between the lines and the mean value of the respective WT. This method is related to the standard protocol<strong>[6]</strong>. Principal component analysis (PCA) was performed using a pre-written <strong>R</strong> script.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong>&nbsp;Luedemann A, Strassburg K, Erban A, Kopka J. TagFinder for the quantitative analysis of gas chromatography--mass spectrometry (GC-MS)-based metabolite profiling experiments. Bioinformatics. 2008 Mar 1;24(5):732-7. doi:10.1093/bioinformatics/btn023. Epub 2008 Jan 19. PMID:18204057.</p><p><strong>[2]</strong>&nbsp;Hummel J, Strehmel N, Selbig J, Walther D, Kopka J. Decision tree supported substructure prediction of metabolites from GC-MS profiles. Metabolomics. 2010 Jun;6(2):322-333. doi:10.1007/s11306-010-0198-7. Epub 2010 Feb 16. PMID:20526350.</p><p><strong>[3]</strong>&nbsp;Kopka J, Schauer N, Krueger S, Birkemeyer C, Usadel B, Bergm\u00fcller E, D\u00f6rmann P, Weckwerth W, Gibon Y, Stitt M, Willmitzer L, Fernie AR, Steinhauser D. GMD@CSB.DB: the Golm Metabolome Database. Bioinformatics. 2005 Apr 15;21(8):1635-8. doi:10.1093/bioinformatics/bti236. Epub 2004 Dec 21. PMID:15613389.</p><p><strong>[4]</strong>&nbsp;Allwood JW, Erban A, de Koning S, Dunn WB, Luedemann A, Lommen A, Kay L, L\u00f6scher R, Kopka J, Goodacre R. Inter-laboratory reproducibility of fast gas chromatography-electron impact-time of flight mass spectrometry (GC-EI-TOF/MS) based plant metabolomics. Metabolomics. 2009 Dec;5(4):479-496. doi:10.1007/s11306-009-0169-z. Epub 2009 Jul 24. PMID:20376177.</p><p><strong>[5]</strong>&nbsp;Strehmel N, Hummel J, Erban A, Strassburg K, Kopka J. Retention index thresholds for compound matching in GC-MS metabolite profiling. J Chromatogr B Analyt Technol Biomed Life Sci. 2008 Aug 15;871(2):182-90. doi:10.1016/j.jchromb.2008.04.042. Epub 2008 May 8. PMID:18501684.</p><p><strong>[6]</strong> Alseekh S, Aharoni A, Brotman Y, Contrepois K, D'Auria J, Ewald J, C Ewald J, Fraser PD, Giavalisco P, Hall RD, Heinemann M, Link H, Luo J, Neumann S, Nielsen J, Perez de Souza L, Saito K, Sauer U, Schroeder FC, Schuster S, Siuzdak G, Skirycz A, Sumner LW, Snyder MP, Tang H, Tohge T, Wang Y, Wen W, Wu S, Xu G, Zamboni N, Fernie AR. Mass spectrometry-based metabolomics: a guide for annotation, quantification and best reporting practices. Nat Methods. 2021 Jul;18(7):747-756. doi:10.1038/s41592-021-01197-1. Epub 2021 Jul 8. PMID:34239102.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS -",
+                        "filename": "a_MTBLS4066_GC-MS___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

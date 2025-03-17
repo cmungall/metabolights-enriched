@@ -1,0 +1,513 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-10-13T16:28:48.154000",
+        "statusUpdateTime": "2017-10-13T16:28:48.154000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS366",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2016-07-22",
+        "publicReleaseDate": "2016-10-31",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "ENVO",
+                "file": "http://data.bioontology.org/ontologies/ENVO",
+                "version": "27",
+                "description": "Environment Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "SWEET",
+                "file": "http://data.bioontology.org/ontologies/SWEET",
+                "version": "1",
+                "description": "Semantic Web for Earth and Environment Technology Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS366",
+                "filename": "s_MTBLS366.txt",
+                "title": "Using network analysis to discern compositional patterns in ultrahigh resolution mass spectrometry data of dissolved organic matter",
+                "description": "<p><strong>RATIONALE: </strong>Marine dissolved organic matter (DOM) has long been recognized as a large and dynamic component of the global carbon cycle. Yet, DOM is chemically varied and complex and these attributes present challenges to researchers interested in addressing questions about the role of DOM in global biogeochemical cycles.</p><p><strong>METHODS: </strong>Organic matter extracts from seawater were analyzed by direct infusion with electrospray ionization into a Fourier transform ion cyclotron resonance mass spectrometer. Network analysis was used to quantify the number of chemical transformations between mass-to-charge values in each sample. The network of chemical transformations was calculated using the MetaNetter plug-in within Cytoscape. The chemical transformations serve as markers for the shared structural characteristics of compounds within complex DOM.</p><p><strong>RESULTS: </strong>Network analysis revealed that transformations involving selected sulfur-containing moieties and isomers of amino acids were more prevalent in the deep sea than in the surface ocean. Common chemical transformations were not significantly different between the deep sea and surface ocean. Network analysis complements existing computational tools used to analyze ultrahigh-resolution mass spectrometry data.</p><p><strong>CONCLUSIONS: </strong>This combination of ultrahigh-resolution mass spectrometry with novel computational tools has identified new potential building blocks of organic compounds in the deep sea, including the unexpected importance of dissolved organic sulfur components. The method described here can be readily applied by researchers to analyze heterogeneous and complex DOM.</p>",
+                "submissionDate": "2016-07-22",
+                "publicReleaseDate": "2016-10-31",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Krista",
+                        "lastName": "Longnecker",
+                        "email": "klongnecker@whoi.edu",
+                        "affiliation": "Woods Hole Oceanographic Institution",
+                        "address": "360 Woods Hole Road\nWoods Hole, MA 02543 USA",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "508 289 2824",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Elizaebeth",
+                        "lastName": "Kujawinski",
+                        "email": "ekujawinski@whoi.edu",
+                        "affiliation": "Woods Hole, MA 02543 USA",
+                        "address": "360 Woods Hole Road",
+                        "fax": "",
+                        "midInitials": "B",
+                        "phone": "508 289 3493",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "sea water",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ENVO",
+                            "file": "http://data.bioontology.org/ontologies/ENVO",
+                            "version": "27",
+                            "description": "Environment Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ENVO_00002149"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Fourier transform ion cyclotron resonance mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000502"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Direct Infusion Mass Spectrometry",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Using network analysis to discern compositional patterns in ultrahigh resolution mass spectrometry data of dissolved organic matter",
+                        "authorList": "Krista Longnecker, Elizabeth B. Kujawinski",
+                        "pubMedID": "",
+                        "doi": "10.1002/rcm.7719",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "station",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Station",
+                            "termSource": {
+                                "comments": [],
+                                "name": "SWEET",
+                                "file": "http://data.bioontology.org/ontologies/SWEET",
+                                "version": "1",
+                                "description": "Semantic Web for Earth and Environment Technology Ontology"
+                            },
+                            "termAccession": "http://sweet.jpl.nasa.gov/2.3/matrFacility.owl#Station"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "depth",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Depth",
+                            "termSource": {
+                                "comments": [],
+                                "name": "SWEET",
+                                "file": "http://data.bioontology.org/ontologies/SWEET",
+                                "version": "1",
+                                "description": "Semantic Web for Earth and Environment Technology Ontology"
+                            },
+                            "termAccession": "http://sweet.jpl.nasa.gov/2.3/propSpaceHeight.owl#Depth"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Seawater samples were collected in July 2010 from two stations off the northeastern coast of South America. Samples were divided into surface water samples and water samples from the deeper, North Atlantic Deep Water (NADW). Seawater was filtered with 0.2 \u03bcm Omnipore Filters (Millipore, Massachusetts, USA) mounted in Teflon filter holders and acidified to pH 3.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The dissolved organic matter was extracted from the acidified seawater with 1 g/6 ml Bond Elut PPL cartridges (Varian, California, USA) [1] as previously described [2].\n</p>\nRef:</br>\n[1] Dittmar, T., B. Koch, N. Hertkorn and G. Kattner (2008). A simple and efficient method for the solid-phase extraction of dissolved organic matter (SPE-DOM) from seawater. Limnology and Oceanography Methods 6: 230-235. doi:10.4319/lom.2008.6.230.</br>\n[2] Longnecker, K. (2015). Dissolved organic matter in newly formed sea ice and surface seawater. Geochimica et Cosmochimica Acta 171: 39-49. doi:10.1016/j.gca.2015.08.014.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "No chromatography was done. The data are from direct infusion.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All samples were analyzed on a 7T ESI FT-ICR mass spectrometer (LTQ-FT-MS, Thermo Fisher Scientific, Waltham MA, USA). Samples were injected directly into the mass spectrometer. For positive ion mode analyses, sample aliquots were reconstituted in 50% methanol/water with 0.1% formic acid. For negative ion mode analyses, sample aliquots were reconstituted in 50% methanol/water. MilliQ water, processed and analyzed in the same manner as the samples, indicated low overlap between the blanks and the samples. For both positive and negative ion modes, samples were infused into the ESI interface at 4 \u03bcl/min, and instrument and spray parameters were optimized for each sample. The capillary temperature was set at 250 \u00b0C, and the spray voltage was between 3.7 and 4 kV. At least 200 scans were collected for each sample which is a sufficient number of scans for good peak reproducibility [1]. The mass ranges for the full-scan collection was 150 < m/z < 1000 in both positive and negative ion modes. Weekly mass calibrations were performed with an external standard (Thermo Calibration Mix) which results in mass accuracy errors < 1.5 ppm. The processed spectra are internally calibrated following the guidelines described in Bhatia et al. (2010) which resulted in a mass accuracy < 1 ppm. The target average resolving power was 400,000 at m/z 400 (where resolving power is defined as m/\u0394m50% where \u0394m50% is the width at half-height of peak m).\n</p>\nRef:</br>\n[1] Kido Soule, M. C., Longnecker, K., Giovannoni, S. J., and Kujawinski, E. B. (2010). Impact of instrument and experimental parameters on the repeatability and reproducibility of peaks in ultrahigh resolution ESI FT-ICR mass spectra of natural organic matter. Org. Geochem. 41, 725\u2013733. doi:10.1016/j.orggeochem.2010.05.017</br>\n[2] Bhatia, M. P., Das, S. B., Charette, M. A., Longnecker, K., and Kujawinski, E. B. (2010). Molecular characterization of dissolved organic matter associated with the Greenland ice sheet. Geochim. Cosmochim. Acta 74, 3768\u20133784. doi: 10.1016/j.gca.2010.03.035</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "We collected individual transients as well as a combined raw file using xCalibur 2.0 (Thermo Fisher Scientific, Waltham MA, USA). Transients were co-added and processed with custom-written MATLAB code [1].  Within each sample, only those transients whose total ion current (TIC) was greater than 20% of the maximal TIC were co-added, processed with Hanning apodisation, and zero-filled once prior to fast Fourier transformation. We retained all mass-to-charge (m/z) values with a signal-to-noise ratio above 5. Spectra were internally re-calibrated using a short list of m/z values present in a majority of the samples. The individual sample peak lists were then aligned in MATLAB [2]. Positive and negative ion mode data were aligned separately in MATLAB with an error tolerance of 1 ppm.\n</p>\nRef:</br>\n[1] Southam, A. D., T. G. Payne, H. J. Cooper, T. N. Arvanitis and M. R. Viant (2007). Dynamic range and mass accuracy of wide-scan direct infusion nanoelectrospray Fourier Transform Ion Cyclotron Resonance mass spectrometry-based metabolomics increased by the spectral stitching method. Analytical Chemistry 79(12): 4595-4602. doi:10.1021/ac062446p.</br>\n[2] Mantini, D., Petrucci, F., Pieragostino, D., Del Boccio, P., Di Nicola, M., Di Ilio, C., et al. (2007). LIMPIC: a computational method for the separation of protein MALDI-TOF-MS signals from noise. BMC Bioinformatics 8:101. doi: 10.1186/1471-2105-8-101</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "No metabolite identification was conducted for this project.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ FT Ultra (Thermo Scientific)",
+                        "filename": "a_MTBLS366_en480_POS_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ FT Ultra (Thermo Scientific)",
+                        "filename": "a_MTBLS366_en480_NEG_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

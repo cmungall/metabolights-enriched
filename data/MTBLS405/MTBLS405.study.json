@@ -1,0 +1,740 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-08-20T00:00:00",
+        "statusUpdateTime": "2020-08-20T11:27:06.816658",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:toolsISAcreatorMetaboLightsConfigurationsMetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS405",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2016-11-14",
+        "publicReleaseDate": "2020-08-20",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CCONT",
+                "file": "http://data.bioontology.org/ontologies/CCONT",
+                "version": "2",
+                "description": "Cell Culture Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "DINTO",
+                "file": "http://data.bioontology.org/ontologies/DINTO",
+                "version": "5",
+                "description": "The Drug-Drug Interactions Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS405",
+                "filename": "s_MTBLS405.txt",
+                "title": "Proteomic and metabolic changes in cancer cells after alternation of SHMT2 expressions",
+                "description": "In order to understand the underline mechanism of SHMT2 (serine hydroxymethyltransferase 2) effect on tumor growth, proteome and metabolome analysis were carried on an engineered HeLa cell line (HeLa-SHMT2-shSHMT2, short as HeLa-Ss), which has inducible SHMT2 over-expression or suppression by treating cell with tetracycline or IPTG, respectively. SHMT2 over-expression in HeLa-ss cell increased cell proliferation in vitro and in vivo, deceased expression of several mitochondrial complex I and III proteins, and increased glycine and glutathione levels in cells. BioID method identified more than 20 SHMT2 associated proteins that are involved in oxidation-reduction process. These results indicate SHMT2 involves in the regulation of cellular redox balance. SHMT2 suppression only reduced growth of cells under glycine depletion condition in cell culture. It increased expression of several proteins involved in glutaminolysis and amino acid transporters, and elevated metabolites related to glutamine metabolism. These results indicate tumor cells have a compensatory reaction after SHMT2 suppression. Further reducing glycine levels in cells by sodium benzoate caused cell death in cultured cell and slightly reduced tumor growth in vivo. Benzoate treatment induces more changes in protein expressions and metabolite levels, and it may provide a new addition for tumor treatment.",
+                "submissionDate": "2016-11-14",
+                "publicReleaseDate": "2020-08-20",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Jiefei",
+                        "lastName": "Tong",
+                        "email": "jiefei.tong@sickkids.ca",
+                        "affiliation": "Hospital for Sickkids, Toronto, Canada",
+                        "address": "Hospital for Sick Children\nPeter Gilgan Centre for Research and Learning\n686 Bay Street, 17th Floor\nRoom 17.9400R\nToronto, ON M5G 0A4\nCanada\n",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "014168137654",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Sample preparation and data analysis",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jonathan",
+                        "lastName": "Krieger",
+                        "email": "jonathan.krieger@sickkids.ca",
+                        "affiliation": "Hospital for Sickkids, Toronto, Canada",
+                        "address": "SPARC Centre,\nHospital for Sick Children\nPeter Gilgan Centre for Research and Learning\n686 Bay Street, 21th Floor\nToronto, ON M5G 0A4\nCanada\n",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "014168137654",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Sample analysis on MS",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Mike",
+                        "lastName": "Moran",
+                        "email": "m.moran@utoronto.ca",
+                        "affiliation": "Hospital for Sickkids, Toronto, Canada",
+                        "address": "Hospital for Sick Children\nPeter Gilgan Centre for Research and Learning\n686 Bay Street, 17th Floor\nToronto, ON M5G 0A4\nCanada\n",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "014168137654",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "serine hydroxymethyltransferase 2",
+                        "termSource": {
+                            "comments": [],
+                            "name": "DINTO",
+                            "file": "http://data.bioontology.org/ontologies/DINTO",
+                            "version": "5",
+                            "description": "The Drug-Drug Interactions Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/dinto_3397"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Proteomic and metabolic changes in cancer cells after alternation of SHMT2 expressions",
+                        "authorList": "Jiefei Tong, Jonathan R. Krieger, Paul Taylor, Rick Bagshaw, Wen Zhang, Nhu-An Pham, \u00c9tienne Coyaud, Man Yu, Brian Raught, Ming Sound Tsao, and Michael F. Moran",
+                        "pubMedID": "",
+                        "doi": "10.1371/journal.pone.0237981",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Medium",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "HeLa medium",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CCONT",
+                                "file": "http://data.bioontology.org/ontologies/CCONT",
+                                "version": "2",
+                                "description": "Cell Culture Ontology"
+                            },
+                            "termAccession": "http://purl.org/obo/owl/IEV#IEV_0000312"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sample type",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "material sample",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000747"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For cell metabolite analysis, HeLa-Ss cells were plated in 6 well plate, grown at indicated treatment conditions, and washed with cold 0.9% NaCl before metabolite extraction.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For medium analysis, transfer 50 \u00b5l of cell medium after 24 hr incubation with cells to a tube with -20 \u00b0C cold 450 \u00b5l (8:1 methanol:H2O) solution. Centrifuge tubes for 5 min at 16,100 x g at 4 \u00b0C.  Transfer 100 \u00b5l of supernatant to a tube and speed vacuum until all solution evaporated. Tubes were stored at -80 \u00b0C until analysis.\n</p>\nFor cell metabolite analysis, add 400 \u00b5l of cold (-20 \u00b0C) extraction buffer (40% acetonitrile/40% methanol/20% H2O) per well (6 well plate), scrape cell off, freeze samples on dry ice and transfer them to -80 \u00b0C freezer for overnight. Next day, spin samples at 14,000 x g at 4 \u00b0C for 10 min. Transfer all supernatant to a tube and speed vacuum until all solution evaporated. Tubes were stored at -80 \u00b0C until analysis.\n</p>\nFor tumor samples, tumor tissues were weighted. 200 \u00b5l of cold (-20 \u00b0C) extraction buffer/10 mg wet tissue were added to the samples, sonicated briefly and stored in a -80 \u00b0C freezer overnight. The same steps as in cell culture preparation were then repeated.\n</p>\n45 \u00b5l of load buffer (50% acetonitrile/50% H2O) were added to tube before MS analysis. 5 \u00b5l of samples were used for targeted LC-MS/MS via selected reaction monitoring (SRM). The transitions of all metabolites for SRM were in Supplementary Table S1 of the paper associated with this study. 2 columns were used to separate metabolites: reversed-phase (RP) or hydrophilic interaction liquid chromatography (HILIC).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Analyses were performed using an HPLC system (Ultimate 3000, Thermo Scientific) coupled to a TSQ Vantage (Thermo Scientific). Samples were analyzed using an Inertsil ODS-3 C18, 3 \u00b5m, 150 mm x 4.6 mm I.D. column (GL Sciences, Cat nr.020-01771) for RPLC/MS analysis, and ZIC-pHILIC, 5 \u00b5m, 150 mm x 4.6 mm I.D. column (Canadian LifeScience, Cat nr. SQ2812-155) for HILIC/MS analysis. The standard mobile phase, A = 0.1% formic acid in water and B = 0.1% formic acid in 95% acetonitrile, was used for RPLC in ESI positive/negative mode. For HILIC, in both ESI positive and negative modes, the final mobile phase was composed of A = 20 mM ammonium Carbonate (pH 9.2) and B = 100% acetonitrile. The linear gradient elution was applied in RPLC from 95% A/5% B to 40% A/60% B (0-12 min), then to 20% A/80% B (12-12.5 min), hold until 18 min, and then 95% A/5% B (18-19 min) and hold until 25 min. The linear gradient elution was applied in HILIC from 20% A/80% B to 35% A/65% B (0\u20134 min), to 60% A/40% B (4\u201313 min), hold until 18 min, then go to 20% A/80% B until 21 min. The flow rate was 300 \u00b5l/min and the sample injection volume was 10 \u00b5l.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "ESI source conditions were set as followings: gas temperature 300 \u00b0C, drying gas 10 l/min, nebulizer 30 psi, fragmentor 120 V, skimmer 65 V, and capillary voltage 4000 V or -4000 V in ESI positive or ESI negative modes, respectively. The instrument was set to acquire over the m/z range 60\u20131000, with the MS acquisition rate of 1.67 spectra/s. For the MS/MS of selected precursors the default isolation width was set as medium (4 Da), with a MS acquisition rate at 1.67 spectra/s and MS/MS acquisition at 1.67 spectra/s. The collision energies was used ranging from 5 to 44 V (see Supplementary Table S1, in the paper associated with this study, for details).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For metabolite data analysis, Skyline software from Dr. MacCoss lab (https://skyline.gs.washington.edu/) was used to extract targeted metabolite measurements. The targeted parameters with MS1, MS2, collision energies (CE) were all listed in Supplementary Table S1 of the paper associated with this study. The alignment of targeted metabolite peaks was manually checked with standards and final data were normalized by median of each sample in Excel software.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Targeted CID-MS/MS experiments of MS2 were performed using TSQ-MS. Identification was based on reference spectra in MassBank, and confirmed by authentic standards. Based on accurate mass measurements, and differential features (peaks) detected in narrow retention time windows, compounds in experimental samples were identified and quantified. Samples of comparison were run on the same column within a short period of time, and standards were run before and after all sample run. Relative amount of metabolites, not absolute value, in samples were used for comparison.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS405_Cell-RP_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS405_Cell-HILIC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS405_Cell-Benz-RP_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS405_Cell-Benz-HILIC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS405_Tumor-RP_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS405_Tumor-HILIC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS405_Medium-RP_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

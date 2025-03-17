@@ -1,0 +1,639 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-06-04T00:00:00",
+        "statusUpdateTime": "2024-06-04T18:37:59.796719",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS8955",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "14/11/2023",
+        "publicReleaseDate": "2024-06-04",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITaxon",
+                "file": "",
+                "version": "14/11/2023",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "14/11/2023",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "SNOMED",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "FMA",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "DOID",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "UBERON",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS8955",
+                "filename": "s_MTBLS8955.txt",
+                "title": "Untargetted lipidomics dataset: LC-MS analysis in two postmortem brain areas of healthy individuals and schizophrenia patients.",
+                "description": "<p>Schizophrenia is a common mental illness. It is a complex disorder with many symptoms and cognitive impairments. Despite extensive study, the molecular mechanisms of this disease are still unknown. Present time studies on the lipid composition of the human brain are extremely fragmented. Of the possible levels of molecular analysis involving gene expression at the RNA or protein level, and the representation of polar metabolites and lipids, the latter seem to us to be the most promising now. We chose lipids as representative data of the pathogenic mechanism because they are the main structural components of brain cell tissue. The dataset provided unique samples of lipid LC-MS profiles of post-mortem human brains. Samples include not only healthy individuals but also patients with schizophrenia.</p>",
+                "submissionDate": "14/11/2023",
+                "publicReleaseDate": "2024-06-04",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Olga",
+                        "lastName": "Bukato",
+                        "email": "O.Bukato@skoltech.ru",
+                        "affiliation": "Skolkovo Institute of Science and Technology",
+                        "address": "Bolshoy Boulevard, 30, p.1, Moscow 121205, Russia",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "79152953985",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Coordinating Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51818"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Brain",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C12439"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "schizophrenia",
+                        "termSource": {
+                            "comments": [],
+                            "name": "DOID",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/DOID_5419"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153193"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "14/11/2023",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "14/11/2023",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Corpus Callosum",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C12446"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Untargetted lipidomics dataset: LC-MS analysis in two postmortem brain areas of healthy individuals and schizophrenia patients.",
+                        "authorList": "Olga Bukato, Elena Stekolshchikova, Dmitry Senko, Maria Osetrova, Yana Zorkina, Anna Morozova, Georgiy Kostyuk, Philipp Khaitovich",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Gender",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Gender",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17357"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Age",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "age",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000246"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Brain region",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "regional part of brain",
+                            "termSource": {
+                                "comments": [],
+                                "name": "UBERON",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0002616"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples were collected from 24 post-mortem human brains, including 12 samples from healthy individuals and 12 samples from schizophrenia patients. 48 experimental samples were then dissected from 2 human brain regions: corpus callosum, posterior (CCp) and corpus callosum, anterior (CCa). Precellys tubes with samples were stored at -80 \u00b0C until mass spectrometry analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Each piece from brain were dissolved with 500 ml of MTBE/MeOH containing isotope labels standards TG(15:0-18:1-d7-15:0), DG(15:0-18:1-d7), LPC(18:1-d7), PG(15:0/18:1-d7), PC(15:0/18:1-d7), PE(15:0/18:1-d7), Cer(d18:1-d7/15:0) (Avanti, USA) to fina\u0142 concentration 0.5 ug/ml for each standard. Homogenization was performed with the following parameters: 4800 rpm/4 x 30s/30s pause. Temperatures at the end of each cycle was 2-7 \u00b0C. 500 \u03bcl of MTBE/MeOH containing isotope labeles standarts was then added followed by an ultrasonic bath with ice for 10 min, Samples were then placed on a shaker at 4 \u00b0C for 30 min. Supernatant was transferred into new 2 ml tubes. 700 \u03bcl H2O/MeOH H2O/MeOH was added, followed by 10 min on a shaker at 4 \u00b0C and samples centrifuged at 12700 rpm, 4 \u00b0C for 10 min. 525 \u03bcl was collected from each tube of the upper non-polar phase and 800 \u03bcl of polar lower phase. The non-polar phase, which mostly contains lipids, was dried on a Speedvac (2.5 h, 30 \u00b0C, V-HV mode). All samples are stored in a freezer at -80 \u00b0C.</p><p><br></p><p>Immediately prior to LC-MS analysis, all dried pellets were dissolved in 200 \u03bcl of a 70:30 acetonitrile:2-propanol (v:v) mixture. The samples were then incubated for 10 min on a Vortex Genie2 at 4 \u00b0C. This was followed by sonication on ice for 10 min, followed by centrifugation at 12700 rpm, 4 \u00b0C for 10 min. Finally, 3 \u03bcl of supernatant was injected into an <strong>LC-MS/MS</strong> system for analysis.</p><p><br></p><p><strong>Extraction quality control samples (EQC)</strong> represented a mixture of brain cuts, dissected from 5 random gray matter and 5 random white matter areas. For <strong>technical quality control (TQC)</strong> samples, an aliquot of 10 \u03bcl of the upper phase, containing lipid compounds from each analyzed sample, was collected and pooled.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>UPLC-MS analysis was performed with a Waters Acquity UPLC chromatographic system (Waters, Manchester, UK) interfaced to a Q Exactive mass spectrometer (Thermo Fisher Scientific, Waltham, MA, USA). Liquid chromatography (LC) separation was performed using an ACQUITY UPLC BEH C8 reverse-phase column (2.1 x 100 mm, 1.7 \u03bcm, Waters Co., Milford, MA, USA) with a Vanguard pre-column with the same sorbent maintained at 60 \u00b0C. Mobile phase A consisted of 10 mM ammonium acetate in water with 0.1% formic acid, and mobile phase B consisted of 10 mM ammonium acetate in ACN:IPA (7:3) with 0.1% formic acid. The injection volume was 3 \u03bcl. The flow rate was set to 0.4 ml/min with follow gradient elution mode: 0-1 min 55% B, 1-4 min 55% to 80% B, 4-12 min 80% B to 85% B, 12-15 min 85% B to 100% B and 15-19.5 min isocratic 100%. After the column was set to initial conditions (55% B) till 24 min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>MS detection was carried out on a Q Exactive mass spectrometer (Thermo Fisher Scientific, Waltham, MA, USA) equipped with a heated electrospray ionization source in positive and negative ionization modes separately within the mass range of m/z 100-1500 with a mass resolution of 70,000 (FWHM for m/z 200). Heated Electrospray Ionization (HESI) source conditions were set as follows: ion transfer tube temperature, 350 \u00b0C; vaporizer temperature, 250 \u00b0C; spray voltage, 4.5 kV; S-lens RF level, 70; AGC target value, 5e^4; sheath gas (N2) flow rate, 45 arbitrary units (a.u.); auxiliary gas (N2) flow rate, 20 a.u.; sweep gas (N2) flow rate, 4 a.u. Lipid fragmentation carried out in data-dependent mode. For DDA mode, parameters were set as follows: resolution 17500 at m/z 200, AGC: 5e^4, IT: 100 ms, mass isolation window: 1.2 Da, retention time window width: expected time \u00b1 1 min, stepped normalized collision energy: 15, 20, 25, dynamic exclusion 12 s, inclusion: on, customize tolerances: 10 ppm. The spectra were recorded in the profile mode. Inclusion list were formed based on an in-house lipid library.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>All <strong>raw</strong> data was converted with <strong>Reifycs Analysis Base File Converter (Abf converter)</strong> to .<strong>abf</strong> format with default settings. This data format is compatible with <strong>MS-DIAL</strong>. All parameters and libraries are present in raw data folder.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>All data was processed by <strong>MS-DIAL version 4.70</strong>. All <strong>MS1 (full MS mode)</strong> measurements for biological samples were aligned to the TQC samples, acquired in <strong>MS2 (DDA)</strong> mode. As a result, we generated a table presenting the abundance of features annotated on <strong>MS1-level</strong> and <strong>MS/MS-level</strong>. Features without suggested annotation are kept in the table.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS8955_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS8955_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

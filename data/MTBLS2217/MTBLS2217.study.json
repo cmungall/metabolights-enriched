@@ -1,0 +1,672 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-01-25T00:00:00",
+        "statusUpdateTime": "2023-01-25T22:15:32.881420",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2217",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-11-04",
+        "publicReleaseDate": "2021-07-02",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "",
+                "version": "10/11/2020",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "GO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2217",
+                "filename": "s_MTBLS2217.txt",
+                "title": "Adaptive laboratory evolution of microbial co-cultures for improved metabolite secretion",
+                "description": "<p>Adaptive laboratory evolution has proven highly effective for obtaining microorganisms with enhanced capabilities. Yet, this method is inherently restricted to the traits that are positively linked to cell fitness, such as nutrient utilization. Here, we introduce coevolution of obligatory mutualistic communities for improving secretion of fitness-costly metabolites through natural selection. In this strategy, metabolic cross-feeding connects secretion of the target metabolite, despite its cost to the secretor, to the survival and proliferation of the entire community. We thus co-evolved wild-type lactic acid bacteria and engineered auxotrophic&nbsp;<em>Saccharomyces cerevisiae</em>&nbsp;in a synthetic growth medium leading to bacterial isolates with enhanced secretion of two B-group vitamins, viz., riboflavin and folate. The increased production was specific to the targeted vitamin, and evident also in milk, a more complex nutrient environment that naturally contains vitamins. Genomic, proteomic and metabolomic analyses of the evolved lactic acid bacteria, in combination with flux balance analysis, showed altered metabolic regulation towards increased supply of the vitamin precursors. Together, our findings demonstrate how microbial metabolism adapts to mutualistic lifestyle through enhanced metabolite exchange.</p>",
+                "submissionDate": "2020-11-04",
+                "publicReleaseDate": "2021-07-02",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Dimitrios",
+                        "lastName": "Konstantinidis",
+                        "email": "dimitrios.konstantinidis@embl.de",
+                        "affiliation": "European Molecular Biology Laboratory (EMBL, Heidelberg)",
+                        "address": "Meyerhofstrasse 1",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "4.91516E+12",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Adaptive evolution",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "mutualism",
+                        "termSource": {
+                            "comments": [],
+                            "name": "GO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/GO_0085030"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "vitamin production",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lactic acid bacteria",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000524"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Adaptive laboratory evolution of microbial co-cultures for improved metabolite secretion.",
+                        "authorList": "Konstantinidis D, Pereira F, Geissen EM, Grkovska K, Kafkia E, Jouhten P, Kim Y, Devendran S, Zimmermann M, Patil KR.",
+                        "pubMedID": "34370382",
+                        "doi": "10.15252/msb.202010189",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sample",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "sample",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MS",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/MS_1000457"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Group",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C43359"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Cultures of Lactic acid bacteria in biological triplicates of each strain were cultured in a chemically defined medium with the same starting optical density (OD600) of 0.01, until they reached the mid-exponential phase. were sampled at mid-exponential phase (about 72 h). Briefly, 10 ml of culture was vacuum-filtered through nylon membrane filters (0.45 \u03bcm, Whatman) and the filtered medium was immediately stored at \u221280 \u00b0C until further analysis. The cell pellets on the membrane filters were washed in 3 rapid steps with 5 ml of PBS to ensure no contamination from extracellular metabolites.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>GC-MS:</strong></p><p>For extracellular sample preparation, 50 \u03bcl of filtered medium were added to 300 \u03bcl of cold (\u221220 \u00b0C) HPLC-grade methanol (Biosolve Chimie, France)/MilliQ water (1:1, [v/v]) were added and the samples were incubated at 72 \u00b0C for 15 min, while ribitol (Adonitol) (Alfa Aesar, UK) was added as an internal standard. The metabolites were centrifuged at 10,000 rpm and 0 \u00b0C for 10 min, and the supernatants were collected and dried with a vacuum concentrator. The intracellular polar metabolites were extracted by adding the washed cell-containing filter in 5 ml of cold (\u221220 \u00b0C) HPLC-grade methanol (Biosolve Chimie, France)/MilliQ water (1:1, [v/v]) and incubating for 1 h at \u221220 \u00b0C, followed by incubation at 72 \u00b0C for 15 min, while ribitol (adonitol, Alfa Aesar, UK) was added as an internal standard. The mixture of metabolites and cell debris was centrifuged at 10,000 rpm and 0 \u00b0C for 10 min, and the supernatants were collected and dried with a vacuum concentrator. </p><p><br></p><p>Dried polar metabolites were derivatized with 40 \u03bcl of 20 mg/ml methoxyamine hydrochloride (Alfa Aesar, UK) solution in pyridine for 90 min at 37 \u00b0C, followed by reaction with 80 \u03bcl N-methyl-trimethylsilyl-trifluoroacetamide (MSTFA) (Alfa Aesar, UK) for 10 h at RT.</p><p><br></p><p><strong>LC-MS:</strong></p><p>Liquid samples were prepared for LC-MS and LC-MS/MS analysis through the addition of an equal volume of ice cold (90:10) ACN:5 mM ammonium acetate (pH 9). Extractions were incubated for 1 hr at -20 \u00b0C followed by centrifugation at 4500 rpm for 10 min at 4 \u00b0C. 20 \u03bcl of extraction supernatant were transferred to Nunc 96-well, V-shape plates, closed with temperature sensitive seals and stored at -80 \u00b0C until further analysis.</p><p><br></p><p><strong>LC-MS Riboflavin:</strong></p><p>Riboflavin was extracted from 2 ml of culture supernatant by addition of an equal amount of 80:20 H2O:ACN. The samples were left at 4 \u00b0C for 10 min and then were transferred to dark glass vials. Next, they were concentrated using a vacuum concentrator, at 30 \u00b0C for 2 h and subsequently reconstituted in 200 \u03bcl of 80:20 H2O:ACN. The reconstituted samples were filtered through a 0.22 \u03bcm syringe filter.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>GC-MS:</strong></p><p>GCMS analysis was performed using a Shimadzu TQ8040 GC-(triple quadrupole) MS system (Shimadzu Corp.) equipped with a 30m x 0.25 mm x 0.25 \u03bcm ZB-50 capillary column (Phenomenex, USA). 1 \u03bcl of sample was injected in split mode (split ratio 1:5) at 250 \u00b0C using helium as a carrier gas with a flow rate of 1 ml/min. GC oven temperature was held at 100 \u00b0C for 4 min followed by an increase to 320 \u00b0C with a rate of 10 \u00b0C/min, and a final constant temperature period at 320 \u00b0C for 11 min.</p><p><br></p><p><strong>LC-MS:</strong></p><p>In brief, chromatographic separation was achieved using Aglient InfinityLab Poroshell 120 HILIC-Z column, 2.1 mm x 150 mm, 2.7 \u03bcm column and an Agilent 1290 Infinity II LC system coupled to a 6550 iFunnel qToF mass spectrometer. Column temperature was maintained at 45 \u00b0C and the following mobile phase were used: Mobile phase A: Ammonium acetate 5 mM, pH 9, and 250 mM InfinityLab Deactivator and Mobile Phase B: Ammonium acetate in ACN:H2O&nbsp;85:15 (v/v) 5 mM, pH, 9, and 250 mM InfinityLab Deactivator. 5 ml of sample were injected at 96% mobile phase B, maintained for 2 min, followed by linear gradient up to 88% B in 3.5 min, maintained for 3 min, followed by a linear gradient to 86% B in 0.5 min and maintained at 86% for 5 min, then linear gradient to 82% mobile phase B over 3 min, and a linear gradient to 65% B over 5 min, which was maintained for 1 min. The column was allowed to re-equilibrate HILIC conditions for 8 min before each sample injection. The Agilent LCMS 6550 qTOF instrument was operated in Negative scanning mode (60\u20131,600 m/z) with the following source parameters: VCap, 3,500 V; nozzle voltage, 0 V; gas temperature, 225 \u00b0C; drying gas 13 l/min; nebulizer, 35 psi; sheath gas temperature 350 \u00b0C; sheath gas flow 12 l/min, fragmentor, 125 V and skimmer, 45 V. Online mass calibration was performed using a second ionization source and a constant flow (10 \u03bcl/min) of reference mass solution (119.0363 and 1033.9881 m/z).</p><p><br></p><p><strong>LC-MS Riboflavin:</strong></p><p>The metabolite extracts were separated using HILIC on a 2.1 x 100 mm, 3.5 \u00b5m BEH amide column (Waters). Separation was achieved by gradient elution (100% B to 100% A in 20 min) on a binary solvent Exion LC system (Sciex, Darmstadt, Germany). Mobile phase A consisted of 80:20 H2O:ACN and mobile phase B consisted of 85:15 ACN:H2O. Both mobile phase A and B were modified with 10 mM ammonium acetate and adjusted to pH 8.5 with 25% [v/v] ammonium hydroxide.&nbsp;A flow rate of 300 \u03bcl/min was used for separation and the column and sample tray were held at 25 \u00b0C and 4 \u00b0C respectively. A 5 \u03bcl injection volume was used for all samples.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>GC-MS:</strong></p><p>Analysis was performed using a Shimadzu TQ8040 GC-(triple quadrupole) MS system (Shimadzu Corp.) The interface and the ion source were held at 280 \u00b0C and 230 \u00b0C, respectively. The detector was operated both in scanning mode recording in the range of 50-600 m/z, as well as in MRM mode for specified metabolites.</p><p><br></p><p><strong>LC-MS:</strong></p><p>The MassHunter Quantitative Analysis Software (Agilent Technologies, version 10.0) was used for both LC-MS and LC-MS/MS Molecular feature extraction. The following setting were applied for feature extraction: peak filter of absolute height: 10000 counts, limit assigned charge states to 1, only H- charged molecules were included and compound quality score should be greater than 80%. Peak alignment and identification were carried out using Mass Profiler Professional (Agilent, version 15.1) with default parameters: mass tolerance of 2 mDa or 20 ppm and retention time tolerance of 0.3 min or 2%. Extracted and aligned compounds were annotated using the Metlin PCDL B.08.0 metabolite and peptide database/library.</p><p><br></p><p><strong>LC-MS Riboflavin:</strong></p><p>MS analysis was performed in the MRM-scan mode on a Q-Trap 6500+ (Sciex, Darmstadt, Germany) equipped with an Ion Drive Turbo V electrospray ionisation probe. In both the positive and negative ionisation mode, the source temperature was set to 550 \u00b0C, the curtain gas was set to 30, the nebulizer gas (GS1) and the auxiliary gas (GS2) were both set to 45, and, the collision activation dissociation (CAD) gas was set to medium. Nitrogen was used as both the curtain gas and the CAD gas. In the positive ionization mode, the spray voltage was set to 5.5 kV, the declustering potential to 90, and the entrance and exit potentials to 10. In the negative ionization mode, the spray voltage was set to -4.5 kV, the declustering potential to -60 and the entrance and exit potentials were both set to -10. Both the LC and MS were controlled using Analyst software version 1.7. </p><p><br></p><p>The MRM transitions used for analysis of the vitamins were: Folate 442/295.1, Riboflavin 377/243 and FAD 786/348 all analysed in the positive ionization mode, and, for FMN 455/213 analysed in the negative mode. The MRM transitions used for the analysis of the nucleotides were as follows: IMP 349/137, UMP 325/97, GMP 364/154, AMP 348/136 all in the positive ionization mode.</p><p><br></p><p>Data analysis was performed using the Sciex OS software. A Gaussian smoothing of 1 point was applied to all peaks.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The metabolite quantification was carried out by calculating the area under the curve (AUC) of the identified marker ions of each metabolite. Natural abundance isotopes were corrected using the Isotope Correction Toolbox (ICT).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Identification of the metabolites was performed with in house set of standards for all the detected compounds.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS - positive",
+                        "filename": "a_MTBLS2217_GC-MS_positive__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS -",
+                        "filename": "a_MTBLS2217_s.cerevisiae_LC-MS___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS -",
+                        "filename": "a_MTBLS2217_Riboflavin_LC-MS___metabolite_profiling-1.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS -",
+                        "filename": "a_MTBLS2217_Riboflavin_LC-MS___metabolite_profiling-2.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

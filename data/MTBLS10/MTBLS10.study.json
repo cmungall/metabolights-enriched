@@ -1,0 +1,535 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2015-11-05T10:10:48",
+        "statusUpdateTime": "2015-11-05T10:10:48",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "/vol/bioinvindex/config/isaconfig-2012127"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS10",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2012-08-14",
+        "publicReleaseDate": "2012-08-14",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "103",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "16",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "26",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "25",
+                "description": "Ontology for Biomedical Investigations"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS10",
+                "filename": "s_MTBLS10.txt",
+                "title": "Development and validation of a liquid chromatography-electrospray ionization-time-of-flight mass spectrometry method for induced changes in Nicotiana attenuata leaves during simulated herbivory",
+                "description": "Metabolite profiling of herbivory-induced changes in Nicotiana attenuata was used to construct a correlation-weighted network to visualize intra- and inter-compound spectra relationships from individual mass features, and to annotate 12 major network hubs, including 4 O-acyl sugars and 6 17-hydroxygeranyllinalool diterpene glycosides, metabolites with recently uncovered anti-herbivore functions.",
+                "submissionDate": "2012-08-14",
+                "publicReleaseDate": "2012-08-14",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Emmanuel",
+                        "lastName": "Gaquerel",
+                        "email": "egaquerel@ice.mpg.de",
+                        "affiliation": "MPI CE Jena",
+                        "address": "Beutenberg Campus Hans-Knoell-Strasse 8 D-07745 Jena Germany",
+                        "fax": "+49 (0)3641 57 1002",
+                        "midInitials": "",
+                        "phone": "+49 (0)3641 57 1131",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Steffen",
+                        "lastName": "Neumann",
+                        "email": "sneumann@ipb-halle.de",
+                        "affiliation": "IPB Halle",
+                        "address": "Weinberg 3 06120 Halle Germany",
+                        "fax": "+49 345 5582 1409",
+                        "midInitials": "R",
+                        "phone": "+49 345 5582 1470",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Bioinformatician",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Kuhl",
+                        "lastName": "Carsten",
+                        "email": "kuhl@ipb-halle.de",
+                        "affiliation": "IPB Halle",
+                        "address": "Weinberg 3 06120 Halle Germany",
+                        "fax": "+49 345 5582 1409",
+                        "midInitials": "",
+                        "phone": "+49 345 5582 1470",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Bioinformatician",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "time series design",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001779"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "injury design",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001760"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Plant metabolomics",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "correlation study objective",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OBI",
+                            "file": "http://data.bioontology.org/ontologies/OBI",
+                            "version": "25",
+                            "description": "Ontology for Biomedical Investigations"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0200196"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "16",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Development and validation of a liquid chromatography-electrospray ionization-time-of-flight mass spectrometry method for induced changes in Nicotiana attenuata leaves during simulated herbivory.",
+                        "authorList": "Gaquerel E,Heiling S,Schoettner M,Zurek G,Baldwin IT",
+                        "pubMedID": "20701244",
+                        "doi": "10.1021/jf1017737",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Timepoint",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "response to wounding",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/GO_0009611"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "An isogenic line of Nicotiana attenuata obtained after 30 generations of inbreeding from field-collected seeds was used. Seeds were germinated as described in [1]. All plants were grown in the glasshouse in 1 L individual pots at 26 - 28 \u00b0C under 16 h of light supplied by Philips Sun-T Agro 400- or 600-W sodium lights (Philips,Turnhout, Belgium). Metabolic changes induced during Manduca sexta feeding were reproduced by producing with a fabric pattern wheel three rows of puncture onto each side of the midvein of five fully expanded leaves per plant (5 biological replicates) and directly applying 1:1 diluted M. sexta oral secretions (OS). Treated leaves from the same plant were harvested and flash frozen 0, 1, 2, 4, 14 and 24 h after elicitation.\n</p>\nRef:</br>\n[1] Gaquerel E, Heiling S, Schoettner M, Zurek G, Baldwin IT. Development and validation of a liquid chromatography-electrospray ionization-time-of-flight mass spectrometry method for induced changes in Nicotiana attenuata leaves during simulated herbivory. J Agric Food Chem. 2010 Sep 8;58(17):9418-27. doi: 10.1021/jf1017737. PMID:20701244",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "100 mg of ground leaf tissue was weighed and transferred to a Fast Prep tube containing 0.9 g of Fast Prep matrix (BIO 101, Vista, USA). 1 ml extraction buffer per 100 mg tissue [50 mM acetate buffer, pH 4.8, containing 40 % methanol spiked with reserpine (600 ng/ml), atropine (200 ng/ml)] was added and samples were homogenized. After centrifugation (13200 rpm, 20 min, 4 \u00baC) the supernatant was collected in a fresh 1.5 ml Eppendorf tube, centrifuged again and 100 \u00b5l of the supernatant was transferred to a HPLC vial.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Two microliters of the leaf extract were separated using a HPLC 1100 Series system (Agilent, Palo Alto, USA). The column used was a 150 mm x 2 mm i.d., 3 \u00b5m, Phenomenex Gemini NX RP-18 column with a 2 mm x 4 mm i.d. guard column of the same material. The following binary gradient was applied: 0 to 2 min isocratic 95 % A (deionized water, 0.1 % [v/v] acetonitrile [Baker, HPLC grade] and 0.05 % formic acid), 5 % B (acetonitrile, 0.05 % formic acid); 2 to 30 min linear gradient to 80 % B; isocratic for 5 min. Flow rate was 200 \u00b5l/min.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Eluted compounds were detected by a micrOTOF mass spectrometer (Bruker Daltonics, Bremen, Germany) equipped with an electrospray ionization source in positive and negative ion mode. Typical instrument settings were as follows: capillary voltage 4500 V, capillary exit 130 V, dry gas temperature 200 \u00b0C, dry gas flow of 8 l/min. Ions were detected from m/z 200 to 1400 at a scan rate of 1 Hz. Mass calibration was performed using sodium formate clusters (10 mM solution of NaOH in 50/50 % v/v isopropanol/water containing 0.2 % formic acid).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw data were exported as netCDF files and processed with the m/z feature detection and retention time alignment BioConductor package xcms (v1.30, http://www.bioconductor.org/packages/2.9/bioc/html/xcms.html), using following parameters for feature detection: method = centWave, ppm = 20, snthresh = 10, peakwidth = (20,50). For alignment, we repeated the xcms group method twice and performed a retention time correction in between with the following parameters: minfrac = 0.5, bw1 = 60, bw2 = 25, mzwid1 = 0.05, mzwid2 = 0.02, span = 1, extra = 0, missing = 0. Areas of missing features were estimated using the fillPeaks method. Annotation of compound spectra and corresponding ion species was performed with the BioConductor package CAMERA (v1.9.8, http://www.bioconductor.org/packages/2.9/bioc/html/CAMERA.html). Compound spectra were built with CAMERA according to the retention time similarity, the presence of detected isotopic patterns and to the strength of the correlation values among extracted ion currents (EICs) of co-eluting m/z features. CAMERA grouping and correlation methods were used with default parameters except the threshold for EIC correlation (cor_eic_th) which was increased to 0.85. Clustered features were annotated based on the match (+/- 5 ppm) of calculated m/z differences versus an ion species and neutral loss transitions rule set. Mass differences corresponding to NH3CH2, NH3CH3H2 and NH3C2H4 neutral losses were added to the default rule set of CAMERA. If one or more mass differences can be assigned to a compound spectrum, CAMERA will also deduce the neutral exact mass [M] of the underlying compound.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "A MetFrag query file was created for every CAMERA-deduced molecular mass hypothesis [M] if the associated compound spectrum contained at least one fragment peak, i.e. a m/z feature with a lower m/z value than [M]. Annotated isotopic peaks and multiply-charged ions such as [M+2H]2+ were excluded. These MS1.5 compound spectra usually contain a subset of the information that can be expected in a full tandem mass spectrum, but may also include false positives, i.e. unrelated features. Compounds within the injection peak were not considered.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "micrOTOF II ESI TOF (Bruker)",
+                        "filename": "a_MTBLS10_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

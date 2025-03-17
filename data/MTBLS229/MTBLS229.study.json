@@ -1,0 +1,455 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-02-03T15:11:24.595000",
+        "statusUpdateTime": "2017-02-03T15:11:24.595000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS229",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-09-16",
+        "publicReleaseDate": "2015-10-19",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "AURA",
+                "file": "http://data.bioontology.org/ontologies/AURA",
+                "version": "1",
+                "description": "KB_Bio_101"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "SNOMEDCT",
+                "file": "http://data.bioontology.org/ontologies/SNOMEDCT",
+                "version": "9",
+                "description": "Systematized Nomenclature of Medicine - Clinical Terms"
+            },
+            {
+                "comments": [],
+                "name": "FIX",
+                "file": "http://data.bioontology.org/ontologies/FIX",
+                "version": "4",
+                "description": "Physico-Chemical Methods and Properties"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS229",
+                "filename": "s_MTBLS229.txt",
+                "title": "Untargeted extraction of metabolites 13C labeling profiles from time course labeling switch experiment",
+                "description": "Dynamic isotope labeling data provide crucial information about the operation of metabolic pathways, and are commonly generated via liquid chromatography mass spectrometry (LC-MS). Metabolome-wide analysis is challenging as it requires grouping of metabolite features over different samples. We developed DynaMet for fully automated investigations of isotope labeling experiments from LC-high resolution MS raw data. DynaMet enables untargeted extraction of metabolite labeling profiles and provides integrated tools for expressive data visualization. For this study we generated labeling data of the model strain Escherichia coli from 13C glucose labeling switch experiments. Analysis of two biological replicates revealed high robustness and reproducibility of the pipeline. DynaMet analysis of two data sets each comprising 19 samples resulted in 286 and 293 features, respectively, with detection in at least 80% of all samples analyzed. Of these, 222 and 230, respectively, could be fitted with the implemented model. After removing false positives and merging both data sets DynaMet revealed a total number of 291 features with labeling profiles whereof 285 could be generated with implemented fitting function. Comparison with KEGG database resulted in 125 matches corresponding to 98 metabolites covering multiple pathways of core metabolism and major biosynthetic routes. The study results reported here are only a summary. To reproduce the complete results i.e. labeling profiles and corresponding kinetic fits including plots, DynaMet software is required.",
+                "submissionDate": "2015-09-16",
+                "publicReleaseDate": "2015-10-19",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Patrick",
+                        "lastName": "Kiefer",
+                        "email": "pkiefer@ethz.ch",
+                        "affiliation": "ETHZ, Institute of Microbiology",
+                        "address": "HCI F431\nValdimir-Prelog-Weg 4\n8093 Zurich\nSwitzerland",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Scientist",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "AURA",
+                                    "file": "http://data.bioontology.org/ontologies/AURA",
+                                    "version": "1",
+                                    "description": "KB_Bio_101"
+                                },
+                                "termAccession": "http://www.projecthalo.com/aura#Scientist"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "isotope method",
+                        "termSource": {
+                            "comments": [],
+                            "name": "FIX",
+                            "file": "http://data.bioontology.org/ontologies/FIX",
+                            "version": "4",
+                            "description": "Physico-Chemical Methods and Properties"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/FIX_0000359"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "nanoscale high performance liquid chromatography mass spectrometry",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "DynaMet",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "DynaMet, a fully automated pipeline for dynamic LC-MS data",
+                        "authorList": "Patrick Kiefer, Uwe Schmitt, Jonas Norbert Ernst M\u00fcller, Johannes Hartl, Fabian Meyer, Florian Ryffel, and Julia Anne Vorholt",
+                        "pubMedID": "26366644",
+                        "doi": "10.1021/acs.analchem.5b01660",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "incubation time",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "duration",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000433"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Cells were grown in baffled shake flasks in M9 minimal medium (37 \u00b0C, 120 rpm, Infors HT Minitron, Bottmingen, Switzerland) and 0.5 ml of exponentially growing cells (OD600 ~1) were added to 4.5 ml pre-warmed (37 \u00b0C) medium containing [U-13C] glucose (99%, Cambridge Isotope Laboratories, USA) at the same concentration compared to the natural labeled glucose present at the sampling time (~17 mM). After the labeling switch, samples were taken at 0 s, 1 s, 3 s, 6 s, 11 s, 16 s, 20 s, 30 s, 40 s, 60 s, 90 s, 120 s, 160 s, 200 s, 270 s, 300 s, 400 s, 500 s, 600  by fast filtration, washed with 10 ml pre-warmed (37 \u00b0C) deionized water containing 2 mM  glucose (ten-fold excess of [U-13C] compared to natural labeled glucose).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For quenching and metabolite extraction, filters with cells were transferred into 8 mL quenching solution (mixture of acetonitrile, methanol and 0.5 M formic acid at a 60:20:20 ratio) at -20 \u00b0C, incubated for 10 minutes on ice and sonified 3 times for 10 s based on a protocol adapted from [1]. Samples were snap frozen in liquid N2, lyophilized and stored at -20 \u00b0C until analysis. Prior to analysis, samples were resuspended with MilliQ water to a final biomass concentration of 1 \u00b5g/\u00b5l. Biomass content of the samples was calculated based on sample volume and corresponding culture OD600.\n</p>\nRef:</br>\n[1] Kiefer P, Schmitt U, Vorholt JA. eMZed: an open source framework in Python for rapid and interactive development of LC/MS data analysis workflows. Bioinformatics. 2013 Apr 1;29(7):963-4. doi: 10.1093/bioinformatics/btt080. PMID: 23418185</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Analysis of the prepared 13C-labeled experiment samples was performed using nanoscale ion-pair reversed-phase high-performance liquid chromatography (nano-IP-RP-HPLC) with a split-free nanoLC Ultra system (Eksigent, Dublin, CA) hyphenated to an LTQ-Orbitrap mass spectrometer (ThermoFisher Scientific, San Jose, CA) by nanoelectrospray ionization as described previously with slight modifications [1]. Separation of the metabolites was performed on a C18 column (Dr. Maisch HPLC Markens\u00e4ule, Reprosil-Gold 120, 100 mm x 0.1 mm, Morvay Analytik GmbH) as the stationary phase with a tributylamine (TBA) solution as the ion-pairing reagent and methanol (solvent B) as the eluent. The TBA solution (solvent A) was obtained by dissolving 1.7 mM TBA in 1.5 mM acetic acid; the pH was adjusted to 9.0 with 6 M ammonium hydroxide. Solvent B (methanol) varied according to the gradient under a flow rate of 400 nl/min as follows: 0 min, 3%; 30 min, 90%; 35 min, 90%; 36 min, 3%; and 45 min, 3%. The injection volume was 1 \u00b5l.\n</p>\nRef:</br>\n[1] Kiefer, P., Delmotte, N., and Vorholt, J. A. (2011) Nanoscale ion-pair reversed-phase HPLC-MS for sensitive metabolome analysis. Anal Chem 83, 850-855. doi: 10.1021/ac102445r. PMID:21166460</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "LC\u2013HRMS analysis was performed applying a nanoscale ion-pair reversed-phase HPLC\u2013MS method [1] with an LTQ-Orbitrap instrument operating in negative FT mode at unit resolution of 60,000 (at m/z 400) and with a scan range of m/z 150-850.  The Orbitrap Parameters can be found in a text file in the study folder.\n</p>\nRef:</br>\n[1] Kiefer P, Delmotte N, Vorholt JA. Nanoscale ion-pair reversed-phase HPLC-MS for sensitive metabolome analysis. Anal Chem. 2011 Feb 1;83(3):850-5. doi: 10.1021/ac102445r. PMID:21166460.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Conversion from Thermo raw data files into mzML using Proteowizard tool msconvert (http://proteowizard.sourceforge.net/tools.shtml). All further Processing was performed with DynaMet app, an extension package from emzed (installation can be found at http://emzed.ethz.ch/installation.html). After installation of emzed, DynaMet can be directly installed by typing following command in the IPython console: !pip install dynamet. An overview of all processing steps is shown in the file 'Data Transformation Protocol.txt' which is available in the study folder.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolite identification was performed using identification module of Dynamet software. To match features to data base, monoisotopic masses of features are calculated from possible adducts mass shifts. In case of successful adduct grouping the assigned monoisotopic mass is used to search for masses in database within user defined maximal deviation whereby matches are further restricted by estimation of metabolites possible number of carbon atoms. We estimated the number of carbon atoms from mass isotopologue pattern of natural labeled, and if provided, from a mixture of natural labeled and uniformly 13C labeled cell extract. As a general restriction the range of the possible number of carbon atoms is calculated for each metabolite, whereby the lower limit is defined by the number of 13C related mass isotopologues grouped per feature and the upper limit by the compound with similar mass present in the Pubchem database containing most number of carbon atoms. Depending on the consistency and reliability of the results obtained by applied estimation methods, each estimation gets a quality score (q-score) ranging from 0 to 15, and best scored estimation is selected. For the current study the KEGG database was used.\n</p>\nFor each compound in each sample we determined the summed number of labeled Carbon atoms:</br>\nn_13C=(f_M0 * f_M1*1 + f_Mn *n)</br>\nwhere n is number of C atoms, f_Mi is f_Mi=A_Mi/A_tot and A_Mi is ith isotopologue of metabolite i, A_tot is summed area of all isotopologues, A_tot=summed area of all isotopologue of a feauture where m is the metabolites number of carbon atoms.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ Orbitrap Classic (Thermo Scientific)",
+                        "filename": "a_MTBLS229_dli_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

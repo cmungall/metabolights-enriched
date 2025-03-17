@@ -1,0 +1,543 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-04-01T00:00:00",
+        "statusUpdateTime": "2024-04-01T12:39:19.238570",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS8439",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2023-08-24",
+        "publicReleaseDate": "2024-04-01",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "NCBITaxon",
+                "file": "",
+                "version": "2024-02-26",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS8439",
+                "filename": "s_MTBLS8439.txt",
+                "title": "SIN-3 transcriptional coregulator maintains mitochondrial homeostasis and polyamine flux",
+                "description": "Mitochondrial function relies on the coordinated transcription of mitochondrial and nuclear genomes to assemble respiratory chain complexes. Across species, the SIN3 coregulator influences mitochondrial functions, but how its loss impacts mitochondrial homeostasis and metabolism in the context of a whole organism is unknown. Exploring this link is important because SIN3 haploinsufficiency causes intellectual disability/autism syndromes and SIN3 plays an important role in tumor biology. Here we show that loss of C. elegans SIN-3 results in transcriptional deregulation of mitochondrial- and nuclear-encoded mitochondrial genes, potentially leading to mito-nuclear imbalance. Consistent with impaired mitochondrial function, sin-3 mutants show extensive mitochondrial fragmentation by transmission electron microscopy (TEM) and in vivo imaging, and altered oxygen consumption. Metabolomic analysis of sin-3 mutant animals identifies a signature of mitochondria stress and deregulation of methionine flux, resulting in decreased S-adenosyl methionine (SAM) and increased polyamine levels. Our results identify SIN3 as a key regulator of mitochondrial dynamics and metabolic flux, with important implications for human pathologies.",
+                "submissionDate": "2023-08-24",
+                "publicReleaseDate": "2024-04-01",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Michael",
+                        "lastName": "Witting",
+                        "email": "michael.witting@helmholtz-muenchen.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Mitochondrial Dynamics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OMIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OMIT_0028203"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "SIN-3 transcriptional coregulator maintains mitochondrial homeostasis and polyamine flux",
+                        "authorList": "Giovannetti M., Fabrizio P., Nicolle O., Bedet C., Rodr\u00edguez-Palero MJ., Michaux G., Artal-Sanz M., Witting M., Palladino F",
+                        "pubMedID": "",
+                        "doi": "10.1101/2023.08.07.552272",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Strains and culture</strong></p><p>Strains were cultured on Nematode Growth Medium (NGM) agarose plates with Escherichia coli OP50 and incubated at 20 \u00b0C. The following strains were used (*created for this study, (**<strong>[1]</strong>; ***<strong>[2]</strong>: wild type N2 Bristol, **PFR590 sin-3(tm1276) I, ***PHX2172 sin-3(syb2172)/hT2[bli-4(e937) let-?(q782) qIs48] I, KAG420 kagIs4[gfp::myo-3]V<strong>[3]</strong>; *PFR750 sin-3(tm1276) I, kagIs4[gfp::myo-3]V; EN7714 krSi134[myo-3p::tomm-20Nter::wrmScarlet]<strong>[4]</strong>; PFR754 sin-3(tm1276) I; krSi134[myo-3p::tomm-20Nter::wrmScarlet]; EGD629 egxSi155[mex-5p::tomm-20::mKate2::pie-1 3\u2019UTR + unc-119(+)] II; PFR758 sin-3(tm1276), egxSi155[mex-5p::tomm-20::mKate2::pie-1 3\u2019UTR + unc-119(+)]II; *PFR669 sin-3::mCherry(syb521); oxIs279[pie-1p::GFP::H2B + unc-119(+)]II; SJ4100 zcIs13 [hsp-6p::GFP + lin-15(+)]. PFR750 and PFR754 were obtained by crossing sin-3(tm1276) hermaphrodites with GFP::myo-3 or myo-3p::tomm-20Nter::wrmScarlet males, respectively.</p><p><br></p><p><strong>Metabolite extraction and profiling</strong></p><p>Embryos derived from bleaching were transferred onto 90 mm plates seeded with 0P50 bacteria and left to develop to the young adult stage. Animals were collected in M9 medium, washed 3 times in 10 mL M9 and pellets quick frozen in liquid nitrogen prior to processing<strong>[5]</strong>. A total of 8 replicas, each containing approximately 2000 worms, were processed per genotype. All chemicals and solvents were of LC-MS or analytical grade.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1] </strong>Beurton F, Stempor P, Caron M, Appert A, Dong Y, Chen RA, Cluet D, Cout\u00e9 Y, Herbette M, Huang N, Polveche H, Spichty M, Bedet C, Ahringer J, Palladino F. Physical and functional interaction between SET1/COMPASS complex component CFP-1 and a Sin3S HDAC complex in C. elegans. Nucleic Acids Res. 2019 Dec 2;47(21):11164-11180. doi:10.1093/nar/gkz880. PMID:31602465.</p><p><strong>[2]</strong> Robert VJ, Caron M, Gely L, Adrait A, Pakulska V, Cout\u00e9 Y, Chevalier M, Riedel CG, Bedet C, Palladino F. SIN-3 acts in distinct complexes to regulate the germline transcriptional program in Caenorhabditis elegans. Development. 2023 Nov 1;150(21):dev201755. doi:10.1242/dev.201755. Epub 2023 Oct 17. PMID:37818613.</p><p><strong>[3]</strong> Mergoud Dit Lamarche A, Molin L, Pierson L, Mariol MC, Bessereau JL, Gieseler K, Solari F. UNC-120/SRF independently controls muscle aging and lifespan in Caenorhabditis elegans. Aging Cell. 2018 Apr;17(2):e12713. doi:10.1111/acel.12713. Epub 2018 Jan 3. PMID:29314608.</p><p><strong>[4]</strong> Roy C, Molin L, Alcolei A, Solyga M, Bonneau B, Vachon C, Bessereau JL, Solari F. DAF-2/insulin IGF-1 receptor regulates motility during aging by integrating opposite signaling from muscle and neuronal tissues. Aging Cell. 2022 Aug;21(8):e13660. doi:10.1111/acel.13660. Epub 2022 Jul 8. PMID:35808897.</p><p><strong>[5]</strong> Spanier B, Lauren\u00e7on A, Weiser A, Pujol N, Omi S, Barsch A, Korf A, Meyer SW, Ewbank JJ, Palladino F, Garvis S, Aguilaniu H, Witting M. Correction to: Comparison of lipidome profiles of Caenorhabditis elegans-results from an inter-laboratory ring trial. Metabolomics. 2021 Mar 12;17(3):33. doi:10.1007/s11306-021-01784-5. Erratum for: Metabolomics. 2021 Feb 17;17(3):25. PMID:33710400.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>C. elegans samples were thawed on ice and 1 mL of ice-cold H2O/MeOH/CHCl3 (1/3/1, v/v/v). After suspension in solvent, C. elegans animals were transferred to 2 mL MN Bead Tubes Type A (Macherey-Nagel, D\u00fcren, Germany) and lysed using a Precellys Bead Beating system with an additional Cryolys cooling module (Bertin Instruments, Montigny-le-Bretonneux, France). After lysis, samples were incubated for 10 min in an ice-cold ultrasonic bath, followed by centrifugation at 4 \u00b0C and 13,000 rpm for 15 min. The supernatant was transferred to a fresh reaction tube and evaporated to dryness using a centrifugal evaporator. Proteins were extracted from residue debris pellets and quantified using a BCA kit (Sigma-Aldrich, Taufkirchen, Germany).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite profiling was performed using a Sciex ExionLC AD coupled to a Sciex ZenoTOF 7600 under the control of Sciex OS 3.0 (Sciex, Darmstadt, Germany). Separation was achieved on an Agilent InfinityLab Poroshell 120 HILIC-Z column (2.1 mm x 150 mm, 2.7 \u00b5m particle size, PEEK-lined) (Agilent Technologies, Waldbronn, Germany). Different eluents and gradients were applied for positive and negative ionization modes. In positive ionization mode, eluent A consisted of 100% H2O + 10 mM ammonium formate / 0.1% formic acid, and eluent B consisted of 10% H2O / 90% ACN + 10 mM ammonium formate / 0.1% formic acid. In negative ionization mode, eluent A consisted of 100% H2O + 10 mM ammonium acetate / 2.5 \u00b5M medronic acid, pH = 9, and eluent A consisted of 15% H2O / 85% ACN + 10 mm ammonium acetate / 2.5 \u00b5M medronic acid, pH = 9. The column temperature was set to 25 and 50 \u00b0C for positive and negative ionization modes, respectively, and the flow rate was 0.25 mL/min in both cases. Positive Mode Gradient: Time (min), %A/%B: 0, 2/98; 3, 2/98; 11, 30/70; 12, 40/60; 16, 95/5; 18, 95/5; 19, 2/98; 25, 2/98. Negative Mode Gradient: Time (min), %A/%B: 0, 4/96; 2, 4/96; 5.5, 12/88; 8.5, 12/88; 9, 14/86; 17, 18/82; 23, 35/65; 24, 35/65; 24.5, 4/96; 30, 4/96. Dried samples were re-dissolved in 50 \u00b5L H2O/ACN (1/3, v/v), and 40 \u00b5L were transferred to an autosampler vial and 10 \u00b5L to a pooled QC sample. Autosampler temperature was set to 5 \u00b0C and 5 \u00b5L were injected for analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>In MS1, ions in the range 70-1500 m/z were accumulated for 0.1 s, and information-dependent acquisition (IDA) of MS2 was used with a maximum number of 6 candidate ions and a collision energy of 35 eV with a spread of 15 eV. Accumulation time for MS2 was set to 0.025 s, yielding a total cycle time of 0.299 s. ZenoTrapping was enabled with a value of 80,000. QC samples were used for conditioning the column and injected every 10 samples. Automatic calibration of the mass spectrometer in MS1 and MS2 mode was performed every 5 injections using the ESI positive Calibration Solution for the Sciex X500 system or the ESI negative Calibration Solution for the Sciex X500 system (Sciex, Darmstadt, Germany).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data analysis was performed in a targeted fashion for identified metabolites. Metabolites were identified by comparison to in-house reference standards, publicly available reference spectra and manual interpretation of fragmentation spectra. Data analysis was performed in Sciex OS 3.0.0.3339 (Sciex, Darmstadt, Germany). Peaks for all metabolites indicated in Tables S4 and S5, in the paper associated with this study, were integrated with an XIC width of 0.02 Da and a Gaussian smooth width of 3 points using the MQ4 peak-picking algorithm. Peak areas were exported to a .txt file and normalized according to the protein content of the respective sample. All further processing was performed in R 4.2.1 within RStudio using the following packages: tidyverse (1.3.2), readxl (1.4.1), ggsignif (0.6.4), gghalves (0.1.4), scales (1.2.1) and viridis (0.6.2). Data were plotted using ggplot with gghalves using half box- and half dot-plots. Significance was tested using a Welch test within ggsignif.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were identified by comparison with authentic standards or high-quality reference spectra and manual spectra interpretation.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS8439_LC-MS_positive_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - hilic",
+                        "filename": "a_MTBLS8439_LC-MS_negative_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

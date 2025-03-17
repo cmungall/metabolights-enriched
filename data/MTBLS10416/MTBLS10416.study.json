@@ -1,0 +1,737 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-10-25T13:26:05.993728",
+        "statusUpdateTime": "2024-10-25T13:26:05.993728",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS10416",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2024-06-11",
+        "publicReleaseDate": "2024-10-25",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MSIO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MI",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS10416",
+                "filename": "s_MTBLS10416.txt",
+                "title": "A metabolic switch orchestrated by IL-18 and the cyclic dinucleotide cGAMP programs intestinal tolerance",
+                "description": "Tissues are exposed to diverse inflammatory challenges that shape future inflammatory responses. While cellular metabolism regulates immune function, how metabolism programs and stabilizes immune states within tissues and tunes susceptibility to inflammation is poorly understood. Here, we describe an innate immune metabolic switch that programs long-term intestinal tolerance. Intestinal interleukin-18 (IL-18) stimulation elicited tolerogenic macrophages by preventing their proinflammatory glycolytic polarization via metabolic reprogramming to fatty acid oxidation (FAO). FAO reprogramming was triggered by IL-18 activation of SLC12A3 (NCC), leading to sodium influx, release of mitochondrial DNA, and activation of stimulator of interferon genes (STING). FAO was maintained in macrophages by a bistable switch that encoded memory of IL-18 stimulation and by intercellular positive feedback that sustained the production of macrophage-derived 2'3'-cyclic GMP-AMP (cGAMP) and epithelial-derived IL-18. Thus, a tissue-reinforced metabolic switch encodes durable immune tolerance in the gut and may enable reconstructing compromised immune tolerance in chronic inflammation.",
+                "submissionDate": "2024-06-11",
+                "publicReleaseDate": "2024-10-25",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Randall",
+                        "lastName": "Mertens",
+                        "email": "rmertens@bwh.harvard.edu",
+                        "affiliation": "Brigham and Women's Hospital",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "T",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Aditya",
+                        "lastName": "Misra",
+                        "email": "misraadi@mit.edu",
+                        "affiliation": "Brigham and Women's Hospital",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Roni",
+                        "lastName": "Nowarski",
+                        "email": "rnowarski@bwh.harvard.edu",
+                        "affiliation": "Brigham and Women's Hospital",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jeannette",
+                        "lastName": "Brook",
+                        "email": "jeannette.brook@childrens.harvard.edu",
+                        "affiliation": "Boston Children's Hospital",
+                        "address": "61 Binney St. Boston, MA 02115",
+                        "fax": "",
+                        "midInitials": "R",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Subinvestigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C54622"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Naama",
+                        "lastName": "Kanarek",
+                        "email": "naama.kanarek@childrens.harvard.edu",
+                        "affiliation": "Boston Children's Hospital",
+                        "address": "61 Binney St. Boston, MA 02115",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Boryana",
+                        "lastName": "Petrova",
+                        "email": "boryana.petrova@childrens.harvard.edu",
+                        "affiliation": "Boston Children's Hospital",
+                        "address": "61 Binney St. Boston, MA 02115",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Subinvestigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C54622"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Peng",
+                        "lastName": "Xiao",
+                        "email": "tulipxp@zju.edu.cn",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Seungbyn",
+                        "lastName": "Baek",
+                        "email": "bsb0613@yonsei.ac.kr",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Joseph",
+                        "lastName": "Rone",
+                        "email": "jrone@g.harvard.edu",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Davide",
+                        "lastName": "Mangani",
+                        "email": "davide.mangani@irb.usi.ch",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Kisha",
+                        "lastName": "Sivanathan",
+                        "email": "ksivanathan@bwh.harvard.edu",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Metabolomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C49019"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high performance liquid chromatography",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MSIO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MSIO_0000148"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A metabolic switch orchestrated by IL-18 and the cyclic dinucleotide cGAMP programs intestinal tolerance.",
+                        "authorList": "Mertens RT, Misra A, Xiao P, Baek S, Rone JM, Mangani D, Sivanathan KN, Arojojoye AS, Awuah SG, Lee I, Shi GP, Petrova B, Brook JR, Anderson AC, Flavell RA, Kanarek N, Hemberg M, Nowarski R.",
+                        "pubMedID": "38906145",
+                        "doi": "10.1016/j.immuni.2024.06.001",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Drug treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Knock out genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>BMDMs from either WT or&nbsp;Slc12a3-/-&nbsp;mice were seeded at a density of 500,000 cells per well in 6-well non coated tissue culture plates. Cells were treated with their respective conditions (rIL-18, 100&nbsp;ng/mL, 2&nbsp;days; or LPS, 50&nbsp;ng/mL, 24 h).&nbsp;</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>At experimental endpoint BMDMs were washed with ice-cold 0.9% NaCl briefly and extracted in buffer (80% Methanol, 25&nbsp;mM Ammonium Acetate and 2.5&nbsp;mM Na-Ascorbate prepared in LC-MS water, supplemented with isotopically-labelled amino acid standards [Cambridge Isotope Laboratories, MSK-A2-1.2], aminopterin, and reduced glutathione standard [Cambridge Isotope Laboratories, CNLM-6245-10]) and transferred into 1.5&nbsp;mL tubes. Samples were vortexed for 10 s, then centrifuged for 10&nbsp;min at 18,000 x g to pellet cell debris. The supernatant was dried on ice using a liquid nitrogen dryer. Metabolites were reconstituted in 15&nbsp;\u03bcL water supplemented with QReSS [Cambridge Isotope Laboratories, MSK-QRESS-KIT].</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Briefly, 1&nbsp;\u03bcL was injected into a ZIC-pHILIC 150 x 2.1&nbsp;mm (5&nbsp;\u03bcm particle size) column (EMD Millipore) operated on a Vanquish Flex UHPLC Systems (Thermo Fisher Scientific, San Jose, CA, USA). Chromatographic separation was achieved using the following conditions: buffer A was acetonitrile; buffer B was 20&nbsp;mM ammonium carbonate, 0.1% ammonium hydroxide in water. Gradient conditions were: 0-20&nbsp;min: linear gradient from 20% to 80% B; 20-24&nbsp;min: hold at 80% B 24-24.1&nbsp;min: from 80% to 20% B; 24.1-32&nbsp;min: hold at 20% B at 150&nbsp;mL/min flow rate. The column oven and autosampler tray were held at 25 and 4 \u00b0C, respectively.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>MS data acquisition was performed using a QExactive benchtop orbitrap mass spectrometer equipped with an Ion Max source and a HESI II probe (Thermo Fisher Scientific, San Jose, CA, USA) and was performed in positive and negative ionization mode in a range of 70-1000 m/z, with the resolution set at 70,000, the AGC target at 1 x 10^6, and the maximum injection time (Max IT) at 40&nbsp;ms. HESI parameters were: Sheath gas flow rate: 35. Aux gas flow rate: 8. Sweep gas flow rate: 1. Spray voltage 3.5 (pos); 2.8 (neg). Capillary temperature: 320 \u00b0C. S-lens RF level: 50. Aux gas heater temp: 350 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Relative quantification of polar metabolites was performed with TraceFinder 5.1 (ThermoFisher Scientific, Waltham, MA, USA) using a 10 ppm mass tolerance and referencing an in-house library of chemical standards. Pooled samples and fractional dilutions were prepared as quality controls and injected at the beginning and end of each run. In addition, pooled samples were interspersed throughout the run to control for technical drift in signal quality as well as to serve to assess the coefficient of variability (CV) for each metabolite. Data from TraceFinder was further consolidated and normalized with an in-house R script: (https://github.com/FrozenGas/KanarekLabTraceFinderRScripts/blob/main/MS_data_script_v2.4_20221018.R). Briefly, this script performs normalization and quality control steps: 1) extracts and combines the peak areas from TraceFinder output.csvs; 2) calculates and normalizes to an averaged factor from all mean-centered chromatographic peak areas of isotopically labeled amino acids internal standards within each sample; 3) filters out low-quality metabolites based on user inputted cut-offs calculated from pool reinjections and pool dilutions; 4) calculates and normalizes for biological material amounts based on the total integrated peak area values of high-confidence metabolites. In this study, the linear correlation between the dilution factor and the peak area cut-offs are set to RSQ &gt; 0.95 and the coefficient of variation (CV)&nbsp;&lt;&nbsp;30%. Finally, data were Log transformed and Pareto scaled within the MetaboAnalyst-based statistical analysis platform to generate PCA, PLSDA and heatmaps.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Relative quantification of polar metabolites was performed with TraceFinder 5.1 (ThermoFisher Scientific, Waltham, MA, USA) using a 10 ppm mass tolerance and referencing an in-house library of chemical standards.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS10416_LC-MS_alternating_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

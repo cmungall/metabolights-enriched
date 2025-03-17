@@ -1,0 +1,575 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-08-27T00:00:00",
+        "statusUpdateTime": "2024-08-27T13:26:43.499236",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS10035",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "25/04/2024",
+        "publicReleaseDate": "2024-08-27",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS10035",
+                "filename": "s_MTBLS10035.txt",
+                "title": "AspSnFR: A Genetically-Encoded Biosensor for Real-Time Monitoring of Aspartate in Live Cells",
+                "description": "<p>Aspartate is crucial for nucleotide synthesis, ammonia detoxification and maintaining redox balance via the malate-aspartate-shuttle (MAS). To disentangle these multiple roles of aspartate metabolism, tools are required that measure aspartate concentrations in real time and in live cells. We introduce AspSnFR, a genetically encoded green fluorescent biosensor for intracellular aspartate, engineered through displaying and screening biosensor libraries on mammalian cells. In live cells, AspSnFR is able to precisely and quantitatively measure cytosolic aspartate concentrations and dissect its production from glutamine. Combining high-content imaging of AspSnFR with pharmacological perturbations exposes differences in metabolic vulnerabilities of aspartate levels based on nutrient availability. Further, AspSnFR facilitates tracking of aspartate export from mitochondria through SLC25A12, the MAS\u2019 key transporter. We show that SLC25A12 is a rapidly responding and direct route to couple Ca2+ signaling with mitochondrial aspartate export. This establishes SLC25A12 as a crucial link between cellular signaling, mitochondrial respiration and metabolism.</p>",
+                "submissionDate": "25/04/2024",
+                "publicReleaseDate": "2024-08-27",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Shao Thing",
+                        "lastName": "Teoh",
+                        "email": "steoh@cemm.at",
+                        "affiliation": "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "absolute quantification",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Aspartate",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_132943"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Asparagine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_22653"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Glutamate",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_29987"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Glutamine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_28300"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "thapsigargin",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_9516"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "AspSnFR: A genetically encoded biosensor for real-time monitoring of aspartate in live cells.",
+                        "authorList": "Hellweg L, Pfeifer M, Tarnawski M, Thing-Teoh S, Chang L, Bergner A, Kress J, Hiblot J, Wiedmer T, Superti-Furga G, Reinhardt J, Johnsson K, Leippe P.",
+                        "pubMedID": "38806058",
+                        "doi": "10.1016/j.chembiol.2024.05.002",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Induction",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Drug",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Glutamine",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Generation of HCT116-SLC25A12-KO-OE-AspSnFR cell lines</strong></p><p>HCT116-SCL25A12-KOOE-c8p1 cells were obtained through RESOLUTE (RESOLUTE identifier CE059N-4). These were were generated according to open-access RESOLUTE protocols, accessible at www.zenodo.org under accession codes 7457297 (KO) and 7457295 (KO-OE).</p><p><br></p><p>HCT116-SCL25A12-KOOE-c8p1 cells were subjected to limiting dilution cloning in 384-well cell culture plates. From this process, 45 clones were isolated and expanded. To verify correct mitochondrial localization, each clone was stained for SLC25A12-HA with an anti-HA antibody and assessed for colocalization with Mitotracker Orange. Based on these images, clone L8 of HCT116 SLC25A12 was selected for transfection with cyto-AspSnFR encoded in a pcDNA3.1/Neo vector. In adherence to the manufacturer\u2019s guidelines, cells were seeded to achieve a 60% confluency on the day of transfection. The transfection mixture was prepared by combining 97 \u03bcL of OptiMem, 2.7 \u03bcL of X-tremeGENE9 transfection reagent, and 1 \u03bcg of plasmid DNA. The following day, cells were harvested and relocated to T75 cell culture flasks. Subsequently, either 0.4 or 0.8 mg/mL Geneticin was added to the SLC25A12 KOOE-L8 cells. The antibiotic selection was sustained for 3 weeks. Cells were sorted twice via FACS, with a 2-week interval, to isolate those expressing high levels of cyto-AspSnFR. The resulting cell line was named HCT116-SLC25A12-KO-OE-AspSnFR, characterized by its stable high expression of cyto-AspSnFR together with a doxycycline-inducible expression of SLC25A12-HA. This cell line was further expanded for detailed characterization and subsequent experimental use.</p><p><br></p><p><strong>Treatment and metabolite extraction</strong></p><p>Cells were seeded in 24-well plates at 75,000 cells/well (HCT116-SLC25A12-KOOE-AspSnFR) in medium -/+ 1 mg/mL doxycycline. The following day, medium was renewed for doxycycline washout. After another day, treatments were performed for 3 h (-/+ 1 mM pyruvate, -/+ 4.5 g/L glucose, -/+ 2 mM GlutaMax or glutamine in 10% dialyzed FCS/DMEM). Then empty medium or medium containing Thapsigargin was added (to a final concentration of 100 nM). Cells were then washed with room-temperature 75 mM ammonium carbonate buffer adjusted to pH 7.4 and immediately quenched by addition of 250 \u00b5L/well HPLC-grade methanol (chilled to -20 \u00b0C), followed by of 60 \u00b5L/well ice-cold HPLC-grade water containing 2.5 \u00b5M internal standards (13C415N-aspartic acid and 13C515N-glutamic acid) for a final MeOH concentration of 80%.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Cells were then scraped and transferred along with extraction solvent to 1.5 mL microcentrifuge tubes, vortexed briefly and centrifuged at 18,000 x g, 4 \u00b0C for 5 min. Next 250 \u00b5L of supernatant was then transferred to HPLC vials, dried under a nitrogen gas stream and stored at -80 \u00b0C until analysis. The protein precipitate was left to dry overnight in a fume hood, then dissolved in 0.5 mM KOH and quantified by BCA protein assay for data normalization later.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Dried metabolite extracts were resuspended in 50 \u00b5L ice-cold HPLC-grade water and analyzed on a Waters Xevo TQ triple quadrupole mass spectrometer using a Waters Acquity UPLC HSS T3 column (2.1 mm x 100 mm, 1.8 \u00b5m particle size, 100 \u00c5 pore size) for separation. Sample order was randomized to avoid systematic bias, and each sample was run twice as analytical replicates. The LC solvents were A: water + 0.1% formic acid and B: acetonitrile + 0.1% formic acid. LC parameters were as follows: autosampler temperature, 5 \u00b0C; injection volume, 5 \u00b5L; column temperature, 40 \u00b0C. Elution from the column was performed over 8 min with the following varying flow rate gradient: t = 0.0 min, 2% B, flow rate 0.15 mL/min; t = 2.5 min, 2% B, flow rate 0.15 mL/min; t = 3.5 min, 100% B, flow rate 0.3 mL/min; t = 6.0 min, 100% B, flow rate 0.3 mL/min; t = 6.1 min, 2% B, flow rate 0.2 mL/min; t = 8.0 min, 2% B, flow rate 0.15 mL/min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectra were acquired using positive mode electrospray ionization operating in MRM mode. The capillary voltage was 3000 V. Nitrogen was used as cone gas and desolvation gas, with flow rates of 200 and 650 L/h, respectively. The source temperature was 150 \u00b0C and desolvation temperature was 350 \u00b0C. Argon was used as collision gas at flow rate of 0.15 mL/min. Precursor and product ion m/z, source cone voltages and collision energies were optimized for each target metabolite using the IntelliStart function of MassLynx.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>RAW data folders were converted to mzML format using ProteoWizard. Peak quantification was performed in EL-MAVEN. Concentrations were calculated from peak area ratios of analytes and corresponding internal standards (13C15N-aspartic acid for aspartate acid and asparagine, 13C15N-glutamic acid for glutamic acid and glutamine) matched against regression curves obtained for each analyte from a standards dilution series spanning the concentration range from 1 to 1000 \u03bcM. Calculated concentration values from both analytical replicates were averaged. The BCA protein quantification value was used together with a biochemical measure of protein content to cell volume<strong> </strong>of 6.5 \u03bcL/mg to calculate the total cell volume in the sample. By dividing the relative concentration by the total cell volume, absolute whole-cell concentrations were obtained.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A dilution series of standards for the 4 target metabolites (aspartic acid, asparagine, glutamic acid and glutamine) was injected during the run, which enabled unequivocal identification of these metabolites based on retention time. Additionally, each standard and experimental sample contained 13C15N-aspartic acid and 13C15N-glutamic acid as internal standards, which also served as additional layer of metabolite verification.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS10035_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

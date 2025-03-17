@@ -1,0 +1,645 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-03-10T00:00:00",
+        "statusUpdateTime": "2022-03-10T15:21:07.572810",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\Users\\braginets\\MetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2382",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2021-01-11",
+        "publicReleaseDate": "2022-03-10",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "ROLEO",
+                "file": "http://data.bioontology.org/ontologies/ROLEO",
+                "version": "1",
+                "description": "Role Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "RCD",
+                "file": "http://data.bioontology.org/ontologies/RCD",
+                "version": "3",
+                "description": "Read Codes, Clinical Terms Version 3 (CTV3)"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "COAgronomictrait",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "SIBO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2382",
+                "filename": "s_MTBLS2382.txt",
+                "title": "The diversity of quinoa morphological traits and seed metabolic composition",
+                "description": "<p>Quinoa (<em>Chenopodium quinoa</em> Willd.) is an herbaceous annual crop of the amaranth family (Amaranthaceae). It is increasingly cultivated for its nutritious grains, which are rich in protein and essential amino acids, lipids, and minerals. Quinoa exhibits a high tolerance towards various abiotic stresses including drought and salinity, which supports its agricultural cultivation under climate change conditions. The use of quinoa grains is compromised by anti-nutritional saponins, a terpenoid class of secondary metabolites deposited in the seed coat; their removal before consumption requires extensive washing, an economically and environmentally unfavorable process; or their accumulation can be reduced through breeding. In this study, we analyzed the seed metabolomes, including amino acids, fatty acids, and saponins, from 471 quinoa cultivars, including two related species, by liquid chromatography - mass spectrometry. Additionally, we determined a large number of agronomic traits including biomass, flowering time, and seed yield. The results revealed considerable diversity between genotypes and provide a knowledge base for future breeding or genome editing of quinoa.</p>",
+                "submissionDate": "2021-01-11",
+                "publicReleaseDate": "2022-03-10",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Salma",
+                        "lastName": "Balazadeh",
+                        "email": "s.balazadeh@biology.leidenuniv.nl",
+                        "affiliation": "Leiden University",
+                        "address": "Institute of Biology Leiden (IBL), Leiden University, Sylviusweg 72, 2333BE Leiden",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "31639661529",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "associate professor",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "ROLEO",
+                                    "file": "http://data.bioontology.org/ontologies/ROLEO",
+                                    "version": "1",
+                                    "description": "Role Ontology"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/RoleO_0000679"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Agronomic trait",
+                        "termSource": {
+                            "comments": [],
+                            "name": "COAgronomictrait",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.cropontology.org/rdf/CO_331:Agronomic%20trait"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "saponin",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_26605"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "amino acid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_33709"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "fatty acid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_35366"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "natural diversify",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153193"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The diversity of quinoa morphological traits and seed metabolic composition",
+                        "authorList": "Iman Tabatabaei, Saleh Alseekh, Mohammad Shahid, Ewa Leniak, Mateusz Wagner, Henda Mahmoudi, Sumitha Thushar, Alisdair R. Fernie, Kevin M. Murphy, Sandra M. Schm\u00f6ckel, Mark Tester, Bernd Mueller-Roeber, Aleksandra Skirycz, Salma Balazadeh",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Seeds of 469 quinoa cultivars, plus 1 djulis (<em>Chenopodium formosanum</em> Koidz.) and 1 goosefoot (<em>Chenopodium album</em> L.) accession, were used for the study. The seeds were collected from plants grown in the fields of the International Center for Biosaline Agriculture, ICBA (N 25\u00b0 05.847; E 055\u00b0 23.464), Dubai, the United Arab Emirates, from November to April (2016\u20132017). Seeds were stored in the active seed bank at ICBA, Dubai, before the analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The extraction protocol was adapted and modified from a previous method<strong>[1]</strong>. Briefly, approx. 100 mg of quinoa seed were homogenized in 2-ml Eppendorf tubes twice for 1 min at maximum speed within a Retschmill MM 301. The metabolites were extracted from each aliquot in 1 ml of a homogenous mixture of \u221220 \u00b0C methanol:methyl-tert-butyl-ether:water (1:3:1), with shaking for 30 min at 4 \u00b0C (Thermo Stat Plus; Eppendorf), followed by another 10 min of incubation in an ice cooled ultra-sonication bath. After adding 650 \u03bcl of UPLC-grade methanol:water 1:3, the homogenate was vortexed and spun for 5 min at 4 \u00b0C in a table-top centrifuge (Eppendorf). The addition of methanol:water led to a phase separation, providing the upper organic phase, containing the lipids, a lower aqueous phase, containing the polar and semi-polar metabolites, and a pellet of starch and proteins at the bottom of Eppendorf tube. The separate phases were isolated and dried down in a speed vac (Centrivac; Heraeus) and stored at \u221220 \u00b0C until use in the different metabolomic or lipidomic analyses.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Giavalisco P, Li Y, Matthes A, Eckhardt A, Hubberten HM, Hesse H, Segu S, Hummel J, K\u00f6hl K, Willmitzer L. Elemental formula annotation of polar and lipophilic metabolites using (13) C, (15) N and (34) S isotope labelling, in combination with high-resolution mass spectrometry. Plant J. 2011 Oct;68(2):364-76. doi:10.1111/j.1365-313X.2011.04682.x. PMID:21699588.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "phase separation",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Polar and semi-polar metabolites:</strong></p><p>After extraction, the dried aqueous phase was measured using ultra-performance liquid chromatography coupled to a Q-Exactive mass spectrometer (Thermo Fisher Scientific) in positive and negative ionisation modes, as previously described<strong>[1]</strong>. Samples were run in 10 consecutive sets of 50 samples and one set of 10 samples. Briefly, UPLC separation of the semi-polar fraction of the fractionated metabolite extract was performed using a Waters Acquity UPLC system, using an HSS T3 C18 reversed-phase column (100 mm x 2.1 mm x 1.8 \u03bcm particles; Waters). The mobile phases were 0.1% formic acid in H2O (Buffer A, ULC MS grade; BioSolve) and 0.1% formic acid in acetonitrile (Buffer B, ULC MS grade; BioSolve). A 2-\u03bcl sample (the dried-down aqueous fraction was re-suspended in 100 \u03bcl of UPLC grade water) was loaded per injection, and the gradient, which was taken out with a flow rate of 400 \u03bcl/min, was: 1 min 99% A, 13-min linear gradient from 99% A to 65% A, 14.5-min linear gradient from 65% A to 30% A, 15.5-min linear gradient from 30% A to 1% A, hold 1% A until 17 min, 17.5-min linear gradient from 1% A to 99% A, and re-equilibrate the column for 2.5 min (20-min total run time).</p><p><br></p><p><strong>Lipids:</strong></p><p>After extraction, the dried organic phase was measured using ultra-performance liquid chromatography coupled to a Q-Exactive mass spectrometer (Thermo Fisher Scientific) in positive mode, as previously described<strong>[1]</strong>. Samples were run in 10 consecutive sets of 50 samples and one set of 10 samples. Briefly, the lipid fraction of the fractionated metabolite extract was performed on the same UPLC system using a C8 reversed-phase column (100 mm x 2.1 mm x 1.7 \u03bcm particles; Waters). The mobile phases were water (UPLC MS grade; BioSolve) with 1% 1 M NH4Ac, 0.1% acetic acid (Buffer A,) and acetonitrile:isopropanol (7:3, UPLC grade; BioSolve) containing 1% 1 M NH4Ac, 0.1% acetic acid (Buffer B). A 2-\u03bcl sample (the dried-down organic fraction was re-suspended in 500 \u03bcl of UPLC-grade acetonitrile:isopropanol 7:3) was loaded per injection, and the gradient, which was taken out with a flow rate of 400 \u03bcl/min, was: 1 min 45% A, 3-min linear gradient from 45% A to 35% A, 8-min linear gradient from 25% A to 11% A, 3-min linear gradient from 11% A to 1% A. After washing the column for 3 min with 1% A, the buffer is set back to 45% A and the column is re-equilibrated for 4 min (22-min total run time).</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Giavalisco P, Li Y, Matthes A, Eckhardt A, Hubberten HM, Hesse H, Segu S, Hummel J, K\u00f6hl K, Willmitzer L. Elemental formula annotation of polar and lipophilic metabolites using (13) C, (15) N and (34) S isotope labelling, in combination with high-resolution mass spectrometry. Plant J. 2011 Oct;68(2):364-76. doi:10.1111/j.1365-313X.2011.04682.x. PMID:21699588.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>After extraction, the dried aqueous phase (polar and semipolar metabolites) and the dried organic phase (lipids) was measured using ultra-performance liquid chromatography coupled to a Q-Exactive mass spectrometer (Thermo Fisher Scientific) in positive and negative ionisation modes, as previously described<strong>[1]</strong>. Samples were run in 10 consecutive sets of 50 samples and 1 set of 10 samples.</p><p><br></p><p>Briefly, the spectra were recorded alternating between full-scan and all-ion fragmentation-scan modes, covering a mass range from 100 to 1500 m/z. The resolution was set to 10 000, with 10 scans/s, restricting the loading time to 100 ms. The capillary voltage was set to 3 kV with a sheath gas flow value of 60 and an auxiliary gas flow of 35 (values are in arbitrary units). The capillary temperature was set to 150\u00b0C, whereas the drying gas in the heated electrospray source was set to 350 \u00b0C. The skimmer voltage was set to 25 V, whereas the tube lens was set to a value of 130 V. The spectra were recorded from 1 min to 17 min of the UPLC gradients.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Giavalisco P, Li Y, Matthes A, Eckhardt A, Hubberten HM, Hesse H, Segu S, Hummel J, K\u00f6hl K, Willmitzer L. Elemental formula annotation of polar and lipophilic metabolites using (13) C, (15) N and (34) S isotope labelling, in combination with high-resolution mass spectrometry. Plant J. 2011 Oct;68(2):364-76. doi:10.1111/j.1365-313X.2011.04682.x. PMID:21699588.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chromatograms were processed using Expressionist Refiner MS 12.0 (Genedata AG, Basel, Switzerland) using repetition option. All types of data except Primary MS Centroid Data were removed using Data Sweep. Chemical Noise Subtraction activity was used to remove artifacts caused by chemical contamination. Snapshots of chromatograms were saved for further processing using following settings: chromatogram alignment (RT search interval 0.5 min), peak detection (minimum peak size 0.03 min, gap/peak ratio 50%, smoothing window 5 points, centre computation by intensity-weighted method with intensity threshold at 70%, boundary determination using inflection points), isotope clustering (RT tolerance at 0.02 min, m/z tolerance 5 ppm, allowed charges 1\u20134), removal of the single peaks (not assigned to an isotope cluster), charge and adduct grouping (RT tolerance 0.02 min, m/z tolerance 5 ppm). Raw intensities correspond to peak area.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Polar and semi-polar metabolites:</strong></p><p>In-house library of chemical compounds (standards) was used to identify metabolic features allowing 10 ppm mass deviation and dynamic retention time deviation (maximum 0.2 min). Saponin and ecdysteroid annotation was based on the fragmentation (in-source) behavior of the parent ion characteristic for the positive mode.</p><p><br></p><p><strong>Lipids:</strong></p><p>In-house reference lipid library<strong>[1]</strong> was used to identify metabolic features allowing 10 ppm mass deviation and dynamic retention time deviation (maximum 0.2 min).</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Giavalisco P, Li Y, Matthes A, Eckhardt A, Hubberten HM, Hesse H, Segu S, Hummel J, K\u00f6hl K, Willmitzer L. Elemental formula annotation of polar and lipophilic metabolites using (13) C, (15) N and (34) S isotope labelling, in combination with high-resolution mass spectrometry. Plant J. 2011 Oct;68(2):364-76. doi:10.1111/j.1365-313X.2011.04682.x. PMID:21699588.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS2382_Polar_POS_LC-MS_reverse-phase.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS \u2013 negative - reverse phase",
+                        "filename": "a_MTBLS2382_Polar_NEG_LC-MS_reverse-phase.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS2382_Lipid_POS_LC-MS_reverse-phase.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

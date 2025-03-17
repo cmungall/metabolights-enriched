@@ -1,0 +1,561 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-04-15T00:00:00",
+        "statusUpdateTime": "2020-04-15T09:07:03.190346",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1376",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2019-11-19",
+        "publicReleaseDate": "2020-04-15",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "roleAFRL",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1376",
+                "filename": "s_MTBLS1376.txt",
+                "title": "LipidCreator workbench to probe the lipidomic landscape - Targeted lipidomics analysis of S. cerevisiae to determine true and false identification",
+                "description": "<p>Here we present LipidCreator, a software that fully supports targeted lipidomics assay development. LipidCreator offers a comprehensive framework to compute MS/MS fragment masses for over 60 lipid classes. LipidCreator provides all functionalities needed to define fragments, manage stable isotope labeling, optimize collision energy and generate in silico spectral libraries. We validate LipidCreator assays computationally and analytically and prove that it is capable to generate large targeted experiments to analyze blood and to dissect lipid-signaling pathways such as in human platelets.</p><p><br></p><p>In MTBLS1376, to validate the performance and accuracy of the transition lists provided by LipidCreator, we validated our theoretical calculations and the transition lists computed by LipidCreator experimentally, monitoring true and false targets on the model organism Saccharomyces <em>cerevisiae</em>. The lipidome of the yeast S. <em>cerevisiae</em> is well described and has been thoroughly investigated before. It has a limited number of fatty acyls and double bonds, and certain fatty acyls and lipid classes do not occur in it, which is important for our consecutive false identification calculations. Therefore, the yeast matrix from the theoretical calculation, 21 target lipids and 21 decoy lipids from commercially available lipid standards that are known to not be present in the yeast lipidome were selected. Based on our previous results, none of the lipid species was redundant among all three sets.</p><p><br></p><p>Studies linked to this manuscript include;</p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1333' rel='noopener noreferrer' target='_blank'>MTBLS1333; LipidCreator: Collision Energy Optimization and Fragment Intensity Prediction for Lipid Mediators - Thermo QExactive HF</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1334' rel='noopener noreferrer' target='_blank'>MTBLS1334; LipidCreator: Collision Energy Optimization and Fragment Intensity Prediction for Lipid Mediators - Agilent QTof</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1369' rel='noopener noreferrer' target='_blank'>MTBLS1369; LipidCreator: Platelet isolation and stimulation - Targeted Phospho- and Glycerolipid Profiling</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1375' rel='noopener noreferrer' target='_blank'>MTBLS1375; LipidCreator: Targeted lipidomics analysis of Human Plasma samples and comparison with NIST SRM 1950 standard</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1376' rel='noopener noreferrer' target='_blank'>MTBLS1376; LipidCreator: Targeted lipidomics analysis of S. cerevisiae to determine true and false identification</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1381' rel='noopener noreferrer' target='_blank'>MTBLS1381; LipidCreator: Platelet isolation and stimulation - Targeted Lipid Mediator Profiling</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1382' rel='noopener noreferrer' target='_blank'>MTBLS1382; LipidCreator: Platelet isolation and stimulation - DIA Lipid Mediator Validation</a></p>",
+                "submissionDate": "2019-11-19",
+                "publicReleaseDate": "2020-04-15",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Cristina",
+                        "lastName": "Coman",
+                        "email": "cristina.coman@isas.de",
+                        "affiliation": "Leibniz-Institut f\u00fcr Analytische Wissenschaften \u2013 ISAS \u2013 e.V.",
+                        "address": "ISAS e.V.\nOtto-Hahn-Stra\u00dfe 6b\n44227 Dortmund, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Bing",
+                        "lastName": "Peng",
+                        "email": "bing.peng@isas.de",
+                        "affiliation": "Leibniz-Institut f\u00fcr Analytische Wissenschaften \u2013 ISAS \u2013 e.V.",
+                        "address": "ISAS e.V.\nOtto-Hahn-Stra\u00dfe 6b\n44227 Dortmund, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Nils",
+                        "lastName": "Hoffmann",
+                        "email": "nils.hoffmann@cebitec.uni-bielefeld.de",
+                        "affiliation": "Leibniz-Institut f\u00fcr Analytische Wissenschaften \u2013 ISAS \u2013 e.V.",
+                        "address": "ISAS e.V.\nOtto-Hahn-Stra\u00dfe 6b\n44227 Dortmund, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+4923113924239",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Robert",
+                        "lastName": "Ahrends",
+                        "email": "robert.ahrends@isas.de",
+                        "affiliation": "Leibniz-Institut f\u00fcr Analytische Wissenschaften \u2013 ISAS \u2013 e.V.",
+                        "address": "ISAS e.V.\nOtto-Hahn-Stra\u00dfe 6b\n44227 Dortmund, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+4923113924173",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Dominik",
+                        "lastName": "Kopczynski",
+                        "email": "dominik.kopczynski@isas.de",
+                        "affiliation": "Leibniz-Institut f\u00fcr Analytische Wissenschaften \u2013 ISAS \u2013 e.V.",
+                        "address": "ISAS e.V.\nOtto-Hahn-Stra\u00dfe 6b\n44227 Dortmund, Germany\n",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Christer",
+                        "lastName": "Ejsing",
+                        "email": "cse@bmb.sdu.dk",
+                        "affiliation": "",
+                        "address": "Cell Biology and Biophysics Unit, European Molecular Biology Laboratory, Heidelberg, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "LipidCreator workbench to probe the lipidomic landscape",
+                        "authorList": "Bing Peng, Dominik Kopczynski, Brian S Pratt, Christer S Ejsing, Bo Burla, Martin Hermansson, Peter Imre Benke, Sock Hwee Tan, Mark Y. Chan, Federico Torta, Dominik Schwudke, Sven Meckelmann, Cristina Coman, Oliver J. Schmitz, Brendan MacLean, Oliver Borst, Markus Wenk, Nils Hoffmann, Robert Ahrends",
+                        "pubMedID": "",
+                        "doi": "10.1038/s41467-020-15960-z",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sample type",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Sample type",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1.0",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sample role",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Sample role",
+                            "termSource": {
+                                "comments": [],
+                                "name": "roleAFRL",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.allotrope.org/ontologies/role#AFRL_0000035"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>S. <em>cerevisiae</em> cells isogenic to BY4742 (MAT\u03b1 his3\u03941 leu2\u03940 lys2\u03940 ura3\u03940) were cultured in YPD medium (20 g/l yeast extract, 20 g/l peptone, 10 g/l D-glucose) at 30 \u00b0C to exponential phase. Next, 5 optical density (OD) units of cells were collected, washed with 155 mM NH4HCO3 (pH 8) in water and the cell pellets stored at -80 \u00b0C.</p><p><br></p><p>Control samples used in this study were as follows;</p><p>FM = Combined mix of pooled S. cerevisiae extracts expected to be found in S. cerevisiae</p><p>STD = Lipid mixture prepared from 21 commercial lipid standards that do not exist in S. cerevisiae</p><p>SCHED = Combined mix of pooled S. cerevisiae extracts and lipid mixture that do not exist in S. cerevisiae</p><p><br></p><p>Commercial lipid standards (Avanti, Alabaster, AL, USA), PS 18:0-22:6, PG 18:0-22:6, PE 18:0-22:6, PA 18:0-22:6, PC 18:0-22:6, PA 16:0-22:6, PC 16:0-20:4, PE O 18:1p/20:4, PC O 18:1p/20:4, PC O 18:1p/22:6, PA 18:0-20:4, PC 18:0-20:4, PE 18:0-20:4, PG 18:0-20:4, PI 18:0-20:4, PS 18:0-20:4, ChE 22:0, ChE 17:0, SHexCer 18:1;2/12:0, SM 18:0;2/12:0, CerP 18:0;2/16:0 which are not naturally occurring in S. cerevisiae, were used to prepare a lipid standard mixture (~15 \u00b5M).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For lipid extraction, yeast cells were resuspended in 1 ml 150 mM NH4HCO3 (pH 8) and lysed at 4 \u00b0C with 500 \u00b5m acid-washed glass beads (Sigma) using a Mini-Beadbeater (Biospec) with 4 cycles of 1 min, as described by Ejsing et al. [1]. The cell lysate was further diluted to 0.2 OD units per 200 \u00b5l samples were extracted in a thermomixer with 990 \u00b5l CHCl3/MeOH (17:1, v/v) for 2 h, at 650 rpm. Subsequently, the lipid-containing phase was collected and the remaining aqueous phase was reextracted with 990 \u00b5l CHCl3/MeOH (2:1, v/v) for 2 h. The lower lipid-containing phase was collected, mixed with the first lipid extract and dried under continuous N2 flow. Finally, the dried lipid extracts were dissolved in 40 \u00b5l of IPA/MeOH/CHCl3 (4:2:1, v/v/v) and 5 lipid extracts were pooled together.</p><p><br></p><p>References:</p><p>[1] Ejsing, C.S. et al. Global analysis of the yeast lipidome by quantitative shotgun mass spectrometry. Proceedings of the National Academy of Sciences of the United States of America 106, 2136-2141 (2009).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The previously prepared lipid standard mixture was spiked into the total yeast lipid extract to a final concentration of ~3 \u00b5M. For the reverse-phase liquid chromatography (LC), an UltiMate 3000-system from Thermo Fisher Scientific (Darmstadt, Germany) was employed. The chromatographic separation was performed according to Bird et al. [1] on an Ascentis Express C18 main column (150 mm \u00d7 2.1 mm, 2.7 \u00b5m, Supelco) fitted with a guard cartridge (5 mm \u00d7 2.1 mm, 2.7 \u00b5m, Supelco). The temperatures of the autosampler and the column oven were set at 10 \u00b0C and 45 \u00b0C, respectively. Solvent A was ACN/H2O (3:2, v/v) and solvent B was IPA/ACN (9:1, v/v). Both solvents contained 0.1 % formic acid, and 10 mM ammonium formate. The separation was carried out at a flow rate of 0.26 ml/min with the following 30 min long gradient: 0.0-1.5 min (hold 32 % B), 1.5-4.0 min (32-45 % B), 4.0-5.0 min (45-52 % B), 5.0-8.0 min (52-58 % B), 8.0-11.0 min (58-66 % B), 11.0-14.0 min (66-70 % B), 14.0-18.0 min (70-75 % B), 18.0-21.0 min (75-97 % B), 21.0-25.0 min (97 % B), 25.0-30.0 min (32 % B). Samples were injected with a volume of 5 \u00b5l and analyzed in triplicates.</p><p><br></p><p>References:</p><p>[1] Bird, S.S., Marur, V.R., Sniatynski, M.J., Greenberg, H.K. &amp; Kristal, B.S. Lipidomics profiling by high-resolution LC-MS and high-energy collisional dissociation fragmentation: focus on characterization of mitochondrial cardiolipins and monolysocardiolipins. Analytical chemistry 83, 940-949 (2011).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The LC was coupled to a Q-Exactive HF (QEx HF) mass spectrometer (Thermo Scientific, Bremen, Germany). The following HESI source settings were used: sheath gas 50 arbitrary units, aux gas 15 arbitrary units, spare gas 1 arbitrary units, S-lens RF level 60 arbitrary units, capillary temperature 285 \u00b0C, aux gas heater temperature 370 \u00b0C, spray voltage 4000 V (positive mode), spray voltage 3000 V (negative mode).</p><p><br></p><p>The same HESI source settings were used and the samples were analyzed with a PRM method, in both positive and negative ion mode, respectively. The MS settings were: mass resolution 60,000, AGC target 1 \u00d7 10^6 and maximum injection time of 50 ms for MS1 and, mass resolution 30,000, AGC target 1 \u00d7 10^5, maximum injection time of 100 ms and isolation window of 0.5 m/z for MS2. Mass range was set between 50-2000 m/z for MS1 and MS2 (positive mode) and between 50-2000 m/z for MS1 and MS2 (negative mode). Target inclusion lists corresponding to the 21 (positive mode) and 19 (negative mode) lipid standards were obtained from LipidCreator. Samples were measured in triplicate for both polarities. Additionally, a decoy inclusion list was generated with LipidCreator. 21 random lipids naturally occurring in human platelets, different from the selected standards and not occurring in S. <em>cerevisiae</em> were queried in LipidCreator and analyzed using the described settings.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p> The native MS data was analyzed with Skyline (64-bit, 4.2.0.18305).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Parallel reaction monitoring (PRM) data was analyzed in Skyline and all matching scans were included. The transition list files were imported as downloaded from LipidCreator. Each feature was manually validated in all replicates. A lipid species was defined as being identified if peaks were observed both in the MS1 and MS2 spectra at the same retention time and with a mass error lower than 5 ppm. As the total number of transitions per lipid species is variable, a uniquely identified lipid needed to have at least 75% matching transitions.</p><p><br></p><p>Transition lists and integrated peak tables exported from Skyline, together with an R script to create the MetaboLights maf metabolite tables, are provided in the project directory.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS1376_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS1376_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

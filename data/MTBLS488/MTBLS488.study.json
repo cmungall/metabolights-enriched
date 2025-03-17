@@ -1,0 +1,466 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-07-31T12:37:05.290000",
+        "statusUpdateTime": "2018-07-31T12:37:05.290000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "/Users/beatapomian/Downloads/ISAcreatorMetaboLights/Configurations/MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS488",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-07-13",
+        "publicReleaseDate": "2018-01-23",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS488",
+                "filename": "s_MTBLS488.txt",
+                "title": "Pharmacokinetic and urinary profiling reveals prednisolone/cortisol ratio as a valid biomarker for prednisolone administration",
+                "description": "In Europe, synthetic corticosteroids are not allowed in animal breeding fro growth-promoting purposes. Nevertheless, a high prevalence of non-compliant urine samples was recently reported for prednisolone, however, without any indication of unauthorized use. Within this context, 20b-dihydroprednisolone and the prednisolone/cortisol ratio have been suggested as potential tools to discriminate between exogenous and endogenous urinary prednisolone.</br> In this study, the validity of these strategies was verified by investigating the urinary excretion profiles of relevant glucocorticoids in bovines, subjected to either 1) exogenous prednisolone treatment per os (PO), 2) exogenous prednisolone treatment by intra-muscular injection (IM), 3) tetracosactide hexaacetate (ACTH) to induce endogenous prednisolone formation, and 4) animals at slaughter to simulate natural stress conditions. For treatments the exogenous treatments, both growth-promoting and therapeutic prednisolone doses were considered. Bovine urine samples were analysed by liquid chromatography and mass spectrometry.",
+                "submissionDate": "2017-07-13",
+                "publicReleaseDate": "2018-01-23",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Lieven",
+                        "lastName": "Van Meulebroek",
+                        "email": "lieven.vanmeulenbroek@ugent.be",
+                        "affiliation": "Ghent University",
+                        "address": "Salisburylaan 133, 9820 Merelbeke, Belgium",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+32 9 264 73 16",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "prednisolone",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_8378"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "cortisol",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_17650"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ms level",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "86",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1000511"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Pharmacokinetic and urinary profiling reveals the prednisolone/cortisol ratio as a valid biomarker for prednisolone administration.",
+                        "authorList": "Van Meulebroek L, De Clercq N, Vanden Bussche J, Devreese M, Fichant E, Delahaut P, Croubels S, Vanhaecke L.",
+                        "pubMedID": "28806969",
+                        "doi": "10.1186/s12917-017-1158-5",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "12 clinically healthy cows of a mixed breed were housed under controlled experimental conditions at the animal facilities of Centre d\u2019Economie Rurale (CER, Marloie, Belgium). These cows were 2 to 6 years of age and had a body weight between 370 and 600 kg. They were fed a commercial diet, with ad libitum access to water and hay. During the entire study, animals were kept in three separate groups (4 animals per group), all housed in a half-covered pen. Prior to the in vivo study, an initial acclimatization period of 10 days was foreseen, allowing adaptation to the environmental and feeding conditions. This study was approved by CER\u2019s Ethical Committee (CE/Sante/ET/004).\n</p>\nUrine samples were obtained by veterinarian using a probe (to prevent fecal contamination) and portioned into 15 ml tubes, which were stored in the dark at -80 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "In brief, 5 ml of urine was enriched with the internal standards cortisol-d4 and prednisolone-d8 to reach final concentration of 10 mg/l. Next, a 2-fold liquid-liquid extraction with tert-butyl methyl ether was applied, whereby the organic phases were collected, pooled and dried under a gentle stream of nitrogen at 50 \u00b0C. The residue was then dissolved in 100 ml of initial mobile phase conditions and transferred into an LC- vial.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Analyses were carried out on an U-HPLC system, which consisted of an Accela U-HPLC pump, an Accela Autosampler and Degasser (Thermo Fisher Scientific, San Jos\u00e9, CA, USA). Separation of the glucocorticoids was carried out on a reverse phase Nucleodur C18 Isis U-HPLC column (1.8 m, 100 mm, 2 mm) (Macherey-Nagel, D\u00fcren, Germany) at a column oven temperature of 30 \u00b0C. The elution gradient was carried out with a binary solvent system consisting of 0.1% aqueous formic acid (A) and 0.1% formic acid in acetonitrile (B) at a constant flow rate of 0.3 ml/min. Optimized separation of all analytes was obtained using a linear gradient starting with a solvent mixture (v/v) of 75% A and 25% B, which was held for 4.0 min. The percentage of acetonitrile was increased to 95% in 0.1 min, and further to 100% in 1.4 min and held there for 2.0 min. Between samples, the column was allowed to re-equilibrate at initial conditions for 1.5 min. A 10 l aliquot of each sample was injected for analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "High-resolution mass spectrometric analysis was performed on an Exactive benchtop mass spectrometer (Thermo Fisher Scientific) equipped with a heated electrospray ionization probe (HESI II), operating in both the positive and negative ionization mode. Spray voltage was set at 4 kV, sheath gas flow rate at 75 au, auxiliary gas flow rate at 7 au, sweep gas flow rate at 2 au, capillary temperature at 280 \u00b0C, heater temperature at 300 \u00b0C, capillary voltage at 45 (\u221232) V, tube lens voltage at 95 (\u2212100) V, and skimmer voltage at 16 (\u221220) V. The mass resolution was set at 100,000 FWHM at 1 Hz and a scan range of m/z 150\u2013800 was chosen. The automatic gain control (AGC) target was set at balanced (1 x e^6 ions) and the High-Energy Collision Dissociation (HCD) cell was turned off.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data was proccessed with Xcalibur Software 2.1(Thermo Fisher Scientific).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The Thermo Scientific Xcalibur software package was used for targeted peak picking, whereby identification was based on m/z and retention time as determined based on authentic reference standards.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS488_bovine_urine_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

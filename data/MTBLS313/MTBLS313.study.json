@@ -1,0 +1,480 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-07-06T15:49:50.976000",
+        "statusUpdateTime": "2017-07-06T15:49:50.976000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS313",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2016-02-01",
+        "publicReleaseDate": "2017-04-10",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS313",
+                "filename": "s_MTBLS313.txt",
+                "title": "FDR-controlled metabolite annotation for high-resolution imaging mass spectrometry imaging MS (MALDI imaging assay)",
+                "description": "High-mass-resolution imaging mass spectrometry promises to localize hundreds of metabolites directly from tissues, cell cultures, and agar plates with cellular resolution, but is hampered by the lack of bioinformatics for automated metabolite identification. We developed the first bioinformatics framework for False Discovery Rate (FDR)-controlled metabolite annotation for high-mass-resolution imaging mass spectrometry (https://github.com/alexandrovteam/pySM) introducing a Metabolite-Signal Match (MSM) score and a target-decoy FDR-estimate for spatial metabolomics. MALDI-FTICR datasets acquired from wild type adult mouse brain were used for the development of spatial metabolomics annotation bioinformatics. This study together with MTBLS317 and MTBLS378 provide the accompanying data for FDR-controlled metabolite annotation for high-resolution imaging mass spectrometry.",
+                "submissionDate": "2016-02-01",
+                "publicReleaseDate": "2017-04-10",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Andrew",
+                        "lastName": "Palmer",
+                        "email": "palmer@embl.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Theodore",
+                        "lastName": "Alexandrov",
+                        "email": "theodore.alexandrov@embl.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Spatial metabolomics",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Metabolite-Signal Match (MSM) score",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "False Discovery Rate",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64214"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "matrix-assisted laser desorption-ionisation imaging mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000054"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "FDR-controlled metabolite annotation for high-resolution imaging mass spectrometry.",
+                        "authorList": "Palmer A, Phapale P, Chernyavsky I, Lavigne R, Fay D, Tarasov A, Kovalev V, Fuchser J, Nikolenko S, Pineau C, Becker M, Alexandrov T.",
+                        "pubMedID": "27842059",
+                        "doi": "10.1038/nmeth.4072",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "mouse status",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "wild type",
+                            "termSource": {
+                                "comments": [],
+                                "name": "BAO",
+                                "file": "http://data.bioontology.org/ontologies/BAO",
+                                "version": "19",
+                                "description": "BioAssay Ontology"
+                            },
+                            "termAccession": "http://www.bioassayontology.org/bao#BAO_0000089"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample Collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample Collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Two female adult wild-type C57 mice (a1, a2) were obtained from Inserm U1085 - Irset Research Institute (University of Rennes1, France). Animals were age 60 days and were reared under ad-lib conditions. Care and handling of all animals complied with EU directive 2010/63/EU on the protection of animals used for scientific purposes. The whole brain was excised from each animal immediately post-mortem and are loosely wrapped rapidly in an aluminum foil to preserve their morphology and snap-frozen in liquid nitrogen. Frozen tissues were stored at -80 \u00b0C until use to avoid degradation.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For each animal, five coronal 12 \u03bcm-thick brain sections were collected on a cryomicrotome CM3050S (Leica, Wetzlar, Germany) as follows. Three consecutive sections were acquired at the Bregma distance of 1.42 mm (sections s1, s2, s3) and two further sections were acquired at the Bregma distances of -1.46 and -3.88 mm (datasets s4 and s5). The sections were thaw-mounted onto indium tin oxide (ITO) coated glass slides (Bruker Daltonics, Bremen, Germany) and immediately desiccated. Alpha-Cyano-4-hydroxycinnamic acid (HCCA) MALDI-matrix was applied using the ImagePrep matrix deposition device (Bruker Daltonics). The method for matrix deposition was set as described: after an initialization step consisting in between 10-15 cycles with a spray power at 15%, an incubation time of 15 s and a drying time of 65 s, 3 cycles were performed under sensor control with a final voltage difference at 0.07 V, a spray power at 25%, an incubation time of 30 s and a drying time under sensor control at 20% and a safe dry of 10 s; then 6 cycles were performed under sensor control with a final voltage difference at 0.07 V, a spray power at 25%, an incubation time of 30 s and a drying time under sensor control at 20% and a safe dry of 15 s; 9 cycles were performed under sensor control with a final voltage difference at 0.2 V, a spray power at 15%, an incubation time of 30 s and a drying time under sensor control at 20% and a safe dry of 50 s; finally 20 cycles were performed under sensor control with a final voltage difference at 0.6 V (+/- 0.5 V), a spray power at 25%, an incubation time of 30 s and a drying time under sensor control at 40% and a safe dry of 30 s.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable\n",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For MALDI-MS measurements the prepared slides were mounted into a slide adapter (Bruker Daltonics) and loaded into the dual source of a 7T FTICR mass spectrometer solariX XR (Bruker Daltonics) equipped with a Paracell, at the resolving power R=130000 at m/z 400. The x-y raster width was set to 50 \u03bcm using smartbeam II laser optics with the laser focus setting \u2018small\u2019 (20-30 \u03bcm). For a pixel, a spectrum was accumulated from 10 laser shots. The laser was running at 1000 Hz and the ions were accumulated externally (hexapole) before being transferred into the ICR cell for a single scan. For animal a1, each spectrum was internally calibrated by one-point correction using a known phospholipid with the ion C42H82NO8P+K+, at the m/z 798.540963. For animal a2, every spectrum was internally calibrated by several point correction using: matrix cluster of HCCA [C20H14N2O6+H+, m/z 379.092462] if present and known phospholipids present in the mouse brain [C40H80NO8P+H+, m/z 734.569432] and [C42H82NO8P+K+, m/z 798.540963]. Data was acquired for the mass range 100 < m/z < 1200 followed by a single zero filling and a sin-apodization. Online feature reduction was performed in the ftmsControl software, version 2.1.0 (Bruker Daltonics) to return only the peak centroids and intensities.\n",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Centroid data was exported into the imzML format by using the SCiLS Lab software, version 2016a (SCiLS, Bremen, Germany). Ion images were generated with the tolerance \u00b12.5 ppm. A hot-spot removal was performed for each image independently by setting the value of 1% highest-intensity pixels to the value of the 99\u2019th percentile followed by an edge-preserving denoising using a median 3 x 3-window filter.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolites were matched by sum formula using the ChEBI and HMDB databases.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "solarix",
+                        "filename": "a_MTBLS313_imagingms_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

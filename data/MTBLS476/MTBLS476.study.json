@@ -1,0 +1,521 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-06-06T16:54:41.504000",
+        "statusUpdateTime": "2019-06-06T16:54:41.504000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "F:160714_SAVE_PC_perso_LAB02224DocumentsArticlesA_Untargeted_Diagnostic_ScreeningISAcreatorMetaboLightsConfigurationsMetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS476",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-06-14",
+        "publicReleaseDate": "2019-06-06",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "SIO",
+                "file": "http://data.bioontology.org/ontologies/SIO",
+                "version": "58",
+                "description": "Semanticscience Integrated Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS476",
+                "filename": "s_MTBLS476.txt",
+                "title": "LC-HRMS Metabolomics for Untargeted Diagnostic Screening in Clinical Laboratories: A Feasibility Study",
+                "description": "Today's high-resolution mass spectrometers (HRMS) allow bioanalysts to perform untargeted/global determinations that can reveal unexpected compounds or concentrations in a patient&rsquo;s sample. This could be performed for preliminary diagnosis attempts when usual diagnostic processes and targeted determinations fail. We have evaluated an untargeted diagnostic screening (UDS) procedure. UDS is a metabolome analysis that compares one sample (e.g., a patient) with control samples (a healthy population). Using liquid chromatography (LC)-HRMS full-scan analysis of human serum extracts and unsupervised data treatment, we have compared individual samples that were spiked with one xenobiotic or a higher level of one endogenous compound with control samples. After the use of different filters that drastically reduced the number of metabolites detected, the spiked compound was eventually revealed in each test sample and ranked. The proposed UDS procedure appears feasible and reliable to reveal unexpected xenobiotics (toxicology) or higher concentrations of endogenous metabolites. HRMS-based untargeted approaches could be useful as preliminary diagnostic screening when canonical processes do not reveal disease etiology nor establish a clear diagnosis and could reduce misdiagnosis. On the other hand, the risk of overdiagnosis of this approach should be reduced with mandatory biomedical interpretation of the patient&rsquo;s UDS results and with confirmatory targeted and quantitative determinations.",
+                "submissionDate": "2017-06-14",
+                "publicReleaseDate": "2019-06-06",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Bertrand",
+                        "lastName": "Rochat",
+                        "email": "bertrand.rochat@chuv.ch",
+                        "affiliation": "CHUV",
+                        "address": "PAF; CIG; UNIL, Lausanne, Switzerland",
+                        "fax": "",
+                        "midInitials": "F",
+                        "phone": "+41213144111",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "medical screening",
+                        "termSource": {
+                            "comments": [],
+                            "name": "SIO",
+                            "file": "http://data.bioontology.org/ontologies/SIO",
+                            "version": "58",
+                            "description": "Semanticscience Integrated Ontology"
+                        },
+                        "termAccession": "http://semanticscience.org/resource/SIO_001023"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Diagnostic Procedure",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C18020"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Toxicology",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17206"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra high performance liquid chromatography",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000795"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "LC-HRMS Metabolomics for Untargeted Diagnostic Screening in Clinical Laboratories: A Feasibility Study.",
+                        "authorList": "Rochat B, Mohamed R, Sottas PE.",
+                        "pubMedID": "29914076",
+                        "doi": "10.3390/metabo8020039",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sample type",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "experimental sample",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "5",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002746"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Human serum samples were prepared from anonymized patients' whole blood withdrawn in collection tubes (Sarstedt Monovettes, Numbrecht, Germany). Endogenous and exogenous compounds were chosen based on their availability in our lab. Environmental chemicals or food additives were not tested, but the UDS procedure can be applied to all compounds as far as they are extracted and ionized by the ion source. Concentrations were chosen to be low, medium, or high corresponding to higher levels of the endogenous levels and to chronic or acute intoxications. Test samples contained one spiked compound only.<br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "200 \u03bcl of serum were extracted by protein precipitation using 3 volumes of methanol and centrifuged at 20,000 x g for 12 min at 4 \u00b0C. Supernatants were transferred, dried under N2 flux, reconstituted with 100 \u03bcl of H2O:acetonitrile solution (v:v, 3:1), and placed in polypropylene injection vials. No internal standards were added in the samples prior to extraction. For the test samples, 2 reconstituted extracts were pooled because of volume constraints and spiked with a pure standard solution containing: (a) methadone, (b) methamphetamine, (c) dextromethorphan, (d) endoxifen (a metabolite of tamoxifen), (e) imatinib, (f) DHEA-S (dehydroepiandrosterone-sulfate), or (g) testosterone with the following final concentrations: (a), (b), and (c) 5 ng/ml; (d) 0.5 and 5 \u03bcg/ml; (e) 5 \u03bcg/ml; (f) 1, 5, and 20 \u03bcM; or (g) 17.5, 35, and 70 nM (see Table 1 in the paper associated with this study). In contrast to xenobiotics (a\u2013d), serum extracts contained endogenous levels of DHEA-S (e) and testosterone (f) and, therefore, final concentrations have to take into account both endogenous (unknown) and spiked amounts (e.g., DHEA-S = [endogen.] + 5 \u03bcM).<br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The injection volume was 10 \u03bcl. The chromatographic system consisted of an LC pump (Rheos-Allegro, Flux, Basel, Switzerland), an autosampler (CTC Analytics AG, Zwingen, Switzerland) maintaining injection vials at 10 \u00b0C, and a Q-Exactive Focus HRMS (Thermo, Waltham, MA, USA) controlled by Xcalibur (Thermo, Waltham, MA, USA). Extracts were injected onto BEH C18 guard and analytical columns (Waters, Milford, MA, USA), 10 and 30 mm x 2.1 mm (L x i.d.) with 1.7 \u00b5m part. size. The mobile phase was composed of MS grade (A) water and (B) acetonitrile, both with 0.1% FA and delivered at 0.6 ml/min. The stepwise gradient was delivered as follows: 0\u20130.5 min, 95% of phase A; 0.5\u201310 min, 95\u20135% of phase A; 10\u201312 min, 5\u20132% of phase A; and 12\u201315 min, 95% of phase A for a 15 min total run time.<br><br>The metabolome of 1 test sample (containing the spiked molecule and considered as the patient's sample) was compared with healthy metabolomes of the control group. Test samples were injected in triplicate (N = 3) and compared with 2 types of control samples: (1) a pool sample (Pool) prepared from 25 different individuals and injected in triplicate (N = 3) or (2) 95 unpooled samples (N95) prepared from 95 different individuals and injected once each (N = 95; 95 single injections) (see Fig. 2 in the paper associated with this study). Control samples were injected between each test sample. Memory effect was verified with blank samples and remained below ~2%.<br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Mass spectrometry data was collected on a Q-Exactive Focus HRMS (Thermo, Waltham, MA, USA). The ion source was a heated electrospray source (H-ESI type II) performing in positive or negative mode with sheath and auxiliary gas flow set at 35 and 25 arb. units, spray voltage set at 3200 V, and auxiliary gas and capillary temperatures set at 320 \u00b0C and 400 \u00b0C, respectively. HRMS full scans were acquired from m/z 60\u2013900 Da in profile mode for the first 13 min (mean acquisition rate, measured on the complete run, was 2.7 scans/s). The automatic gain control and mass resolution were set at 1 x 10^6 ions and 70,000 (m/z = 200), respectively. LC-HRMS analyses were performed with external mass calibration that was performed once a week and prior to this analysis.<br><br>60 h of analysis were performed in negative and positive mode as follows: 48 h corresponding to the N95 control samples, followed by ~12 h of, alternatively, the control Pool and test samples.<br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "HRMS full-scan data were treated with Progenesis QI metabolomics software (version in 2014, Nonlinear Dynamics, Newcastle, UK) for untargeted data treatment and with Xcalibur (Thermo, USA) for targeted determinations. Extracted-ion chromatograms, XIC, were constructed using Xcalibur and used a mass-extraction window set at \u00b110 ppm, centered on the theoretical m/z (m/ztheor) or, for unknown ions, on measured m/z (m/zmeas). Metabolite LC-HRMS peak areas found with Progenesis or Xcalibur were compared. Raw files were imported from Xcalibur to Progenesis software with a filter strength set at 1.0 (default value). Then, features were automatically (1) aligned, (2). picked with 'default' Progenesis detection settings and peak widths set at \u22650.04 min, (3) Normalized, and (4) grouped (deconvolution) based on the following adducts: +[H2O+H+]+, +[H+]+, +[2H+]2+, +[NH4+]+, +[Na+]+, and +[K+]+ or \u2212[H+]\u2212, \u2212[H2O-H+]\u2212, \u2212[2H+]2\u2212 for positive or negative mode. Positive or negative data were treated separately. Raw peak areas were normalized by the sum of all feature peak areas following one classical Progenesis procedure. For each sample, peak alignment and area normalization were verified by looking at their associated Progenesis values. Progenesis software compared a test sample (triplicate injections) with Pool or N95 control samples (triplicate or simplicate injections, respectively). Thus, the Progenesis study design compared 3 versus 3 or 3 versus 95 samples (see see Fig. 2 from the paper associated with this study). See Fig. S1 from the paper associated with this study, for a comprehensive data processing representation.<br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The last remaining features were putatively identified by matching m/zmeas with reference entries in the Human Metabolome Database (HMDB, www.hmdb.ca,[1]). Only specific adducts (see Section 2.3 Data Representation and Data Treatment in the paper associated with this study) with a mass accuracy of \u2264\u00b15 ppm were allowed to return possible compounds. Therefore, only known-unknown metabolites from a 'small size' database, HMDB, were considered (&lt;0.5 x 10^6 entries like Metlin or KEGG databases[2][3]). Big databases (&gt;50 x 10^6 entries), such as ChemSpider, PubChem, CAS registry, etc.[4-6], were not considered here because most compounds registered in these big databases have an extremely low probability to be found in human plasma[7]. Identification confidence of the putatively identified known-unknown metabolites was evaluated based on a recent publication that proposes the use of an identification (ID) confidence scale and ID score[7]. These ID scores are based on a relative retention time or not, and the collection of ID points from various criteria such as mass accuracy, relative isotopic abundance, fragment ions, fine isotopic distribution, etc.[7].<br><br>Ref:<br>[1] Wishart DS, Jewison T, Guo AC, Wilson M, Knox C, Liu Y, Djoumbou Y, Mandal R, Aziat F, Dong E, Bouatra S, Sinelnikov I, Arndt D, Xia J, Liu P, Yallou F, Bjorndahl T, Perez-Pineiro R, Eisner R, Allen F, Neveu V, Greiner R, Scalbert A. HMDB 3.0--The Human Metabolome Database in 2013. Nucleic Acids Res. 2013 Jan;41(Database issue):D801-7. doi:10.1093/nar/gks1065. PMID:23161693<br>[2] Smith CA, O'Maille G, Want EJ, Qin C, Trauger SA, Brandon TR, Custodio DE, Abagyan R, Siuzdak G. METLIN: a metabolite mass spectral database. Ther Drug Monit. 2005 Dec;27(6):747-51. PMID:16404815<br>[3] Kanehisa M, Goto S, Hattori M, Aoki-Kinoshita KF, Itoh M, Kawashima S, Katayama T, Araki M, Hirakawa M. From genomics to chemical genomics: new developments in KEGG. Nucleic Acids Res. 2006 Jan 1;34(Database issue):D354-7. doi:10.1093/nar/gkj102. PMID:16381885<br>[4] Kelly R, Kidd R. Editorial: ChemSpider\u2014A tool for Natural Products research. Nat. Prod. Rep. 2015, 32, 1163\u20131164. doi:10.1039/C5NP90022K.<br>[5] Little JL, Cleven CD, Brown SD. Identification of 'known unknowns' utilizing accurate mass data and chemical abstracts service databases. J Am Soc Mass Spectrom. 2011 Feb;22(2):348-59. doi:10.1007/s13361-010-0034-3. PMID:21472594<br>[6] Kim S, Thiessen PA, Bolton EE, Chen J, Fu G, Gindulyte A, Han L, He J, He S, Shoemaker BA, Wang J, Yu B, Zhang J, Bryant SH. PubChem Substance and Compound databases. Nucleic Acids Res. 2016 Jan 4;44(D1):D1202-13. doi:10.1093/nar/gkv951. PMID:26400175<br>[7] Rochat B. Proposed Confidence Scale and ID Score in the Identification of Known-Unknown Compounds Using High Resolution MS Data. J Am Soc Mass Spectrom. 2017 Apr;28(4):709-723. doi:10.1007/s13361-016-1556-0. PMID:28116700<br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS476_POS_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS476_NEG_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

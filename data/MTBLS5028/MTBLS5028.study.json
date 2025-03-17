@@ -1,0 +1,583 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-08-21T00:00:00",
+        "statusUpdateTime": "2023-08-21T08:59:52.660522",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS5028",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2022-06-09",
+        "publicReleaseDate": "2023-08-21",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CLO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS5028",
+                "filename": "s_MTBLS5028.txt",
+                "title": "Single-cell metabolic fingerprints discover a cluster of circulating tumor cells with distinct metastatic potential",
+                "description": "<p>Circulating tumor cells (CTCs) are recognized as direct seeds of metastasis. However, CTC count may not be the 'best' indicator of metastatic risk because their heterogeneity is generally neglected. In this study, we develop a molecular typing system to predict colorectal cancer metastasis potential based on the metabolic fingerprints of single CTCs. After identification of the metabolites potentially related to metastasis using mass spectrometry-based untargeted metabolomics, setup of a home-built single-cell quantitative mass spectrometric platform for target metabolite analysis in individual CTCs and use of a machine learning method composed of non-negative matrix factorization and logistic regression, CTCs are divided into two subgroups, C1 and C2, based on a 4-metabolite fingerprint. Both <em>in vitro</em> and <em>in vivo</em> experiments demonstrate that CTC count in C2 subgroup is closely associated with metastasis incidence. This is an interesting report on the presence of a specific population of CTCs with distinct metastatic potential at the single-cell metabolite level. </p>",
+                "submissionDate": "2022-06-09",
+                "publicReleaseDate": "2023-08-21",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Zhang",
+                        "lastName": "Wenjun",
+                        "email": "zwj941027369@163.com",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "first author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002034"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "single cell metabolomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Circulating Tumor Cell",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C63797"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "metastasis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0009708"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Single-cell metabolic fingerprints discover a cluster of circulating tumor cells with distinct metastatic potential",
+                        "authorList": "Wenjun Zhang, Feifei Xu, Jiang Yao, Changfei Mao, Mingchen Zhu, Moting Qian, Jun Hu, Huilin Zhong, Junsheng Zhou, Xiaoyu Shi & Yun Chen",
+                        "pubMedID": "37120634",
+                        "doi": "10.1038/s41467-023-38009-3",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Cell line",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "cell line",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CLO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CLO_0000031"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Metastatic ability",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Metastatic ability",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1",
+                                "description": "Metabolights Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Two pairs of <strong>human colorectal cancer cell lines</strong> with different metastatic abilities (<strong>SW480</strong> vs <strong>SW620</strong>, <strong>HT-29</strong> vs <strong>COLO-205</strong>) were used to screen differential metabolites.</p><p><br></p><p>Briefly, 2 h before metabolite extraction, the cell culture medium was replaced with fresh medium. After discarding the medium in each culture dish, the cells were quickly rinsed twice with cold isotonic saline (0.9% NaCl [w/v], 4 \u00b0C). Water (1.5 mL) was added to each dish, and then the dishes were stored in a freezer (-80 \u00b0C) for 20 min before extraction. The cells were completely collected with a cell scraper.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A fraction of the&nbsp;cell lysate (20\u2009\u03bcL) was subjected to bicinchoninic acid (BCA) protein assay, and the remaining cell lysate was extracted by the addition of 4.5\u2009mL of methanol containing 3\u2009\u03bcg of internal standard (acetaminophen). The cell lysate in each dish was transferred to an Eppendorf tube, vigorously vortexed for 5\u2009min, and then centrifuged at 10,000 x\u2009g for 10\u2009min at 4\u2009\u00b0C. The supernatant was transferred to another tube and evaporated to dryness in a refrigerated CentriVap benchtop vacuum concentrator (Labconco Corporation, Kansas, USA). The&nbsp;residue was reconstituted with methanol:water (75:25) and centrifuged twice at 12,000 x\u2009g for 15\u2009min at 4\u2009\u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The metabolomic analysis was performed by ultra-performance liquid chromatography-tandem high-resolution mass spectrometry (UPLC-HRMS). Chromatographic separation of the metabolites was carried out on a UPLC Ultimate 3000 system (Dionex, Germering, Germany) equipped with a Phenomenex Kinetex C18 column (2.1\u2009mm x 100\u2009mm, 2.6\u2009\u03bcm, 100\u2009\u00c5). Water (A) and acetonitrile (B), both containing 0.1% formic acid (v/v), were used as the mobile phases. Under a flow rate of 0.4\u2009mL/min, the cellular metabolites were eluted with a gradient program as follows: 10% B (0 min); 30% B (1 min); 95% B (19 min); 95% B (20 min). The column oven temperature was maintained at 40 \u00b0C, and all samples were maintained at 4 \u00b0C during the whole analysis. All samples were analyzed in a randomized fashion to avoid complications of the injection order. Pooled samples were used as quality control sample (QC) covering the whole analytical process. QC sample was injected every 5th cellular sample followed by a blank (i.e., sample preparation protocol applied to a water sample).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A Q-Exactive mass spectrometer (Thermo Fisher Scientific, Bremen, Germany) equipped with an electron spray ionization source was used for MS detection, and both positive and negative ion modes were employed. MS parameters were set as follows: spray voltage, +3.5 kV (positive) / -2.5 kV (negative); capillary temperature, 300 \u00b0C; aux gas flow rate (arb), 13. Vacuum was typically below 5 x\u200910^-10 mbar. A full mass scan (67-1000 m/z) used a resolution of 70,000 with an automatic gain control (AGC) target of 1 x 10^6 ions and a maximum ion injection time of 100 ms. <strong>Data-dependent acquisition</strong> (<strong>DDA</strong>) MS/MS was acquired in the 'Top10'. For the product ion scan type, the resolution was set at 17,500, the automatic gain control target was 1 x 10^5 ions, and the maximum ion injection time was 50 ms. The eligible precursor ions were fragmented between 15 and 45 normalized collision energies (NCEs) in increments of 15. All operations and acquisitions were controlled by <strong>Xcalibur</strong> 2.0.7 (Thermo Fisher Scientific, Bremen, Germany).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>UPLC-HRMS data were analyzed using <strong>MS-DIAL</strong> software after conversion to .<strong>mzML</strong> file format using <strong>MSConvert</strong> (version 3.0, <strong>ProteoWizard</strong>). The raw data obtained from UPLC-HRMS were processed using <strong>MS-DIAL</strong> v4.80 software<strong>[1]</strong>. Pretreatment procedures were performed, including peak finding, alignment, filtering and normalization. More specifically, the peaks that exceeded 10,000 in height were automatically extracted and aligned across the samples. The peaks detected in less than 80% of samples in all groups<strong>[2]</strong> or that had a maximum intensity of less than 3-fold signal-to-noise were removed. The noise threshold was estimated by using the average signal across all blank runs. The ion intensities were normalized by protein amount, internal standard acetaminophen (m/z 150.0548 for negative ion mode, m/z 152.0701 for positive ion mode) and quality controls<strong>[3]</strong>. The resulting data could be converted to a matrix, which mainly includes the sample name, m/z and adduct type, and normalized ion intensity. We also imputed the missing values with the 1/10 minimum area value of peaks.</p><p><br></p><p>We applied PCA with <strong>SIMCA</strong> 14.1 software (Umetrics, Umea, Sweden) to evaluate the overall distribution of data and check the run quality. Further OPLS-DA with <strong>SIMCA</strong> 14.1 software was utilized to identify the metabolites that were significantly different in two pairs of colorectal cancer cell lines (SW480 vs. SW620 and HT-29 vs. COLO 205). The Log2 fold change (Log2FC) and p were subsequently determined on the acquired metabolomic data, and the metabolic features with |Log2FC| &gt;\u20091.0, p\u2009&lt;\u20090.05, and variable importance in projection (VIP) value &gt; 1 were considered significant. The intersection of the identified metabolites with significantly differential abundance obtained from the two pairs of cell lines was selected. We then utilized <strong>MetaboAnalyst</strong> (<a href='https://www.metaboanalyst.ca/' rel='noopener noreferrer' target='_blank'>https://www.metaboanalyst.ca/</a>) to perform <strong>KEGG</strong> pathway analysis and <strong>MSEA</strong> on the selected metabolites<strong>[4]</strong>. The corresponding figures were visualized by the <strong>R</strong> programming language (<strong>R</strong> version 4.0.3).</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Tsugawa H, Cajka T, Kind T, Ma Y, Higgins B, Ikeda K, Kanazawa M, VanderGheynst J, Fiehn O, Arita M. MS-DIAL: data-independent MS/MS deconvolution for comprehensive metabolome analysis. Nat Methods. 2015 Jun;12(6):523-6. doi:10.1038/nmeth.3393. Epub 2015 May 4. PMID:25938372.</p><p><strong>[2]</strong> Yang J, Zhao X, Lu X, Lin X, Xu G. A data preprocessing strategy for metabolomics to reduce the mask effect in data analysis. Front Mol Biosci. 2015 Feb 2;2:4. doi:10.3389/fmolb.2015.00004. PMID:25988172.</p><p><strong>[3]</strong> Want EJ, Wilson ID, Gika H, Theodoridis G, Plumb RS, Shockcor J, Holmes E, Nicholson JK. Global metabolic profiling procedures for urine using UPLC-MS. Nat Protoc. 2010 Jun;5(6):1005-18. doi:10.1038/nprot.2010.50. PMID:20448546.</p><p><strong>[4]</strong> Chong J, Soufan O, Li C, Caraus I, Li S, Bourque G, Wishart DS, Xia J. MetaboAnalyst 4.0: towards more transparent and integrative metabolomics analysis. Nucleic Acids Res. 2018 Jul 2;46(W1):W486-W494. doi:10.1093/nar/gky310. PMID:29762782.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Molecular identification of the significantly changed metabolites was achieved by comparing the MS/MS fragmentation spectra of metabolic features against <strong>MS-DIAL</strong> internal database or matching the retention time and MS accurate mass of features to metabolite standards.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS5028_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS5028_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,584 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-07-24T00:00:00",
+        "statusUpdateTime": "2023-07-24T12:02:08.201844",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS7808",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2023-05-07",
+        "publicReleaseDate": "2023-07-24",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS7808",
+                "filename": "s_MTBLS7808.txt",
+                "title": "Mechanisms of hepatic steatosis in chickens: integrated analysis of the host genome, molecular phenomes and gut microbiome",
+                "description": "<p>Hepatic steatosis is the initial manifestation of abnormal liver functions and often leads to liver diseases such as non-alcoholic fatty liver disease in humans and fatty liver syndrome in animals. In this study, we conducted a comprehensive analysis of a large chicken population consisting of 705 adult hens by combining host genome resequencing, liver transcriptome, proteome and metabolome analysis, as well as microbial 16S rRNA gene sequencing of each gut segment. The results showed the heritability (h2 = 0.25) and duodenal microbiability (m2 = 0.26) of hepatic steatosis were relatively high, indicating a large effect of host genetics and duodenal microbiota on chicken hepatic steatosis. Individuals with hepatic steatosis had low microbiota diversity and a decreased genetic potential to process triglyceride output from hepatocytes, fatty acid \u03b2-oxidation activity and resistance to fatty acid peroxidation. Furthermore, we revealed a molecular network linking host genomic variants (GGA6: 5.59-5.69 Mb), hepatic gene/protein expression (PEMT, phosphatidyl-ethanolamine N-methyltransferase), metabolite abundances (folate, S-adenosylmethionine, homocysteine, phosphatidyl-ethanolamine and phosphatidylcholine) and duodenal microbes (genus Lactobacillus) to hepatic steatosis, which could provide new insights into the regulatory mechanism of fatty liver development.</p>",
+                "submissionDate": "2023-05-07",
+                "publicReleaseDate": "2023-07-24",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Congjiao",
+                        "lastName": "Sun",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "C",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Chicken",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C14193"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "liver disease",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001421"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "MetWare",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "16s ribosomal gene sequencing assay",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OBI",
+                            "file": "http://data.bioontology.org/ontologies/OBI",
+                            "version": "29",
+                            "description": "Ontology for Biomedical Investigations"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0002763"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Intestinal Flora",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C93019"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Mechanisms of hepatic steatosis in chickens: integrated analysis of the host genome, molecular phenomics and gut microbiome.",
+                        "authorList": "Sun C, Lan F, Zhou Q, Guo X, Jin J, Wen C, Guo Y, Hou Z, Zheng J, Wu G, Li G, Yan Y, Li J, Ma Q, Yang N.",
+                        "pubMedID": "38837944",
+                        "doi": "10.1093/gigascience/giae023",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Hepatic steatosis",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Hepatic Steatosis",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C150596"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The experimental cohorts used in this study comprised a total of 705 hens from a pedigreed line of Rhode Island Red in Beijing Huadu Yukou Poultry Breeding Co., Ltd (China). Birds were generated from 2 hatches and reared in individual cages under similar conditions. These birds were fed a basic diet and provided with free access to feed and water. No antibiotics were administered to the hens in our study. At 90 weeks of age, body weight was measured using an electronic scale to the nearest 5 g. Blood samples were collected from the wing vein and stored at -20 \u00b0C. Plasma was separated by centrifugation at 3000 x g for 15 min and stored at -20 \u00b0C until use. Fecal samples were manually collected from the rectum with sterile cotton swabs. Each bird was then euthanized by cervical dislocation followed by decapitation. The contents of the duodenum, jejunum, ileum and cecum, including the chyme and mucosa, were immediately collected after opening the abdomen. All intestinal samples were dispensed into 2 mL tubes, snap frozen in liquid nitrogen and stored at -80 \u00b0C.</p><p><br></p><p>The weights of the liver and abdominal fat tissue surrounding the gizzard, cloaca and adjacent abdominal muscles were to the nearest 1 g with the electronic scale. Subsequently, some the liver tissue sample was frozen in liquid nitrogen and stored at -80 \u00b0C immediately after collection for genomic DNA, tissue RNA, protein and metabolite extraction. Some of the liver was placed in a sterile plastic bag on dry ice using forceps and stored at -20 \u00b0C to measure biochemical indicators. The remaining liver sample was fixed in formalin for 48-72 h for histological observation.</p><p><br></p><p>Liver histology was assessed in liver sections embedded in paraffin and stained with hematoxylin and eosin (H&amp;E) using standard techniques. Whole section images of each liver sample were obtained using a Canon EOS 7D digital camera (Canon, Tokyo, Japan) and quantified using Image J (ver 1.8.0, National Institutes of Health, Bethesda, MD, USA). The investigators were blind to the group allocations. Therefore, a veterinary science pathologist performed the hepatic steatosis assessment using the NASH Clinical Research Network Scoring System in humans. All liver samples were graded from A to C, representing healthy individuals, and mild-moderate and severe hepatic steatosis. For extremely typical individuals that could represent each group, metabolome profiling was performed.</p><p><br></p><p>All experiments involving animals were conducted according to the ethical policies and procedures approved by the Institutional Animal Care and Use Committee of China Agricultural University, China (Issue No.32303202-1-1).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Livers were thawed in a 50 \u03bcL ice-cold mixture (methanol:water, 7:3, v/v) and homogenized after adding a 150 \u03bcL solution (methanol:water, 7:3, v/v) containing internal standard. Placed the sample on ice for 15 min, and centrifuged it at 12,000 rpm for 10 min (4 \u00b0C). The collected supernatant was placed in -20 \u00b0C for 30 min and then centrifuged at 12,000 rpm for 3 min (4 \u00b0C), followed by transferring about 120 \u03bcL aliquots of supernatant.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>RPLC:</strong></p><p>T3 UPLC conditions were as follows: sample extracts were analyzed using an LC-ESI-MS/MS system (UPLC, ExionLC AD, https://sciex.com.cn/; MS, QTRAP system,&nbsp;https://sciex.com/). The analytical conditions were as follows (UPLC): column, Waters ACQUITY UPLC HSS T3 C18 (1.8 \u00b5m, 2.1 mm x 100 mm); column temperature, 40 \u00b0C; flow rate, 0.4 mL/min; injection volume, 2 \u03bcL; solvent system, water (0.1% formic acid):acetonitrile (0.1% formic acid); gradient program, 95:5 v/v at 0 min, 10:90 v/v at 11.0 min, 10:90 v/v at 12.0 min, 95:5 v/v at 12.1 min, 95:5 v/v at 14.0 min.</p><p><br></p><p><strong>HILIC:</strong></p><p>Amide UPLC conditions were as follows: sample extracts were analyzed using an LC-ESI-MS/MS system (UPLC, ExionLC AD, https://sciex.com.cn/; MS, QTRAP system,&nbsp;https://sciex.com/). The analytical conditions were as follows (UPLC): column, Waters ACQUITY UPLC BEH Amide (1.7 \u00b5m, 2.1 mm x 100 mm); column temperature, 40 \u00b0C; flow rate, 0.4 mL/min; injection volume, 2 \u03bcL; solvent system, water (25mM Ammonium formate/0.4% Ammonia):acetonitrile; gradient program, 10:90 v/v at 0 min, 40:60 v/v at 9.0 min, 60:40 v/v at 10.0 min, 60:40 v/v at 11.0 min, 10:90 v/v at 11.1 min, 10:90 v/v at 15.0 min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The same mass spectrometry (MS) parameters were used for RPLC T3 and HILIC Amide analyses. LIT and triple quadrupole (QQQ) scans were acquired in positive and negative ion modes with a triple quadrupole-linear ion trap mass spectrometer (QTRAP), QTRAP LC-MS/MS system, equipped with an ESI Turbo Ion-Spray interface under the control of the Analyst 1.6.3 software (Sciex). The ESI source operation parameters were as follows<strong>[1]</strong>: source temperature, 500 \u00b0C; ion spray voltage (IS), 5500 V (positive) / -4500 V (negative); ion source gas I (GSI), gas II (GSII) and curtain gas (CUR) were set at 55, 60 and 25 psi, respectively; the collision gas (CAD) was high. Instrument tuning and mass calibration were performed with 10 and 100 \u03bcmol/L polypropylene glycol solutions in QQQ and LIT modes, respectively. Multiple reaction monitoring (MRM) mode was used to quantitatively analyze metabolite levels. Specific MRM transitions were monitored for each period based upon the metabolites eluted during that period. That is, the characteristic ions of each substance were selected by the triple quadrupole mass analyzer, and the signal intensities were acquired by the detector.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Chen W, Gong L, Guo Z, Wang W, Zhang H, Liu X, Yu S, Xiong L, Luo J. A novel integrated method for large-scale detection, identification, and quantification of widely targeted metabolites: application in the study of rice metabolomics. Mol Plant. 2013 Nov;6(6):1769-80. doi:10.1093/mp/sst080. Epub 2013 May 23. PMID:23702596.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Analyst 1.6.3 was used for the processing of mass spectra data. Qualitative analyses were conducted based on retention time (RT) values, ion pairs and MS2 spectra for identified metabolites utilizing a self-constructed target standard product database MWDB (metware database). Multiple reaction monitoring (MRM) mode was used to quantitatively analyze metabolite levels. MultiQuant 3.03 was used to open off-machine mass-spectra files for samples, followed by the integration and calibration of chromatographic peaks. Peak area for individual chromatograms corresponds to the relative abundance of that metabolite, with integral peak area values being saved. The relative abundance of all detected metabolites in different samples was assessed based upon RT and peak type for each metabolite, with qualitative and quantitative accuracy being ensured through the calibration of chromatographic peaks for each metabolite. A quality control (QC) sample consisting of a mixture of 10 \u00b5L of each prepared sample was analyzed after every 10 sample acquisitions to ensure that these analyses were repeatable. Coefficient of variation (CV) values for the metabolites present within these QC samples were then calculated, with those metabolites exhibiting a CV &gt; 0.5 in positive or negative ion mode being excluded from this analysis. MetOrigin (http://metorigin.met-bioinformatics.cn/) was used to analyze the origins of these metabolites. Kyoto Encyclopedia of Genes and Genomes (KEGG, https://www.kegg.jp/) was used to evaluate the function of target metabolites.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Qualitative analyses were conducted based on retention time (RT) values, ion pairs and MS2 spectra for identified metabolites utilizing a self-constructed target standard product database MWDB (metware database). Multiple reaction monitoring (MRM) mode was used to quantitatively analyze metabolite levels. A specific set of MRM transitions were monitored for each period according to the metabolites eluted within this period.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - reverse phase",
+                        "filename": "a_MTBLS7808_LC-MS_alternating_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS7808_LC-MS_alternating_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

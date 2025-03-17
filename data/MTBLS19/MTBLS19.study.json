@@ -1,0 +1,516 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2015-12-04T13:50:25",
+        "statusUpdateTime": "2015-12-04T13:50:25",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS19",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2013-06-11",
+        "publicReleaseDate": "2013-06-30",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "25",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS19",
+                "filename": "s_MTBLS19.txt",
+                "title": "LC\u2212MS Based Serum Metabolomics for Identification of Hepatocellular Carcinoma Biomarkers in Egyptian Cohort",
+                "description": "Although hepatocellular carcinoma (HCC) has been subjected to continuous investigation and its symptoms are well-known, early stage diagnosis of this disease remains difficult and the survival rate after diagnosis is typically very low (3\u22125%). Early and accurate detection of metabolic changes in the sera of patients with liver cirrhosis can help improve the prognosis of HCC and lead to a better understanding of its mechanism at the molecular level, thus providing patients with in-time treatment of the disease. In this study, we compared metabolite levels in sera of 40 HCC patients and 49 cirrhosis patients from Egypt by using ultraperformance liquid chromatography coupled with quadrupole time-of-flight mass spectrometer (UPLC-QTOF MS). Following data preprocessing, the most relevant ions in distinguishing HCC cases from cirrhotic controls are selected by statistical methods. Putative metabolite identifications for these ions are obtained through mass-based database search. The identities of some of the putative identifications are verified by comparing their MS/MS fragmentation patterns and retention times with those from authentic compounds. Finally, the serum samples are reanalyzed for quantitation of selected metabolites as candidate biomarkers of HCC. This quantitation was performed using isotope dilution by selected reaction monitoring (SRM) on a triple quadrupole linear ion trap (QqQLIT) coupled to UPLC. Statistical analysis of the UPLC-QTOF data identified 274 monoisotopic ion masses with statistically significant differences in ion intensities between HCC cases and cirrhotic controls. Putative identifications were obtained for 158 ions by mass based search against databases. We verified the identities of selected putative identifications including glycholic acid (GCA), glycodeoxycholic acid (GDCA), 3\u03b2, 6\u03b2-dihydroxy-5\u03b2-cholan-24-oic acid, oleoyl carnitine, and Phe-Phe. SRM-based quantitation confirmed significant differences between HCC and cirrhotic controls in metabolite levels of bile acid metabolites, long chain carnitines and small peptide. Our study provides useful insight into appropriate experimental design and computational methods for serum biomarker discovery using LC\u2212MS/MS based metabolomics. This study has led to the identification of candidate biomarkers with significant changes in metabolite levels between HCC cases and cirrhotic controls. This is the first MS-based metabolic biomarker discovery study on Egyptian subjects that led to the identification of candidate metabolites that discriminate early stage HCC from patients with liver cirrhosis.",
+                "submissionDate": "2013-06-11",
+                "publicReleaseDate": "2013-06-30",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Habtom",
+                        "lastName": "Ressom",
+                        "email": "hwr@georgetown.edu",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "W",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "PI",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "hepatocellular carcinoma",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000182"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "cirrhosis of liver",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001422"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "LC\u2212MS Based Serum Metabolomics for Identification of Hepatocellular Carcinoma Biomarkers in Egyptian Cohort",
+                        "authorList": "Jun Feng Xiao, Rency S. Varghese, Bin Zhou, Mohammad R. Nezami Ranjbar, Yi Zhao, Tsung-Heng Tsai, Cristina Di Poto, Jinlian Wang, David Goerlitz, Yue Luo, Amrita K. Cheema, Naglaa Sarhan, Hanan Soliman, Mahlet G. Tadesse, Dina Hazem Ziada, and Habtom W. Ressom.",
+                        "pubMedID": "23078175",
+                        "doi": "http://dx.doi.org/10.1021/pr300673x",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Batch",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "technical replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002090"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Experiment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "block",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005067"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "After the study protocol has been approved by Tanta University ethical committee, adult patients with HCC or cirrhosis were prospectively recruited from the outpatient clinics and inpatient wards of the Department of Tropical Medicine and Infectious Diseases at Tanta University Hospital, Tanta, Egypt. All participating patients provided informed consent before taking part in the study. Patients were diagnosed to have cirrhosis on the basis of established clinical, laboratory and/or imaging criteria with ultrasound examination. Cases were suspected to have HCC if they had focal lesion in ultrasound examination and/or elevated AFP above 200 ng/ml, but only diagnosed to have HCC based on well-established diagnostic imaging criteria with spiral CT scanning and/or histopathology examination of liver biopsy. Suspected cases who were not confirmed by CT or biopsy were excluded from both groups of this study. A total of 89 participants were included in this study. The participants consist of 40 HCC cases and 49 patients with liver cirrhosis. Through peripheral venepuncture, single blood sample was drawn into 10 mL BD Vacutainer sterile vacuum tubes without the presence of anticoagulant. The blood was immediately centrifuged at 1000 x g for 10 min at room temperature. The serum supernatant was carefully collected and centrifuged at 2500 x g for 10 min at room temperature. After aliquoting, serum was kept frozen at \u221280 \u00b0C until use. Primary tubes and serum aliquots were labeled using anonymous confidential code numbers with no personal identifiers. Identification codes were cross-referenced with clinical information in a pass code protected computer system. Samples were transported in dried ice.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Frozen human serum was thawed at room temperature and 25 \u03bcl of serum was mixed with 1.5 ml of 66% ACN containing two internal standards (debrisquinone, 1 \u03bcg/ml, for positive mode and nitrobenzoic acid, 10 \u03bcg/ml, for negative mode), vortexed and incubated for 10 min on ice. Mixture was then spun at 10 000 x g for 10 min at 4 \u00b0C. Supernatant organic solution was transferred, speed-vacuum-dried at room temperature and reconstituted in 50 \u03bcl of mobile phase (2% ACN containing 0.1% formic acid) ready for injection.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "From each sample, 5 \u03bcl was injected onto a reverse-phase 50 \u00d7 2.1 mm ACQUITY 1.7-\u03bcm C18 column (Waters Corp, Milford, MA) using an ACQUITY UPLC system (Waters) with a gradient mobile phase consisting of 2% ACN in water containing 0.1% formic acid (A) and 2% water in ACN containing 0.1% formic acid (B). Each sample was resolved for 10 min at a flow rate of 0.5 ml/min. The gradient consisted of 100% A for 0.5 min then a ramp of curve 6 to 60% B from 0.5 to 4.0 min, then a ramp of curve 6 to 100% B from 4.0 to 8.0 min, a hold at 100% B until 9.0 min, then a ramp of curve 6 to 100% A from 9.0 to 9.2 min, followed by a hold at 100% A until 10 min.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The column eluent was introduced directly into the mass spectrometer by electrospray. Mass spectrometric analysis was performed on a Q-TOF Premier (Waters) operating in both positive and negative modes. The capillary voltage was set to 3.2 and 3 kV, and the cone voltage of 30 and 20 V, respectively. The desolvation gas flow was set to 800 l/h and the temperature was set to 350 \u00b0C. The cone gas flow was 25 l/h, and the source temperature was 120 \u00b0C. Accurate mass was maintained by introduction of LockSpray interface of sulfadimethoxine (311.0814 [M + H]+ or 309.0658 [M \u2212 H]-) at a concentration of 250 pg/\u03bcl in 50% aqueous ACN and a rate of 150 \u03bcl/min. UPLC-QTOF data were acquired in centroid mode from 50 to 850 mass-to-charge ratio (m/z) in MS scanning using the MassLynx software (Waters).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The raw data were converted into Network Common Data Form (NetCDF) format using the MassLynx software (Waters). We used the XCMS package (Scripps Center for Metabolomics, La Jolla, CA) to preprocess each of the eight UPLC-QTOF MS data sets separately. The first step in XCMS is to detect the peaks. The peak detection algorithm first cuts the UPLC-QTOF data into slices, a fraction of a mass unit wide, and then applies a model peak matched filter on those individual slices over the chromatographic time domain. After detecting peaks in individual samples, the peaks are matched across samples to allow calculation of retention time (RT) deviations and relative ion intensity comparison. This is accomplished using a grouping method that uses kernel density estimation to group peaks in the mass domain. These groups are then used to identify and correct drifts in RT from run to run. Following data preprocessing, ion annotation is conducted to identify derivative ions such as isotopes, adducts, and in-source fragments. This helps group ions that are likely to originate from the same metabolite on the basis of their monoisotopic masses and elution profiles. We used the R-package CAMERA for ion annotation.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For difference detection, in-house developed MATLAB (Natick, MA) and R scripts are used on the basis of ANOVA statistical models. The ion intensities were first logtransformed to satisfy the normality assumption underlying ANOVA models. On the basis of the experimental design, we took advantage of two-way ANOVA models to combine data sets between batches to increase statistical power. In statistical tests the q-values were estimated based on Storey\u2019s pFDR method. A list of monoisotopic ion masses was obtained for the ions selected by the two-way ANOVA model. Ion annotation information was used to convert the m/z values of annotated isotopes/adducts/neutral-loss fragments ions to the corresponding neutral monoisotopic masses before searching them against the databases. Putative identifications of the monoisotopic masses were found using MetaboSearch to search against four databases: the Human Metabolite DataBase (HMDB), Metlin, Madison Metabolomics Consortium Database (MMCD), and LIPID MAPS. The mass tolerance in MetaboSearch was set to 10 ppm. Identities of some of the putative metabolite identifications were verified by comparing their MS/MS fragmentation patterns and RT with those of authentic standard compounds. Quantitation of metabolite candidates was performed using isotope dilution technique by UPLC-SRM-MS/MS analysis on the QTRAP 4000 (AB Sciex) instrument. Because of the high physiochemical similarities between the labeled internal standard and the analyte, degradation during sample preparation, variations in instrumental response, and ion suppression effects in LC\u2212ESI\u2212MS can be compensated. Quantitation of metabolites was achieved by correlating their ratio of MS signals detected by SRM in the calibration curves that we constructed by relating the varying amounts of each analyte to their relative response factors (RRFs) as determined by the ratio of the peak area of the analyte to that of the corresponding isotope-labeled internal standard.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "UPLC Q-TOF Premier (Waters)",
+                        "filename": "a_MTBLS19_pos_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "UPLC Q-TOF Premier (Waters)",
+                        "filename": "a_MTBLS19_neg_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

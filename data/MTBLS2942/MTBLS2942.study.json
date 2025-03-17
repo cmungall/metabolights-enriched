@@ -1,0 +1,756 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2021-08-18T00:00:00",
+        "statusUpdateTime": "2021-08-18T15:18:00.166235",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2942",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-06-14",
+        "publicReleaseDate": "2021-08-18",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "ERO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2942",
+                "filename": "s_MTBLS2942.txt",
+                "title": "Multiomic Approach to Analyze Infant Gut Microbiota: Experimental and Analytical Method Optimization",
+                "description": "<p><strong>BACKGROUND:</strong> The human intestinal microbiome plays a central role in overall health status, especially in early life stages. 16S rRNA amplicon sequencing is used to profile its taxonomic composition; however, multiomic approaches have been proposed as the most accurate methods for study of the complexity of the gut microbiota. In this study, we propose an optimized method for bacterial diversity analysis that we validated and complemented with metabolomics by analyzing fecal samples.</p><p><strong>METHODS:</strong> Forty-eight different analytical combinations regarding (1) 16S rRNA variable region sequencing, (2) a feature selection approach, and (3) taxonomy assignment methods were tested. A total of 18 infant fecal samples grouped depending on the type of feeding were analyzed by the proposed 16S rRNA workflow and by metabolomic analysis.</p><p><strong>RESULTS:</strong> The results showed that the sole use of V4 region sequencing with ASV identification and VSEARCH for taxonomy assignment produced the most accurate results. The application of this workflow showed clear differences between fecal samples according to the type of feeding, which correlated with changes in the fecal metabolic profile.</p><p><strong>CONCLUSION:</strong> A multiomic approach using real fecal samples from 18 infants with different types of feeding demonstrated the effectiveness of the proposed 16S rRNA-amplicon sequencing workflow.</p>",
+                "submissionDate": "2021-06-14",
+                "publicReleaseDate": "2021-08-18",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Nuria",
+                        "lastName": "Canela",
+                        "email": "nuria.canela@eurecat.org",
+                        "affiliation": "Eurecat, Centre Tecnol\u00f2gic de Catalunya, Centre for Omic Sciences (COS)",
+                        "address": "Centre Tecnol\u00f2gic de Nutrici\u00f3 i Salud R+D+I, URV. Avda. Univeristat,1. Reus, Tarragona 43204. Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Coordinating Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51818"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Helena",
+                        "lastName": "Torrell",
+                        "email": "helena.torrell@eurecat.org",
+                        "affiliation": "Eurecat, Centre Tecnol\u00f2gic de Catalunya, Centre for Omic Sciences (COS), Joint Unit Universitat Rovira i Virgili-EURECAT, Unique Scientific and Technical Infrastructures (ICTS)",
+                        "address": "Centre Tecnol\u00f2gic de Nutrici\u00f3 i Salud R+D+I, URV. Avda. Univeristat,. Reus, Tarragina 43204, Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Adri\u00e0",
+                        "lastName": "Cereto-Massagu\u00e9",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Polina",
+                        "lastName": "Kazakova",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Lorena",
+                        "lastName": "Garc\u00eda",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "H\u00e9ctor",
+                        "lastName": "Palacios",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Metagenomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153191"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ion torrent next generation sequencing",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ERO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ERO_0001642"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "microbiome",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004982"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "infant gut",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Multiomic Approach to Analyze Infant Gut Microbiota: Experimental and Analytical Method Optimization",
+                        "authorList": "Torrell Helena, Cereto-Massagu\u00e9 Adri\u00e0, Kazakova Polina, Garc\u00eda Lorena, Palacios H\u00e9ctor, Canela N\u00faria",
+                        "pubMedID": "34356622",
+                        "doi": "10.3390/biom11070999",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Infant Diet",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "diet",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002755"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>To confirm the workflow capacity to describe bacterial diversity in gut microbiota, the optimized procedure was applied to 18 infant fecal samples. The infants were under 6 mth old and exclusively fed milk. The infants were classified depending on the type of feeding (breast feeding, n = 9 or formula feeding, n = 9). Additionally, the fecal metabolic profile was also analyzed through NMR in 15 of the previous 18 fecal samples (breast feeding, n = 9, and formula feeding, n = 6). A multiomic correlation was performed to relate the metabolite changes with gut microbiota differences in composition. Samples were stored at -80 \u00b0C until metagenomic and metabolic analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>No extraction was carried out in this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Fecal samples (50 mg) were homogenized with phosphate-buffered saline (PBS). The homogenates were centrifuged at 15,000 x g for 15 min at 4 \u00b0C. A total of 200 \u00b5L of the supernatants were separated from the pellet and mixed with 400 \u00b5L of D2O phosphate buffer (PBS 0.05 mM, pH 7.4, 99.5% D2O). The mixture was transferred into 5 mm NMR glass tubes for NMR measurement.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>The NMR spectra were measured at a 600.20 MHz frequency while using an Avance III-600 Bruker spectrometer equipped with a 5 mm PABBO BB-1H/D Z-GRD probe. </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>A standard 1H NOESY presaturation pulse sequence (RD-90\u00b0-t1-90\u00b0-tm-90\u00b0-acquire, noesypr1d) was used with water suppression. A recycle delay (RD) of 5.0 s, a mixing time (tm) of 100 ms, an acquisition time of 3.4 s, and a 90\u00b0 pulse of 21.16 \u00b5s were used for all of the samples.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>NMR spectra were processed using <strong>TopSpin</strong> 3.5pl4 software (Bruker Biospin, Conventry, UK).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>An exponential line broadening of 0.3 Hz was applied before Fourier transformation. Metabolite identification was carried out using information from the literature, public databases, and proprietary software (<strong>Chenomx NMR Suite</strong> 8.5, <strong>Human Metabolite DataBase </strong>(<strong>HMDB</strong>), <strong>Biological Magnetic Resonance Data Bank</strong>), and normalization was performed using the PULCON (PULse length-based CONcentration determination) methodology (ERETIC), which is based on the principle of reciprocity. Orthogonal partial least squares-discriminant analysis (OPLS-DA) was performed with <strong>Metaboanalyst</strong> software 5.0 (<a href='https://www.metaboanalyst.ca' rel='noopener noreferrer' target='_blank'>https://www.metaboanalyst.ca</a> - accessed on 23 October 2020). The statistical calculation of the significance of the correlated OPLS-DA metabolites (p &lt; 0.05) was obtained using the website for statistical computation <strong>VassarStats</strong> (<a href='http://www.vassarstats.net' rel='noopener noreferrer' target='_blank'>http://www.vassarstats.net</a> - accessed on 27 October 2020).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Nuclear Magnetic Resonance (NMR)",
+                        "filename": "a_MTBLS2942_NMR___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

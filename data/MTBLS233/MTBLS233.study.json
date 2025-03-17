@@ -1,0 +1,642 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-02-06T10:00:40.365000",
+        "statusUpdateTime": "2017-02-06T10:00:40.365000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS233",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-09-22",
+        "publicReleaseDate": "2016-06-09",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "26",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS233",
+                "filename": "s_MTBLS233.txt",
+                "title": "Improving global feature detectabilities through scan range splitting for untargeted metabolomics by high-performance liquid chromatography-Orbitrap mass spectrometry",
+                "description": "Untargeted metabolomics aims at obtaining quantitative information on the highest possible number of low-molecular biomolecules present in a biological sample. Rather small changes in mass spectrometric spectrum acquisition parameters may have a significant influence on the detectabilities of metabolites in untargeted global-scale studies by means of high-performance liquid chromatography-mass spectrometry (HPLC-MS). Employing whole cell lysates of human renal proximal tubule cells, we present a systematic global-scale study of the influence of mass spectrometric scan parameters on the number and intensity of metabolites detectable in whole cell lysates. Ion transmission and ion collection efficiencies in an Orbitrap-based mass spectrometer generally depend on the m/z range scanned, which, ideally, requires different instrument settings for the respective mass ranges investigated. Therefore, we split a full scan range of m/z 50-1000 relevant for metabolites into two separate segments (m/z 50-200 and m/z 200-1000), allowing an independent tuning of the ion transmission parameters for both mass ranges. Three different implementations, involving either scanning from m/z 50-1000 in a single scan, or scanning from m/z 50-200 and from m/z 200-1000 in two alternating scans, or performing two separate HPLC-MS runs with m/z 50-200 and m/z 200-1000 scan ranges were critically assessed. The most efficient approach in terms of feature number, which forms the basis for statistical analysis, identification, and for generating biological hypotheses, was the separate analysis of two different mass ranges. This lead to an increase in the number of detectable metabolite features, especially in the higher mass range (m/z greater than 400), by 2.5 (negative mode) to 6-fold (positive mode) as compared to analysis involving a single scan range. Application of the method to metabolite extracts prepared from whole cell lysates of human renal proximal tubule epithelial cells initially yielded up to 13,000 \u2013 69,000 detectable features, which were subjected to rigorous background filtering and quality control in order to obtain reliable metabolite features for subsequent differential quantification.",
+                "submissionDate": "2015-09-22",
+                "publicReleaseDate": "2016-06-09",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Christina",
+                        "lastName": "Ranninger",
+                        "email": "christina.ranninger@sbg.ac.at",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Lukas",
+                        "lastName": "Schmidt",
+                        "email": "lukas.schmidt-home@gmx.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "E.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Marc",
+                        "lastName": "Rurik",
+                        "email": "rurik@informatik.uni-tuebingen.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Alice",
+                        "lastName": "Limonciel",
+                        "email": "alice.limonciel@i-med.ac.at",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Paul",
+                        "lastName": "Jennings",
+                        "email": "paul.jennings@i-med.ac.at",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Oliver",
+                        "lastName": "Kohlbacher",
+                        "email": "oliver.kohlbacher@uni-tuebingen.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Christian",
+                        "lastName": "Huber",
+                        "email": "c.huber@sbg.ac.at",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "G.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolomics",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Scan range splitting",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "HPLC-MS",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Improving global feature detectabilities through scan range splitting for untargeted metabolomics by high-performance liquid chromatography-Orbitrap mass spectrometry.",
+                        "authorList": "Ranninger C, Schmidt LE, Rurik M, Limonciel A, Jennings P, Kohlbacher O, Huber CG.",
+                        "pubMedID": "27265900",
+                        "doi": "10.1016/j.aca.2016.05.017",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Time point",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Dose",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Scan range",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "scan",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MS",
+                                "file": "http://data.bioontology.org/ontologies/MS",
+                                "version": "86",
+                                "description": "Mass Spectrometry Ontology"
+                            },
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The human renal proximal tubule cell line RPTEC/TERT1 was obtained from Evercyte GmbH (Vienna, Austria). The RPTEC/TERT1 cells [1] were cultured on 1 \u00b5m PET 24 mm tissue culture inserts for MTX and PTX, and on 0.2 \u00b5m aluminium oxide 25 mm inserts for TCX, and differentiated as previously described [2]. Briefly, cells were grown in a serum-free hormonally-defined medium for epithelial monolayer maturation and CAA exposure. After reaching a stable average trans-epithelial electrical resistance (TEER) of ~ 150 Ohm.cm^2, mature monolayers were exposed to either a high (35 \u00b5M) or low (10 \u00b5M) concentration of CAA or control medium, on both the apical and the basolateral sides [3].\n</p>\nRef:</br>\n[1] Wieser M, Stadler G, Jennings P, Streubel B, Pfaller W, Ambros P, Riedl C, Katinger H, Grillari J, Grillari-Voglauer R. hTERT alone immortalizes epithelial cells of renal proximal tubules without changing their functional characteristics. AAm J Physiol Renal Physiol. 2008 Nov;295(5):F1365-75. doi: 10.1152/ajprenal.90405.2008</br>\n[2] Wilmes A, Limonciel A, Aschauer L, Moenks K, Bielow C, Leonard MO, Hamon J, Carpi D, Ruzek S, Handler A, Schmal O, Herrgen K, Bellwon P, Burek C, Truisi GL, Hewitt P, Di Consiglio E, Testai E, Blaauboer BJ, Guillou C, Huber CG, Lukas A, Pfaller W, Mueller SO, Bois FY, Dekant W, Jennings P. Application of integrated transcriptomic, proteomic and metabolomic profiling for the delineation of mechanisms of drug induced cell stress. J Proteomics. 2013 Feb 21;79:180-94. doi: 10.1016/j.jprot.2012.11.022. </br>\n[3] Aschauer L, Limonciel A, Wilmes A, Stanzel S, Kopp-Schneider A, Hewitt P, Lukas A, Leonard MO, Pfaller W, Jennings P.  Application of RPTEC/TERT1 cells for investigation of repeat dose nephrotoxicity: A transcriptomic study. Toxicol In Vitro. 2015 Dec 25;30(1 Pt A):106-16. doi: 10.1016/j.tiv.2014.10.005. ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The cell culture medium was removed and the cells were washed twice with ice cold PBS (Sigma-Aldrich), followed by an additional very rapid washing step with ammonium bicarbonate (185 mM, 289 mOsm, pH 7.8; Sigma-Aldrich). To preserve metabolites, 750 \u00b5l ice cold methanol containing deutero-alanine (50 \u00b5M) as internal standard were added. Two wells were pooled in an Eppendorf tube, vortexed and sonicated with an in-probe-sonicator from Branson Ultrasonics Corporation (Danbury, CT, USA) for 20 s to fully homogenize the sample. Finally, the cell lysates were centrifuged at 4 \u00b0C at 14000 rpm for 10 min. The supernatant was used for MTX and was stored at -80 \u00b0C until analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "RP-HPLC-separations were performed at an Accela II HPLC system (Thermo Fisher Scientific, Bremen, Germany) with a 100 x 2.1 mm i.d. Hypersil Gold aQ column (Thermo Fisher Scientific) packed with 1.9 \u00b5m particles. Water (A) and acetonitrile (B) each containing 0.10 % (v/v) formic acid were used as eluents. The flow rate was 0.30 ml/min, and gradient elution was carried out as follows: 100% A for 1.5 min followed by a linear gradient to 100% B in 6.5 min and holding for 2 min. In the end a re-equilibration step was performed for 3.0 min at 100% A. The total run time was 13 min. The column temperature was maintained at 30 \u00b0C and 2.7 \u00b5l of sample was injected per run.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "An Exactive Orbitrap mass spectrometer (Thermo Fisher Scientific) equipped with a heated-electrospray ion source operating in the positive or negative ion mode. An ESI heater temperature of 350 \u00b0C was chosen and sheath gas and aux gas flow rates were set to 20 and 5.0 arbitrary units in positive mode and to 35 and 10 in the negative mode, respectively. A sprayer voltage of 3.0 kV was applied and the resolution was set to 50,000. The mass range was split into a low mass range m/z 50-200 and a high mass range m/z 200-1000 and measured in two separate runs. The MS parameters were tuned for each method and polarity separately with selected metabolites. For the low mass range the best intensities were achieved with a capillary voltage of 25 V, tube lens voltage of 70 V, skimmer voltage of 14 V for positive and negative mode with changed polarity. The high mass range measurements were conducted with a capillary voltage of 55 V and -45 V, tube lens voltage of 115 V and -105 V, skimmer voltage of 22 V and -24 V for positive and negative mode respectively.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The raw data was converted to mzML using msconvert. Centroiding, metabolic feature detection and linking were performed using OpenMS. A feature consists of all peaks that belong to the same metabolite with a certain charge state and adduct. Features were identified separately for each sample; matching features are then linked across all samples. Feature intensities were normalized by a pairwise comparison between each sample and the sample with the most features. For each pairwise comparison we computed the average intensity ratio and multiplied all feature intensities in the respective map by the inverse.\n</p>\nStrict feature filtering was carried out using KNIME. The employed filtering removed chemical background (= signals also observed in blank runs), as well as features showing unstable intensity in the quality control samples, which indicated that the corresponding metabolites could not be reliably used for differential quantification.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "No metabolites were identified in this study.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS233_positive_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS233_negative_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

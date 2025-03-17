@@ -1,0 +1,590 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-03-22T21:35:43.559000",
+        "statusUpdateTime": "2017-03-22T21:35:43.559000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS42",
+        "title": "",
+        "description": "",
+        "submissionDate": "2015-09-11",
+        "publicReleaseDate": "2015-09-14",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "103",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "16",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "26",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "GO",
+                "file": "http://data.bioontology.org/ontologies/GO",
+                "version": "1484",
+                "description": "Gene Ontology"
+            },
+            {
+                "comments": [],
+                "name": "XEO",
+                "file": "http://data.bioontology.org/ontologies/XEO",
+                "version": "4",
+                "description": "XEML Environment Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "25",
+                "description": "Ontology for Biomedical Investigations"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS42",
+                "filename": "s_MTBLS42.txt",
+                "title": "Mining for metabolic responses to long-term salt stress: a case study on Arabidopsis thaliana Col-0 (C)",
+                "description": "New metabolic profiling technologies provide data on a wider range of metabolites than traditional targeted approaches. Metabolomic technologies currently facilitate acquisition of multivariate metabolic data using diverse, mostly hyphenated, chromatographic detection systems, such as GC-MS or liquid chromatography coupled to mass spectrometry, Fourier-transformed infrared spectroscopy or NMR-based methods. Analysis of the resulting data can be performed through a combination of non-supervised and supervised statistical methods, such as independent component analysis and analysis of variance, respectively. These methods reduce the complex data sets to information, which is relevant for the discovery of metabolic markers or for hypothesis-driven, pathway-based analysis. Plant responses to salinity involve changes in the activity of genes and proteins, which invariably lead to changes in plant metabolism. Here, we highlight a selection of recent publications in the salt stress field, and use gas chromatography time-of-flight mass spectrometry profiles of polar fractions from the plant models, Arabidopsis thaliana, Lotus japonicus and Oryza sativa to demonstrate the power of metabolite profiling. We present evidence for conserved and divergent metabolic responses among these three species and conclude that a change in the balance between amino acids and organic acids may be a conserved metabolic response of plants to salt stress.",
+                "submissionDate": "2015-09-11",
+                "publicReleaseDate": "2015-09-14",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Diego",
+                        "lastName": "Sanchez",
+                        "email": "",
+                        "affiliation": "Max Planck Institute of Molecular Plant Physiology",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Experimenter",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Joachim",
+                        "lastName": "Kopka",
+                        "email": "kopka@mpimp-golm.mpg.de",
+                        "affiliation": "Max Planck Institute of Molekular Plant Physiology",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "intervention design",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OBI",
+                            "file": "http://data.bioontology.org/ontologies/OBI",
+                            "version": "25",
+                            "description": "Ontology for Biomedical Investigations"
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/OBI/OBI_0000115"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "stimulus or stress design",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OBI",
+                            "file": "http://data.bioontology.org/ontologies/OBI",
+                            "version": "25",
+                            "description": "Ontology for Biomedical Investigations"
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/OBI/OBI_0001396"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "16",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "response to salt stress",
+                        "termSource": {
+                            "comments": [],
+                            "name": "GO",
+                            "file": "http://data.bioontology.org/ontologies/GO",
+                            "version": "1484",
+                            "description": "Gene Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/GO_0009651"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Plant metabolomics reveals conserved and divergent metabolic responses to salinity.",
+                        "authorList": "Sanchez DH, Siahpoosh MR, Roessner U, Udvardi M, Kopka J.",
+                        "pubMedID": "18251862",
+                        "doi": "10.1111/j.1399-3054.2007.00993.x",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Container_after_initiation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "ContainerEnum",
+                            "termSource": {
+                                "comments": [],
+                                "name": "XEO",
+                                "file": "http://data.bioontology.org/ontologies/XEO",
+                                "version": "4",
+                                "description": "XEML Environment Ontology"
+                            },
+                            "termAccession": "http://purl.bioontology.org/ontology/XEO/XEO:00040"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Salt_Quantity_after_initiation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Quantity",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Salt_Quantity_after_04d",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Quantity",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Salt_Quantity_after_08d",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Quantity",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Salt_Quantity_after_12d",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Quantity",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Salt_Quantity_after_16d",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Quantity",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Medium_after_initiation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "media",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000579"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Watering_after_initiation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Watering",
+                            "termSource": {
+                                "comments": [],
+                                "name": "XEO",
+                                "file": "http://data.bioontology.org/ontologies/XEO",
+                                "version": "4",
+                                "description": "XEML Environment Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/XEO_00124"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The metabolic profiling of A. thaliana was obtained from experiments carried out in soil under greenhouse conditions, following a gradual step-wise salt acclimation approach [1]. Seeds of A. thaliana were directly sown in soil, \u201cEinheits-Erde\u201d type 0, using 10 cm pots. Plants were irrigated with half-strength Hoagland\u2019s nutrient solution. Salt treatment was for 20 days and started four days post-imbibition. Four days after imbibition, germinated plants were transplanted to soil and irrigated with the above nutrient solution. Salt treatment started eight days post-imbibition and samples were taken after 24 days. The salt content of the nutrient solution was increased in steps, 10, 25, 50 and 75 NaCl mM. Time of each step was 4 days. A subset of plants was kept at each final salt level until harvest. Details of plant growth and salt acclimation have been reported previously [2].\n</p>\nRef:</br>\n[1] Sanchez et al. personal communication</br>\n[2] E. Zuther, K. I. Koehl and J. Kopka (2007) Comparative metabolome analysis of the salt response in breeding cultivars of rice , Advances in molecular breeding toward drought and salt tolerant crops. Springer-Verlag Berlin, Heidelberg, New York 285-315</br>",
+                        "uri": "http://gmd.mpimp-golm.mpg.de/profile/default.aspx?XemlId=6d1d1929-3edf-4cb2-a134-78d2bc1aa0c2",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For non-targeted metabolite profiling, 60 mg plant tissue was ground with mortar and pestle under liquid nitrogen. Frozen powder was extracted with hot methanol/chloroform and the fraction of polar metabolites prepared by liquid partitioning into water. Chemical derivatization for GC was according to [1].\n</p>\nRef:</br>\n[1] G. G. Desbrosses, J. Kopka and M. K. Udvardi (2005) Lotus japonicus metabolic profiling. Development of gas chromatography-mass spectrometry resources for the study of plant-microbe interactions, Plant Physiology 137: 1302-1318. PMID: 15749991</br>",
+                        "uri": "http://gmd.mpimp-golm.mpg.de/profile/default.aspx?XemlId=6d1d1929-3edf-4cb2-a134-78d2bc1aa0c2",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization 1",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization 2",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Details of GC-EI-TOF-MS based profiling were reported previously [1][2].\n</p>\nSamples were processed using a Factor Four VF-5ms capillary column of dimensions, 30 m length, 0.25 mm i.d., and 0.25 \u00b5m film thickness with a 10 m EZ-guard pre-column (Varian Inc., Lake Forest, CA)) mounted to a Agilent 6890N gas chromatograph (Agilent, B\u00f6blingen, Germany), with split or splitless injection and electronic pressure control.\n</p>\nThe n-alkanes used to calculate are retention time index were as follows: decane, dodecane, pentadecane, octadecane, nonadecane, docosane, octacosane, dotriacontane, hexatriacontane. For additional information on the retention time index calculations see [2].\n</p>\nRef: </br>\n[1] C. Wagner, M. Sefkow and J. Kopka (2003) Construction and application of a mass spectral and retention time index database generated from plant GC/EI-TOF-MS metabolite profiles, Phytochemistry 62: 887-900. PMID:12590116</br>\n[2] Erban A, Schauer N, Fernie AR, Kopka J (2007) Non-supervised construction and application of mass spectral and retention time index libraries from time-of-flight GC-MS metabolite profiles. In W Weckwerth, ed, Metabolomics: Methods and Protocols. Humana Press, Totowa, NJ, pp 19\u201338 http://dx.doi.org/10.1007/978-1-59745-244-1_2</br>",
+                        "uri": "http://gmd.mpimp-golm.mpg.de/profile/default.aspx?XemlId=6d1d1929-3edf-4cb2-a134-78d2bc1aa0c2",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Mass spectrometric data were acquired through a Pegasus III TOF mass spectrometer (LECO Instrumente GmbH, M\u00f6nchengladbach, Germany). Details of GC-EI-TOF-MS based profiling were reported previously [1][2].\n</p>\nRef: </br>\n[1] C. Wagner, M. Sefkow and J. Kopka (2003) Construction and application of a mass spectral and retention time index database generated from plant GC/EI-TOF-MS metabolite profiles, Phytochemistry 62: 887-900. PMID:12590116</br>\n[2] Erban A, Schauer N, Fernie AR, Kopka J (2007) Non-supervised construction and application of mass spectral and retention time index libraries from time-of-flight GC-MS metabolite profiles. In W Weckwerth, ed, Metabolomics: Methods and Protocols. Humana Press, Totowa, NJ, pp 19\u201338 http://dx.doi.org/10.1007/978-1-59745-244-1_2</br>",
+                        "uri": "http://gmd.mpimp-golm.mpg.de/profile/default.aspx?XemlId=6d1d1929-3edf-4cb2-a134-78d2bc1aa0c2",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolites were quantified after mass spectral deconvolution (ChromaTOF software version 1.00, Pegasus driver 1.61, LECO) of at least three mass fragments for each analyte. Peak height representing arbitrary mass spectral ion currents of each mass fragment was normalized using the amount of the sample fresh weight and ribitol for internal standardization of volume variations. Normalized responses and subsequently response ratios were calculated comparing to the global median of all samples as described [1]. Resulting response ratios were log10 transformed prior to statistical analysis. Principal (PCA) and independent (ICA) component analyses were performed through the MetaGenAlyse web service, http://metagenealyse.mpimp-golm.mpg.de. One-way analysis of variance (ANOVA) was calculated by the Multiple Experiment Viewer package, (MEV version 4.0.01, http://www.tm4.org/mev.html).\n</p>\nRef:</br>\n[1] G. G. Desbrosses, J. Kopka and M. K. Udvardi (2005) Lotus japonicus metabolic profiling. Development of gas chromatography-mass spectrometry resources for the study of plant-microbe interactions, Plant Physiology 137: 1302-1318. PMID: 15749991</br>",
+                        "uri": "http://gmd.mpimp-golm.mpg.de/profile/default.aspx?XemlId=6d1d1929-3edf-4cb2-a134-78d2bc1aa0c2",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolites were identified using the NIST05 mass spectral search and comparison software (National Institute of Standards and Technology, Gaithersburg, MD, USA; http://www.nist.gov/srd/mslist.htm) and the mass spectral and retention time index (RI) collection of the Golm Metabolome Database [1][2]. Mass spectral matching was manually supervised and matches accepted with thresholds of match > 650 (with maximum match equal to 1000) and RI deviation < 1.0 %. RIs were calculated form standard additions to each chromatogram of a mixture of C12, C15, C19, C22, C32, C36 n-alkanes.\n</p>\nRef:</br>\n[1] N. Schauer, D. Steinhauser, S. Strelkov, D. Schomburg, G. Allison, T. Moritz, K. Lundgren, U. Roessner-Tunali, M. G. Forbes, L. Willmitzer, A. R. Fernie and J. Kopka (2005) GC-MS libraries for the rapid identification of metabolites in complex biological samples, FEBS Letters 579: 1332-1337. PMID:15733837</br>\n[2] J. Kopka, N. Schauer, S. Krueger, C. Birkemeyer, B. Usadel, E. Bergmueller, P. Doermann, W. Weckwerth, Y. Gibon, M. Stitt, L. Willmitzer, A. R. Fernie and D. Steinhauser (2005) GMD@CSB.DB: the Golm Metabolome Database, Bioinformatics 21: 1635-1638. PMID:15613389</br>",
+                        "uri": "http://gmd.mpimp-golm.mpg.de/profile/default.aspx?XemlId=6d1d1929-3edf-4cb2-a134-78d2bc1aa0c2",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "GC-MS",
+                        "filename": "a_MTBLS42_Mining_for_metabolic_responses_to_long-term_salt_stress_a_case_study_on_Arabidopsis_thaliana_Col-0__C_.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

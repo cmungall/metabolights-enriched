@@ -1,0 +1,480 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-05-09T10:23:16.923000",
+        "statusUpdateTime": "2017-05-09T10:23:16.923000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS168",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-02-21",
+        "publicReleaseDate": "2016-12-16",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "23",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "GEXO",
+                "file": "http://data.bioontology.org/ontologies/GEXO",
+                "version": "3",
+                "description": "Gene Expression Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS168",
+                "filename": "s_MTBLS168.txt",
+                "title": "The metabolic background is a global player in Saccharomyces gene expression epistasis",
+                "description": "The regulation of gene expression in response to nutrient availability is fundamental to the genotype-phenotype relationship. The metabolic-genetic make-up of the cell, as reflected in auxotrophy, is hence likely to be a determinant of gene expression. Here, we address the importance of the metabolic-genetic background by monitoring transcriptome, proteome and metabolome in a repertoire of 16 Saccharomyces cerevisiae laboratory backgrounds, combinatorially perturbed in histidine, leucine, methionine and uracil biosynthesis. The metabolic background affected up to 85% of the coding genome. Suggesting widespread confounding, these transcriptional changes show, on average, 83% overlap between unrelated auxotrophs and 35% with previously published transcriptomes generated for non-metabolic gene knockouts. Background-dependent gene expression correlated with metabolic flux and acted, predominantly through masking or suppression, on 88% of transcriptional interactions epistatically. As a consequence, the deletion of the same metabolic gene in a different background could provoke an entirely different transcriptional response. Propagating to the proteome and scaling up at the metabolome, metabolic background dependencies reveal the prevalence of metabolism-dependent epistasis at all regulatory levels. Urging a fundamental change of the prevailing laboratory practice of using auxotrophs and nutrient supplemented media, these results reveal epistatic intertwining of metabolism with gene expression on the genomic scale.",
+                "submissionDate": "2015-02-21",
+                "publicReleaseDate": "2016-12-16",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Tauqeer",
+                        "lastName": "Alam",
+                        "email": "mta26@cam.ac.uk",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Markus",
+                        "lastName": "Ralser",
+                        "email": "mr559@cam.ac.uk",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "epistasis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "GEXO",
+                            "file": "http://data.bioontology.org/ontologies/GEXO",
+                            "version": "3",
+                            "description": "Gene Expression Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MI_0797"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolism triggers system-wide epistasis on transcriptome, proteome and metabolome",
+                        "authorList": "Mohammad Tauqeer Alam1, Michael M\u00fclleder1, Aleksej Zelezniak2, Pavel Shliaha1,4, Roland Schwarz3, Floriana Capuano1, Jakob Vowinckel1, Elahe Radmanesfahar1, Antje Krueger6, Enrica Calvani1, Steve Michel6, Stefan Christen5, Kiran Raosaheb Patil7, Bernd Timmermann6, Kathryn S Lilley1,4, and Markus Ralser1,2*",
+                        "pubMedID": "27572163",
+                        "doi": "10.1038/nmicrobiol.2015.30",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "OD600",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "optical density measurement",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "5",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002039"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Deletion",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Deletion",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Pre-cultures of the S. cerevisiae strains were prepared in drop-in media (synthetic minimal media supplemented only with the nutrients to complement auxotrophic requirements) and cultured for 12-20 h in a 96-well plate (30 \u00b0C, 250 rpm). Main-cultures were inoculated in fresh synthetic completed media and cultivation, sample collection, quenching and metabolite extraction were performed according to [1]. Specifically, the yeast strains were cultured in 96-well fritted plates (1 strain per two wells) (Nunc, USA) with a 4 mm glass bead in each well for mixing. For quenching a 48-well plate containing 3.6 ml -40\u00b0C quenching solution  (60% methanol, 10 mM NH4-acetate) per well was prepared and put into a vacuum manifold. Mid-exponential cultures were put on top of the 48-well plate and sucked into the quenching solution. The quenched cultures were centrifuged for 5 min at 4000 rpm -9 \u00b0C and the supernatant was discarded. Subsequently, the plate with the cell pellets was transferred into a -50 \u00b0C ethanol bath with dry ice.\n</p>\nRef:</br>\n[1] Ewald JC, Heux S, Zamboni N. High-throughput quantitative metabolomics: workflow for cultivation, quenching, and analysis of yeast in a multiwell format. Anal Chem. 2009 May 1;81(9):3623-9. doi:10.1021/ac900002u. PMID:19320491.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The extraction protocol was adopted from [1]. Specifically, the cell pellets were resuspended in 1 ml precooled extraction solution (75% ethanol, 10 mM NH4-acetate) and 50 \u00b5l 13C-yeast internal standard was added. To complete extraction, the plate was transferred into a 80 \u00b0C water bath for 3 min with vortexing steps every 30-45 s. The extracts were stored at -80 \u00b0C until they were dried over night with a vacuum centrifuge (Christ-RVC 2-33 CD plus, Kuehner AG, Switzerland).\n</p>\nRef:</br>\n[1] Ewald JC, Heux S, Zamboni N. High-throughput quantitative metabolomics: workflow for cultivation, quenching, and analysis of yeast in a multiwell format. Anal Chem. 2009 May 1;81(9):3623-9. doi:10.1021/ac900002u. PMID:19320491.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "LC-MS measurements were performed as described in [1]. Specifically, the dried extracts were dissolved in 50-100 \u00b5l ddH2O and 15 \u00b5l were injected for LC-MS analysis. The metabolites were separated with a Waters Acquity T3 end-capped reversed phase column (150 mm x 2.1 mm x 1.8 \u00b5m) on a Waters Acquity UPLC (Waters, Milford, MA, USA) system.\n</p>\nRef:</br>\n[1] Buescher JM, Moco S, Sauer U, Zamboni N. Ultrahigh performance liquid chromatography-tandem mass spectrometry method for fast and robust quantification of anionic and aromatic metabolites. Anal Chem. 2010 Jun 1;82(11):4403-12. doi:10.1021/ac100101d. PMID:20433152.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The mass spectrometry was performed as described in [1]. Specifically, for the detection of the metabolites we used a Thermo TSQ Quantum Ultra triple quadrupole mass spectrometer (Thermo Fisher Scientific, Waltham, MA, USA) with a heated electrospray ionization source in negative mode with single reaction monitoring. Peak integration was done with an in-house software [2]. The metabolite peak areas were further normalized to the internal 13C internal standard and to biomass (OD600).\n</p>\nRef:</br>\n[1] Buescher JM, Moco S, Sauer U, Zamboni N. Ultrahigh performance liquid chromatography-tandem mass spectrometry method for fast and robust quantification of anionic and aromatic metabolites. Anal Chem. 2010 Jun 1;82(11):4403-12. doi:10.1021/ac100101d. PMID:20433152.</br>\n[2] B. Begemann & N. Zamboni, unpublished.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "23",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "23",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Quantum Ultra (Thermo Scientific)",
+                        "filename": "a_MTBLS168_yeastauxotrophy_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

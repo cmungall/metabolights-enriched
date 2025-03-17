@@ -1,0 +1,496 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-11-22T16:17:09",
+        "statusUpdateTime": "2016-11-22T16:17:09",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS128",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2014-10-27",
+        "publicReleaseDate": "2015-10-06",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS128",
+                "filename": "s_MTBLS128.txt",
+                "title": "Comparative LC/MS-based profiling of L-arginine producing, canavanine resistant Corynebacterium glutamicum strain ATCC 21831 and type strain ATCC 13032",
+                "description": "Corynebacterium glutamicum strain ATCC 21831 is a producer of L-arginine that was created by random mutagenesis. It is resistant to the arginine structural analogue canavanine. In order to identify potential bottlenecks in the biosynthetic pathway that leads to this industrially important amino acid, relative metabolite abundances of biosynthetic intermediates were determined in comparison to the type strain ATCC 13032. An extract of U13C-labeled biomass was used as internal standard, to correct for different ionization efficiencies. Metabolites were identified using the ALLocator web platform.",
+                "submissionDate": "2014-10-27",
+                "publicReleaseDate": "2015-10-06",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Frederik",
+                        "lastName": "Walter",
+                        "email": "fwalter@cebitec.uni-bielefeld.de",
+                        "affiliation": "CeBiTec, Bielefeld University",
+                        "address": "Universit\u00e4tsstrasse 27 33615 Bielefeld Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+49 521 106 12251",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "EFO",
+                                    "file": "http://data.bioontology.org/ontologies/EFO",
+                                    "version": "113",
+                                    "description": "Experimental Factor Ontology"
+                                },
+                                "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001739"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "arginine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_29016"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "isotopic labelling",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001677"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "isotope ratio mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000506"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "ALLocator: an interactive web platform for the analysis of metabolomic LC-ESI-MS datasets, enabling semi-automated, user-revised compound annotation and mass isotopomer ratio analysis.",
+                        "authorList": "Nikolas Kessler , Frederik Walter , Marcus Persicke, Stefan P. Albaum , J\u00f6rn Kalinowski, Alexander Goesmann, Karsten Niehaus, Tim W. Nattkemper",
+                        "pubMedID": "25426929",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "strain",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "strain",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005135"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Corynebacterium\u00a0glutamicum strains ATCC 13032 and ATCC 21831 were grown on CASO solid agar plates at 30\u00a0\u00b0C for 36\u00a0h. They were inoculated in 10\u00a0ml of CGXII medium (pH\u00a07), transferred into 100\u00a0ml shake flasks and incubated o/n at 30\u00a0\u00b0C and 300\u00a0rpm. Main cultures, carried out in 250\u00a0ml shake flasks with 20 ml CGXII medium, were inoculated from these precultures to an initial optical density of OD600 =\u00a00.4. Cultures were incubated at 30\u00a0\u00b0C and 300\u00a0rpm until mid-exponential growth phase (OD600\u00a0=\u00a010). For each strain, four biological replicates were prepared. For the generation of 13C-labeled internal standard, C.\u00a0glutamicum ATCC 21831 was grown in shake flasks with [U13C]-glucose (1% w/v, Cambridge Isotope Laboratories) as sole carbon source.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Frozen cell pellets were freeze-dried within 16 h, using a Christ RVC 2 18 rotational-vacuum-concentrator in combination with a Christ CT 02 50 cooling trap (Martin Christ, Osterode, Germany) and a RZ 2.5 rotary vane pump (Vacuubrand, Wertheim, Germany). 950 mg of silica beads (0.5 mm dia.) and 1 ml of aqueous methanol 80% (v/v) were added and cells were disrupted by shaking 3 times in a Precellys 24 (PEQLAB Biotechnologie, Erlangen, Germany) mill at 6,000 rpm with 1 min cycles and 5 s breaks. Cell debris was separated by centrifugation at 20,000 x g at RT for 20 min. Seven hundred microliters of the hydrophilic extracts were transferred into 1.5 ml glass vials and evaporated to complete dryness under a nitrogen stream using a Reacti-Therm III heating/stirring module equipped with a Reacti-Vap III nitrogen evaporator (Pierce, Rockford, IL, USA). Samples were dissolved in 50 \u00b5l of water and mixed by vortexing for 10 s. Samples were transferred into 1.5 ml reaction tubes and centrifuged at 20,000 rpm at 4 \u00b0C for 20 min to remove remaining particles. Supernatants were transferred into new 1.5 ml reaction tubes. 13C-labeled extracts were pooled to create a homogenic internal standard. Prior to analysis, a 15 \u00b5l aliquot of each sample was transferred into a 1.5 ml glass vial with inlet (5 mm dia.) and 5 \u00b5l of 13C-labeled internal standard was added. Samples were mixed by vortexing for 5 s and placed into the autosampler.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Chromatographic separation of metabolites was performed on a LaChromUltra (Hitachi Europe, UK) HPLC system equipped with a Cogent diamond hydride column (MicroSolv Technologies; 150 x 2.1 mm; 3 m particles) operated in aqueous normal phase mode. Eluent A: 50 % acetonitrile (v/v), 50% water (v/v) + 0.1% (v/v) formic acid and B: 90% acetonitrile (v/v), 10% water (v/v) + 0.1% (v/v) formic acid were prepared freshly and stored in PTFE bottles. Flow rate was set to 400 \u00b5l/ min and linear gradient elution was performed as follows: t = 0 min, 100% B; t = 6 min 0% B; t = 7 min, 0% B; t = 8.5 min 100% B; t = 13 min 100% B.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatogram Name",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Eluting compounds were detected from m/z 50-1000 using a micrOTOF-Q II hybrid quadrupole time-of-flight mass spectrometer (Bruker Daltonics) equipped with an Apollo II electrospray ion source in positive mode using following instrument settings: nebulizer gas, nitrogen, 3.0 bar; dry gas, nitrogen, 8 l/min, 180 \u00b0C; capillary, -2500 V; end plate offset, -500 V; funnel 1 RF, 180 V; funnel 2 RF, 200 V; in-source CID energy, 0 V; hexapole RF, 100 V; quadrupole ion energy, 5 eV; collision gas, nitrogen; collision energy, 10 eV; collision RF 150 V; transfer time, 70 \u00b5s; pre pulse storage, 7 \u00b5s; pulser frequency, 10 kHz; spectra rate, 1 Hz. Mass spectra were acquired in centroid mode. Mass calibration of individual raw data files was performed on sodium formate cluster ions obtained by automatic infusion of 20 \u00b5l 10 mM sodium hydroxide in isopropanol/water/formic acid, 49.9/49.9/0.2 (v/v/v) immediatly after the injection of the sample. Spectra were obtained with a scan rate of 1 Hz and within an m/z range of 50 - 1000.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw data files were converted to netCDF format using the vendor-specific CompassXport (http://www.bdal.de/) and processed using the ALLocator web platform. Peak detection was done using the XCMS package (http://bioconductor.org/packages/release/bioc/html/xcms.html). XCMS settings for processing LC/MS data with findPeaks.centWave() were prefilter=(3,200); snthr=10; ppm=30; peakwidth=(10,60).</br>\n</p>\nPeak areas of quasimolecular ions were automatically normalized to the area of the corresponding monoisotopic 13C peak and cell dry weight using the ALLocator web platform. Metabolite lists of metabolites with confirmed identity were exported to a spreadsheet. Mean values for each chromatogram group and fold changes between the two groups were calculated.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Spectral deconvolution and metabolite identification was performed using the ALLocator web platform (https://allocator.cebitec.uni-bielefeld.de). Pseudo spectra were initially created using the ALLocatorSD pipeline with the following settings: rtBegin(73); rtEnd(511); epsiolonMZ(0.005); epsilonRT(5.0); minCorrelation(0.75); minIntensity(0); labeled13C(true); omit1000DaMassDecomps(true); inputJobId(86) Metabolites of interest were searched for and the corresponding pseudo spectra were carefully revised. Exact mass measurements and 13C-labeling information were used to calculate sum formulae. Pseudo fragment spectra were compared to MS spectra (level 2) contained in the Massbank database. The identity of L-Glutamate, N-Acetyl-L-glutamate, L-citrulline and L-arginine was also confirmed by the measurement of authentic standards.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "micrOTOF-Q II ESI-Qq-TOF (Bruker)",
+                        "filename": "a_MTBLS128_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

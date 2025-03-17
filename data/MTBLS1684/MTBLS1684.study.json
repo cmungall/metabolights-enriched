@@ -1,0 +1,732 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-06-19T00:00:00",
+        "statusUpdateTime": "2020-06-19T11:17:18.161477",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1684",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-04-27",
+        "publicReleaseDate": "2020-06-19",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "80",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1684",
+                "filename": "s_MTBLS1684.txt",
+                "title": "A multi-omic analysis of birthweight in newborn cord blood reveals new underlying mechanisms related to cholesterol metabolism",
+                "description": "<p><strong>BACKGROUND:</strong> Birthweight reflects in utero exposures and later health evolution. Despite existing studies employing high-dimensional molecular measurements, the understanding of underlying mechanisms of birthweight remains limited.</p><p><strong>METHODS:</strong> To investigate the systems biology of birthweight, we cross-sectionally integrated the methylome, the transcriptome, the metabolome and a set of inflammatory proteins measured in cord blood samples, collected from four birth-cohorts (n=489). We focused on two sets of 68 metabolites and 903 CpGs previously related to birthweight and investigated the correlation structures existing between these two sets and all other omic features via bipartite Pearson correlations.</p><p><strong>RESULTS:</strong> This dataset revealed that the set of metabolome and methylome signatures of birthweight have seven signals in common, including three metabolites [PC(34:2), plasmalogen PC(36:4)/PC(O-36:5), and a compound with m/z of 781.0545], two CpGs (on the DHCR24 and SC4MOL gene), and two proteins (periostin and CCL22). CCL22, a macrophage-derived chemokine has not been previously identified in relation to birthweight. Since the results of the omics integration indicated the central role of cholesterol metabolism, we explored the association of cholesterol levels in cord blood with birthweight in the ENVIRONAGE cohort (n=1,097), finding that higher birthweight was associated with increased high-density lipoprotein cholesterol and that high-density lipoprotein cholesterol was lower in small versus large for gestational age newborns.</p><p><strong>CONCLUSIONS:</strong> Our data suggests that an integration of different omic-layers in addition to single omics studies is a useful approach to generate new hypotheses regarding biological mechanisms. CCL22 and cholesterol metabolism in cord blood play a mechanistic role in birthweight.</p>",
+                "submissionDate": "2020-04-27",
+                "publicReleaseDate": "2020-06-19",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Paolo",
+                        "lastName": "Vineis",
+                        "email": "p.vineis@imperial.ac.uk",
+                        "affiliation": "Imperial College London",
+                        "address": "511 Medical School St Mary's Campus, Norfolk Place, London W2 1PG",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Grant Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51826"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Rossella",
+                        "lastName": "Alfano",
+                        "email": "rossella.alfano@uhasselt.be",
+                        "affiliation": "Hasselt University",
+                        "address": "Campus Diepenbeek Agoralaan Gebouw D",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Marc",
+                        "lastName": "Chadeau-Yam",
+                        "email": "m.chadeau@imperial.ac.uk",
+                        "affiliation": "Imperial College London",
+                        "address": "Medical School St Mary's Campus, Norfolk Place, London W2 1PG",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Pekka",
+                        "lastName": "Keski-Rahkonen",
+                        "email": "KeskiP@iarc.fr",
+                        "affiliation": "International Agency for Research on Cancer",
+                        "address": "150 Cours Albert Thomas, 69008 Lyon, France",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Nivonirina",
+                        "lastName": "Robinot",
+                        "email": "robinotn@iarc.fr",
+                        "affiliation": "International Agency for Research on Cancer",
+                        "address": "150 Cours Albert Thomas, 69008 Lyon, France",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Augustin",
+                        "lastName": "Scalbert",
+                        "email": "ScalbertA@iarc.fr",
+                        "affiliation": "International Agency for Research on Cancer",
+                        "address": "150 Cours Albert Thomas, 69008 Lyon, France",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Oliver",
+                        "lastName": "Robinson",
+                        "email": "o.robinson@imperial.ac.uk",
+                        "affiliation": "Imperial College London",
+                        "address": "Medical School St Mary's Campus, Norfolk Place, London W2 1PG",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Michelle",
+                        "lastName": "Plusquin",
+                        "email": "michelle.plusquin@uhasselt.be",
+                        "affiliation": "Hasselt University",
+                        "address": "Campus Diepenbeek Agoralaan Gebouw D",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "cholesterol",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "80",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_16113"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "DNA Methylation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "28",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17961"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Gene Expression",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "28",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16608"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "protein",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "80",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_36080"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Newborn",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "28",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16731"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "umbilical cord",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001415"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A multi-omic analysis of birthweight in newborn cord blood reveals new underlying mechanisms related to cholesterol metabolism",
+                        "authorList": "Rossella Alfano, Marc Chadeau-Hyam, Akram Ghantous, Pekka Keski-Rahkonen, Leda Chatzi, Almudena Espin Perez, Zdenko Herceg, Manolis Kogevinas, Theo M. de Kok, Tim S Nawrot, Alexei Novoloaca, Chirag J Patel, Costanza Pizzi, Nivonirina Robinot, Franca Rusconi, Augustin Scalbert, Jordi Sunyer, Roel Vermeulen, Martine Vrijheid, Paolo Vineis, Oliver Robinson, Michelle Plusquin",
+                        "pubMedID": "",
+                        "doi": "10.1016/j.metabol.2020.154292",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Birthweight",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "birth weight",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004344"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Our study population arises from the EXPOsOMICS European project and includes 500 newborns from four population-based cohorts: 200 newborns from ENVIRONAGE, 100 from INMA, 99 from Piccolipiu\u0300, and 101 from Rhea.</p><p><br></p><p>Untargeted metabolomics of serum and plasma of 499 samples was performed at International Agency for Research on Cancer in Lyon, France, with details of the sample analysis and preprocessing of the data as described earlier<strong>[1]</strong>.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Robinson O, Keski-Rahkonen P, Chatzi L, Kogevinas M, Nawrot T, Pizzi C, et al. Cord Blood Metabolic Signatures of Birth Weight: A Population-Based Study. J Proteome Res. 2018;17:1235-47. doi:10.1021/acs.jproteome.7b00846. PMID:29401400</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples were prepared by mixing 30 \u03bcl of the sample with 200 \u03bcl of acetonitrile and filtering the precipitate with 0.2 \u03bcm Captiva ND plates (Agilent Technologies). The filtrate was collected into a polypropylene well plate that was sealed and kept refrigerated until analysis. Quality control (QC) samples were prepared from a sample pool that was made by mixing small aliquots of 91 randomly selected study samples.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples were analyzed in randomized order as a single uninterrupted batch with a reversed phase liquid chromatography-quadrupole time-of-flight mass spectrometry (UHPLC-QTOF-MS system, Agilent Technologies) consisting of a 1290 Binary LC system, a Jet Stream electrospray ionization (ESI) source, and a 6550 QTOF mass spectrometer. Autosampler tray was kept refrigerated and 2 \u03bcl of the sample solution was injected on an ACQUITY UPLC HSS T3 column (2.1 x 100mm, 1.8 \u03bcm; Waters). Column temperature was 45 \u00b0C and mobile phase flow rate 0.4 ml/min, consisting of ultrapure water and LC-MS grade methanol, both containing 0.05% (v/v) of formic acid. The gradient profile was as follows: 0\u20136 min: 5% -&gt; 100% methanol, 6\u201310.5 min: 100% methanol, 10.5\u201313 min: 5% methanol.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The mass spectrometer was operated in positive polarity using the following conditions: drying gas (nitrogen) temperature 175 \u00b0C and flow 12 l/min, sheath gas temperature 350 \u00b0C and flow 11 l/min, nebulizer pressure 45 psi, capillary voltage 3500 V, nozzle voltage 300 V, and fragmentor voltage 175 V. Data acquisition was performed using 2 GHz extended dynamic range mode across a mass range of 50\u20131000, with 1.67 Hz rate. Continuous mass axis calibration was performed by 2 reference ions (m/z 121.050873 and m/z 922.009798). Data was acquired using MassHunter Acquisition B.05.01. The analytical run was initiated with priming injections of a QC sample to achieve stable instrument response, following by study samples in random order, intervened after every 12 injections with a QC sample to monitor instrument performance and sample stability.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Preprocessing of the acquired data was performed using Qualitative Analysis B.06.00, DA Reprocessor, and Mass Profiler Professional 12.1 software (Agilent Technologies). Recursive feature finding was employed to find compounds as proton adducts [M+H]+, using data from study samples. The initial processing of the data was performed using MFE algorithm for small molecules. Thresholds for mass and chromatographic peak heights were 1500 and 10000 counts, respectively. Peak spacing tolerance for isotope peaks was 0.0025 m/z plus 7 ppm, with the isotope model 'common organic molecules'. Features that existed in at least 2% of all the samples were then aligned, using 0.075 min retention time and 15 ppm + 2 mDa mass windows, and used as targets for the recursive feature extraction, using an FBF algorithm with match tolerance for the compound mass and retention time set at \u00b110 ppm and \u00b10.04 min. Ions were limited to [M+H]+, and chromatographic peak height threshold was 2000 counts. The features were then aligned using the same settings as above into a final data matrix.</p><p><br></p><p>Finally, metabolic features present in less than 60% of the samples were removed leaving 4,712 metabolic features available for this study. Data were log-transformed and missing values were imputed using the impute.QRILC function within the imputeLCMD R package<strong>[1]</strong>. </p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Lazar C. imputeLCMD: A collection of methods for left-censored missing data imputation. R package. 2.0 ed2015.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Identification of the features of interest was done as previously described<strong>[1]</strong>. Briefly: 1) m/z values were searched in Human Metabolome Database<strong>[2]</strong>and Metlin<strong>[3]</strong>, and MyCompoundID<strong>[4]</strong> for potential adducts using \u00b18 ppm molecular weight tolerance; 2) related features were grouped based on retention time similarity and intensity correlation across the samples; 3) quality of chromatographic peaks and spectra were inspected and the plausibility of database candidates was assessed; 4) identities were confirmed by comparing retention times and the MS/MS spectra of representative samples and authentic chemical standards. When standards were not available, MS/MS spectra were compared against those in public databases (<a href='https://www.mzcloud.org/' rel='noopener noreferrer' target='_blank'>www.mzcloud.org</a>, Metlin). The level of identification was reported as previously proposed<strong>[5]</strong>.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Robinson O, Keski-Rahkonen P, Chatzi L, Kogevinas M, Nawrot T, Pizzi C, et al. Cord Blood Metabolic Signatures of Birth Weight: A Population-Based Study. J Proteome Res. 2018;17:1235-47. doi:10.1021/acs.jproteome.7b00846. PMID:29401400</p><p><strong>[2]</strong> Wishart DS, Jewison T, Guo AC, Wilson M, Knox C, Liu Y, et al. HMDB 3.0--The Human Metabolome Database in 2013. Nucleic Acids Res. 2013;41:D801-7. doi:10.1093/nar/gks1065. PMID:23161693</p><p><strong>[3]</strong> Smith CA, O'Maille G, Want EJ, Qin C, Trauger SA, Brandon TR, et al. METLIN: a metabolite mass spectral database. Ther Drug Monit. 2005;27:747-51. doi:10.1097/01.ftd.0000179845.53213.39. PMID:16404815</p><p><strong>[4]</strong> Li L, Li R, Zhou J, Zuniga A, Stanislaus AE, Wu Y, et al. MyCompoundID: Using an Evidence-Based Metabolome Library for Metabolite Identification. Analytical Chemistry. 2013;85:3401-8. doi:10.1021/ac400099b. PMID:23373753</p><p><strong>[5]</strong> Sumner LW, Amberg A, Barrett D, Beale MH, Beger R, Daykin CA, et al. Proposed minimum reporting standards for chemical analysis: Chemical Analysis Working Group (CAWG) Metabolomics Standards Initiative (MSI). Metabolomics. 2007;3:211-21. doi:10.1007/s11306-007-0082-2. PMID:24039616</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS1684_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

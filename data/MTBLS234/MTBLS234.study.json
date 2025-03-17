@@ -1,0 +1,477 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2015-12-16T18:21:23",
+        "statusUpdateTime": "2015-12-16T18:21:23",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS234",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-09-23",
+        "publicReleaseDate": "2015-12-16",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS234",
+                "filename": "s_MTBLS234.txt",
+                "title": "Automated Label-free Quantification of Metabolites from Liquid Chromatography\u2013Mass Spectrometry Data (Plasma)",
+                "description": "<p>Liquid chromatography coupled to mass spectrometry (LC-MS) has become a standard technology in metabolomics. In particular, label-free quantification based on LC-MS is easily amenable to large-scale studies and thus well suited to clinical metabolomics. Large-scale studies, however, require automated processing of the large and complex LC-MS datasets.  We present a novel algorithm for the detection of mass traces and their aggregation into features (i.e. all signals caused by the same analyte species) that is computationally efficient and sensitive and that leads to reproducible quantification results. The algorithm is based on a sensitive detection of mass traces, which are then assembled into features based on mass-to-charge spacing, co-elution information, and a support vector machine\u2013based classifier able to identify potential metabolite isotope patterns. The algorithm is not limited to metabolites but is applicable to a wide range of small molecules (e.g. lipidomics, peptidomics), as well as to other separation technologies.  We assessed the algorithm's robustness with regard to varying noise levels on synthetic data and then validated the approach on experimental data investigating human plasma samples. We obtained excellent results in a fully automated data-processing pipeline with respect to both accuracy and reproducibility. Relative to state-of-the art algorithms, ours demonstrated increased precision and recall of the method. The algorithm is available as part of the open-source software package OpenMS and runs on all major operating systems.  </p><p><br></p><p><strong>Plasma data</strong>&nbsp;is reported in the current study&nbsp;<a href='https://www.ebi.ac.uk/metabolights/MTBLS234' rel='noopener noreferrer' target='_blank'><strong>MTBLS234</strong></a>.</p><p><strong>Simulated data</strong> is reported in&nbsp;<a href='https://www.ebi.ac.uk/metabolights/MTBLS235' rel='noopener noreferrer' target='_blank'><strong>MTBLS235</strong></a>.</p>",
+                "submissionDate": "2015-09-23",
+                "publicReleaseDate": "2015-12-16",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Erhan",
+                        "lastName": "Kenar",
+                        "email": "erhan.kenar@uni-tuebingen.de",
+                        "affiliation": "Wilhelm Schickard Institute for Computer Science, University of T\u00fcbingen",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Oliver",
+                        "lastName": "Kohlbacher",
+                        "email": "oliver.kohlbacher@uni-tuebingen.de",
+                        "affiliation": "Wilhelm Schickard Institute for Computer Science, University of T\u00fcbingen",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "LC-MS label-free quantitation analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "86",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1001834"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Automated Label-free Quantification of Metabolites from Liquid Chromatography\u2013Mass Spectrometry Data",
+                        "authorList": "Erhan Kenar, Holger Franken, Sara Forcisi, Kilian W\u00f6rmann, Hans-Ulrich H\u00e4ring, Rainer Lehmann, Philippe Schmitt-Kopplin, Andreas Zell, Oliver Kohlbacher",
+                        "pubMedID": "24176773",
+                        "doi": "10.1074/mcp.M113.031278",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "spike-in concentration",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "concentration",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "5",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002820"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "technical replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002090"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All aqueous solutions were prepared using LC-MS-grade water from Chromosolv\u00ae, Fluka Analytical (Sigma-Aldrich, Munich, Germany). LC-MS-grade acetonitrile and methanol were purchased from Chromosolv\u00ae, Fluka Analytical (Sigma-Aldrich, Munich, Germany). Formic acid (ultra-high-performance LC-MS grade) was procured from Biosolve (Valkenswaard, The Netherlands), and sodium hydroxide (=98%) was obtained from Roth (Karlsruhe, Germany). Leucine enkephaline (=95% HPLC grade), nialamide (95%), reserpine (=99% HPLC grade), sulfadimethoxine-d6 (VetranalTM), and terfenadine were purchased from Sigma-Aldrich (Munich, Germany). [3,3,3-d3]-propionyl-l-carnitine hydrochloride, [16,16,16-d3]-hexadecanoyl-l-carnitine hydrochloride, and [18,18,18-d3]-octadecanoyl-l-carnitine hydrochloride were purchased from Dr. H.J. ten Brink Laboratory (Amsterdam, The Netherlands).\n</p>\nA stock solution for each standard was prepared at a concentration of 1 g/l. Each standard was mixed at the same concentration in 20% acetonitrile solution. An experimental standard serial dilution at 10 mg/l, 5 mg/l, 2 mg/l, 1 mg/l, 0.5 mg/l, 0.2 mg/l, 0.1 mg/l, 0.05 mg/l, 0.02 mg/l, and 0.01 mg/l was set. In addition, a non-spiked sample was included in the experiment.\n</p>\nFresh EDTA blood was collected from healthy male donors. Blood plasma was prepared via centrifugation at 2,000 x g at 4 \u00b0C for 7 min. The resulting plasma was pooled, mixed, and aliquoted for storage at -80 \u00b0C until analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Frozen EDTA plasma was thawed on ice and vortex-mixed for 30 s prior to treatment. The protein precipitation extraction was performed by adding cold acetonitrile (1 ml) to a plasma volume (250 \u00b5l). After the organic solvent had been added, the samples were vortex-mixed for 30 s at room temperature and centrifuged at 15,294 x g for 10 min at 4 \u00b0C. The dried samples were reconstituted in 50 \u00b5l of the different experimental standard solutions.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Sample analysis was performed using a Waters Aquity ultra-high-performance LC system coupled to a Synapt HDMS oa-Q-TOF mass spectrometer (Waters, Milford, MA). The gradient chromatographic separation was performed with a C18 Vision HT-HL ultra-high-performance LC column (2 x 150 mm, 1.5 \u00b5m, Alltech Grom GmbH, Rottenburg-Hailfingen, Germany). Elution buffer A was water containing 0.1% formic acid, and elution buffer B was acetonitrile. The flow rate was set at 0.300 ml/min. The linear-gradient method consisted of 5% B over 0\u20131.12 min, 5% to 100% B over 1.12\u201322.27 min, and 100% B until 29.49 min, after which the gradient was returned to 5% B at 29.56 min. In order to equilibrate the column with the initial mobile phase, 5% B was maintained until minute 35. The column oven was set to 40 \u00b0C, and the sample manager temperature to 4 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The Synapt HDMS oa-Q-TOF mass spectrometer (Waters, Milford, MA) was equipped with an electrospray ion source operating in positive mode.  A solution of leucine enkephalin (556.2771 u, 400 pg/\u00b5l) in MeOH/H2O:1/1 containing 0.1% formic acid was infused as lockmass compound at a flow rate of 5 \u00b5l/min. The spectra were acquired in centroid mode within a range of 50\u20131000 u. The detection parameters are described in the supplemental material. The samples were measured in randomized triplicate and alternated with blank samples consisting of 20% acetonitrile.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All data files were converted into mzML format [1] using the command line tool msconvert of the ProteoWizard suite [2].\n</p>\nRef:</br>\n[1] Martens L., Chambers M., Sturm M., Kessner D., Levander F., Shofstahl J., Tang W. H., Rompp A., Neumann S., Pizarro A. D., Montecchi-Palazzi L., Tasman N., Coleman M., Reisinger F., Souda P., Hermjakob H., Binz P. A., Deutsch E. W. (2011) mzML\u2014a community standard for mass spectrometry data. Mol. Cell. Proteomics 10, R110.000133. doi: 10.1074/mcp.R110.000133. PMID:20716697</br>\n[2] Kessner D., Chambers M., Burke R., Agusand D., Mallick P. (2008) ProteoWizard: open source software for rapid proteomics tools development. Bioinformatics 24, 2534\u20132536. doi: 10.1093/bioinformatics/btn323. PMID:18606607</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For each measurement, we extracted metabolite features with our algorithm and stored the resulting feature map in the featureXML data format [1]. For the following processing steps, we used existing software solutions from the OpenMS framework (version 1.10). Features coinciding on at least two measurements were aggregated to consensus features and stored in the consensusXML format using the FeatureLinkerUnlabeledQT software. The consensusXML file was exported to a tabular text format with the TextExporter tool. All further analyses were conducted with the MATLAB R2012b [2] and R 2.15.2 [3] software packages.\n</p>\nRef:</br>\n[1] Sturm M., Bertsch A., Gr\u00f6pl C., Hildebrandt A., Hussong R., Lange E., Pfeifer N., Schulz-Trieglaff O., Zerck A., Reinert K., Kohlbacher O. (2008) OpenMS\u2014an open-source software framework for mass spectrometry. BMC Bioinformatics 9, 163\u2013163. doi: 10.1186/1471-2105-9-163. PMID:18366760</br>\n[2] (2012) MATLAB R2012b, The MathWorks Inc., Natick, MA.</br>\n[3] R Core Team (2012) R: A Language and Environment for Statistical Computing, R Foundation for Statistical Computing, Vienna, Austria.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS234_metabolite_quantitation_benchmark_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,935 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-04-09T00:00:00",
+        "statusUpdateTime": "2023-04-09T13:12:09.906639",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "/Users/mgw29/MetaboLights/ISAcreatorMetaboLights/Configurations/MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS808",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-12-19",
+        "publicReleaseDate": "2020-12-10",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "116",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "8",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "GAZ",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS808",
+                "filename": "s_MTBLS808.txt",
+                "title": "Omics analysis in truffle (Tuber magnatum Pico): comparison of samples from different regions of Italy and from different seasons",
+                "description": "Truffles are among the most expensive foods available in the market, usually used as flavoring additives for their distinctive aroma. The most valuable species is Tuber magnatum Pico, better known as 'Alba white truffle', in which bis(methylthio)methane is the key aroma compound. Given the high economical value of genuine white truffles, analytical approaches are required to be able to discriminate between natural or synthetic truffle aroma. With the proteomic approach based on 2-DE followed by mass spectrometry, we were able to identify proteins specifically linked to sample origin. We further associated the proteomic results to an RNA-seq profiling, which confirmed the possibility to differentiate samples according to their source and provided a basis for the detailed analysis of genes involved in a specific metabolism, that of sulfur compounds. Finally, geographical specificities could be associated to the set of volatile compounds produced by the fruiting bodies, as quantitatively and qualitatively determined through PTR-MS and GC-MS. In particular, a PLS-DA model built from the latter data was able to return high confidence predictions of sample source.",
+                "submissionDate": "2018-12-19",
+                "publicReleaseDate": "2020-12-10",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Federico ",
+                        "lastName": "Vita",
+                        "email": "federico.vita@unifi.it",
+                        "affiliation": "Department of Agriculture, Food, Environment and Forestry (DAGRI), University of Florence, Viale delle idee 30, 50019 Florence, Italy",
+                        "address": "Department of Agriculture, Food, Environment and Forestry (DAGRI), University of Florence, Viale delle idee 30, 50019 Florence, Italy",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Beatrice ",
+                        "lastName": "Giuntoli",
+                        "email": "b.giuntoli@santannapisa.it",
+                        "affiliation": "Department of Biology, University of  Pisa, via L. Ghini 13, 56126 Pisa, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Edoardo ",
+                        "lastName": "Bertolini",
+                        "email": "edoardobertolini@gmail.com",
+                        "affiliation": "Institute of Life Sciences, Scuola Superiore Sant' Anna, Piazza Martiri della Libert\u00e0 33, 56127 Pisa, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Cosimo ",
+                        "lastName": "Taiti",
+                        "email": "cosimo.taiti@unifi.it",
+                        "affiliation": "Department of Agriculture, Food, Environment and Forestry (DAGRI), University of Florence, Viale delle idee 30, 50019 Florence, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Elettra ",
+                        "lastName": "Marone",
+                        "email": "emarone@unite.it",
+                        "affiliation": "Faculty of Biosciences and Technologies for Agriculture Food and Environment, University of Teramo, Via R. Balzarini 1, 64100 Teramo, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Chiara ",
+                        "lastName": "D' Ambrosio",
+                        "email": "chiara.dambrosio@cnr.it",
+                        "affiliation": "Proteomics and Mass Spectrometry Laboratory, I.S.P.A.A.M., National Research Council, 80147 Napoli, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Danilo ",
+                        "lastName": "Sciarrone",
+                        "email": "dsciarrone@unime.it",
+                        "affiliation": "Department of Chemical, Biological, Pharmaceutical and Environmental Sciences, Polo Annunziata, University of Messina, viale Annunziata, 98168 Messina, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Mariosimone ",
+                        "lastName": "Zoccali",
+                        "email": "mzoccali@unime.it",
+                        "affiliation": "Department of Chemical, Biological, Pharmaceutical and Environmental Sciences, Polo Annunziata, University of Messina, viale Annunziata, 98168 Messina, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Raffaella ",
+                        "lastName": "Balestrini",
+                        "email": "raffaella.balestrini@ipsp.cnr.it",
+                        "affiliation": "National Research Council  Institute for Sustainable Plant Protection, Torino Unit, Torino, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "M",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Andrea ",
+                        "lastName": "Scaloni",
+                        "email": "andrea.scaloni@ispaam.cnr.it",
+                        "affiliation": "Proteomics and Mass Spectrometry Laboratory, I.S.P.A.A.M., National Research Council, 80147 Napoli, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Luigi ",
+                        "lastName": "Mondello",
+                        "email": "lmondello@unime.it",
+                        "affiliation": "Chromaleont Srl, c/o Department of Chemical, Biological, Pharmaceutical and Environmental Sciences Polo Annunziata, University of Messina, viale Annunziata, 98168, Messina, Italy.",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Stefano ",
+                        "lastName": "Mancuso",
+                        "email": "stefano.mancuso@unifi.it",
+                        "affiliation": "Department of Agriculture, Food, Environment and Forestry (DAGRI), University of Florence, Viale delle idee 30, 50019 Florence, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Massimo ",
+                        "lastName": "Alessio",
+                        "email": "alessio.massimo@hsr.it",
+                        "affiliation": "Proteome Biochemistry Unit, IRCCS-San Raffaele Scientific Institute, Milan, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Amedeo ",
+                        "lastName": "Alpi",
+                        "email": "amedeo.alpi@gmail.com",
+                        "affiliation": "A.R.E.A. Foundation, via Tavoleria 28, 56125 Pisa, Italy",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Emanuela",
+                        "lastName": "Trovato",
+                        "email": "emanuela.trovato@chromaleont.it",
+                        "affiliation": "Chromaleont Srl, c/o Department of Chemical, Biological, Pharmaceutical and Environmental Sciences Polo Annunziata, University of Messina, viale Annunziata, 98168, Messina, Italy.",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "two-dimensional gas chromatography",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002886"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "headspace solid-phase micro-extraction",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001589"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "liquid chromatography-tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000045"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "proton transfer reaction mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000570"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Proteomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C20085"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "food authenticity",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "volatile organic compound",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_134179"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Multidimensional Gas Chromatography Coupled to Combustion-Isotope Ratio Mass Spectrometry/Quadrupole MS with a Low-Bleed Ionic Liquid Secondary Column for the Authentication of Truffles and Products Containing Truffle",
+                        "authorList": "Danilo Sciarrone, Antonino Schepis, Mariosimone Zoccali, Paola Donato, Federico Vita, Donato Creti, Amedeo Alpi, and Luigi Mondello",
+                        "pubMedID": "",
+                        "doi": "10.1021/acs.analchem.8b00386",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "Volatile organic compounds in truffle (Tuber magnatum Pico): comparison of samples from different regions of Italy and from different seasons.",
+                        "authorList": "Federico Vita, Cosimo Taiti, Antonio Pompeiano, Nadia Bazihizina, Valentina Lucarotti, Stefano Mancuso & Amedeo Alpi",
+                        "pubMedID": "",
+                        "doi": "10.1038/srep12629",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "Proteins from Tuber magnatum Pico fruiting bodies naturally grown in different areas of Italy.",
+                        "authorList": "Federico Vita, Valentina Lucarotti, Emanuele Alpi, Raffaella Balestrini, Antonietta Mello, Angela Bachi,\nMassimo Alessio and Amedeo Alpi",
+                        "pubMedID": "",
+                        "doi": "10.1186/1477-5956-11-7",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "Environmental conditions influence the biochemical properties of the fruiting bodies of Tuber magnatum Pico.",
+                        "authorList": "Federico Vita, Flavio Antonio Franchina , Cosimo Taiti, Vittoria Locato, Giorgio Pennazza, Marco Santonico, Giorgia Purcaro, Laura De Gara, Stefano Mancuso, Luigi Mondello & Amedeo Alpi",
+                        "pubMedID": "",
+                        "doi": "10.1038/s41598-018-25520-7",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "De novo transcriptome assembly of the Italian white truffle (Tuber magnatum Pico)",
+                        "authorList": "Federico Vita, Amedeo Alpi, Edoardo Bertolini",
+                        "pubMedID": "",
+                        "doi": "10.1101/461483",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Preprint",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Location",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "geographic location",
+                            "termSource": {
+                                "comments": [],
+                                "name": "GAZ",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000448"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Year of Harvest",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Year Date",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C159612"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>SPME-GC-MS:</strong></p><p>The GC-MS, and GC-FID runs were carried out on two parallel GC-QP2010 and GC2010 instruments (Shimadzu, Kyoto, Japan) and an AOC-20i autosampler (Shimadzu Corporation, Kyoto, Japan). The GC column used was a 30 m x 0.25 mm i.d. x 0.25 \u03bcm df Supelcowax-10 column (Merck life Science). Helium was exploited as carrier gas, at a constant linear velocity of 30.0 cm/s which corresponding to an inlet pressure of 26.4 kPa for GC-MS and 97.4 kPa for GC-FID. The temperature program was the same in both analysis-type: 40 \u00b0C at 3 C/min to 250 \u00b0C, at 10 C/min to 280 \u00b0C, held 10 min. The FID temperature was set at 280 \u00b0C (sampling rate 40 ms) and gas flows were 40 mL/min for hydrogen and 400 ml/min for air, respectively.</p><p><br></p><p><strong>LC-MS/MS(Protein):</strong></p><p>19 spots were manually excised from gels, triturated and washed with water. Proteins were in-gel reduced, S-alkylated and digested with trypsin over-night. Digest aliquots were removed and subjected to a desalting/concentration step on C18 ZipTip microcolumn using 5% formic acid/50% acetonitrile as eluent before nanoLC-ESI-LIT-MS/MS analysis. Digests were analyzed by nanoLC-ESI-LIT-MS/MS using an LTQ XL mass spectrometer (Thermo Finnigan, San Jose, CA, USA) connected to an Easy-nanoLC (Proxeon, Odense, Denmark). Peptide mixtures were separated on an Easy C18 column (10 cm x 0.075 mm, 3 \u03bcm) using a linear gradient from 5% to 50% of acetonitrile in 0.1% formic acid, over 24 min, at a flow rate of 300 nl/min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>SPME-GC-MS:</strong></p><p>Truffles were finely chopped and 0.3 g of each were put into a 20 ml crimped vial for SPME, and the extractions were carried out in the headspace mode (HS) using an autosampler AOC-5000 (Shimadzu). This was equipped with a 1 cm long fused silica fiber coated with a 50/30 \u03bcm layer of divinylbenzene/carboxen/polydimethylsiloxane (MilliporeSigma/Supelco, Bellefonte, PA, USA) to extract the volatile components from the truffles. The fibre was conditioned following the manufacturer\u2019s instructions previous to its use (270 \u00b0C for 0.5 h). Samples were conditioned for 5 min at 50 \u00b0C, under agitation (clockwise rotation at 500 rpm), and then underwent the extraction step for 15 min at 50 \u00b0C, still under agitation as previously indicated. Analytes were then desorbed into the GC injection port for 1 min at 260 \u00b0C in splitless mode. Blanks were run between consecutive analyses. Each sample was analyzed in triplicate.</p><p><br></p><p><strong>PTR-MS:</strong></p><p>For each sample, about 10 grams of material were placed in a glass jar and covered with a special lid that allowed Teflon connection to a zero-air generator (inlet) and to the PTR-TOF-MS system (outlet). For each sample, the average data resulting from 20 s of measurement, were extracted after 1 and 20 min from the beginning of the experiment.</p><p><br></p><p><strong>LC-MS/MS(Protein):</strong></p><p>Fruiting bodies (100 mg) were ground in liquid nitrogen and homogenized with 1.6 ml of extraction buffer (Urea 8 M, Tris\u2013HCl 40 mM CHAPS 4%, DTT 60 mM) as previously described<strong>[1]</strong> with some modifications. Briefly, the homogenates were centrifuged for 15 min at 13.000 rcf at 4 \u00b0C in order to eliminate debris. Supernatants, containing extracted proteins, were precipitated using 13% TCA and 0.007% beta-mercaptoethanol in acetone, transferred to -20 \u00b0C for 2 hr and finally kept at 4 \u00b0C for 2 hr.</p><p><br></p><p>Samples were then centrifuged at 14000 rcf at 4 \u00b0C for 15 min and the pellet was washed twice with cold acetone (100%), re-centrifuged at the same speed, mixed with 50-500 \u03bcl extraction buffer and centrifuged at 3000 rcf at 4 \u00b0C for 25 min. Protein quantification was done by Bradford assay (BIO-RAD Hercules, CA) using Bovine serum albumin (BSA) as standard.</p><p><br></p><p>Spectrophotometric measurements were carried out using a Cintral 101 spectrophotometer (GBC Scientific Equipment) at 595 nm in double beam mode. 12 or 16 replicate gels (4 for each year of collection) were performed for each biological sample, depending on the overall duration of the study for each of the sampling locations evaluated. Samples (1 mg) of protein were directly loaded by in-gel rehydration onto an IPG (Immobilized pH Gradient) gel strip for preparative analysis. IPG strips (18 cm, GE-Healthcare), with pH range 4-7, were rehydrated with 350 l of IEF sample buffer (8 M urea, 2% w/v CHAPS, 40 mM DTT and 0.5% v/v IPG Buffer) containing the samples. High resolution (300 dpi) images of 2-DE gels were prepared using the Densitometer GS-800 (BioRad). Computer-assisted 2D image analysis was done using the Progenesis SameSpots vs 3.2.3 gel analysis software (NonLinear Dynamics) for 3 technical replicates for each biological condition (different years) from 3 independent extraction experiment procedures.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Yang Q, Wang Y, Zhang J, Shi W, Qian C, Peng X. Identification of aluminum-responsive proteins in rice roots by a proteomic approach: cysteine synthase as a key player in Al response. Proteomics. 2007 Mar;7(5):737-49. doi:10.1002/pmic.200600703. PMID:17295357.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>SPME-GC-MS:</strong></p><p>FFSNC 3.0 (Shimadzu) and NIST11 (Wiley) commercial libraries were used for identification, applying two filters, namely a spectrum similarity match over 85% and Linear Retention Index (LRI) (related to a C4-C24 FAMEs mixture) agreement in the 15 range.</p><p><br></p><p><strong>PTR-MS:</strong></p><p>Putative metabolite identifications were assigned according to spectral properties.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><em>T. magnatum</em> <em>Pico</em> fruiting bodies were harvested and collected from different Italian areas (north: Alba, AL; center: San Miniato, SM; and south: Isernia, IS) during 4 years of study, with exception of samples used for proteomics analysis, where IS samples where collected during three year of analysis.</p><p><br></p><p><strong>SPME-GCxGC-MS:</strong></p><p>Samples of fruiting bodies of <em>Tuber magnatum</em> <em>Pico</em> were collected from different areas of Italy during the autumn 2016. All samples were stored at 4 \u00b0C.</p><p><br></p><p><strong>PTR-MS:</strong></p><p>VOCs emitted from samples were collected over 3 harvest seasons (2011-2013). For each sample, 3 carpophores of about 10-15 g were collected and stored at 4 \u00b0C in glass vials and analysed within 24 h.</p><p><br></p><p><strong>LC-MS/MS(Protein):</strong></p><p>Samples were frozen in liquid nitrogen and the tissue was ground in a mortar, then stored at -80 \u00b0C</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>SPME-GC-MS:</strong></p><p>Data was collected on a an MS-QP2010 Ultra quadrupole mass spectrometer (Shimadzu Corporation, Kyoto, Japan) by electon ionisation in positive mode.</p><p><br></p><p><strong>PTR-MS:</strong></p><p>Volatiles were analysed with a PTR-TOF-MS 8000 (IoniconAnalytik GmbH, Innsbruck, Austria) using H3O+ as reagent ion for the proton transfer reaction. The reaction takes place between H3O+ ions and all the biogenic VOCs having a proton affinity higher than that of water (165.2 kcal/mol). The separation of the resulting single ions depends on their mass to charge (m/z) ratio. The reaction takes place in a reaction chamber (Drift tube) under controlled conditions of applied voltage (set at 600 V), temperature (at 110 \u00b0C) and pressure (at 2.25 mbar). Compounds such as 1,4-dichlorobenzene (m/z = 146.976) and 1,2,3-trichlorobenzene (m/z = 180.937) were continuously used, together with other known low mass ions, for a precise conversion of 'time-of-flight' into 'mass-to-charge' ratio (m/z) in order to assign the exact mass scale and the sum formula of all ions during VOC analysis[1][2]. The head space was then measured by direct injection into the PTR-TOF-MS drift tube inlet for 150 s, after 10 min of exposure. Preliminary measurements on an empty jars were run before every experiment and used for background subtraction. All mass spectra up to m/z = 250 were simultaneously detected and recorded with 1 s as the integration time. Internal calibration was based on m/z = 21.0202 (H318O+), m/z = 29.9974 (NO+) and m/z = 59.0491 (C3H6O+)<strong>[1][2]</strong>.</p><p><br></p><p><strong>LC-MS/MS(Protein):</strong></p><p>Spectra were acquired on a Thermo Finnigan LTQ XL mass spectrometer, equipped with Proxeon nanospray source, in the range m/z 400-2000. The acquisition was controlled by a data-dependent product ion scanning procedure over the 3 most abundant ions, enabling dynamic exclusion (repeat count 1 and exclusion duration 1 min). The mass isolation window and collision energy were set to m/z 3 and 35%, respectively.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Taiti C, Costa C, Menesatti P, Comparini D, Bazihizina N, Azzarello E, Masi E, Mancuso S. Class-modeling approach to PTR-TOFMS data: a peppers case study. J Sci Food Agric. 2015 Jun;95(8):1757-63. doi:10.1002/jsfa.6761. PMID:24871623.</p><p><strong>[2]</strong> Brilli F, Ruuskanen TM, Schnitzhofer R, M\u00fcller M, Breitenlechner M, Bittner V, Wohlfahrt G, Loreto F, Hansel A. Detection of plant volatiles after leaf wounding and darkening by proton transfer reaction 'time-of-flight' mass spectrometry (PTR-TOF). PLoS One. 2011;6(5):e20419. doi:10.1371/journal.pone.0020419. PMID:21637822.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>SPME-GC-MS:</strong></p><p>The data handling was supported by GCMSsolution ver.4.30 and GCsolution software (Shimadzu) for GC-MS and GC-FID analysis, respectively.</p><p><br></p><p><strong>PTR-MS:</strong></p><p>Data obtained by PTR-TOF analysis were processed as previously described[1]. Briefly, raw spectra data (count rate of the analytes recorded were expressed in number of counts per second, cps) were acquired with TOFDaq software (TOFwerk AG, Switzerland) using a dead time of 20 ns for the Poisson correction and peak extraction followed the methodology previously described[1], employing a modified Gaussian peak shape. For peak quantification the resulting data were corrected according to the duty cycle and the signals were normalized to the primary ion signal (cps to ncps) as previously described[2]. For each sample, the average data resulting from 20 consecutive seconds of measurement were extracted 3 min after the beginning of the experiment. All spectra were corrected for count losses due to the detector dead time, applying Poisson correction in the DAQ settings of TOFDAQ configuration options. External calibration was automatically done by the acquisition program and it achieved a mass accuracy of 0.001 Th for the considered mass range, which was in most cases sufficient for formula identification.</p><p><br></p><p><strong>LC-MS/MS(Protein):</strong></p><p>MASCOT software package (Matrix Science, UK) was used to identify protein spots unambiguously from an updated tuber non-redundant sequence database from NCBI by using a mass tolerance value of 2.2 Da for precursor ion and 0.8 Da for MS/MS fragments, trypsin as proteolytic enzyme, a missed cleavages maximum value of 2 and Cys carbamidomethylation and Met oxidation as fixed and variable modification, respectively. Candidates with more than 2 assigned peptides with MASCOT score &gt; 25 (p &lt; 0.01 for a significant identification) were further evaluated by the comparison of their calculated mass value with that obtained from SDS-PAGE. Where appropriate, protein identification was checked manually to provide for a false positive rate of less than 1%. Identified proteins were then sorted basing on their exponentially modified protein abundance index (emPAI) for each candidate spots; this index allows to estimate relative quantification based on protein coverage.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Cappellin, L. et al. On data analysis in PTR-TOF-MS: From raw spectra to data mining. Sens. Actuators, B 155, 183\u2013190 (2011). doi:10.1016/j.snb.2010.11.044</p><p><strong>[2]</strong> Herbig J, M\u00fcller M, Schallhart S, Titzmann T, Graus M, Hansel A. On-line breath analysis with PTR-TOF. J Breath Res. 2009 Jun;3(2):027004. doi:10.1088/1752-7155/3/2/027004. PMID:21383459.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Tandem Gas Chromatography MS - positive",
+                        "filename": "a_MTBLS808_GCxGC-MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "PTR-MS",
+                        "filename": "a_MTBLS808_PTR-MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS808_LC-MS2.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

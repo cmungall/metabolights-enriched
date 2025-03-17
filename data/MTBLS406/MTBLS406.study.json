@@ -1,0 +1,1969 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-08-22T00:00:00",
+        "statusUpdateTime": "2022-08-22T17:58:55.626371",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Created With Tool",
+                "value": "mzml2isa 1.0.3"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS406",
+        "title": "",
+        "description": "",
+        "submissionDate": "2019-01-08",
+        "publicReleaseDate": "2022-08-22",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "25",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "103",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "40",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MI",
+                "file": "http://purl.obolibrary.org/obo/mi.owl",
+                "version": "6",
+                "description": "PSI Molecular Interactions"
+            },
+            {
+                "comments": [],
+                "name": "CRISP",
+                "file": "http://data.bioontology.org/ontologies/CRISP",
+                "version": "6",
+                "description": "Computer Retrieval of Information on Scientific Projects Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "IOBC",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS406",
+                "filename": "s_MTBLS406.txt",
+                "title": "Azithromycin promotes relapse by disrupting immune and metabolic networks after allogeneic stem cell transplantation",
+                "description": "Administration of azithromycin after allogeneic hematopoietic stem cell transplantation for hematological malignancies has been associated with relapse in a randomized phase 3 controlled clinical trial. Studying 240 samples from patients randomized in this trial is a unique opportunity to better understand the mechanisms underlying relapse, the first cause of mortality after transplantation. We used multi-omics on patients' samples to decipher immune alterations associated with azithromycin intake and post-transplant relapsed malignancies. Azithromycin was associated with a network of altered energy metabolism pathways and immune subsets, including T cells biased toward immunomodulatory and exhausted profiles. In vitro, azithromycin exposure inhibited T cells cytotoxicity against tumor cells and impaired T cells metabolism through glycolysis inhibition, mitochondrial genes downregulation, and immunomodulatory genes upregulation, notably SOCS1. These results highlight that azithromycin directly affects immune cells that favor relapse, which raises caution about long-term use of azithromycin treatment in patients at high risk of malignancies.",
+                "submissionDate": "2019-01-08",
+                "publicReleaseDate": "2022-08-22",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "David",
+                        "lastName": "Michonneau",
+                        "email": "david.michonneau@aphp.fr",
+                        "affiliation": "INSERM U976, APHP, Universit\u00e9 Paris Cit\u00e9",
+                        "address": "Hematology and transplantation, Hopital Saint Louis, 1 avenue Claude Vellefaux, 75010 PARIS, FRANCE",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "33 6 30 60 36 60",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "40",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Nicolas",
+                        "lastName": "Vallet",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Sophie",
+                        "lastName": "Le Grand",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Louise",
+                        "lastName": "Bondeelle",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Benedicte",
+                        "lastName": "Hoareau",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Aurelien",
+                        "lastName": "Corneau",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Delphine",
+                        "lastName": "Bouteiller",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Simon",
+                        "lastName": "Tournier",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Lucille",
+                        "lastName": "Lew-Derivry",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Armelle",
+                        "lastName": "Bohineust",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Marie",
+                        "lastName": "Tourret",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Delphine",
+                        "lastName": "Gibert",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ethan",
+                        "lastName": "Mayeur",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Rapha\u00ebl A",
+                        "lastName": "Itzykson",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Kim",
+                        "lastName": "Pacchiardi",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Brian",
+                        "lastName": "Ingram",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Stephane",
+                        "lastName": "Cassonnet",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Patricia",
+                        "lastName": "Lepage",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "R\u00e9gis",
+                        "lastName": "Peffault de Latour",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "G\u00e9rard",
+                        "lastName": "Socie",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Anne",
+                        "lastName": "Bergeron",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "metabolon",
+                        "termSource": {
+                            "comments": [],
+                            "name": "IOBC",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.jp/bio/4/id/201606002506532625"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Allogeneic Hematopoietic Stem Cell Transplantation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "40",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C46089"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Tumor Immunity",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "40",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19094"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Azithromycin",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "40",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C28844"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Randomized Clinical Trial",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "40",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C15417"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Azithromycin promotes relapse by disrupting immune and metabolic networks after allogeneic stem cell transplantation",
+                        "authorList": "Vallet Nicolas, Le Grand Sophie, Bondeelle Louise, Hoareau Benedicte, Corneau Aurelien, Bouteiller Delphine, Tournier Simon, Lew-Derivry Lucille, Bohineust Armelle, Tourret Marie, Gibert Delphine, Mayeur Ethan, Itzykson Rapha\u00ebl A., Pacchiardi Kim, Ingram Brian, Cassonnet Stephane, Lepage Patricia, Peffault de Latour R\u00e9gis, Socie G\u00e9rard, Bergeron Anne, Michonneau David",
+                        "pubMedID": "35984904",
+                        "doi": "10.1182/blood.2022016926",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment ",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment ",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "HSCT timepoint",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Gender",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Gender",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17357"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Age",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "age",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000246"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Diagnosis",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Diagnosis",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C15220"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Acute GVHD",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "acute graft vs. host disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004599"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Acute GVHD grading",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Acute GVHD grading",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Relapse",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease recurrence",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004952"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Relapse delay after HSCT",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "aGVHD delay after HSCT",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Time Point",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>This study was conducted with samples from patients included in the multicenter, randomized, double-blind, placebo-controlled phase 3 superiority trial ALLOZITHRO (NCT01959100)<strong>[1]</strong>. This study was approved by the local ethic committee and Institutional Review Board (CPP Ile de France IV, IRB number 00003835, reference number 2013-000499-14). Samples were retrieved from CRYOSTEM Consortium (reference number CS-1801)<strong>[2]</strong>. Cryostem consortium was validated by IRB Sud-M\u00e9diterran\u00e9e 1 (reference number AC-2011-1420) and the Commission National Informatique et Libert\u00e9 for data protection (reference number nz70243374i n\u00b0912120). All patients gave their written consent for clinical research. This non-interventional research study with no additional clinical procedure was carried out in accordance with the Declaration of Helsinki. Data analyses were carried out using a database with all patient identifiers removed. Healthy donor PBMC were isolated from residual blood after apheresis provided by Etablissement Fran\u00e7ais du Sang (18/EFS/032).</p><p><br></p><p>Frozen peripheral blood mononuclear cells (PBMC) samples from patients who received <strong>azithromycin (n= 98; 35 relapses)</strong> or <strong>placebo (n=106; 28 relapses)</strong> were studied with mass cytometry to determine if azithromycin intake may be associated with immune subsets alterations. The panel was designed to identify phenotypical subsets with 31 targeted antigens and to identify functional states (activated, resting, exhausted) with 14 antigens.</p><p><br></p><p>Frozen plasma <strong>(azithromycin, n=110; 41 relapses; placebo, n=109; 28 relapses)</strong> and dried white blood cells pellets <strong>(azithromycin, n=110; 39 relapses; placebo, n=110; 28 relapses)</strong> aliquots were processed by Metabolon (Durham, USA). Untargeted metabolomics profiling using ultrahigh performance liquid chromatography in tandem with mass spectrometry (UPLC-MS/MS), quality assurance/quality control, compounds identification and quantification were performed by Metabolon company as previously described<strong>[3]</strong>.</p><p><br></p><p>Samples from azithromycin and placebo patients were collected at a median time of 85 and 84 days after allo-HSCT, respectively. Biphasic distribution of time from allo-HSCT to sample collection matched with CRYOSTEM guidelines which plan sample collection at the time of acute GvHD (aGvHD) or in the absence of aGvHD around day+100 after allo-HSCT (see Fig. 1 in the paper associated with this study)<strong>[2]</strong>. Characteristics of patients subsets with a sample available were comparable between azithromycin and placebo groups (see <strong>Table S1</strong> in the paper associated with this study).</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Bergeron A, Chevret S, Granata A, Chevallier P, Vincent L, Huynh A, Tabrizi R et al. ALLOZITHRO Study Investigators. Effect of Azithromycin on Airflow Decline-Free Survival After Allogeneic Hematopoietic Stem Cell Transplant: The ALLOZITHRO Randomized Clinical Trial. JAMA. 2017 Aug 8;318(6):557-566. doi:10.1001/jama.2017.9938. PMID:28787506.</p><p><strong>[2]</strong> CRYOSTEM. CRYOSTEM Biological Resources. CRYOSTEM Biological Resources https://www.cryostem.org/en/collection-2/biological-resources/ (2021).</p><p><strong>[3]</strong> Michonneau D, Latis E, Curis E, Dubouchet L, Ramamoorthy S, Ingram B, de Latour RP, Robin M, de Fontbrune FS, Chevret S, Rogge L, Soci\u00e9 G. Metabolomics analysis of human acute graft-versus-host disease reveals changes in host and microbiota-derived metabolites. Nat Commun. 2019 Dec 13;10(1):5695. doi:10.1038/s41467-019-13498-3. PMID:31836702.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                        },
+                        "description": "Samples are prepared using the automated MicroLab STAR\u00ae system from Hamilton Company.  Several recovery standards are added prior to the first step in the extraction process for QC purposes.  Samples are extracted with methanol under vigorous shaking for 2 min (Glen Mills GenoGrinder 2000) to precipitate protein and dissociate small molecules bound to protein or trapped in the precipitated protein matrix, followed by centrifugation to recover chemically diverse metabolites.  The resulting extract is divided into five fractions: two for analysis by two separate reverse phase (RP)/UPLC-MS/MS methods using positive ion mode electrospray ionization (ESI), one for analysis by RP/UPLC-MS/MS using negative ion mode ESI, one for analysis by HILIC/UPLC-MS/MS using negative ion mode ESI, and one reserved for backup. Samples are placed briefly on a TurboVap\u00ae (Zymark) to remove the organic solvent and stored overnight under nitrogen. In preparation for analysis, samples are then reconstituted in solvents compatible to each of the four methods. ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "All methods utilize a Waters ACQUITY ultra-performance liquid chromatography (UPLC). Each reconstitution solvent contains a series of standards at fixed concentrations to ensure injection and chromatographic consistency. Method 1/Pos 1: One aliquot is analyzed using acidic positive ion conditions, chromatographically optimized for more hydrophilic compounds. In this method, the extract is gradient-eluted from a C18 column (Waters UPLC BEH C18-2.1x100 mm, 1.7 um) using water and methanol, containing 0.05% perfluoropentanoic acid (PFPA) and 0.1% formic acid (FA). Method 2/Pos 2: A second aliquot is also analyzed using acidic positive ion conditions, but is chromatographically optimized for more hydrophobic compounds. In this method, the extract is gradient eluted from the aforementioned C18 column using methanol, acetonitrile, water, 0.05% PFPA and 0.01% FA, and is operated at an overall higher organic content. Method 3/Neg 1: A third aliquot is analyzed using basic negative ion optimized conditions using a separate dedicated C18 column. The basic extracts are gradient-eluted from the column using methanol and water, however with 6.5 mM Ammonium Bicarbonate at pH 8. Method 4/Neg 2: The fourth aliquot is analyzed via negative ionization following elution from a HILIC column (Waters UPLC BEH Amide 2.1x150 mm, 1.7 um) using a gradient consisting of water and acetonitrile with 10 mM Ammonium Formate, pH 10.8. ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "A Thermo Scientific Q-Exactive high resolution/accurate mass spectrometer interfaced with a heated electrospray ionization (HESI-II) source and Orbitrap mass analyzer operated at 35,000 mass resolution was used. The MS analysis alternates between MS and data-dependent MSn scans using dynamic exclusion.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument software",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Detector mode",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Spectrum representation",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Inlet type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of scans",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Detector",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument serial number",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Raw data file checksum type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument manufacturer",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Raw data file format",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Raw data file checksum value",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument software version",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Native spectrum identifier format",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data file content",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Time range",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data file checksum type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "Raw data were extracted, peak-identified, and QC processed using Metabolon's hardware and software. These systems are built on a web-service platform utilizing Microsoft's .NET technologies, which run on high-performance application servers and fiber-channel storage arrays in clusters to provide active failover and load-balancing.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "Compounds were identified by comparison to library entries of purified standards or recurrent unknown entities. Metabolon maintains a library based on authenticated standards that contains the retention time/index (RI), mass to charge ratio (m/z), and chromatographic data (including MS/MS spectral data) on all molecules present in the library. More than 4500 commercially available purified standard compounds have been acquired and registered into LIMS for analysis on all platforms for determination of their analytical characteristics. Additional mass spectral entries have been created for structurally unnamed biochemicals, which have been identified by virtue of their recurrent nature (both chromatographic and mass spectral). These compounds have the potential to be identified by future acquisition of a matching purified standard or by classical structural analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data Transformation software",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data Transformation software version",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method1_POS_1_20816_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method2_POS_2_20816_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method3_NEG_1_20816_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method4_NEG_2_20816_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method1_POS_1_21237_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method2_POS_2_21237_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method3_NEG_1_21237_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method4_NEG_2_21237_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method1_POS_1_21238_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method2_POS_2_21238_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method3_NEG_1_21238_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Q Exactive",
+                        "filename": "a_MTBLS406_Method4_NEG_2_21238_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

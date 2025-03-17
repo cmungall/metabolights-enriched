@@ -1,0 +1,762 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-08-31T00:00:00",
+        "statusUpdateTime": "2023-08-31T18:42:17.796672",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS6667",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2022-12-04",
+        "publicReleaseDate": "2023-08-31",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "SRAO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "roleAFRL",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            },
+            {
+                "comments": [],
+                "name": "GO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "ENVO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS6667",
+                "filename": "s_MTBLS6667.txt",
+                "title": "Streamlined identification of strain engineering targets for bioprocess improvement using metabolic pathway enrichment analysis",
+                "description": "Metabolomics is a powerful tool for the identification of genetic targets for bioprocess optimisation. However, in most cases, only the biosynthetic pathway directed to product formation is analysed, limiting the identification of these targets. Some studies have used untargeted metabolomics, allowing a more unbiased approach, but data interpretation using multivariate analysis is usually not straightforward and requires time and effort. Here we show, for the first time, the application of metabolic pathway enrichment analysis using untargeted and targeted metabolomics data to identify genetic targets for bioprocess improvement in a more streamlined way. The analysis of an Escherichia coli succinate production bioprocess with this methodology revealed three significantly modulated pathways during the product formation phase: the pentose phosphate pathway, pantothenate and CoA biosynthesis and ascorbate and aldarate metabolism. From these, the two former pathways are consistent with previous efforts to improve succinate production in Escherichia coli. Furthermore, to the best of our knowledge, ascorbate and aldarate metabolism is a newly identified target that has so far never been explored for improving succinate production in this microorganism. This methodology therefore represents a powerful tool for the streamlined identification of strain engineering targets that can accelerate bioprocess optimisation.",
+                "submissionDate": "2022-12-04",
+                "publicReleaseDate": "2023-08-31",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Joan",
+                        "lastName": "Cortada-Garcia",
+                        "email": "",
+                        "affiliation": "University of Edinburgh",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "roleAFRL",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.allotrope.org/ontologies/role#AFRL_0000405"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ronan",
+                        "lastName": "Daly",
+                        "email": "",
+                        "affiliation": "University of Glasgow",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Supervisor",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C134832"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Susan",
+                        "lastName": "Arnold",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "Alison",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Supervisor",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C134832"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Karl",
+                        "lastName": "Burgess",
+                        "email": "karl.burgess@ed.ac.uk",
+                        "affiliation": "University of Edinburgh",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Pathway overrepresentation data",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EDAM",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://edamontology.org/data_3953"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Biological Process Engineering",
+                        "termSource": {
+                            "comments": [],
+                            "name": "SRAO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.fairsharing.org/ontology/subject/SRAO_0000223"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "bioreactor",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ENVO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ENVO_00002123"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Streamlined identification of strain engineering targets for bioprocess improvement using metabolic pathway enrichment analysis.",
+                        "authorList": "Cortada-Garcia J, Daly R, Arnold SA, Burgess K.",
+                        "pubMedID": "37563133",
+                        "doi": "10.1038/s41598-023-39661-x",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Cellular location",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "cellular_component",
+                            "termSource": {
+                                "comments": [],
+                                "name": "GO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/GO_0005575"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Bacterial strain:</strong></p><p>All experiments described in this article were carried out using a proprietary industrial <em>E. coli</em> strain (Ingenza Ltd., UK) previously described<strong>[1]</strong>, based on the <em>E. coli</em> NZN111 strain with deletions of the pyruvate-formate lyase (pflB) and lactate dehydrogenase (ldhA) genes<strong>[2]</strong>.</p><p><br></p><p>Samples for off-line liquid chromatography-mass spectrometry (LC-MS) analysis were removed from the bioreactor and collected into dry-ice-cold universal vials, placed briefly on an ethanol dry ice bath for a fast cold sample quenching and immediately spun down twice at 4 \u00b0C and 13,000 x g for 10 min. The supernatant and cell pellet were collected as extracellular and intracellular fractions respectively and stored at \u221280 \u00b0C until further extraction for LC-MS analysis.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1] </strong>Cortada-Garcia J, Haggarty J, Moses T, Daly R, Arnold SA, Burgess K. On-line untargeted metabolomics monitoring of an Escherichia coli succinate fermentation process. Biotechnol Bioeng. 2022 Oct;119(10):2757-2769. doi:10.1002/bit.28173. PMID: 35798686.</p><p><strong>[2]</strong> Chatterjee R, Millard CS, Champion K, Clark DP, Donnelly MI. Mutation of the ptsG gene results in increased production of succinate in fermentation of glucose by Escherichia coli. Appl Environ Microbiol. 2001 Jan;67(1):148-54. doi:10.1128/AEM.67.1.148-154.2001. PMID:11133439.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Extracellular fractions:</strong></p><p>Extracellular fraction extractions were prepared by diluting 10 \u00b5l of sample into 400 \u00b5l of 1:3:1 chloroform:methanol:water (C:M:W). The samples were then mixed vigorously in a chilled microtube mixer for 5 min and then centrifuged for 3 min at 13,000 x g and 4 \u00b0C. At this point, 360 \u00b5l of supernatant were transferred into a new microtube and stored at -80 \u00b0C until LC-MS analysis. 25 \u00b5l of supernatant of each extracted sample were combined into 1 single vial to generate a pooled sample. During handling, the 1:3:1 C:M:W extraction solvent and the samples were kept on an ethanol dry ice bath.</p><p><br></p><p><strong>Intracellular fractions:</strong></p><p>Prior to extraction, intracellular fractions were washed by resuspending the cell pellets in 1 ml of sterile phosphate buffer solution. The phosphate buffer was removed by spinning down the samples twice for 10 min at 13,000 x g and 4 \u00b0C. For metabolite extraction 200 \u00b5l of 1:3:1 C:M:W were added for every 5 mg of WCW pellet, thus normalising all samples by their biomass concentration. Cell pellets were resuspended by pipetting, and then the samples were mixed vigorously in a chilled microtube mixer for 1 h, before being centrifuged for 3 min at 13,000 x g and 4 \u00b0C. At this point, 200 \u00b5l of supernatant were transferred into a new microtube. The samples were further diluted by adding 200 \u00b5l 1:3:1 C:M:W and stored at -80 \u00b0C until LC-MS analysis. 25 \u00b5l of supernatant of each extracted sample were combined into 1 single vial to generate a pooled sample. During handling, the 1:3:1 C:M:W extraction solvent and the samples were kept on an ethanol dry ice bath. The first 2 fermentation samples had a very small biomass pellet, which made the extraction process impractical, particularly the resuspension of the pellet in the amount of extraction solvent required for sample normalisation. For this reason, these first 2 time points from the intracellular fraction were not included in the analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>LC-MS analysis was carried out with a Thermo Scientific Dionex Ultimate 3000 HPLC system coupled to a Q Exactive Orbitrap mass spectrometer. Metabolite separation was performed using a zwitterionic hydrophilic interaction liquid chromatography (ZIC-pHILIC) column (Merck SeQuant) (150 mm x 4.6 mm, 5 \u00b5m particle size) equipped with the corresponding guard column (20 mm x 2.1 mm, 5 \u00b5m particle size) (Merck SeQuant). A linear gradient was applied to the column, running from 80 to 20% solvent B over 15 min, followed by a 2 min wash with 5% solvent B, and 9 min re-equilibration with 80% solvent B, where solvent B was acetonitrile and solvent A (the remaining percentage) was 20 mM ammonium carbonate in water. The total flow rate was 300 \u00b5l/min, column temperature was maintained at 25 \u00b0C, sample injection volume was 10 \u00b5l, samples were maintained at 4 \u00b0C for the duration of the analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite detection was done in a high-resolution Thermo Scientific Q Exactive Orbitrap mass spectrometer, with a HESI probe used as the ion source, at 70,000 resolution, mass range 70-1050 m/z in polarity switching mode with a spray voltage of \u00b13.8 kV. Capillary temperature was set to 320 \u00b0C, sheath gas 40 a.u., AGC target 1 x 10^6 a.u. and the lock masses in positive and negative mode were 144.9822 m/z and 100.9856 m/z, respectively.&nbsp;&nbsp;</p><p><br></p><p>Fragmentation was performed on pooled samples by isolating ions in a 1.2 m/z window and fragmentation with stepped HCD collision energy of 24.8, 60.0 and 94.8 % for both polarities with 17,500 resolution and AGC target 1 x 10^5 a.u. Top 10 ions (intensity threshold 1.3 x 10^5) were selected for fragmentation and then added to a dynamic exclusion window for 15 s.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Raw mass spectrometry files were converted into <strong>.mzXml</strong> files in profile mode with the open-source software <strong>ProteoWizard[1] (Version 3.0)</strong>. Further data processing and analysis was performed using the <strong>PiMP</strong> online platform<strong>[2]</strong> (date of use: 08 Jul 2020). Peak detection and filtering were set to 3 ppm of the theoretical monoisotopic mass, minimum intensity to 5000, noise to 0.8, retention window to 0.05 and minimum number of detections to 3. Peak retention time was corrected using the <strong>Obiwarp algorithm[3]</strong> from the <strong>xcms package (Version 1.48.0)</strong>.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Chambers MC, Maclean B, Burke R, Amodei D, Ruderman DL, Neumann S, Gatto L et al. A cross-platform toolkit for mass spectrometry and proteomics. Nat Biotechnol. 2012 Oct;30(10):918-20. doi:10.1038/nbt.2377. PMID:23051804.</p><p><strong>[2]</strong> Gloaguen Y, Morton F, Daly R, Gurden R, Rogers S, Wandy J, Wilson D, Barrett M, Burgess K. PiMP my metabolome: an integrated, web-based tool for LC-MS metabolomics data. Bioinformatics. 2017 Dec 15;33(24):4007-4009. doi: 10.1093/bioinformatics/btx499. PMID: 28961954; PMCID: PMC5860087.</p><p><strong>[3]</strong> Prince JT, Marcotte EM. Chromatographic alignment of ESI-LC-MS proteomics data sets by ordered bijective interpolated warping. Anal Chem. 2006 Sep 1;78(17):6140-52. doi:10.1021/ac0605344. PMID:16944896.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite annotation was performed using a local copy of the <strong>KEGG</strong> database<strong>[1]</strong> (<strong>Metabolomics Standards Initiative (MSI)</strong> class 2/3 annotation<strong>[2]</strong>), the <strong>fragmentation library</strong> (<strong>MSI class 2</strong> annotation) and by matching the retention time and accurate mass to reference standards using <strong>PiMP</strong>, which are listed in the <strong>Supplementary file</strong>, <strong>Std_list_Metabolites.xlsx</strong>, in the paper associated with this study.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Kanehisa M, Goto S. KEGG: kyoto encyclopedia of genes and genomes. Nucleic Acids Res. 2000 Jan 1;28(1):27-30. doi:10.1093/nar/28.1.27. PMID:10592173.</p><p><strong>[2]</strong> Sumner LW, Amberg A, Barrett D, Beale MH, Beger R, Daykin CA, Fan TW, Fiehn O et al. Proposed minimum reporting standards for chemical analysis Chemical Analysis Working Group (CAWG) Metabolomics Standards Initiative (MSI). Metabolomics. 2007 Sep;3(3):211-221. doi:10.1007/s11306-007-0082-2. PMID:24039616.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS6667_Extra_LC-MS_alternating_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS6667_Intra_LC-MS_alternating_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,519 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-08-19T00:00:00",
+        "statusUpdateTime": "2022-08-19T13:06:08.128218",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS4684",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2022-04-14",
+        "publicReleaseDate": "2022-08-19",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "nmrCVNMR",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS4684",
+                "filename": "s_MTBLS4684.txt",
+                "title": "Lipidomic analysis reveals altered lipid profiles of clinically healthy and periodontitis-affected gingival biopsies",
+                "description": "<p><strong>AIM:</strong> The role of lipids in periodontitis has not been well studied. Thus, this study aimed to explore periodontitis-associated lipid profile changes and identify differentially expressed lipid metabolites in gingival tissues.</p><p><strong>MATERIALS AND METHODS:</strong> Gingival tissues from 38 patients with periodontitis (periodontitis group) and 38 periodontally healthy individuals (control group) were collected. A UHPLC-QTOF-MS-based non-targeted metabolomics platform was used to identify and compare the lipid profiles of the two groups. The distribution and expression of related proteins were subsequently analyzed via immunohistochemistry to further validate the identified lipids.</p><p><strong>RESULTS:</strong> Lipid profiles significantly differed between the two groups, and 20 differentially expressed lipid species were identified. Lysophosphatidylcholines (lysoPCs), diacylglycerols (DGs) and phosphatidylethanolamines (PEs) were significantly upregulated, while triacylglycerols (TGs) were downregulated in the periodontitis group. Moreover, the staining intensity of ABHD5/CGI-58, secretory phospholipase A2 (sPLA2), and sPLA2-IIA was significantly stronger in the gingival tissues of patients with periodontitis than in those of healthy controls.</p><p><strong>CONCLUSIONS:</strong> LysoPCs, DGs, and PEs were significantly upregulated, whereas TGs were downregulated in gingival tissues of patients with periodontitis. Correspondingly, the immunohistochemical staining of ABHD5/CGI-58, sPLA2 and sPLA2-IIA in gingival tissues was consistent with the downstream production of lipid classes (lysoPCs, TGs and DGs).</p>",
+                "submissionDate": "2022-04-14",
+                "publicReleaseDate": "2022-08-19",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Min",
+                        "lastName": "Zhou",
+                        "email": "kqzhoumin@tongji.edu.cn",
+                        "affiliation": "School & Hospital of Stomatology, Tongji University",
+                        "address": "No.399, Yanchang Middle Road, Shanghai",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+86 13611873006",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "periodontitis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000649"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153193"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Case-Control Study",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C15197"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Gingival biopsies",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Lipidomic analysis reveals altered lipid profiles of clinically healthy and periodontitis-affected gingival biopsies",
+                        "authorList": "Min Zhou, Meng-huan Li, Chen Li, Xue Han, Bohan Yu, Xiang-zhen Yan, Yan Zhang, Xiao-juan Yang",
+                        "pubMedID": "",
+                        "doi": "10.1111/jcpe.13710",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The periodontal/gingival pocket tissues were collected (neither attached gingiva nor mucosa is included) with the incision 2-3 mm apical to the gingival margin and perpendicular to the long axis of the tooth, which should ensure adequate keratinized gingiva remaining. The gingival biopsies were approximately 2-3 mm wide in the coronal root direction and contained intact epithelium and connective tissue. An area of the gingival papilla with more connective tissue was trimmed with a 15C scalpel to obtain the gingival epithelium and a thin layer of connective tissue. To avoid bias caused by sampling from different sites, all specimens were taken from the buccal sides.</p><p><br></p><p>The <strong>control</strong> group was recruited from periodontally healthy individuals and successfully treated stable periodontitis patients. On a site level, the gingival tissue specimens contained clinical gingival health on an intact or reduced periodontium, which met the following clinical criteria: normal probing depth (PD 3 mm), clinical attachment loss (CAL 2 mm), without bleeding on probing, erythema or edema. The <strong>periodontitis</strong> group was recruited from subjects with generalized stage II CIV periodontitis, and the gingival tissue biopsies also met the following clinical criteria: PD 5 mm, bleeding on probing and interproximal CAL 3 mm.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Frozen tissues&nbsp;(25 \u00b1 2 mg) were homogenized after the addition of 7 volumes (vol/wt) of prechilled methanol:ultrapure water (2:5, v/v) with 1 mM BHT using a TissueLyser (JX-24, Jingxin, Shanghai, China) with zirconia beads at 60 Hz for 3 min. After storing overnight at -40 \u00b0C, the mixtures were transferred to a 10 mL glass tube. Following this, another 14 volumes of methanol:water (2:5, v/v) and 30 volumes of methyl tert-butyl ether were added. The mixtures were whirled for 30 s and centrifuged at 3000 rcf for 15 min. Subsequently, 450 \u03bcL of the supernatant was dried using nitrogen stream and then re-dissolved in 100 \u03bcL of dichloromethane:methanol (1:1, v/v) prior to UHPLC-QTOF-MS analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chromatographic separation was carried out using an Agilent UHPLC system utilizing a Phenomenex Kinetex C18 column (2.1 mm x 100 mm, 1.7 \u03bcm) at a flow rate of 0.3 mL/min and column temperature of 55 \u00b0C. The injection volume was 2 \u03bcL (ESI+). The mobile phases comprised (A) acetonitrile:water (6:4, v/v) and (B) isopropanol:acetonitrile (9:1, v/v), both with 10 mM ammonium formate. The following linear gradient elution protocol was used: 40% B for 0.0 min; 100% B for 12.0 min; 100% B for 13.5 min; 40% B for 13.7 min and maintained for 18.0 min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The eluents were analyzed in positive ion mode on a hybrid quadrupole time-of-light mass spectrometer (Triple TOF 5600 system, AB Sciex, Comcord, ON, Canada) equipped with a DuoSpray ion source. The pressures of nebulizer gas (GS1), heater gas (GS2) and curtain gas (CUR) were set to 60, 60 and 30 psi, respectively. Ionization voltage (ISVF) was set to 5000 V and spray temperature was 600 \u00b0C. A typical <strong>Information Dependent Acquisition</strong> (<strong>IDA</strong>) comprising the acquisition of a survey TOF MS spectrum and then a MS/MS experiment was applied in the analysis. The TOF MS scan was operated under the high resolution settings with a range of 60-1000 m/z and an accumulation time of 200 ms. The declustering potential (DP) and collision energy (CE) were set at 100 V and 10 eV, respectively, in the positive ion mode. In the second experiment, up to 6 candidate precursors per scan cycle were fragmented in collision-induced dissociation (CID) by a CE setting at 45 eV, and the data were collected at a range of 25-1000 m/z with 50 ms accumulation time for the products of each precursor. The software for controlling instrument and collecting data was Analyst TF 1.7 (AB Sciex, Comcord, ON, Canada).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>ProteoWizard</strong> was used to convert UPLC-QTOF-MS raw data to <strong>mzXML</strong> format, which was then analyzed in the <strong>R</strong> software platform with <strong>XCMS</strong> and <strong>CAMERA</strong> packages. The peak picking, alignment and retention time correction (method = obiwarp) were conducted in the <strong>XCMS</strong> package. The isotope peak, adducts and fragments were annotated with default parameters in the <strong>CAMERA</strong> package. A peak table file containing the final data, including observations (sample name), variables (rt_mz) and peak abundances, was exported. After normalizing the data to total peak abundance, univariate and multivariate statistical analyses were performed.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The accurate m/z of precursors and product ions were matched against <strong>Metlin</strong>, <strong>MassBank</strong>, <strong>LipidBlast</strong> databases and in-house standard library including retention time, accurate precursors and product ions.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS4684_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

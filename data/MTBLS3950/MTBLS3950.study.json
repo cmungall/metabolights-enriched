@@ -1,0 +1,523 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-03-23T00:00:00",
+        "statusUpdateTime": "2022-03-23T08:07:26.167570",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS3950",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-12-09",
+        "publicReleaseDate": "2022-03-23",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS3950",
+                "filename": "s_MTBLS3950.txt",
+                "title": "A Combined Proteomic and Metabolomic Strategy for Allergens Characterization in Natural and Fermented Brassica napus Bee Pollen",
+                "description": "<p>Bee pollen is consumed for its nutritional and pharmacological benefits, but it also contains hazardous allergens which has not been identified. Here, we identified 2 potential allergens, glutaredoxin and oleosin-B2, in <em>Brassica napus</em> (<em>B. napus</em>) bee pollen using mass spectrometry-based proteomics analyses, and used bioinformatics to predict their antigenic epitopes. Comparison of fermented (by <em>Saccharomyces cerevisiae</em>) and unfermented bee pollen samples indicated that glutaredoxin and oleosin-B2 contents were significantly decreased following fermentation, while the contents of their major constituent oligopeptides and amino acids were significantly increased based on metabolomics analyses. Immunoblot analysis indicated that the IgE-binding affinity with extracted bee pollen proteins was also significantly decreased after fermentation, suggesting a reduction in the allergenicity of fermented bee pollen. Furthermore, fermentation apparently promoted the biosynthesis of L-valine, L-isoleucine, L-tryptophan and L-phenylalanine, as well as their precursors or intermediates. Thus, fermentation could potentially alleviate allergenicity, while also positively affecting nutritional properties of <em>B. napus</em> bee pollen. Our findings might provide a scientific foundation for improving the safety of bee pollen products to facilitate its wider application.</p>",
+                "submissionDate": "2021-12-09",
+                "publicReleaseDate": "2022-03-23",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Qiangqiang",
+                        "lastName": "Li",
+                        "email": "qiangqiangli1991@163.com",
+                        "affiliation": "Institute of Apicultural Research, Chinese Academy of Agricultural Sciences",
+                        "address": "Xiangshan Beigou No.1, Haidian District, Beijing, China",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Bee Pollen",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C87557"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "fermentation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001624"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "allergen",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_50904"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A Combined Proteomic and Metabolomic Strategy for Allergens Characterization in Natural and Fermented Brassica napus Bee Pollen",
+                        "authorList": "Yin Shuting, Tao Yuxiao, Jiang Yusuo, Meng Lifeng, Zhao Liuwei, Xue Xiaofeng, Li Qiangqiang, Wu Liming",
+                        "pubMedID": "35155540",
+                        "doi": "10.3389/fnut.2022.822033",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><em>B. napus</em> bee pollen samples were collected from the apiary of the Institute of Apicultural Research, Chinese Academy of Agricultural Sciences in April 2020. Samples were freeze-dried and ground into powder, and then subject to 7 kGy irradiation sterilization (IS) and stored at -80 \u00b0C. The fermented bee pollen samples were prepared according to our previously reported method with several modifications<strong>[1]</strong>. Briefly, 5 g sterilized bee pollen powder was mixed with 10 mL ultrapure water, then combined with 150 mg active dry <em>S. cerevisiae</em> (Angel Yeast Co., Ltd., Yichang, Hubei Province, China). The mixture was incubated at 40 \u00b0C for 48 h of fermentation. Fermented samples were again freeze-dried and stored at -80 \u00b0C before analysis.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Yan S, Li QQ, Xue XF, Kai W, Zhao LW, Wu LM. Analysis of improved nutritional composition of bee pollen (Brassica campestris L) after different fermentation treatments. Int J Food Sci.Technol. 2019 54:2169-2181. doi:10.1111/ijfs.14124.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For metabolite detection, 100 mg freeze-dried bee pollen powder was mixed with 100 \u03bcL of ultrapure water, followed by addition of 400 \u03bcL methanol. Samples were vortexed for 5 min and ultrasonicated for 10 min. After centrifugation at 13,000 x g at 4 \u00b0C for 15 min, supernatants were collected and filtered using an Agilent 0.22 \u03bcm nylon filter. A total of 10 \u03bcL of each sample was taken preparation of quality controls.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>An Agilent 1290 Infinity II series ultra-performance liquid chromatography (UPLC) system equipped with an Eclipse Plus C18 Rapid Resolution HD column (2.1 mm x 100 mm, 1.8 \u03bcm, Agilent Technologies, USA) was applied for sample separation. Mobile phases A and B were water and acetonitrile (both containing 0.1% formic acid), respectively. The gradient was set as follows: 0.0 min, 5% B; 2.0 min, 5% B; 20.0 min, 100% B; 25.0 min, 100% B; post time 5.0 min, with 5% B. The flow rate was 0.3 mL/min, and the injection volume was 1 \u03bcL.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>An Agilent 6545 ESI-Q-TOF system was used for MS acquisition in negative ionization mode. The mass spectrum parameters were identical to those in previous work<strong>[1]</strong>. Nitrogen was used for drying, ionization and collision. Reference ions were used to calibrate the mass accuracy. Reference ions 112.985587 and 1033.988109 m/z were used for real-time calibration during acquisition.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Li Q, Sun M, Wan Z, Liang J, Betti M, Hrynets Y, Xue X, Wu L, Wang K. Bee Pollen Extracts Modulate Serum Metabolism in Lipopolysaccharide-Induced Acute Lung Injury Mice with Anti-Inflammatory Effects. J Agric Food Chem. 2019 Jul 17;67(28):7855-7868. doi:10.1021/acs.jafc.9b03082. Epub 2019 Jul 5. PMID:31274310.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Detected compounds were analyzed using Agilent <strong>Mass Profiler Professional</strong> software.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were identified with the <strong>METLIN</strong> database (DB). Metabolites with DB scores above 80 and mass error lower than 5 ppm (0.0005%) were screened as biomarkers for statistical analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS3950_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

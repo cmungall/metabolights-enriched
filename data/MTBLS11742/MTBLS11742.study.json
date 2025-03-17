@@ -1,0 +1,559 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-12-03T13:54:03.151348",
+        "statusUpdateTime": "2024-12-03T13:54:03.151348",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS11742",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "22/11/2024",
+        "publicReleaseDate": "2024-12-03",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "Metabolights",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "SIO",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS11742",
+                "filename": "s_MTBLS11742.txt",
+                "title": "Steady state isotope tracing in C. elegans (GC-MS analyses)",
+                "description": "<p>The metabolic network, composed of thousands of metabolic reactions, is essential for any organism. Despite its importance, a systems level understanding of how metabolic network is wired by reactions that carry flux in unperturbed condition and rewired by transcriptionally activating or repressing metabolic genes in response to metabolic perturbations are still lacking in any animal. Here, we apply Worm Perturb-Seq (WPS), a high-throughput, whole-animal RNAi and RNA-seq method, to ~900 metabolic genes in the nematode Caenorhabditis elegans. We derive a metabolic gene regulatory network (mGRN) in which 385 perturbations are connected to 9,414 genes by more than 110,000 interactions. The mGRN has a highly modular structure in which 22 perturbation clusters connect to 44 gene expression programs, involving metabolism, stress response and other functions. The mGRN reveals different modes of transcriptional rewiring from simple reaction and pathway compensation to rerouting and more complex network coordination. Using metabolic network modeling, we discover a design principle of transcriptional rewiring we name the \u2018compensation/repression\u2019 (CR) model. The CR model explains the majority of the transcriptional responses in metabolic genes and reveals a high-level of compensation and repression in five core metabolic functions related to energy and biomass.</p><p><br></p><p>Leveraging the comprehensive data from WPS, we find that the transcriptional response to metabolic gene perturbations can be integrated with the genome-scale metabolic network models to infer a highly constrained, semi-quantitative flux distribution of unperturbed animal. We discover several features of adult C. elegans metabolism, including cyclic flux through the pentose phosphate pathway, lack of de novo purine synthesis flux, and the primary use of amino acids and bacterial RNA as a tricarboxylic acid cycle carbon source, all of which we validate by stable isotope tracing. Our strategy for inferring metabolic wiring based on transcriptional phenotypes should be applicable to a variety of systems, including human cells.</p><p><br></p><p><strong>GC-MS analyses</strong> is reported in the current study&nbsp;<a href='https://www.ebi.ac.uk/metabolights/MTBLS11742' rel='noopener noreferrer' target='_blank'><strong>MTBLS11742</strong></a>.</p><p><strong>LC-MS analyses</strong>&nbsp;is reported in&nbsp;<a href='https://www.ebi.ac.uk/metabolights/MTBLS11741' rel='noopener noreferrer' target='_blank'><strong>MTBLS11741</strong></a>.</p>",
+                "submissionDate": "22/11/2024",
+                "publicReleaseDate": "2024-12-03",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Hefei",
+                        "lastName": "Zhang",
+                        "email": "hefei.zhang@umassmed.edu",
+                        "affiliation": "Department of systems biology, UMass Chan Medical School",
+                        "address": "55 N Lake Ave, Worcester, MA 01655",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "5083040127",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "Metabolights",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "C. elegans",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "GC/MS",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "isotope tracing",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Systems-level design principles of metabolic rewiring in an animal",
+                        "authorList": "Xuhang Li, Hefei Zhang, Thomas Hodder, Wen Wang, Chad L. Myers, L. Safak Yilmaz, Albertha J.M. Walhout",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "A systems-level, semi-quantitative landscape of metabolic flux in C. elegans",
+                        "authorList": "Hefei Zhang, Xuhang Li, L. Tenzin Tseyang, Gabrielle E Giese, Hui Wang, Bo Yao, Jingyan Zhang, Rachel L. Neve, Elizabeth A. Shank, Jessica B Spinelli, L. Safak Yilmaz, Albertha J.M. Walhout",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Condition",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "experimental condition",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Dataset",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "dataset",
+                            "termSource": {
+                                "comments": [],
+                                "name": "SIO",
+                                "file": "https://www.ebi.ac.uk/ols4/api",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://semanticscience.org/resource/SIO_000089"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Run method",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "Metabolights",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C60819"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>To collect animals for metabolite extraction, animals were gently washed off the plates (wells) using ice-cold M9 supplemented with 0.01% (v/v) Triton X-100 and transferred to a 15 mL tube. Subsequently, the animals were washed 4 times with 10 mL of ice-cold M9 containing 0.01% Triton X-100 to remove bacteria and eggs. During each wash, the tube was first vortexed for ~5 s and then allowed to stand on ice for approximately 2 min, to settle adult animals to the bottom of the tubes (forming a ~800 \u00b5L pellet of animals), while bacteria and most eggs remained in the supernatant. Following this, 800 \u00b5L of the animal pellet was transferred to a well of an ice-cold 96-well filter plate (Enzymax: EZ96FTP). The plate was then centrifuged at 4 \u00b0C and 1400 x g for 30 s and washed 4 times with 800 \u00b5L of ice-cold 0.9% NaCl solution, each time followed by centrifugation.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For gas chromatography-mass spectrometry (GC-MS) samples, the final animal pellet was resuspended in 500 \u00b5L ice-cold 80% methanol. The resuspended samples were transferred to 2 mL FastPrep tubes pre-filled with 0.5 mL acid-washed glass beads (G1277, Sigma). For each sample, the resuspension step was repeated for another time to transfer residual animals to the same 2 mL tube.&nbsp;Homogenization was achieved using a FastPrep 24 at 6 m/s for 1 min, repeated 3 times with a 3-min interval, allowing samples to chill on ice. The homogenized samples were then transferred to 1.5 mL Eppendorf tubes without glass beads, followed by centrifugation at top speed (4 \u00b0C, ~15,000 x g) for 10 min to separate precipitates. For each sample, the supernatant (~ 800 \u00b5L) was carefully transferred to a new 1.5 mL Eppendorf tube, and the pellet was resuspended in 1 mL of RIPA buffer for protein concentration measurement using the BCA Protein Assay.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>GC-MS was conducted using an Agilent 7890B single quadrupole mass spectrometer, coupled with an Agilent 5977B gas chromatograph equipped with an HP-5MS Ultra Inert capillary column (30 m, 0.25 mm x 0.25 \u03bcm). Operating parameters were set as follows: the inlet temperature was maintained at 230 \u00b0C, the transfer line at 280 \u00b0C, and both the mass spectrometer source and quadrupole were maintained at temperatures of 230 and 150 \u00b0C, respectively. In total 1 \u00b5L of derivatization product was injected to inlet with splitless mode. We used two distinct running methods, characterized by variations in the oven temperature program, to facilitate the detection of diverse metabolites. Method 1 involved programming the oven to initiate at 80 \u00b0C, maintaining this temperature for 2 min, and then ramping it up at a rate of 5 \u00b0C/min until reaching 280 \u00b0C. Method 2 used an initial oven temperature of 130 \u00b0C, held for 1 min, followed by a ramp-up at 5 \u00b0C/min until reaching 325 \u00b0C. In the metabolite list, a metabolite name ending with '(method1)' or '(method2)' indicates it was run using Method 1 or Method 2, respectively. The sample sheets also provide the running method information for each sample.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>We used an Agilent 5977B GC/MSD system for analysis. The ion source was Electron Ionization (EI) operated in positive ion mode. The mass range was 30-750 m/z, with the MS source temperature set at 230 \u00b0C and the quadrupole temperature at 150 \u00b0C. The helium carrier gas flow rate was 21 mL/min and the scan rate was 5 scans/s.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>GC-MS data were analyzed using MassHunter Quantitative Analysis software (Agilent Technologies).The identity of molecules detected in GC-MS was confirmed by chemical standards either during routine calibration of the machine or in this study. The molecular formulas of specific fragments in GC-MS were predicted using NIST Mass Spectrum Interpreter Version 2 software, with cross-validation performed using isotope-labeled standards or isotope tracing data.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The identity of molecules detected in GC-MS was confirmed by chemical standards either during routine calibration of the machine or in this study. The molecular formulas of specific fragments in GC-MS were predicted using NIST Mass Spectrum Interpreter Version 2 software, with cross-validation performed using isotope-labeled standards or isotope tracing data.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS -",
+                        "filename": "a_MTBLS11742_method1_GC-MS___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS -",
+                        "filename": "a_MTBLS11742_method2_GC-MS___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

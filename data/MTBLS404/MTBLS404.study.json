@@ -1,0 +1,639 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-04-11T00:00:00",
+        "statusUpdateTime": "2023-04-11T15:54:45.588419",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS404",
+        "title": "",
+        "description": "",
+        "submissionDate": "2016-11-14",
+        "publicReleaseDate": "2017-01-20",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [
+                    {
+                        "name": "Study Funding Agency",
+                        "value": "Agence Nationale de la Recherche"
+                    },
+                    {
+                        "name": "Study Grant Number",
+                        "value": "ANR-11-INBS-0010"
+                    }
+                ],
+                "identifier": "MTBLS404",
+                "filename": "s_MTBLS404.txt",
+                "title": "Analysis of the human adult urinary metabolome variations with age, body mass index and gender by implementing a comprehensive workflow for univariate and OPLS statistical analyses. ('Sacurine' data set)",
+                "description": "<p>Urine metabolomics is widely used for biomarker research in the fields of medicine and toxicology. As a consequence, characterization of the variations of the urine metabolome under basal conditions becomes critical in order to avoid confounding effects in cohort studies. Such physiological information is however very scarce in the literature and in metabolomics databases so far. Here we studied the influence of age, body mass index (BMI), and gender on metabolite concentrations in a large cohort of 183 adults by using liquid chromatography coupled with high-resolution mass spectrometry (LC-HRMS). We implemented a comprehensive statistical workflow for univariate hypothesis testing and modeling by orthogonal partial least-squares (OPLS).</p><p> This repository contains the data set from the negative ionization mode: 2 batches, 234 files (24 blanks + 26 QCs + 184 samples) in the Thermo .RAW (6.8 Go) and .mzML (18 Go) formats. The comprehensive analysis of this data set is publicly available on the Workflow4metabolomics.org e-infrastructure with two reference histories: 'W4M00002_Sacurine-comprehensive' corresponds to the preprocessing of the .mzML files, followed by signal drift and batch effect correction, normalization, filtering, statistics, and annotation of the peak table; 'W4M00001_Sacurine- statistics' starts with the peak table restricted to the 113 identified metabolites (see Roux et al. [1] for a full description and information about the annotation), and contains the statistical analysis (as described in associated publication except that the publication also describes the positive ionization mode). The intensities of the table provided in the m_sacurine.txt ISA file correspond to the peak table restricted to the 113 identified metabolites (i.e. are identical to the input of the 'W4M00001_Sacurine-statistics' history). Note that in both histories, the HU_096 sample is filtered out during the Hotelling/Quantile/MissingValue quality control sample filter, leading to 183 samples for the subsequent statistical analyzes. Notes: The 'sampling' field indicates the 9 successive weeks during which samples were collected. The 'subset' field indicates a subset of 36 files (6 blanks + 10 QCs + 20 samples) which still contain significant physiological variations (and can be used as e.g. demo or teaching material).</p><p> Acknowledgements: The authors are grateful to Philippe Rocca-Serra for his help in preparing the ISA files.</p><p><br></p><p> References:</p><p> [1] Roux A, Xu Y, Heilier JF, Olivier MF, Ezan E, Tabet JC, Junot C. 2012. Annotation of the Human Adult Urinary Metabolome and Metabolite Identification Using Ultra High Performance Liquid Chromatography Coupled to a Linear Quadrupole Ion Trap-Orbitrap Mass Spectrometer. Anal Chem. Aug 7;84(15):6429-37. doi: 10.1021/ac300829f.</p>",
+                "submissionDate": "2016-11-14",
+                "publicReleaseDate": "2017-01-20",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Etienne",
+                        "lastName": "Thevenot",
+                        "email": "etienne.thevenot@cea.fr",
+                        "affiliation": "Commissariat a l'Energie Atomique et aux Energies Alternatives (CEA)",
+                        "address": "CEA, LIST, Laboratory for Data Analysis and Systems' Intelligence, MetaboHUB, F-91191 Gif-sur-Yvette, France",
+                        "fax": "33-1-69-08-89-65",
+                        "midInitials": "A",
+                        "phone": "33-1-69-08-79-23",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Christophe",
+                        "lastName": "Junot",
+                        "email": "christophe.junot@cea.fr",
+                        "affiliation": "Commissariat a l'Energie Atomique et aux Energies Alternatives (CEA)",
+                        "address": "Laboratoire d'Etude du Metabolisme des Medicaments, DSV/iBiTec-S/SPI, MetaboHUB, CEA-Saclay, Gif-Sur-Yvette, France",
+                        "fax": "33-1-69-08-59-07",
+                        "midInitials": "",
+                        "phone": "33-1-69-08-43-66",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [
+                            {
+                                "name": "Number Of Study Groups",
+                                "value": "1"
+                            },
+                            {
+                                "name": "Number Of Subjects Per Study Group",
+                                "value": "183"
+                            }
+                        ],
+                        "annotationValue": "Cohort Study",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15208"
+                    },
+                    {
+                        "comments": [
+                            {
+                                "name": "Number Of Study Groups",
+                                "value": ""
+                            },
+                            {
+                                "name": "Number Of Subjects Per Study Group",
+                                "value": ""
+                            }
+                        ],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [
+                            {
+                                "name": "Number Of Study Groups",
+                                "value": ""
+                            },
+                            {
+                                "name": "Number Of Subjects Per Study Group",
+                                "value": ""
+                            }
+                        ],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [
+                            {
+                                "name": "Number Of Study Groups",
+                                "value": ""
+                            },
+                            {
+                                "name": "Number Of Subjects Per Study Group",
+                                "value": ""
+                            }
+                        ],
+                        "annotationValue": "MetaboHUB",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Analysis of the human adult urinary metabolome variations with age, body mass index and gender by implementing a comprehensive workflow for univariate and OPLS statistical analyses.",
+                        "authorList": "Thevenot EA, Roux A, Xu Y, Ezan E, Junot C.",
+                        "pubMedID": "26088811",
+                        "doi": "10.1021/acs.jproteome.5b00354",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Age",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "age",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000246"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "BMI",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "body mass index",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004340"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Gender",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Gender",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17357"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Material type",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "material sample",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000747"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Role",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43359"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sampling",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Sampling",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Osmolality",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Osmolality",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C89824"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Batch",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "block",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005067"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Injection order",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Injection order",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Subset",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Subset",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Urine samples were collected from a cohort of 189 human adults during their routine examination as employees working at the CEA reseach center of Saclay. Sample collection was performed with informed consent of the subjects, in accordance with the 1964 Helsinki declaration and its later amendments. A total of 5 volunteers with high BMI values (from 32.9 to 41.3 kg/m^2) were not included since these values were considered extreme (as confirmed by significant p-values with the Grubbs outlier test) and representative of too few subjects to provide robust statistical information. An additional sample was further discarded after normalization due to outlier values in the negative ionization mode, leading to 183 individual samples under study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The experimental protocol has been described previously ('439020'study)<strong>[1]</strong>. Briefly, urine samples were centrifuged (1430 x g for 5 min) and then diluted in deionized water (dilution 1/5, 20 \u00b5L of urine in 80 \u00b5L of water) before analysis. Samples were randomly analyzed. A quality control sample consisting of a pool of urine samples analyzed in the course of this study was injected every 10 samples to check for the performance of the analytical system in terms of retention times, accurate mass measurements, and signal intensities.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Roux A, Xu Y, Heilier JF, Olivier MF, Ezan E, Tabet JC, Junot C. Annotation of the human adult urinary metabolome and metabolite identification using ultra high performance liquid chromatography coupled to a linear quadrupole ion trap-Orbitrap mass spectrometer. Anal Chem. 2012 Aug 7;84(15):6429-37. doi:10.1021/ac300829f. Epub 2012 Jul 17. PMID:22770225.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>An Accela liquid chromatographic system (Thermo Fisher Scientific, Villebon-sur-Yvette, France) was used. The ultrahigh performance liquid chromatographic (UHPLC) separation was performed on a Hypersil GOLD C18 1.9 \u00b5m, 2.1 mm x 150 mm column (Thermo Fisher Scientific, Villebon-sur-Yvette, France). The flow rate was 0.5 mL/min with mobile phases A (100% water) and B (100% acetonitrile), both containing 0.1% formic acid. The gradient consisted of an isocratic step of 2 min at 100% phase A, followed by a linear gradient from 0% to 100% of phase B for the next 11 min, before returning to 100% A in 0.5 min. The column was then allowed to equilibrate for 3.5 min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The liquid chromatographic system was coupled to an LTQ-Orbitrap Discovery (Thermo Fisher Scientific, Villebon-sur-Yvette, France) fitted with an electrospray (ESI) source. The mass resolution of the spectrometer was 30,000 (m/dm at 400 u) and he mass accuracy was within a 5 ppm range. In the negative ionization mode, samples were analyzed in 2 batches (ne1 and ne2). The ESI source was cleaned between ne1 and ne2. The same quality control (QC) sample for all batches (mix of urines from a subset of the cohort) was injected regularly throughout the run after every 10 samples of interest.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Peak detection, grouping, and retention time correction with the XCMS software resulted in 2 peak tables (one for each ionization mode). After metabolite identification, peak integration was performed with the Quan Browser module from the Xcalibur software (Thermo Fisher Scientific) after visual checking of the retention time limits, in order to refine signal quantitation and avoid any bias that may have occurred during the initial XCMS procedure. The few missing values in the pos and neg peak tables (less than 2%) were replaced by half the minimum of the non missing values (results without replacement of missing values were similar).</p><p>1) Signal Drift Correction and Batch Effect Removal: Within each peak table, intensities were corrected for signal drift and batch effect by fitting a locally quadratic (loess) regression model to the QC values. The parameter controlling the smoothing was set to 1 to avoid overfitting. Once the peak tables were normalized, metabolites with a coefficient of variation (CV) of their QC values &gt;30% (which was the case for 10% and 4% of the features of the pos and neg tables, respectively) were filtered out.</p><p> 2) Normalization and Quality Control: Each urine profile was normalized to the osmolality of the sample. The two peak tables were subsequently log10 transformed. One sample with both an extreme intensity distribution quantile (p &lt; 10-15) and an extreme Hotelling's T2 distance in the PCA score plot (p &lt; 10-15) in the negative ionization mode, was discarded.</p><p> 3) Univariate Statistical Analysis: Correlations with age and BMI covariates were assessed with the Spearman rank correlation test, and the Wilcoxon (Mann-Whitney) test was used for the comparison of gender distributions. The p-values were adjusted for multiple comparison by controlling the false discovery rate (proportion of false positives among the metabolites called significant) at a 5% threshold.</p><p> 4) Multivariate Modeling: The ropls R package implements the PCA, PLS(-DA) and OPLS(-DA) approaches with the original, NIPALS-based, versions of the algorithms. It includes the R2 and Q2 quality metrics, the permutation diagnostics, the computation of the VIP values, the score and orthogonal distances to detect outliers, as well as many graphics (scores, loadings, predictions, diagnostics, outliers, etc.). The ropls package is available from the Bioconductor repository. The number of orthogonal components of the OPLS models for the age, BMI, and gender responses, as assessed by the Q2Y metrics, was 1, 1, and 3, respectively. The variables were standardized (i.e., mean-centered and unit-variance scaled) prior to model building as it resulted in the highest Q2Y (results with Pareto scaling were similar).</p><p> 5) Correlation Networks and Hierarchical Clustering: The Spearman correlation coefficient (cor_spe) was used as the measure of similarity between metabolite profiles among individuals. Only edges corresponding to an absolute correlation &gt;0.5 are shown. Hierarchical clustering of individuals and metabolites were performed using 1-cor_spe as the dissimilarity, and the Ward's linkage method.</p><p> 6) Software: All computational modules (for data normalization, quality control, univariate testing and multivariate modeling) were written in R (version 3.0.2) and integrated into the Workflow4Metabolomics.org online resource for computational metabolomics.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Annotation was performed by using our in-house ESI-mass spectra database, as well as the HMDB, KEGG and METLIN public databases, and identities were confirmed with additional MS/MS experiments when required.</p><p><br></p><p>Regarding the provided MAF file, please note that:</p><p>1) retention times are in minutes with a dead time of the chromatographic system of 0.8 min.</p><p>2) additional information regarding the other detected adducts and isotopes, and regarding the additional MS2 experiments can be found in the supporting information (including files 'ac300829f_si_003.xlsx', 'ac300829f_si_006.xlsx', 'ac300829f_si_010.xlsx', and 'ac300829f_si_008.xlsx')<strong>[1]</strong>.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>\ufeff[1]</strong> Roux A, Xu Y, Heilier JF, Olivier MF, Ezan E, Tabet JC, Junot C. Annotation of the human adult urinary metabolome and metabolite identification using ultra high performance liquid chromatography coupled to a linear quadrupole ion trap-Orbitrap mass spectrometer. Anal Chem. 2012 Aug 7;84(15):6429-37. doi:10.1021/ac300829f. Epub 2012 Jul 17. PMID:22770225.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": null,
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": null,
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ-Orbitrap",
+                        "filename": "a_MTBLS404_sacurine.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

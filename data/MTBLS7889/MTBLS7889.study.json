@@ -1,0 +1,735 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-03-05T00:00:00",
+        "statusUpdateTime": "2024-03-05T16:25:18.091202",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS7889",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2023-05-18",
+        "publicReleaseDate": "2024-03-05",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "operation",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "DICOM",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MSIO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "SRAO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "PROCO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "ENVO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS7889",
+                "filename": "s_MTBLS7889.txt",
+                "title": "On-line targeted metabolomics for real-time monitoring of relevant compounds in fermentation processes",
+                "description": "Fermentation monitoring is a powerful tool for bioprocess development and optimisation. On-line metabolomics is a technology that is starting to gain attention as a bioprocess monitoring tool, allowing the direct measurement of many compounds in the fermentation broth at a very high time resolution. In this work, targeted on-line metabolomics was used to monitor 40 metabolites of interest during three Escherichia coli succinate production fermentation experiments every 5 minutes with a triple quadrupole mass spectrometer. This allowed capturing high time resolution biological data that can provide critical information for process optimisation. For 9 of these metabolites, simple univariate regression models were used to model compound concentration from their on-line mass spectrometry peak area. These on-line metabolomics univariate models performed comparably to vibrational spectroscopy multivariate PLS regressions models reported in the literature, which typically are much more complex and time consuming to build. In conclusion, this work shows how on-line metabolomics can be used to directly monitor many bioprocess compounds of interest and obtain rich biological and bioprocess data.",
+                "submissionDate": "2023-05-18",
+                "publicReleaseDate": "2024-03-05",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Joan",
+                        "lastName": "Cortada-Garcia",
+                        "email": "",
+                        "affiliation": "University of Edinburgh",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jennifer",
+                        "lastName": "Haggarty",
+                        "email": "",
+                        "affiliation": "University of Glasgow",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Stefan",
+                        "lastName": "Weidt",
+                        "email": "",
+                        "affiliation": "University of Glasgow",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ronan",
+                        "lastName": "Daly",
+                        "email": "",
+                        "affiliation": "University of Glasgow",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Alison",
+                        "lastName": "Arnold",
+                        "email": "",
+                        "affiliation": "Ingenza Ltd",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Karl",
+                        "lastName": "Burgess",
+                        "email": "karl.burgess@ed.ac.uk",
+                        "affiliation": "University of Edinburgh",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Targeted",
+                        "termSource": {
+                            "comments": [],
+                            "name": "DICOM",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://dicom.nema.org/resources/ontology/DCM/111127"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Biological Process Engineering",
+                        "termSource": {
+                            "comments": [],
+                            "name": "SRAO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.fairsharing.org/ontology/subject/SRAO_0000223"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "fermentation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000038"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "bioreactor",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ENVO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ENVO_00002123"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "on-line fermentation monitoring",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Bioprocess monitoring",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "process analytical technology",
+                        "termSource": {
+                            "comments": [],
+                            "name": "PROCO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/PROCO_0000227"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "On-line metabolomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Real-time metabolomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "flow injection analysis-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "On\u2010line targeted metabolomics for real\u2010time monitoring of relevant compounds in fermentation processes",
+                        "authorList": "Cortada\u2010Garcia Joan, Haggarty Jennifer, Weidt Stefan, Daly R\u00f3n\u00e1n, Arnold S. Alison, Burgess Karl",
+                        "pubMedID": "37990977",
+                        "doi": "10.1002/bit.28599",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Bacterial strain:</strong></p><p>All experiments described in this article were carried out using a proprietary industrial E. coli strain (Ingenza Ltd.), based on the <em>E. coli</em> NZN111 strain with deletions of the pyruvate-formate lyase (pflB) and lactate dehydrogenase (ldhA) genes as previously described<strong>[1]</strong>.</p><p><br></p><p><strong>Fermentation process conditions:</strong></p><p>All fermentation experiments were carried out in a 5 L Applikon stirred tank fermenter controlled with a FerMac 320 (Electrolab Biotech Ltd.) coupled to a FerMac 368 gas analyzer for off-gas analysis. The fermentation consisted of a dual-phase succinate production process as previously described<strong>[2]</strong>. A biomass filtration probe (TRACE Analytics GmbH) equipped with a polypropylene membrane (0.2 \u00b5m pore size) was installed in the fermenter through the headplate and submerged in the fermentation broth. Cell-free fermentation broth was continuously withdrawn from the probe and recirculated into the fermenter, while a small 50 \u03bcl fraction of the broth was automatically sent to a mass spectrometer every 5 min for RTMet analysis.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Chatterjee R, Millard CS, Champion K, Clark DP, Donnelly MI. Mutation of the ptsG gene results in increased production of succinate in fermentation of glucose by Escherichia coli. Appl Environ Microbiol. 2001 Jan;67(1):148-54. doi:10.1128/AEM.67.1.148-154.2001. PMID:11133439.</p><p><strong>[2]</strong> Cortada-Garcia J, Haggarty J, Moses T, Daly R, Arnold SA, Burgess K. On-line untargeted metabolomics monitoring of an Escherichia coli succinate fermentation process. Biotechnol Bioeng. 2022 Oct;119(10):2757-2769. doi:10.1002/bit.28173. PMID:35798686.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>No extraction was performed. On-line metabolomics was performed using flow injection using fermentation filtered samples (via an in-line filtration probe) introduced directly into the mass spectrometer.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Flow Injection Analysis",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Flow Injection Analysis",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>On-line metabolomics was conducted by connecting the fermenter to a TSQ Quantiva triple quadrupole (Thermo Scientific) mass spectrometer with the fluidics system previously described<strong>[1]</strong> but the fermentation broth samples were subtracted from the bioreactor using a biomass filtration probe (TRACE Analytics GmbH) equipped with a polypropylene membrane. The filtration efficiency of the probe was measured to be at least 99.9801 \u00b1 0.0037% (see <strong>Table S2</strong> in the paper associated with this study), therefore, the samples analysed should consist of mostly cell-free medium (referred to \u201ccell-free medium\u201d for simplicity). A Masterflex L/S (Cole-Parmer) high-performance pump was used to continuously withdraw cell-free broth from the fermenter for automatic metabolomics analysis and it was operated at a low flow rate of 1.5 ml/min to prevent cells from entering the filtration probe, as indicated by the filtration probe manufacturer. Due to the flow rate of the pump, the total travelling time from the bioreactor to the mass spectrometer was 31.5 min. Despite this time offset, as fermentation broth was continuously withdrawn from the bioreactor, samples were analyzed every 5 min. Furthermore, the significantly reduced concentration of cells in the sample should minimise the chances of biochemical modifications of the metabolites in the sample during this travelling time, particularly in organisms like <em>E. coli</em>, where the secretion of enzymes to the extracellular space is uncommon.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Cortada-Garcia J, Haggarty J, Moses T, Daly R, Arnold SA, Burgess K. On-line untargeted metabolomics monitoring of an Escherichia coli succinate fermentation process. Biotechnol Bioeng. 2022 Oct;119(10):2757-2769. doi:10.1002/bit.28173. PMID:35798686.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "FIA Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data was collected using a TSQ Quantiva triple quadrupole mass spectrometer. Gas-phase ions were generated using an Ion Max NG source (Thermo Scientific) with a HESI II probe. The mass analyser was operated using a multiple reaction monitoring (MRM) method in polarity switching mode with a spray voltage of \u00b13.5 kV. HESI probe temperature was set to 25 \u00b0C, ion transfer tube temperature 325 \u00b0C, sheath gas flow rate 50 a.u., auxiliary gas 10 a.u. and sweep gas 1 a.u. Resolution for both Q1 and Q3 was set at a FWHM of 0.7 m/z, cycle time was 0.8 s and collision induced dissociation fragmentation in Q2 was done under 1.5 mTorr pressure.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Raw data was processed with the software <strong>Xcalibur (Version 4.2.28.14) </strong>using the ICIS peak detection method with the following parameters: 1 smoothing point, a baseline window of 40, area noise factor of 5, a peak noise factor of 10 and minimum peak height threshold of 3 signal-to-noise ratio. After processing, metabolite features were extracted as a .csv file. On-line data was smoothed in the statistical software environment <strong>R (Version 3.6.1)</strong> using the <strong>ggplot2 package (Version 3.3.3)[1]</strong> with a l<strong>ocally estimated scatterplot smoothing (LOESS)</strong> method with a span between 0.15 and 0.50, depending on the metabolite.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Wickham H. (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag. <a href='https://ggplot2.tidyverse.org' rel='noopener noreferrer' target='_blank'>https://ggplot2.tidyverse.org</a></p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were identified using a MRM method developed with reference standards.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Flow injection analysis MS - negative",
+                        "filename": "a_MTBLS7889_FIA-MS_negative__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Flow injection analysis MS - positive",
+                        "filename": "a_MTBLS7889_FIA-MS_positive__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

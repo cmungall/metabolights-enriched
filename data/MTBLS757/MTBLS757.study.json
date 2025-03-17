@@ -1,0 +1,487 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-04-24T14:29:48.248000",
+        "statusUpdateTime": "2019-04-24T14:29:48.248000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "/media/molen116/O/Biochemistry/Research/Martijn/ISAcreator_temp/Configurations/MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS757",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-09-24",
+        "publicReleaseDate": "2019-04-24",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NIFSTD",
+                "file": "http://data.bioontology.org/ontologies/NIFSTD",
+                "version": "21",
+                "description": "Neuroscience Information Framework (NIF) Standard Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS757",
+                "filename": "s_MTBLS757.txt",
+                "title": "LION-web validation lipidomics experiments (FA-incorporation, membrane fluidty)",
+                "description": "A major challenge for lipidomic analyses is the handling of the large amounts of data and the translation of results to interpret the involvement of lipids in biological systems. We built a new lipid ontology (LION) that associates over 50,000 lipid species to biophysical, chemical and cell biological features. By making use of enrichment algorithms, we used LION to develop a web-based interface (LION/web) that allows identification of lipid-associated terms in lipidomes. LION/web was validated by analyzing a lipidomic dataset derived from well-characterized sub-cellular fractions of RAW 264.7 macrophages. Comparison of isolated plasma membranes with the microsomal fraction showed a significant enrichment of relevant LION-terms including plasma membrane, headgroup with negative charge, glycerophosphoserines, above average bilayer thickness and below average lateral diffusion. A second validation was performed by analyzing the membrane fluidity of CHO cells incubated with arachidonic acid. An increase in membrane fluidity was observed both experimentally by using pyrene decanoic acid and by using LION/web, showing significant enrichment of terms associated with high membrane fluidity (above average, very high and high lateral diffusion and below average transition temperature). The results demonstrate the functionality of LION/web, which is freely accessible in a platform-independent way.",
+                "submissionDate": "2018-09-24",
+                "publicReleaseDate": "2019-04-24",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Martijn",
+                        "lastName": "Molenaar",
+                        "email": "m.r.molenaar@uu.nl",
+                        "affiliation": "Utrecht University, Biochemistry & Cell Biology",
+                        "address": "Yalelaan 2, 3584 CM Utrecht",
+                        "fax": "",
+                        "midInitials": "R",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "28",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153193"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lipidomics analysis software",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "86",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1002964"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "immortal cell line cell",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CL_0000002"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "LION/web: a web-based ontology enrichment tool for lipidomic data analysis",
+                        "authorList": "Molenaar, Martijn R\nJeucken, Aike\nWassenaar, Tsjerk A\nvan de Lest, Chris H A\nBrouwers, Jos F\nHelms, J Bernd",
+                        "pubMedID": "",
+                        "doi": "10.1101/398040",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [
+                            {
+                                "name": "Factor",
+                                "value": ""
+                            }
+                        ],
+                        "factorName": "incubation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Incubation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NIFSTD",
+                                "file": "http://data.bioontology.org/ontologies/NIFSTD",
+                                "version": "21",
+                                "description": "Neuroscience Information Framework (NIF) Standard Ontology"
+                            },
+                            "termAccession": "http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00341"
+                        }
+                    },
+                    {
+                        "comments": [
+                            {
+                                "name": "Factor",
+                                "value": ""
+                            }
+                        ],
+                        "factorName": "replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "CHO-k1 cells were cultured in Ham\u2019s F-12 medium (Thermo Fisher Scientific, Waltham, MA, USA) supplemented with 7.5% FBS (Thermo Fisher Scientific, Waltham, MA, USA), 100 units/ml penicillin and 100 \u03bcg/ml streptomycin (Thermo Fisher Scientific, Waltham, MA, USA). Cells were grown in a humidified incubator at 37 \u00b0C containing 5% CO2 and passaged twice a week. Stocks of 10 mM arachidonic acid, linoleic acid, oleic acid, or palmitic acid (all obtained from Sigma, St. Louis, MO, USA) were complexed to 2 mM fatty-acid free BSA (Sigma, St. Louis, MO, USA), filter-sterilized and stored at \u221220 \u00b0C. All experimental incubations were performed in plastic 6-well culture dishes (Corning, Tewksbury, MA, USA).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Lipids were extracted as described previously[1].\n</p>\nRef:</br>\n[1] Bligh EG and Dyer WJ. A rapid method of total lipid extraction and purification. Can J Biochem Physiol. 1959 Aug;37(8):911-7. doi:10.1139/o59-099. PMID:13671378.</br> ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Subsequently, lipid extracts were dried under nitrogen and dissolved in 100 \u03bcl chloroform/methanol (1:1) and injected (10 \u03bcl) on a hydrophilic interaction liquid chromatography (HILIC) column (2.6 \u03bcm HILIC 100 \u00c5, 50 x 4.6 mm, Phenomenex, Torrance, CA), eluted by an eluens gradient (flow rate of 1 ml/min) from ACN/acetone (9:1, v/v) to ACN/H2O (7:3, v/v) with 10 mM ammonium formate, both containing 0.1% formic acid.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The column effluent was connected to a heated electrospray ionization (hESI) source of a mass spectrometer (Fusion, Thermo Scientific,Waltham,MA). The measurements were performed with an orbitrap resolution of 120.000, generating 30 data-dependent MS/MS spectra per second in the linear ion trap.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Acquired raw datafiles were converted to mzXML-files with msConvert[1] and processed with R-package \u2018xcms\u2019 v2.99.3[2].\n</p>\nRef:</br>\n[1] Adusumilli R, Mallick P. Data Conversion with ProteoWizard msConvert. Methods Mol Biol. 2017;1550:339-368. doi:10.1007/978-1-4939-6747-6_23. PMID:28188540</br>\n[2] Smith CA, Want EJ, O'Maille G, Abagyan R, Siuzdak G. XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification. Anal Chem. 2006 Feb 1;78(3):779-87.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "After deisotoping, annotation of lipids was performed by matching measuredMS-1 m/z values with theoretical m/z values. Lipids with the same or similar m/z values - e.g., BMP(38:4) and PG(38:4) - could be distinguished by differences in retention time. Lipid annotation containing individual fatty acids was accomplished by examining MS-2 spectra. When MS-2 spectra were available for a given MS-1 peak, the most abundant fatty acid combination was used to annotate the lipid. The resulting experimental datasets were normalized by expressing all lipids as ratios of the sum of all intensities per sample.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography Tandem MS (LC-MS/MS)",
+                        "filename": "a_MTBLS757_lion-web_validation_experiments_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,690 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-11-14T00:00:00",
+        "statusUpdateTime": "2022-11-14T19:49:12.060982",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS5861",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2022-09-05",
+        "publicReleaseDate": "2022-11-09",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "ERO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "roleAFRL",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS5861",
+                "filename": "s_MTBLS5861.txt",
+                "title": "Computational mass spectrometry accelerates C=C position-resolved untargeted lipidomics using oxygen attachment dissociation",
+                "description": "Mass spectrometry-based untargeted lipidomics has revealed the lipidome atlas of living organisms at the molecular species level. Despite the double bond (C=C) position being a crucial factor for enzyme preference, cellular membrane milieu, and biological activity, the C=C defined structures have not yet been characterized. Here, we present a novel approach for C=C position-resolved untargeted lipidomics using a combination of oxygen attachment dissociation and computational mass spectrometry to increase the rate of annotation. We validated the accuracy of our platform as per the authentic standards of 21 lipid subclasses and the biogenic standards of 51 molecules containing polyunsaturated fatty acids (PUFAs) from the cultured cells fed with various fatty acid-enriched media. By analyzing human and mice-derived biological samples, we characterized 675 unique lipid structures with the C=C position-resolved level encompassing 22 lipid subclasses defined by LIPID MAPS. Our platform also illuminated the unique profiles of tissue-specific lipids containing n-3 and/or n-6 very long-chain PUFAs (carbon M 28 and double bonds a 4) in the eye, testis, and brain of the mouse.",
+                "submissionDate": "2022-09-05",
+                "publicReleaseDate": "2022-11-09",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Haruki",
+                        "lastName": "Uchino",
+                        "email": "haruki-uchino@keio.jp",
+                        "affiliation": "",
+                        "address": "Division of Physiological Chemistry and Metabolism, Graduate School of Pharmaceutical Sciences, Keio University",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "graduate student role",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "ERO",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/ERO_0000785"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Hiroshi",
+                        "lastName": "Tsugawa",
+                        "email": "htsugawa@go.tuat.ac.jp",
+                        "affiliation": "",
+                        "address": "Department of Biotechnology and Life Science, Tokyo University of Agriculture and Technology",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Contract Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51817"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Hidenori",
+                        "lastName": "Takahashi",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "Koichi Tanaka Mass Spectrometry Research Laboratory, Shimadzu Corporation",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "roleAFRL",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.allotrope.org/ontologies/role#AFRL_0000405"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Makoto",
+                        "lastName": "Arita",
+                        "email": "arita-mk@pha.keio.ac.jp",
+                        "affiliation": "",
+                        "address": "Division of Physiological Chemistry and Metabolism, Graduate School of Pharmaceutical Sciences, Keio University",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153193"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lipidomics analysis software",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1002964"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Computational mass spectrometry accelerates C=C position-resolved untargeted lipidomics using oxygen attachment dissociation",
+                        "authorList": "Uchino Haruki, Tsugawa Hiroshi, Takahashi Hidenori, Arita Makoto",
+                        "pubMedID": "",
+                        "doi": "10.21203/rs.3.rs-727852/v1",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Preprint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1",
+                                "description": "Metabolights Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000004"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sample material",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Sample material",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1",
+                                "description": "Metabolights Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sample dilution",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Sample Dilution",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C178974"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>In total 2 standard mixtures described as MixA and MixB in Table S2 in the paper associated with this study<strong> </strong>were prepared. The MixA solution contained CAR 18:1(9Z), LPC 18:1(9Z), LPE 18:1(9Z), LPG 18:1(9Z), LPI 18:1(9Z), LPS 18:1(9Z), HBMP 18:1(9Z)/18:1(9Z)/18:1(9Z), Cer-NS 18:1(4E);2O/18:1(9Z), Cer-NS 18:2(4E,8Z);2O/24:1(15Z), Cer-NS 18:2(4E,8Z);2O/24:0, DG 18:1(9Z)/18:1(9Z), TG 18:1(9Z)/18:1(9Z)/18:1(9Z), and the MixB solution contained PA 18:1(9Z)/18:1(9Z), PC 18:1(9Z)/18:1(9Z), PC O-16:0/18:1(9Z), PC P-18:0/18:1(9Z), PE 18:1(9Z)/18:1(9Z), PE O-16:0/18:1(9Z), PE P-18:0/18:1(9Z), PE-N(FA 20:4(5Z,8Z,11Z,14Z)) 18:1(9Z)/18:1(9Z), PG 18:1(9Z)/18:1(9Z), PG 22:6(7Z,10Z,13Z,16Z,19Z)/22:6(7Z,10Z,13Z,16Z,19Z), PI 18:0/20:4(5Z,8Z,11Z,14Z), PS 18:1(9Z)/18:1(9Z). The 8 dilution series (30, 10, 5, 1, 0.5, 0.1, 0.05 and 0.01 mM) were prepared. Ultimate SPLASH was prepared as 9 dilution forms from original concentration (1/1, 1/3, 1/6, 1/18, 1/54, 1/220, 1/440, 1/2200 and 1/11000), which was described as MixC.</p><p><br></p><p>The brain, eye, liver, skin from the ear, testis and plasma of 8 weeks male mice (C57BL/6J background; CLEA Japan, Tokyo, Japan) were harvested according to the ethical protocol approved by the RIKEN Center for Integrative Medical Sciences (2019-015(2)). Tissues were frozen immediately after dissection and stored at -80 \u00b0C until lipid extraction.</p><p><br></p><p>HEK293 cells were cultured in Dulbecco's modified Eagle medium (DMEM) (high glucose) with L-glutamine (Wako) containing 10% fetal bovine serum (FBS) and penicillin-streptomycin-L-glutamine (PSG), and incubated in 5% carbon dioxide (CO2) at 37 \u00b0C. HEK293 cells (1.0 x 10^7 cells) were plated on a 10 cm dish and incubated with 5 or 10 \u00b5M of fatty acid dissolved in DMEM (high-glucose) with L-glutamine (Wako) containing no FBS and PSG for 1 h at 37 \u00b0C. After 1 h of cultivation, the medium was aspirated and DMEM (FBS+PSG+) and trypsin 0.25% with EDTA were added for cell collection, and the cells were centrifuged at 1200 rpm for 5 min at 4 \u00b0C. The supernatant was aspirated and phosphate-buffered saline (PBS) was added for cell counting. After repeating the same centrifugation process, the pellet cells were stored at -80 \u00b0C until lipid extraction.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Lipid extraction for human plasma was performed according to a previous report<strong>[1]</strong>. Briefly, an aliquot of 40 \u00b5L of NIST SRM 1950 plasma sample was added to 200 \u00b5L of ice-cold CHCl3 and vortexed for 10 s. After 1 h of incubation on ice, 400 \u00b5L of ice-cold MeOH containing 10 \u00b5L of EquiSPLASH, 20 \u00b5M palmitic acid-d3 and 20 \u00b5M stearic acid-d3 were added and vortexed for 10 s. After 2 h incubation on ice, the solvent tube was centrifuged at 2000 x g for 10 min at 4 \u00b0C, and 400 \u00b5L of supernatant was transferred to LC/MS vials (Agilent Technologies).</p><p><br></p><p>Lipid extraction for cultured cells and mouse tissues was performed using the same mixed solvent protocol (MeOH:CHCl3:H2O, 2:1:0.2, v/v/v) as described above. The details of the solvent volumes and internal standards used in this study are described in Table S9. First, MeOH was added to dried cells in a tube, followed by sonication and vortexing for 10 s. After 120 min of incubation on ice, CHCl3 was added and the mixture was vortexed for 10 s. After 60 min of incubation, Milli-Q water was added, vortexed for 10 s and the tube was left to stand for 10 min. The cells were then centrifuged at 2000 x g for 10 min at 20 \u00b0C, and 400 \u00b5L of supernatant was transferred to LC/MS vials. To prepare the mixture samples, 80 \u00b5L of sample liquid from the pair, alpha-LA and gamma-LA, ETA, ARA, DPA and OsA, respectively, were mixed into an LC/MS vial.</p><p><br></p><p>The tissues were homogenized using a multi-beads shocker (YASUI KIKAI, Japan) with a metal cone (YASUI KIKAI, Japan) at 1500 x g for 15 s, and MeOH was added to the homogenate according to the tissue weight (Table S10). After the solvent was homogenized again under the same conditions, an appropriate amount of MeOH (30 mg tissue weight per 200 \u00b5L) was transferred to a 2-mL glass tube. After the solvent was removed up to 95% of the total volume of each sample, an appropriate amount of internal standards and CHCl3 (Table S10) were added to the solvent and vortexed for 10 s. After the solvent was incubated for 1 h on ice, 20 \u00b5L of Milli-Q water was added, and the mixture was vortexed for 10 s. After 10 min incubation on ice, the solvent was centrifuged at 2000 x g for 10 min at 20 \u00b0C, and the supernatant was transferred to an LC/MS vial.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Tsugawa H, Ikeda K, Takahashi M, Satoh A, Mori Y, Uchino H, Okahashi N, Yamada Y, Tada I, Bonini P, Higashi Y, Okazaki Y, Zhou Z, Zhu ZJ, Koelmel J, Cajka T, Fiehn O, Saito K, Arita M, Arita M. A lipidome atlas in MS-DIAL 4. Nat Biotechnol. 2020 Oct;38(10):1159-1163. doi:10.1038/s41587-020-0531-2. Epub 2020 Jun 15. PMID:32541957.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The LC system consisted of a Shimadzu UPLC system. Lipids were separated on an Acquity UPLC Peptide BEH C18 column (50 x 2.1 mm; 1.7 \u00b5m; Waters, Milford, MA, USA). The column was maintained at 45 \u00b0C at a flow rate of 0.3 mL/min. The mobile phases consisted of (A) 1:1:3 (v/v/v) ACN:MeOH:water with ammonium acetate (5 mM) and 10 nM EDTA, and (B) 100% IPA with ammonium acetate (5 mM) and 10 nM EDTA. A sample volume of 1-3 \u00b5L, which depended on biological samples, was applied to the injection (Table S9 and S10). The separation was conducted under the following gradient: 0.0 min, 0% (B); 1.0 min, 0% (B); 5.0 min, 40% (B); 7.5 min, 64% (B); 12.0 min, 64% (B); 12.5 min, 82.5% (B); 19.0 min, 85% (B); 20.0 min, 95% (B); 20.1 min, 0% (B); 25.0 min, 0% (B). The temperature of the sample was maintained at 4 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectrometric detection of lipids was performed using a quadrupole/time-of-flight mass spectrometer LCMS-9030 (Shimadzu, Kyoto, Japan). All analyses were performed in <strong>data-dependent acquisition</strong> (<strong>DDA</strong>) mode which can cover major adduct ions, e.g., [M+H]+, [M+NH4]+ and [M+Na]+ in positive ion mode with a mass range of 70-1250 m/z. The parameters were: MS1 accumulation time, 250 ms; CID-MS/MS accumulation time, 100 ms; OAD-MS/MS accumulation time, 500 ms; CID-MS/MS collision energy, 25 eV with an energy spread of 7 eV; OAD-MS/MS collision energy, 6 eV with an energy spread of 0 eV; nebulizer gas flow, 2 L/min; interface temperature, 300 \u00b0C; and interface voltage, +4.0 kV (positive) / -3.0 kV (negative). The other DDA parameters were dependent on the product ion scan number, 10; intensity threshold for CID-MS/MS, 1000 au; intensity threshold for OAD-MS/MS, 10,000 au; and exclusion time of precursor ion, 0 s. Mass calibration was automatically performed using a calibration delivery system (CDS) with a sub-interface. The experimental setup for OAD-MS/MS is described in detail elsewhere<strong>[1]</strong>. Briefly, O/OH was generated via the microwave discharge of water vapor. The generated O/OH was introduced into the collision cell (q2) of LCMS-9030. The quadrupole rods in q2 were heated to 150 \u00b0C to prevent surface oxidation of the electrodes due to O/OH.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Takahashi H, Shimabukuro Y, Asakawa D, Korenaga A, Yamada M, Iwamoto S, Wada M, Tanaka K. Identifying Double Bond Positions in Phospholipids Using Liquid Chromatography-Triple Quadrupole Tandem Mass Spectrometry Based on Oxygen Attachment Dissociation. Mass Spectrom (Tokyo). 2019;8(2):S0080. doi:10.5702/massspectrometry.S0080. Epub 2020 Jan 22. PMID:33299730.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Raw MS Data Files (.<strong>lcd</strong>) were converted into .<strong>mzML</strong> using the <strong>LabSolutions</strong> software. The <strong>mzML</strong> data were preprocessed using the <strong>MS-DIAL</strong> software program (bootstrap version 4.38 and 4.80) for peak picking, MS/MS assignment, annotation in CID-MS/MS and peak alignment. The following parameters were set: (data collection) RT begin, 0 min; RT end, 18 min; mass range begin, 0 Da; mass range end, 2000 Da; MS1 tolerance, 0.01 Da; MS2 tolerance, 0.025 Da; (peak detection) minimum peak height, 300 amplitude; mass slice width, 0.1 Da; smoothing method, linear weighted moving average; smoothing level, 3 scan; minimum peak width, 5 scan; exclusion list, none; (deconvolution parameters) sigma window value, 0.5; MS/MS abundance cut off, 0 amplitude; (identification) RT tolerance, 2 min; MS1 accurate mass tolerance, 0.01 Da; MS2 mass tolerance, 0.05 Da; identification score cut-off, 70%; (text file and post identification) RT tolerance, 0.15 min; mass tolerance, 0.01 Da; identification score cut-off, 70%; (alignment) RT tolerance, 0.05 min; MS1 tolerance, 0.015 Da. The .<strong>mzML</strong> data of OAD-MS/MS were imported into <strong>MS-DIAL</strong>, where the <strong>MS-DIAL</strong> alignment results (.txt) were utilized as a text library to assign molecular species information to the OAD-MS/MS spectra of the same sample. The OAD-MS/MS spectra with molecular species information were exported in text format (.txt) from the <strong>MS-DIAL</strong> program, and the result was imported to the <strong>MS-RIDD</strong> software program, where the mass accuracy was set to 15 ppm and minimum intensity threshold for OAD diagnostic ions were set to 0.01, as %, and 0.005% for ?4 the sphingoid base, respectively. In this study, 14 fragment ions associated with a single double bond and related dehydrated ions were utilized as reference ions (Table S3). The detailed annotation algorithm is summarized in Figure S7. All annotation results from <strong>MS-RIDD </strong>were confirmed and collected by human verification.</p><p><br></p><p>The limit of detection (LOD) and limit of annotation (LOA) were evaluated as follows. The LOA value was defined as the minimum concentration in which the essential fragment ions to determine the double bond position are detected in the MS/MS spectrum. On the other hand, the minimum concentration where the chromatographic peak was detected by the peak picking algorithm of <strong>MS-DIAL</strong> was defined as the LOD value in this study because the cut-off value of signal to noise ratio in the peak picking algorithm is set as 3. Although the evaluation method of LOD does not follow the usual definition of limit of detection, we believe that the result gives a practical concentration whose peak is handled in our <strong>MS-DIAL</strong>/<strong>MS-RIDD</strong> software programs.</p><p><br></p><p>The source code of <strong>MS-RIDD</strong> was written in <strong>Python</strong> (version 3.7.3) using <strong>Pandas</strong> (version 0.24.2) for data curation, <strong>Matplotlib</strong> (version 3.0.3) for data visualization, <strong>Numpy</strong> (version 1.16.2) for statistical analysis, and <strong>openpyxl</strong> (version 2.6.1) and <strong>python-pptx</strong> (version 0.6.18) for exporting the results. Hierarchical clustering analysis was performed using <strong>Scipy</strong> (version 1.5.3). The data visualization for CID-/OAD-MS/MS spectra, extracted ion chromatograms, pairwise plots of retention time and m/z, heatmaps and bar charts were carried out using <strong>Matplotlib</strong> (version 3.0.3). The compound structure was drawn using <strong>MarvinSketch</strong> (version 20.20) from <strong>ChemAxon</strong>. The fragmentation pathway of OAD (Figure 1a and S2) was drawn using <strong>ChemDraw</strong> (version 19.1.1.21).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The mzML data were preprocessed using the MS-DIAL software program (bootstrap version 4.38 and 4.80) for peak picking, MS/MS assignment, annotation in CID-MS/MS and peak alignment. The following parameters were set: (data collection) RT begin, 0 min; RT end, 18 min; mass range begin, 0 Da; mass range end, 2000 Da; MS1 tolerance, 0.01 Da; MS2 tolerance, 0.025 Da; (peak detection) minimum peak height, 300 amplitude; mass slice width, 0.1 Da; smoothing method, linear weighted moving average; smoothing level, 3 scan; minimum peak width, 5 scan; exclusion list, none; (deconvolution parameters) sigma window value, 0.5; MS/MS abundance cut off, 0 amplitude; (identification) RT tolerance, 2 min; MS1 accurate mass tolerance, 0.01 Da; MS2 mass tolerance, 0.05 Da; identification score cut-off, 70%; (text file and post identification) RT tolerance, 0.15 min; mass tolerance, 0.01 Da; identification score cut-off, 70%; (alignment) RT tolerance, 0.05 min; MS1 tolerance, 0.015 Da. The .mzML data of OAD-MS/MS were imported into MS-DIAL, where the MS-DIAL alignment results (.txt) were utilized as a text library to assign molecular species information to the OAD-MS/MS spectra of the same sample. The OAD-MS/MS spectra with molecular species information were exported in text format (.txt) from the MS-DIAL program, and the result was imported to the MS-RIDD software program, where the mass accuracy was set to 15 ppm and minimum intensity threshold for OAD diagnostic ions were set to 0.01, as %, and 0.005% for ?4 the sphingoid base, respectively. In this study, 14 fragment ions associated with a single double bond and related dehydrated ions were utilized as reference ions (Table S3). The detailed annotation algorithm is summarized in Figure S7. All annotation results from MS-RIDD were confirmed and collected by human verification.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS5861_LC-MS_cid_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS5861_LC-MS_cid_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS5861_LC-MS_oad_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

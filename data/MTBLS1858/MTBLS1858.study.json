@@ -1,0 +1,494 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-10-11T00:00:00",
+        "statusUpdateTime": "2020-10-11T13:41:39.011495",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1858",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-06-25",
+        "publicReleaseDate": "2020-10-11",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "2020-08-20",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1858",
+                "filename": "s_MTBLS1858.txt",
+                "title": "The impact of slyA on cell metabolism of Salmonella Typhimurium: a joint study of transcriptomics and metabolomics",
+                "description": "<p>Salmonella Typhimurium (S. typhimurium), a gram-negative foodborne pathogen, is the leading cause of Salmonella food poisoning in humans. slyA has been demonstrated to be a critical transcriptional regulator in S. typhimurium, enabling the pathogen to survive in host cells by modulating the expression of hundreds of genes.</p><p>In this study, we used gas chromatography coupled with tandem mass spectrometry (GC-MS/MS) to investigate the potential effect of slyA on the cell metabolism of S. typhimurium. The metabolite profiling data were linked to the transcriptomic data to elucidate the possible roles of slyA in the metabolism of Salmonella. The metabolome data indicated that several glycolysis- and lipid metabolism-associated pathways, including the turnover of glycerolipid, pyruvate, butanoate and glycerophospholipid, were affected in the absence of slyA. In addition, the mRNA levels of several genes associated with glycolysis and lipid turnover were downregulated when slyA was deleted, including pagP, fadL, mgtB, iacp and yciA. Collectively, this evidence suggests that SlyA might impact glycolysis and lipid turnover in Salmonella at the transcriptional level.</p><p><br></p><p><strong>Linked Data:</strong></p><p>The transcriptomic data haa been deposited in the NCBI SRS database, access number PRJNA656165.</p>",
+                "submissionDate": "2020-06-25",
+                "publicReleaseDate": "2020-10-11",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Tian",
+                        "lastName": "sicheng",
+                        "email": "Pontus_TianSC@163.com",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+86 18691512011",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Grant Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51826"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gene function",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "2020-08-20",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002862"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The Impact of SlyA on Cell Metabolism of Salmonella typhimurium: A Joint Study of Transcriptomics and Metabolomics",
+                        "authorList": "Tian Sicheng, Wang Chuan, Li Yongyu, Bao Xiaoming, Zhang Yunwen, Tang Tian",
+                        "pubMedID": "32969666",
+                        "doi": "10.1021/acs.jproteome.0c00281",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Strain",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "strain",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005135"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Salmonella typhimurium wild type strain TT-1 and slyA deletion mutant TT-15 used in this study were described previously [1]. Strains were routinely cultured in M9 broth or on M9 agar at 37 \u00b0C. For metabolite extraction, 250 \u03bcl of overnight culture of TT-1 or TT-15 was transferred into a 250 ml sterile flask containing 25 ml of fresh M9 broth. Following incubation at 180 rev/min and 37 \u2103, cell pellets were harvested at an optical density (OD) value of ~0.6. Five milliliters of cultures of TT-1 or TT-15 was immediately quenched with 25 ml of 60% methanol (v/v) at -40 \u00b0C, followed by centrifugation at 12,000 x g at -10 \u00b0C for 5 min. Cell pellets were collected, and 10 \u03bcl of isopropylmalic acid was added to serve as an internal standard.</p><p><br></p><p>Reference:</p><p>[1] Tang T, Gao Q, Barrow P, et al. Development and evaluation of live attenuated Salmonella vaccines in newly hatched duckings. Vaccine, 2015, 33(42): 5564-5571.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For metabolite extraction, 2 ml of 90 \u00b0C and 75% ethanol (v/v) were added to the cell pellets and incubated for 10 min. Samples were then incubated at -40 \u00b0C for 5 min and centrifuged at 12,000 g at -10 \u00b0C for 8 min. An aliquot of 450 \u03bcl of supernatant was transferred into a 1.5 ml Eppendorf tube and evaporated to dryness using a DNA 120 SpeedVac (Thermo, USA). The sample extracts were stored at -80 \u00b0C until use.</p><p><br></p><p>For derivatization, 80 \u03bcl of methoxyamine hydrochloride (20 mg/ml in pyridine) was added to the sample extracts and incubated at 30 \u00b0C at 1200 rpm/min for 90 min. Then, 40 \u03bcl of MSTFA was added to the sample extracts and incubated at 37 \u00b0C for 30 min. This was followed by centrifugation at 14800 x g for 8 min. Then, 80 \u03bcl of supernatant was transferred into a GC-MS vial.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples were analyzed on a TQ8050 103 GC-MS/MS system (Shimadzu, Kyoto, Japan). In brief, 1 \u03bcl of sample was injected into a DB-5 capillary column (30.0 m x 250 \u03bcm x 0.25 \u03bcm) in split mode (split ratio 1:10). The oven temperature was increased at 4 \u2103/min until 320\u00b0C, where it was maintained for 8 min. Helium was used as the carrier gas with a pressure and flow rate of 83.7 kPa and 17.1 ml/min, respectively.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model 1",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type 1",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model 2",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type 2",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>MS/MS detection was conducted under multiple reaction monitoring mode (see metabolite table for details, Q1=m/z, Q2=fragmentation and RT=Dwell time). The temperatures of the ion source and interface were 200 \u00b0C and 280 \u00b0C, respectively.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The raw data were analyzed using GC\u2013MS solution software Ver. 4.50 (Shimadzu, Kyoto, Japan). Statistical analysis was implemented with SPSS Ver. 22.0 (IBM, UY, USA). The differences in any given compound between groups were determined by unpaired t test, and p &lt; 0.05 indicates statistical significance. Partial least squares-discriminant analysis (PLS-DA) was performed using SIMCA-P software Ver. 13.0 (Umetrics, Umea, Sweden)</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Compounds were determined using the Smart Metabolites Database Ver. 2 (Shimadzu, Kyoto, Japan). The concentration of each metabolite was calculated as described previously.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS - Positive (GC-MS (Positive))",
+                        "filename": "a_MTBLS1858_GCMS-MS___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,564 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-09-28T00:00:00",
+        "statusUpdateTime": "2022-09-28T14:18:36.868703",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS3251",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-08-13",
+        "publicReleaseDate": "2022-09-28",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "SNOMED",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "PR",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS3251",
+                "filename": "s_MTBLS3251.txt",
+                "title": "Transcriptional memory of dFOXO activation in youth curtails later-life mortality",
+                "description": "Identifying processes occurring in early life affect subsequent life and health span is an urgent aim to improve human health. In this study, we identified a novel mechanism of dFOXO in longevity determination in Drosophila. We found that early adulthood induction of dFOXO is sufficient to reduce mortality in old age through different pathways than chronic dFOXO. We showed that dFOXO requires specific ATP-dependent chromatin modifiers to extend lifespan, and we could mimic this lifespan extension by modulating dFOXO\u2019s targets in later life. Furthermore, dFOXO in early life induces a specific transcriptional programme that counteracts the natural transcriptomic changes occurring with age. Our findings provide a better understanding of transcriptional mechanisms related to longevity and opens new avenues for possible time-restricted interventions to improve human health in the future.",
+                "submissionDate": "2021-08-13",
+                "publicReleaseDate": "2022-09-28",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Nazif",
+                        "lastName": "Alic",
+                        "email": "n.alic@ucl.ac.uk",
+                        "affiliation": "University College London",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Guillermo",
+                        "lastName": "Martinez Corrales",
+                        "email": "g.corrales@ucl.ac.uk",
+                        "affiliation": "University College London",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Research associate (occupation)",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "SNOMED",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://snomed.info/id/224614003"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000524"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "forkhead box protein O (fruit fly)",
+                        "termSource": {
+                            "comments": [],
+                            "name": "PR",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/PR_Q95V55"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Transcriptomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153189"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Transcriptional memory of dFOXO activation in youth curtails later-life mortality",
+                        "authorList": "Guillermo Mart\u00ednez Corrales, Mengjia Li, Tatiana Svermova, Alex Gon\u00e7alves, Bence Kover, Adam Dobson, Tony D. Southall, Nazif Alic",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "RU treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Whole bodies of S106 x UAS-dfoxo female flies backcrossed in the Dahomey background were used for this study. They were allowed to mate for the 2 days of adulthood, then separated in vials containing 15 flies each. RU486 was added to the food to induce expression of dFOXO in the treated group, and the same amount of ethanol was added in the control group. At day 30 they were briefly anesthetised in CO2 and snap-frozen in liquid nitrogen prior to metabolite extraction. 7 technical replicates were used for RU- condition (labelled as C) and 8 for RU+ condition (labelled as S).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>5 whole female flies were suspended in 200 \u00b5l of chloroform/methanol/water (1:3:1 ratio) at 4 \u00b0C containing glass beads and were homogenized at 4 \u00b0C. Samples were then centrifuged for 3 min at 13,000 x g at 4 \u00b0C and 180 \u00b5l of supernatant was subtracted and stored at -80 \u00b0C for further analysis by LC\u2013MS. A pooled sample was generated by combining 20 \u00b5l of each of the sample, to be used as a quality control sample in the LC\u2013MS procedure.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Hydrophilic interaction liquid chromatography (HILIC) was carried out on a Dionex UltiMate 3000 RSLC system (Thermo Fisher Scientific, Hemel Hempstead, UK) using a ZIC-pHILIC column (150 mm x 4.6 mm, 5 \u03bcm column, Merck Sequant). The column was maintained at 30 \u00b0C and samples were eluted with a linear gradient (20 mM ammonium carbonate in water, A and acetonitrile, B) over 24 min at a flow rate of 0.3 ml/min as follows: min 0, 20% A, 80% B; min 15, 80% A, 20% B; min 15, 95% A, 5% B; min 17, 95% A, 5% B; min 17, 20% A, 80% B; min 26, 20% A, 80% B. Injection volume was 10 \u00b5l and samples were maintained at 5 \u00b0C prior to injection.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For the MS analysis, a Thermo Orbitrap QExactive (Thermo Fisher Scientific) was operated in polarity switching mode and the MS settings were as follows: Resolution 70,000; AGC 1e^6; m/z range 70\u20131050; Sheath gas 40; Auxiliary gas 5; Sweep gas 1; Probe temperature 150 \u00b0C; Capillary temperature 320 \u00b0C. For positive mode ionisation: source voltage +3.8 kV, S-Lens RF Level 30.00, S-Lens Voltage -25.00 V, Skimmer Voltage -15.00 V, Inject Flatapole Offset -8.00 V, Bent Flatapole DC -6.00 V. For negative mode ionisation: source voltage -3.8 kV.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Raw data was uploaded <strong>PIMP</strong> (Glasgow, Polyomics, <a href='http://polyomics.mvls.gla.ac.uk' rel='noopener noreferrer' target='_blank'>http://polyomics.mvls.gla.ac.uk</a>). Peaks table used for subsequent analysis was generated by <strong>PIMP</strong> and analysed in <strong>Metaboanalyst 4.0</strong> (<a href='www.metaboanalyst.ca' rel='noopener noreferrer' target='_blank'>www.metaboanalyst.ca</a>).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite identification was performed in <strong>Metaboanalyst 5.0</strong> with parameters as follows: Missing value estimation by KNN; Filtering by SD; Sample normalization by sum; Data transformation by log (generalized logarithm transformation or glog); Data scaling by autoscaling (mean-centered and divided by the standard deviation of each variable).</p><p><br></p><p>Significant peaks were identified in by <strong>t-test</strong>, and <strong>p-values</strong> were adjusted by <strong>Benjamini-Hochberg method (FDR)</strong> using <strong>R</strong> (R core team). <strong>FDR &lt; 0.1</strong> was assigned as significant. Peaks were assigned to their corresponding metabolites regarding their mass and retention time (RT). Identification and annotation of metabolites was performed as previously described<strong>[1]</strong>. Briefly, metabolite annotation was assigned to putative metabolites to the signal based on matching their mass and RT with database or library entries. Metabolite identification was performed by direct comparison of the properties of an authentic standard ran in parallel.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Godzien J, Alberto Gil-de-la Fuente A, Otero A, Barbas C. Chapter Fifteen - Metabolite Annotation and Identification, Eds: Joaquim Jaumot, Carmen Bedia, Rom\u00e0 Tauler, Comprehensive Analytical Chemistry, Elsevier, 82, 2018, 415-445. doi:10.1016/bs.coac.2018.07.004.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS3251_LC-MS_alternating_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS3251_LC-MS_alternating_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

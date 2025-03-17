@@ -1,0 +1,747 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2021-10-06T00:00:00",
+        "statusUpdateTime": "2021-10-06T16:20:17.104142",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1932",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-07-19",
+        "publicReleaseDate": "2021-10-06",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "http://data.bioontology.org/ontologies/EDAM",
+                "version": "19",
+                "description": "EDAM bioinformatics operations, data types, formats, identifiers and topics"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "operation",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1932",
+                "filename": "s_MTBLS1932.txt",
+                "title": "A novel strategy for mining and identification of acylcarnitines using data-independent-acquisition (DIA) based retention time prediction modeling and pseudo-characteristic fragmentation ions matching",
+                "description": "It is a challenging work to screen, identify, and quantify acylcarnitines in complex biological samples. A method, based on the retention time (RT) prediction and data-independent acquisition strategies, was proposed for the large-scale identification of acylcarnitines using liquid chromatography coupled with high-resolution mass spectrometry (LC-HRMS). Relative cumulative eluotropic strength was introduced as a novel descriptor in building a linear prediction model, which not only solves the problem that acylcarnitines with long carbon chains cannot be well predicted in traditional models but also proves its robustness and transferability across instruments in two data sets that were acquired in distinct chromatography conditions. The accessibility of both predictive RT and MS<sup>2</sup> spectra of suspect features effectively reduced about 30% false-positive results, and consequently, 150 and 186 acylcarnitines were identified in the rat liver and human plasma (NIST SRM 1950), respectively. This method provides a new approach in large-scale analysis of acylcarnitine in lipidomic studies and can also be extended to the analysis of other lipids.",
+                "submissionDate": "2020-07-19",
+                "publicReleaseDate": "2021-10-06",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Chao",
+                        "lastName": "Feng",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Liming",
+                        "lastName": "Xue",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Dasheng",
+                        "lastName": "Lu",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Yu'e",
+                        "lastName": "Jin",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Xinlei",
+                        "lastName": "Qiu",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Frank J",
+                        "lastName": "Gonzalez",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Guoquan",
+                        "lastName": "Wang",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Zhijun",
+                        "lastName": "Zhou",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "acylcarnitine measurement",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005059"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Data-Independent Acquisition",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "28",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C161786"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Retention time prediction",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EDAM",
+                            "file": "http://data.bioontology.org/ontologies/EDAM",
+                            "version": "19",
+                            "description": "EDAM bioinformatics operations, data types, formats, identifiers and topics"
+                        },
+                        "termAccession": "http://edamontology.org/operation_3633"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "18.10e",
+                            "description": "NCI Thesaurus OBO Edition"
+                        },
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Novel Strategy for Mining and Identification of Acylcarnitines Using Data-Independent-Acquisition-Based Retention Time Prediction Modeling and Pseudo-Characteristic Fragmentation Ion Matching.",
+                        "authorList": "Feng C, Xue L, Lu D, Jin Y, Qiu X, Gonzalez FJ, Wang G, Zhou Z.",
+                        "pubMedID": "33625228",
+                        "doi": "10.1021/acs.jproteome.0c00810",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sample extract",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Extract",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C82948"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Data Acquisition Method",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Data Acquisition",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142469"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Wistar rats (200\u2013260 g, 6- to 8-weeks-old) used in this study were supplied by the Shanghai Institute of Pharmaceutical Industry and all animal studies were performed under the approval of the Institutional Authority for Laboratory Animal Care. The rats were housed in an environmentally controlled room at room temperature on a 12 h light/dark cycle, with food and water provided ad libitum. After being fed with a standard diet for 10 days to adapt to the environment, the rats were euthanised and the liver tissues immediately excised and frozen, lyophilized and stored at -80 \u00b0C until chemical analysis.</p><p><br></p><p>Human plasma (NIST SRM 1950) was obtained from the National Institute of Standards and Technology (NIST, Gaithersburg, Maryland, USA).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>For rat liver, the tissue sample preparation was performed based on our previous study<strong>[1]</strong>. Briefly, MeOH-H2O (1/1, v/v) and MTBE were used to extract hydrophilic and hydrophobic metabolites in 2 successive steps. The appropriate volume of hydrophilic and hydrophobic extracts was respectively concentrated and reconstituted using ACN-H2O (9/1, v/v) and H2O-ACN-IPA (1/1/2, v/v/v) for instrumental analysis.</p><p><br></p><p>For human serum, the samples were treated according to a previous study<strong>[2]</strong>. Briefly, 1 ml mixture of TCM/MeOH (2/1, v/v) was added to 50 \u00b5l human plasma for extraction. The mixture was vortexed for 5 min. 200 \u00b5l ultra-pure water was then added to the mixture. After the mixture was vortexed and centrifuged (8000 rpm for 5 min), the upper and bottom stage layer of extractions, as hydrophilic and hydrophobic components, were separately transferred into two tubes for concentration. The subsequent sample reconstitution process was conducted as described in the above-mentioned tissue sample.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Lu D, Xue L, Feng C, Jin Y, Wu C, Xie C, Gonzalez FJ, Wang G, Zhou Z. A systemic workflow for profiling metabolome and lipidome in tissue. J Chromatogr A. 2019 Mar 29;1589:105-115. doi:10.1016/j.chroma.2018.12.061. PMID:30638710.</p><p><strong>[2]</strong> Ulmer CZ, Jones CM, Yost RA, Garrett TJ, Bowden JA. Optimization of Folch, Bligh-Dyer, and Matyash sample-to-extraction solvent ratios for human plasma-based lipidomics studies. Anal Chim Acta. 2018 Dec 11;1037:351-357. doi:10.1016/j.aca.2018.08.004. PMID:30292311.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Instrumental analysis was conducted based on our previous study<strong>[1]</strong>. In brief, UltiMate 3000 Hyperbaric LC system (Thermo Fisher Scientific, USA) equipped with an Acquity CSH C18 column (2.1 x 100 mm i.d., 1.7 \u00b5m particle size, Waters, Milford, MA, USA) was used for chromatographic separation with mobile phase A (ACN-water, 60/40, v/v) and mobile phase B (IPA-ACN, 90/10, v/v). The mobile phase gradient was as follows: 0-2.0 min, 40%-43% B; 2.0-2.1 min, 43%-50% B; 2.1-12.0 min, 50%-54% B; 12.0-12.1 min, 54%-70% B; 12.1-18.0 min, 70%-99%B; 18.0-18.1 min 99%-40% B; and 18.1-20.0 min, 40% B. The temperatures of column oven and autosampler were set at 55 and 4 \u00b0C, respectively. An Injection volume of 5 \u00b5l was selected with a flow rate of 0.4 ml/min.</p><p><br></p><p>All Quality control (QC) samples and sample extracts were frozen at -80 \u00b0C and -40 \u00b0C until analysis, respectively. The sample analysis procedure was performed at 4 \u00b0C. Before sample analysis, a retention time (RT) drift of less than 5% was ensured in repeated running of QC samples.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Lu D, Xue L, Feng C, Jin Y, Wu C, Xie C, Gonzalez FJ, Wang G, Zhou Z. A systemic workflow for profiling metabolome and lipidome in tissue. J Chromatogr A. 2019 Mar 29;1589:105-115. doi:10.1016/j.chroma.2018.12.061. PMID:30638710.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>MS data was acquired using Q-Exactive MS (Thermo Fisher Scientific, USA). The MS parameters were as follows: capillary temperature, 350 \u00b0C; ion spray voltage, 3300 V; sheath gas (N2) flow, 40 arb. units; and aux gas (N2) flow, 10 arb. units. MS1 data was acquired using full scan mode (resolution: 70,000 FWHM; AGC target: 1x10^6; Maximum IT: 50 ms; scan range: 120\u2013600 Da). MS2 data was acquired using Inclusion List-based TDA (IL-TDA) (a list where listed m/z and RT of all precursor ions of interest to be fragmented) / DDA mode (resolution: 17,500 FWHM; AGC target: 1x10^5; Maximum IT: 50 ms; TopN = 5; Isolation window: 1 Da; stepped NCE: 20, 40 and 60), PRM mode (resolution: 17,500 FWHM; AGC target: 2x10^4; Maximum IT: 50 ms; Isolation window: 1 Da; NCE: 20, 40 and 60), and DIA mode (resolution: 175,000 FWHM; AGC target: 1x10^5; Maximum IT: 50 ms; Loop count: 1; Isolation window: 10 Da; stepped NCE: 20, 40 and 60).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>ChemDraw v18.0 (PerkinElmer, US) was used to calculate CLogP. OriginPro 2019 (OriginLab Corporation, USA) was used to establish multiple linear regression model (Y: \u03b5\u00b0RC versus X1: carbon number and X2: unsaturated degree of acylcarnitines). Apart from the software including TraceFinder v4.1, Compound Discoverer v3.1, mzVault v2.3, and LipidSearch v4.1 provided by Thermo Fisher Scientific (USA), LipidMatch (<a href='http://secim.ufl.edu/secim-tools/lipidmatch/' rel='noopener noreferrer' target='_blank'>http://secim.ufl.edu/secim-tools/lipidmatch/</a>) and MS-DIAL (<a href='http://prime.psc.riken.jp/compms/msfinder/main.html' rel='noopener noreferrer' target='_blank'>http://prime.psc.riken.jp/compms/msfinder/main.html</a>) were used for library building, data mining, and compound identification.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>The identification was conducted based on accurate m/z of precursor ion and pseudo-CFIs matching. The pseudo-CFIs were summarized in the <strong>Table S1</strong> of the paper associated with the study, based on previously published studies<strong>[1]</strong>, and part of them were confirmed using online database or in-house database. The identification criteria are as follows: mass error of 5 ppm for precursor ion and fragment ions; at least two fragment ions of m/z 85.0284 and m/z 60.0808 should be matched for CFIs; and one more CFI of m/z 145.0495 is mandatory for the identification of 3-hydroxyl- or 3-keto- acylcarnitine species.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Yu D, Zhou L, Xuan Q, Wang L, Zhao X, Lu X, Xu G. Strategy for Comprehensive Identification of Acylcarnitines Based on Liquid Chromatography-High-Resolution Mass Spectrometry. Anal Chem. 2018 May 1;90(9):5712-5718. doi:10.1021/acs.analchem.7b05471. PMID:29651844.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS1932_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

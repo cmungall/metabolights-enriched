@@ -1,0 +1,556 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-06-23T10:27:30",
+        "statusUpdateTime": "2016-06-23T10:27:30",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS71",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2014-05-19",
+        "publicReleaseDate": "2014-05-21",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS71",
+                "filename": "s_MTBLS71.txt",
+                "title": "A statistical analysis of the effects of urease pre-treatment on the measurement of the urinary metabolome by gas chromatography\u2013mass spectrometry",
+                "description": "Urease pre-treatment of urine has been utilized since the early 1960s to remove high levels of urea from samples prior to further processing and analysis by gas chromatography\u2013mass spectrometry (GC\u2013MS). Aside from the obvious depletion or elimination of urea, the effect, if any, of urease pre-treatment on the urinary metabolome has not been studied in detail. Here, we report the results of three separate but related experiments that were designed to assess possible indirect effects of urease pre-treatment on the urinary metabolome as measured by GC\u2013MS. In total, 235 GC\u2013MS analyses were performed and over 106 identified and 200 unidentified metabolites were quantified across the three experiments. The results showed that data from urease pre-treated samples (1) had the same or lower coefficients of variance among reproducibly detected metabolites, (2) more accurately reflected quantitative differences and the expected ratios among different urine volumes, and (3) increased the number of metabolite identifications. Overall, we observed no negative consequences of urease pre-treatment. In contrast, urease pre-treatment enhanced the ability to distinguish between volume-based and biological sample types compared to no treatment. Taken together, these results show that urease pre-treatment of urine offers multiple beneficial effects that outweigh any artifacts that may be introduced to the data in urinary metabolomics analyses.",
+                "submissionDate": "2014-05-19",
+                "publicReleaseDate": "2014-05-21",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Thomas",
+                        "lastName": "Metz",
+                        "email": "thomas.metz@pnnl.gov",
+                        "affiliation": "Pacific Northwest National Laboratory",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "O",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "44",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "urine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BTO",
+                            "file": "http://data.bioontology.org/ontologies/BTO",
+                            "version": "22",
+                            "description": "BRENDA Tissue and Enzyme Source Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/BTO_0001419"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Statistics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17167"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "urease pre-treatment",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A statistical analysis of the effects of urease pre-treatment on the measurement of the urinary metabolome by gas chromatography\u2013mass spectrometry",
+                        "authorList": "Bobbie-Jo Webb-Robertson,\nYoung-Mo Kim,\nErika M. Zink,\nKatherine A. Hallaian,\nQibin Zhang,\nRamana Madupu,\nKatrina M. Waters,\nThomas O. Metz",
+                        "pubMedID": "25254001",
+                        "doi": "10.1007/s11306-014-0642-1",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "sample treatment protocol",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "sample treatment protocol",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0003809"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "gender",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Gender",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17357"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Approval for the conduct of this programmatic research was obtained from the Pacific Northwest National Laboratory Institutional Review Board. Urine samples from consenting male and female donors (n = 20 each, see Supplemental Table S1 in paper associated with this study) after an overnight fast were purchased from Bioreclamation, LLC (Hicksville, NY) and received frozen on dry ice and deidentified. To create a uniform sample for Experiments 1 and 2 (see below), aliquots from each individual sample were pooled, realiquoted, and stored at -80 \u00b0C until used.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Experiment 1: constant urine volume</br>\nTo initially evaluate the effects of urease pre-treatment on the urinary metabolome, we compared the urine metabolite profiles from pooled urine after pre-treatment with urease, water, or no treatment at all. For this, 100 \u00b5l aliquots of the pooled urine sample were incubated (n = 5, each) with 100 \u00b5l of a 1 mg/ml solution of urease (Sigma-Aldrich catalog number U4002) prepared in water (urease-treated; \u2018UT\u2019) or an equal volume of water alone (water-treated; \u2018WT\u2019) for 30 min at 37 \u00b0C with mild shaking (500 rpm). Identical aliquots (n = 5) were not subjected to any treatment (no treatment; \u2018NT\u2019) and allowed to sit at room temperature for 30 min. Metabolites were then extracted with concomitant protein precipitation by addition of 1 ml of cold (-20 \u00b0C) methanol with vortexing for 30 s, and precipitated proteins were removed by centrifugation at 15,000 x g for 10 min at 4 \u00b0C. The supernatants were transferred to glass autosampler vials and then dried in vacuo prior to chemical derivatization. If the extracts could not be immediately derivatized and analyzed by GC\u2013MS, then they were stored at -80 \u00b0C.\n</p>\nExperiment 2: varying urine volumes</br>\nTo evaluate whether the effects of urease pre-treatment of urine varied with the volume of urine prepared, we compared the urine metabolite profiles from pooled urine after pre-treatment with urease (UT) and after no treatment (NT) using various volumes of urine. For this, several volumes (5, 10, 25, 50, and 100 \u00b5l) of the pooled urine sample were incubated (n = 3, each) with 100 \u00b5l of a 1 mg/ml solution of urease or were not subjected to any treatment, each as described above. Metabolites were then extracted as described above.\n</p>\nExperiment 3: male versus female urines</br>\nFinally, to evaluate whether any artifacts introduced by urease pre-treatment on the urinary metabolome interfered with the ability to distinguish between comparative samples, we compared the metabolite profiles from individual male and female urine samples after pre-treatment with urease or after no treatment (previous metabolomics studies of male and female urines [1][2][3][4] have reported differences in metabolite levels). For this, 50 \u00b5L aliquots of individual male and female urine samples (n = 20, each) were blocked, randomized, and then incubated with 50 \u00b5l of a 1 mg/ml solution of urease (UT) or were not subjected to any treatment (NT), each as described above. Metabolites were then extracted as described above. Creatinine was quantified in each sample using the DetectX Urinary Creatinine Detection Kit according to the manufacturer\u2019s instructions, with the exception that a simple linear regression was used for the standard curve.\n</p>\nChemical derivatization:</br>\nDried metabolite extracts were chemically derivatized using a modified version of the protocol used to create FiehnLib [5]. Briefly, dried metabolite extracts were dried again to remove any residual water if they had been stored at -80 \u00b0C. To protect carbonyl groups and reduce the number of tautomeric isomers, 20 \u00b5l of methoxyamine in pyridine (30 mg/ml) were added to each sample, followed by vortexing for 30 s and incubation at 37 \u00b0C with generous shaking (1,000 rpm) for 90 min. At this point, the sample vials were inverted one time to capture any condensation of solvent at the cap surface, followed by a brief centrifugation at 1,000 x g for 1 min. To derivatize hydroxyl and amine groups to trimethylsilyated (TMS) forms, 80 \u00b5l of N-methyl-N-(trimethylsilyl)trifluoroacetamide (MSTFA) with 1% trimethylchlorosilane (TMCS) were then added to each vial, followed by vortexing for 10 s and incubation at 37 \u00b0C with shaking (1,000 rpm) for 30 min. Again, the sample vials were inverted one time, followed by centrifugation at 1,000 x g for 5 min. The samples were allowed to cool to room temperature and were analyzed in the same day.\n</p>\nFor Experiment 1, the derivatized samples were split into 3 portions and transferred to 3 new autosampler vials with inserts. For Experiment 2, the derivatized samples were kept intact and each transferred to a single new autosampler vial with insert. For Experiment 3, the derivatized samples were split into 2 portions and transferred to 2 new autosampler vials with inserts.\n</p>\nRef:</br>\n[1] Pasikanti, K. K., Ho, P. C., & Chan, E. C. (2008). Development and validation of a gas chromatography/mass spectrometry metabonomic platform for the global profiling of urinary metabolites. Rapid Communications in Mass Spectrometry, 22(19), 2984\u20132992. doi:10.1002/rcm.3699. PMID:18763274</br>\n[2] Slupsky, C. M., Rankin, K. N., Wagner, J., Fu, H., Chang, D., Weljie, A. M., et al. (2007). Investigations of the effects of gender, diurnal variation, and age in human urinary metabolomic profiles. Analytical Chemistry, 79(18), 6995\u20137004. PMID:17702530</br>\n[3] Saude, E. J., Adamko, D., Rowe, B. H., Marrie, T., & Sykes, B. D. (2007). Variation of metabolites in normal human urine. Metabolomics, 3(4), 439\u2013451.</br>\n[4] Psihogios, N. G., Gazi, I. F., Elisaf, M. S., Seferiadis, K. I., & Bairaktari, E. T. (2008). Gender-related and age-related urinalysis of healthy subjects by NMR-based metabonomics. NMR in Biomedicine, 21(3), 195\u2013207. PMID:17474139</br>\n[5] Kind, T., Wohlgemuth, G., Lee do, Y., Lu, Y., Palazoglu, M., Shahbaz, S., et al. (2009). FiehnLib: mass spectral and retention index libraries for metabolomics based on quadrupole and time-of-flight gas chromatography/mass spectrometry. Analytical Chemistry, 81(24), 10038\u201310048. doi:10.1021/ac9019522. PMID:19928838</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Samples were analyzed according to the method used to create FiehnLib [1]. An Agilent GC 7890A coupled with a single quadrupole MSD 5975C (Agilent Technologies, Inc.; Santa Clara, CA, USA) was used, and the samples were blocked and analyzed in random order for each Experiment. A HP-5MS column (30 m x 0.25 mm x 0.25 \u00b5m; Agilent Technologies, Inc.) was used for untargeted metabolomics analyses. The sample injection mode was splitless, and 1 \u00b5l of each sample was injected. The injection port temperature was held at 250 \u00b0C throughout the analysis. The GC oven was held at 60 \u00b0C for 1 min after injection, and the temperature was then increased to 325 \u00b0C by 10 \u00b0C/min, followed by a 5 min hold at 325 \u00b0C [2]. The helium gas flow rates for each Experiment were determined by the Agilent Retention Time Locking function based on analysis of deuterated myristic acid and were in the range of 0.45\u20130.5 ml/min.\n</p>\nRef:</br>\n[1] Kind, T., Wohlgemuth, G., Lee do, Y., Lu, Y., Palazoglu, M., Shahbaz, S., et al. (2009). FiehnLib: mass spectral and retention index libraries for metabolomics based on quadrupole and time-of-flight gas chromatography/mass spectrometry. Analytical Chemistry, 81(24), 10038\u201310048. doi:10.1021/ac9019522. PMID:19928838</br>\n[2] Kim, Y. M., Schmidt, B. J., Kidwai, A. S., Jones, M. B., Deatherage Kaiser, B. L., Brewer, H. M., et al. (2013). Salmonella modulates metabolism during growth under conditions that induce expression of virulence genes. Molecular BioSystems, 9, 1522. doi:10.1039/c3mb25598k. PMID:23559334</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "An Agilent GC 7890A coupled with a single quadrupole MSD 5975C (Agilent Technologies, Inc.; Santa Clara, CA, USA) was used, and the samples were blocked and analyzed in random order for each experiment. Data were collected over the mass range 50\u2013550 m/z. A mixture of FAMEs (C8\u2013C28) was analyzed once per day together with the samples for retention index alignment purposes during subsequent data analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "GC\u2013MS raw data files from each Experiment were processed using the Metabolite Detector software, version 2.0.6 beta [1]. Briefly, Agilent.D files were converted to netCDF format using Agilent Chemstation, followed by conversion to binary files using Metabolite Detector. Retention indices (RI) of detected metabolites were calculated based on the analysis of the FAMEs mixture, followed by their chromatographic alignment across all analyses after deconvolution.\n</p>\nRef:</br>\n[1] Hiller, K., Hangebrauk, J., Jager, C., Spura, J., Schreiber, K., & Schomburg, D. (2009). MetaboliteDetector: comprehensive analysis tool for targeted and nontargeted GC/MS based metabolome analysis. Analytical Chemistry, 81(9), 3429\u20133439. doi:10.1021/ac802689c. PMID:19358599</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolites were initially identified by matching experimental spectra to an augmented version of FiehnLib [1] (i.e., the Agilent Fiehn Metabolomics Retention Time Locked (RTL) Library, containing spectra and validated retention indices for over 700 metabolites), using a Metabolite Detector match probability threshold of 0.6 (combined retention index and spectral probability). All metabolite identifications were manually validated to reduce deconvolution errors during automated data-processing and to eliminate false identifications. We propose that this approach results in a metabolite identification confidence of Level 1.5, according to the guidelines recommended by the Metabolomics Standards Initiative Chemical Analysis Working Group of the Metabolomics Society [2]. While the library used to identify metabolites was generated by an external laboratory, this library contains both retention indices and mass spectra from analyses of authentic chemical standards, and our analyses were performed using methods identical to those used to create the library. The NIST 08 GC\u2013MS library was also used to cross validate the spectral matching scores obtained using the Agilent library and to provide identifications of unmatched metabolites (Level 2 identifications). The three most abundant fragment ions in the spectra of each identified metabolite were automatically determined by Metabolite Detector, and their summed abundances were integrated across the GC elution profile; fragment ions due to trimethylsilylation (i.e. m/z 73 and 147) were excluded from the determination of metabolite abundance. A matrix of identified metabolites, unidentified metabolite features (characterized by mass spectra and retention indices and assigned as \u2018unknown\u2019; Level 4 identifications), and their abundances was created for each Experiment for statistical analysis. Features resulting from GC column bleeding were removed from the data matrices prior to further data processing and analysis.\n</p>\nRef:</br>\n[1] Kind, T., Wohlgemuth, G., Lee do, Y., Lu, Y., Palazoglu, M., Shahbaz, S., et al. (2009). FiehnLib: mass spectral and retention index libraries for metabolomics based on quadrupole and time-of-flight gas chromatography/mass spectrometry. Analytical Chemistry, 81(24), 10038\u201310048. doi:10.1021/ac9019522. PMID:19928838</br>\n[2] Sumner, L. W., Amberg, A., Barrett, D., Beale, M. H., Beger, R., Daykin, C. A., et al. (2007). Proposed minimum reporting standards for chemical analysis. Metabolomics, 3(3), 211\u2013221.PMID:24039616</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "5975C Series GC/MSD (Agilent)",
+                        "filename": "a_MTBLS71_urease_varying_volume_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "5975C Series GC/MSD (Agilent)",
+                        "filename": "a_MTBLS71_urease_malevsfemale_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "5975C Series GC/MSD (Agilent)",
+                        "filename": "a_MTBLS71_urease_constant_volume_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

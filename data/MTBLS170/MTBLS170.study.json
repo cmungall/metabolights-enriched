@@ -1,0 +1,492 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-01-24T15:50:40.009000",
+        "statusUpdateTime": "2017-01-24T15:50:40.009000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS170",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-02-24",
+        "publicReleaseDate": "2015-03-19",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS170",
+                "filename": "s_MTBLS170.txt",
+                "title": "Computational Ranking of Yerba Mate Small Molecules Based on Their Predicted Contribution to Antibacterial Activity against Methicillin-Resistant Staphylococcus aureus",
+                "description": "The aqueous extract of yerba mate, a South American tea beverage made from Ilex paraguariensis leaves, has demonstrated bactericidal and inhibitory activity against bacterial pathogens, including methicillin-resistant Staphylococcus aureus (MRSA). The gas chromatography-mass spectrometry (GC-MS) analysis of two unique fractions of yerba mate aqueous extract revealed 8 identifiable small molecules in those fractions with antimicrobial activity. For a more comprehensive analysis, a data analysis pipeline was assembled to prioritize compounds for antimicrobial testing against both MRSA and methicillin-sensitive S. aureus using forty-two unique fractions of the tea extract that were generated in duplicate, assayed for activity, and analyzed with GC-MS. As validation of our automated analysis, we checked our predicted active compounds for activity in literature references and with used authentic standards to test for antimicrobial activity. 3,4-dihydroxybenzaldehyde showed the most antibacterial activity against MRSA at low concentrations in our bioassays. In addition, quinic acid and quercetin were identified using random forests analysis and 5-hydroxy pipecolic acid was identified using linear discriminant analysis. We additionally also generated a ranked list of unidentified compounds that may contribute to the antimicrobial activity of yerba mate against MRSA. Here we utilized GC-MS data to implement an automated analysis that resulted in a ranked list of compounds that likely contribute to the antimicrobial activity of aqueous yerba mate extract against MRSA.",
+                "submissionDate": "2015-02-24",
+                "publicReleaseDate": "2015-03-19",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Caroline",
+                        "lastName": "Rempe",
+                        "email": "crempe@vols.utk.edu\n",
+                        "affiliation": "University of Tennessee",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "S",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [
+                            {
+                                "name": "MRSA_inhibition",
+                                "value": ""
+                            }
+                        ],
+                        "annotationValue": "Methicillin Resistant Staphylococcus aureus",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C123515"
+                    },
+                    {
+                        "comments": [
+                            {
+                                "name": "MRSA_inhibition",
+                                "value": ""
+                            }
+                        ],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [
+                            {
+                                "name": "MRSA_inhibition",
+                                "value": ""
+                            }
+                        ],
+                        "annotationValue": "metabolite profiling",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OBI",
+                            "file": "http://data.bioontology.org/ontologies/OBI",
+                            "version": "22",
+                            "description": "Ontology for Biomedical Investigations"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                    },
+                    {
+                        "comments": [
+                            {
+                                "name": "MRSA_inhibition",
+                                "value": ""
+                            }
+                        ],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Computational ranking of yerba mate small molecules based on their predicted contribution to antibacterial activity against methicillin-resistant Staphylococcus aureus",
+                        "authorList": "Caroline S. Rempe, Kellie P. Burris, Hannah L. Woo, Benjamin Goodrich, Denise Koessler Gosnell,  Timothy J. Tschaplinski, C. Neal Stewart, Jr",
+                        "pubMedID": "25955847",
+                        "doi": "10.1371/journal.pone.0123925",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "MRSA_inhibition",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Boolean",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45254"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "SA_inhibition",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Boolean",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45254"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Dried leaves of a single commercial brand of yerba mate tea (Taragui; Argentina; 100% leaves; I. paraguariensis) were purchased from a local international supermarket and finely ground to a particle size < 300 \u00b5m using a commercial food blender (Oster, Boca Raton, Fla., USA). Sterile deionized water was added to ground leaves at a ratio of 3.6 ml to 1 g ground tissue, was allowed to stand for 2 h at 4 \u00b0C with occasional mixing to maximize extraction and was subsequently centrifuged at 5000 x g for 30 min. Aqueous extracts were then subjected to dialysis at 4 \u00b0C against deionized water for 36 h using a 3500 MWCO SnakeSkin\u00ae pleated dialysis tubing (ThermoFisher Scientific, Rockford, Ill., USA). Dialyzed extracts were then centrifuged at 5000 x g for 30 min to remove large insoluble particles and frozen at -80 \u00b0C.  Frozen extracts were lyophilized using Labconco FreeZone 12 L Freeze Dry System (Labconco, Kansas City, Missouri, USA) to concentrate them.  Lyophilized extracts were stored at room temperature in a sealed container until testing.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Lyophilized aqueous yerba mate extract was further extracted with 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, and 90% solvent (methanol or acetonitrile) and centrifuged at 13,000 x g for 30 min to separate them into two fractions: the pellet (not soluble in solvent concentration) and the supernatant (soluble in solvent concentration).  Fractions were subsequently dried using a SpeedVac Concentrator (Savant Industries, Inc., Farmingdale, N.Y., USA).  Lyophilized solvent-extracts were weighed, resuspended in sterile water to a concentration of 40 mg/ml and stored at -20 \u00b0C until bio-assays or derivitization for GC-MS.\n</p>\nSamples were filtered using 0.2 \u00b5m nylon membrane filters (13 mm Acrodisc; Pall Corporation, Ann Arbor, Mich., USA). 50 \u00b5l of each sample (or the whole sample if < 50 \u00b5l) and 15 \u00b5l of 1 mg/ml liquid sorbitol solution were then dried under a stream of sterile flowing nitrogen. Dried samples were derivitized by adding 500 \u00b5l HPLC grade acetonitrile followed by 500 \u00b5l N-methyl-N-trimethylsilyltrifluoroacetamide (MSTFA) with 1% trimethylchlorosilane (TMCS) (Thermo Fisher Scientific) and incubating at 70 \u00b0C for 60 min.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "After 2 d, 1 \u00b5l of each sample was injected by an autosampler into a 5975C inert XL gas chromatograph-mass spectrometer (Agilent Technologies Inc., Santa Clara, Calif., USA), fitted with an Rtx-5MS with Integra-guard (5% diphenyl/95% dimethyl polysiloxane) capillary column 30 m by 250 \u00b5m by 0.25 \u00b5m of film thickness.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "This standard quadrupole GC-MS was operated with electron impact (EI) ionization at 70 eV, 50 Da to 650 Da scans per second, and helium gas flow rate of 1.33 ml/min with the injection port in splitless mode. Temperatures were held at 250 \u00b0C for the injection port, 230 \u00b0C for the mass spectrometer source, and 150 \u00b0C for the mass spectrometer quad. The oven was programmed to start at 50 \u00b0C for 2 min, ramp up to 325 \u00b0C at 20 \u00b0C per min, hold for 11 min, and then cycle back down to 50 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data files were exported to AIA format in MSD ChemStation (Agilent Technologies, Inc., Santa Clara, Calif, USA) for subsequent analysis.\n</p>\nCorrection factors for the 2 samples with concentrations less than 50 \u00b5l were multiplied by intensity values to approximate 50 \u00b5l samples. Samples were also normalized with respect to the sorbitol (internal standard) 319 m/z spectral peak.\n</p>\nPeak selection and retention time correction were accomplished using the XCMS functions group(), retcor(), and group() with parameters based on the default GC-MS parameters of XCMS Online (see publication supplementary files for detailed parameters).\n</p>\nData was autoscaled for principal component analysis and supervised classification methods.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Identification was only attempted for metabolites highly ranked by their differences between 'active' and 'inactive'. Identification was accomplished using spectra from the Wiley library and in-house libraries.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "5975C Series GC/MSD (Agilent)",
+                        "filename": "a_MTBLS170_solvent_fractions_of_an_aqueous_extract_of_yerba_mate_ilex_paraguariensis_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,804 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-02-12T10:49:44.935000",
+        "statusUpdateTime": "2019-02-12T10:49:44.935000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\Users\\Gregoire\\These\\21_Chimiometrie\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS771",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-10-25",
+        "publicReleaseDate": "2019-02-12",
+        "filename": "",
+        "people": [
+            {
+                "comments": [],
+                "firstName": "Mathieu",
+                "lastName": "Cladi\u00e8re",
+                "email": "mathieu.cladiere@agroparistech.fr",
+                "affiliation": "AgroParisTech",
+                "address": "16 rue Claude Bernard, 75005 Paris, France\n",
+                "fax": "",
+                "midInitials": "",
+                "phone": "",
+                "roles": [
+                    {
+                        "comments": [],
+                        "annotationValue": "",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ]
+            },
+            {
+                "comments": [],
+                "firstName": "Val\u00e9rie ",
+                "lastName": "Camel",
+                "email": "valerie.camel@agroparistech.fr",
+                "affiliation": "AgroParisTech",
+                "address": "16 rue Claude Bernard, 75005 Paris, France",
+                "fax": "",
+                "midInitials": "",
+                "phone": "",
+                "roles": [
+                    {
+                        "comments": [],
+                        "annotationValue": "",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ]
+            },
+            {
+                "comments": [],
+                "firstName": "Gr\u00e9goire",
+                "lastName": "Delaporte",
+                "email": "gregoire.delaporte@gmail.com",
+                "affiliation": "AgroParisTech",
+                "address": "16 rue Claude Bernard, 75005 Paris, France",
+                "fax": "",
+                "midInitials": "",
+                "phone": "",
+                "roles": [
+                    {
+                        "comments": [],
+                        "annotationValue": "",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ]
+            }
+        ],
+        "publications": [
+            {
+                "comments": [],
+                "title": "Untargeted food contaminant detection using UHPLC-HRMS combined with multivariate analysis: feasibility study on tea",
+                "authorList": "Gr\u00e9goire Delaporte, Mathieu Cladi\u00e8re, Delphine Jouan-Rimbaud Bouveresse, Val\u00e9rie Camel",
+                "pubMedID": "",
+                "doi": "",
+                "status": null
+            }
+        ],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "PO",
+                "file": "http://data.bioontology.org/ontologies/PO",
+                "version": "10",
+                "description": "Plant Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "80",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "LOINC",
+                "file": "http://data.bioontology.org/ontologies/LOINC",
+                "version": "6",
+                "description": "Logical Observation Identifier Names and Codes"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS771",
+                "filename": "s_MTBLS771.txt",
+                "title": "Untargeted food chemical safety assessment: A proof-of-concept on two analytical platforms and contamination scenarios of tea (Green tea study)",
+                "description": "This study aims at assessing the capability of comparing and combining different instrumental platforms in an untargeted approach with a view of detecting chemical contaminants in food matrices at low levels. A strategy based on liquid chromatography-high resolution mass spectrometry (LC-HRMS) and chemometrics has been applied on two different complex food contamination scenarios, with tea as study product. The first scenario aimed at mimic the presence of a dozen of contaminants at levels just above regulatory limits (i.e. 10 and 30 \u03bcg/kg); the second scenario, more complex, aimed at simulate the presence of several different contaminations at levels close to regulatory limits (10 \u03bcg/kg) in different samples. This work was carried on two LC-HRMS platforms (with respectively ToF and Orbitrap mass analyzer technologies), and a highly automated data treatment workflow was implemented to deal with data acquired on both platforms. The untargeted approach performed well on all scenarios (even the most complex) and analytical platforms. Performance comparison between LC-HRMS technologies was made possible thanks to a vendor-neutral data treatment process. </br><br/> Sub-samples of green tea (Bancha type, gross, Japan) were spiked at different levels with a pool of 11 contaminants and then extracted with a generic method and analyzed by LC-HRMS (in both positive and negative ionization modes) on two platforms (respectively Orbitrap and ToF to generate a total of four data sets. </br></br> Green tea spiked with contaminants is reported in the current study MTBLS771. </br> Black tea spiked with contaminants is reported in MTBLS772. </br><br/> Linked Studies: <a href='https://www.ebi.ac.uk/metabolights/MTBLS772' target='_blank'><span class='label label-success'>MTBLS772</span></a>",
+                "submissionDate": "2018-10-25",
+                "publicReleaseDate": "2019-02-12",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Val\u00e9rie",
+                        "lastName": "Camel",
+                        "email": "valerie.camel@agroparistech.fr",
+                        "affiliation": "AgroParisTech",
+                        "address": "16 rue Claude Bernard, 75005 Paris, France",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Mathieu",
+                        "lastName": "Cladi\u00e8re",
+                        "email": "mathieu.cladi\u00e8re@agroparistech.fr",
+                        "affiliation": "AgroParisTech",
+                        "address": "16 rue Claude Bernard, 75005 Paris, France",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Gr\u00e9goire",
+                        "lastName": "Delaporte",
+                        "email": "gregoire.delaporte@gmail.com",
+                        "affiliation": "AgroParisTech",
+                        "address": "16 rue Claude Bernard, 75005 Paris, France",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "spiking",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002852"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "environmental food contaminant",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "80",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_78299"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Food Safety",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C26037"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Untargeted food chemical safety assessment: A proof-of-concept on two analytical platforms and contamination scenarios of tea.",
+                        "authorList": "Gr\u00e9goire Delaporte, Mathieu Cladi\u00e8re, Val\u00e9rie Camel",
+                        "pubMedID": "",
+                        "doi": "10.1016/j.foodcont.2018.12.004",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Spiking level",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "spiking",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "5",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002852"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Geographical origin",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Origin",
+                            "termSource": {
+                                "comments": [],
+                                "name": "LOINC",
+                                "file": "http://data.bioontology.org/ontologies/LOINC",
+                                "version": "6",
+                                "description": "Logical Observation Identifier Names and Codes"
+                            },
+                            "termAccession": "http://purl.bioontology.org/ontology/LNC/LP62760-1"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Spiking mix",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "spiking",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "5",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002852"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Technical replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "technical replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002090"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Injection order",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Injection order",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Loose tea samples were purchased at local retailers (Paris, France). The green tea was an organic Bancha tea from Japan. 9 sub-samples of green tea were taken and divided into 3 groups. A spiking mix composed of 11 herbicides (atrazine, bromacil, butylate, cycloate, EPTC, hexazinone isopropalin, metribuzin, molinate, pebulate, terbacil) in acetonitrile (ACN) was prepared.\n</p>\nThe first group (samples 01 to 03) was spiked at 10 \u00b5g/kg with this mix. The second one (samples 04 to 06) was unspiked, with just ACN added, as a control group. The third group (samples 07 to 09) was spiked at 30 \u00b5g/kg.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Tea samples were extracted using direct solvent extraction with 5 ml of an ACN/MeOH (90/10 v/v) mixture acidified with 0.1% FA, and tubes were agitated upside-down on an agitating plate during 1 h before centrifugation at 3,000 x g for 10 min. The supernatant was then collected and an aliquot (2 ml) was evaporated to dryness under a gentle stream of nitrogen. The extract was further reconstituted in 0.2 ml of ACN acidified with 0.1% FA and completed by 0.8 ml of ultrapure water with 0.1% FA was added leading to a total volume of 1 ml. The reconstituted extract was then centrifuged at 12,000 x g for 10 min, 0.5 ml collected and filtered at 0.2 \u00b5m using a syringeless filter vial (mini-uniprep G2, Whatman) before analysis. A quality control sample (QC) was made by pooling together in a glass tube 0.2 ml of each final extract considered in the analytical sequence, from which a 0.5 ml aliquot was sampled and filtered using a syringeless filter vial.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Samples were analyzed on 2 UHPLC/HRMS platforms. The first is a Waters Acquity UPLC H-Class system, composed of a quaternary solvent manager pump, a refrigerated sample manager Flow-Through-Needle and a column oven, coupled to a Waters high resolution Time-of-Flight mass spectrometer Xevo G2-S ToF. The second is a Thermo Scientific UltiMate 3000 UHPLC system composed of quaternary pumps, refrigerated auto-sampler and a column oven coupled to a Q-Exactive Orbitrap mass spectrometer. For each platform, the injection volume was 10 \u03bcl. Separation was made on a C18-PFP column (150 x 2.1 mm, 2 \u03bcm particle diameter, ACE supplied by AIT France), and the same chromatographic gradients were used on both instruments. An electrospray ionization source was used in both positive (ESI+) and negative (ESI-) modes. ESI+ and ESI- modes were run separately. For ESI+, the mobile phase was composed of water (A) and ACN (B), both acidified with 0.1% FA, and MeOH (C), flowing at 0.4 ml/min. Gradient started at 100% A and reached 100% B in 10 min, being kept for 6 min before switching to 100% C to rinse the system in 1 min, being held for 5 min, returning back to 100% A in 1 min and finally equilibrating for 3 min, with a total run duration of 26 min. For ESI-, the mobile phase was composed of water buffered at pH 6.45 with 10 mM of ammonium formate (A) and MeOH (B) flowing at 0.3 ml/min. The gradient started at 100% A and reached 100% B in 13 min, holding this condition for 7 min before turning back to 100% A in 1 min and finally equilibrating for 3 min, with a total run duration of 24 min. For both chromatographic methods the temperature of the column oven was kept at 30 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Samples were analyzed on 2 UHPLC/HRMS instruments. The UPLC-TOF-MS platform was a Waters Xevo G2-S ToF MS operated in centroid mode (resolution of 30,000 FWHM at m/z 200, m/z range from 60 to 800, 2 scans/s) (full details about the analytical method have been previously published[1]). The UPLC-Orbitap-MS platform was a Thermo Scientific Q-Exactive Orbitrap MS operated in centroid mode (resolution of 70,000 FWHM at m/z 200, m/z range from 60 to 800). For the Orbitrap MS method \u201cAGC target\u201d and \u201cMaximum IT\u201d parameters were set to 106 and 200 ms respectively.\n</p>\nRef:</br>\n[1] Cladi\u00e8re M, Delaporte G, Le Roux E, Camel V. Multi-class analysis for simultaneous determination of pesticides, mycotoxins, process-induced toxicants and packaging contaminants in tea. Food Chem. 2018 Mar 1;242:113-121. doi:10.1016/j.foodchem.2017.08.108. PMID:2903766</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw data files were first converted to an open-source format (.mzXML) with the help of ProteoWizard module \u201cMSConvert\u201d[1].\n</p>\nRef:</br>\n[1] Chambers MC et al. A cross-platform toolkit for mass spectrometry and proteomics. Nat Biotechnol. 2012 Oct;30(10):918-20. doi:10.1038/nbt.2377. PMID:23051804</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data files (.mzXML) were uploaded onto the Workflow4Metabolomics (W4M) computation platform[1]. Data matrices were built using XCMS R package[2]. Parameters for XCMS algorithm were inspired by those previously suggested[3] for high resolution UHPLC-Q-ToF and UHPLC-Orbitrap instruments. The full list of parameters for both Orbitrap and ToF data files can be found in Table A3 in the Supplementary material of the paper associated with this study.\n</p>\nAfter peak picking, data was imported in Matlab and peaks were first filtered using univariate statistical tests (student tests) and fold change determination. Peaks already present in blank injections (p-value<0.05 for t-test between sample groups and blank injections) were discarded, and only peaks exhibiting high contrast between sample groups were kept (p-value<0.05 for pairwise t-test between sample groups and fold change>2). A second filtration strategies based on the determination of a minimal relevant fold change has been implemented in parallel.\n</p>\nReduced data matrix was then log- and pareto-scaled and normalized using PQN (Probabilistic Quotient Normalization) before multivariate analysis with Independent Components Analysis (ICA). Thanks to ICA, data were visualized and discriminating peaks extracted and annotated with the help of a data base search and an isotopic pattern detection based on the previously published approach[4].\n</p>\nRef:</br>\n[1] Giacomoni F et al. (2015). Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics. Bioinformatics. 2015 May 1;31(9):1493-5. doi:10.1093/bioinformatics/btu813. PMID:25527831</br>\n[2] Smith CA, Want EJ, O'Maille G, Abagyan R, Siuzdak G. XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification. Anal Chem. 2006 Feb 1;78(3):779-87. doi:10.1021/ac051437y. PMID:16448051</br>\n[3] Patti GJ, Tautenhahn R, Siuzdak G. Meta-analysis of untargeted metabolomic data: Combining results from multiple profiling experiments Nature Protocols, 7 (3) (2013), 508-516. doi:10.1038/nprot.2011.454.Meta-Analysis</br>\n[4] Cotton J, Leroux F, Broudin S, Marie M, Corman B, Tabet JC, Ducruix C, Junot C. High-resolution mass spectrometry associated with data mining tools for the detection of pollutants and chemical characterization of honey samples. J Agric Food Chem. 2014 Nov 19;62(46):11335-45. doi:10.1021/jf504400c. PMID:25358104</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS771_POS_TOF_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Negative (LC-MS (Negative))",
+                        "filename": "a_MTBLS771_NEG_TOF_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS771_POS_ORB_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Negative (LC-MS (Negative))",
+                        "filename": "a_MTBLS771_NEG_ORB_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

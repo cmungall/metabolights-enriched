@@ -1,0 +1,544 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2015-12-17T15:47:55",
+        "statusUpdateTime": "2015-12-17T15:47:55",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS25",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2013-01-03",
+        "publicReleaseDate": "2013-01-10",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "26",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "25",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "40",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "16",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "93",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS25",
+                "filename": "s_MTBLS25.txt",
+                "title": "Urine Latin Square Spike-In for testing the NMR quantification tool, MetaboQuant",
+                "description": "To test the quantification performance of MetaboQuant and other NMR quantification tools, a set of eight metabolites were added to replicates of a urine sample in varying concentrations. The metabolites were alanine, creatinine, histidine, betaine, acetate, phosphocreatine, \u03b2-hydroxybutyrate (BHBA) and lactate. These were added in concentrations of 6000, 3000, 1500, 750, 375, 188, 94, and 47 micromol/L in a Latin Square design. 2D 1H-13C-HSQC spectra were recorded on a 600 MHz Bruker Avance III spectrometer employing a triple-resonance cryoprobe and z-gradients.",
+                "submissionDate": "2013-01-03",
+                "publicReleaseDate": "2013-01-10",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Matthias",
+                        "lastName": "Klein",
+                        "email": "matthias.klein@ur.de",
+                        "affiliation": "Institute of Functional Genomics, University of Regensburg",
+                        "address": "Matthias S. Klein Institute of Functional Genomics Josef-Engert-Str. 9 93053 Regensburg, Germany",
+                        "fax": "+49 941 9435019",
+                        "midInitials": "S.",
+                        "phone": "+49 941 9435006",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Peter",
+                        "lastName": "Oefner",
+                        "email": "Peter.Oefner@klinik.uni-regensburg.de",
+                        "affiliation": "Institute of Functional Genomics, University of Regensburg",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "J.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Wolfram",
+                        "lastName": "Gronwald",
+                        "email": "wolfram.gronwald@klinik.uni-r.de",
+                        "affiliation": "Institute of Functional Genomics, University of Regensburg",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "16",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "MetaboQuant",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Latin Square Study",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "40",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C90402"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "MetaboQuant: a tool combining individual peak calibration and outlier detection for accurate metabolite quantification in 1D (1)H and (1)H-(13)C HSQC NMR spectra.",
+                        "authorList": "Klein MS, Oefner PJ, Gronwald W.",
+                        "pubMedID": "23662895",
+                        "doi": "http://dx.doi.org/10.2144/000114026",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "A spot urine specimen was collected from an apparently healthy volunteer and split into eight aliquots. A Latin Square spike-in experiment was prepared, where the sum of molar amounts of spike-in\u2019s added to aliquots of a biological specimen is the same. Eight different metabolites, namely alanine, creatinine, histidine, betaine, acetate, phosphocreatine, \u03b2-hydroxybutyrate (BHBA) and lactate (Sigma-Aldrich, Steinheim, Germany), were added in varying amounts to the eight urine aliquots.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "400 \u03bcl of this spiked urine were added to 200 \u03bcl of 0.1 M phosphate buffer (pH 7.4) and 50 \u03bcl of deuterium oxide containing TSP as reference substance.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "2D 1H-13C HSQC spectra were acquired on an AVANCE III NMR spectrometer (Bruker BioSpin, Rheinstetten, Germany) using a 5 mm Triple-resonance cryoprobe with z-gradients probe at a proton frequency of 600 MHz and ambient temperature of 298 Kelvin.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "2048 x 128 data points were collected using the pulse program r_hsqcetgppr (Bruker BioSpin) using 8 scans/increment, a relaxation delay of 3 secs, an acquisition time of 0.14 secs and 16 dummy scans. This resulted in a total acquisition time of 56 min/spectrum. The spectral widths were set to 12 and 165 ppm in the proton and carbon dimensions, respectively. Water suppression was achieved using presaturation during the relaxation delay.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "2D spectra were semiautomatically processed employing a 90\u00b0 shifted squared sine-bell window function in both dimensions. For increased resolution in the indirect carbon dimension, the number of data points was doubled prior to Fourier transform using complex forward linear prediction. All 2D spectra were manually phase corrected, and a polynomial baseline correction was applied excluding the region around the water artifact. For more details see [1].\n</p>\nRef:</br>\n[1] Gronwald W, Klein MS, Kaspar H, Fagerer SR, N\u00fcrnberger N, Dettmer K, Bertsch T, Oefner PJ. Urinary metabolite quantification employing 2D NMR spectroscopy. Anal Chem. 2008 Dec 1;80(23):9288-97. doi: 10.1021/ac801627c. PMID:19551947</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For metabolite assignment, a urinary 2D 1H-13C HSQC spectrum was used. Amix 3.9.13 (Bruker BioSpin) was used for peak picking. An NMR peak search was performed using the Biological Magnetic Resonance Data Bank (available at http://www.bmrb.wisc.edu/), the Human Metabolome Database (available at http://www.hmdb.ca/) and the BBIOREFCODE database (Bruker BioSpin). To assign the signals, the spectrum was manually overlaid with reference spectra of pure compounds.",
+                        "uri": "http://www.hmdb.ca/, http://www.bmrb.wisc.edu/",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Software",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Software",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "MetaboQuant (http://genomics.uni-regensburg.de/site/institute/software/metaboquant) is a tool developed by Matthias S. Klein that allows reliable quantification from nuclear magnetic resonance (NMR) spectrum peak integrals by using individual calibration factors for each peak. Additionally, several outlier detection methods have been implemented to exclude overlapped and corrupted peaks from quantification. Detailed information about MetaboQuant can be found in the manual that is included in the file MetaboQuant.zip (http://genomics.uni-regensburg.de/software/NMR/MetaboQuant_1.2.zip) and is also provided in this study folder (manual.pdf).",
+                        "uri": "http://genomics.uni-regensburg.de/site/institute/software/metaboquant",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Installation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Installation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "MetaboQuant may be run as stand-alone application using Windows 2000 or newer. On other operating systems such as Linux or Mac OS, you may run MetaboQuant from within Matlab (The Mathworks, Natick, MA, USA). For this you need: Matlab version 7.1.0.246 (R14) Service Pack 3 or newer.\n</p>\nTo install MetaboQuant:</br>\nDownload the following files: MCRInstallerR2007b.exe and MetaboQuant.zip.</br>\nRun the file MCRInstallerR2007b.exe to install the required Matlab run-time routines.</br>\nExtract the file MetaboQuant.zip to a new folder.\n</p>\nTo run MetaboQuant:</br>\nDouble-click on the file MetaboQuant.exe. Starting MetaboQuant may take some minutes, as the Matlab run-time environment takes some time to be loaded. Extract MetaboQuant.zip to a new folder.</br>\nStart Matlab and change the working directory to the MetaboQuant installation folder, e.g. using the command cd.</br>\nTo run MetaboQuant, type MetaboQuant in the Matlab command line.</br>",
+                        "uri": "http://genomics.uni-regensburg.de/software/NMR/MetaboQuant_1.2.zip",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Bruker",
+                        "filename": "a_MTBLS25_urine_latin_square_spike-in_for_testing_metaboquant_metabolite_profiling_NMR_spectroscopy.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

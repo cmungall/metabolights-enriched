@@ -1,0 +1,503 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-09-11T09:25:56.573000",
+        "statusUpdateTime": "2019-09-11T09:25:56.573000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "/Users/Teruya/Desktop/ISAcreatorMetaboLights (1)/Configurations/MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS549",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-10-04",
+        "publicReleaseDate": "2019-09-11",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS549",
+                "filename": "s_MTBLS549.txt",
+                "title": "Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood",
+                "description": "During human fasting, metabolic markers, including butyrates, carnitines, and branched-chain amino acids, are upregulated for energy substitution through gluconeogenesis and use of stored lipids. We performed non-targeted, accurate semiquantitative metabolomic analysis of human whole blood, plasma, and red blood cells during 34-58\u2009hr fasting of four volunteers. During this period, 44 of ~130 metabolites increased 1.5~60-fold. Consistently fourteen were previously reported. However, we identified another 30 elevated metabolites, implicating hitherto unrecognized metabolic mechanisms induced by fasting. Metabolites in pentose phosphate pathway are abundant, probably due to demand for antioxidants, NADPH, gluconeogenesis and anabolic metabolism. Global increases of TCA cycle-related compounds reflect enhanced mitochondrial activity in tissues during fasting. Enhanced purine/pyrimidine metabolites support RNA/protein synthesis and transcriptional reprogramming, which is promoted also by some fasting-related metabolites, possibly via epigenetic modulations. Thus diverse, pronounced metabolite increases result from greatly activated catabolism and anabolism stimulated by fasting. Anti-oxidation may be a principal response to fasting.",
+                "submissionDate": "2017-10-04",
+                "publicReleaseDate": "2019-09-11",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Takayuki",
+                        "lastName": "Teruya",
+                        "email": "takayuki.teruya@oist.jp",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "fasting",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002756"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "human blood",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood.",
+                        "authorList": "Teruya T, Chaleckis R, Takada J, Yanagida M, Kondoh H.",
+                        "pubMedID": "30696848",
+                        "doi": "10.1038/s41598-018-36674-9",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "fasting time",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "4 healthy young volunteers fasted for 58 hr. They did not eat or consume any calories, while carrying out their daily routines; however, volunteers freely imbibed calorie-free drinks such as water, tea, and coffee. Their blood was sampled on 3 consecutive weekdays each morning at 9:00 in the laboratory at Kyoto University Hospital. All protocols were approved by the Ethics Committee on Human Research of Kyoto University Hospital and by the Human Subjects Research Review Committee of the Okinawa Institute of Science and Technology Graduate University (OIST).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All blood samples were drawn in a hospital laboratory to ensure rapid sample preparation. Venous blood samples for metabolomics analysis were taken into 50-ml heparinized tubes (Terumo). Immediately, 0.2 ml of blood (8\u201312 x 10^8 RBCs) were quenched in 1.8 ml of 55% (vol/vol) methanol at \u221240 \u00b0C. This quick-quenching step immediately after blood sampling ensured accurate measurement of many labile metabolites. The use of whole blood samples also allowed us to observe cellular metabolite levels that might otherwise have been affected by lengthy cell separation procedures. The remaining blood sample from each donor was centrifuged at 120 x g for 15 min at room temperature to separate plasma and RBCs. After centrifugation, 0.2 ml each of separated plasma and RBCs (14\u201320 x 10^8 RBCs) were quenched in 1.8 ml of 55% methanol at \u221240 \u00b0C. 2 internal standards (10 nmol Hepes and PIPES) were added to each sample. After brief vortexing, samples were transferred to Amicon Ultra 10-kDa cutoff filters (Millipore) to remove proteins and cellular debris. Thus, from each blood sample, 3 different subsamples\u2014whole blood, RBCs, and plasma\u2014were prepared. After sample concentration by vacuum evaporation, each sample was resuspended in 40 \u03bcl of 50% acetonitrile, and 1 \u03bcl was used for each injection into the LC-MS system.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "LC-MS data were obtained using a Paradigm MS4 HPLC system (Michrom Bioresources) coupled to an LTQ Orbitrap mass spectrometer (Thermo Fisher Scientific). Briefly, LC separation was performed on a ZIC-pHILIC column (150 mm x 2.1 mm, 5-\u03bcm particle size; Merck SeQuant). Acetonitrile (A) and 10 mM ammonium carbonate buffer, pH 9.3 (B) were used as the mobile phase, with a gradient elution from 80% to 20% A in 30 min, at a flow rate of 100 \u03bcl/ml.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "LC-MS data were obtained using a Paradigm MS4 HPLC system (Michrom Bioresources) coupled to an LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer (Thermo Fisher Scientific). For MS detection, an electrospray ionization (ESI) source was used. Each sample was injected twice (1 \u03bcl volume/injection), once with the ESI operated in negative ionization mode and once in positive ionization mode. Spray voltage was set to 2.8 kV (negative ESI) or 4 kV (positive ESI) and capillary temperature to 350 \u00b0C or 300 \u00b0C, respectively. Nitrogen was used as the carrier gas. The mass spectrometer was operated in a full scan mode with a 100\u20131000 m/z scan range and automatic data-dependent MS/MS fragmentation scans.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw data were analyzed using MZmine 2 software (http://mzmine.sourceforge.net). After performing peak detection, isotopic peaks were removed and peak lists of individual samples were aligned using their corresponding m/z and retention time values.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Peaks were assigned to metabolites based upon their retention times and m/z values. Compounds were confirmed with standards (STD) or with analysis of MS/MS spectra (MS/MS), if no standard was available.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ Orbitrap Classic (Thermo Scientific)",
+                        "filename": "a_MTBLS549_POS_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ Orbitrap Classic (Thermo Scientific)",
+                        "filename": "a_MTBLS549_NEG_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

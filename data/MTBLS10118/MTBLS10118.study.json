@@ -1,0 +1,520 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-10-25T08:13:52.635958",
+        "statusUpdateTime": "2024-10-25T08:13:52.635958",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS10118",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "07/05/2024",
+        "publicReleaseDate": "2024-10-25",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "SNOMED",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS10118",
+                "filename": "s_MTBLS10118.txt",
+                "title": "Transcriptomics integrated with metabolomics reveals partial molecular mechanisms of nutritional risk and neurodevelopment in children with congenital heart disease",
+                "description": "<p><strong>PURPOSE:</strong> To explore molecular mechanisms affecting nutritional risk and neurodevelopment in children with congenital heart disease (CHD) by combining transcriptome and metabolome analysis.</p><p><strong>METHODS:</strong> A total of 26 blood and serum samples from 3 groups of children with CHD (low nutritional risk combined with normal neurodevelopment (group A), low nutritional risk combined with neurodevelopmental disorders (group B) and high nutritional risk combined with normal neurodevelopment (group C)) were analyzed by transcriptome and metabolomics to search for differentially expressed genes (DEGs) and metabolites (DEMs). Functional analysis was conducted for DEGs and DEMs. Further, the joint pathway analysis and correlation analysis of DEGs and DEMs were performed.</p><p><strong>RESULTS:</strong> A total of 362 and 1351 DEGs were detected in group B and C compared to A, respectively. A total of 6 and 7 DEMs were detected in group B and C compared to A in positive mode, respectively. There were 39 and 31 DEMs in group B and C compared to A in negative mode. Transcriptomic analysis indicated that neurodevelopment may be regulated by some genes such as NSUN7, SLC6A8, CXCL1 and LCN8, nutritional risk may be regulated by SLC1A3 and LCN8. Metabolome analysis and joint pathway analysis showed that tryptophan metabolism, linoleic and metabolism and glycerophospholipid metabolism may be related to neurodevelopment, and glycerophospholipid metabolism pathway may be related to nutritional risk.</p><p><strong>CONCLUSION:</strong> By integrating transcriptome and metabolome analyses, this study revealed key genes and metabolites associated with nutritional risk and neurodevelopment in children with CHD, as well as significantly altered pathways. It has important clinical translational significance.</p>",
+                "submissionDate": "07/05/2024",
+                "publicReleaseDate": "2024-10-25",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Minglei",
+                        "lastName": "Gao",
+                        "email": "mingleigao@sina.com",
+                        "affiliation": "",
+                        "address": "Qingdao Women and Children\u2019s Hospital",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "At risk for nutritional problem",
+                        "termSource": {
+                            "comments": [],
+                            "name": "SNOMED",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://snomed.info/id/129689002"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "congenital heart disease",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005207"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Transcriptomics integrated with metabolomics reveals partial molecular mechanisms of nutritional risk and neurodevelopment in children with congenital heart disease",
+                        "authorList": "Minglei Gao, Yang Shen, Ping Yang, Chang Yuan, Yanan Sun, Zipu Li",
+                        "pubMedID": "",
+                        "doi": "10.3389/fcvm.2024.1414089",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Cohort",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "cohort",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004445"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A total of 26&nbsp;blood and serum&nbsp;samples were collected from hospitalized children with CHD in the Dalian&nbsp;Children's Hospital - 24 h before discharge from the hospital (or after surgery).&nbsp;Blood samples were used for transcriptomic analysis and serum samples were used for metabolomics analysis. Main inclusion criteria: (1) confirmed diagnosis of CHD; (2) aged 0-24 months; (3) informed consent was signed by child's guardian. Main exclusion criteria: (1) children with nutritional impairments due to major non-cardiac diseases; (2) multiple pregnancy; (3) chromosomal abnormality; (4) structural brain malformation; (5) placental dysfunction; (6) intrauterine growth retardation of the fetus; (7) received the prescribed nutrition supply and blood transfusion half a month before hospitalization.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Total RNA was extracted from the samples with TRIzol. Sequencing By Synthesis (SBS) technology was used to sequence the cDNA library using Illumina's high-throughput sequencing platform. The raw data obtained by sequencing were converted into FASTQ format sequence data by base calling.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The 300 \u03bcL acetonitrile was added to 100 \u03bcL serum at 4 \u00b0C. After 20 min of centrifugation at 12,000 rpm (4 \u00b0C), 100 \u03bcL supernatant was carefully extracted. Take 50 \u03bcL as quality control (QC) samples. All of the extracts were analyzed using LC-MS/MS technology with a high performance liquid chromatography (HPLC) and a high resolution mass spectrometer (HRMS). The chromatographic separation was performed on a Waters HSS T3 column. Metabolomics data were collected as follows: a column temperature of 45 \u00b0C and the flow rate of 0.3 mL/min. mobile phase: A\u2009=\u20090.1% formic acid water, B\u2009=\u20090.1% formic acid acetonitrile.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectrometry (MS) negative and positive mode conditions: sheath gas flow rates 30 arb, atomization pressure 50 psi. capillary voltage: positive mode 5500 V, negative mode -4500 V. Based on the MS detection, the original files were imported into Progenesis QI (Waters) software for data pre-processing and identification, and then the data quality control analysis was carried out to ensure the accuracy and reliability of the data.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Multivariate statistical analysis was performed on the data to reveal the differences of metabolites of different components, the biological significance of metabolites was discovered through functional analysis.&nbsp;Orthogonal partial least squares discrimination analysis&nbsp;(OPLS-DA) was used to filter signals that are not relevant to classification. Potential metabolites were analyzed according to predicted value (VIP) and significance of variables in Student's t-test. VIP &gt; 1 and p &lt; 0.05 were considered as statistically significant.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Differentially expressed metabolites (DEMs) were selected using KEGG (https://www.genome.jp/kegg/) and human metabolome database (HMDB) (https://hmdb.ca/), and further annotated in the KEGG compound database. The annotated metabolic pathways were classified according to the KEGG pathway database (https://www.kegg.jp/kegg/pathway.html).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS10118_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS10118_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

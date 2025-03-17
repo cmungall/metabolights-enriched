@@ -1,0 +1,590 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-01-15T00:00:00",
+        "statusUpdateTime": "2024-01-15T17:48:03.606472",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS7060",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2023-02-07",
+        "publicReleaseDate": "2024-01-15",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS7060",
+                "filename": "s_MTBLS7060.txt",
+                "title": "The Toxoplasma monocarboxylate transporters are involved in the metabolism within the apicoplast and are linked to parasite survival",
+                "description": "<p>The apicoplast is a four-membrane plastid found in the apicomplexans, which harbors biosynthesis and organelle housekeeping activities in the matrix. However, the mechanism driving the flux of metabolites, in and out, remains unknown. Here we used TurboID and genome engineering to identify apicoplast transporters in Toxoplasma gondii. Among the many novel transporters, we show that one pair of apicomplexan monocarboxylate transporters (AMTs) appears to be evolved from the putative host cell that engulfed a red alga. Protein depletion showed that AMT1 and AMT2 are critical for parasite growth. Metabolite analyses supported the notion that AMT1 and AMT2 are associated with biosynthesis of isoprenoids and fatty acids. However, stronger phenotypic defects were observed for AMT2, including in the inability to establish T. gondii parasite virulence in mice. This study clarifies, significantly, the mystery of apicoplast transporter composition and reveals the importance of the pair of AMTs in maintaining the apicoplast activity in apicomplexans.</p>",
+                "submissionDate": "2023-02-07",
+                "publicReleaseDate": "2024-01-15",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "He",
+                        "lastName": "Kai",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Subinvestigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C54622"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Toxoplasma",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C75538"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "auxin-inducible degron",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The Toxoplasma monocarboxylate transporters are involved in the metabolism within the apicoplast and are linked to parasite survival",
+                        "authorList": "Dong Hui, He Kai, Yang Jiong, Zheng Wen-Bin, Lai De-Hua, Liu Jing, Ding Hui-Yong, Wu Rui-Bin, Brown Kevin M., Hide Geoff, Lun Zhao-Rong, Zhu Xing-Quan, Long Shaojun",
+                        "pubMedID": "",
+                        "doi": "10.7554/eLife.88866.1",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Preprint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000004"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Parasite line",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "parasite line",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Biological replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "biological replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002091"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Parasite and host cell culture</strong></p><p>The previously described lines RH\u0394ku80\u0394hxgprt<strong>[1]</strong> and RH\u0394ku80\u0394hxgprt/TIR1<strong>[2]</strong>, referred to as RHku80and TIR1, were used to generate the transgenic lines (T. gondii tachyzoites) reported here. The parental lines and derived lines (<strong>Data S1</strong>&nbsp;in the paper associated with this study) were grown in human foreskin fibroblasts HFF-1 (ATCC SCRC-1041) in D5 media composed of Dulbecco\u2019s modified Eagle medium (DMEM) (12800-082, Thermo Fisher Scientific), supplemented with 5% heat-inactivated fetal bovine serum (10099-141, Gibco), 2\u2009mM glutamine (G0200, Solarbio Biotech) and 100 units penicillin-streptomycin (P1410, Solarbio Biotech) at 37 \u00b0C with 5% CO2. HFF-1 cells were cultured in the same media and conditions, and were all maintained as mycoplasma negative<strong>[3]</strong>. The TIR1 parental line, and their derived AID lines were cultured in HFF monolayers with 500\u2009mM auxin (I2886, Sigma-Aldrich) (+IAA) or 0.1% ethanol alone (\u2212IAA) for phenotypic assays, as previously described<strong>[2][4]</strong>. Parasites were allowed to naturally egress or were mechanically lysed by passing through 22\u2009g needles, and harvested by filtration through 3.0 \u00b5m polycarbonate membranes, from which extracellular parasites were used for experimental assays.</p><p><br></p><p><strong>Plasmid design and construction</strong></p><p>All plasmids (<strong>Data S2</strong>) were generated by a Basic Seamless Cloning and Assembly kit (CU201-02, TransGen Biotech) using existing plasmids as templates. Briefly, the pCas9-sgRNA plasmids were generated using a previously described plasmid (Addgene 54467) as the template, and 3 fragments were amplified using 3 pairs of primers named as Cas9-F1/R1, Cas9-sgRNA xx/Cas9-R2 and Cas9-F2/R3 (<strong>Data S3</strong>). The Cas9-sgRNA xx primer contains the sgRNA sequences (20 mer) which target a specific locus either upstream of the start codon (pCas9-sgRNA 5\u2019) or downstream of the stop codon (pCas9-sgRNA 3\u2019). The sgRNA design was selected from the prediction webpage<strong>[5]</strong>. The generic plasmids used for the amplicons targeting at the C-terminus of a gene were generated previously<strong>[4]</strong>, such as pLinker-AID-3xHA-DHFR (addgene 86669), pLinker-AID-Ty-HXGPRT (addgene 86667) and pLinker-AID-3xHA-HXGPRT (addgene 86553), or generated in this study by cloning the fragment of AID-Ty or TurboID-Ty (amplified from addgene 1116904) into the backbone of pLinker-AID-3xHA-DHFR, producing pLinker-AID-Ty-DHFR and pLinker-TurboID-Ty-DHFR. The generic plasmids used for the amplicons targeting at the N-terminus of a gene were generated using the backbone of a plasmid named pN-Ty-DHFR or pN-Ty-HXGPRT<strong>[6]</strong>, by replacement of the Ty region with Ty-TurboID, Ty-AID, HA-AID, C-myc-AID, 6HA or 6Ty. Primers used for the plasmid generation were listed for each plasmid in <strong>Data S3</strong> and plasmids generated in this study were listed in <strong>Data S2</strong>. The DNA regions, including epitopes, AID and TurboID in the newly prepared plasmids were checked by DNA sequencing. The plasmid for complementation of the Ty-AID- Kelch13 line was generated by cloning the Kelch13 fragment into pN-Ty-HXGPRT to replace the Ty region and was generated using primers listed in <strong>Data S3</strong>.</p><p><br></p><p><strong>Generation of T. gondii lines</strong></p><p>CRISPR-Cas9 tagging technology was used for generation of all lines (<strong>Data S1</strong>) that contain endogenous fusions at the C-terminus of proteins, and at the N-terminus of proteins in the parental lines of the RHku80KO or TIR1 line<strong>[4]</strong>. In brief, the CRISPR/Cas9 sgRNA 3\u2019 plasmids (<strong>Data S2</strong>) and CRISPR/Cas9 sgRNA 5\u2019 plasmids (<strong>Data S2</strong>) can efficiently produce Cas9 and sgRNA to create DNA double strand breaks (DSB) in parasites, and facilitates the integration of a tagging amplicon. The amplicon for the C-terminal tagging was generated from a generic plasmid (with the name pLinker-) containing a tag (6HA, AID-3xHA, AID-3Ty, 6Ty or TurboID-3Ty, etc) as described above, using a pair of primers L and T (<strong>Data S3</strong>). The amplicon for the N-terminal tagging was generated from a generic tagging plasmid (with the name pN-) containing a tag (Ty-TurboID, Ty-AID, HA-AID, myc-AID) using a pair of primers M and NL. The amplicon was then combined with the corresponding CRISPR/Cas9 sgRNA 3\u2019 or 5\u2019 plasmid (<strong>Data S2</strong>) and transfected into recipient lines. The drug selection was followed on the second day based on the resistance marker used in the amplicons. The resistance markers with LoxP sites were excised by transfection with pmini-Cre<strong>[7]</strong>. The cpl gene in the TIR1-AID lines was deleted using a similar CRISPR-Cas9 strategy<strong>[3]</strong>. The complementation lines were generated by direct transfection with the plasmids containing the wild type gene (<strong>Data S2</strong>). Transfection and drug selection were performed with 25\u2009\u03bcg/mL mycophenolic acid (M5255, Sigma-Aldrich) and 25\u2009\u03bcg/mL 6-xanthine (X4002, Sigma-Aldrich), 200\u2009\u03bcg/mL 6-thioxanthine (S96242, Shanghai Yuanye Biotech), or 3\u2009\u03bcM pyrimethamine (46706, Sigma-Aldrich)<strong>[4][6]</strong>. The lines were confirmed by IFA and diagnostic PCR, as illustrated in <strong>Figure S3a/S3b</strong>, and the PCR was designed for testing the integration site and the endogenous region with primers listed in <strong>Data S3</strong>.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Huynh MH, Carruthers VB. Tagging of endogenous genes in a Toxoplasma gondii strain lacking Ku80. Eukaryot Cell. 2009 Apr;8(4):530-9. doi:10.1128/EC.00358-08. Epub 2009 Feb 13. PMID:19218426.</p><p><strong>[2]</strong> Brown KM, Long S, Sibley LD. Plasma Membrane Association by N-Acylation Governs PKG Function in Toxoplasma gondii. mBio. 2017 May 2;8(3):e00375-17. doi:10.1128/mBio.00375-17. PMID:28465425.</p><p><strong>[3]</strong> Long S, Wang Q, Sibley LD. Analysis of Noncanonical Calcium-Dependent Protein Kinases in Toxoplasma gondii by Targeted Gene Deletion Using CRISPR/Cas9. Infect Immun. 2016 Apr 22;84(5):1262-1273. doi:10.1128/IAI.01173-15. PMID:26755159.</p><p><strong>[4]</strong> Long S, Brown KM, Drewry LL, Anthony B, Phan IQH, Sibley LD. Calmodulin-like proteins localized to the conoid regulate motility and cell invasion by Toxoplasma gondii. PLoS Pathog. 2017 May 5;13(5):e1006379. doi:10.1371/journal.ppat.1006379. PMID:28475612.</p><p><strong>[5]</strong> Brown KM, Long S, Sibley LD. Conditional Knockdown of Proteins Using Auxin-inducible Degron (AID) Fusions in Toxoplasma gondii. Bio Protoc. 2018 Feb 20;8(4):e2728. doi:10.21769/BioProtoc.2728. PMID:29644255.</p><p><strong>[6]</strong> Long S, Anthony B, Drewry LL, Sibley LD. A conserved ankyrin repeat-containing protein regulates conoid stability, motility and cell invasion in Toxoplasma gondii. Nat Commun. 2017 Dec 21;8(1):2236. doi:10.1038/s41467-017-02341-2. PMID:29269729.</p><p><strong>[7]</strong> Heaslip AT, Dzierszinski F, Stein B, Hu K. TgMORN1 is a key organizer for the basal complex of Toxoplasma gondii. PLoS Pathog. 2010 Feb 5;6(2):e1000754. doi:10.1371/journal.ppat.1000754. PMID:20140195.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Untargeted metabolomics by GCMS</strong></p><p>Parasites were grown in the presence of 500\u2009\u00b5M auxin (IAA) for 36\u2009h, subsequently washed with cold PBS twice, scraped and mechanically forced to egress (for harvesting on ice) by filtration through 3.0 \u03bcm polycarbonate membranes. The parasite harvesting was performed either at room temperature (<strong>experiment 1</strong>). Parasites were centrifuged at 500 x\u2009g at 4\u2009\u00b0C (&gt;2 x\u200910^8 parasites), and the pellets were immediately quenched by addition of -40\u2009\u00b0C methanol and sterile ddH2O (400\u2009\u00b5L methanol\u2009+\u2009100\u2009\u00b5L&nbsp;ddH2O). The parasite resuspension (250\u2009\u03bcL) was added with 250\u2009\u03bcL 80% methanol, and sonicated on ice 1\u2009min with 5 cycles. The mixture was vortexed and centrifuged to collect the supernatants. The supernatant (120\u2009\u00b5L) was mixed with 5\u2009\u00b5L 50\u2009\u00b5g/mL L-corleucine, and dried under a nitrogen stream. The residue was reconstituted in 20\u2009\u00b5L of 20\u2009mg/mL methoxyamine hydrochloride in pyridine (containing 5\u2009\u00b5g/mL n-alkanes standards), and the resulting mixture was then incubated at 37\u2009\u00b0C for 90\u2009min. The mixture was further mixed with 20\u2009\u00b5L BSTFA (with 1% TMCS), and incubated at 70\u2009\u00b0C for 60\u2009min prior to GC-MS metabolomics analysis. The quality control (QC) sample was pooled from all samples, processed as the sample preparation.</p><p><br></p><p><strong>Untargeted metabolomics by LCMS</strong></p><p>The above parasite resuspension (250\u2009\u03bcL) (80% methanol) was mixed with 250\u2009\u03bcL 80% methanol, and sonicated on ice with 1\u2009min on and 1\u2009min off for 4 cycles, followed by incubation on ice for 30\u2009min. After centrifugation at 15,000 x g, 4\u2009\u00b0C and 15\u2009min, the supernatant (200\u2009\u03bcL) was dried under a nitrogen stream, and reconstituted in 40\u2009\u03bcL of 10% methanol (including 100\u2009ng/mL hexadecanoyl-L-carnitine-d3, decanoyl-L-carnitine-d3 and 1000\u2009ng/mL valine-13C5-15N, leucine-13C6, decanoic-d19 acid, octadecanoic-d35 acid, tetradecanoic-d27 acid, phenylalanine-d5, 3-chloro-D-phenylalanine and octanoic-d15 acid) prior to performing UHPLC-HRMS/MS analysis. The quality control (QC) sample was pulling all the prepared samples together.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Untargeted metabolomics by GCMS</strong></p><p>The GC-MS analysis was performed on Agilent7890A/5975C GC-MS system (Agilent Technologies Inc., CA, USA). An OPTIMA 5 MS Accent fused-silica capillary column was utilized to separate the derivatives. Helium was used as a carrier gas at a constant flow rate of 1\u2009mL/min through the column. The injection volume was 1\u2009\u00b5L and the solvent delay time was 5\u2009min. The initial oven temperature was held at 60\u2009\u00b0C for 1\u2009min, ramped to 240\u2009\u00b0C at a rate of 12\u2009\u00b0C/min, to 320\u2009\u00b0C at 40\u2009\u00b0C/min, and finally held at 320\u2009\u00b0C for 4\u2009min.</p><p><br></p><p><strong>Untargeted metabolomics by LCMS</strong></p><p>The LC-MS analysis was performed on a Thermo Fisher Ultimate 3000 UHPLC system with a Waters ACQUITY UPLC BEH C18 column (2.1\u2009mm x 100\u2009mm, 1.7\u2009\u03bcm), using standard positive and negative modes. For the positive mode: the mobile phases consisted of (A) water and (B) methanol, both with 0.1% formic acid. A linear gradient elution was performed with the following program: 0\u2009min, 2% B; 12\u2009min, 95% B; 15\u2009min, 100% B and held to 18.1\u2009min; 18.1\u2009min, 2% B and held to 20\u2009min. For the negative mode: the mobile phases contained (A) water and (B) methanol:water (95:5, v/v), both with 6.5\u2009mM ammonium bicarbonate. A linear gradient elution was performed with the following program: 0\u2009min, 2% B; 9\u2009min, 70% B; 14\u2009min, 100% B and held to 18\u2009min; 18.1\u2009min, 2% B and held to 20\u2009min. The flow rate was 0.25\u2009mL/min, and the injection volume was 2\u2009\u03bcL for the positive mode and 3\u2009\u03bcL for the negative mode.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Untargeted metabolomics by GCMS</strong></p><p>The GC-MS analysis was performed on Agilent7890A/5975C GC-MS system (Agilent Technologies Inc., CA, USA). The temperatures of injector, transfer line and electron impact ion source were set to 250, 260 and 230\u2009\u00b0C, respectively. The electron ionization (EI) energy was 70\u2009eV, and data was collected in a full scan mode (50-600 m/z).</p><p><br></p><p><strong>Untargeted metabolomics by LCMS</strong></p><p>The MS acquisition was performed on a Thermo Fisher Q Exactive Hybrid Quadrupole-Orbitrap Mass Spectrometry (QE) in Heated Electrospray Ionization Positive (HESI+) and Negative (HESI-) mode. The main parameters of the ion source were set as follows: the spray voltage was 3500 V and both capillary temperature and auxiliary temperature degrees were 350 \u00b0C. The sheath gas flow rate was 40 (arbitrary units) in the positive ion mode and the auxiliary gas flow rate was 10 (arbitrary units). The S-Lens RF was set to 50 in arbitrary units. The full scan was performed at a range of\u200970-1000 m/z, with the resolution set at 35,000 (200) and the AGC target at 3 x\u200910^6. The fragment ion of the top 10 precursors in each scan was acquired by <strong>data-dependent acquisition</strong> (<strong>DDA</strong>) with HCD energy at 20, 30 and 40\u2009eV, mass resolution of 17,500 FWHM and AGC Target of 5 x\u200910^5.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Untargeted metabolomics by GCMS</strong></p><p>The peak picking, alignment, deconvolution and further processing of resulting raw data were carried out according to the previously published protocols<strong>[1]</strong>. The final data was exported as a peak table file, including observations, variables (rt_mz) and peak areas. The data was normalized against the total peak value of total peaks, and differential metabolites were identified by statistical analysis performed in <strong>R</strong> platform. In the analysis, parametric and nonparametric tests were carried out using one-way ANOVA with Dunnett\u2019s multiple comparison, to identify differential metabolites, with p\u2009&lt;\u20090.05 and a fold change &gt;1.2, for further analysis. Enrichment of Metabolic Pathways were analyzed using the differential metabolite database commercially generated above. <strong>MetaboAnalyst</strong> 5.0 server was used to enrich the metabolite sets with KEGG, in which the p value below 0.05 was considered to be significant. The statistical analysis was performed in the software based on hypergeometric test.</p><p><br></p><p><strong>Untargeted metabolomics by LCMS</strong></p><p>The raw data was transformed to <strong>mzXML </strong>format by <strong>ProteoWizard</strong> and then processed by <strong>XCMS</strong> and <strong>CAMERA</strong> packages in the <strong>R</strong> software platform. In <strong>XCMS</strong> package, the peak picking (method=centWave, ppm=5, peakwidth=c(5,20), snthresh=10), alignment (bw=6 and 3 for the first and second grouping, respectively) and retention time correction (method=obiwarp) were conducted. In <strong>CAMERA</strong> package, the annotations of isotope peak, adducts and fragments were performed with default parameters. The final data was exported as a peak table file, including sample names, variables (rt_mz) and peak areas. The peak areas data was normalized to internal standards before the statistical analysis. The in-house database was referenced to identify the compound by using m/z (MS1), mass spectra (MS2) and retention times (RT). Normalization for relative parasite amounts was based on the total integrated peak area values of metabolites within an experimental batch. Similar analysis was performed for the identification of differential metabolites and enrichment of pathways as described for the GC-MS analysis.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Gao X, Pujos-Guillot E, S\u00e9b\u00e9dio JL. Development of a quantitative metabolomic approach to study clinical human fecal water metabolome based on trimethylsilylation derivatization and GC/MS analysis. Anal Chem. 2010 Aug 1;82(15):6447-56. doi:10.1021/ac1006552. PMID:20669995.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The following parameters were applied in compound identification: (1) accurate mass to charge ratio (m/z) of parent ion, denoted as MS1; (2) mass spectra of fragment ions, denoted as MS2; and (3) chromatographic retention times (RT). The above parameters were matched against the in-house database (containing MS1, MS2 and chromatographic retention times), as well as public or commercial databases such as <strong>mzCloud</strong>, <strong>MoNA</strong> and <strong>HMDB</strong> database. The tolerances of MS1 and MS2 to theoretical mass to charge ratio were limited to 0.005 Da and 0.05 Da, respectively, and the threshold of MS2 matching similarity was set to 70%. RT tolerance is set to 0.5 min for in-house database, and infinity for public or commercial library. All compounds identified by software were reviewed by experienced expert.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS - positive",
+                        "filename": "a_MTBLS7060_GC-MS_positive__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS7060_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS7060_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

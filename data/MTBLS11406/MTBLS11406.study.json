@@ -1,0 +1,508 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-11-05T16:06:31.075602",
+        "statusUpdateTime": "2024-11-05T16:06:31.075602",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS11406",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "17/10/2024",
+        "publicReleaseDate": "2024-11-05",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "SNOMED",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS11406",
+                "filename": "s_MTBLS11406.txt",
+                "title": "Multi-omic Molecular Characterization and Diagnostic Biomarkers for Occult Hepatitis B Infection and HBsAg-Positive Hepatitis B Infection",
+                "description": "<p>BACKGROUND: The pathological and physiological characteristics between HBsAg-positive HBV infection and occult hepatitis B infection (OBI) are currently unclear. This study aimed to explore the immune microenvironment in the peripheral circulation of OBI patients through integration of proteomic and metabolomic sequencing, and to identify molecular biomarkers for clinical diagnosis of HBsAg-positive HBV and OBI.</p><p>METHODS: This research involved collection of plasma from 20 patients with OBI (negative for HBsAg but positive for HBV DNA, with HBV DNA levels &lt; 200 IU/mL), 20 patients with HBsAg-positive HBV infection and 10 healthy individuals. Mass spectrometry-based detection was used to analyze the proteome, while nuclear magnetic resonance spectroscopy was employed to study the metabolomic phenotypes. Differential molecule analysis, pathway enrichment and functional annotation, as well as weighted correlation network analysis (WGCNA), were conducted to uncover the characteristics of HBV-related liver disease. Prognostic biomarkers were identified using machine learning algorithms, and their validity was confirmed in a larger cohort using enzyme linked immunosorbent assay (ELISA).</p><p>RESULTS: HBsAg-positive HBV individuals showed higher age and ALT levels (p=0.010) when compared to OBI patients. The influence of HBV infection on metabolic functions and inflammation was evident through the analysis of distinct metabolic pathways in HBsAg-positive HBV and OBI groups. Tissue tracing demonstrated a connection between Kupffer cells and HBsAg-positive HBV infection, as well as between hepatocytes and OBI. Immune profiling revealed the correlation between CD4 Tem cells, memory B cells and OBI, enabling a rapid response to infection reactivation through cytokine secretion and antibody production.</p>",
+                "submissionDate": "17/10/2024",
+                "publicReleaseDate": "2024-11-05",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Xinyi",
+                        "lastName": "Jiang",
+                        "email": "xyjiang@njmu.edu.cn",
+                        "affiliation": "The Affiliated Wuxi People's Hospital of Nanjing Medical University",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "first author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "https://www.ebi.ac.uk/ols4/api",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002034"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "occult hepatitis B infection",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "molecular biomarkers",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "HBsAg-positive HBV infection",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Multi-omic Molecular Characterization and Diagnostic Biomarkers for Occult Hepatitis B Infection and HBsAg-Positive Hepatitis B Infection",
+                        "authorList": "Xinyi Jiang",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "in preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Infection",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Infection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "https://www.ebi.ac.uk/ols4/api",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C128320"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>In the discovery cohorts, a total of 50 samples were collected, including 20 samples with occult HBV infection (OBI), 20 samples from HBsAg positive HBV infection and 10 samples from healthy controls. The blood samples were centrifuged at 3000 rpm for 10 min, plasma was collected and stored at 80 \u00b0C for the following research.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples were measured using LC-MS instrumentation consisting of an EASY-nLC 1200 ultra-high-pressure system (Thermo Fisher Scientific) coupled via a nano-electrospray ion source (Thermo Fisher Scientific) to a Fusion Lumos Orbitrap (Thermo Fisher Scientific).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The peptides were dissolved with 12 \u03bcL loading buffer (0.1% formic acid in water), and 5 \u03bcL was loaded onto a 100 \u03bcm I.D. x 2.5 cm, C18 trap column at a maximum pressure 280 bar with 14 \u03bcL solvent A (0.1% formic acid in water). Peptides were separated on 150 \u03bcm I.D. x 15 cm column (C18, 1.9 \u03bcm, 120 \u00c5, Dr. Maisch GmbH) with a linear 15-30% Mobile Phase B (ACN and 0.1% formic acid) at 600 nL/min for 75 min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The peptides were dissolved with 12 \u03bcL loading buffer (0.1% formic acid in water), and 5 \u03bcL was loaded onto a 100 \u03bcm I.D. x 2.5 cm, C18 trap column at a maximum pressure 280 bar with 14 \u03bcL solvent A (0.1% formic acid in water). Peptides were separated on 150 \u03bcm I.D. x 15 cm column (C18, 1.9 \u03bcm, 120 \u00c5, Dr. Maisch GmbH) with a linear 15-30% Mobile Phase B (ACN and 0.1% formic acid) at 600 nL/min for 75 min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The MS analysis was performed in a data-independent manner (DIA). The DIA method consisted of MS1 scan from 300-1400 m/z at 60 K resolution (AGC target 4e5 or 50 ms). Then, 30 DIA segments were acquired at 15 K resolution with an AGC target 5e4 or 22 ms for maximal injection time. The setting \u201cinject ions for all available parallelizable time\u201d was enabled. HCD fragmentation was set to normalized collision energy of 30%. The spectra were recorded in profile mode. The default charge state for the MS2 was set to 3.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A total of 348 quantitative parameters were utilized to describe the metabolomic profiles of each plasma sample, encompassing lipoproteins, glycoproteins, small metabolites and fatty acids.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS11406_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS11406_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

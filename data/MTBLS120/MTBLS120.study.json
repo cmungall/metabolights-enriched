@@ -1,0 +1,602 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-02-04T12:41:07",
+        "statusUpdateTime": "2016-02-04T12:41:07",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS120",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-06-09",
+        "publicReleaseDate": "2016-02-04",
+        "filename": "",
+        "people": [
+            {
+                "comments": [
+                    {
+                        "name": "Investigation Person REF",
+                        "value": ""
+                    }
+                ],
+                "firstName": "Richard",
+                "lastName": "Helm",
+                "email": "helmrf@vt.edu",
+                "affiliation": "Biochemistry, Virginia Tech",
+                "address": "970 Washington St, SW",
+                "fax": "540-231-4043",
+                "midInitials": "F",
+                "phone": "540-231-4088",
+                "roles": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Principal Investigator",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ]
+            }
+        ],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "SOY",
+                "file": "http://data.bioontology.org/ontologies/SOY",
+                "version": "2",
+                "description": "Soy Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "16",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "26",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [
+                    {
+                        "name": "Study Funding Agency",
+                        "value": ""
+                    },
+                    {
+                        "name": "Study Grant Number",
+                        "value": ""
+                    }
+                ],
+                "identifier": "MTBLS120",
+                "filename": "s_MTBLS120.txt",
+                "title": "Metabolomic Discrimination of Near Isogenic Low and High Phytate Soybean Seeds",
+                "description": "Methodologies for untargeted metabolomic profiling using liquid chromatography-mass spectrometry (LC-MS) were developed and applied to lipid-depleted methanolic extracts of soybeans seeds obtained from four near isogenic soybean lines (NILs) that differed in phytate content. The four lines differed in mutations for genes encoding two highly homologous multi-drug resistant proteins (MRPs). The double mutant exhibited the low phytate/emergence phenotype whereas the other three NILs, namely the two single mutants and the wild type, did not. Lipid-depleted aqueous methanol extracts were analyzed by orthogonal chromatographic separations (reversed-phase and hydrophilic interaction) in both positive and negative ionization modes. Principal component analysis (PCA) of the LC-MS data clearly separated the low phytate line from the other three, with the major metabolite differences residing in the soyasaponin composition. Group A soyasaponins containing C22-terminated acetylated glucosides were of much lower concentration in the low phytate line, which favored terminally acetylated xyloside-based soyasaponins (soyasaponin A4, A5 and A6). Differing levels of the allergen Gly m 1 were also detected.",
+                "submissionDate": "2015-06-09",
+                "publicReleaseDate": "2016-02-04",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Richard",
+                        "lastName": "Helm",
+                        "email": "helmrf@vt.edu",
+                        "affiliation": "Department of Biochemistry, Virginia Tech",
+                        "address": "Life Sciences 1, 970 Washington Street SW, Blacksburg, VA  24061-0910",
+                        "fax": "540-231-4043",
+                        "midInitials": "F",
+                        "phone": "540-231-4088",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Seed phytate content",
+                        "termSource": {
+                            "comments": [],
+                            "name": "SOY",
+                            "file": "http://data.bioontology.org/ontologies/SOY",
+                            "version": "2",
+                            "description": "Soy Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/SOY_0001692"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "16",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "hydrophilic interaction chromatography",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "16",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002262"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolite Profiling of Soybean Seed Extracts from Near-Isogenic Low and Normal Phytate Lines Using Orthogonal Separation Strategies.",
+                        "authorList": "Judith Jervis, Christin Kastl, Sherry B. Hildreth, Ruslan Biyashev, Elizabeth A. Grabau, M. A. Saghai Maroof, and Richard F. Helm",
+                        "pubMedID": "26487475",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Mutation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Chemotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Chemotype",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Plants were grown in Blacksburg, Virginia in 2012. For each class, ten seeds from the 2011 harvest were hand planted in one row. Fully matured seeds were harvested from all plants of each row, bulked together and stored at 4 \u00b0C until analysis.  The four near isogenic lines were analyzed in biological triplicates using 5 randomly selected seeds for each replicate. Seeds were flash-frozen in liquid nitrogen and finely ground with P14 mill (Pulverisette 14, Fritsch).  The powder was then transferred to pre-weighed 15 ml tubes, weighed and stored at -80 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "A subset (400 mg) of this sample powder was dried overnight on a high-vacuum line and the non-polar components were extracted using dry ethyl acetate (7 ml). The extraction procedure was repeated twice with a sequence of vortexing, sonication for 20 min and centrifugation (4000 rpm for 15 min). The supernatants were combined and concentrated to oils and stored at -80 \u00b0C. The remaining ethyl acetate was removed from the soybean powder, which was then dried on the high-vacuum line and stored at -80 \u00b0C.\n</p>\nThe polar metabolites were obtained from two 30 mg subsets of the dried lipid-depleted powders, each extracted with MeOH:0.1% aqueous HOAc (0.5 ml; 9:1, v/v). One subset was used for reversed-phase chromatography-mass spectrometry (RP-MS) and the other for hydrophilic interaction liquid chromatography-mass spectrometry (HILIC-MS).  Internal standards were added to both extraction solvents, with the HILIC extracts employing 13C-labeled L-arginine (13C6, Thermo Scientific, 0.09 \u00b5g/\u00b5l final concentration before extraction) and the RP extracts employing deuterated L-tryptophan (indole-d5, Cambridge Isotope Labs, 0.05 \u00b5g/\u00b5l final concentration before extraction). After vortexing and sonication for 20 min, the samples were centrifuged at 4000 rpm for 15 min. This extraction was repeated twice and the extracts were pooled, reduced in volume with the aid of a centrifugal concentrator under vacuum (35 \u00b0C) and subsequently taken to dryness on a high-vacuum line.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Analyses were performed with an Acquity I-class UPLC interfaced with Synapt G2-S HDMS (Waters) in both positive and negative ion modes. Three replicates of each sample were injected randomly for each column/ionization mode format. Master mixes were prepared for each class (DM, WT, SM3, SM19) by combining aliquots (10 \u00b5l each) of the three biological replicates, with a complete master mix of all classes created by combining aliquots (10 \u00b5l) of the four class master mixes.  An analysis 'set' consisted of 3 blank injections followed by 3 complete master mix injections (for column conditioning).  A random set of all samples (17) plus a blank injection was then repeated three times in the same randomized order, which was generated at https://www.random.org.\n</p>\nReversed-Phase Separations.</br>\nDried extracts were reconstituted with 0.1% aqueous formic acid: acetonitrile (MeCN, 9:1, v/v, 120 \u00b5L). Samples were briefly vortexed and sonicated for 10 min, followed by centrifugation (13k x g, 10 min, RT). An aliquot (10 \u00b5l) was transferred to an LC-MS-grade vial and diluted with 90 \u00b5l of 0.1% aqueous formic acid:MeCN (9:1, v/v). Sample separation was achieved with a binary solvent system of 0.1% formic acid (A) and MeCN (B) utilizing an Acquity UPLC BEH C18 column (1.7 \u00b5m, 2.1 mm x 50 mm, Waters Corp., Milford, MA) with flow rate 200 \u00b5l/min and a 15 min gradient. The following gradient conditions were used: isocratic at 5% B (0-1 min), followed by linear gradient to 15% B (1-2 min), to 95% B (2-11 min), isocratic at 95% B (11-12.5 min), followed by return to initial conditions (12.5-15 min). Injection volume into the column was 2 \u00b5l. The separated samples were ionized by electrospray ionization and analyzed in both positive and negative modes. The scan time was set to 0.20 sec and a mass range of 50-1800 m/z was scanned. The source parameters for positive ion mode were source temperature 125 \u00b0C, capillary voltage 3.0, cone voltage 70, source offset 80, desolvation temperature 300 \u00b0C, cone gas 50 l/h, desolvation gas 500 l/h and nebulizer gas 6.0 bar. The source parameters for negative ion mode were source temperature 125 \u00b0C, capillary voltage 2.4, cone voltage 40, source offset 80, desolvation temperature 300 \u00b0C, cone gas 50 l/h, desolvation gas 500 l/h and nebulizer gas 6.0 bar. A reference sprayer continuously infused leucine-enkephalin (200 ng/ml, Waters Corp., Milford, MA) at 5 \u00b5l/min with a scan frequency of 20 sec.\n</p>\nHILIC Separations.</br>\nDried extracts were reconstituted with 0.1% aqueous formic acid:acetonitrile (1:1, v/v, 100 \u00b5l). Samples were briefly vortexed and sonicated for 10 minutes, followed by centrifugation (13k x g, 10 min, RT). An aliquot (10 \u00b5l) was transferred to a vial and diluted with 90 \u00b5l of 0.1% aqueous formic acid:MeCN (1:1, v/v). Chromatography was performed on an Acquity UPLC BEH Amide Column (1.7 \u00b5m, 2.1 mm x 50 mm, Waters Corp., Milford, MA) with flow rate 200 \u00b5l/min and a 10 minute gradient prepared from mobile phase A (0.1% aq. formic acid) and mobile phase B (acetonitrile). Gradient conditions: isocratic at 99% B (0-0.5 min), followed by linear gradient to 30% B (0.5-7 min), to 99% B (7-7.10 min), isocratic at 99% B (7.10-10 min), followed by returning to the initial conditions. Injection volumes were 2 \u00b5l. Column eluents were ionized by electrospray ionization in both positive and negative modes. The scan time was set to 0.20 sec and a mass range of 50-1800 m/z was scanned. The source parameters for positive ion mode were source temperature 120 \u00b0C, capillary voltage 3.0, cone voltage 30, source offset 80, desolvation temperature 500 \u00b0C, cone gas 50 l/h, desolvation gas 600 l/h and nebulizer gas 6.0 bar. The source parameters for negative ion mode were source temperature 120 \u00b0C, capillary voltage 2.2, cone voltage 30, source offset 80, desolvation temperature 500 \u00b0C, cone gas 50 l/h, desolvation gas 600 l/h and nebulizer gas 6.0 bar. A reference sprayer continuously infused leucine-enkephalin (200 ng/ml, Waters Corp., Milford, MA) at 5 \u00b5l/min with a scan frequency of 20 sec.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "A Waters SynaptG2-S HDMS instrument was used in high-resolution mode employing the extended dynamic range feature. Capillary voltages were of 2.4 kV and 3.0 kV for negative- and positive-ion modes, respectively, with a cone voltage of 40 V. Cone and desolvation gas flows were 50 and 500 l/hr, respectively with source and desolvation gas temperatures at 125 \u00b0C and 350 \u00b0C, respectively). The instrument was calibrated with sodium formate from 50 to 1800 m/z.  Infusion flow rate for lock mass was 5 \u00b5l/min. Leucine enkephalin (2 ng/ml) is used as lock mass for positive (m/z 556.2771) and negative (m/z 554.2615) mode experiments with parameters set to 0.2 sec/20 sec intervals. MS spectra are acquired in centroid mode from 50 to 1800 m/z using a scan time of 0.2 sec.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The MarkerLynx software (version 4.1, Waters Corp., Milford, MA, USA) was used to process the raw UPLC/Q-TOF-MS data. The MarkerLynx parameters for the analyses of the RP runs were: retention time range 2.0 \u2013 9.0 min, mass 50 \u2013 2000 m/z, mass window 0.05, retention time window of 0.15, noise elimination of level 4, peak intensity threshold of 10000, marker intensity threshold 2400 (positive ion mode) and 4800 (negative ion mode). The MarkerLynx parameters for the analyses of the HILIC runs were: retention time range 2.0 \u2013 13.0 min, mass 50 \u2013 2500 m/z, mass window 0.02, retention time window of 0.15, noise elimination of level 10, peak intensity threshold of 1000, marker intensity threshold 2400 (positive ion mode) and 5000 (negative ion mode). MarkerLynx generated a data matrix consisting of all exact match-retention time pairs (EMRTs) found in the datasets along with their normalized peak areas. The EZinfo 2.0 software (Umetrics, Umea, Sweden) was used to conduct principal component analyses (PCA) and orthogonal partial least squared discriminate analyses (OPLS-DA) of the EMRT datasets. The latter was visualized using a score plot. The datasets were converted to spreadsheets to permit determination of p-values (t-test) and factors of change (peak area ratios).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Ions were identified with the help of commercial standards, available on-line databases such as Metlin (metlin.scripps.edu) and PRIMe/MS2T, from the literature, and/or manual interpretation of MS/MS fragmentation patterns. Gradient and source parameters for MS/MS runs were identical to their MS runs, except the collision energy was applied in trap and ramped from 5 to 40 eV. If an ion did not fragment well (typically an adduct), the corresponding parent ion ([M+H] or [M-H]) was searched for manually and fragmented.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Synapt G2-S pos",
+                        "filename": "a_MTBLS120_C18_pos.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Synapt G2-S neg",
+                        "filename": "a_MTBLS120_HILIC_neg.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Synapt G2-S neg",
+                        "filename": "a_MTBLS120_C18_neg.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Synapt G2-S pos",
+                        "filename": "a_MTBLS120_HILIC_pos.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

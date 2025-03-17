@@ -1,0 +1,586 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-08-28T00:00:00",
+        "statusUpdateTime": "2020-08-28T18:03:14.720323",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1677",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2020-04-24",
+        "publicReleaseDate": "2020-08-28",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "http://data.bioontology.org/ontologies/EDAM",
+                "version": "19",
+                "description": "EDAM bioinformatics operations, data types, formats, identifiers and topics"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "80",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEMINF",
+                "file": "http://data.bioontology.org/ontologies/CHEMINF",
+                "version": "29",
+                "description": "Chemical Information Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1677",
+                "filename": "s_MTBLS1677.txt",
+                "title": "1H NMR chemometric models for classification of Czech wine type and variety",
+                "description": "<p>A set of 917 wines of Czech origin registered in a national competition were analysed using nuclear magnetic resonance spectroscopy (NMR) with the aim to build and evaluate multivariate statistical models and machine learning methods for the classification of type (5 types), variety (13 varieties) and location (4 locations) based on 1H NMR spectra. The predictive models afforded more than 93% of correctness for classification of dry and medium dry, medium, sweet white wines and dry red wines. The trained Random Forest (RF) method is able to classify Pinot noir with 96% of correctness, Blaufr\u00e4nkisch 96%, Riesling 92%, Cabernet Sauvignon 77%, Chardonnay 76%, Gew\u00fcrtztraminer 60%, Hibernal 60%, Gr\u00fcner Veltliner 52%, Pinot gris 48%, Sauvignon Blanc 45%, P\u00e1lava 40%. Pinot blanc and Chardonnay are varieties, which are often misplaced and were discriminated with 71% of correctness. Chemometrics represents prospective tool to predict important features in wine, potentially important in quality assessment and fraud detection.</p>",
+                "submissionDate": "2020-04-24",
+                "publicReleaseDate": "2020-08-28",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Jaroslav",
+                        "lastName": "Havlik",
+                        "email": "havlik@af.czu.cz",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Anna",
+                        "lastName": "Mascellani",
+                        "email": "mascellani@af.czu.cz",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Subinvestigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "28",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C54622"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Wine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "28",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C66822"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Chemometrics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EDAM",
+                            "file": "http://data.bioontology.org/ontologies/EDAM",
+                            "version": "19",
+                            "description": "EDAM bioinformatics operations, data types, formats, identifiers and topics"
+                        },
+                        "termAccession": "http://edamontology.org/operation_3931"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "wine classification",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "randomForest",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "wine analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "1H NMR chemometric models for classification of Czech wine type and variety",
+                        "authorList": "Anna Mascellani, Gokce Hoca, Marek Babisz, Pavel Krska, Pavel Kloucek, Jaroslav Havlik",
+                        "pubMedID": "",
+                        "doi": "10.1016/j.foodchem.2020.127852",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Grape variety",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "cultivar",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005136"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Wine style",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Wine style",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Vineyard location",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "geographic location",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHEMINF",
+                                "file": "http://data.bioontology.org/ontologies/CHEMINF",
+                                "version": "29",
+                                "description": "Chemical Information Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000448"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A set of 917 bottles of Czech wines were provided by The National Wine Centre's Wine Salon of the Czech Republic, an independent national wine competition, in 2019. The wines were from 5 sub-regions of Bohemia and Moravia (see Fig S1 in the paper associated with this study): Mikulovska (250 samples), Slovacka (153 samples), Velkopavlovicka (143 samples), Znojemska (111 samples) and Melnicka (8 samples); for 2 wines, the area was unclassified. The wines belonged to 6 types based on wine colour and residual sugar content (see Table S1 in the paper associated with this study): 494 wines were categorised as dry and medium dry white wines, 137 as medium white wines, 36 as sweet white wines, 44 as roses and blancs de noir, 188 as dry red wines and 4 as other red wines. The wines were made from wine grape varieties including Riesling (88 samples), Chardonnay (70 samples), Pinot gris (70 samples), Sauvignon Blanc (63 samples), Welschriesling (62 samples), Pinot noir (58 samples), Gruner Veltliner (51 samples), Gewurtztraminer (50 samples), Pinot blanc (47 samples), Blaufrankisch (37 samples), Palava (36 samples), Cabernet Sauvignon (24 samples), Hibernal (24 samples), Zweigeltrebe (20 samples), Gruner Silvaner (19 samples), Saint Laurent (19 samples), Neuburger (14 samples), Merlot (13 samples), Muskat Moravsky (13 samples), Andre (12 samples), Muller-Thurgau (12 samples), Cabernet Moravia (11 samples), Blauer Portugieser (9 samples), Dornfelder (7 samples), Kerner (6 samples), Aurelius (5 samples) and Alibernet (3 samples); 16 samples were classified as other, and 45 samples were cuvee. The year of harvest ranged between 2007 and 2017. The sugars and the actual alcoholic strength of the wines were previously assessed by analytical methods approved by The International Organisation of Vine and Wine (OIV) and declared on the certificate of analysis, which is required for introduction to the market (International Organisation of Vine and Wine, 2019).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>No extraction was performed in this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Phosphate buffer solution was prepared in D2O by adding 1.5 M KH2PO4, 0.2% NaN3 and 5 mM DSS. The pH was adjusted to 4 with H3PO4 and measured by an inoLab pH 7110 pH meter (WTW, Germany). DSS was used as the internal standard to calibrate the chemical shift to 0 ppm. To each 540 \u03bcl of sample, 60 \u03bcl of phosphate buffer solution was added and mixed using an IKA MS 3 basic vortex oscillator. The total 600-\u03bcl volume of prepared sample was transferred to a 5-mm NMR tube (NORELL Inc., Morganton, NC, USA) and subsequently analysed.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>All spectra were recorded on a Bruker Avance III spectrometer equipped with a broad band fluorine observation (BBFO) SmartProbe with z-axis gradients (Bruker BioSpin GmbH, Rheinstetten, Germany) operating at a proton NMR frequency of 500.23 MHz. The temperature was set to 298 K (25 \u00b0C). 1H NMR spectra were acquired and processed under the same conditions.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Bruker pulse sequence (noesypr1d) was applied to suppress the residual water signal at 4.704 ppm. For each sample, 128 scans and 4 dummy scans were collected as 64K data points using a spectral width of 8K Hz, receiver gain of approx. 18, relaxation delay of 1 s, acquisition time of 4.00 s, and mixing time of 0.1 s. The total acquisition time was 11 min. Tuning, lock, gain, 90\u00b0 pulse calibration, and shimming were calibrated automatically for each sample by the standard module routine developed by Bruker (atma, lock, rga, pulsecal and topshim). The free induction decay (FID) was multiplied by 0.3 Hz line broadening prior to Fourier transformation. 2D NMR experiments as 13C NMR, J-resolved, 1H\u20131H COSY, and 1H\u221213C HSQC were recorded for pooled wines.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>1H NMR spectra were subjected to phase and baseline correction using the Whitakker smoother algorithm in MestReNova software version 14.1.0 (Mestrelab Reserach S.L., Santiago de Compostela, Spain). The spectra were calibrated to the internal standard DSS at 0.0 ppm and aligned by global alignment based on a reference spectrum. Specific scripts were implemented for data reduction. The 1H NMR spectral data were reduced into 0.04-ppm spectral bins using the sum of the datapoints, and the region corresponding to water (4.74-4.98) was excluded. The binning width of 0.04 ppm represents a compromise between preserving sufficient data resolution and minimizing the loss of spectral information and the effect of peak drift. To avoid false grouping of samples in chemometrics models caused by the pH and paramagnetic properties of the wines, the bins from areas with large drift (1.02-1.34, 1.34-1.42, 2.02-2.10, 2.62-2.74, 3.58-3.66, 4.38-4.54, 8.22-8.42) were summed. A total of 226 bins were used for analysis. The spectra were then normalized to the average intensity of the internal standard and the total spectral area. The data were log-transformed, mean-centred and divided by the standard deviation of each variable (auto- scaled) obtained using the package \u2018MetaboAnalyst\u2019 version 2.0<strong>[1]</strong> in R 3.5.0. The bins were used as variables for subsequent statistical analysis and modelling.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Chong J, Yamamoto M, Xia J. MetaboAnalystR 2.0: From Raw Spectra to Biological Insights. Metabolites. 2019 Mar 22;9(3):57. doi:10.3390/metabo9030057. PMID:30909447</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>1H NMR spectra of pooled wines were phased and baseline corrected using Chenomx NMR suite 8.5 software, professional edition (Chenomx Inc., Edmonton, AB, Canada). Signal assignment was performed using internal and in-house databases. The assignments of the metabolites were confirmed by 13C NMR, J-resolved, 1H\u20131H COSY, long-range COSY and 1H\u221213C HSQC (for settings, see Table S2 in the paper associated with this study).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Nuclear Magnetic Resonance (NMR) -",
+                        "filename": "a_MTBLS1677_NMR___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,472 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2015-12-17T10:38:55",
+        "statusUpdateTime": "2015-12-17T10:38:55",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS23",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2012-08-24",
+        "publicReleaseDate": "2012-09-05",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "26",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "25",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "103",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "16",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS23",
+                "filename": "s_MTBLS23.txt",
+                "title": "Model-driven multi-omic data analysis elucidates metabolic immunomodulators of macrophage activation",
+                "description": "Macrophages are central players in immune response, manifesting divergent phenotypes to control inflammation and innate immunity through release of cytokines and other signaling factors. Recently, the focus on metabolism has been reemphasized as critical signaling and regulatory pathways of human pathophysiology, ranging from cancer to aging, often converge on metabolic responses. Here, we used genome-scale modeling and multi-omics (transcriptomics, proteomics, and metabolomics) analysis to assess metabolic features that are critical for macrophage activation. A genome-scale metabolic network for the RAW 264.7 cell line was constructed to determine metabolic modulators of activation. Metabolites well-known to be associated with immunoactivation (glucose and arginine) and immunosuppression (tryptophan and vitamin D3) were among the most critical effectors. Intracellular metabolic mechanisms were assessed, identifying a suppressive role for de-novo nucleotide synthesis. Finally, underlying metabolic mechanisms of macrophage activation were identified by analyzing multi-omic data obtained from LPS-stimulated RAW cells in the context of our flux-based predictions. This study demonstrates that the role of metabolism in regulating activation may be greater than previously anticipated and elucidates underlying connections between activation and metabolic effectors. This submission corresponds to the metabolomics data from this study.",
+                "submissionDate": "2012-08-24",
+                "publicReleaseDate": "2012-09-05",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Thomas",
+                        "lastName": "Metz",
+                        "email": "thomas.metz@pnnl.gov",
+                        "affiliation": "Pacific Northwest National Laboratory",
+                        "address": "Pacific Northwest National Laboratory 902 Battelle Boulevard P.O. Box 999, MSIN K8-98 Richland, WA 99352 USA",
+                        "fax": "",
+                        "midInitials": "O",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Charles",
+                        "lastName": "Ansong",
+                        "email": "charles.ansong@pnnl.gov",
+                        "affiliation": "Pacific Northwest National Laboratory",
+                        "address": "Pacific Northwest National Laboratory 902 Battelle Boulevard P.O. Box 999, MSIN K8-98 Richland, WA 99352 USA",
+                        "fax": "",
+                        "midInitials": "K",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Joshua",
+                        "lastName": "Adkins",
+                        "email": "joshua.adkins@pnnl.gov",
+                        "affiliation": "Pacific Northwest National Laboratory",
+                        "address": "Pacific Northwest National Laboratory 902 Battelle Boulevard P.O. Box 999, MSIN K8-98 Richland, WA 99352 USA",
+                        "fax": "",
+                        "midInitials": "N",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "16",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "immunometabolism",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "endometabolome",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "genome-scale modeling",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "metabolic network reconstruction",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Model-driven multi-omic data analysis elucidates metabolic immunomodulators of macrophage activation.",
+                        "authorList": "Bordbar A,Mo ML,Nakayasu ES,Schrimpe-Rutledge AC,Kim YM,Metz TO,Jones MB,Frank BC,Smith RD,Peterson SN,Hyduke DR,Adkins JN,Palsson BO",
+                        "pubMedID": "22735334",
+                        "doi": "http://dx.doi.org/10.1038/msb.2012.21",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Lipopolysaccharide stimulation",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Macrophages (RAW 264.7 cells) were seeded at a density of 3.0E6 cells in 150 mm dishes using Dulbecco's Modified Eagle's Medium supplemented with 10% fetal calf serum, then grown for 2 days and stimulated for 24 hours with 100 ng/ml of lipopolysaccharide diluted in fresh medium. A control culture was run in parallel by incubating for the same period of time with fresh medium only. Three biological replicates were performed per condition, and two dishes were used for each replicate. After stimulation, cells were washed twice with Dulbecco\u2019s PBS, scraped out and harvested into 15-ml centrifuge tubes.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Cell suspensions were softly centrifuged (230 \u00d7 g for 5 min) and as much buffer as possible was removed. Then, 170 \u00b5l of 150 mM ammonium bicarbonate was added to the cell pellet and the cell suspensions were transferred to 2 ml micro-centrifuge tubes for extraction. Subsequently, the water soluble metabolites were extracted with four volumes of chilled (-20 \u00b0C) chloroform/methanol (2:1, v/v). After vortexing, the samples were centrifuged (12,000 \u00d7 g for 5 min) and the upper (aqueous) layers containing water-soluble metabolites were transferred into glass vials, followed by drying in a vacuum concentrator.\n</p>\nMetabolite extracts were evaporated to dryness using a vacuum concentrator. For chemical derivatization, 30 \u00b5l of methoxyamine in pyridine (30 mg/ml) were added to each sample, followed by incubation at 37 \u00baC with shaking for 90 min to protect carbonyl groups. Next, 120 \u00b5l of N-methyl-N-(trimethylsilyl)-trifluoroacetamide (MSTFA) with 1% trimethylchlorosilane (TMCS) were added to each vial, followed by incubation at 37 \u00baC with shaking for 30 min to derivatize hydroxyl and amine groups. The samples were then allowed to cool to room temperature prior to analysis by GC-MS.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Chromatography was carried out on an Agilent 7890A gas chromatograph using the manufacturer's software (Chemstation) and a HP-5MS gas chromatography column (Agilent Technologies, Santa Clara, CA; 30 m \u00d7 0.25 mm \u00d7 0.25 \u03bcm film thickness).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Samples were analyzed in duplicate using an Agilent GC 7890A coupled with a single quadrupole MSD 5975C (Agilent Technologies, Santa Clara, CA) using a HP-5MS column (30 m \u00d7 0.25 mm \u00d7 0.25 \u00b5m; Agilent Technologies). One microliter of each sample was injected in splitless mode and with the port temperature held at 250 \u00b0C throughout analysis. The GC oven was initially maintained at 60 \u00b0C for 1 min and then ramped to 325 \u00b0C by 10 \u00b0C/min and kept at this final temperature for 5 min to complete an analysis cycle.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "After converting raw data to netCDF format, the data were processed by the MetaboliteDetector software for peak deconvolution and chromatographic alignment. Retention indices (RI) were calculated based on the analysis of a mixture of fatty acid methyl esters (C8 - C30) (Agilent Technologies) as external retention time standards, then their retention index information was subsequently applied to all experimental chromatograms for retention time alignment. MetaboliteDetector parameters for peak detection and deconvolution are as follows: Peak threshold, 7; minimum peak height, 7; deconvolution width, 8.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Deconvoluted features were identified by matching to the Agilent Fiehn Metabolomics Retention Time Locked Library, which contains mass spectral and retention indix information for approximately 700 metabolites. Each initial match to the library was manually inspected to confirm a confident identification. The data were also matched against the NIST 08 library to identify additional peaks not included in the Fiehn library. MetaboliteDetector software was used for database matching and batch identification/quantification parameters are as follows: required score, 0.6; \u0394RI, 25; minimum S/N, 20; maximum peak discrepancy index, 100. Ions 73 and 143 were excluded from use as metabolite quantification ions, since these are due to fragmentation of the trimethylsilyl groups. Otherwise, three unique fragment ions were assigned to each metabolite for quantification and used for each individual GC-MS analysis when processing the data in batch mode. The summed areas of the three quantification ions were exported from MetaboliteDetector and used in further statistical anayses. All identifications were manually validated by inspection of retention index and spectrum matches.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "25",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "5975C Series GC/MSD (Agilent)",
+                        "filename": "a_MTBLS23_model-driven_multi-omic_data_analysis_elucidates_metabolic_immunomodulators_of_macrophage_activation_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

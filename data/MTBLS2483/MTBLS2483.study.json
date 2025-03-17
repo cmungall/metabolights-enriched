@@ -1,0 +1,841 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2021-07-05T00:00:00",
+        "statusUpdateTime": "2021-07-05T14:11:11.233307",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2483",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-02-17",
+        "publicReleaseDate": "2021-07-05",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "AGRO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MSIO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2483",
+                "filename": "s_MTBLS2483.txt",
+                "title": "hRUV: Hierarchical approach to removal of unwanted variation for large-scale metabolomics data",
+                "description": "Liquid chromatography-mass spectrometry-based metabolomics studies are increasingly applied to large population cohorts, which run for several weeks or even years in data acquisition. This inevitably introduces unwanted intra- and inter-batch variations over time that can overshadow true biological signals and thus hinder potential biological discoveries. To date, normalisation approaches have struggled to mitigate the variability introduced by technical factors whilst preserving biological variance, especially for protracted acquisitions. Here, we propose a study design framework with an arrangement for embedding biological sample replicates to quantify variance within and between batches and a novel workflow that uses these replicates to remove unwanted variation in a hierarchical (hRUV) manner. We use this design to produce a dataset of more than 1,000 human plasma samples run over an extended period of time. We demonstrate significant improvement of hRUV over existing methods in preserving biological signals whilst removing unwanted variation for large scale metabolomics studies. Our novel tools not only provide a strategy for large scale data normalization, but also provides guidance on the design strategy for large omics studies.",
+                "submissionDate": "2021-02-17",
+                "publicReleaseDate": "2021-07-05",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Taiyun",
+                        "lastName": "Kim",
+                        "email": "tkim9630@uni.sydney.edu.au",
+                        "affiliation": "The Univerity of Sydney",
+                        "address": "CPC, the University of Sydney, Camperdown, NSW, Australia",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Owen",
+                        "lastName": "Tang",
+                        "email": "owen.tang@sydney.edu.au",
+                        "affiliation": "The University of Sydney",
+                        "address": "L12, Kolling Institute, RNSH, St Leonards, NSW, Australia",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+61299264916",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Stephen",
+                        "lastName": "Vernon",
+                        "email": "steve.vernon@gmail.com",
+                        "affiliation": "The University of Sydney",
+                        "address": "L12, Kolling Building, RNSH, St Leonards, NSW, Australia",
+                        "fax": "",
+                        "midInitials": "T",
+                        "phone": "+61299264915",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Katharine",
+                        "lastName": "Kott",
+                        "email": "kat.kott@gmail.com",
+                        "affiliation": "The University of Sydney",
+                        "address": "L12, Kolling Building, RNSH, St Leonards, NSW, Australia",
+                        "fax": "",
+                        "midInitials": "A",
+                        "phone": "+61299264915",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Yen",
+                        "lastName": "Koay",
+                        "email": "yen.koay@hri.org.au",
+                        "affiliation": " The University of Sydney, The Heart Institute",
+                        "address": "L3, CPC,the University of Sydney, Camperdown, NSW, Australia",
+                        "fax": "",
+                        "midInitials": "C",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "John",
+                        "lastName": "Park",
+                        "email": "",
+                        "affiliation": " The University of Sydney",
+                        "address": "\n",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "data transformation",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "OBI",
+                                    "file": "http://data.bioontology.org/ontologies/OBI",
+                                    "version": "29",
+                                    "description": "Ontology for Biomedical Investigations"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/OBI_0200000"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "James",
+                        "lastName": "David",
+                        "email": "",
+                        "affiliation": "The University of Sydney",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Terence",
+                        "lastName": "Speed",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "P",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Pengyi",
+                        "lastName": "Yang",
+                        "email": "pengyi.yang@sydney.edu.au",
+                        "affiliation": "The University of Sydney",
+                        "address": "F07 - Carslaw Building, The University of Sydney, Camperdown, NSW, Australia",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "John",
+                        "lastName": "O\u2019Sullivan",
+                        "email": "john.osullivan@sydney.edu.au",
+                        "affiliation": "The University of Sydney",
+                        "address": "L3, CPC,the University of Sydney, Camperdown, NSW, Australia",
+                        "fax": "",
+                        "midInitials": "F",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Gemma",
+                        "lastName": "Figtree",
+                        "email": "gemma.figtree@sydney.edu.au",
+                        "affiliation": "The University of Sydney",
+                        "address": "L12, Kolling Building, RNSH, St Leonards, NSW, Australia",
+                        "fax": "",
+                        "midInitials": "A",
+                        "phone": "+61299264915",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "AGRO",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/AGRO_00000380"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jean",
+                        "lastName": "Yang",
+                        "email": "jean.yang@sydney.edu.au",
+                        "affiliation": "The University of Sydney",
+                        "address": "The University of Sydney, Camperdown, NSW, Australia",
+                        "fax": "",
+                        "midInitials": "Y.H",
+                        "phone": "+61293513012",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "AGRO",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/AGRO_00000380"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Cardiovascular",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25292"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "assessing study batch to batch variation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MSIO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MSIO_0000089"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "normalization data transformation protocol",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0003816"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "hRUV: Hierarchical approach to removal of unwanted variation for large-scale metabolomics data",
+                        "authorList": "Kim Taiyun, Tang Owen, Vernon Stephen T, Kott Katharine A, Koay Yen Chin, Park John, James David, Speed Terence P, Yang Pengyi, O\u2019Sullivan John F., Figtree Gemma A, Yang Jean Yee Hwa",
+                        "pubMedID": "",
+                        "doi": "10.1101/2020.12.21.423723",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Preprint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1.0",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000004"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Age",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "age",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000246"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Gender",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Gender",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17357"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "hypertension",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "hypertension",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000537"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Run Order",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Run Order",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1.0",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Batch Number",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Batch Number",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C104504"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The samples used were from the BioHEART-CT discovery cohort, which has been described in detail previously<strong>[1]</strong>. The study was approved by the Northern Sydney Local Health District Human Research Ethics Committee (HREC/17/HAWKE/343) and all participants provided informed, written consent. Briefly, patients undergoing clinically indicated CT coronary angiogram for suspected coronary artery disease were recruited from multiple sites in Sydney, Australia. <strong>Blood </strong>samples were taken at time of recruitment, and after appropriate processing, <strong>plasma </strong>samples including <strong>replicates </strong>were aliquoted and stored at -80 \u00b0C until analysis.</p><p><br></p><p><strong>Technical replicate design</strong></p><p>For each 96 (8 x 12) well plate, in order of run by rows, the first 3 wells were populated with 3 pooled QC samples, then a single pooled QC sample was repeated after every 10 runs. For each row of the plate from the second onwards, we randomly selected a single biological sample from the previous row to be replicated at random position in a row (short replicate). For each plate, after the first 3 pooled QC samples, a random selection of 5 biological samples from the previous plate was repeated (batch replicate) and short replicates are embedded at each row. All randomization was performed using the sample function in R.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1] </strong>Kott KA, Vernon ST, Hansen T, Yu C, Bubb KJ, Coffey S, Sullivan D, Yang J, O'Sullivan J, Chow C, Patel S, Chong J, Celermajer DS, Kritharides L, Grieve SM, Figtree GA. Biobanking for discovery of novel cardiovascular biomarkers using imaging-quantified disease burden: protocol for the longitudinal, prospective, BioHEART-CT cohort study. BMJ Open. 2019 Sep 18;9(9):e028649. doi:10.1136/bmjopen-2018-028649. PMID:31537558</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were prepared as previously described<strong>[1][2]</strong>. In brief, 10 \u03bcL plasma was mixed with 90 \u03bcL HILIC sample buffer, an acetonitrile:methanol:formic acid mix (75:25:0.2, v:v:v). The resulting mixture was vortexed and spun at 14,000 rpm for 20 min to remove plasma protein. The metabolite containing supernatant was then transferred to a glass HPLC sample vial.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1] </strong>Koay YC, Wali JA, Luk AWS, Macia L, Cogger VC, Pulpitel TJ, Wahl D, Solon-Biet SM, Holmes A, Simpson SJ, O'Sullivan JF. Ingestion of resistant starch by mice markedly increases microbiome-derived metabolites. FASEB J. 2019 Jul;33(7):8033-8042. doi:10.1096/fj.201900177R. Epub 2019 Mar 29. PMID:30925066</p><p><strong>[2] </strong>Koay YC, Stanton K, Kienzle V, Li M, Yang J, Celermajer DS, O'Sullivan JF. Effect of chronic exercise in healthy young male adults: a metabolomic analysis. Cardiovasc Res. 2021 Jan 21;117(2):613-622. doi:10.1093/cvr/cvaa051. PMID:32239128.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chromatographic separation was performed using an XBridge BEH Amide Van Guard Catridge, 3.5 mm, 2.1 x 5 mm guard column and Atlantis HILIC Silica, 3 mm, 2.1 x 150 mm column and an Agilent 1200 Series HPLC System coupled to a QTRAP 5500 mass spectrometer. Column temperature was maintained at 30 \u00b0C with a flowrate of 0.250-0.400 \u03bcL/min. The Injection volume was set to 10 \u03bcL. The following mobile phases were used: Mobile phase A: 0.1% formic acid in 10 mM ammonium formate (pH ~2.5) and mobile Phase B: 0.1% formic acid in acetonitrile. Each sample was eluted over a 25 min period, and each batch of samples took 40 h to complete. A total of 15 batches were completed over 44 d.&nbsp;</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The scan was completed using positive mode with Q1 ranging from 75.87-777.623, Q3 ranging from 30-731.8. </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>No data transformation information was supplied for this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Pre-processing of metabolomics data</strong></p><p>Metabolite elution characteristics were pre-determined using pure standards. Metabolite abundance peaks were integrated using the area under the curve for calibrated peaks from <strong>MultiQuant </strong>(SCIEX), with manual adjustments to the curves when necessary. This ensures the consistency of all the peaks integrated. The <em>m/z </em>signals were <strong>log2</strong> transformed and metabolites that were not present in at least 50% of the samples were filtered out. Missing values were imputed using <strong>k-nearest neighbour</strong> with default parameters implemented in <strong>DMwR2[1] </strong>package in <strong>R</strong>. We examined the 3 consecutive QC samples embedded at the start of each plate and removed any outlying measurements.</p><p><br></p><p><strong>Hierarchical approach to removal of unwanted variation (hRUV)</strong></p><p>The hRUV algorithm was designed for experiments with a large number of batches, and consists of 2 key components, including <strong>(i)</strong> within batch signal drift adjustment with robust smoothers and RUV; and <strong>(ii)</strong> the adjustment of the datasets with unwanted variation using an RUV in a hierarchical approach. The main inputs to hRUV consist of a list of raw signal matrix, with rows corresponding to metabolites and columns to samples as <strong>SummarizedExperiment[2] </strong>objects in <strong>R</strong>, a specific intra- and interbatch normalisation method, structure of the tree and the parameters for RUV. hRUV performs repeated RUV procedures to sequentially adjust the data over a large collection of batches, with the number of unwanted variation factors (<strong>k</strong>) defaulting to 5.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Torgo, L. Data Mining with R, learning with case studies, 2nd edition. (Chapman and Hall/CRC, 2016)</p><p><strong>[2]</strong> Morgan, M., Obenchain, V., Hester, J. &amp; Pag\u00e8s, H. SummarizedExperiment: SummarizedExperiment container. (2020)</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS2483_LC-MS_positive_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

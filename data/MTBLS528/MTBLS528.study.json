@@ -1,0 +1,490 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-04-03T09:35:20.772000",
+        "statusUpdateTime": "2018-04-03T09:35:20.772000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:UsersMDesktopISAcreatorMetaboLightsConfigurationsMetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS528",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-08-21",
+        "publicReleaseDate": "2018-04-03",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "VIVO",
+                "file": "http://data.bioontology.org/ontologies/VIVO",
+                "version": "2",
+                "description": "VIVO Ontology for Researcher Discovery"
+            },
+            {
+                "comments": [],
+                "name": "MESH",
+                "file": "http://data.bioontology.org/ontologies/MESH",
+                "version": "6",
+                "description": "Medical Subject Headings"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS528",
+                "filename": "s_MTBLS528.txt",
+                "title": "The natural variance of the Arabidopsis floral secondary metabolites",
+                "description": "Application of mass spectrometry-based metabolomics enables the detection of genotype-related natural variance in metabolism. Differences in secondary metabolite composition of flowers of 64 Arabidopsis thaliana (Arabidopsis) natural accessions, representing a considerable portion of the natural variation in this species are presented. The raw metabolomic data of the accessions and reference extracts derived from flavonoid knockout mutants have been deposited in the MetaboLights database. Additionally, summary tables of floral secondary metabolite data are presented in this article to enable efficient re-use of the dataset either in metabolomics cross-study comparisons or correlation-based integrative analysis of other metabolomic and phenotypic features such as transcripts, proteins and growth and flowering related phenotypes.",
+                "submissionDate": "2017-08-21",
+                "publicReleaseDate": "2018-04-03",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Tohge",
+                        "lastName": "Takayuki",
+                        "email": "tohge@bs.naist.jp",
+                        "affiliation": "NAIST",
+                        "address": "Nara, Ikoma, Japan",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "81-743-72-5480",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator Role",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "VIVO",
+                                    "file": "http://data.bioontology.org/ontologies/VIVO",
+                                    "version": "2",
+                                    "description": "VIVO Ontology for Researcher Discovery"
+                                },
+                                "termAccession": "http://vivoweb.org/ontology/core#PrincipalInvestigatorRole"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Secondary Metabolism",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MESH",
+                            "file": "http://data.bioontology.org/ontologies/MESH",
+                            "version": "6",
+                            "description": "Medical Subject Headings"
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/MESH/D064210"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "plant",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BAO",
+                            "file": "http://data.bioontology.org/ontologies/BAO",
+                            "version": "19",
+                            "description": "BioAssay Ontology"
+                        },
+                        "termAccession": "http://www.bioassayontology.org/bao#BAO_0000605"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The natural variance of the Arabidopsis floral secondary metabolites",
+                        "authorList": "Takayuki Tohge, Monica Borghi, Alisdair R. Fernie.",
+                        "pubMedID": "29611844",
+                        "doi": "10.1038/sdata.2018.51",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Seeds of Arabidopsis natural accessions (Table 1) were germinated on 1/2 MS salts solidified with 1% of agar. 14 days after planting, the seedlings were transferred onto soil (GS-90 Einheitserde; Gebrueder Patzer) and grown under standard greenhouse conditions until flowering (photoperiod 16-8 hr, light-dark; temperature 20-16 \u00b0C). Fully open mature flowers were harvested and immediately frozen in liquid nitrogen for further analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Flower tissues were ground with liquid nitrogen and homogenized in a mixer mill for 3 min at 25 Hz with a zirconia bead and 20 \u00b5l of extraction buffer (80% methanol, prepared with 5 \u00b5g/ml isovitexin as an internal standard) per mg of ground tissue. Thereafter, the supernatant was separated from the cellular debris via centrifugation at 12,000 x g.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Samples were run on a Surveyor HPLC system (Thermo, USA), 150 x 2 mm, 2.0 \u00b5m particle, HPLC column at 28 \u00b0C oven temperature. The solvents used for the assay consisted of water containing 0.1% v/v formic acid (Solvent A) and an acetonitrile solution containing 0.1% v/v formic acid (Solvent B). Gradient [time (min)/%B] starting: 2.0/0, 4.0/15, 14.0/32, 19.0/50, 19.01/100, 21.0/100, 21.01/0, 23.0/0 at flow rate 0.20 ml/min.  Injection volume was 2 \u00b5l.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The compounds were detected using a Thermo LTQ mass spectrometer with electrospray ionization (ESI) mode in positive and negative ion detection mode with a scan range from 100\u20132000 m/z. The LTQ-XP used the Xcalibur software (Thermo Finnigan, USA) version 2.1.0 for data acquisition.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data was not transformed to any other format.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data were processed using Xcalibur 2.1.0 software, and peak identification and annotation implemented through a combination of the following approaches: standard chemical confirmation, MS/MS and retention time profiling, mutant analysis, literature/database survey.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ XL (Thermo Scientific)",
+                        "filename": "a_MTBLS528_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

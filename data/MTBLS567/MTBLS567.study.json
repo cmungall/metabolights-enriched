@@ -1,0 +1,533 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-02-26T10:13:58.050000",
+        "statusUpdateTime": "2018-10-23T09:14:56.076000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:UserskristaDocumentsCurrent projectsMSdataAnalysisISAcreatorMetaboLights_1.7ConfigurationsMetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS567",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-11-06",
+        "publicReleaseDate": "2018-10-23",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NIFSTD",
+                "file": "http://data.bioontology.org/ontologies/NIFSTD",
+                "version": "21",
+                "description": "Neuroscience Information Framework (NIF) Standard Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS567",
+                "filename": "s_MTBLS567.txt",
+                "title": "Intracellular and extracellular metabolites from three strains of Prochlorococcus",
+                "description": "Prochlorococcus is an abundant, cosmopolitan, marine cyanobacterium with ecotypes that vary temporally and spatially across oligotrophic regions of the global ocean. This group of organisms can serve as a model system to understand the accumulation of organic compounds synthesized by primary producers in marine ecosystems. We applied targeted metabolomics to three axenic cultures of strains that span the Prochlorococcus phylogeny: a high-light adapted HLII-clade strain, a low-light adapted LLI-clade strain, and a low-light adapted LLIV-clade strain. Intracellular metabolites were extracted from cells captured in exponential growth and extracellular metabolites were adsorbed, from the same samples, to solid-phase extraction resin. Both pools were quantified using a triple quadrupole mass spectrometer. The resulting data reveal intraspecific differences in metabolites that provide clues about the selective pressures shaping the meta-metabolism of the Prochlorococcus collective, and its interactions with the surrounding microbes that depend on them.",
+                "submissionDate": "2017-11-06",
+                "publicReleaseDate": "2018-10-23",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Krista",
+                        "lastName": "Longnecker",
+                        "email": "klongnecker@whoi.edu",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "508 289 2824",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000524"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Evolutionary metabolomics suggest Prochlorococcus drives an oceanic nucleotide economy",
+                        "authorList": "R. Braakman, K. Longnecker, J.W. Becker, K. Dooley, M.C. Kido Soule, E.B. Kujawinski, S.W. Chisholm",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "Intracellular and extracellular metabolites in Prochlorococcus",
+                        "authorList": "K. Longnecker, J.W. Becker, R. Braakman, K. Dooley, M.C. Kido Soule, S.W. Chisholm, E.B. Kujawinski",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Strain",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "strain",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005135"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Light",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "photon flux density",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "3 strains of Prochlorococcus were cultured using a natural seawater-based medium[1]. The strains included one high light-adapted strain (MIT9301; HLII) and 2 low light-adapted strains (MIT9313; LLIV and MIT0801; LLI). The cultures were maintained in autoclaved glass tubes and sampled in exponential growth. All 3 strains were grown at light levels of 10 \u00b5mol photons/m^2/s; MIT9301 was also grown at 50 \u00b5mol photons/m^2/s while MIT9313 was also grown at 5 \u00b5mol photons/m^2/s.\n</p>\nAll 3 strains were grown with replete levels of inorganic nitrogen, phosphorus, and trace metals[1]. In addition, strain MIT9301 was grown under phosphate-limited conditions with 2.28 \u00b5M PO4. The cultures with the replete level of nutrients are 'replete' under the treatment factor, while the cultures grown with limited phosphate are designated as 'Plimited' in the treatment factor.\n</p>\nFor the replete cultures, there are 3 replicates for the intracellular and extracellular samples from each strain. For the P-limited experiment with MIT9301, there are 2 replicates for the intracellular and extracellular samples.\n</p>\nRef:</br>\n[1] Moore, L. R., A. Coe, E. R. Zinser, M. A. Saito, M. B. Sullivan, D. Lindell, K. Frois-Moniz, J. Waterbury and S. W. Chisholm (2007). Culturing the marine cyanobacterium Prochlorococcus. Limnology and Oceanography Methods 5: 353-362.doi:10.4319/lom.2007.5.353</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The intracellular metabolites were extracted using a method modified from a previously described protocol[1]. Briefly, the filter was extracted 3 times with ice-cold extraction solvent (acetonitrile:methanol:water with 0.1 M formic acid, 40:40:20). The combined extracts were neutralized with ammonium hydroxide and dried in a vacufuge. The samples were redissolved in 95:5 (v/v) water:acetonitrile combined with a mixture of labeled compounds used as an injection standard (d2-biotin, d6-succinic acid, d4-cholic acid, d7-indole 3 acetic acid, 13C phenylalanine; final concentration of each is 0.05 \u00b5g/ml). The final extract volume was 150 \u00b5l.\n</p>\nThe filtrate for each sample, representing the extracellular metabolite fraction, was processed using solid phase extraction with 1 g/6 cc Bond Elut PPL cartridges[2]. The resulting extract was dried down in a vacufuge. The extracellular metabolite extract was redissolved in 75 \u00b5l of 95:5 water:acetonitrile combined with a mixture of labeled compounds used as an injection standard (d2-biotin, d6-succinic acid, d4-cholic acid, d7-indole 3 acetic acid, 13C phenylalanine; final concentration of each is 0.05 \u00b5g/ml).\n</p>\nRef:</br>\n[1] Rabinowitz JD, Kimball E. Acidic acetonitrile for cellular metabolome extraction from Escherichia coli. Anal Chem. 2007 Aug 15;79(16):6167-73. doi:10.1021/ac070470c. PMID:17630720</br>\n[2] Dittmar T, Koch B, Hertkorn N, Kattner G. A simple and efficient method for the solid-phase extraction of dissolved organic matter (SPE-DOM) from seawater. Limnology and Oceanography: Methods. June 2008, 6(6), 230\u2013235.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The chromatographic separation was performed on a Waters Acquity HSS T3 column (2.1 x 100 mm, 1.8 \u03bcm) equipped with a Vanguard pre-column and maintained at 40 \u00b0C. The column was eluted with (A) 0.1% formic acid in water and (B) 0.1% formic acid in acetonitrile at a flow rate of 0.5 ml/min. The gradient starts at 1% B for 1 min, ramp to 15% B from 1-3 min, ramp to 50% from 3-6 min, ramp to 95% B from 6-9 min, hold until 10 min, ramp to 1% from 10-10.2 min, and a final hold at 1% B (total gradient time 12 min).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For targeted analysis, samples were analyzed by ultra performance liquid chromatography (Accela Open Autosampler and Accela 1250 Pump, Thermo Scientific) coupled to a heated electrospray ionization source (H-ESI) and a triple quadrupole mass spectrometer (TSQ Vantage, Thermo Scientific) operated under selected reaction monitoring (SRM) mode. Separate autosampler injections of 5 \u03bcl each were made for positive and negative ion modes. Analysis of authentic standards was used to determine the optimal ionization mode for each metabolite.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The resulting targeted metabolomics data were converted to mzML files using the msConvert tool[1] and processed with MAVEN[2]. The concentration of the metabolites in the targeted mass spectrometry data is given in ng/cell. The cell count data were obtained by flow cytometry.\n</p>\nRef:</br>\n[1] Chambers MC, Maclean B, Burke R, Amodei D, Ruderman DL, Neumann S, Gatto L, Fischer B, Pratt B, Egertson J, Hoff K, Kessner D, Tasman N, Shulman N, Frewen B, Baker TA, Brusniak MY, Paulse C, Creasy D, Flashner L, Kani K, Moulding C, Seymour SL, Nuwaysir LM, Lefebvre B, Kuhlmann F, Roark J, Rainer P, Detlev S, Hemenway T, Huhmer A, Langridge J, Connolly B, Chadick T, Holly K, Eckels J, Deutsch EW, Moritz RL, Katz JE, Agus DB, MacCoss M, Tabb DL, Mallick P. A cross-platform toolkit for mass spectrometry and proteomics. Nat Biotechnol. 2012 Oct;30(10):918-20. doi:10.1038/nbt.2377. PMID:23051804</br>\n[2] Melamud E, Vastag L, Rabinowitz JD. Metabolomic analysis and visualization engine for LC-MS data. Anal Chem. 2010 Dec 1;82(23):9818-26. doi:10.1021/ac1021166. PMID:21049934</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The targeted metabolomics compound identifications were based on measurements of authentic standards on the same mass spectrometer. Identifications were 'MSI Level 1' identifications, unless otherwise noted, based on the established criteria[1].\n</p>\nRef:</br>\n[1] Sumner L, Amberg A, Barrett D, Beale M, Beger R, Daykin C, Fan T, Fiehn O, Goodacre R, Griffin J, Hankemeier T, Hardy N, Harnly J, Higashi R, Kopka J, Lane A, Lindon J, Marriott P, Nicholls A, Reily M, Thaden J, and Viant M (2007) Proposed minimum reporting standards for chemical analysis. Metabolomics 3, 211-221. doi:10.1007/s11306-007-0082-2. PMID:3772505</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS567_POS_LC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS567_NEG_LC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

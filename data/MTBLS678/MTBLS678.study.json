@@ -1,0 +1,596 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-08-19T16:25:09.271000",
+        "statusUpdateTime": "2019-08-19T16:25:09.271000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS678",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-05-21",
+        "publicReleaseDate": "2019-08-19",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MESH",
+                "file": "http://data.bioontology.org/ontologies/MESH",
+                "version": "10",
+                "description": "Medical Subject Headings"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS678",
+                "filename": "s_MTBLS678.txt",
+                "title": "Common Metabolic Pathways Implicated in Resistance to Chemotherapy Point to a Key Mitochondrial Role in Breast Cancer",
+                "description": "Cancer cells are known to reprogram their metabolism to adapt to adverse conditions dictated by tumor growth and microenvironment. A subtype of cancer cells with stem-like properties, known as cancer stem cells (CSC), is thought to be responsible for tumor recurrence. In this study, we demonstrated that CSC and chemoresistant cells derived from triple negative breast cancer cells display an enrichment of up- and downregulated proteins from metabolic pathways that suggests their dependence on mitochondria for survival. Here, we selected antibiotics, in particular - linezolid, inhibiting translation of mitoribosomes and inducing mitochondrial dysfunction. We provided the first in vivo evidence demonstrating that linezolid suppressed tumor growth rate, accompanied by increased autophagy. In addition, our results revealed that bactericidal antibiotics used in combination with autophagy blocker decrease tumor growth. This study puts mitochondria in a spotlight for cancer therapy and places antibiotics as effective agents for eliminating CSC and resistant cells.",
+                "submissionDate": "2018-05-21",
+                "publicReleaseDate": "2019-08-19",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Oscar",
+                        "lastName": "Yanes",
+                        "email": "oscar.yanes@urv.cat",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Cancer Biology",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C18666"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Chemoresistance",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectrometer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001807"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "breast cancer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MONDO_0007254"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Mitochondrion",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C13258"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "stem cell",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CL_0000034"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Autophagy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C71427"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Proteomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C20085"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Antibiotic",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C258"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Cancer Stem Cell",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C68706"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Cell Line",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16403"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Common Metabolic Pathways Implicated in Resistance to Chemotherapy Point to a Key Mitochondrial Role in Breast Cancer.",
+                        "authorList": "Abad E, Garc\u00eda-Mayea Y, Mir C, Sebastian D, Zorzano A, Potesil D, Zdrahal Z, Lyakhovich A, Lleonart ME.",
+                        "pubMedID": "30373788",
+                        "doi": "10.1074/mcp.ra118.001102",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Material sample",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "material sample",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000747"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "MDA-MB-231 commercial cell line (further called Parental or 231-Par) was purchased from ATCC. Cells were cultured in Dulbecco's modified Eagle's medium/F12 and supplemented with 10% FBS, 1% Pen-Strep, 1% Sodium Pyruvate and 1% L-glutamine. Chemoresistant cell lines (231-R) were established with continuous treatment for 6 months with anticancer therapeutic agents, such as cisplatin (231-Rcispl), doxorubicin (231-Rdox) and cyclophosphamide (231-Rcyclo). To obtain CSC (231-CSC), we followed our previously published approach[1].\n</br></br>\nApproximately 5 million cells were collected by trypsinization, centrifuged at 300 x g, washed in PBS, resuspended and kept frozen in 200 \u03bcl of PBS until further use.\n</br></br>\nRef:</br>\n[1] Feliciano A, Garcia-Mayea Y, Jubierre L, Mir C, Hummel M, Castellvi J, Hern\u00e1ndez-Losa J, Paciucci R, Sansano I, Sun Y, Ram\u00f3n Y Cajal S, Kondon H, Soriano A, Segura M, Lyakhovich A, LLeonart ME. miR-99a reveals two novel oncogenic proteins E2F2 and EMR2 and represses stemness in lung cancer. Cell Death Dis. 2017 Oct 26;8(10):e3141. doi:10.1038/cddis.2017.544. PMID:29072692</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "When all samples were collected, resuspended cells were lyophilized overnight. Cell pellet was extracted by adding 660 \u03bcl of a cold mixture of dichloromethane/methanol (2:1 v/v). The resulting suspension was vortexed and bath-sonicated for 1 min. Subsequently added 140 \u03bcl of cold water was added, samples vortexed again and organic and aqueous layers were allowed to equilibrate for 10 min at room temperature. Cell lysates were centrifuged (15,000 rpm, 15 min at 4 \u00b0C), and 320 \u03bcl of aqueous phase (upper layer) was collected for drying under a stream of nitrogen.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Cell media:</br>\n600 \u03bcl of D2O were added to reconstitute lyophilized cells followed by transferring to a 5 mm NMR tube.</br>\nCell culture:</br>\nCell pellet was resuspended in 600 \u03bcl of D2O and transferred to a 5 mm NMR tube.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "1H-NMR spectra were recorded at 300 K on a Bruker Avance III 500 spectrometer coupling a X-PRESS sample changer operating at a proton frequency of 500 MHz.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "One-dimensional 1H pulse experiments were carried out using the nuclear Overhauser effect spectroscopy (NOESY)-presaturation sequence to suppress the residual water peak at around 4.7 ppm. The relaxation delay between scans was set to 5 s. Mixing time was 100 ms and spectral width was 12.000 Hz (20 ppm), and a total of 32 transients for cell media and 256 transients for cell pellet were collected into 32 k and 256 k data points for each spectrum.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The acquired spectra were phased, baseline-corrected and referenced to lactate signal at \u03b4 (1.33 ppm). Spectra were processed with an adapted version of Dolphin[1] for automatic targeted metabolite profiling and quantification.\n</br></br>\nRef:</br>\n[1] G\u00f3mez J, Brezmes J, Mallol R, Rodr\u00edguez MA, Vinaixa M, Salek RM, Correig X, Ca\u00f1ellas N. Dolphin: a tool for automatic targeted metabolite profiling using 1D and 2D (1)H-NMR data. Anal Bioanal Chem. 2014 Dec;406(30):7967-76. doi:10.1007/s00216-014-8225-6. PMID:25370160</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Several database engines, BBioref AMIX database (Bruker), Chenomx and HMDB[1] were used for 1D-resonances assignment and metabolite identification.\n</br></br>\nRef:</br>\n[1] Wishart DS, Feunang YD, Marcu A, Guo AC, Liang K, V\u00e1zquez-Fresno R, Sajed T, Johnson D, Li C, Karu N et al. HMDB 4.0: the human metabolome database for 2018. Nucleic Acids Res. 2018 Jan 4;46(D1):D608-D617. doi:10.1093/nar/gkx1089. PMID:29140435</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Bruker",
+                        "filename": "a_MTBLS678_NMR_spectroscopy.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

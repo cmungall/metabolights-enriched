@@ -1,0 +1,702 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-02-14T00:00:00",
+        "statusUpdateTime": "2020-02-14T12:07:00.286462",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1320",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2019-10-22",
+        "publicReleaseDate": "2020-02-14",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1320",
+                "filename": "s_MTBLS1320.txt",
+                "title": "A multi-omics dataset of heat-shock response in the yeast RNA binding protein Mip6 (NMR assay)",
+                "description": "<p>Gene expression is a biological process regulated at different molecular levels, including chromatin accessibility, transcription, and RNA maturation and transport. In addition, these regulatory mechanisms have strong links with cellular metabolism. Here we present a multi-omics dataset that captures different aspects of this multi-layered process in yeast. We obtained RNA-seq, metabolomics, and H4K12Ac ChIP-seq data for wild-type and mip6delta strains during a heat-shock time course. Mip6 is an RNA-binding protein that contributes to RNA export during environmental stress and is informative of the contribution of post-transcriptional regulation to control cellular adaptations to environmental changes. The experiment was performed in quadruplicate, and the different omics measurements were obtained from the same biological samples, which facilitates the integration and analysis of data using covariance-based methods. We validate our dataset by showing that ChIP-seq, RNA-seq and metabolomics signals recapitulate existing knowledge about the response of ribosomal genes and the contribution of trehalose metabolism to heat stress.</p>",
+                "submissionDate": "2019-10-22",
+                "publicReleaseDate": "2020-02-14",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Carme",
+                        "lastName": "Nu\u00f1o-Cabanes",
+                        "email": "cnuno@ibv.csic.es",
+                        "affiliation": "Gene Expression and RNA Metabolism Laboratory, Instituto de Biomedicina de Valencia (CSIC). Jaume Roig, 11, E-46010 Valencia, Spain",
+                        "address": "Instituto de Biomedicina de Valencia (CSIC). Jaume Roig, 11, E-46010 Valencia, Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "44",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Manuel",
+                        "lastName": "Ugidos",
+                        "email": "mugidos@ibv.csic.es",
+                        "affiliation": "Gene Expression and RNA Metabolism Laboratory, Instituto de Biomedicina de Valencia (CSIC). Jaume Roig, 11, E-46010 Valencia, Spain",
+                        "address": "Instituto de Biomedicina de Valencia (CSIC). Jaume Roig, 11, E-46010 Valencia, Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "44",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Sonia",
+                        "lastName": "Tarazona",
+                        "email": "sotacam@eio.upv.es",
+                        "affiliation": "Department of Applied Statistics, Operations Research and Quality, Universitat Polit\u00e8cnica de Val\u00e8ncia (UPV), Valencia, Spain",
+                        "address": "Universitat Polit\u00e8cnica de Val\u00e8ncia (UPV), Valencia, Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Study Site Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "44",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C93404"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Manuel",
+                        "lastName": "Mart\u00edn-Exp\u00f3sito",
+                        "email": "mmartin@ibv.csic.es",
+                        "affiliation": "Gene Expression and RNA Metabolism Laboratory, Instituto de Biomedicina de Valencia (CSIC). Jaume Roig, 11, E-46010 Valencia, Spain",
+                        "address": "Instituto de Biomedicina de Valencia (CSIC). Jaume Roig, 11, E-46010 Valencia, Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Subinvestigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "44",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C54622"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Alberto",
+                        "lastName": "Ferrer",
+                        "email": "aferrer@eio.upv.es",
+                        "affiliation": "Department of Applied Statistics, Operations Research and Quality, Universitat Polit\u00e8cnica de Val\u00e8ncia (UPV), Valencia, Spain",
+                        "address": "Universitat Polit\u00e8cnica de Val\u00e8ncia (UPV), Valencia, Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Study Site Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "44",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C93404"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Susana",
+                        "lastName": "Rodr\u00edguez-Navarro",
+                        "email": "srodriguez@ib.csic.es",
+                        "affiliation": "Gene Expression and RNA Metabolism Laboratory, Instituto de Biomedicina de Valencia (CSIC). Jaume Roig, 11, E-46010 Valencia, Spain",
+                        "address": "Instituto de Biomedicina de Valencia (CSIC). Jaume Roig, 11, E-46010 Valencia, Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "44",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ana",
+                        "lastName": "Conesa",
+                        "email": "aconesa@ufl.edu",
+                        "affiliation": "Microbiology and Cell Science Department, Genetics Institute, University of Florida, Gainesville, Florida, USA",
+                        "address": "University of Florida, Gainesville, Florida,",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "44",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Heat shock treatment",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "mip6 mutant",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A multi-omics dataset of heat-shock response in the yeast RNA binding protein Mip6",
+                        "authorList": "Carme Nu\u00f1o-Cabanes, Manuel Ugidos, Sonia Tarazona, Manuel Mart\u00edn-Exp\u00f3sito, Alberto Ferrer, Susana Rodr\u00edguez-Navarro, Ana Conesa",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Time",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Temperature",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Temperature",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001702"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A single, 330 ml culture (either for WT and mip6D strains) was grown at 30 \u00baC until the exponential phase (OD=0.7), and this culture was subsequently split across 3 flasks. 1 flask was maintained at 30 \u00baC and labeled as time point 0. The other 2 flasks were incubated at 39 \u00baC for 20 min and 120 min, respectively, by adding pre-heated media to rapidly increase the temperature to 39 \u00baC. These last 2 flasks capture the heat-shock response, while the 30 \u00baC flask serves as a control representing non-stress conditions. The rationale for having 2 flasks for the 39 \u00baC temperature instead of a single flask sampled at 2 different time points was to avoid introducing effects related to culture volume. A 10 ml aliquot was obtained from each of the flasks to supply NMR metabolomics. The cells were harvested and washed once with phosphate buffer (Na2HPO4 100 mM, pH 7.4). The resulting pellet was frozen in liquid nitrogen and stored at \u221280 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>250 \u03bcl of a mixture of methanol/chloroform 2:1 (4 \u00b0C) were added to the frozen cell pellets on ice and were resuspended after 5 min. To break the yeast cell wall, the freeze/thaw method, sonication and glass beads were employed. 125 \u03bcl of MilliQ water and 125 \u03bcl of chloroform were then added, and each tube was vortexed until a homogeneous emulsion was obtained. For phase separation, samples were centrifuged for 30 min at 15,000 x g. The aqueous phase (upper part) was collected with a pipette, while the lipophilic phase (lower phase) was collected with a glass syringe. The water and methanol of the aqueous phase were eliminated by lyophilisation for 1.5 h. Dry extracts were stored at \u221280 \u00b0C until the NMR measurements were taken.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Immediately before NMR acquisition, the extracts were defrosted at 4 \u00b0C. Next, 0.5 ml of phosphate buffer (Na2HPO4 100 mM, pH 7.4) in D2O with 0.2 mM TSP (as internal standard) was added to the aqueous phase prior to introduction into the NMR tube.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The NMR spectra of the extracts were recorded at 25 \u00b0C on a Bruker AVI-600 using a 5-mm TCI cryoprobe. Spectra were processed using Topspin2.16 software (Bruker GmbH, Karlsruhe, Germany).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>1H NMR spectra with NOE mixing were acquired for all the samples with 128 free induction decays (FIDs) and 64 k data points over a spectral width of 30 ppm. A 4-s relaxation delay was incorporated between FIDs, while presaturation was applied for water suppresion. The FID values were multiplied by an exponential function with a 0.5 Hz line broadening factor.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The spectra were normalised to the sum of total spectrum intensity to minimise the effect of the differences in sample concentration. The regions corresponding to water, methanol and TSP (aqueous phase), and water, chloroform and TMS (organic phase) were excluded from normalisation. Each region of the NMR spectrum was then integrated into MestReNova (v 6.2.0-7238, 2010 Mestrelab Research S.L.) with the multiple integration option. For each compound, the mean value of the different assigned signals was determined. 6 to 9 independent samples from at least 2 different cell cultures were obtained per sample condition.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite identification and assignment were performed with the help of the Human Metabolome Database and 2D NMR experiments. Total correlation spectroscopy (TOCSY) and multiplicity heteronuclear single quantum correlation (HSQC) were performed for representative samples of the aqueous phase. 256\u2013512 t1 increments were used, and 32\u201396 transients were collected. The relaxation delays were set at 1.5 s, and the experiments were acquired in the phase sensitive mode. The TOCSY spectra were recorded using a standard MLEV-17 pulse sequence with mixing times (spin-lock) of 65 \u03bcs.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Nuclear Magnetic Resonance (NMR) -",
+                        "filename": "a_MTBLS1320_NMR_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

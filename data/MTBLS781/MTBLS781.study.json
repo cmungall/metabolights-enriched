@@ -1,0 +1,499 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-09-27T15:13:58.292000",
+        "statusUpdateTime": "2019-09-27T15:13:58.292000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\Users\\joestewc\\Desktop\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS781",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-11-06",
+        "publicReleaseDate": "2019-09-27",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "PLOSTHES",
+                "file": "http://data.bioontology.org/ontologies/PLOSTHES",
+                "version": "5",
+                "description": "PLOS Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS781",
+                "filename": "s_MTBLS781.txt",
+                "title": "RANCM: a new ranking scheme for assigning confidence levels to metabolite assignments in NMR-based metabolomics studies",
+                "description": "<p><strong>INTRODUCTION:</strong> The Metabolomics Standards Initiative has recommended four categories for metabolite assignments in NMR-based metabolic profiling studies. The putatively annotated compound category is most commonly reported by metabolomics investigators. However, there is significant ambiguity in reliability of putatively annotated compound assignments, which can range from low confidence made on minimal corroborating data to high confidence made on substantial corroborating data.</p><p><strong>OBJECTIVES: </strong>To introduce a new ranking system, Rank and AssigN Confidence to Metabolites (RANCM), to assign confidence levels to putatively annotated compound assignments in NMR-based metabolic profiling studies.</p><p><strong>METHODS:</strong> The ranking system was constructed with three confidence levels ranging from Rank 1 for the lowest confidence assignment level to Rank 3 for the highest confidence assignment level. A decision tree was constructed to guide rank selection for each metabolite assignment.</p><p><strong>RESULTS:</strong> Examples are provided from experimental data demonstrating how to use the decision tree to make confidence level assignments to putatively annotated compounds in each of the three rank levels. A standard Excel sheet template is provided to facilitate decision-making, documentation and submission to data repositories.</p><p><strong>CONCLUSION:</strong> RANCM is intended to reduce the ambiguity in putatively annotated compound assignments, to facilitate effective communication of the degree of confidence in putatively annotated compound assignments, and to make it easier for non-experts to evaluate the significance and reliability of NMR-based metabonomics studies. The system is straightforward to implement, based on the most common datasets collected in NMR-based metabolic profiling studies, and can be used with equal rigor and significance with any set of NMR datasets.</p>",
+                "submissionDate": "2018-11-06",
+                "publicReleaseDate": "2019-09-27",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "William",
+                        "lastName": "Joesten",
+                        "email": "joestewc@miamioh.edu",
+                        "affiliation": "Graduate Student",
+                        "address": "106 Hughes Laboratory\nMiami University\n651 East High Street\nOxford, OH 45056\n",
+                        "fax": "",
+                        "midInitials": "C",
+                        "phone": "4199444682",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Michael",
+                        "lastName": "Kennedy",
+                        "email": "kennedm4@miamioh.edu",
+                        "affiliation": "Eminent Scholar and Professor",
+                        "address": "106 Hughes Laboratory\nMiami University\n651 East High Street\nOxford, OH 45056\n\n",
+                        "fax": "5135295715",
+                        "midInitials": "A",
+                        "phone": "5135298267",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Ranking algorithms",
+                        "termSource": {
+                            "comments": [],
+                            "name": "PLOSTHES",
+                            "file": "http://data.bioontology.org/ontologies/PLOSTHES",
+                            "version": "5",
+                            "description": "PLOS Thesaurus"
+                        },
+                        "termAccession": "http://localhost/plosthes.2017-1#1540532"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "RANCM: a new ranking scheme for assigning confidence levels to metabolite assignments in NMR-based metabolomics studies.",
+                        "authorList": "Joesten WC, Kennedy MA.",
+                        "pubMedID": "30830432",
+                        "doi": "10.1007/s11306-018-1465-2",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Pulse program",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "nuclear magnetic resonance pulse sequence",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://data.bioontology.org/ontologies/CHMO",
+                                "version": "18",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001841"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Urine samples from NOD-ShiLtJ mice were obtained by placing the mouse into a metabolism cage for 12 h and collecting urine into a beaker containing light mineral oil to prevent evaporation and sodium azide to prevent bacterial growth.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The urine under the light mineral oil layer was collected by pipette and centrifuged at 10,000 x g for 5 min at 4 \u00b0C, and liquid supernatant was collected.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The samples were prepared for NMR analysis by mixing 540 \u00b5l of urine with 66 \u00b5l of a pH 7.4 phosphate buffer containing 10 mM trimethylsilylpropanoic acid (TSP) as a chemical shift reference. The samples were pH adjusted to 7.4 by adding HCl and NaOH as necessary, and finally added to 60 \u00b5l of D2O. The resulting 666 \u00b5l solutions were frozen at -80 \u00b0C until NMR experiments could be conducted. 600 \u00b5l of each sample was transferred into a 5 mm NMR tube for NMR analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All NMR experiments on the NOD-ShiLtJ samples were conducted on a Bruker Avance Spectrometer at 298 K and 850.104 MHz.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "One-dimensional 1H CPMG or NOESY NMR experiments and two-dimensional 1H-1H TOCSY and 1H-13H HSQC NMR experiments were performed as described in our previous publications[1]-[11].\n</br></br>\nRef:\n[1] Chihanga T, Hausmann SM, Ni S, Kennedy MA. Influence of media selection on NMR based metabolic profiling of human cell lines. Metabolomics. 2018 Jan 31;14(3):28. doi:10.1007/s11306-018-1323-2. PMID:30830358</br>\n[2] Chihanga T, Ma Q, Nicholson JD, Ruby HN, Edelmann RE, Devarajan P, Kennedy MA. NMR spectroscopy and electron microscopy identification of metabolic and ultrastructural changes to the kidney following ischemia-reperfusion injury. Am J Physiol Renal Physiol. 2018 Feb 1;314(2):F154-F166. doi:10.1152/ajprenal.00363.2017. PMID:28978534</br>\n[3] Chihanga T, Ruby HN1, Ma Q, Bashir S, Devarajan P, Kennedy MA. NMR-based urine metabolic profiling and immunohistochemistry analysis of nephron changes in a mouse model of hypoxia-induced acute kidney injury. Am J Physiol Renal Physiol. 2018 Oct 1;315(4):F1159-F1173. doi:10.1152/ajprenal.00500.2017. PMID:29993280</br>\n[4] Romick-Rosendale LE, Goodpaster AM, Hanwright PJ, Patel NB, Wheeler ET, Chona DL, Kennedy MA. NMR-based metabonomics analysis of mouse urine and fecal extracts following oral treatment with the broad-spectrum antibiotic enrofloxacin (Baytril). Magn Reson Chem. 2009 Dec;47 Suppl 1:S36-46. doi:10.1002/mrc.2511. PMID:19768747</br>\n[5] Romick-Rosendale LE, Legomarcino A, Patel NB, Morrow AL, Kennedy MA. Prolonged antibiotic use induces intestinal injury in mice that is repaired after removing antibiotic pressure: implications for empiric antibiotic therapy. Metabolomics. 2014 Feb;10(1):8-20. doi:10.1007/s11306-013-0546-5. PMID:26273236</br>\n[6] Romick-Rosendale LE, Schibler KR, Kennedy MA. A Potential Biomarker for Acute Kidney Injury in Preterm Infants from Metabolic Profiling. J Mol Biomark Diagn. 2012 Feb;Suppl 3. pii: 001. doi:10.4172/2155-9929.S3-001. PMID:25035813</br>\n[7] Schmahl MJ, Regan DP, Rivers AC, Joesten WC, Kennedy MA. NMR-based metabolic profiling of urine, serum, fecal, and pancreatic tissue samples from the Ptf1a-Cre; LSL-KrasG12D transgenic mouse model of pancreatic cancer. PLoS One. 2018 Jul 17;13(7):e0200658. doi:10.1371/journal.pone.0200658. PMID:30016349</br>\n[8] Wang B, Sheriff S, Balasubramaniam A, Kennedy MA. (2015). NMR based metabolomics study of Y2 receptor activation by neuropeptide Y in the SK-N-BE2 human neuroblastoma cell line. Metabolomics, 11, 1243\u20131252.  doi:10.1007/s11306-015-0782-y.</br>\n[9] Watanabe M, Sheriff S, Kadeer N, Cho J, Lewis KB, Balasubramaniam A, et al. (2012). NMR based metabonomics study of NPY Y5 receptor activation in BT-549, a human breast carcinoma cell line. Metabolomics, 8, 854\u2013868. doi:10.1007/s11306-011-0380-6.</br>\n[10] Watanabe M, Sheriff S, Lewis KB, Cho J, Tinch SL, Balasubramaniam A, Kennedy MA. Metabolic Profiling Comparison of Human Pancreatic Ductal Epithelial Cells and Three Pancreatic Cancer Cell Lines using NMR Based Metabonomics. J Mol Biomark Diagn. 2012 Apr;3(2). pii: S3-002. doi:10.4172/2155-9929.S3-002. PMID:26609466</br>\n[11] Watanabe M, Sheriff S, Ramelot TA, Kadeer N, Cho J, Lewis KB, et al. (2011). NMR Based metabonomics study of DAG treatment in a C2C12 mouse skeletal muscle cell line myotube model of burn-injury. International Journal of Peptide Research and Therapeutics, 17, 281\u2013299.  doi:10.1007/s10989-011-9264-x.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Phase correction, baseline correction, and other necessary processing of spectra were performed manually using TopSpin 3.5.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "One-dimensional NMR spectra were investigated using the ChenomX Profiler software (https://www.chenomx.com/). Putative metabolite identifications made using the ChenomX software were further analyzed using the HMDB (http://www.hmdb.ca/)[1]. Analysis of 2D NMR data was performed using the COLMAR software (http://spin.ccic.ohio-state.edu/) (Bingol et al. 2014; Bingol et al. 2016). Ranking score assignments were determined using the decision tree described in Section 2.4 Construction of the ranking decision tree and Fig 1, in the paper associated with this study.\n</br></br>\nRef:\n[1] Wishart DS, Feunang YD, Marcu A, Guo AC, Liang K, V\u00e1zquez-Fresno R, Sajed T et al. HMDB 4.0: the human metabolome database for 2018. Nucleic Acids Res. 2018 Jan 4;46(D1):D608-D617. doi:10.1093/nar/gkx1089. PMID:29140435</br>\n[2] Bingol K, Bruschweiler-Li L, Li DW, Br\u00fcschweiler R. Customized metabolomics database for the analysis of NMR 1H-1H TOCSY and 13C-1H HSQC-TOCSY spectra of complex mixtures. Anal Chem. 2014 Jun 3;86(11):5494-501. doi:10.1021/ac500979g. PMID:24773139</br>\n[3] Bingol K, Li DW, Zhang B, Br\u00fcschweiler R. Comprehensive Metabolite Identification Strategy Using Multiple Two-Dimensional NMR Spectra of a Complex Mixture Implemented in the COLMARm Web Server. Anal Chem. 2016 Dec 20;88(24):12411-12418. doi:10.1021/acs.analchem.6b03724. PMID:28193069</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Nuclear Magnetic Resonance (NMR)",
+                        "filename": "a_MTBLS781_NMR_spectroscopy.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

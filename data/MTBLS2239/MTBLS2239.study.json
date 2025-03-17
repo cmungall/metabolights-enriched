@@ -1,0 +1,832 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-06-05T00:00:00",
+        "statusUpdateTime": "2024-06-05T11:09:34.117672",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2239",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "10/11/2023",
+        "publicReleaseDate": "2024-06-05",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCBITaxon",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "IOBC",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "c",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "GAZ",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "ENVO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2239",
+                "filename": "s_MTBLS2239.txt",
+                "title": "Estimating essential phenotypic and molecular traits from integrative biodiversity data",
+                "description": "<p>Functional ecology and biodiversity lack integrative reference data that combine the assessment of traits at different levels. Here, we integrate data from 16 field samples of complex thallose liverworts (order Marchantiales) collected from biological soil crust communities in Southern Sweden and Germany at three levels: (1) bioimaging (morphometric measurements from macro- and microscopy), (2) metabolomics (molecular computations performed on liquid chromatography high-resolution mass-spectrometry (UPLC/ESI-QTOF-MS) with data-dependent acquisition (DDA-MS) data) and (3) DNA marker sequencing. These data are used to construct a reference framework including a proposed naming scheme for the estimation of molecular traits and for demonstrating the systematic and standardized extraction of phenotypic and molecular traits for integration into the plant trait database TRY. Phylogenetic trees and partitioning around medoids are used to demonstrate the assessment of evolutionary relationships and the trait space connecting ecological hypotheses and documenting knowledge gains across domains. With our reference framework we want to encourage the combined assessment, reuse and integration of phenotypic and molecular traits into functional biodiversity research and related disciplines.</p>",
+                "submissionDate": "10/11/2023",
+                "publicReleaseDate": "2024-06-05",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Kristian",
+                        "lastName": "Peters",
+                        "email": "kpeters@ipb-halle.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Steffen",
+                        "lastName": "Neumann",
+                        "email": "sneumann@ipb-halle.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Supervisor",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C134832"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Phenotype",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16977"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "bryophyte",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_3208"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Bryophyta environmental sample",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_261716"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Marchantiophyta",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_3195"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Biodiversity",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EDAM",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://edamontology.org/topic_3050"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Marchantiales",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_28908"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Ricciaceae",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_41842"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Riccia",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_41843"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Cleveaceae",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_122613"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Athalamia",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_122614"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Aytoniaceae",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_37393"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Mannia",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_157221"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Asterella",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_56913"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Reboulia",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITaxon",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_37394"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Taxonomy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17469"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "chemotaxonomy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "IOBC",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.jp/bio/4/id/200906067052891152"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Plant Ecology",
+                        "termSource": {
+                            "comments": [],
+                            "name": "c",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://aims.fao.org/aos/agrovoc/c_5963"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "soil biocrust",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ENVO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01000910"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Estimating essential phenotypic and molecular traits from integrative biodiversity data",
+                        "authorList": "Peters Kristian, Ziegler J\u00f6rg, Neumann Steffen",
+                        "pubMedID": "",
+                        "doi": "10.1101/2024.04.02.587699",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Preprint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1",
+                                "description": "Metabolights Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000004"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Site coordinates",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "geographical location",
+                            "termSource": {
+                                "comments": [],
+                                "name": "GAZ",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000448"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sample collection",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Date",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25164"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Biological species",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Species",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C45293"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Voucher identifier",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Identification number",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1",
+                                "description": "Metabolights Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples of were collected in the field and put immediately in sterile petri dishes at locations in Southern Sweden in September 2022 and in Germany in October 2022. Specimens were photographed on-site and bioimaging was performed on fresh material using macro- and microscopy in the lab. After an incubation period of 5 days at room temperatures, the plant material was isolated, washed under a light microscope to remove dirt and other residues, filled into Eppendorf tubes and shock-frozen (LC-MS analyses) or dried (marker sequencing). Remaining plant material was stored as voucher specimens in the Herbarium Haussknecht Jena (barcodes: JE04010739-JE04010754).</p><p><br></p><p>A reference dataset containing liquid chromatography high-resolution mass-spectrometry (UPLC/ESI-QTOF-MS) with data-dependent acquisition (DDA-MS) profiles of 16 specimens of thallose liverworts of biological soil crusts collected in Southern Sweden and Germany.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>We followed extraction procedures for LC-MS originally developed for vascular plants<strong>[1]</strong> and adapted for the use with bryophytes and the different analytical setup used herein<strong>[2]</strong>. This data-dependent acquisition method has been shown to provide robust results and high-quality spectra for thallose liverworts<strong>[3]</strong>. In detail, frozen plants were homogenized for 5 min at 30 Hz in Teflon chambers equipped with 2 stainless steel balls. The chambers were rinsed with 100 \u00b5L of cold 80:20 MeOH:H2O supplemented with 2 \u00b5M 4-Methylumbelliferon, 5\u00b5M Kinetin (Sigma), 5\u00b5M Biochanin A (Sigma) and 5 \u00b5M N-(3-Indolylacetyl)-L-alanine (Sigma) and the slurry was shaken at 1000 rpm for 15 min at room temperature. The mixture was centrifuged twice at 13,000 rpm for 15 min and the supernatant was transferred to autosampler vials.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> B\u00f6ttcher C, Westphal L, Schmotz C, Prade E, Scheel D, Glawischnig E. The multifunctional enzyme CYP71B15 (PHYTOALEXIN DEFICIENT3) converts cysteine-indole-3-acetonitrile to camalexin in the indole-3-acetonitrile metabolic network of Arabidopsis thaliana. Plant Cell. 2009 Jun;21(6):1830-45. doi:10.1105/tpc.109.066670. Epub 2009 Jun 30. PMID:19567706.</p><p><strong>[2]</strong> Blatt-Janmaat K, Neumann S, Schmidt F, Ziegler J, Peters K, Qu Y. Impact of in vitro hormone treatments on the bibenzyl production of Radula complanata. Botany. 2022 Jun 27;101(7):232-42. doi:10.1139/cjb-2022-0048.</p><p><strong>[3]</strong> Peters K, Blatt-Janmaat KL, Tkach N, van Dam NM, Neumann S. Untargeted Metabolomics for Integrative Taxonomy: Metabolomics, DNA Marker-Based Sequencing, and Phenotype Bioimaging. Plants (Basel). 2023 Feb 15;12(4):881. doi:10.3390/plants12040881. PMID:36840229.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples were separated with an Agilent 1290 Infinity HPLC (Agilent, Waldbronn, Germany) equipped with a Nucleodur X18 Gravity-SB column (1.8 \u00b5m 100 x 2 Macherey Nagel, Dueren, Germany) coupled to a Bruker TIMS-TOF-MS (timsTOF Pro, Bruker, Bremen, Germany). Separations were performed at 35 \u00b0C with the following binary gradient of 0.1% aqueous formic acid (solvent A) and acetonitrile (solvent B): isocratic 98% A for 1.0 min; a linear gradient from 98% to 5% A from 1.0 to 14.0 min; isocratic 5% A from 14.0 to 17.5 min; isocratic 98% A from 18 to 20 min. The flow rate was maintained at 0.5 mL/min, the injection chamber was maintained at 4 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A Bruker TIMS-TOF-MS (timsTOF Pro, Bruker, Bremen, Germany) was used for mass spectrometry analyses. Injections were performed separately for positive and negative ionization mode. Data-dependent acquisition (DDA-MS) mode was used with the instrument settings described previously<strong>[1]</strong>. For negative mode, the auto-MS/MS conditions were as follows: ion source: end plate; offset: 400 V; capillary voltage: 4000 V; nebulizer: 3 bar; dry gas: 10 L/min; dry temperature: 250 \u00b0C; scan mass range: 20-1300 m/z; spectra rate: 3 Hz; cycle time: 0.5 s; threshold: 1150 cts; collision energy: 20. For positive mode, the following conditions were utilized: ion source: end plate; offset: 500 V; capillary voltage: 4500 V; nebulizer: 3 bar; dry gas: 10 L/min; dry temperature: 250 \u00b0C; scan mass range: 20-1300 m/z; spectra rate: 3 Hz; cycle time: 0.5 s; threshold: 2285 cts; collision energy: 30. Calibration for both modes was completed with Na-Formate.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Blatt-Janmaat K, Neumann S, Schmidt F, Ziegler J, Peters K, Qu Y. Impact of in vitro hormone treatments on the bibenzyl production of Radula complanata. Botany. 2022 Jun 27;101(7):232-42. doi:10.1139/cjb-2022-0048.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Raw data converted into mzML format using msconvert<strong>[1]</strong>. Data processing was performed in the statistical software environment R version 4.1.2 using the iESTIMATE framework (https://github.com/ipb-halle/iESTIMATE). Chromatographic peak detection was performed using the R package XCMS version 3.22.0<strong>[2]</strong>. The following settings were used for the negative ion mode: CentWaveParam, ppm = 25, mzCenterFun = 'mean', peakwidth = c(7.2,36), prefilter = c(2,50), mzdiff = 0.0012, snthresh = 7, noise = 0, integrate = 1, firstBase-lineCheck = TRUE, verboseColumns = FALSE, fitgauss = FALSE, roiList = list(), roiScales = numeric()). For the positive ion mode different settings were used for: peakwidth = c(9.4,32), prefilter = c(6,51), mzdiff = -0.0043, snthresh = 2. Grouping of chromatographic peaks was performed before and after retention time correction with the following settings in both ion modes: PeakDensityParam, minFraction = 0.7, bw = 0.25, minSamples = 1, binSize = 0.5. Retention time correction was performed with the following settings: PeakGroupsParam, minFraction = 0.7, smooth = 'loess', span = 0.2, family = 'gaussian'. Only metabolite features with retention times less than 1020 s were considered for further analysis.</p><p><br></p><p>The MS1-level peak tables were created separately for positive and negative ion modes with the settings featureValues, method = 'medret', value = 'into'. The peak tables were log2-transformed and missing values were imputed with zeros. Histograms and PCA diagnostic plots were generated to additionally evaluate the distribution of the data. MS2-level fragment spectra (MS/MS spectra) that were acquired by the Data-Dependent Acquisition mode (DDA-MS) were extracted from the profiles using the chromPeakSpectra, msLevel = 2 L, return.type = 'Spectra' settings of XCMS. Spectra obtained from the same precursor ion were combined using the combineSpectra function from the R package Spectra using the following settings: FUN = combinePeaks, ppm = 25, peaks = 'union', minProp = 0.8, intensityFun = median, mzFun = median, backend = MsBackendDataFrame. This step was performed separately for positive and negative ion modes. The MS1-level peak tables were then filtered to include only peaks for which the DDA-MS had acquired MS-MS fragment spectra. The spectra were saved in MSP and MGF files for further data processing.</p><p><br></p><p>As standard variance and median values were within 10% deviations, the filtered MS1-level peak tables containing log-transformed abundances of peaks in positive and negative ion modes were joined and used for further statistical analyses. Presence/absence peak tables were also generated to contain whether a metabolite feature was detected in the profiles. Features with abundances less than 10^-8% of the median abundance were considered absent.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Chambers MC, Maclean B, Burke R, Amodei D, Ruderman DL, Neumann S, Gatto L, Fischer B, Pratt B, Egertson J, Hoff K, Kessner D, Tasman N, Shulman N, Frewen B, Baker TA, Brusniak MY, Paulse C, Creasy D, Flashner L, Kani K, Moulding C, Seymour SL, Nuwaysir LM, Lefebvre B, Kuhlmann F, Roark J, Rainer P, Detlev S, Hemenway T, Huhmer A, Langridge J, Connolly B, Chadick T, Holly K, Eckels J, Deutsch EW, Moritz RL, Katz JE, Agus DB, MacCoss M, Tabb DL, Mallick P. A cross-platform toolkit for mass spectrometry and proteomics. Nat Biotechnol. 2012 Oct;30(10):918-20. doi:10.1038/nbt.2377. PMID:23051804.</p><p><strong>[2]</strong> Smith CA, Want EJ, O'Maille G, Abagyan R, Siuzdak G. XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification. Anal Chem. 2006 Feb 1;78(3):779-87. doi:10.1021/ac051437y. PMID:16448051.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Annotation of MS/MS fragment spectra was carried out using the software SIRIUS version 5.7<strong>[1]</strong>. The settings described in literature<strong>[2]</strong> were used for both ionizations. Annotation was accomplished automatically by selecting the highest-ranking candidate for each spectrum. If the software could provide a COSMIC score<strong>[3]</strong>, the candidate with the highest-ranking COSMIC score was selected. The corresponding SMILES and the compound classification provided by the CANOPUS<strong>[4]</strong> were extracted and stored for each spectrum. The classification provided by CANOPUS for each MS/MS fragment spectrum was aggregated and stored in a separate classification table. Compound classes were analyzed at the CHEMONT level of subclasses and superclasses. The classes were aggregated and counted for each spectrum found in a sample and multiplied by the (log2 transformed) peak abundances of the corresponding MS1 precursors in the MS1-level peak table. The same procedure was accomplished for classes obtained from the Natural Product Classifier<strong>[5]</strong>.</p><p><br></p><p>Molecular descriptors were calculated for the SMILES provided by SIRIUS using RCDK<strong>[6]</strong> resulting in a data matrix with SMILES in rows and descriptors in columns. A data table was constructed corresponding to the feature table by performing a matrix operation of both tables.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> D\u00fchrkop K, Fleischauer M, Ludwig M, Aksenov AA, Melnik AV, Meusel M, Dorrestein PC, Rousu J, B\u00f6cker S. SIRIUS 4: a rapid tool for turning tandem mass spectra into metabolite structure information. Nat Methods. 2019 Apr;16(4):299-302. doi:10.1038/s41592-019-0344-8. Epub 2019 Mar 18. PMID:30886413.</p><p><strong>[2]</strong> Peters K, Blatt-Janmaat KL, Tkach N, van Dam NM, Neumann S. Untargeted Metabolomics for Integrative Taxonomy: Metabolomics, DNA Marker-Based Sequencing, and Phenotype Bioimaging. Plants (Basel). 2023 Feb 15;12(4):881. doi:10.3390/plants12040881. PMID:36840229.</p><p><strong>[3]</strong> Hoffmann MA, Nothias LF, Ludwig M, Fleischauer M, Gentry EC, Witting M, Dorrestein PC, D\u00fchrkop K, B\u00f6cker S. High-confidence structural annotation of metabolites absent from spectral libraries. Nat Biotechnol. 2022 Mar;40(3):411-421. doi:10.1038/s41587-021-01045-9. Epub 2021 Oct 14. PMID:34650271.</p><p><strong>[4]</strong> D\u00fchrkop K, Nothias LF, Fleischauer M, Reher R, Ludwig M, Hoffmann MA, Petras D, Gerwick WH, Rousu J, Dorrestein PC, B\u00f6cker S. Systematic classification of unknown metabolites using high-resolution fragmentation mass spectra. Nat Biotechnol. 2021 Apr;39(4):462-471. doi:10.1038/s41587-020-0740-8. Epub 2020 Nov 23. PMID:33230292.</p><p><strong>[5]</strong> Gaudry A, Pagni M, Mehl F, Moretti S, Quiros-Guerrero LM, Cappelletti L, Rutz A, Kaiser M, Marcourt L, Queiroz EF, Ioset JR. A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery. 2023. doi:10.26434/chemrxiv-2023-sljbt.</p><p><strong>[6]</strong> Voicu A, Duteanu N, Voicu M, Vlad D, Dumitrascu V. The rcdk and cluster R packages applied to drug candidate selection. J Cheminform. 2020 Jan 20;12(1):3. doi:10.1186/s13321-019-0405-0. PMID:33430987.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS2239_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS2239_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,574 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-10-14T00:00:00",
+        "statusUpdateTime": "2020-10-14T10:57:03.594796",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1963",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-07-29",
+        "publicReleaseDate": "2020-10-14",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1963",
+                "filename": "s_MTBLS1963.txt",
+                "title": "The genetic origin of evolidine, the first cyclopeptide discovered in plants, and related orbitides",
+                "description": "<p>Cyclic peptides are reported to have antibacterial, antifungal and other bioactivities. Orbitides are a class of cyclic peptide that are small, head-to-tail cyclized, composed of proteinogenic amino acids, and lack disulfide bonds; they are also known in several genera of the plant family Rutaceae. Melicope xanthoxyloides is the Australian rain forest tree of the Rutaceae family in which evolidine - the first plant cyclic peptide - was discovered. Evolidine (cyclo-SFLPVNL) has subsequently been all but forgotten in the academic literature, so to redress this we used tandem mass spectrometry and de novo transcriptomics to rediscover evolidine and decipher its biosynthetic origin from a short precursor just 48 residues in length. We also identify another six M. xanthoxyloides orbitides using the same techniques. These peptides have atypically diverse C-termini consisting of residues not recognized by either of the known proteases plants use to macrocyclize peptides, suggesting new cyclizing enzymes a wait discovery. We examined the structure of two of the novel orbitides by NMR, finding one had a definable structure, whereas the other did not. Mining RNA-seq and whole genome sequencingdata from other species of the Rutaceae familyrevealed a large and diverse family of peptides is encoded by similar sequences across the family and demonstrates how powerful de novo transcriptomics can be at accelerating the discovery of new peptide families.</p>",
+                "submissionDate": "2020-07-29",
+                "publicReleaseDate": "2020-10-14",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Mark",
+                        "lastName": "Fisher",
+                        "email": "cv@markfisher.id.au",
+                        "affiliation": "The University of Western Australia",
+                        "address": "The University of Western Australia (M310), 35 Stirling Highway, Crawley 6009, Australia",
+                        "fax": "",
+                        "midInitials": "F",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Joshua",
+                        "lastName": "Mylne",
+                        "email": "joshua.mylne@uwa.edu.au",
+                        "affiliation": "The University of Western Australia",
+                        "address": "The University of Western Australia",
+                        "fax": "",
+                        "midInitials": "S",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "cyclic peptide",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_23449"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Peptide Biosynthesis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OMIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OMIT_0011446"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Plant biology",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EDAM",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://edamontology.org/topic_0780"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "orbitide",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The genetic origin of evolidine, the first cyclopeptide discovered in plants, and related orbitides.",
+                        "authorList": "Fisher MF, Payne CD, Chetty T, Crayn DM, Berkowitz O, Whelan J, Rosengren KJ, Mylne JS.",
+                        "pubMedID": "32817170",
+                        "doi": "10.1074/jbc.ra120.014781",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "discover",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Discover",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C62262"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sample provenance",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Provenance",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C43581"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Leaves and stems of M. xanthoxyloides were collected on 13 June 2019 by S. Venter (reference 15917) from Smithfield Conservation Park, Queensland, Australia (16.80609\u00b0 S, 145.67583\u00b0 E) under permit PTU18-001474. A voucher specimen has been deposited in the Australian Tropical Herbarium. After removing the stems, the leaves were ground to a powder under liquid nitrogen and stored at -70 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Peptides were extracted from plants as described previously<strong>[1]</strong>. Briefly, about 1 g of leaf powder was ground with 50 ml of 50% methanol/50% dichloromethane (v/v). The extract was dried with anhydrous magnesium sulfate and filtered under a vacuum with 2x 50 ml washes of solvent. After flash chromatography though silica gel, the samples were dried in a rotary evaporator (Heidolph). These leaf peptide extracts were then purified as previously described<strong>[2]</strong>. Briefly, the crude extract was purified by solid-phase extraction using a 30 mg Strata-X polymeric reversed-phase column (Phenomenex). The dried extract was dissolved in 2 ml of an aqueous solution of 5% acetonitrile (v/v)/0.1% formic acid (v/v) and dispensed onto the column, after which purified peptides were eluted with 75% acetonitrile (v/v)/0.1% formic acid (v/v). The purified extract was desiccated in a vacuum centrifuge (Labconco) and then prepared for LC-MS analysis by redissolving it in 50 \u03bcl of HPLC-grade 5% acetonitrile (v/v)/0.1% formic acid (v/v) (Honeywell).</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Jayasena AS, Fisher MF, Panero JL, Secco D, Bernath-Levin K, Berkowitz O, Taylor NL, Schilling EE, Whelan J, Mylne JS. Stepwise Evolution of a Buried Inhibitor Peptide over 45 My. Mol Biol Evol. 2017 Jun 1;34(6):1505-1516. doi:10.1093/molbev/msx104. PMID:28333296.</p><p><strong>[2]</strong> Fisher MF, Zhang J, Taylor NL, Howard MJ, Berkowitz O, Debowski AW, Behsaz B, Whelan J, Pevzner PA, Mylne JS. A family of small, cyclic peptides buried in preproalbumin since the Eocene epoch. Plant Direct. 2018 Feb;2(2):e00042. doi:10.1002/pld3.42. PMID: 30417166.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples (2 \u03bcl) were separated by a gradient elution from 5% solvent B to 95% solvent B over 15 min on a high-capacity nano-LC chip (Agilent Technologies; part no. G4240-62010) driven by a 1200 series nano-flow HPLC system (Agilent) at a flow rate of 300 nl/min. Solvent A was 0.1% (v/v) formic acid in water and solvent B was 0.1% (v/v) formic acid in acetonitrile. Both solvents were HPLC-grade (Honeywell).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Peptides were detected with either a 6520 or 6550 Q-TOF mass spectrometer (Agilent) via electrospray ionization in positive mode with 1 MS scan/s. The source voltage was set between 2100 and 2175 V. MS/MS data were gathered by collision-induced dissociation at a rate of 2 scans/s, with the expected peptide m/z values set as 'preferred' for fragmentation.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data files were converted to mgf format using Agilent MassHunter Qualitative software version 10</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Visual inspection of MS/MS data was used to sequence the cyclic peptides, guided by transcriptomic data for the 6 novel peptides, and the known sequence for evolidine.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS1963_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

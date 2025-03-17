@@ -1,0 +1,637 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-02-02T15:38:57.493000",
+        "statusUpdateTime": "2017-02-02T15:38:57.493000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS225",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-09-03",
+        "publicReleaseDate": "2017-02-02",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MEDDRA",
+                "file": "http://data.bioontology.org/ontologies/MEDDRA",
+                "version": "6",
+                "description": "Medical Dictionary for Regulatory Activities"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MESH",
+                "file": "http://data.bioontology.org/ontologies/MESH",
+                "version": "6",
+                "description": "Medical Subject Headings"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS225",
+                "filename": "s_MTBLS225.txt",
+                "title": "Targeted metabolomic analysis in hepatic extracts, serum, and urine of female mice gavaged with TCDD every 4 days for 28 days",
+                "description": "TCDD is an environmental contaminant that elicits a number of hepatic effects including fat accumulation, inflammation, and fibrosis that can progress to hepatocellular carcinoma. RNA-Seq and targeted metabolomics were integrated with complementary dioxin response element (DRE) location and aryl hydrocarbon receptor (AhR) ChIP-Seq data to further investigate the hepatotoxicity of TCDD. Our integrative analysis identified changes similar to the Warburg effect observed in cancer cells, including pyruvate kinase isoform switching (PKM1 to PKM2), and an increase in the glutaminase (GLS1) GAC:KGA isoform ratio. Consequently, metabolites are redirected towards the pentose phosphate pathway, serine biosynthesis, and glutaminolysis. We propose that the effects of TCDD on central carbon and amino acid metabolism represents AhR-mediated hepatic metabolic reprogramming in order to increase NADPH production as an oxidative stress counter-measure.",
+                "submissionDate": "2015-09-03",
+                "publicReleaseDate": "2017-02-02",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Timothy",
+                        "lastName": "Zacharewski",
+                        "email": "tzachare@msu.edu",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "R",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Rance",
+                        "lastName": "Nault",
+                        "email": "naultran@msu.edu",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "2,3,7,8-tetrachlorodibenzodioxine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_28119"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Dose-Response Relationship, Drug",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MESH",
+                            "file": "http://data.bioontology.org/ontologies/MESH",
+                            "version": "6",
+                            "description": "Medical Subject Headings"
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/MESH/D004305"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Hepatotoxicity",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MEDDRA",
+                            "file": "http://data.bioontology.org/ontologies/MEDDRA",
+                            "version": "6",
+                            "description": "Medical Dictionary for Regulatory Activities"
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/MEDDRA/10019851"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "liquid chromatography-tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000701"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Pyruvate Kinase Isoform Switching and Hepatic Metabolic Reprogramming by the Environmental Contaminant 2,3,7,8-Tetrachlorodibenzo-p-Dioxin.",
+                        "authorList": "Nault R, Fader KA, Kirby MP, Ahmed S, Matthews J, Jones AD, Lunt SY, Zacharewski TR.",
+                        "pubMedID": "26582802",
+                        "doi": "10.1093/toxsci/kfv245",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "Dose-Dependent Metabolic Reprogramming and Differential Gene Expression in TCDD-Elicited Hepatic Fibrosis.",
+                        "authorList": "Nault R, Fader KA, Ammendolia DA, Dornbos P, Potter D, Sharratt B, Kumagai K, Harkema JR, Lunt SY, Matthews J, Zacharewski T.",
+                        "pubMedID": "27562557",
+                        "doi": "10.1093/toxsci/kfw163",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "biological replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002091"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Dose",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Unit of Dose Calculation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C66973"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Postnatal day 25 (PND25) female C57BL/6 mice (Charles River Laboratories, Portage, MI), housed in polycarbonate cages with cellulose fiber chips (Aspen Chip Laboratory Bedding, Northeastern Products, Warrensberg, NY) at 30-40% humidity and a 12h light/dark cycle and acclimatized for 4 days, were fed ad libitum (Harlan Teklad 22/5 Rodent Diet 8940, Madison, WI) with free access to deionized water. On PND 28 and every following 4th day animals (N = 5) were orally gavaged with 0.1 ml sesame oil or TCDD (Dow Chemical Company, Midland, MI) for a total of 28 days (0.01, 0.03, 0.1, 0.3, 1, 3, 10, or 30 \u00b5g/kg).  Blood was collected on day 28 by submandibular vein puncture into BD microtainer tubes with serum separator (BD, Franklin Lakes, NJ) and centrifuged at 10,000 x g for 5 min and serum was immediately stored at -80 \u00baC. Liver samples were frozen in liquid nitrogen, and stored at -80 \u00baC. Urine was collected from individual mice over 2 h on\nday 26 in the absence of food or water and stored immediately at -80 \u00baC.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Liver (~100 mg) and serum (30 \u00b5l) aqueous metabolites were extracted by chloroform:water:methanol. Briefly, frozen liver samples were homogenized (Polytron PT2100, Kinematica) or vortexed (serum) in HPLC grade methanol:water (5:3, 4.63 ml, -20 \u00b0C) in Pyrex glass tubes. HPLC-grade chloroform was added following homogenization (methanol:water:chloroform, 5:3:5), vortexed, shaken on ice for 10 min, and centrifuged at 3,000 x g. The transferred aqueous phase was dried under nitrogen gas at room temperature and resuspended in HPLC-grade water prior to analysis. Hepatic extract protein layers were dried and a bicinchoninic acid assay (Sigma-Aldrich) on a Tecan Infinite 200 microplate reader (M\u00e4nnedorf, Switzerland) was used to normalize signal in liver.\n</p>\nAmino acids were carbobenzyloxy (cbz) derivatized for analysis. Redissolved solutions (20 \u00b5l) were added to 80 \u00b5l of HPLC-grade methanol, and 2.5 \u00b5l of triethylamine. 0.5 \u00b5l benzylchloroformate was added and samples were vortexed then centrifuged, and the supernatant was transferred to HPLC vials for analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Liver and Urine:</br>\nHepatic extracts were first loaded onto a trapping column (C18, 4 mm x 2 mm, from Phenomenex) and washed for 30 seconds with HPLC grade water containing 10 mM tributylamine and 15 mM acetic acid for desalting. Hepatic extracts were examined by liquid chromatography (LC) and tandem mass spectrometry (MS/MS) as previously described[1] using a Paradigm MS4 HPLC (Michrom Bioresources, Auburn, CA), and a Synergi Hydro column (4 \u00b5m particle size, 80 \u00c5, 150 mm x 2 mm, from Phenomenex). Urine samples, collected at 26 days (PND 54, 7 TCDD doses) were processed and analysed in the same way.\n</p>\nBlood:</br>\nFor serum extracts, separation was performed as described above using an Acquity UPLC system (Waters), Ascentis Express column (C18, 5 cm x 2.1 mm, 2.7 \u00b5m from Sigma-Aldrich) coupled to a Xevo TQ-S triple quadrupole mass spectrometer (Waters).\n</p>\nRef:</br>\n[1] Lunt SY, Muralidhar V, Hosios AM, Israelsen WJ, Gui DY, Newhouse L, Ogrodzinski M, Hecht V, Xu K, Acevedo PN, Hollern DP, Bellinger G, Dayton TL, Christen S, Elia I, Dinh AT, Stephanopoulos G, Manalis SR, Yaffe MB, Andrechek ER, Fendt SM, Vander Heiden MG. Pyruvate kinase isoform expression alters nucleotide synthesis to impact cell proliferation. Mol Cell. 2015 Jan 8;57(1):95-107. doi:10.1016/j.molcel.2014.10.027. PMID:25482511</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Liver and Urine:</br>\nHPLC separation was coupled with negative-mode electrospray ionization (ESI) to a TSQ Vantage Triple Stage Quadrupole Mass Spectrometer (Thermo Scientific) operating in multiple reaction monitoring (MRM) mode. The same procedures were repeated for the urine samples\n</p>\nBlood:</br>\nAfter separation, negative-mode electrospray ionization was performed using a Xevo TQ-S triple quadrupole mass spectrometer (Waters) operating in MRM mode.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data analysis, including peak integration was performed using MAVEN[1][2]. Waters raw data were converted to mzxml format using msconvert in the ProteoWizard Tools[3] prior to analysis by MAVEN. One-way ANOVA was performed in SAS 9.3 (SAS Institute, Inc., Cary, NC).\n</p>\nRef:</br>\n[1] Clasquin MF, Melamud E, Rabinowitz JD. LC-MS data processing with MAVEN: a metabolomic analysis and visualization engine. Curr Protoc Bioinformatics. 2012 Mar;Chapter 14:Unit14.11. doi: 10.1002/0471250953.bi1411s37. PMID:22389014</br>\n[2] Melamud E1, Vastag L, Rabinowitz JD. Metabolomic analysis and visualization engine for LC-MS data. Anal Chem. 2010 Dec 1;82(23):9818-26. doi:10.1021/ac1021166. PMID:21049934</br>\n[3] Kessner D, Chambers M, Burke R, Agus D, Mallick P. ProteoWizard: open source software for rapid proteomics tools development. Bioinformatics. 2008 Nov 1;24(21):2534-6. doi:10.1093/bioinformatics/btn323. PMID:18606607</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolites were identified using selective reaction monitoring and known parent-daughter fragmention in MRM mode.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Xevo TQ-S (Waters)",
+                        "filename": "a_MTBLS225_liver_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS225_serum_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TSQ Vantage (Thermo Scientific)",
+                        "filename": "a_MTBLS225_urine_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

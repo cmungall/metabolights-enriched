@@ -1,0 +1,555 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-11-08T19:04:17.375182",
+        "statusUpdateTime": "2024-11-08T19:04:17.375182",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS10958",
+        "title": "1H-NMR-based metabolomic analysis identifies disrupted glutamate metabolism as distinct serum signature in Parkinson\u2019s disease patients",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2024-08-26",
+        "publicReleaseDate": "2024-11-08",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://purl.obolibrary.org/obo/bto.owl",
+                "version": "",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                "version": "",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                "version": "",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                "version": "",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://purl.obolibrary.org/obo/ms.owl",
+                "version": "",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                "version": "",
+                "description": "MetaboLights Controlled Vocabulary"
+            },
+            {
+                "comments": [],
+                "name": "NCBITaxon",
+                "file": "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+                "version": "",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NEO",
+                "file": "http://data.bioontology.org",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                "version": "",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://purl.obolibrary.org/obo/uo.owl",
+                "version": "",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS10958",
+                "filename": "s_MTBLS10958.txt",
+                "title": "1H-NMR-based metabolomic analysis identifies disrupted glutamate metabolism as distinct serum signature in Parkinson\u2019s disease patients",
+                "description": "Using High-Performance Liquid Chromatography, we recently demonstrated a complex dysregulation of the glutamate NMDA receptor-stimulating amino acids in the brain, CSF and serum of Parkinson\u2019s disease (PD) experimental models and patients. Here, we investigate the serum metabolomic profile in the same PD patients and healthy controls (HC) cohorts through an untargeted 1H-Nuclear Magnetic Resonance approach. We found that serum Glutamate levels discriminated PD and HC groups with high diagnostic accuracy.",
+                "submissionDate": "2024-08-26",
+                "publicReleaseDate": "2024-11-08",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Carmen",
+                        "lastName": "Marino",
+                        "email": "cmarino@unisa.it",
+                        "affiliation": "University of Salerno",
+                        "address": "Via Giovanni Paolo II, Fisciano (SA)",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "first author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "http://purl.obolibrary.org/obo/ms.owl",
+                                    "version": "",
+                                    "description": "Mass Spectrometry Ontology"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002034"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "parkinson",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NEO",
+                            "file": "http://data.bioontology.org",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57#parkinson"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                            "version": "",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "glutamate(1-)",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                            "version": "",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_14321"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "1H-NMR-based metabolomic analysis identifies disrupted glutamate metabolism as distinct serum signature in Parkinson\u2019s disease patients",
+                        "authorList": "Carmen Marino, Alberto Imarisio, Enza Napolitano, Isar Yahyavi, Micol Avenali, Clara Gasparri, Gabriele Buongarzone, Caterina Galandra, Marta Picascia, Manuela Grimaldi, Claudio Pacchetti, Francesco Errico, Mariangela Rondanelli, Anna Maria D\u2019Ursi1 Enza Maria Valente, Alessandro Usiello",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "in preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001100"
+                        },
+                        "description": "<p>Consecutive patients with a clinical diagnosis of PD 27 with disease duration of at least one year and sustained dopaminergic treatment response were consecutively recruited at IRCCS Mondino Foundation, Pavia, Italy between January 2019 and December 2021. HC were selected among patients\u2019 caregivers and were subjected to a complete neurological examination and cognitive screening (Mini-Mental State Examination, MMSE) to exclude parkinsonian sign and cognitive impairment, respectively. This study was approved by the local ethics committee (protocol 20180097520, 09/11/2018) and was in conformity with the Helsinki Declaration. Written informed consent was obtained from all participants. All procedures were performed in compliance with relevant laws and institutional guidelines.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001105"
+                        },
+                        "description": "<p>No extraction was performed. Serum was collected according to Standard Operating Procedure (SOP) to perform NMR-based metabolomic analysis. Whole blood was collected into tubes without anticoagulant and centrifugated at 12000 x g. Before NMR spectroscopy measurements, the blood serum was aliquoted and stored at \u221280\u00b0C in Greiner cryogenic vials.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001110"
+                        },
+                        "description": "<p>NMR samples were prepared by adding 250 \u03bcL of phosphate buffer to 250 \u03bcL of blood sera, including 0.075 M Na2HPO4 x 7H2O, 4% NaN3, and H2O. Trimethylsilyl propionic-2,2,3,3-d 4 acid, sodium salt (TSP 0.1% in D2O) was used as an internal reference for the alignment and quantification of NMR signals. The mixture, homogenized by vortexing for 30 s, was transferred to a 5 mm NMR tube (Bruker NMR tubes) before analysis started.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001111"
+                        },
+                        "description": "<p>NMR experiments were acquired for all samples on a Bruker Ascend 600 MHz spectrometer equipped with a 5 mm triple resonance Z gradient TXI probe (Bruker Co, Rheinstetten, Germany) at 298 K. TopSpin, version 3.2 was used for the spectrometer control and data processing (Bruker Biospin).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001112"
+                        },
+                        "description": "<p>CPMG (Carr-Purcell-Meiboom-Gill) experiments were performed on serum samples and acquired using 20 ppm spectral width, 32 k data points, with f1 pre-saturation and T2 filter using D20 of 300 \u00b5s, D1 of 4 s. A weighted Fourier transform was applied to the time domain data with a line widening of 0.5 Hz followed by a manual step and baseline correction in preparation for targeted profiling analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001106"
+                        },
+                        "description": "<p>Matrix was normalized using Pareto and LOg transformation Resonance assignment performed with Chenomix software 32 on 1D 1 H CPMG NMR spectra obtained from the serum detected the presence of 44 metabolites (Fig. 1a). The quantification of assigned metabolites was carried out using automated Bayesil software 33 .</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001107"
+                        },
+                        "description": "<p>Resonance assignment performed with Chenomix software on 1D 1 H CPMG NMR spectra obtained from the serum detected the presence of 44 metabolites (Fig. 1a). The quantification of assigned metabolites was carried out using automated Bayesil software.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Nuclear Magnetic Resonance (NMR) -",
+                        "filename": "a_MTBLS10958_NMR___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

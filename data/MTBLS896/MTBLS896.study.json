@@ -1,0 +1,629 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-07-10T11:45:59.562000",
+        "statusUpdateTime": "2019-07-10T11:45:59.562000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS896",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2019-03-26",
+        "publicReleaseDate": "2019-07-10",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                "version": "2.106",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "19.02d",
+                "description": "NCI Thesaurus OBO Edition"
+            },
+            {
+                "comments": [],
+                "name": "ExO",
+                "file": "http://purl.obolibrary.org/obo/exo",
+                "version": "2014-09-22",
+                "description": "Exposure ontology"
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "http://edamontology.org",
+                "version": "01-08-2018",
+                "description": "Bioinformatics operations, data types, formats, identifiers and topics"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://www.bioassayontology.org/bao/bao_complete.owl",
+                "version": "2.4",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "IDO",
+                "file": "http://purl.obolibrary.org/obo/ido.owl",
+                "version": "2017-11-03",
+                "description": "Infectious Disease Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OHMI",
+                "file": "http://purl.obolibrary.org/obo/ohmi.owl",
+                "version": "2019-01-24",
+                "description": "OHMI: Ontology of Host-Microbiome Interactions"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                "version": "02-05-2019",
+                "description": "Chemical Entities of Biological Interest"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                "version": "2014-11-20",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EUPATH",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS896",
+                "filename": "s_MTBLS896.txt",
+                "title": "Mapping human microbiome drug metabolism by gut bacteria and their genes",
+                "description": "<p>Individuals vary widely in their drug responses, which can be dangerous and expensive due to treatment delays and adverse effects. Growing evidence implicates the gut microbiome in this variability, however the molecular mechanisms remain largely unknown. We measured the ability of 76 diverse human gut bacteria to metabolize 271 oral drugs and found that many of these drugs are chemically modified by microbes. We combined high-throughput genetics with mass spectrometry to systematically identify drug-metabolizing microbial gene products. These microbiome-encoded enzymes can directly and significantly impact intestinal and systemic drug metabolism in mice, and can explain drug-metabolizing activities of human gut bacteria and communities based on their genomic contents. These causal links between microbiota gene content and metabolic activities connect interpersonal microbiome variability to interpersonal differences in drug metabolism, which has implications for medical therapy and drug development across multiple disease indications.</p><p><br></p><p>Additional data related to this study can also be found by the following links;</p><p>- Raw sequencing data; <a href='https://www.ebi.ac.uk/ena/data/view/PRJEB31790' rel='noopener noreferrer' target='_blank'>ENA (accession no. PRJEB31790)</a></p><p>- Data for Figures; <a href='https://doi.org/10.6084/m9.figshare.8119058' rel='noopener noreferrer' target='_blank'>FigShare</a>&nbsp;</p><p>- Analysis pipeline schemes, scripts and input files for analzing data and generating figures; <a href='https://github.com/mszimmermann/drug-bacteria-gene_mapping' rel='noopener noreferrer' target='_blank'>GitHub</a> and archived <a href='https://doi.org/10.5281/zenodo.2827640' rel='noopener noreferrer' target='_blank'>Zenodo</a></p>",
+                "submissionDate": "2019-03-26",
+                "publicReleaseDate": "2019-07-10",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Michael",
+                        "lastName": "Zimmerman",
+                        "email": "zimmermann@alumni.ethz.ch",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "19.02d",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Pharmaceutical",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                            "version": "02-05-2019",
+                            "description": "Chemical Entities of Biological Interest"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_52217"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Commensal",
+                        "termSource": {
+                            "comments": [],
+                            "name": "IDO",
+                            "file": "http://purl.obolibrary.org/obo/ido.owl",
+                            "version": "2017-11-03",
+                            "description": "Infectious Disease Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/IDO_0000525"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Human Gut Microbiome",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OHMI",
+                            "file": "http://purl.obolibrary.org/obo/ohmi.owl",
+                            "version": "2019-01-24",
+                            "description": "OHMI: Ontology of Host-Microbiome Interactions"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OHMI_0000020"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Drug metabolism",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "19.02d",
+                            "description": "NCI Thesaurus OBO Edition"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C26633"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Liquid Chromatography Mass Spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                            "version": "2014-11-20",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000524"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Mapping human microbiome drug metabolism by gut bacteria and their genes",
+                        "authorList": "Michael Zimmermann, Maria Zimmermann-Kogadeeva, Rebekka Wegmann,  and Andrew L. Goodman",
+                        "pubMedID": "31158845",
+                        "doi": "10.1038/s41586-019-1291-3",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "2.106",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Phylum",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Phylum",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "19.02d",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C45277"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Treatment group",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Treatment group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1.0",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Timepoint",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "19.02d",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C68568"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Catalogue ID",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Catalogue ID",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EDAM",
+                                "file": "http://edamontology.org",
+                                "version": "01-08-2018",
+                                "description": "Bioinformatics operations, data types, formats, identifiers and topics"
+                            },
+                            "termAccession": "http://edamontology.org/data_2596"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "pH",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "pH",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "19.02d",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C45997"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Common name of organism",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Common Name Of Organism",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EUPATH",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/EUPATH_0000512"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "\n\n\n\n\n\n\n\n\n\n\n\n\nWe systematically assessed the\ncapacity of 76 bacterial species/strains, that represent the major phyla of the\nhuman gut microbiome, to chemically modify medical drugs in vitro. To maximize the\nnumber of tested drugs, we employed a previously established combinatorial\npooling strategy [1] to assign 271 drugs across 21 pools (see&nbsp;Table S2 of the study publication, column \u2018DrugPoolNumbers' of the study publication), so that\neach drug is represented in quadruplicate but shares a pool with any other drug\nat most twice. The\n271 drugs were selected to span the chemical space of approved clinical drugs,\nwhich resulted in a selection of diverse clinical indications (excluding antibacterial drugs), molecular weights, and\nLogP values. We incubated each of the gut species/strains with\neach drug pool and three vehicle controls under anaerobic conditions and measured\ndrug concentrations before and after a 12 hr incubation. The analyzed 3840 samples\ncomprise a total of 20,596 bacteria-drug interactions, each measured in\nquadruplicate.&nbsp;<div><br></div><div>No-bacteria controls of the assay were performed in buffered media at pH 4, 5, 6, and 7 to control for acidification of the culture medium.</div><div><br></div><div>Ref:</div><div>[1] Goodman AL, McNulty NP, Zhao Y, Leip D, Mitra RD, Lozupone CA, Knight R, Gordon JI.&nbsp; Identifying Genetic Determinants Needed to Establish a Human Gut Symbiont in Its Habitat. Cell Host &amp; Microbe 2009;6(3):279-289. doi.org/10.1016/j.chom.2009.08.003)</div>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<div>\n\n\n\n\n\n\n\n\n\n\n\n Samples were extracted as\ndescribed previously [1]. In brief, 5 \u00b5l of internal standard solution (a\nmix of caffeine and sulfamethoxazole at 4 \u00b5M in H2O)\nwere added to each sample (20 \u00b5l) in 96-well plates (V-bottomed storage plate,\nThermo Scientific) using a liquid handling robot (epMotion 5075, Eppendorf). Samples\nwere extracted with 100 \u00b5l cold (-20 \u00b0C) organic solvent (acetonitrile:methanol,\n1:1). After incubation for at least 1 h at -20 \u00b0C, samples were\ncentrifuged (3220 rcf, -9 \u00b0C) for 15 min. 100 \u00b5l of\nsupernatants were transferred to a new plate and dried under vacuum at 22 \u00b0C and stored at -80 \u00b0C. For LC-MS\nanalysis the extracts were resuspended in 6 \u00b5l methanol and further\ndiluted with 26 \u00b5l H2O. <br></div><div><br></div><div>Ref:</div><div>[1] Zimmermann M, Zimmermann-Kogadeeva M, Wegmann R, Goodman AL. Separating host and microbiome contributions to drug pharmacokinetics and toxicity. Science 2019:363(6427). DOI: 10.1126/science.aat9931      </div>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChromatographic separation was performed using an Agilent Infinity 1290 with 1290\n Binary Pump (2x), 1290 Infinity Multisampler with multi-wash option and\n 40 \u00b5l injection loop, 1200 Thermostated Column Compartment with 2pos/10\nport Valve and 1260 Infinity Isocratic Pump (for online mass calibration). A C18 Kinetex Evo column (Phenomenex, 100 mm x 2.1 mm, 1.7 mm particle size)\nwas employed using mobile phase A: H2O, 0.1% formic acid and B: methanol, 0.1%\nformic acid at 45 \u00b0C. 5 \u00b5l of sample were injected at 100% A and 0.4 ml/min flow\nfollowed by a linear gradient to 95% B over 5.5 min and 0.4 ml/min. ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "\n\n\n\n\n\n\n\n\n\n\n\n An Agilent\n6550 qTOF was operated in positive scanning mode (50 - 1000 m/z) and the following\nsource parameters: VCap: 3500 V, nozzle voltage: 2000 V, gas temp: 225 \u00b0C;\ndrying gas 13 l/min; nebulizer: 20 psig; sheath gas temp 225 \u00b0C; sheath gas flow\n12 l/min. Online mass calibration was performed using a second ionization\nsource and a constant flow (5 \u00b5l/min) of reference solution (121.0509 and\n922.0098 m/z). ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe\nMassHunter Quantitative Analysis Software (Agilent, version 7.0) was used to transform raw data and for\npeak integration based on retention time and accurate mass measurement of chemical\nstandards. The MassHunter Qualitative Analysis\nSoftware (Agilent, version 7.0) and Mass Profiler Professional (Agilent,\nversion 13.0) with standard parameters were used for untargeted feature\nextraction and peak alignment, respectively.\n\n\n\n",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "\n\n\n\n\n\n\n\n\n\n\n\n\nChemical standards of drugs were used for their identification by retention time and accurate mass. Identification of candidate drug metabolites was performed as follows:\u00a0 For each drug and each bacterial strain, intensities of all compounds detected in the drug-containing pools (n=4) versus all other pools (n=20) were compared by calculating fold change and statistical significance with two-sided t-test (ttest2 function in MatLab). All p-values were FDR-corrected for multiple hypotheses testing with Benjamini-Hochberg procedure (mafdr function in MatLab with \u2018BHFDR\u2019 parameter). The FDR-corrected p\u2011value threshold for candidate drug metabolites was set to 10-6 based on the distribution of p\u2011values of parent drugs in their corresponding four pools versus all other pools. Candidate metabolites were filtered according to the following exclusion criteria: i) metabolite intensity in the drug pools at t=0 is > 10^4 ion counts, and log2(fold change to other pools at t=0)\u00a0<\u00a01; or ii) metabolite intensity in the drug pools at t=12 is > 10^4 ion counts, and log2(fold change to other pools at t=12) < 1; or iii) the difference of mass defects between the drug and the metabolite is > 0.2 amu; or iv) retention time difference between the drug and the metabolite is < 0.1 min; or v) metabolite mass is similar to one of the metabolites filtered at step iv) (mass difference\u00a0<\u00a00.002\u00a0amu) and retention time is similar to an unfiltered metabolite of the same drug (difference < 0.1\u00a0min). Additionally, metabolites were filtered based on whether the parent drug was metabolized, whether the metabolite was identified for a single drug or multiple drugs, and whether the metabolite was increasing in at least one strain at 12 h compared to 0 h (log2(fold change) > 1 and FDR < 0.05). Mass difference between the parent drug and candidate metabolites were calculated for each drug-metabolite pair and smoothened with 0.005 Da window.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS896_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

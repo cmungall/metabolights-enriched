@@ -1,0 +1,972 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-08-10T00:00:00",
+        "statusUpdateTime": "2020-08-10T17:03:59.244350",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1875",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-06-29",
+        "publicReleaseDate": "2020-08-10",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "ERO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "PW",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1875",
+                "filename": "s_MTBLS1875.txt",
+                "title": "ABHD11/ROLIP maintains the TCA cycle by preserving functional lipoylation of the 2-oxoglutarate dehydrogenase complex",
+                "description": "2-oxoglutarate (2-OG) relates mitochondrial metabolism to cell function: conversion of 2-OG to succinyl-CoA by the 2-OG dehydrogenase complex (OGDHc) is rate-limiting for the Tricarboxylic Acid (TCA) cycle, but 2-OG is also required for oxygen sensitive enzymes (2-OG dependent dioxygenases) that have diverse biological roles ranging from Hypoxia Inducible Factor (HIF) activation to DNA hydroxymethylation. Here, using the 2-OG-mediated stability of HIFs to screen for genes involved in HIF metabolic activation, we identify ABHD11 (termed regulator of lipoylation, ROLIP) as a mitochondrial hydrolase required for OGDHc function. ROLIP loss decreases OGDHc activity, leading to accumulation of 2-OG and formation of L-2-hydroxyglutarate, which drives HIF activation and decreases DNA hydroxymethylation. Rather than altering constituent components of the OGDHc, ROLIP maintains the cyclical reduction and oxidation of the lipoylated OGDHc by preventing the formation of lipoyl adducts, highlighting ROLIP as a fundamental regulator of lipoylation, the TCA cycle, and 2-OG-dependent signalling.",
+                "submissionDate": "2020-06-29",
+                "publicReleaseDate": "2020-08-10",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Peter",
+                        "lastName": "Bailey",
+                        "email": "psjb3@cam.ac.uk",
+                        "affiliation": "Cambridge Institute for Medical Research and 2Cambridge Institute of Therapeutic Immunology & Infectious Disease",
+                        "address": "Cambridge Institute for Medical Research, Department of Medicine, University of Cambridge, Cambridge, CB2 0XY, United Kingdom.",
+                        "fax": "",
+                        "midInitials": "SJ",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "EFO",
+                                    "file": "http://data.bioontology.org/ontologies/EFO",
+                                    "version": "132",
+                                    "description": "Experimental Factor Ontology"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51826"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Brian",
+                        "lastName": "Ortmann",
+                        "email": "bmo25@cam.ac.uk",
+                        "affiliation": "Cambridge Institute for Medical Research and Cambridge Institute of Therapeutic Immunology & Infectious Disease",
+                        "address": "Cambridge Institute for Medical Research, Department of Medicine, University of Cambridge, Cambridge, CB2 0XY, United Kingdom",
+                        "fax": "",
+                        "midInitials": "M",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jack",
+                        "lastName": "Houghton",
+                        "email": "jwh65@cam.ac.uk",
+                        "affiliation": "Cambridge Institute for Medical Research",
+                        "address": "Cambridge Institute for Medical Research, Department of Medicine, University of Cambridge, Cambridge, CB2 0XY, United Kingdom.",
+                        "fax": "",
+                        "midInitials": "W",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Anthony",
+                        "lastName": "Martinelli",
+                        "email": "awm37@cam.ac.uk",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "W",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Burr",
+                        "lastName": "Burr",
+                        "email": "spb54@cam.ac.uk",
+                        "affiliation": "Cambridge Institute for Medical Research",
+                        "address": "Cambridge Institute for Medical Research, Department of Medicine, University of Cambridge, Cambridge, CB2 0XY, United Kingdom.",
+                        "fax": "",
+                        "midInitials": "P",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Robin",
+                        "lastName": "Antrobus",
+                        "email": "pra29@cam.ac.uk",
+                        "affiliation": "Cambridge Institute for Medical Research",
+                        "address": "Cambridge Institute for Medical Research, Department of Medicine, University of Cambridge, Cambridge, CB2 0XY, United Kingdom",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Christian",
+                        "lastName": "Frezza",
+                        "email": "CF366@MRC-CU.cam.ac.uk",
+                        "affiliation": "Hutchinson MRC Cancer Unit",
+                        "address": "Hutchinson MRC Cancer Unit, University of Cambridge, Cambridge, CB2 0XZ, United Kingdom",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ana",
+                        "lastName": "Costa",
+                        "email": "henriqu@cshl.edu",
+                        "affiliation": "Hutchinson MRC Cancer Unit",
+                        "address": "Hutchinson MRC Cancer Unit, University of Cambridge, Cambridge, CB2 0XZ, United Kingdom",
+                        "fax": "",
+                        "midInitials": "SH",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "James",
+                        "lastName": "Nathan",
+                        "email": "jan33@cam.ac.uk",
+                        "affiliation": "Cambridge Institute for Medical Research and Cambridge Institute of Therapeutic Immunology & Infectious Disease",
+                        "address": "Cambridge Institute for Medical Research, Department of Medicine, University of Cambridge, Cambridge, CB2 0XY, United Kingdom.",
+                        "fax": "",
+                        "midInitials": "A",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Contract Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51817"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "stable isotope mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ERO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ERO_0001690"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lipoic acid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lipid peroxidation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "alpha-ketoglutarate",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "hypoxia inducible factor",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "alpha-ketoglutarate dehydrogenase complex",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ABHD11",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "2-oxoglutarate",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "2-oxoglutarate dehydrogenase complex",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lipoylation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "13C5-glutamine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "13C6-glucose",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "CRISPR RNA",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_134528"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "isotopic labelling",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001677"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "ABHD11 regulates 2-oxoglutarate abundance by protecting mitochondrial lipoylated proteins from lipid peroxidation damage",
+                        "authorList": "Bailey Peter S J, Ortmann Brian M, Houghton Jack W, Costa Ana S H, Antrobus Robin, Frezza Christian, Nathan James A",
+                        "pubMedID": "",
+                        "doi": "10.1038/s41467-020-17862-6",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "experimental group",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1.0",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Isotopic labelling",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "isotopic labelling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001677"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>HeLa cells were seeded in 5 replicates in 6-well plates [CS1]&nbsp;27 hr prior to metabolite extraction. Twentyfour hours prior to extraction, media was changed to either DMEM without L-glutamine (Sigma D6546) supplemented with 10% FCS and 4 mM [U-13C5]L\u2011glutamine (Cambridge Isotopes CLM-1822), or DMEM without glucose (Gibco 11966-025) supplemented with 10% FCS, 1&nbsp;mM sodium pyruvate and 25&nbsp;mM [U-13C6]D\u2011glucose (Cambridge Isotopes CLM-1396).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were extracted on dry ice, after washing with ice cold PBS, with 1ml per 106 cells of extraction buffer, containing 50% methanol, 30% acetonitrile, 20% water and 100 ng/ml HEPES. To quantify the two enantiomers of hydroxyglutarate, a subset was derivatised using 50 mg/ml diacetyl-L-tartaric anhydride in 20% acetic acid/80% acetonitrile, as described previously [1].</p><p><br></p><p>References:</p><p>[1] Burr SP,&nbsp;Costa&nbsp;ASH,&nbsp;Grice&nbsp;GL,&nbsp;Timms&nbsp;RT,&nbsp;Lobb&nbsp;IT,&nbsp;Freisinger P,&nbsp;Dodd RB,&nbsp;Dougan G,&nbsp;Lehner PJ,&nbsp;Frezza C,&nbsp;Nathan JA. Mitochondrial Protein Lipoylation and the 2-Oxoglutarate Dehydrogenase Complex Controls HIF1alpha Stability in Aerobic Conditions. Cell metabolism 2016; 24, 740-752, doi:10.1016/j.cmet.2016.09.015</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Dionex UltiMate 3000 Rapid Separation LC system (Thermo) liquid chromatography system used in the analysis of sample extracts was fitted with a SeQuant Zic-pHILIC (150 mm \u00d7 2.1 mm, 5 \u00b5m) with guard column (20 mm \u00d7 2.1 mm, 5 \u00b5m) from Merck (Darmstadt, Germany). The mobile phase was composed of 20 mM ammonium carbonate and 0.1% ammonium hydroxide in water (solvent A), and acetonitrile (solvent B). The flow rate was set at 180 \u00b5l/min with the following gradient: 0 min 70% B, 1 min 70% B, 16 min 38% B, 16.5 min 70% B, hold at 70% B for 8.5 min.</p><p><br></p><p><strong>Analysis of 2-HG enantiomers</strong></p><p>Derivatised sample\t(5 \u00b5l) was\tinjected\tonto\tan\tAcquity\tUHPLC\tHSS\tT3\tcolumn\t(100\tx 2.1mm,\t1.8\u00b5m\tparticle\tsize).\tA\tDionex\tUltiMate\t3000\tRapid\tSeparation\tLC was\tcoupled\tto\ta\tQ Exactive\tOrbitrap\tmass\tspectrometer,\tand\ta\tgradient elution\tof\t1.5 mM\tammonium\tformate\tin water\t(mobile\tphase\tA,\tpH\t3.6 adjusted\twith\tformic\tacid)\tand\t0.1%\tformic\tacid\tin\tacetonitrile (mobile phase\tB)\twas\tused\tto\tseparate\tthe\tderivatised\tL- and\tD-2HG\tenantiomers.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Q Exactive Orbitrap mass spectrometer was operated in full MS and polarity switching mode. Five independent cell cultures were measured for each condition and samples were randomised in order to avoid bias in sample analyses due to machine drift. XCalibur Qual Browser and XCalibur Quan Browser software (Thermo Scientific), and used for quantification. Experimental samples were randomised in order to avoid bias in sample analyses due to machine drift.</p><p><br></p><p><strong>Analysis of 2-HG enantiomers</strong></p><p>The target analytes were\tmonitored by\tin parallel-reaction\tmonitoring (PRM) in negative electrospray ionization mode. The transition (precursor ion \u2192 product ion) of m/z 363 \u2192 147 for 14 derivatised D- and L-2-HG was monitored and the accurate mass of 147.03 was extracted using XCalibur Qual\tBrowser\tand XCalibur\tQuan\tBrowser software (Thermo\tScientific),\tand used\tfor\tquantification.\tExperimental samples\twere\trandomised\tin\torder to\tavoid\tbias in\tsample\tanalyses\tdue\tto\tmachine\tdrift.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Quantification of 2-HG performed by interpolation of the corresponding standard curve obtained from serial dilutions of DL-alpha-hydroxyglutaric acid disodium salt (Sigma Aldrich)\trunning\twith\tthe\tsame\tbatch\tof\tsamples.\t</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The acquired spectra were analysed using XCalibur Qual Browser and XCalibur Quan Browser software (Thermo Scientific) by referencing to an internal\tlibrary\tof\tcompounds.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Derivatization",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Derivatization",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Derivatisation of 2-HG metabolite extracts with diacetyl-L-tartaric anhydride (DATAN) was performed as previously described [1][2] with some modifications. Briefly, for each sample, 200\u03bcl metabolite extract was evaporated to dryness at ambient temperature in a Savant SpeedVac Concentrator (Thermo Scientific). The residue was resuspended in 50 \u03bcl freshly-mixed 80% acetonitrile/20% acetic acid plus 50 mg/ml DATAN (Acros Organics) and heated at 75 \u00b0C for 30 min. Samples were cooled to room temperature and centrifuged before addition of 50 \u03bcl 80% acetonitrile/20% acetic acid. 5 \u03bcl of derivatised sample was injected onto am Acquity UHPLC HSS T3 column (100 x 2.1mm, 1.8 \u00b5m particle size). A Dionex UltiMate 3000 Rapid Separation LC was coupled to a Q Exactive Orbitrap mass spectrometer, and a gradient elution of 1.5 mM ammonium formate in water (mobile phase A, pH 3.6 adjusted with formic acid) and 0.1% formic acid in acetonitrile (mobile phase B) was used to separate the derivatised L- and D-2HG enantiomers.</p><p><br></p><p>References:</p><p>[1] Oldham WM, Clish CB, Yang Y. &amp; Loscalzo J. Hypoxia-Mediated Increases in L-2-hydroxyglutarate Coordinate the Metabolic response to Reductive Stress. Cell metabolism. 2015; 22, 291-303, doi:10.1016/j.cmet.2015.06.021</p><p>[2] Struys EA, Jansen EE, Verhoeven NM, Jakobs C. Measurement of urinary D- and L-2-hydroxyglutarate enantiomers by stable-isotope-dilution liquid chromatography-tandem mass spectrometry after derivatization with diacetyl-L-tartaric anhydride.&nbsp;<em>Clin Chem</em>. 2004;50(8):1391-1395. doi:10.1373/clinchem.2004.033399</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS1875_LC-MS_alternating_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS1875_LC-MS_alternating_hilic_metabolite_profiling-1.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS1875_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

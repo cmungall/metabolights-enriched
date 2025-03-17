@@ -1,0 +1,578 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-08-23T13:57:39.614000",
+        "statusUpdateTime": "2019-08-23T13:57:39.614000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS277",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-11-13",
+        "publicReleaseDate": "2016-12-05",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "ENM",
+                "file": "http://data.bioontology.org/ontologies/ENM",
+                "version": "7",
+                "description": "eNanoMapper"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS277",
+                "filename": "s_MTBLS277.txt",
+                "title": "Multi-omics toxicity profiling of engineered nanomaterials",
+                "description": "<p>This study aims to implement methods for toxicological profiling of engineered nanomaterials using toxicogenomics, proteomics, and metabolomics along with computational analyses. For all three omics layers the human cell lines A549 (lung epithelial cells) and THP1 (monocytes) were separately exposed to the nanomaterials TiO2 NM104, MWNCT NM401, and Ag NM300k. Proteomics and metabolomics samples have been performed as biological triplicates and were taken after 0, 6, 12, 24, and 48 hours. To assess ecotoxic effects C. elegans worms were grown in soil treated with NM300k. Ecotox samples were taken only at 0 and 24 hours. Integrating all three omics layers will enable the identification of (novel) ENM specific modes of action (MoA).</p><p><br></p><p><strong>Data availability:</strong></p><p>Proteomic data associated with this study are available in the PRIDE repository: accession number <a href='https://www.ebi.ac.uk/pride/archive/projects/PXD002401' rel='noopener noreferrer' target='_blank'>PXD002401</a>.</p>",
+                "submissionDate": "2015-11-13",
+                "publicReleaseDate": "2016-12-05",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Christina",
+                        "lastName": "Ranninger",
+                        "email": "christina.ranninger@sbg.ac.at",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Marc",
+                        "lastName": "Rurik",
+                        "email": "rurik@informatik.uni-tuebingen.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Oliver",
+                        "lastName": "Kohlbacher",
+                        "email": "oliver.kohlbacher@uni-tuebingen.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Christian",
+                        "lastName": "Huber",
+                        "email": "c.huber@sbg.ac.at",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "G.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "nanomaterial",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ENM",
+                            "file": "http://data.bioontology.org/ontologies/ENM",
+                            "version": "7",
+                            "description": "eNanoMapper"
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/npo#NPO_199"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "toxicity profiling",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "A-549 cell",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BTO",
+                            "file": "http://data.bioontology.org/ontologies/BTO",
+                            "version": "29",
+                            "description": "BRENDA Tissue and Enzyme Source Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/BTO_0000018"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "THP-1 cell",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BTO",
+                            "file": "http://data.bioontology.org/ontologies/BTO",
+                            "version": "29",
+                            "description": "BRENDA Tissue and Enzyme Source Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/BTO_0001370"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lung",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BTO",
+                            "file": "http://data.bioontology.org/ontologies/BTO",
+                            "version": "29",
+                            "description": "BRENDA Tissue and Enzyme Source Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/BTO_0000763"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Time point",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Nano material",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "nanomaterial",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Dispersion of nanomaterials (NM104, NM300K and NM401) have been prepared by dilution in water containing 0.05% of BSA and bath sonication[1]. PMA-differentiated, macrophage-like THP-1 and A549 cells have been exposed to a concentration of 25 \u00b5g/ml of nanomaterials at different time points, at 37 \u00b0C in RPMI-1640 culture medium (Sigma) supplemented with 10% FBS, 2 mM glutamine, 100 U/ml penicillin, 100 \u03bcg/ml streptomycin and 5 ml of 100 mM sodium pyruvate (Gibco). THP-1 cells have been cultured with 50 ng/ml of PMA during 72 h for their differentiation prior exposure to the nanomaterials. 3 biological replicates have been prepared for each sample.\n</p>\nRef:</br>\n[1] Farcal L, Torres And\u00f3n F, Di Cristo L, Rotoli BM, Bussolati O, Bergamaschi E, et al. (2015) Comprehensive In Vitro Toxicity Testing of a Panel of Representative Oxide Nanomaterials: First Steps towards an Intelligent Testing Strategy. PLoS ONE 10(5): e0127174. doi:10.1371/journal.pone.0127174</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The supernatant of the cultivated and pulped cells was used for MS metabolomics and it was stored at -80 \u00b0C until analysis. Prior to analysis, the samples were thawn, diluted 1:5 with MilliQ water containing Nitrotyrosine (10 \u00b5M) as internal standard. Additionally, a pool sample was prepared by blending 20 \u00b5l of each available sample followed by 1:5 dilution with MilliQ water also containing 10 \u00b5M Nitrotyrosine (Sigma\u2013Aldrich). This pool sample was used as a quality control (QC).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "An Accela II HPLC system (Thermo Fisher, Bremen, Germany) was hyphenated to an ExactiveTM Orbitrap mass spectrometer (Thermo Fisher Scientific, Bremen, Germany) equipped with a heated-electrospray ion source operating in the positive and negative ion mode. RPLC-MS measurements were performed with a Hypersil Gold aQ column (Thermo Scientific, MA, USA) 100 mm x 2 mm i.d., 1.9 \u00b5m particle size. As mobile phases 0.1% formic acid (Sigma\u2013Aldrich) in H2O (A) and 0.1% formic acid in acetonitrile (B) were used. The flow rate was 300 \u00b5l/min and gradient elution was carried out as follows: 100% A for 1.5 min followed by a linear gradient to 100% B in 6.5 min and holding for 2 min. In the end a re-equilibration step was performed for 2 min at 0% B. The total run time was 13 min.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The MS parameters were tuned for each method and polarity separately with selected metabolites according to the manufacturer\u2019s recommendations. For each polarity measurements were carried out in 2 mass ranges, namely m/z 50-250 and m/z 250-1000, which were performed in alternating fashion during each run. The injection order was randomized and a pool sample was measured as every ninth injection.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The first step of data processing was the peak detection followed by the alignment of signals; this was done in SIEVE (ThermoFisher Scientific, Bremen, Germany) as well as in OpenMS (open source software). As a normalization method TIC normalization was chosen. The subsequent data clean-up was performed in R (open source software). ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Metabolite identification information was not submitted.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS277_marina_neg_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS277_marina_pos_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

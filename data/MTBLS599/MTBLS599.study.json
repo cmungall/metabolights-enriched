@@ -1,0 +1,510 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-11-15T15:59:59.526000",
+        "statusUpdateTime": "2018-11-15T15:59:59.526000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS599",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-01-18",
+        "publicReleaseDate": "2020-01-14",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "PORO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "sep",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS599",
+                "filename": "s_MTBLS599.txt",
+                "title": "Marine toxins spectral database for dereplication purpose",
+                "description": "<p>We present an open access marine toxins spectral database for dereplication purpose using the new tool GNPS MASST.</p><p>This interface enables you to search a single MS/MS spectrum against public GNPS spectral libraries including MetaboLights and all public MS/MS datasets.</p><p>The database will be incremented with toxins MS/MS data throughout the project Alertox-Net (https://www.alertox-net.eu/).</p>",
+                "submissionDate": "2018-01-18",
+                "publicReleaseDate": "2020-01-14",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Kevin",
+                        "lastName": "Calabro",
+                        "email": "kevin.calabro@nuigalway.ie",
+                        "affiliation": "Marine Biodiscovery Lab, National University of Ireland Galway (NUIG)",
+                        "address": "University Road",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+33659051198",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Postdoctoral scholar",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19925"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Olivier",
+                        "lastName": "Thomas",
+                        "email": "olivier.thomas@nuigalway.ie",
+                        "affiliation": "Marine Biodiscovery Lab, National University of Ireland Galway (NUIG)",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "P",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Professor",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "sep",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/sep_00032"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Marine toxins",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OMIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OMIT_0009456"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000062"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Fragmentation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "PORO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/PORO_0000324"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "MASST: A Web-based Basic Mass Spectrometry Search Tool for Molecules to Search Public Data",
+                        "authorList": "Wang Mingxun, Jarmusch Alan K., Vargas Fernando, Aksenov Alexander A., Gauglitz Julia M., Weldon Kelly, Petras Daniel, Silva Ricardo da, Quinn Robby, Melnik Alexey V., van der Hooft Justin J.J., Caraballo Rodr\u00edguez Andr\u00e9s Mauricio, Nothias Louis Felix, Aceves Christine M., Panitchpakdi Morgan, Brown Elizabeth, Di Ottavio Francesca, Sikora Nicole, Elijah Emmanuel O., Labarta-Bajo Lara, Gentry Emily C., Shalapour Shabnam, Kyle Kathleen E., Puckett Sara P., Watrous Jeramie D., Carpenter Carolina S., Bouslimani Amina, Ernst Madeleine, Swafford Austin D., Z\u00fa\u00f1iga Elina I., Balunas Marcy J., Klassen Jonathan L., Loomba Rohit, Knight Rob, Bandeira Nuno, Dorrestein Pieter C.",
+                        "pubMedID": "",
+                        "doi": "10.1101/591016",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Preprint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1.0",
+                                "description": "Metabolights Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000004"
+                        }
+                    }
+                ],
+                "factors": [],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Toxin standards received from the Marine Institute (Ireland), Universidad de Santiago de Compostela (Spain) and CIFGA (Spain)</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>                                                   </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chromatography was carried out on Agilent 1290 Infinity II UHPLC using a Waters Acquity UPLC BEH C18 1.7 \u00b5m column (2.1 x 75 mm). Mobile phases consisting of (A) H2O + 0.1% formic acid + 2mM ammonium formate and (B) 95:5 ACN-water + 0.1% formic acid + 2mM ammonium formate. </p><p>Flow was 0.5 ml/min. Gradient was as followed: 0-1 min 30%B, 6 min 90%B maintained for 2 min and go back at 8.5 min to the original value 30%B and maintained for 1 min prior next injection.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>MS/MS data were recorded on an Agilent 6540 q-ToF mass spectrometer with a dual AJS ESI as Ion Source.</p><p>Gas temp 300\u00b0C, Gas Flow 11 l/min, Nebulizer 35 psig, Sheath Gas Temp 300\u00b0C, Sheath Gas Flow 8 l/min. Vcap 3500, Nozzle Voltage 1000 V, Fragmentor 175, Skimmer 65. Precursor Selection : Max Precursors per cycle 5, Threshold (Abs) 5000, Target 25000 counts/spectrum, Isotop model common, Active Exclusion enabled Yes, Active exclusion excluded after 4 spectra and released after 0.2 min, sort precursors by abundance only, charge states selected 1/2. AUTO-MS/MS. MS range 60-1700, MS scan rate 3.0 spectra/sec, MS/MS scan rate 3.0 spectra/sec, isolation width Narrow (1.3 amu).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data converted using MS-Convert                </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Toxins have been identified based on their MS/MS fragmentation pattern and have been certified by the Alertox-Net consortium.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS599_LC-MS_positive_reverse-phase_metabolite_profiling-2.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

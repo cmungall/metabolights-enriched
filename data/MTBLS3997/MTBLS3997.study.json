@@ -1,0 +1,563 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-09-03T00:00:00",
+        "statusUpdateTime": "2024-09-03T04:20:08.292053",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS3997",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-12-17",
+        "publicReleaseDate": "2024-09-03",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "GO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS3997",
+                "filename": "s_MTBLS3997.txt",
+                "title": "Cell type-specific proteomics uncovers a RAF15-SnRK2.6/OST1 kinase cascade in guard cells",
+                "description": "<p>Multicellular organisms such as plants contain various cell types with specialized functions. Analyzing the characteristics of each cell type reveals specific cell functions and enhances our understanding of organization and function at the organismal level. Guard cells (GCs) are specialized epidermal cells that regulate the movement of the stomata and gaseous exchange, and provide a model genetic system for analyzing cell fate, signaling and function. Several proteomics analyses of GC are available, but these are limited in depth. Here we used enzymatic isolation and flow cytometry to enrich GC and mesophyll cell protoplasts and perform in-depth proteomics in these two major cell types in Arabidopsis leaves. We identified approximately 3000 proteins not previously found in the GC proteome and more than 600 proteins that may be specific to GC. The depth of our proteomics enabled us to uncover a guard cell-specific kinase cascade whereby Raf15 and Snf1-related kinase2.6 (SnRK2.6)/OST1(open stomata 1) mediate abscisic acid (ABA)-induced stomatal closure. RAF15 directly phosphorylated SnRK2.6/OST1 at the conserved Ser175 residue in its activation loop and was sufficient to reactivate the inactive form of SnRK2.6/OST1. ABA-triggered SnRK2.6/OST1 activation and stomatal closure was impaired in raf15 mutants. We also showed enrichment of enzymes and flavone metabolism in GC, and consistent, dramatic accumulation of flavone metabolites. Our study answers the long-standing question of how ABA activates SnRK2.6/OST1 in GCs and represents a resource potentially providing further insights into the molecular basis of GC and mesophyll cell development, metabolism, structure and function.</p>",
+                "submissionDate": "2021-12-17",
+                "publicReleaseDate": "2024-09-03",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Pengcheng",
+                        "lastName": "Wang",
+                        "email": "pcwang@psc.ac.cn",
+                        "affiliation": "Shanghai Center for Plant Stress Biology, CAS Center for Excellence in Molecular Plant Sciences, Chinese Academy of Sciences, Shanghai 200032, China",
+                        "address": "300 Fenglin Road, Shanghai, China",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+86 21 57078239",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Correspondence",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C97019"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Proteomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C20085"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Single-Cell Analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000170"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "(+)-abscisic acid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_2365"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "phosphorylation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "GO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/GO_0016310"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Cell type-specific proteomics uncovers a RAF15-SnRK2.6/OST1 kinase cascade in guard cells.",
+                        "authorList": "Wang H, Wang Y, Sang T, Lin Z, Li R, Ren W, Shen X, Zhao B, Wang X, Zhang X, Zhou S, Dai S, Hu H, Song CP, Wang P.",
+                        "pubMedID": "37226855",
+                        "doi": "10.1111/jipb.13536",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Cell Type",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "cell type",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000324"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Growth conditions and plant materials</strong></p><p>The pGC1::GFP<strong>[1]</strong> and DR5rev::GFP<strong>[2]</strong> seeds were sterilized in 75% ethanol and germinated on half-strength Murashige and Skoog (MS) medium plates with 0.75 agar. The root tips of DR5rev::GFP were harvested at the indicated time. After 7 days growth on the plates, the pGC1::GFP seedlings were transplanted to soil and rosette leaves were harvested at indicated time for protoplast isolation.</p><p><br></p><p><strong>Preparation of Arabidopsis GCP and MCP</strong></p><p>The rosette leaves of 3 wk old seedlings of pGC1::GFP grown in the soil are blended for 10 s in 100 mL ice cold water (5 times). The blended mixture is filtered through a 100 \u00b5m mesh (Falcon) to remove the broken mesophyll and epidermal cells. The peels then were transferred into 20 mL enzyme solution containing 1.35% cellulose R10 (Yakult Pharmaceutical Industry), 0.268% macrozyme R-10 (Yakult Pharmaceutical Industry), 0.1% polyvinyl pyrrolidone 40,000 (PVP-40), 0.25% bovine serum albumin (BSA), and 0.5 mM L-ascorbic acid, 2.75 mM 2-[N-morpholino] ethanesulfonic acid hydrate-Tris (MES), pH 5.5, 0.275 mM CaCl2, 0.275 mM MgCl2, 5.5 \u00b5M KH2PO4 and 0.275 M sorbitol at 27 \u00b0C, 140 rpm shaking. After 1 h digestion, the peels were filtered with 100 \u00b5m mesh and placed into 10 mL enzyme solution II containing 1.3% cellulose Onozuka RS (Yakult Pharmaceutical Industry), 0.0075% Pectolyase Y-23 (Yakult Pharmaceutical Industry), 0.25% BSA, and 0.5 mM L-ascorbic acid 5 mM MES, pH 5.5, 0.5 mM CaCl2, 0.5 mM MgCl2, 10 \u00b5M KH2PO4 and 0.5 M sorbitol at 20 \u00b0C, 60 rpm for 2 h. The digestion mixture was filtered with 40 \u00b5m mesh (Falcon) and the GCP were collected by centrifuge at 200 x g for 5 min. The protoplasts were resuspended in the solution II without enzyme and sorted with the cytometry (ARIA III Cell sorter, BD bioscience) with the GFP signal and single-cell pattern to isolate the high purity (~100%) fluorescent protoplasts. The indicated number of cells were collected by centrifuge and used for protein extraction for LC-MS/MS.</p><p><br></p><p>For isolating of Arabidopsis MCP, leaf strips were excised from the middle parts of young rosette leaves, dipped in enzyme solution containing 1.35% cellulase R10 (Yakult Pharmaceutical Industry) and 0.268% macerozyme R10 (Yakult Pharmaceutical Industry) and incubated at room temperature in the dark. The protoplast solution was diluted with an equal volume of W5 solution (2 mM MES, pH 5.7, 154 mM NaCl, 125 mM CaCl2 and 5 mM KCl) and \ufb01ltered through a nylon mesh. The MCP are resuspended with 10 mL W5 buffer and sorted with the cytometry (ARIA III Cell sorter, BD bioscience), use the autofluorescence of chloroplast to isolate the high purity (~100%) fluorescent protoplasts. The indicated number of cells were collected by centrifuge and used for protein extraction for LC-MS/MS.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Yang Y, Costa A, Leonhardt N, Siegel RS, Schroeder JI. Isolation of a strong Arabidopsis guard cell promoter and its potential as a research tool. Plant Methods. 2008 Feb 19;4:6. doi:10.1186/1746-4811-4-6. PMID:18284694.</p><p><strong>[2]</strong> Benkov\u00e1 E, Michniewicz M, Sauer M, Teichmann T, Seifertov\u00e1 D, J\u00fcrgens G, Friml J. Local, efflux-dependent auxin gradients as a common module for plant organ formation. Cell. 2003 Nov 26;115(5):591-602. doi:10.1016/s0092-8674(03)00924-3. PMID:14651850.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Around 100,000 GCP and 100,000 MCP were suspended in 500 \u03bcL of extraction solution (90% methanol). After ultrasonic homogenization for 2 min and vortexing for 10 min, the samples were kept in dark for 16 h, dried under vacuum, resuspended in 50 \u03bcL 40% methanol in water and centrifuged at 15,000 x g for 30 min, 4 \u00b0C. The clear supernatants were loaded into injection vials and ready for UHPLC-MS/MS. </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For UHPLC-MS/MS, the vanquish-flex UHPLC system was coupled to Q Exactive Plus (Thermo Fisher Scientific) for metabolite separation and detection. A Hypersil GOLD column (2.1 mm x 100 mm,1.9 \u03bcm; Thermo Fisher Scientific) was employed for compound separation at 30 \u00b0C and 1 \u03bcL of sample was loaded. The mobile phase A was HPLC grade H2O with 0.1% (v/v) formic acid (Merck, Germany) and phase B was HPLC grade acetonitrile (Merck, Germany). The gradient elution conditions were set as follows: from 0.0 to 2.0 min, the mobile phase B increases to 10%; from 2.0 to 10.0 min, the mobile phase B increases to 50%; from 10.0 to 10.1 min, the mobile phase B increases to 80%; from 10.1 to 13.0 min, the mobile phase B was constant at 80%; from 13.0 to 14.0 min, the mobile phase B increases to 95%; from 14.0 to 18.0 min, the mobile phase B decreases to 10%. The flow rate was 0.3 mL/min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The MS data acquisition was performed by Q Exactive Plus system. In full scan MS/ddMS2 mode, the resolutions of full scan MS and ddMS2 were set at 70,000 and 17,500, respectively. The automatic gain control (AGC) target and maximum injection time in full scan MS settings were 1e^6 and 100 ms, while their values were 2e^5 and 50 ms in dd MS2 settings. The TopN (N, the number of top most abundant ions for fragmentation) was set to 8, and collision energy was set to 20, 40 and 60%. A heated ESI source was used at positive and negative ion modes. The spray voltage was set as 3.5 kV for positive mode and 3.2 kV for negative mode. The capillary temperature and aux gas heater temperature were set as 320 and 350 \u00b0C, respectively. The sheath gas and aux gas flow rate were set at 35 and 15 arb, respectively. The S-lens RF level was 50.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Following LC-MS analysis, raw data were collected and processed using <strong>Compound Discoverer</strong> 3.2 (Thermo Fisher Scientific) with the metabolite databases including <strong>mzCloud</strong>, <strong>mzVault</strong>, <strong>Masslist</strong> and <strong>Chemspider</strong>.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Following LC-MS analysis, raw data were collected and processed using <strong>Compound Discoverer</strong> 3.2 (Thermo Fisher Scientific) with the metabolite databases including <strong>mzCloud</strong>, <strong>mzVault</strong>, <strong>Masslist</strong> and <strong>Chemspider</strong>. Principal component analysis (PCA), heatmap analysis of metabolites and volcano plots were performed using <strong>R</strong> (version 4.0) software.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS3997_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS3997_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

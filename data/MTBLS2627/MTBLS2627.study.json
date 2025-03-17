@@ -1,0 +1,586 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-04-12T00:00:00",
+        "statusUpdateTime": "2023-04-12T18:16:15.496836",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2627",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-03-29",
+        "publicReleaseDate": "2022-03-01",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "UBERON",
+                "file": "",
+                "version": "2021-03-31",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "ORDO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "VO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OPMI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "ERO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2627",
+                "filename": "s_MTBLS2627.txt",
+                "title": "Circulatory metabolomics reveals the association of the metabolites with clinical features in the patients with intrahepatic cholestasis of pregnancy",
+                "description": "<p><strong>OBJECTIVE:</strong> Intrahepatic cholestasis of pregnancy (ICP) is associated with an increased risk of adverse pregnancy outcomes to the mother and fetus. As yet, the metabolic profiles and the association of the clinical features remain obscure.</p><p><strong>METHODS:</strong> Fifty seven healthy pregnant women and 52 patients with ICP were recruited in this study. Plasma samples were obtained from pregnancies who received prenatal care between the 30-36 weeks. Untargeted metabolomics to portray metabolic profiles were performed by LC/MS. Mul- combined with univariate data analysis and statistical analysis were performed to select differential metabolites between ICP and control group. Debiased sparse partial correlation (DSPC) network analysis of differential metabolites was performed to explore the potential mutual regulation among metabolites on the basis of de-sparsified graphical lasso modeling procedure. Pathway analysis was performed using MetaboAnalyst. Linear regression and Pearson correlation analysis were applied to analyze correlations associated with bile acid levels, metabolites, newborn weight and pregnancy outcome in ICP patients.</p><p><strong>RESULTS:</strong> Conspicuous metabolic changes and choreographed metabolic profiles were disclosed: 125 annotated metabolites and eighteen metabolic pathways were disturbed in ICP patients. DSPC networks indicated dense interactions among amino acids and their derivatives, bile acids, carbohydrates and organic acids. The levels of total bile acid were increased in ICP patients with meconium-stained amniotic fluid compared with those without MSAF. Abnormal tryptophan metabolism, elevated long chain saturated fatty acid and estrone sulfate levels, and low antioxidant capacity were relevant to increasing bile acid levels. Correlation analysis showed that newborn body weights were significant correlated with the levels of several bile acids and some metabolites of amino acids.</p><p><strong>CONCLUSION:</strong> The ICP patient showed metabolic disorder, and the levels of a number of metabolites were correlated with TBA levels and neonatal body weights. These results provide us important information to further understand the metabolic characteristics of patients with ICP and adverse pregnancy outcomes.</p>",
+                "submissionDate": "2021-03-29",
+                "publicReleaseDate": "2022-03-01",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Wenhu",
+                        "lastName": "Liu",
+                        "email": "wenhuliu@cqu.edu.cn",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Contract Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51817"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Intrahepatic cholestasis of pregnancy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0009048"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "bile acid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_3098"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "pathway data analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ERO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ERO_0000658"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Circulatory Metabolomics Reveals the Association of the Metabolites With Clinical Features in the Patients With Intrahepatic Cholestasis of Pregnancy.",
+                        "authorList": "Liu W, Wang Q, Chang J, Bhetuwal A, Bhattarai N, Ni X.",
+                        "pubMedID": "35899031",
+                        "doi": "10.3389/fphys.2022.848508",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Ethical considerations </strong></p><p>This study was approved by the Ethics Committee of the North Sichuan Medical College (No:202103). All procedures performed in this study involving participants were in accordance with the ethical standards of the institutional and with the Declaration of Helsinki<strong>[1]</strong>. All participants signed written 87 informed consent prior to participation in the study.</p><p><br></p><p><strong>Study Cohort and Sampling </strong></p><p>57 healthy pregnant women (<strong>control </strong>group) and 52 patients with ICP (<strong>ICP group</strong>) were 90 recruited from the affiliated hospital of North Sichuan Medical College (Nanchong, Sichuan, China) from July 2019 to Jun 2020. Maternal plasma samples were collected from pregnancies who received prenatal care between 30 and 36 weeks. <strong>ICP </strong>was diagnosed according to the guidelines for <strong>ICP </strong>diagnosis, and serum TBA levels were more than 10 \u03bcmol/L<strong>[2]</strong>. The patients who had history of liver diseases, cholelithiasis, diabetes, hypertension, or other skin diseases were not included in the present study. Infants with congenital malformations, deformations or chromosomal abnormalities were excluded. In <strong>ICP </strong>group, 9 patients received ursodeoxycholic acid (UDCA) treatment. Gestational age matched pregnant women without co-morbidities were enrolled during the same period as <strong>control </strong>group. Pregnancy outcomes including stillbirth, gestational age at delivery, premature rupture of membrane (PROM), meconium-stained amniotic fluid (MSAF), newborn\u2019s Apgar score, newborn weight and postpartum hemorrhage were recorded in both groups. Maternal demographic data and serum biochemical data were collected at the same time.</p><p><br></p><p>The fasting <strong>blood </strong>sample from each individual was collected into vacutainer EDTA anticoagulated tube. The samples were then centrifuged (1500 x g) for 10 min at 4 \u00b0C. The <strong>plasma </strong>was collected and then stored at -80 \u00b0C for following analysis.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1] </strong>World Medical Association. World Medical Association Declaration of Helsinki: ethical principles for medical research involving human subjects. JAMA. 2013 Nov 27;310(20):2191-4. doi:10.1001/jama.2013.281053. PMID:24141714</p><p><strong>[2] </strong>Brouwers L, Koster MP, Page-Christiaens GC, Kemperman H, Boon J, Evers IM, Bogte A, Oudijk MA. Intrahepatic cholestasis of pregnancy: maternal and fetal outcomes associated with elevated bile acid levels. Am J Obstet Gynecol. 2015 Jan;212(1):100.e1-7. doi:10.1016/j.ajog.2014.07.026. Epub 2014 Jul 18. PMID:25046809</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Sample pre-treatment was conducted as follows: the 100 \u03bcL of each sample was transferred to eppendorf tube and mixed with 400 \u03bcL pre-cold solvent (methanol/acetonitrile, 1:1, v/v). Samples were vortexed for 1 min and incubated for 1 h at -20 \u00b0C for deproteinization. The resulting supernatants were collected by centrifugation (14,000 x g) for 15 min at 4 \u00b0C. Subsequently, samples were lyophilized by vacuum drying concentrator and stored at -80 \u00b0C for following analysis. Sample extracts were resuspended in 100 \u03bcL of solvent containing water/acetonitrile (1:1, v/v) and then vortexed for 30 s and centrifugated (14,000 x g) for 15 min at 4 \u00b0C. Supernatants were collected and transferred to autosampler vials for LC/MS analysis. QC samples were obtained by mixing equal volumes (20 \u03bcL) from all the samples.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Agilent 1290 Infinity LC system (Agilent Technologies, Santa Clara, California, USA) coupled to a quadrupole time-of flight (AB SCIEX Triple TOF 6600, AB SCIEX, Framingham, MA, USA) was used for metabolomics profiling. Chromatographic separation was conducted with HILIC column (2.1 mm x 100 mm, 1.7 \u00b5m, ACQUITY UPLC BEH Amide, Waters). The temperature of UPLC column oven was maintained at 25 \u00b0C while the autosampler was set at 4 \u00b0C. The mobile phase contained (A) water with 25 mM ammonia and 25 mM ammonium acetate, and (B) acetonitrile. The elution gradient was set as follows: initial elution with 95% B for 0.5 min; linearly changed B from 95% to 65% for 0.5-7.0 min; linearly changed B from 65 % to 40 % for 7.0-8.0 min; 40 % B maintained for 8.0-9.0 min; linearly decreased B from 40 % to 95 % for 9.0-9.1 min; 95% B maintained for 9.1-12.0 min. The flow rate was 300 \u03bcL/min. The injection volume of each sample was 2 \u03bcL. Solvent blanks and QC samples were inserted in analytical batch every 10 samples to assess the stability of instrument performance. The stability of the system was assessed via the coefficient of variation (CV) of each variable in QC sample.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Q-TOF/MS 6600 mass spectrometer was applied to carry out the mass spectrometry equipped with dual electrospray ionization (ESI). ESI source parameters were set as followings: Curtain gas at 30 psi, gas1 and gas2 of ion source at 60 psi, ion spray voltage floating at +5500 V for ESI+ and -5500 V for ESI- mode, respectively. Source temperature was set at 600 \u00b0C. The operating parameters were set as followings: MS scan range of 60-1000 m/z, and production scan range of 25-1000 m/z. The full scan accumulation time was set at 0.20 s/spectra, and product ion scan at 0.05 s/spectra. Data acquisition was performed in the mode of information-dependent acquisition (IDA). Candidate ions to monitor per cycle was 6, and excluded isotope was within 4 Da. Collision energy was 35\u00b115 eV. Declustering 134 potential was +60 V for ESI+ mode, and -60 V for ESI- mode, respectively.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>UPLC-Q-TOF/MS <strong>raw </strong>data files were initially converted to <strong>mzXML </strong>format by using <strong>ProteoWizard </strong>converter software. Subsequent data processing and analysis was accomplished by using <strong>XCMS </strong>software according to previous methods<strong>[1]</strong>, including peak alignment, peak discrimination, filtering, matching, peak area extraction and retention time correction. Peak finding options were set as followings: profmethod: binlin; centWave=25 ppm, peakwidth=c(10,60), prefilter=c(10,100), noise threshold=20, bw=5, mzwid=0.025 amu, minfrac=0.5, minsamp=1. The resulting dataset included sample names, retention time (RT), mass-to-charge ratio (m/z) and corresponding peak area.&nbsp;</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Huan T, Forsberg EM, Rinehart D, Johnson CH, Ivanisevic J, Benton HP, Fang M, Aisporna A, Hilmers B, Poole FL, Thorgersen MP, Adams MWW, Krantz G, Fields MW, Robbins PD, Niedernhofer LJ, Ideker T, Majumder EL, Wall JD, Rattray NJW, Goodacre R, Lairson LL, Siuzdak G. Systems biology guided by XCMS Online metabolomics. Nat Methods. 2017 Apr 27;14(5):461-462. doi:10.1038/nmeth.4260. PMID:28448069; PMCID:PMC5933448.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Variables were matched by comparing mass spectra fragmentation patterns and accurate monoisotopic molecular weight by searching the<strong> Human Metabolome Database</strong> (http://hmdb.ca/) and <strong>Metlin </strong>(http://metlin.scripps.edu/). Metabolites were further confirmed by matching MS/MS spectra fragmentation similarity with high forward or reverse score values (\u22650.7) based on in-house library of authentic standards. The identifications were manually checked to exclude exogenous compounds. Processing of missed values of each sample was performed with the 'modified 80 % rules'<strong>[1]</strong>. Remaining missing values from samples were imputed with K-nearest neighbors (K=10) using <strong>R </strong>package (version <strong>3.5.2</strong>). Peak area of each variable was normalized by dividing the total area of sample after which values were multiplied by 105 for the ease of presentation. Variables with CV over 30% were deleted in both modes. For multivariate data analysis (MVDA), center and pareto scaling were implemented to all data ahead of MVDA to reduce influence of maximal and minimal values, as well as to reduce noise effects in models. Principal component analysis (PCA) was performed to show clustering trend and classified information of samples. Subsequently, partial least squares-discriminant analysis (PLS-DA) was used to distinguish UDCA treated group from untreated group based on metabolic characteristics. Orthogonal partial least square discriminant analysis (OPLS-DA) was applied to maximize the differences of metabolic profiles between control and ICP groups. The variable importance in the projection (VIP) scores were calculated according to OPLS-DA models. The 7-fold cross-validation and permutation testing was applied to evaluate the predictive ability of the models, respectively. Differential metabolites were selected by multivariate combined with univariate analysis according to the following criteria: VIP &gt; 1.0, FC \u2265 1.2 or \u2264 0.83, P &lt; 0.05.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1] </strong>Yang J, Zhao X, Lu X, Lin X, Xu G. A data preprocessing strategy for metabolomics to reduce the mask effect in data analysis. Front Mol Biosci. 2015 Feb 2;2:4. doi: 10.3389/fmolb.2015.00004. PMID: 25988172; PMCID: PMC4428451.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative",
+                        "filename": "a_MTBLS2627_LC-MS_negative__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS2627_LC-MS_positive_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

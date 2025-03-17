@@ -1,0 +1,827 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-02-22T00:00:00",
+        "statusUpdateTime": "2023-02-22T15:57:43.206242",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2630",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-03-29",
+        "publicReleaseDate": "2023-02-22",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            },
+            {
+                "comments": [],
+                "name": "CO_357",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "BCIO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "",
+                "version": "2021-04-02",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MSIO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2630",
+                "filename": "s_MTBLS2630.txt",
+                "title": "Metabolic Dynamics in Escherichia coli-Based Cell-Free Systems",
+                "description": "The field of metabolic engineering has yielded remarkable accomplishments in using cells to produce valuable molecules, and cell-free expression (CFE) systems have the potential to push the field even further. However, CFE systems still face some outstanding challenges, including endogenous metabolic activity that is poorly understood yet has a significant impact on CFE productivity. Here, we use metabolomics to characterize the temporal metabolic changes in CFE systems and their constituent components, including significant metabolic activity in central carbon and amino acid metabolism. We find that while changing the reaction starting state <i>via</i> lysate preincubation impacts protein production, it has a comparatively small impact on metabolic state. We also demonstrate that changes to lysate preparation have a larger effect on protein yield and temporal metabolic profiles, though general metabolic trends are conserved. Finally, while we improve protein production through targeted supplementation of metabolic enzymes, we show that the endogenous metabolic activity is fairly resilient to these enzymatic perturbations. Overall, this work highlights the robust nature of CFE reaction metabolism as well as the importance of understanding the complex interdependence of metabolites and proteins in CFE systems to guide optimization efforts.",
+                "submissionDate": "2021-03-29",
+                "publicReleaseDate": "2023-02-22",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "April",
+                        "lastName": "Miguez",
+                        "email": "amiguez3@gatech.edu",
+                        "affiliation": "Georgia Institute of Technology",
+                        "address": "950 Atlantic Dr NW",
+                        "fax": "",
+                        "midInitials": "M",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "graduate student or trainee",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "BCIO",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://humanbehaviourchange.org/ontology/BCIO_010090"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Yan",
+                        "lastName": "Zhang",
+                        "email": "yz473@gatech.edu",
+                        "affiliation": "Georgia Institute of Technology",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "graduate student or trainee",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "BCIO",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://humanbehaviourchange.org/ontology/BCIO_010090"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Fernanda",
+                        "lastName": "Piorino",
+                        "email": "foliveira3@gatech.edu",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "graduate student or trainee",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "BCIO",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://humanbehaviourchange.org/ontology/BCIO_010090"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Mark",
+                        "lastName": "Styczynski",
+                        "email": "mark.styczynski@chbe.gatech.edu",
+                        "affiliation": "Georgia Institute of Technology",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "P",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "two-dimensional gas chromatography mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000061"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Cell-free System",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "18.10e",
+                            "description": "NCI Thesaurus OBO Edition"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C15201"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolic Dynamics in <i>Escherichia coli</i>-Based Cell-Free Systems",
+                        "authorList": "Miguez April M., Zhang Yan, Piorino Fernanda, Styczynski Mark P.",
+                        "pubMedID": "34478281",
+                        "doi": "10.1021/acssynbio.1c00167",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Time",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Complete CFE reaction",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "chemical reaction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MSIO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/MSIO_0000001"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Enzyme",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Enzyme",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16554"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Lysate pre-incubation temperature",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "temperature",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001702"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sonication energy input",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Energy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C48058"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Plasmids Preparation:</strong></p><p>The plasmids pJL1s70 and E01 were used in this study. The sequences of both plasmids are available in the <strong>Supporting Information</strong> in the paper associated with this study. Plasmids were transformed into <em>E. coli</em> DH10B cells and isolated with E.Z.N.A FastFilter Plasmid Maxiprep kit (Omega Biotek) according to the manufacturer's instructions.</p><p><br></p><p><strong>Lysate Preparation:</strong></p><p>Cellular lysate for all experiments was prepared based on previously described protocols<strong>[1][2]</strong>. Briefly, BL21 cells were used for all experiments, except for the experiment evaluating the effects of sonication energy input, where BL21 DE3 Star \u0394lacZ cells were used. All cells were grown in either 2xYTP media (16 g/L tryptone, 10 g/L yeast extract, 5 g/L sodium chloride, 7 g/L potassium phosphate dibasic, and 3 g/L potassium phosphate monobasic and was pH-corrected to 7.2 with Tris base). All media was filter-sterilized prior to use. Cells were grown at 37 \u00b0C and 180 rpm to an OD of 2.0, which corresponds with the mid-exponential growth phase. Cells were then centrifuged at 2700 rcf and washed 3x with S30A buffer (14 mM magnesium acetate, 60 mM potassium acetate, 10 mM Tris-acetate (pH 8.2), and 2 mM dithiothreitol). After the final centrifugation, the wet cell mass was determined, and cells were resuspended in 1 ml of S30A buffer per 1 g of wet cell mass. The cellular resuspension was divided into 1 ml aliquots. Cells were lysed using a Q125 Sonicator (Qsonica, Newton, CT) at a frequency of 20 kHz and at 50% of amplitude. Cells were sonicated on ice with 3 cycles of 10 s on, 10 s off, delivering approximately 300 J unless otherwise specified in text. An additional 4 mM of dithiothreitol was added to each tube, and the sonicated mixture was then centrifuged at 12000 rcf and 4 \u00b0C for 10 min. For lysates prepared with BL21 cells, the supernatant was removed and divided into 1 ml aliquots for run-off reaction at 37 \u00b0C and 180 rpm for 80 min. After this runoff reaction, the cellular lysate was centrifuged at 12,000 rcf and 4 \u00b0C for 10 min. The supernatant was removed and loaded into a 10 kDa MWCO dialysis cassette (Thermo Scientific). Lysate was dialyzed in 1 L of S30B buffer (14 mM magnesium glutamate, 60 mM potassium glutamate, 1 mM dithiothreitol, pH-corrected to 8.2 with Tris) at 4 \u00b0C for 3 h. Dialyzed lysate was removed and centrifuged at 12,000 rcf and 4 \u00b0C for 10 min. The supernatant was removed, aliquoted, and stored at \u221280 \u00b0C for future use. For lysates prepared with BL21 DE3 Star \u0394lacZ cells, the supernatant was removed and divided into 0.5 ml aliquots for run-off reaction at 37 \u00b0C and 220 rpm for 80 min. All downstream processing steps were the same as those for lysates prepared with BL21 cells, with the exception of 500 ml of S30B buffer used during dialysis.</p><p><br></p><p><strong>Protein Purification:</strong></p><p>Plasmids coding for expression of different his-tagged proteins (sequences provided in the <strong>Supporting Information</strong> in the paper associated with this study) were transformed into BL21 (DE3) cells and plated on LB plates supplemented with 33 \u03bcg/ml kanamycin to grow overnight. 1 colony was selected the next day and resuspended in a 50 ml LB culture supplemented with 33 \u03bcg/ml kanamycin for overnight growth. The overnight culture was then diluted 100-fold in 500 ml of fresh 2xYTP media containing kanamycin the next morning and grown until its OD600 reached between 0.4-0.6, at which point 0.4 mM of IPTG was added to induce T7 polymerase expression and thus plasmid-driven protein production. The induced culture was transferred to a shaking water bath for incubation at 30 \u00b0C and 180 rpm for 16 h, when cells were pelleted, weighed, and frozen at -80 \u00b0C for storage until cell lysis.</p><p><br></p><p>1 g of frozen cell pellet was resuspended in 2 ml of lysis buffer (50 mM Na2HPO4, 500 mM NaCl, 10 mM imidazole, pH 8). The resuspension was divided into 1 ml aliquots and sonicated until cells appeared visible lysed. Sonicated products were centrifuged at 12,000 rcf and 4 \u00b0C for 15 min before purifying on a HisPur Ni-NTA column (Thermo Scientific) according to the manufacturer protocol. Purification was verified by SDS-PAGE. The eluted proteins were loaded into 10 kDa MWCO dialysis cassettes (Thermo Scientific) and dialyzed overnight in the storage buffer (50 mM Tris-HCl pH 7.5, 100 mM NaCl, 1 mM DTT, 1 mM EDTA, 2% DMSO). Following dialysis, proteins were centrifuged at 12,000 rcf at 4 \u00b0C for 10 min to remove insoluble fractions. The supernatant was removed, and protein concentration was measured on a Nanodrop 2000 before sub-aliquoting and storage at -20 \u00b0C.</p><p><br></p><p><strong>CFE Reactions:</strong></p><p>Cell-free reactions for all experiments were run as previously described[2]. Each cell-free reaction contained 0.85 mM each of GTP, UTP, and CTP, in addition to 1.2 mM ATP, 34 \u03bcg/ml of folinic acid, 170 \u03bcg/ml E. coli tRNA mixture, 130 mM potassium glutamate, 10 mM ammonium glutamate, 12 mM magnesium glutamate, 2 mM each of the 20 standard amino acids, 0.33 mM nicotine adenine dinucleotide (NAD), 0.27 mM coenzyme-A (CoA), 1.5 mM spermidine, 1 mM putrescine, 4 mM sodium oxalate, 33 mM phosphoenolpyruvate (PEP), 27% cell lysate, and 12 nM of the specified plasmid. (9 nM of pJL1s70 was used for the experiment evaluating the effects of sonication energy input).</p><p><br></p><p>For metabolomics analysis, 210 \u03bcl reactions were prepared in 1.5 ml microcentrifuge tubes in technical triplicates. Samples were incubated at 37 \u00b0C for the specified time. A total of 10 \u03bcl of the reaction was then removed and stored at \u221280 \u00b0C for subsequent fluorescence analysis on a BioTek Synergy H4 microplate reader (485/510 nm excitation/emission wavelength, gain of 70) and the remaining 200 \u03bcl was stored at -80 \u00b0C for subsequent metabolomics analysis. In experiments solely assessing GFP production, 10 \u03bcl reactions were prepared in technical triplicates in 384-well plates (Greiner Bio-One) and fluorescence values were measured every 5 min at 37 \u00b0C. A transparent film was used to seal the plates to prevent reagent evaporation.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Silverman AD, Kelley-Loughnane N, Lucks JB, Jewett MC. Deconstructing Cell-Free Extract Preparation for in Vitro Activation of Transcriptional Genetic Circuitry. ACS Synth Biol. 2019;8(2):403\u2010414. doi:10.1021/acssynbio.8b00430 PMID:30596483</p><p><strong>[2]</strong> Kwon YC, Jewett MC. High-throughput preparation methods of crude extract for robust cell-free protein synthesis. Sci Rep. 2015;5:8663. doi:10.1038/srep08663. PMID:25727242</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Before beginning the protein precipitation protocol, a small volume was removed from all samples in an individual experiment to prepare pooled quality control (QC) samples for the mass spectrometry data acquisition. 25 \u03bcl was removed from each sample from the in-depth time course analysis of CFE reactions and the comparison of reactions with differently sonicated lysates. 20 \u03bcl was removed from each sample for the time course analysis of the incubated lysate and the comparison of enzyme-supplemented reactions. 15.4 and 10 \u03bcl were removed from each sample for the time course analysis of the incubated reaction mix and the comparison of reactions with lysates pre-incubated at different temperatures, respectively. These pooled QC samples were prepared with all other samples for protein precipitation.</p><p><br></p><p>Proteins were precipitated from all samples stored for metabolomics analysis via the following protocol<strong>[1]</strong>: first, methanol was added to each sample at a 1:2 sample to methanol ratio and vortexed briefly. The samples were incubated at -20 \u00b0C for 20 min and centrifuged at 11,600 rcf for 30 min at room temperature, and the supernatant was collected. The supernatants of pooled QC samples were then evenly aliquoted into multiple tubes as needed: 2 tubes for the in-depth time course analysis of CFE reactions and the time course analysis of the incubated lysate; 3 tubes for the comparison of reactions with lysates pre-incubated at different temperatures, the comparison of enzyme-supplemented reactions, and the comparison of reactions with differently sonicated lysates; and 1 tube for the time course analysis of the incubated reaction mix. The supernatants were dried at 40 \u00b0C in a CentriVap until all water was removed and stored at -80 \u00b0C.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Nagana Gowda GA, Raftery D. Quantitating metabolites in protein precipitated serum using NMR spectroscopy. Anal Chem. 2014 Jun 3;86(11):5433-40. doi:10.1021/ac5005103. PMID:24796490.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Before derivatization, stored samples were transferred to a CentriVap to be dried at 40 \u00b0C for 15 min. Samples were derivatized as previously described<strong>[1][2]</strong>. A total of 10 \u03bcl of 40 mg/ml O-methylhydroxylamine hydrochloride (MP Biomedicals, LLC, Santa Ana, CA, U.S.A.) in pyridine was added to each dried sample and shaken at 1400 rpm for 90 min at 30 \u00b0C. A total of 90 \u03bcl of N-methyl-N-(trimethylsilyl) trifluoroacetamide (MSTFA) + 1% trimethylchlorosilane (TMCS) (Thermo Scientific, Lafayette, CO, U.S.A.) was then added to the samples and shaken at 1400 rpm for 30 min at 37 \u00b0C. Samples were centrifuged at 21,100 rcf for 3 min, and 50 \u03bcl of the supernatant was added to an autosampler vial. Samples were spiked with 0.25 \u03bcl of a retention time standard solution composed of fatty acid methyl esters (FAMES). At the beginning of the GC-MS run, the QCs were injected once, and this was repeated again after every 4-6 sample injections to allow for downstream correction for batch effects. A derivatization blank was prepared and run with every batch of samples.</p><p><br></p><p>A LECO Pegasus 4D instrument with an Agilent 7683B autosampler, Agilent 7890A gas chromatograph,adapted to GCxGC analysis, and time-of-flight mass spectrometer (TOF-MS) was used to analyze the samples. Prior to sample injection, 3 pre-washes were performed with pyridine. Sample was pumped 4 times for thorough mixing and injected using a syringe size of 10 \u03bcl with 1 \u03bcl of injection volume. 3 post-washes of the needle were performed after injection using pyridine. The first column was an HP-5, 28 m long x 0.320 mm ID x 0.25 \u03bcm film thickness (Agilent, Santa Clara, CA, United States), and the second was an Rtx-200, 1.7 m long x 0.25 mm ID x 0.25 \u03bcm film thickness (Restek, Bellefonte, PA, United States). Helium was used as the carrier gas with a corrected constant flow rate of 1.00 ml/min. The inlet septum purge flow was maintained at 3 ml/min. The inlet was functioning in splitless mode with a purge flow of 100 ml/min delayed to start 30 seconds after injection, giving a total flow of 101 ml/min. Runs were performed in a gas saver mode with a flow of 20 ml/min set to start a minute after injection. Front inlet temperature was set at 250 \u00b0C for the entire run. The primary oven temperature was held at 70 \u00b0C for 1 min and the temperature was ramped at 10 \u00b0C/min until 315 \u00b0C and held for 2 min. The secondary oven temperature and the modulator temperature offsets were 5 \u00b0C and 15 \u00b0C above the main oven respectively. 1 min equilibration time was set for the ovens. The modulation program is listed in <strong>Table S1</strong> of the paper associated with this study. The transfer line temperature was maintained at 320 \u00b0C for the entire run.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Kind T, Wohlgemuth G, Lee DY, et al. FiehnLib: mass spectral and retention index libraries for metabolomics based on quadrupole and time-of-flight gas chromatography/mass spectrometry. Anal Chem. 2009;81(24):10038\u201010048. doi:10.1021/ac9019522. PMID:19928838</p><p><strong>[2]</strong> Vermeersch KA, Wang L, McDonald JF, Styczynski MP. Distinct metabolic responses of an ovarian cancer stem cell line. BMC Syst Biol. 2014;8:134. Published 2014 Dec 18. doi:10.1186/s12918-014-0134-y. PMID:25518943</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model 1",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type 1",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model 2",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type 2",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A Leco Pegasus 4D time of flight mass spectrometer (TOF-MS) with electron impact ionization was used for mass analysis. Filaments were turned off for the initial 230 s to delay mass acquisition until after the solvent peak. The mass scanning range was from 50 to 500 u with an acquisition rate of 200 spectra/s. The detector voltage was set at 100 V above the optimized voltage with an electron energy of -70 V. Manual mass defect mode was used with the mass defect 0 mu/100 u. Ion source temperature was required to reach 220 \u00b0C before starting mass acquisition.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Sample runs were analyzed in <strong>ChromaTOF</strong> (LECO, St. Joseph, MI, U.S.A.) to determine baseline, peak area, and peak identification as described previously<strong>[1][2]</strong>. Briefly, settings included a baseline offset of 0.5, automatic smoothing, first dimension peak width of 36 s, second dimension peak width of 0.10 s, and a match of 700 required to combine peaks with a minimum signal-to-noise (S/N) of 5 for all subpeaks. Peaks were required to have a S/N of 10 and have a minimum similarity score of 800 to <strong>NIST</strong>, <strong>Golm</strong>, and in-house spectral libraries before assigning a name. Unique mass was used for area and height calculation. <strong>MetPP</strong> was used to align the samples<strong>[3]</strong>. Sample files and a derivatization reagent blank file were uploaded from <strong>ChromaTOF</strong>. Unknowns were retained during the peak alignment process. The derivatization reagent blank file was used to subtract peaks resulting from the sample preparation reagents from the corresponding sample files. On-the-fly alignment was used with manually selected quality control samples as the peak list for primary alignment. Peak alignment was performed using the default criteria. To remove analytes that were not reproducibly detected, analytes for which more than half of the values were missing in the QC samples or for which the QC samples had a coefficient of variance larger than 0.5 were removed from the data set. Then, missing values were manually corrected using small value correction only if all the values were missing in the biological replicates.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Dhakshinamoorthy S, Dinh NT, Skolnick J, Styczynski MP. Metabolomics identifies the intersection of phosphoethanolamine with menaquinone-triggered apoptosis in an in vitro model of leukemia. Mol Biosyst. 2015;11(9):2406-2416. doi:10.1039/c5mb00237k. PMID:26175011</p><p><strong>[2]</strong> Vermeersch KA, Wang L, Mezencev R, McDonald JF, Styczynski MP. OVCAR-3 spheroid-derived cells display distinct metabolic profiles. PLoS One. 2015;10(2):e0118262. Published 2015 Feb 17. doi:10.1371/journal.pone.0118262. PMID:25688563</p><p><strong>[3]</strong> Wei X, Shi X, Koo I, et al. MetPP: a computational platform for comprehensive two-dimensional gas chromatography time-of-flight mass spectrometry-based metabolomics. Bioinformatics. 2013;29(14):1786-1792. doi:10.1093/bioinformatics/btt275. PMID:23665844</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Finally, <strong>MetaboAnalyst</strong> was used for statistical and two-factor analysis<strong>[1]</strong>. For both analyses, remaining missing values were <strong>k-nearest neighbors (KNN)</strong> corrected. Data was then log-transformed using a generalized logarithm (base 2) and autoscaled. <strong>P-values</strong> were adjusted using the <strong>Benjamini-Hochberg False Discovery Rate (FDR)</strong>. Differences were considered significant at <strong>FDR-corrected p-values</strong> &lt; 0.05.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Chong J, Soufan O, Li C, et al. MetaboAnalyst 4.0: towards more transparent and integrative metabolomics analysis. Nucleic Acids Res. 2018;46(W1):W486-W494. doi:10.1093/nar/gky310. PMID:29762782</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Tandem Gas Chromatography MS -",
+                        "filename": "a_MTBLS2630_Exp1_GCxGC-MS_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Tandem Gas Chromatography MS -",
+                        "filename": "a_MTBLS2630_Exp2_GCxGC-MS_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Tandem Gas Chromatography MS - positive",
+                        "filename": "a_MTBLS2630_Exp3_GCxGC-MS_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Tandem Gas Chromatography MS - positive",
+                        "filename": "a_MTBLS2630_Exp4_GCxGC-MS_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Tandem Gas Chromatography MS - positive",
+                        "filename": "a_MTBLS2630_Exp5_GCxGC-MS_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Tandem Gas Chromatography MS - positive",
+                        "filename": "a_MTBLS2630_Exp6_GCxGC-MS_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

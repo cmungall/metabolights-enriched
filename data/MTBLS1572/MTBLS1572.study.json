@@ -1,0 +1,732 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-05-21T00:00:00",
+        "statusUpdateTime": "2020-05-21T10:16:21.848983",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1572",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2020-03-20",
+        "publicReleaseDate": "2020-05-21",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "80",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OGIowlAuthor",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "processAFP",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1572",
+                "filename": "s_MTBLS1572.txt",
+                "title": "Comparison of Full-Scan, Data-Dependent, and Data-Independent Acquisition Modes in Liquid Chromatography-Mass Spectrometry Based Untargeted Metabolomics",
+                "description": "Full-scan, data-dependent acquisition (DDA), and data-independent acquisition (DIA) are the three common data acquisition modes in high resolution mass spectrometry-based untargeted metabolomics. It is an important yet underrated research topic on which acquisition mode is more suitable for a given untargeted metabolomics application. In this work, we compared the three data acquisition techniques using a standard mixture of 134 endogenous metabolites and a human urine sample. Both hydrophilic interaction and reversed-phase liquid chromatographic separation along with positive and negative ionization modes were tested. Both the standard mixture and urine samples generated consistent results. Full-scan mode is able to capture the largest number of metabolic features, followed by DIA and DDA (53.7% and 64.8% respective features fewer on average in urine than full-scan). Comparing the MS2 spectra in DIA and DDA, spectra quality is higher in DDA with average dot product score 83.1% higher than DIA in Urine(H), and the number of MS2 spectra (spectra quantity) is larger in DIA (on average 97.8% more than DDA in urine). Moreover, a comparison of relative standard deviation distribution between modes shows consistency in the quantitative precision, with the exception of DDA showing a minor disadvantage (on average 19.8% and 26.8% fewer features in urine with RSD < 5% than full-scan and DIA). In terms of data preprocessing convenience, full-scan and DDA data can be processed by well-established software. In contrast, several bioinformatic issues remain to be addressed in processing DIA data and the development of more effective computational programs is highly demanded.",
+                "submissionDate": "2020-03-20",
+                "publicReleaseDate": "2020-05-21",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Jian",
+                        "lastName": "Guo",
+                        "email": "jian@chem.ubc.ca",
+                        "affiliation": "University of British Columbia",
+                        "address": "2036 Main Mall, Vancouver, BC V6T 1Z1",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "7802361588",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "First author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "http://data.bioontology.org/ontologies/MS",
+                                    "version": "86",
+                                    "description": "Mass Spectrometry Ontology"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002034"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Tao",
+                        "lastName": "Huan",
+                        "email": "thuan@chem.ubc.ca",
+                        "affiliation": "University of British Columbia",
+                        "address": "2036 Main Mall, Vancouver, BC V6T 1Z1",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "7783188518",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "OGIowlAuthor",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/OGI.owl#Author"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Comparison of Full-Scan, Data-Dependent, and Data-Independent Acquisition Modes in Liquid Chromatography-Mass Spectrometry Based Untargeted Metabolomics.",
+                        "authorList": "Guo J, Huan T.",
+                        "pubMedID": "32401506",
+                        "doi": "10.1021/acs.analchem.9b05135",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Data acquisition mode",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Data acquisition",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C142469"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Dilution",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "dilution",
+                            "termSource": {
+                                "comments": [],
+                                "name": "processAFP",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.allotrope.org/ontologies/process#AFP_0000785"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>One urine sample was collected from a healthy male volunteer.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>50 \u03bcl urine was mixed with 150 \u03bcl LC-MS grade MeOH in a 1.5 ml Eppendorf vial. After vortexing, the solution was spun down at 17,530 x g, and the clear urine supernatant was aliquoted to a clean 1.5 ml Eppendorf vial. The clear solution was evaporated using speed-vac, and the dried urine sample was reconstituted in 50 \u03bcl ACN:H2O (1:1, v:v) for LC-HRMS analysis. A diluted urine sample was prepared by a 100 time dilution of a 10 \u03bcl aliquot from the reconstituted solution. The reconstituted urine solution before dilution is indicated as 'Urine(H)' and the diluted solution is indicated as 'Urine(L)'.</p><p><br></p><p>The 134 metabolite standards were first prepared individually as stock solutions, each in 1 ml ACN:H2O (1:1, v:v). To prepare the original standard mixture, all the metabolites were pooled together to reach a final concentration of 8.3 \u03bcg/ml. To prepare diluted standard mixture, 10 \u03bcl original solution was further diluted 100 times to 8.3 ng/ml. The original standard mixture is indicated as 'StdMix(H)' and the diluted standard mixture is indicated as 'StdMix(L)'. The list of the 134 metabolites is available in <strong>Table S1</strong> in the paper associated with this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The LC-HRMS analysis was performed on a Bruker Impact II Ultra-High Resolution Qq-Time-Of-Flight Mass Spectrometer (UHR-QqTOF-MS)) coupled with an Agilent 1290 Infinity II Ultra High-Performance Liquid Chromatography (UHPLC) system. The resolution of this instrument is up to 50,000 and the mass accuracy is below 5 ppm. 2 \u03bcl sample solutions of each triplicate and solvent blank were injected in sequence onto a Waters ACQUITY UPLC BEH C18 column (130\u00c5, 1.7 \u00b5m, 1.0 mm x 100 mm) in RP mode, and a Millipore ZIC-pHILIC column (200\u00c5, 5 \u00b5m particle size, 2.1 x 150 mm) in HILIC mode. 2 \u03bcl of 150 mM Sodium Formate (NaFA) solution was injected for internal calibration.</p><p><br></p><p>In RP analysis, the mobile phase A was H2O in 0.1% Formic Acid (FA) and mobile phase B was ACN in 0.1% FA. RP gradient was set as follows: 0 min, 95% A; 8 min, 75% A; 14 min, 30% A; 20 min, 5% A; 23 min, 5% A. Post-gradient equilibrium time was 7 min at 95% A. Flow rate was 0.15 ml/min. In HILIC analysis, mobile phase A was 95% H2O and 5% ACN with 10 mM Ammonium Acetate at 9.8 pH, and mobile phase B was 5% H2O and 95% ACN. HILIC gradient was set as follows: 0 min, 5% A; 20 min, 80% A; 25 min, 95% A. Post-gradient equilibrium time was 19 min at 5% A. Flow rate was 0.15 ml/min during the gradient, and 0.2 ml/min during the post-gradient equilibrium.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>MS parameters in full-scan mode:</strong></p><p>The data acquisition modes for the RPLC chromatographic separation coupled with electrospray ionization (ESI) for RP were in positive mode and HILIC separation in negative mode. The ionization source capillary voltage was set to 4.5 kV in positive scanning mode and -3 kV in negative scanning mode. The nebulizer gas pressure was set to 1.6 bar. The dry gas temperature was set to 220 \u00b0C. Absolute threshold was set to 250 cts. No MS2 spectra were generated during the acquisition. The spectra rate was set to 2 Hz. The mass detection range was 50 to 1500 in positive mode and 65 to 1500 in negative mode.</p><p><br></p><p><strong>MS parameters in DDA mode:</strong></p><p>The mass spectrometer was operated in Auto MS/MS mode. The ionization source capillary voltage was set to 4.5 kV in positive scanning mode and -3 kV in negative scanning mode. The nebulizer gas pressure was set to 1.6 bar. The dry gas temperature was set to 220 \u00b0C. Absolute threshold was set to 250 cts. Collision energy was stepping from 21 eV to 45 eV. The charge state was 1. The absolute threshold was 400 cts. The cycle time was 3 seconds with the spectra rate of 8 Hz. In DDA mode, the instrument spent 30% cycle time (0.9 sec) on MS1 scanning and 70% cycle time (2.1 sec) on MS2 scanning. During MS2 scanning period, the number of precursors for MS2 spectra generation per cycle is dependent upon the cycle time, spectra rate and the intensity of the ions in MS1 spectra. As the spectra rate was 8 Hz, the time spent on scanning one spectrum was 0.125 sec. The maximum number of precursors that can be selected for MS2 spectra generation in each cycle was 16(2.1/0.125). The instrument selected the precursors in MS1 spectra for MS2 scanning from the highest intensity to the lowest until there were no more precursors available or the precursor number had reached the maximum value (16 in our case). Therefore, the number of precursor ions varied between each cycle in the whole analysis. When there were more high intensity precursors in MS1, there would be more precursors selected for MS2 scanning up to 16.&nbsp;The mass detection range was 50 to 1500 in positive mode and 65 to 1500 in negative mode.</p><p><br></p><p><strong>MS parameters in DIA mode:</strong></p><p>The mass spectrometer was operated in bbCID (broadband Collision Induced Dissociation) mode (DIA MSall mode).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data was transformed to ABFile format compatible with MS-DIAL. the software parameters were set as follows: MS1 tolerance was 0.02 Da; MS2 tolerance was 0.05 D; Minimum peak height was 1000; smoothing level was 3 scans; minimum peak width was 5 scans; sigma window value was 0.5; alignment tolerance was 0.2 min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For standard mixture, the metabolites were annotated by the tandem MS library file created in house using the same instrument and pure chemical standards. The in-house library contains the accurate mass, retention time for each metabolite in the standard mixture. For urine samples, the metabolites were annotated by the publicly available MS spectral database provided by MS-DIAL. The library contains accurate mass and tandem MS information for annotation.</p><p><br></p><p>The library spectra were extracted from the database MSMS-Public-pos-VS11 and MSMS-Public-Neg-VS11 for both positive and negative acquisition modes respectively. The libraries we used were the publicly available MS spectral database provided by MS-DIAL (<a href='http://prime.psc.riken.jp/Metabolomics_Software/MS-DIAL/' rel='noopener noreferrer' target='_blank'>http://prime.psc.riken.jp/Metabolomics_Software/MS-DIAL/</a>). The positive mode library includes the tandem MS information for 29,269 metabolites and the negative mode library includes the tandem MS information for 17,810 metabolites. The tandem MS information was collected from Massbank, ReSpec, GNPS, Fiehn lab, CASMI2016, MetaboBase, and RIKEN PlaSMA. The instruments used to generate the MS2 spectra are Orbitrap and Q-TOF.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Reverse Phase (POS)",
+                        "filename": "a_MTBLS1572_StdMixHigh_POS_LC-MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - HILIC (NEG)",
+                        "filename": "a_MTBLS1572_StdMixHigh_NEG_LC-MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Reverse Phase (POS)\u201d\tLiquid Chromatography MS - HILIC (NEG)\u201d",
+                        "filename": "a_MTBLS1572_StdMixLow_POS_LC-MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS1572_StdMixLow_NEG_LC-MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - HILIC (NEG)",
+                        "filename": "a_MTBLS1572_Urine_POS_LC-MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "",
+                        "filename": "a_MTBLS1572_Urine_NEG_LC-MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

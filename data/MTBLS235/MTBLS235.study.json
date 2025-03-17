@@ -1,0 +1,441 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2015-12-16T18:21:52",
+        "statusUpdateTime": "2015-12-16T18:21:52",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS235",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-09-25",
+        "publicReleaseDate": "2015-12-16",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS235",
+                "filename": "s_MTBLS235.txt",
+                "title": "Automated Label-free Quantification of Metabolites from Liquid Chromatography\u2013Mass Spectrometry Data (Simulated)",
+                "description": "<p>Liquid chromatography coupled to mass spectrometry (LC-MS) has become a standard technology in metabolomics. In particular, label-free quantification based on LC-MS is easily amenable to large-scale studies and thus well suited to clinical metabolomics. Large-scale studies, however, require automated processing of the large and complex LC-MS datasets.  We present a novel algorithm for the detection of mass traces and their aggregation into features (i.e. all signals caused by the same analyte species) that is computationally efficient and sensitive and that leads to reproducible quantification results. The algorithm is based on a sensitive detection of mass traces, which are then assembled into features based on mass-to-charge spacing, co-elution information, and a support vector machine\u2013based classifier able to identify potential metabolite isotope patterns. The algorithm is not limited to metabolites but is applicable to a wide range of small molecules (e.g. lipidomics, peptidomics), as well as to other separation technologies.  We assessed the algorithm's robustness with regard to varying noise levels on synthetic data and then validated the approach on experimental data investigating human plasma samples. We obtained excellent results in a fully automated data-processing pipeline with respect to both accuracy and reproducibility. Relative to state-of-the art algorithms, ours demonstrated increased precision and recall of the method. The algorithm is available as part of the open-source software package OpenMS and runs on all major operating systems.</p><p><br></p><p><strong>Simulated data</strong> is reported in&nbsp;the current study <a href='https://www.ebi.ac.uk/metabolights/MTBLS235' rel='noopener noreferrer' target='_blank'><strong>MTBLS235</strong></a>.</p><p><strong>Plasma data</strong>&nbsp;is reported in&nbsp;<a href='https://www.ebi.ac.uk/metabolights/MTBLS234' rel='noopener noreferrer' target='_blank'><strong>MTBLS234</strong></a>.</p>",
+                "submissionDate": "2015-09-25",
+                "publicReleaseDate": "2015-12-16",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Erhan",
+                        "lastName": "Kenar",
+                        "email": "erhan.kenar@uni-tuebingen.de",
+                        "affiliation": "Wilhelm Schickard Institute for Computer Science, University of T\u00fcbingen",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Oliver",
+                        "lastName": "Kohlbacher",
+                        "email": "oliver.kohlbacher@uni-tuebingen.de",
+                        "affiliation": "Wilhelm Schickard Institute for Computer Science, University of T\u00fcbingen",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "LC-MS label-free quantitation analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "86",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1001834"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "liquid chromatogaphy-mass spectrometry data simulation",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Automated Label-free Quantification of Metabolites from Liquid Chromatography\u2013Mass Spectrometry Data",
+                        "authorList": "Erhan Kenar, Holger Franken, Sara Forcisi, Kilian W\u00f6rmann, Hans-Ulrich H\u00e4ring, Rainer Lehmann, Philippe Schmitt-Kopplin, Andreas Zell, Oliver Kohlbacher",
+                        "pubMedID": "24176773",
+                        "doi": "10.1074/mcp.M113.031278",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "simulated detector noise",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "detector noise",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "simulated mass error",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "mass error",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "simulated error profile distortion",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "error profile distortion",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The dataset was based on a list of identified plant metabolites from a rather comprehensive study by Giavalisco et al. [1]. The authors reported the elemental composition, intensity, and retention time of hundreds of metabolites in the supplementary information for their study. This information is all that was needed in order to create synthetic datasets with characteristics typical of a complex metabolomics study.\n</p>\nRef:</br>\n[1] Giavalisco P., Li Y., Matthes A., Eckhardt A., Hubberten H. M., Hesse H., Segu S., Hummel J., Kohl K., Willmitzer L. (2011) Elemental formula annotation of polar and lipophilic metabolites using (13) C, (15) N and (34) S isotope labelling, in combination with high-resolution mass spectrometry. Plant J. 68, 364\u2013376. doi: 10.1111/j.1365-313X.2011.04682.x. PMID:21699588</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For the generation of synthetic LC-MS datasets, we employed the software package MSSimulator [1]. The simulator creates profile data based on the experimentally determined retention time and the composition of a set of compounds. It can simulate different instrument resolutions, noise levels, and chromatographic performances. The datasets created here were based on experimentally identified metabolites and thus captured the complexity of a real-world sample. At the same time, the simulator provides complete control over signal-to-noise ratio, accuracy, and similar parameters that would be very difficult to vary independently of each other experimentally.\n</p>\nRef:</br>\n[1] Bielow C., Aiche S., Andreotti S., and Reinert, K. MSSimulator: Simulation of Mass Spectrometry Data J. Proteome Res., 2011, 10 (7), 2922\u20132929. doi: 10.1021/pr200155f</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "MSSimulator performed a raw signal simulation of 500 metabolites within the range of 100\u20131,000 m/z and with a simulated gradient runtime of 25 min. The machine-dependent settings of MSSimulator were chosen to be close to those of our experimental MS setup: The simulated MS resolution R was set to 20,000, and the scan time was set at 0.25 s. The output of MSSimulator consists of a centroided LC-MS measurement and a feature map summarizing all simulated metabolites with theoretical retention times, m/z ratios, and intensities. This feature map facilitates comparison between the ground truth (the simulator's input) and the features detected by our algorithm applied to the same simulated data.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "To assess the influence of different sources of noise on the feature-finding performance, we conducted three series of MS simulations, each affected by detector noise, m/z variation, or elution profile distortion. In the first series, we simulated increasing levels of detector noise that were controlled by the Gaussian standard deviation sdet. The second series comprised two datasets simulated with moderate and strong mass errors (Gaussian standard deviation sm/z set to 10 ppm and 40 ppm, respectively). For the third series, we simulated elution profiles with ideal peak shapes and heavily distorted shapes. In MSSimulator, the degree of distortion is controlled by the number of iterations ndist; that is, the greater the number of iterations performed, the more the elution profiles deviate from their smooth Gaussian shape. The configuration for each simulation is summarized in the supplemental material of the publication associated with this study.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "MSSimulator",
+                        "filename": "a_MTBLS235_simulated_lc-ms_benchmark_dataset_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

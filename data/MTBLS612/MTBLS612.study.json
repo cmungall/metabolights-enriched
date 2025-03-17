@@ -1,0 +1,540 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-09-27T00:00:00",
+        "statusUpdateTime": "2023-09-27T15:25:09.233173",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "H:\\software\\metabolight\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS612",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-01-27",
+        "publicReleaseDate": "2019-03-22",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "SWO",
+                "file": "http://data.bioontology.org/ontologies/SWO",
+                "version": "19",
+                "description": "Software Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BIOMODELS",
+                "file": "http://data.bioontology.org/ontologies/BIOMODELS",
+                "version": "3",
+                "description": "BioModels Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MESH",
+                "file": "http://data.bioontology.org/ontologies/MESH",
+                "version": "6",
+                "description": "Medical Subject Headings"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS612",
+                "filename": "s_MTBLS612.txt",
+                "title": "Metabolic reaction network-based recursive metabolite annotation for untargeted metabolomics (Aging fruit fly positive mode)",
+                "description": "<p>Large-scale metabolite annotation is a challenge in liquid chromatogram-mass spectrometry (LC-MS)-based untargeted metabolomics. Here, we develop a metabolic reaction network (MRN)-based recursive algorithm (MetDNA) that expands metabolite annotations without the need for a comprehensive standard spectral library. MetDNA is based on the rationale that seed metabolites and their reaction-paired neighbors tend to share structural similarities resulting in similar MS2 spectra. MetDNA characterizes initial seed metabolites using a small library of MS2 spectra, and utilizes their experimental MS2 spectra as surrogate spectra to annotate their reaction-paired neighbor metabolites, which subsequently serve as the basis for recursive analysis. Using different LC-MS platforms, data acquisition methods, and biological samples, we showcase the utility and versatility of MetDNA and demonstrate that about 2000 metabolites can cumulatively be annotated from one experiment. Our results demonstrate that MetDNA substantially expands metabolite annotation, enabling quantitative assessment of metabolic pathways and facilitating integrative multi-omics analysis.</p><p><br></p><p><strong>Aging mouse liver positive mode</strong> is reported in <a href='https://www.ebi.ac.uk/metabolights/MTBLS601' rel='noopener noreferrer' target='_blank'><strong>MTBLS601</strong></a>.</p><p><strong>Aging mouse liver negative mode</strong> is reported in <a href='https://www.ebi.ac.uk/metabolights/MTBLS606' rel='noopener noreferrer' target='_blank'><strong>MTBLS606</strong></a>.</p><p><strong>Aging fruit fly positive mode</strong> is reported in <a href='https://www.ebi.ac.uk/metabolights/MTBLS612' rel='noopener noreferrer' target='_blank'><strong>MTBLS612</strong></a>.</p><p><strong>Aging fruit fly negative mode</strong> is reported in <a href='https://www.ebi.ac.uk/metabolights/MTBLS615' rel='noopener noreferrer' target='_blank'><strong>MTBLS615</strong></a>.</p>",
+                "submissionDate": "2018-01-27",
+                "publicReleaseDate": "2019-03-22",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Xiaotao",
+                        "lastName": "Shen",
+                        "email": "shenxt@sioc.ac.cn",
+                        "affiliation": "CAS",
+                        "address": "26 qiuyue road, pudong, shanghai, china",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+86 15821606469",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Student",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C75561"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Metabolomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "SWO",
+                            "file": "http://data.bioontology.org/ontologies/SWO",
+                            "version": "19",
+                            "description": "Software Ontology"
+                        },
+                        "termAccession": "http://edamontology.org/topic_3172"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "MetDNA",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "method development",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "metabolite annotation",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolic reaction network-based recursive metabolite annotation for untargeted metabolomics",
+                        "authorList": "Shen X, Wang R, Xiong X, Yin Y, Cai Y, Ma Z, Liu N, Zhu ZJ.",
+                        "pubMedID": "30944337",
+                        "doi": "10.1038/s41467-019-09550-x",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Age",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "age",
+                            "termSource": {
+                                "comments": [],
+                                "name": "BIOMODELS",
+                                "file": "http://data.bioontology.org/ontologies/BIOMODELS",
+                                "version": "3",
+                                "description": "BioModels Ontology"
+                            },
+                            "termAccession": "http://purl.org/obo/owl/PATO"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><div>Wild-type male fruit flies (FlyBase ID: FBst0005905) were cultured in standard conditions (temperature, 25 <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u2103</span></span></span></span></span></span>;\n humidity, 60%; and a 12 h light and 12 h dark cycle). At day 3 and day\n30, 100 fruit flies were collected and divided into 10 samples (10 flies\n in each sample). The fruit flies were killed with 75% ethanol. The\nheads of the fruit flies were collected and placed into microcentrifuge\ntubes. The tubes were immediately frozen with liquid nitrogen and stored\n at -80 <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u2103</span></span></span></span></span></span> until metabolite extraction. </div></span></span>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><div><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">The\n Drosophila aging samples were defrosted on ice then homogenized\n(Precellys 24, Bertin Technologies) with 200 </span></span><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u00b5</span></span></span></span></span></span></span></span></span></span>l of H2O and 20 ceramic\nbeads (diameter, 0.1 mm). A mixture of ACN:MeOH (1:1, v/v; 800 </span></span><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u00b5</span></span></span></span></span></span></span></span></span></span>l) was\nadded to the samples, which were then vortexed for 30 s, followed by\nincubation in liquid nitrogen for 1 min, and then thawed on ice. This\nvortex-freeze-thaw cycle was repeated three times. The samples were\nincubated for 1 hr at -20 <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u2103</span></span> for protein precipitation, followed by centrifugation at 16,200 x g and 4 <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u2103</span></span>\n for 15 min. The supernatant solution was removed and evaporated in a\nvacuum concentrator (Labconco, USA). A mixture of ACN:H2O (1:1, v/v; 100\n <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u00b5</span></span>l) was then added to reconstitute the dry extracts, followed by sonication (50 Hz, 4 <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"></span></span><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u2103</span></span></span></span>) for 10 min. The solutions were centrifuged at 16,200 x g and 4 <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u2103</span></span>\n for 5 min to precipitate the insoluble debris. Finally, the supernatant\n solutions were transferred to HPLC glass vials and stored at -80 <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c30=\"\" class=\"ng-star-inserted\">\u2103</span></span> prior to LC-MS/MS analysis.</span></span></div></span></span></span></span>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The metabolomics data acquisition was performed using a UHPLC system (1290 series, Agilent Technologies, USA) coupled to a quadruple time-of-flight mass spectrometer (TripleTOF 6600, AB SCIEX, USA). Waters ACQUITY UPLC BEH Amide column (particle size, 1.7 \u03bcm; 100 mm (length) \u00d7 2.1 mm (i.d.)) was used for the LC separation and the column temperature was kept at 25 \u00b0C. Mobile phase A was 25 mM ammonium hydroxide (NH4OH) + 25 mM ammonium acetate (NH4OAc) in water and B was ACN in positive mode (ESI+) and negative mode (ESI-), respectively. The flow rate was 0.3 ml/min and the gradient was set as follows: 0-1 min: 95% B, 1-14 min: 95% B to 65% B, 14-16 min: 65% B to 40% B, 16-18 min: 40% B, 18-18.1 min: 40% B to 95% B, 18.1-23 min: 95% B.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The metabolomics data acquisition mode was operated under information-dependent acquisition (IDA) mode. The source parameters were set as follows: ion source gas 1 (GAS1), 60 psi; ion source gas 2 (GAS2): 60 psi; curtain gas (CUR): 30 psi; temperature (TEM): 600 \u00b0C; declustering potential (DP): 60 V or -60 V in positive or negative modes, respectively; ion spray Voltage floating (ISVF): 5500 V or -4000 V in positive or negative modes, respectively. The TOF MS scan parameters were set as follows: mass range: 60-1200 Da; accumulation time: 200 ms; dynamic background subtract: check. The product ion scan parameters were set as follows: mass range: 25-1200 Da, accumulation time: 50 ms; collision energy (CE): 30 V or -30 V in positive or negative mode, respectively; collision energy spread (CES): 0; resolution: UNIT; charge state: 1 to 1; intensity: 100 cps; exclude isotopes within: 4 Da; mass tolerance: 10 ppm; maximum number of candidate ions to monitor per cycle: 6; exclude former target ions: for 4 seconds after 2 occurrences.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": " Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All the MS raw data (.wiff) files were converted to mzXML format and mgf format using ProteoWizard (version 3.0.6150, http://proteowizard.sourceforge.net/). The detailed parameters for mzXML and mgf format conversion are listed in the Supplementary section of the associated study paper to reproduce our results. Then the mzXML data were processed using R package \u201cXCMS\u201d (version 1.46.0,  https://bioconductor.org/packages/3.2/bioc/html/xcms.html). The detailed code for XCMS processing is provide in Supplementary section also. The final processing result generated a data matrix that consisted of the retention time (RT), mass-to-charge ratio (m/z) values and peak abundance. The 1st column, \u201cname\u201d, is the name of metabolic peaks; the 2nd column, \u201cmz\u201d, is the mass to charge ratio of metabolic peaks; the 3rd column, \u201crt\u201d, is the retention time (second) of metabolic peaks; and remaining columns are abundance of subject samples (see the help document of MetDNA at http://metdna.zhulab.cn/help).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><div><i>Annotation of initial seed metabolites </i><br></div><div>With\nthe imported MS1 peak table and MS2 data, MetDNA first matches the MS1\npeaks with\nMS2 spectra according to their m/z (\u00b1 25 ppm) and RT (\u00b1 10 s) values. If\n one MS1 peak matches multiple MS2\nspectra, the most abundant MS2 spectrum is selected. In MetDNA, the\nintensities\nof the top 10 abundant fragment ions are summed up to represent the\nabundance\nof MS2 spectra. If one uses MS-DIAL for the peak picking and outputting\nMS2\ndata (.msp format), then the MS1-MS2 match step is skipped by MetDNA.\nThe\ngenerated MS1/MS2 pairs are matched with our in-house standard spectral\nlibrary\nfor metabolite annotation. The match tolerance for the MS1 m/z value is\nset as \u00b1 25 ppm. We compared four different scoring methods to\nevaluate MS2 spectra similarity (see Supplementary Note 1), and found\nthat dot\nproduct score is an appropriate one. So the modified dot product (DP)\nfunction\nis used to score the similarity between the experimental spectrum and\nthe\nstandard spectrum in the library (eq. 1). The DP score ranges from 0-1,\nfrom no\nmatch to a perfect match. The intensities of the fragment ions in the\nMS2\nspectra are rescaled so that the highest fragment ion is set to 1. <br></div><div>\n(eq.\n1) &nbsp;&nbsp;<b>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">Dot product = </span>\n\n\n\n \u2211\n\n\n\n\n\n\n\n\n\n\n\n</b><b>\n\n\n\n\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">W<sub>S</sub>W<sub>E</sub></span>\n\n\n\n\n/ \u221a\u2211\n\n\n\n\n\n\n\n\n\n\n\n</b><b>\n\n\n\n\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">W<sub>S</sub><sup>2</sup>W<sub>E</sub><sup>2</sup></span></b>\n\n\n\n</div><div>where\nweighted intensity vector, W = [relative intensity of fragment ion]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<sup><span style=\"font-size:10.0pt;font-family:\n&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:\nEN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\" lang=\"EN-US\">n</span></sup>\n\n\n\n[m/z value]&nbsp;\n\n\n\n\n\n\n\n\n\n\n\n<sup><span style=\"font-size:10.0pt;font-family:\n&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:\nEN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\" lang=\"EN-US\">m</span></sup>\n\n\n\n, n = 1, m = 0; S =\nstandard, and E = experiment. DP scores from both forward and reverse matches\nare generated. Metabolite annotations with DP scores in either forward or\nreverse matches larger than 0.8 are kept. Usually, 50-200 metabolites are\nannotated using the standard spectral library. The annotations are further\nfiltered using the theoretical RTs of the metabolites (\u00b1 30%). The generation of the theoretical RTs is\nprovided below. The remaining annotations are used as initial seed metabolites\nin round 0 for MRN-based recursive annotation. The seed metabolites are defined\nas the annotated metabolites that provide their MS2 spectra as surrogate MS2\nspectra for the annotation of their reaction-paired neighbor metabolites. <br></div><div><br></div><div>\n\n<i>Annotation of isotope and adduct peaks </i><br></div><div>First,\nthe isotope peaks of seed metabolites are annotated by MetDNA. For each seed\nmetabolite, the program calculates the theoretical m/z and the relative\nintensities of isotope peaks from the formula using the binomial and McLaurin\nexpansion (R package Rdisop). Only four isotope peaks ([M] to [M+4]) are\ncalculated. The generated isotope peaks of seed metabolites are used to match\nall the MS1 peaks in the MS1 peak table according to the m/z, RT and relative\nintensity. The default tolerances for the m/z, RT and relative intensity are\nset as \u00b1 25 ppm, \u00b1 3 s, and \u00b1 500%, respectively. The large tolerance for the\nrelative intensity match is due to the inaccuracy of the experimental intensity\nratios for the isotope peaks.\n\nThe\nmatched isotope peaks are assigned the annotation scores (<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;\nline-height:150%;font-family:&quot;Arial&quot;,sans-serif\"></span></span></span></span></span><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;\nline-height:150%;font-family:&quot;Arial&quot;,sans-serif\"><sub>iso</sub></span></span></span><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;\nline-height:150%;font-family:&quot;Arial&quot;,sans-serif\"></span></span></span>)\nshown below. <br></div><div>(eq. 2) &nbsp;&nbsp;\n\n\n\n\n\n\n\n\n\n\n\n<b><span style=\"font-size:10.0pt;\nline-height:150%;font-family:&quot;Arial&quot;,sans-serif\">Score<sub>iso</sub> = Score<sub>m/z</sub>W<sub>m/z</sub>\n+ Score<sub>RT</sub>W<sub>RT</sub> + Score<sub>int</sub>W<sub>int</sub></span></b>\n\n\n\n\n\n</div><div>where Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;\nline-height:150%;font-family:&quot;Arial&quot;,sans-serif\"><sub>m/z</sub></span></span></span>\nrepresents the m/z match score and is calculated as follows: <br></div><div>(eq. 3) &nbsp;&nbsp;\n<b>\n\n\n\n\n\n\n\n\n\n\n</b><b>\n\n\n\n\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">Score<sub>m/z </sub>= 1- (|(mz<sub>E </sub>- mz<sub>T</sub>)\n* 10<sup>6</sup>/mz<sub>T</sub>|) / Tolerance<sub>m/z</sub></span></b>\n\n\n\n</div><div>\n\n\n\n\n\n\n\n\n\n\n\n<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">mz<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>E</sub></span></span></span><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><b><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"></span></b></span></span>\nand mz<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>T</sub></span> are the experimental m/z and theoretical m/z, respectively.\nThe Tolerance<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>M/Z</sub></span></span></span> represents the tolerance for the m/z match with a\ndefault value of 25 ppm.\n\nScore<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span>\nrepresents the retention time match score and is calculated as follows:\n\n(eq.4)&nbsp; &nbsp;<b>\n\n\n\n\n\n\n\n\n\n\n\n</b><b>\n\n\n\n\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">Score<sub>RT </sub>= 1- (|RT<sub>E </sub>- RT<sub>T</sub>|)\n/ Tolerance<sub>m/z</sub></span></b>\n\n\n\n</div><div>\nRT<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>E</sub></span></span></span><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><b><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"></span></b></span></span></span></span>\nand RT<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>T</sub></span></span></span><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"></span></span></span> are the experimental RT and theoretical RT, respectively.\nThe Toleranc<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">e<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span> represents the tolerance of RT match with a default\nvalue of 3 seconds.\n\nScore<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>int</sub></span></span></span></span></span>\nrepresents the relative intensity match score and is calculated as follows: <br></div><div>(eq.5)&nbsp; &nbsp;\n<b>\n\n\n\n\n\n\n\n\n\n\n</b><b>\n\n\n\n\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">Score<sub>int </sub>= 1- (|Int<sub>E </sub>- Int<sub>T</sub>)\n* 100/Int<sub>T</sub>|) <span style=\"mso-spacerun:yes\">&nbsp;</span>/ Tolerance<sub>int</sub></span></b>\n\n\n\n </div><div>\nInt<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>E</sub></span></span></span></span></span>\nand <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">Int<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>T</sub></span></span></span></span></span></span></span> are the experimental relative intensity and theoretical\nrelative intensity, respectively. The Tolerance<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>int</sub></span></span></span></span></span></span></span> represents the\nrelative intensity match tolerance with a default value of 500%.\n\nW<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>m/z</sub></span></span></span></span></span></span></span>, <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">W<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span></span></span></span></span> and <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">W<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>int</sub></span></span></span></span></span></span></span></span></span> represent the weights of Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>m/z</sub></span></span></span></span></span></span></span></span></span>, Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span></span></span></span></span> and Scor<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">e<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>int</sub></span></span></span></span></span></span></span></span></span>, respectively, and\nthe default values are 0.45, 0.45 and 0.1, respectively.\n\nSecond,\nMetDNA calculates the possible m/z values for the adduct peaks of seed\nmetabolites. The adduct table for different LC separations (HILIC or RP) and\npolarities (positive and negative) are listed in Supplementary Table 5 of the associated study paper. All the\npossible adduct peaks of the seed metabolites are then matched to the MS1 peak\ntable according to their m/z and RT. The default tolerances for the m/z and RT\nare \u00b1 25\nppm and \u00b1 3 s,\nrespectively. The annotations of the adduct peaks are also assigned annotation\nscores (Scoreadduct) as follows. <br></div><div>(eq. 6) &nbsp;&nbsp;\n<b>\n\n\n\n\n\n\n\n\n\n\n</b><b>\n\n\n\n\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">Score<sub>adduct</sub> = Score<sub>m/z</sub>W<sub>m/z</sub>\n+ Score<sub>RT</sub>W<sub>RT</sub></span></b>\n\n\n\n </div><div>where Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>m/z</sub></span></span></span></span></span></span></span></span></span>\nrepresents the m/z match score and is calculated as indicated in eq. 3. Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span></span></span></span></span>\nrepresents the retention time match score and is calculated using eq. 4. <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">W<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>m/z</sub></span></span></span></span></span></span></span></span></span> and <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">W<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span></span></span></span></span>\nrepresent the weights of Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>m/z</sub></span></span></span></span></span></span></span></span></span> and Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span></span></span></span></span>,\nrespectively, and the default values are 0.8, and 0.2, respectively. <br></div><div>Third,\nafter the annotation of the adduct peak, the isotope peak annotation for each\nadduct peak is also performed using the same procedures described above.</div><div>The\nannotation of in-source fragmentation is not included in MetDNA. But some\nin-source fragmentations can be well differentiated using the RT. For example,\nRTs for tryptamine and tryptophan are 325.1 s and 446.7 s, respectively, which\ngenerate a RT error of 37.2%. In MetDNA, true tryptamine and tryptamine from\nthe in-source fragmentation can be well differentiated using the RTs.\n\n&nbsp; <br></div><div><br>\n</div><div><i>Annotation of reaction-paired neighbor\nmetabolites </i><br></div><div>Two\nmetabolites in one reaction pair are neighbor metabolites. The seed metabolites\nprovide their experimental MS2 spectra as surrogate spectra to annotate their\nneighbor metabolites. First, the initial seed metabolites are mapped to MRN and\nretrieve their neighbor metabolites from MRN. The reaction step is defined as\nthe number of reactions between two metabolites. All the neighbor metabolites\nwith 1 reaction step are retrieved. The MS2 spectra of the seed metabolites are\nassigned to their corresponding neighbor metabolites as surrogate MS2 spectra.\nThe precursor m/z was calculated for\nthe neighbor metabolites according to the possible adduct (such as [M+H]+\nor [M+Na]+) in the LC condition (HILIC or RP) and ionization\npolarity. In addition, RTs for the neighbor metabolites were also predicted.\nFor each neighbor metabolite, the generated theoretical m/z, predicted RT (from\nRT prediction) and surrogate MS2 spectrum are matched to the experimental MS1\nm/z (default tolerance: \u00b1 25 ppm), RT (default\ntolerance: \u00b1 30%),\nand MS2 spectrum (default tolerance: 0.5). If one seed metabolite leads to no\nannotation of a neighbor metabolite with 1 reaction step, then neighbor\nmetabolites with 2 reaction steps are further retrieved. The default value of\nthe maximum reaction step is 3. The annotations of neighbor metabolites are\nassigned the annotation scores shown below. <br></div><div>(eq. 7) &nbsp;&nbsp;<b>\n\n\n\n\n\n\n\n\n\n\n\n</b><b>\n\n\n\n\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">Score<sub>iden</sub> = Score<sub>m/z</sub>W<sub>m/z</sub>\n+ Score<sub>RT</sub>W<sub>RT</sub> + Score<sub>spec</sub>W<sub>spec</sub></span></b>\n\n\n\n </div><div>where Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>m/z</sub></span></span></span></span></span></span></span></span></span>, <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">W<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>m/z</sub></span></span></span></span></span></span></span></span></span> and <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">W<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span></span></span></span></span> are the same as in eq. 2. Score<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span></span></span></span></span>\nis calculated as follows: <br></div><div>(eq.8)&nbsp; &nbsp;<b>\n\n\n\n\n\n\n\n\n\n\n\n</b><b>\n\n\n\n\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">Score<sub>RT </sub>= 1- (|RT<sub>E </sub>- RT<sub>T</sub>)\n* 100/RT<sub>T</sub>|) <span style=\"mso-spacerun:yes\">&nbsp;</span>/ Tolerance<sub>RT</sub></span></b>\n\n\n\n</div><div><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">RT<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>E</sub></span></span></span></span></span></span></span></span></span> and <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">RT<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>T</sub></span></span></span></span></span></span></span></span></span></span></span> are the experimental RT and theoretical RT, respectively.\nThe Tolerance<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span></span></span></span></span></span></span> represents the tolerance of RT match with a default\nvalue of 30%.\n\nScorespec\nis the MS2 spectral match score, which is scored using a dot-product function\n(eq. 1) with some modifications. If the m/z value of seed metabolite is larger\nthan the neighbor metabolite, the fragment ions in the surrogate MS2 spectrum\nwith m/z larger than that of the neighbor metabolite are removed. Vice versa,\nthe fragment ions in the experimental MS2 spectrum with m/z larger than that of\nseed metabolite are also removed. Wspec is the weight of Scorespec.\nThe default values of W<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>m/z</sub></span></span></span></span></span></span></span></span></span></span></span>, <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">W<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>RT</sub></span></span></span></span></span></span></span></span></span></span></span></span></span> and <span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\">W<span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span _ngcontent-c15=\"\" class=\"ng-star-inserted\"><span _ngcontent-c32=\"\" class=\"ng-star-inserted\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;\nmso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><sub>spec</sub></span></span></span></span></span></span></span></span></span></span></span></span></span> are\n0.25, 0.25 and 0.5, respectively. The annotations of each MS1 peak are ranked\nby Scoreiden. After the annotation of neighbor metabolites, isotope\npeak annotation is also performed for each neighbor metabolite using the same\nprocedures described above.\n\n&nbsp; <br></div><div><i><br></i></div><div><i>Selection of seed metabolites and\nrecursive annotation </i><br></div><div>After\none round of annotation, new seed metabolites are selected from the annotated\nneighbor metabolites to start recursive annotation. Peaks with new annotations\nare selected as seed metabolites. MetDNA then repeats the neighbor metabolite\nidentification and isotope peak annotation until there are no new seed\nmetabolites available for the next round of annotation.\n\n&nbsp; <br></div><div><br></div><div><i>Confidence assignment </i><br></div><div>\nMetDNA\nuses a multi-step strategy to evaluate the confidence of the metabolite\nannotation. First, all the annotated MS1 peaks are grouped according to their\nannotation and RT. The MS1 peaks with the same metabolite annotations are\ngrouped together and further divided into different peak groups according to\ntheir RT. The peak group is defined as a set of peaks (e.g., monoisotope peak,\nisotope peaks, and adduct peaks) with the same annotation and in the same RT\nwindow (default is 3 seconds). If one peak has multiple annotations, it may\nbelong to multiple peak groups. Similarly, one metabolite may also belong to\nmultiple peak groups. The confidence is then assigned to each peak group and\nall MS1 peaks in the group according to the following rules: <br></div><div>1)&nbsp;&nbsp;&nbsp;&nbsp;\nGrade 1: at least one MS1 peak\nin the peak group is annotated through the standard spectral library (or\ninitial seed metabolite); <br></div><div>2)&nbsp;&nbsp;&nbsp;&nbsp;\nGrade 2: do not meet rule 1,\nand there are isotope peaks available in the peak group; <br></div><div>3)&nbsp;&nbsp;&nbsp;&nbsp;\nGrade 3: do not meet rules 1\nand 2, and there are reliable adduct peaks in the peak group, such as [M+H]+,\n[M+Na]+ or [M+NH4]+ for positive mode, and\n[M-H]-, [M+Cl]- or [M+CH3COO]- for\nnegative mode, respectively; and <br></div><div>\n4)&nbsp;&nbsp;&nbsp;&nbsp;\nGrade 4: the remaining peak\ngroups that do not meet rules 1, 2, or 3.\n\n&nbsp; <br></div><div><br></div><div><i>Redundancy removal </i><br></div><div>Annotation\nredundancy includes peak redundancy and metabolite redundancy. Peak redundancy\nis defined as the total number of metabolite annotations divided by the total\nnumber of peaks with annotations, that is, the number of metabolites per peak.\nBy contrast, the metabolite redundancy is defined as the total number of peak\ngroups with annotation divided by the total number of metabolite annotations,\nthat is, the number of peak groups per metabolite. MetDNA then removes the\nannotation redundancy according to the confidence levels of the peak group and\nthe peaks in the group. First, if one metabolite matches multiple peak groups,\nthe program removes the annotation from all the peaks in the peak groups with\ngrade 4. However, if all of the matched peak groups are grade 4, all the\nannotations are maintained. Second, if one peak matches multiple metabolites,\nthe annotations with the highest grade are kept. After the removal of the\nannotation redundancy, the constitution of the peak groups may change. The\nconfidence assignment is then repeated, followed by a repetition of the\nredundancy removal process, which is also a recursive process. The recursive\nprocess continues until the annotation redundancy remains unchanged. The\nannotation redundancy is calculated as the mean value of the peak redundancy\nand the metabolite redundancy.\n\n&nbsp; <br></div><div><i><br></i></div><div><i>Validation\nof accuracy </i><br></div><div>We\nsystematically compared the annotation results from the same biological samples\nbetween MetDNA and other approaches. Each validation experiment represented\ndifferent confidence levels and different sizes of chemical search space. For\nthe first experiment, a total of 200 (167 metabolites included in MRN) chemical\nstandards were added into mouse liver samples as spike-in. Manual analysis of\nthe experimental data with the comparison to the data of chemical standards\n(m/z, RT, and MS2 spectra) demonstrated that 113 and 137 metabolites were\ndetected and identified in positive and negative modes, respectively, which\nwere considered as the level 1 identification according to MSI. As a\ncomparison, MetDNA successfully annotated 89 out of 113 (78.8%) and 113 out of\n137 (82.5%) metabolites in positive and negative modes, respectively,\nindicating a high annotation coverage. All the MS2 spectra of 200 standards\nwere intentionally removed from the standard spectral library, therefore,\nexcluding them as the initial seed metabolites. Compared to chemical standards,\nwe divided MetDNA annotation results into three categories: correct, isomeric\nand erroneous annotations among top n ranked candidates, which is similar to\nother metabolite annotation tools. In our study, top 3 candidates were used to\nevaluate the performance of annotation except the specific statement. In MetDNA\noutput for positive mode, the percentage of the correct annotation was 77.5%\namong top 3 candidates, whereas isomer and erroneous annotations were only 12.4%\nand 10.1% among top 3 candidates, respectively. <br></div><div>For\nthe second validation experiment, we first confirmed the structures of 107 seed\nmetabolites using chemical standards in positive mode of the Drosophila aging dataset, which were\nalso considered as the MSI level 1 identification. We randomly chose 30% of the\nmetabolites as seeds, and asked whether MetDNA could correctly annotate the\nrest 70% metabolites. This experiment has been repeated 10 times. As a result,\na coverage of 90.9% of metabolites could be successfully annotated, which means\nthat 90.9% of metabolites can be annotated by MetDNA. For the annotated\nmetabolites, the percentages for the correct, isomeric, and erroneous\nannotations among top 3 candidates were 81.1%, 6.3% and 12.6%, respectively.\nSimilar results were also obtained for negative mode of Drosophila and Escherichia\ncoli datasets. <br></div><div>For the third validation experiment, we employed the\nexternal NIST17 and MassBank [http://www.massbank.jp] spectral\ndatabases. As noted, there are 2,608 and 1,464 metabolites in NIST and MassBank\nacquired on Q-TOF instruments, respectively. A total of 279 and 206 metabolites\nwere identified from two spectral databases in positive and negative modes,\nrespectively. The low ratio may be due to the insufficient measurement of\nmetabolites in libraries on the particular LC-MS condition, or uncharacterized\nspectral variations across different LC-MS instruments and laboratories (i.e., between the experimental data and\nlibrary data).Consistently, MetDNA successfully annotated 156 out of 279\n(55.9%) and 128 out of 206 (62.1%) metabolites in positive and negative modes,\nrespectively. The percentage for the correct annotation among top 3 candidates\nwas 74.0%, whereas isomer and erroneous annotations were about 4.5% and 21.5%,\nrespectively. Collectively, these validation experiments demonstrated that the\noverall performance of MetDNA attains approximately 70-80% for correct\nannotations among top 3 candidates and 80-90% for correct formula annotation\n(correct and isomer) among top 3 candidates. In addition, the correct annotation rate among top 3\ncandidates should be considered as true positive\nrate, which was 70-80% in different validation experiments. Meanwhile, the\nerroneous annotation among top 3 candidates\nrate should be considered as the false positive rate, which was 10-20% in\ndifferent validation experiments.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</div></span></span>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "TripleTOF 6600 (AB Sciex)",
+                        "filename": "a_MTBLS612_aging_fruite_fly_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

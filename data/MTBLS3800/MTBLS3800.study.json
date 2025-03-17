@@ -1,0 +1,534 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2025-01-24T15:03:40.551701",
+        "statusUpdateTime": "2025-01-24T15:03:40.551701",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS3800",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-11-15",
+        "publicReleaseDate": "2025-01-24",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "COVIDO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MONDO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "DOID",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS3800",
+                "filename": "s_MTBLS3800.txt",
+                "title": "Metabolomics study of COVID-19 patients in four different clinical stages",
+                "description": "<p>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) is the coronavirus strain causing the respiratory pandemic COVID-19 (coronavirus disease 2019). To understand the pathobiology of SARS-CoV-2 in humans it is necessary to unravel the metabolic changes that are produced in the individuals once the infection has taken place. The goal of this work is to provide new information about the altered biomolecule profile and with that the altered biological pathways of patients in different clinical situations due to SARS-CoV-2 infection. This is done via metabolomics using HPLC-QTOF-MS analysis of plasma samples at COVID-diagnose from a total of 145 adult patients, divided into different clinical stages based on their subsequent clinical outcome (25 negative controls (non-COVID); 28 positive patients with asymptomatic disease not requiring hospitalization; 27 positive patients with mild disease defined by a total time in hospital lower than 10 days; 36 positive patients with severe disease defined by a total time in hospital over 20 days and/or admission at the ICU; and 29 positive patients with fatal outcome or deceased). Moreover, follow up samples between 2 and 3 months after hospital discharge were also obtained from the hospitalized patients with mild prognosis. The final goal of this work is to provide biomarkers that can help to better understand how the COVID-19 illness evolves and to predict how a patient could progress based on the metabolites profile of plasma obtained at an early stage of the infection. In the present work, several metabolites were found as potential biomarkers to distinguish between the end-stage and the early-stage (or non-COVID) disease groups. These metabolites are mainly involved in the metabolism of carnitines, ketone bodies, fatty acids, lysophosphatidylcholines/phosphatidylcholines, tryptophan, bile acids and purines, but also omeprazole. In addition, the levels of several of these metabolites decreased to \u201cnormal\u201d values at hospital discharge, suggesting some of them as early prognosis biomarkers in COVID-19 at diagnose.</p>",
+                "submissionDate": "2021-11-15",
+                "publicReleaseDate": "2025-01-24",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Alberto",
+                        "lastName": "Vald\u00e9s",
+                        "email": "a.valdes@csic.es",
+                        "affiliation": "Insituto de Investigaci\u00f3n en Ciencias de la Alimentaci\u00f3n (CIAL-CSIC)",
+                        "address": "C\\Nicol\u00e1s Cabrera, 9. Campus Cantoblanco. 28049 Madrid. Spain",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "0034910017821",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "COVID-19",
+                        "termSource": {
+                            "comments": [],
+                            "name": "DOID",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/DOID_0080600"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolomics study of COVID-19 patients in four different clinical stages.",
+                        "authorList": "Vald\u00e9s A, Moreno LO, Rello SR, Ordu\u00f1a A, Bernardo D, Cifuentes A.",
+                        "pubMedID": "35102215",
+                        "doi": "10.1038/s41598-022-05667-0",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "COVID-19 Clinical Stage",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease stage",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000278"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A total of 145 adult patients, over 18 years, who attended the A&amp;E unit at 'Hospital Cl\u00ednico Universitario de Valladolid' (Valladolid, Spain) during the COVID-19 outbreak between March and April 2020 were recruited following ethics approval by the local ethics committee (Comit\u00e9 \u00e9tico de investigaci\u00f3n con medicamento -CEIm- de Valladolid este; PI20-1716). All research was performed in accordance with relevant guidelines/regulations. Informed consent was obtained from all participants. Samples from all patients were taken at hospital admission (without any standard of care) and, based on the medical history, none of the patients were treated with any drug for COVID-19-related symptoms.</p><p><br></p><p>Patients included 25 negative controls (non-COVID) who attended the hospital for non-COVID related issues (52% males, mean age 66.4\u2009\u00b1\u20099.6 years) and 120 COVID-19 patients as confirmed by a positive result for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection by polymerase chain reaction on a nasopharyngeal sample. Of them, 28 were asymptomatic and did not require hospital admission (50% male, 65.2\u2009\u00b1\u200915.2 years); 27 had mild disease defined by a total time in hospital lower than 10 days (44% male, 65.3\u2009\u00b1\u200911.5 years); 36 had severe disease, defined by a total time in hospital over 25 days and/or admission at the ICU (66.7% male, 65.3\u2009\u00b1\u200911.5 years); and 29 patients with fatal outcome or deceased (45% male, 71.6\u2009\u00b1\u20098.4 years). Last, follow up samples between 2 and 3 months after hospital discharge were also obtained from the hospitalized patients with mild prognosis. Detailed demographics, co-morbidities and treatments of these patients can be found in Table S16 in the paper associated with this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Plasma samples from all patients were thaw on ice and vortex for 30 s. Thereafter, 100 \u00b5L of each sample was taken, 400 \u00b5L of methanol at -20 \u00b0C was added, and the mixture was vortexed for 1 min and incubated on ice for 10 min. Samples were then centrifuged at 14, 8000 rpm for 20 min at 4 \u00b0C, and 300 \u00b5L of the supernatant was collected and evaporated using SpeedVac (Savant SPD1030, Thermo Scientific, USA). Dried samples were reconstituted in 100 \u00b5L of 80% methanol, mixed for 1 min, and centrifuged again at 14, 8000 rpm for 5 min at 4 \u00b0C. In total 80 \u00b5L of the new supernatant was collected and stored at -80 \u00b0C until HPLC-MS/MS analysis.</p><p><br></p><p>Quality control was assured by: i) randomization of the sequence; ii) procedure blank analysis; iii) injection of pool samples to equilibrate the LC-MS system before and after of the different sequence of samples; and iv) injection of standard mixture for checking the retention time, peak shape, intensity and mass accuracy.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Aliquots of 2 \u03bcL (for both ESI (+) and ESI (-) modes) were injected into a LC-MS/MS system consisting of a quadrupole Q-TOF series 6540 coupled to a HPLC (model 1290) both from Agilent Technologies (Germany), equipped with an Agilent Jet Stream (AJS) thermal orthogonal ESI source. MS control, data acquisition, and data analysis were carried out using the Agilent Mass Hunter Qualitative Analysis software (B.10.0). For the chromatographic separation, an Eclipe Plus C18 analytical column (100 x 2.1 mm, particle size 1.8 \u03bcm) with a C18 guard column (0.5 cm x 2.1 mm, particle size 1.8 \u03bcm), both from Agilent (Germany) were employed. The column temperature was held at 40 \u00b0C and the flow rate was set to 0.5 mL/min. Both ESI (+) and ESI (-) modes used water (LC-MS grade) as mobile phase (A) and ACN as mobile phase (B), and formic acid was used as mobile phase modifier (0.1% for ESI (+) and 0.01% for ESI (-)). The gradient started at 0 min with 0% (B), 0-30% (B) in 7 min, 30-80% (B) in 2 min, 80-100% (B) in 2 min, 100% (B) in 2 min, and 3 min of post-time to come back to initial conditions.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The mass spectrometer was operated using the following parameters: capillary voltage of 3000&nbsp;V (+) or -3000&nbsp;V (-), and with a range from 25 to 1100 m/z. Nebulizer pressure was set at 40 psig and the drying gas flow rate was fixed to 8\u202fL/min and 300&nbsp;\u00b0C. The sheath gas flow was 11\u202fL/min at 350&nbsp;\u00b0C. 110&nbsp;V was chosen for the fragmentor voltage, whereas the skimmer and octapole voltage were 45&nbsp;and 750&nbsp;V, respectively. MS/MS analyses were performed employing the auto MS/MS mode using 5 precursor per cycle, dynamic exclusion after two spectra (released after 0.5&nbsp;min), and collision energies of 20 and 40&nbsp;V. For proper mass accuracy, spectra were corrected using ions m/z 121.0509 (C5H4N4) and 922.0098 (C18H18O6N3P3F24) in ESI (+), and m/z 119.0363 (C5H4N4) and 966.0007 (C18H18O6N3P3F24\u2009+\u2009formate) in ESI (-), simultaneously pumped into the ionization source.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>LC-MS raw data files were firstly converted to ABF format using Reifycs Abf (Analysis Base File) Converter (accessible at: http://www.reifycs.com/AbfConverter/). Data processing was then performed using MS-DIAL (v. 4.12) software for deconvolution, peak picking, alignment and identification using the following parameters: retention time begin, 0 min; retention time end, 14 min; mass range begin, 0 Da; mass range end, 1100 Da; MS1 tolerance, 0.01 Da; smoothing level, 3 scans; minimum peak width, 5 scans; minimum peak height, 1000 amplitude; mass slice width, 0.1 Da; sigma window value for deconvolution, 0.1; accurate mass tolerance for MSP library, 0.01 Da; identification score cut off for MSP library, 80%; retention time tolerance for alignment, 0.1 min; MS1 tolerance for alignment, 0.015 Da. Peak height calculation was performed by combining data for different detected molecular species for each particular compound ([M+H]+, [M+NH4]+, [M+Na]+, [M+K]+, [2M+H]+, [2M+NH4]+, [2M+Na]+, [2M+K]+\u2009adducts in positive mode, and [M-H]-, [2M-H]-, [M+Cl]-, [M+FA-H]- adducts in negative mode).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The MSP file used for annotation was generated by combining MS/MS spectra from NIST20 MS/MS database, the LipidBLAST mass spectral library, and the MassBank of NorthAmerica database (MoNA, available at https://mona.fiehnlab.ucdavis.edu/downloads). All metabolite were annotated following the Metabolomics Standard Initiative (MSI) guidelines as MSI level 2a (metabolites with precursor m/z and MS/MS spectral library matching).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS3800_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS3800_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

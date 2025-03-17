@@ -1,0 +1,614 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-05-11T14:25:46.487000",
+        "statusUpdateTime": "2017-05-11T14:25:46.487000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS290",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-12-11",
+        "publicReleaseDate": "2017-05-11",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "80",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [
+                    {
+                        "name": "Study Funding Agency",
+                        "value": "Grant Agency of the Czech Republic; Ministry of Education, Youth and Sports of the Czech Republic; IGA MZCR; IGUP Olomouc"
+                    },
+                    {
+                        "name": "Study Grant Number",
+                        "value": "15-34613L; CZ.1.07/2.3.00/20.0170; LF 2015 015; NT12218"
+                    }
+                ],
+                "identifier": "MTBLS290",
+                "filename": "s_MTBLS290.txt",
+                "title": "Normalization techniques for PARAFAC modeling of urine metabolomics data",
+                "description": "One of the body fluids often used in metabolomics studies is urine. The peak intensities of metabolites in urine are affected by the urine history of an individual resulting in dilution differences. This requires therefore normalization of the data to correct for such differences. Two normalization techniques are commonly applied to urine samples prior to their further statistical analysis. First, AUC normalization aims to normalize a group of signals with peaks by standardizing the area under the curve (AUC) within a sample to the median, mean or any other proper representation of the amount of dilution. The second approach uses specific end-product metabolites such as creatinine and all intensities within a sample are expressed relative to the creatinine intensity. Another way of looking at urine metabolomics data is by realizing that the ratios between peak intensities are the information-carrying features. This opens up possibilities to use another class of data analysis techniques designed to deal with such ratios: compositional data analysis. In this approach special transformations are defined to deal with the ratio problem. In essence, it comes down to using another distance measure than the Euclidian Distance that is used in the conventional analysis of metabolomics data. We will illustrate using this type of approach in combination with three-way methods (i.e. PARAFAC) to be used in cases where samples of some biological material are measured at multiple time points. Aim of the paper is to develop PARAFAC modeling of three-way metabolomics data in the context of compositional data and compare this with standard normalization techniques for the specific case of urine metabolomics data.",
+                "submissionDate": "2015-12-11",
+                "publicReleaseDate": "2017-05-11",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Al\u017eb\u011bta",
+                        "lastName": "Gardlo",
+                        "email": "alzbetagardlo@gmail.com",
+                        "affiliation": "Department of Mathematical Analysis and Applications of Mathematics,Faculty of Science, Palacky University, Olomouc, Czech Republic ",
+                        "address": "Department of Mathematical Analysis and Applications of Mathematics, Faculty of Science, Palacky University,  17. listopadu 12, 771 46 Olomouc, Czech Republic",
+                        "fax": "",
+                        "midInitials": "-",
+                        "phone": "+420 585634605",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator role",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Age",
+                        "lastName": "Smilde",
+                        "email": "A.K.Smilde@uva.nl",
+                        "affiliation": "Biosystems Data Analysis, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, The Netherlands ",
+                        "address": "Biosystems Data Analysis, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, The Netherlands",
+                        "fax": "",
+                        "midInitials": "K",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Karel",
+                        "lastName": "Hron",
+                        "email": "hronk@seznam.cz",
+                        "affiliation": "Department of Mathematical Analysis and Applications of Mathematics,Faculty of Science, Palacky University, Olomouc, Czech Republic ",
+                        "address": "Department of Mathematical Analysis and Applications of Mathematics, Faculty of Science, Palacky University,  17. listopadu 12, 771 46 Olomouc, Czech Republic",
+                        "fax": "",
+                        "midInitials": "-",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Marcela",
+                        "lastName": "Hrd\u00e1",
+                        "email": "marcela.zupkova@gmail.com",
+                        "affiliation": "Laboratory of Metabolomics, Institute of Molecular and Translational Medicine, University Hospital Olomouc, Palacky University Olomouc, Olomouc, Czech Republic",
+                        "address": "Laboratory of Metabolomics, Institute of Molecular and Translational Medicine, University Hospital Olomouc, Palacky University Olomouc, Hn\u011bvot\u00ednsk\u00e1 5, 779 00 Olomouc, Czech Republic",
+                        "fax": "",
+                        "midInitials": "-",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "researcher",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Radana",
+                        "lastName": "Karl\u00edkov\u00e1",
+                        "email": "radana.karlikova@gmail.com",
+                        "affiliation": "Laboratory of Metabolomics, Institute of Molecular and Translational Medicine, University Hospital Olomouc, Palacky University Olomouc, Olomouc, Czech Republic ",
+                        "address": "Laboratory of Metabolomics, Institute of Molecular and Translational Medicine, University Hospital Olomouc, Palacky University Olomouc, Hn\u011bvot\u00ednsk\u00e1 5, 779 00 Olomouc, Czech Republic",
+                        "fax": "",
+                        "midInitials": "-",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "researcher",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Tom\u00e1\u0161",
+                        "lastName": "Adam",
+                        "email": "tomasadam@gmail.com",
+                        "affiliation": "Department of Clinical Biochemistry, University Hospital Olomouc, Olomouc, Czech Republic; Laboratory of Metabolomics, Institute of Molecular and Translational Medicine, University Hospital Olomouc, Palacky University Olomouc, Olomouc, Czech Republic",
+                        "address": "Department of Clinical Biochemistry, University Hospital Olomouc, Olomouc, Czech Republic; Laboratory of Metabolomics, Institute of Molecular and Translational Medicine, University Hospital Olomouc, Palacky University Olomouc,  Hn\u011bvot\u00ednsk\u00e1 5, 779 00 Olomouc, Czech Republic",
+                        "fax": "",
+                        "midInitials": "-",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Parallel factor analysis",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Compositional data",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "creatinine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "80",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_16737"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Area Under Curve",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C64774"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Normalization techniques for PARAFAC modeling of urine metabolomics data",
+                        "authorList": "Gardlo A, Smilde AK, Hron K, Hrd\u00e1 M, Karl\u00edkov\u00e1 R, Adam T",
+                        "pubMedID": "",
+                        "doi": "10.1007/s11306-016-1059-9",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sample collection time",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sample type",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C43359"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Urine samples were collected from newborns with perinatal asphyxia in five time points (7, 28, 52, 76 and 100 hr after the birth) and stored at -80 \u00b0C. At the time of analysis, the samples were thawed on ice, centrifuged at 10000 x g for 10 min at 4 \u00b0C and diluted with LC-MS grade water to contain the same concentration of creatinine. A small volume of each sample was pooled and used as quality control samples (QC).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Not applicable",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The liquid chromatography was carried out on Dionex UltiMate 3000 RS system (Sunnyvale, CA, USA). The separation was performed on aminopropyl LUNA column (100 x 2 mm, 3 \u00b5m particle size) protected by guard column (4 x 2 mm ID) of the same material (Phenomenex, Torrance, USA). The mobile phase A consisted of 20 mM ammonium acetate at pH 9.75 and mobile phase B consisted of acetonitrile. The gradient was: 0 \u2013 7 min: 95% - 10% B; 7 \u2013 13 min: 10% B; 13 \u2013 13.5 min: 10% - 95% B; 13.5\u201317 min: 95% B. The column was maintained at 35 \u00b0C and the flow rate was 0.3 ml/min. The injection volume was 1-10 \u00b5l.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The liquid chromatography was coupled to triple quadrupole QTRAP 5500 tandem mass spectrometer (AB Sciex, Foster City, CA, USA).The setting of mass spectrometer was as follows: curtain gas: 30 psi; ion spray voltage: \u00b1 4500 V; both ion source gases: 40 psi and source temperature: 400 \u00b0C. Multiple reaction monitoring mode in both positive and negative ionisation mode was used for detection of 354 metabolites, which are typical for biological matrices. Compound parameters as collision energy, declustering potential, entrance potential and collision cell exit potential were previously optimized on standards. The equipment was controlled by the Analyst 1.6.2 software.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data were processed in the R software[1]; in addition to standard packages also those on PARAFAC modelling[2][3] and analysis of compositional data[4] were employed. At first, quality control-based robust LOESS (LOcal regrESSion) signal correction method was applied[5], and consequently also zero replacement according to[6] in order to enable further processing based on logarithmic calculations. Finally, both the standard log-transformation and the centred logratio (clr) transformation were applied on the data structure.\n</p>\nRef:</br>\n[1] R Core Team (2014). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. (http://www.R-project.org/).</br>\n[2] Leibovici, D. and Sabatier, R. (1998). A singular value decomposition of k-way array for a principal component analysis of multiway data, pta-k. Linear Algebra Appl, 269:307-329. doi:10.1016/S0024-3795(97)81516-9</br>\n[3] Giordani, P., Kiers, H., and Del Ferraro, M. (2014). Three-way component analysis using the R package ThreeWay. doi: 10.18637/jss.v057.i07 J Stat Softw, 57(7):1-23.</br>\n[4] Templ, M., Hron, K., and Filzmoser, P. (2011). robCompositions: an R-package for robust statistical analysis of compositional data. doi:10.1002/9781119976462.ch25</br>\n[5] Dunn, W. B., Broadhurst, D., Begley, P., Zelena, E., Francis-McIntyre, S., Anderson, N., Brown, M., Knowles, J., Halsall, A., Haselden, J., Nicholls, A. W., Wilson, I., Kell, D., and Goodacre, R. (2011). Procedures for large-scale metabolic profiling of serum and plasma using gas chromatography and liquid chromatography coupled to mass spectrometry. Nat Protoc. 2011 Jun 30;6(7):1060-83. doi:10.1038/nprot.2011.335. PMID:21720319</br>\n[6] Mart\u00edn-Fern\u00e1ndez, J. A., Palarea-Albaladejo, J., and Olea, R. A. (2011). Dealing with zeros. In Pawlowsky-Glahn, V. and Buccianti, A., editors, Compositional Data Analysis: Theory and Applications, pages 43-58. Wiley, Chichester.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Multiple reaction monitoring mode in both positive and negative ionisation mode was used for detection of 354 metabolites, which are typical for biological matrices. Compound parameters as collision energy, declustering potential, entrance potential and collision cell exit potential were previously optimized on standards. The equipment was controlled by the Analyst 1.6.2 software (AB Sciex, USA). Data were quantified using MultiQuant 3.0 software (AB Sciex, USA)and statistically evaluated in R programme language with statistics packages.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "API 5500 QTRAP (AB Sciex)",
+                        "filename": "a_MTBLS290_parafac_modeling_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

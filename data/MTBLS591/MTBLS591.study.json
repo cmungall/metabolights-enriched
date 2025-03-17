@@ -1,0 +1,488 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-02-09T14:38:41.727000",
+        "statusUpdateTime": "2018-02-09T14:38:41.727000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "D:\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS591",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-12-26",
+        "publicReleaseDate": "2018-02-09",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "BRO",
+                "file": "http://data.bioontology.org/ontologies/BRO",
+                "version": "14",
+                "description": "Biomedical Resource Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS591",
+                "filename": "s_MTBLS591.txt",
+                "title": "A Prototypic Small Molecule Database for Bronchoalveolar Lavage-Based Metabolomics",
+                "description": "The analysis of bronchoalveolar lavage fluid (BALF) using mass spectrometry-based metabolomics can provide insight into lung diseases, such as asthma. However, the important step of compound identification is hindered by the lack of a small molecule database that is specific for BALF. Here we describe prototypic, small molecule databases derived from human BALF samples (n=117). Human BALF was extracted into lipid and aqueous fractions and analyzed using liquid chromatography mass spectrometry. Following filtering to reduce contaminants and artifacts, the resulting BALF databases (BALF-DBs) contain 11,737 lipid and 658 aqueous compounds. Over 10% of these were found in 100% of samples. Testing the BALF-DBs using nested test sets produced a 99% match rate for lipids and 47% match rate for aqueous molecules. Searching an independent dataset resulted in 45% matching to the lipid BALF-DB compared to < 25% when general databases are searched. Overall, the BALF-DBs can reduce false positives and improve confidence in compound identification compared to when general databases are used.",
+                "submissionDate": "2017-12-26",
+                "publicReleaseDate": "2018-02-09",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Nichole",
+                        "lastName": "Reisdorph",
+                        "email": "Nichole.Reisdorph@ucdenver.edu",
+                        "affiliation": "UC Denver Anschutz Medical Campus",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Director",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Metabolomics Facility",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BRO",
+                            "file": "http://data.bioontology.org/ontologies/BRO",
+                            "version": "14",
+                            "description": "Biomedical Resource Ontology"
+                        },
+                        "termAccession": "http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Metabolomics_Facility"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Chronic Obstructive Pulmonary Disease",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "28",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C3199"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Bronchoalveolar Lavage Fluid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "28",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C13195"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Sample Specific Databases",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lipid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_18059"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A Prototypic Small Molecule Database for Bronchoalveolar Lavage-Based Metabolomics",
+                        "authorList": "Scott Walmsley, Charmion Cruickshank-Quinn, Kevin Quinn, Xing Zhang, Irina Petrache, Russell P Bowler, Richard Residorph, Nichole Reisdorph",
+                        "pubMedID": "29664467",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submission",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "28",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25695"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "COPD GOLD Stage",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "FEV1 Stage",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "BALF was collected from subjects from the SPIROMICS cohort (n = 117) as previously described [1] for use in database development.</br></br>\nRef:</br>\n[1] Cruickshank-Quinn C, Powell R, Jacobson S, Kechris K, Bowler RP, Petrache I, & Reisdorph N. Metabolomic similarities between bronchoalveolar lavage fluid and plasma in humans and mice. Sci Rep. 2017;7(1):5108",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For the BALF-DB development, 140 \u00b5l of BALF from the SPIROMICS cohort were prepared using protein precipitation with 560 \u00b5l of methanol to pellet proteins and extract the metabolites in the supernatant. The supernatant was split into two aliquots: 165 \u00b5l for HILIC analysis (hydrophilic/aqueous fraction) and 495 \u00b5l for C18 analysis (hydrophobic/lipid fraction). The aqueous fraction was dried down in a speedvac at 45 \u00b0C and reconstituted in 30 \u00b5l of 95:5 water:acetonitrile. The lipid fraction was reconstituted in 90 \u00b5l of methanol.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For all samples, including blanks, the BALF lipid fraction was resolved using the same C18 reverse phase chromatography. The separations used an Agilent Zorbax Rapid Resolution HD (RRHD) SB-C18, 1.8 micron (2.1 x 100 mm) analytical column with an Agilent Zorbax SB-C18, 1.8 micron (2.1 x 5 mm) guard column and used an Agilent 1290 series high performance liquid chromatography (HPLC) pump with an 8 \u00b5l injection volume.</br>\nFor all samples, analysis of the aqueous fraction was by HILIC chromatography using an Agilent 1290 series pump with a Phenomenex Kinetex HILIC, 2.6 \u00b5m, 100 \u00c5, 2.1x50 mm analytical column and an Agilent Zorbax Eclipse Plus-C8 Narrow Bore Guard Column, 2.1 x 12.5 mm, 5 micron guard column.  Sample injection volume was 1 \u00b5l.</br>\nA flow rate of 0.6 ml/min was used with the following mobile phases: mobile phase A was 50% ACN with pH 5.8 ammonium acetate, and mobile phase B was 90% ACN with pH 5.8 ammonium acetate. Gradient elution was as follows: 0-2 minutes 100% B, 2-2.1 minutes 100-90% B, 2.1-8.6 minutes 90-50% B, 8.6-8.7 minutes 50-0% B, 8.7-14.7 0% B, 14.7-14.8 minutes 0-100% B, 14.8-24.8 minutes 100%B.  The auto sampler tray temperature was set to 4 \u00b0C and column temperature was 20 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data acquisition for the lipid fraction used the following methods: For the primary experiment, data were acquired on an Agilent 6545 Time-of-Flight (TOF-MS) with ESI source in positive ionization mode using a scan rate 2.00 spectra/second, mass range 50-1700 m/z, gas temperature 300 \u00b0C, gas flow 12.0 l/min, nebulizer 35 psi, skimmer 65V, capillary voltage 3500V, fragmentor 120V, and calibrated with reference m/z 121.050873 (Purine) and 922.009798 (Hexakis(1H, 1H, 3H-Tetrafluoropropoxy)Phosphazene).</br>\nThe aqueous fraction MS conditions were as follows: Agilent 6520 Quadrupole Time-of-Flight (Q-TOF-MS) in positive ionization mode with ESI source, mass range 50-1700 m/z, scan rate 2.00 spectra/second, gas temperature 325\u00b0C, gas flow 12.0 l/min, nebulizer 30psi, skimmer 60V, capillary voltage 4000V, fragmentor 120V, and calibrated using the reference masses 121.050873 (Purine) and 922.009798 009798 (Hexakis (1H, 1H, 3H-Tetrafluoropropoxy) Phosphazene).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data was processed using the Profinder Software v.8.0.888 (Agilent Technologies) with the following parameters: Batch Recursive Feature Finding, positive mode, single charge, with +H, +Na, +K, and +NH4 adducts in positive ionization mode and single charge, with -H, +Cl, +HCOO, +CH3COO adducts for negative ionization mode, and absolute height filter of >600.  Charge states were limited to <2. The resultant dataset comprises multiple adducts / ion species that have been merged into single compounds.  Data were aligned during feature finding with Profinder (using 15 ppm mass error and 0.3 min retention time window) and then imported into Mass Profiler Professional (v14.8) for annotation. Compound exchange format (.cef) files were exported and then used for further evaluation.  ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Molecular formula generation used mass and isotope peaks and included the following elements: C, H, N, O, S, and P and was completed using IDBrowser.  Compounds were annotated using formulas to search against the Human Metabolome Database v.3.6 (HMDB), Lipid Maps and Metlin.  HMDB was utilized first since the samples were derived from human.  For database searches, an error window of <10 ppm was used and a maximum of 2 charge states were allowed. Additional higher level annotation of compounds was performed by MS/MS using a non-targeted data acquisition approach followed by a search against the established Lipid Blast and NIST17 MS/MS spectral libraries.  High confident identification (MSI level 1) were by searching against an in house chemical standards database.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Agilent 6545 QTOF",
+                        "filename": "a_MTBLS591_study_id_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Agilent 6520 QTOF",
+                        "filename": "a_MTBLS591_study_id_metabolite_profiling_mass_spectrometry-1.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

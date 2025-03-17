@@ -1,0 +1,546 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-07-04T09:10:54.805595",
+        "statusUpdateTime": "2024-07-04T09:10:54.805595",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS9053",
+        "title": "A single gene mutation underpins metabolic adaptation and acquisition of filamentous competence in the emerging fungal pathogen Candida auris",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2023-11-28",
+        "publicReleaseDate": "2024-07-04",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                "version": "",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                "version": "",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://purl.obolibrary.org/obo/ms.owl",
+                "version": "",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                "version": "",
+                "description": "MetaboLights Controlled Vocabulary"
+            },
+            {
+                "comments": [],
+                "name": "NCBITaxon",
+                "file": "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+                "version": "",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                "version": "",
+                "description": "Ontology for Biomedical Investigations"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS9053",
+                "filename": "s_MTBLS9053.txt",
+                "title": "A single gene mutation underpins metabolic adaptation and acquisition of filamentous competence in the emerging fungal pathogen Candida auris",
+                "description": "<p>Filamentous cell growth is a vital property of fungal pathogens. The mechanisms of filamentation in the emerging multidrug-resistant fungal pathogen Candida auris are poorly understood. Here, we show that exposure of C. auris to glycerol triggers a rod-like filamentation-competent (RL-FC) phenotype, which forms elongated filamentous cells after a prolonged culture period. Whole-genome sequencing analysis reveals that all RL-FC isolates harbor a mutation in the C2H2 zinc finger transcription factor-encoding gene <em>GFC1</em> (Gfc1 variants). Deletion of GFC1 leads to an RL-FC phenotype similar to that observed in Gfc1 variants. We further demonstrate that GFC1 mutation causes enhanced fatty acid \u03b2-oxidation metabolism and thereby promotes RL-FC/filamentous growth. This regulation is achieved through a Multiple Carbon source Utilizer (Mcu1)-dependent mechanism. Interestingly, both the evolved RL-FC isolates and the gfc1\u0394 mutant exhibit an enhanced ability to colonize the skin. Our results reveal that glycerol-mediated GFC1 mutations are beneficial during C. auris skin colonization and infection.</p>",
+                "submissionDate": "2023-11-28",
+                "publicReleaseDate": "2024-07-04",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "LI",
+                        "lastName": "TAO",
+                        "email": "taoli@fudan.edu.cn",
+                        "affiliation": "Fudan University",
+                        "address": "School of Life Sciences, Fudan University, 2005 Songhu Road",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "15201311521",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Coordinating Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51818"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Fatty Acid Metabolism",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                            "version": "",
+                            "description": "MetaboLights Controlled Vocabulary"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000210"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                            "version": "",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                            "version": "",
+                            "description": "MetaboLights Controlled Vocabulary"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000054"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A single gene mutation underpins metabolic adaptation and acquisition of filamentous competence in the emerging fungal pathogen Candida auris",
+                        "authorList": "Yuchen Deng, Ming Xu, Shuaihu Li, Jian Bing, Qiushi Zheng, Guanghua Huang, Wanqing Liao, Weihua Pan, Li Tao",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Culture medium",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Culture medium",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Biological replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001100"
+                        },
+                        "description": "<p>C. auris strains were cultured on YPG plate at 25 \u00b0C for 6 days. Samples were weighed 50 mg and then mixed with 150 \u03bcL of methanol, 200 \u03bcL of methyl tert-butyl ether and 50 \u03bcL of 36% phosphoric acid. Fatty acids and their metabolites were detected by MetWare based on the Agilent 7890B-7000D GC-MS/MS platform.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001105"
+                        },
+                        "description": "<p>The samples were vortexed for 3 min and then subjected to a freeze-thaw cycle by immersing them in liquid nitrogen for 2 min, followed by thawing on ice for 5 min. This freeze-thaw process was repeated twice. After centrifugation at 4 \u00b0C, 100 \u03bcL of supernatant was obtained and evaporated using a nitrogen blower. Then, 300 \u03bcL of 15% boron trifluoride methanol solution was added, following by vortexing for 3 min. The mixture was kept in a 60 \u00b0C oven for 30 min, cooled to room temperature, and 500 \u03bcL of hexane solution and 200 \u03bcL saturated sodium chloride solution were added accurately.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001108"
+                        },
+                        "description": "<p>After vortexing for 3 min, the mixture was centrifuged at 4 \u00b0C and 100 \u03bcL of hexane layer solution was collected for analysis. Gas chromatography (GC)-electron ionization (EI)-mass spectrometry (MS)/MS system (GC, Agilent 7890B; MS, 7000D System) was used for analysis. The following GC conditions were employed: GC column-DB-5MS capillary column (30 m x 0.25 mm x 0.25 \u03bcm, Agilent); carrier gas-high purity helium (purity &gt;99.999%); heating procedure \u2013 initial temperature of 40 \u00b0C (2 min), followed by an increase of 30 \u00b0C/min up to 200 \u00b0C (1 min), then an increase of 10 \u00b0C/min up to 240 \u00b0C (1 min), and a final increase of 5 \u00b0C/min up to 285 \u00b0C (3 min); flow rate - 1.0 mL/min; inlet temperature - 230 \u00b0C; injection volume - 1.0 \u03bcL.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001109"
+                        },
+                        "description": "<p>The Agilent 7890B-7000D EI-MS/MS system was used, with the following setting: temperature - 230 \u00b0C; ionization voltage - 70 eV; transmission line temperature - 240 \u00b0C; four-stage rod temperature - 150 \u00b0C; solvent delay - 4 min; and scanning mode - SIM.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001106"
+                        },
+                        "description": "<p class='ql-align-justify'>Identified metabolites were annotated using KEGG compound database (http://www.kegg.jp/kegg/compound/), annotated metabolites were then mapped to KEGG Pathway database (http://www.kegg.jp/kegg/pathway.html). Pathways with significantly regulated metabolites mapped to were then fed into MSEA (metabolite sets enrichment analysis), their significance was determined by hypergeometric test\u2019s P-values.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001107"
+                        },
+                        "description": "<p>Fatty acids and their metabolites were detected by MetWare based on the Agilent 7890B-7000D GC-MS/MS platform.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS - positive",
+                        "filename": "a_MTBLS9053_GC-MS_positive__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

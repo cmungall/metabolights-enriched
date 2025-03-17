@@ -1,0 +1,832 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2025-01-28T20:56:48.886157",
+        "statusUpdateTime": "2025-01-28T20:56:48.886157",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2044",
+        "title": "LC-HRMS-Driven Computational Toolbox to Assess Extraction Protocols Dedicated to Untargeted Analysis: How to Ease Analyzing Pesticide-Contaminated Soils?",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-09-02",
+        "publicReleaseDate": "2025-01-28",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                "version": "",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                "version": "",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                "version": "",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "ENVO",
+                "file": "http://purl.obolibrary.org/obo/envo.owl",
+                "version": "",
+                "description": "Environment Ontology"
+            },
+            {
+                "comments": [],
+                "name": "GAZ",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://purl.obolibrary.org/obo/ms.owl",
+                "version": "",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MSIO",
+                "file": "http://purl.obolibrary.org/obo/msio.owl",
+                "version": "",
+                "description": "Metabolomics Standards Initiative Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                "version": "",
+                "description": "MetaboLights Controlled Vocabulary"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                "version": "",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "http://purl.obolibrary.org/obo/omit.owl",
+                "version": "",
+                "description": "Ontology for MicroRNA Target"
+            },
+            {
+                "comments": [],
+                "name": "operation",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2044",
+                "filename": "s_MTBLS2044.txt",
+                "title": "LC-HRMS-Driven Computational Toolbox to Assess Extraction Protocols Dedicated to Untargeted Analysis: How to Ease Analyzing Pesticide-Contaminated Soils?",
+                "description": "Metabolomics is a powerful approach that allows for high throughput analysis and the acquisition of large biochemical data. Nonetheless, it still faces several challenging requirements, such as the development of optimal extraction and analytical methods able to respond to its high qualitative and quantitative requisites. Hence, the objective of the present article is to suggest a LC-HRMS-based untargeted profiling approach aiming to provide performant tools that help assess the performance and the quality of extraction methods. It is applied in a herbicide-contaminated soil metabolomics context. The trifactorial experimental design consists of 150 samples issued from five different extraction protocols, two types of soils, and three contamination conditions (contaminated soils with two different formulated herbicides against uncontaminated soils). Four performance and quality criteria are investigated using adapted LC-HRMS-driven computational tools. First, 861 metabolic features are annotated, and then the width of metabolome coverage and quantitative performance of the five different extraction protocols are assessed in all samples using various optimized configurations of heatmaps as well as van Krevelen diagrams. Then, the reproducibility of LC-HRMS profiles issued from the five extractions is studied by two different approaches: Euclidean distances and relative standard deviations. The two methods are examined and compared. Their advantages and limitations are thus discussed. After, the capacity of the different extractions to discriminate between contaminated and uncontaminated soils will be evaluated using orthogonal projections to latent structures-discriminant analysis. Different data scaling parameters are tested, and the results are explored and discussed. All of the suggested computational and visualization tools are performed using public-access platforms or open-source software. They can be readapted by metabolomics developers and users according to their study contexts and fields of application.",
+                "submissionDate": "2020-09-02",
+                "publicReleaseDate": "2025-01-28",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Hikmat",
+                        "lastName": "Ghosson",
+                        "email": "hikmatghosson@gmail.com",
+                        "affiliation": "Centre de Recherches Insulaires et Observatoire de l\u2019Environnement, Perpignan, France",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Contract Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51817"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Delphine",
+                        "lastName": "Raviglione",
+                        "email": "delphine.raviglione@univ-perp.fr",
+                        "affiliation": "Centre de Recherches Insulaires et Observatoire de l\u2019Environnement, Perpignan, France",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Technician",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C63861"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "C\u00e9dric",
+                        "lastName": "Bertrand",
+                        "email": "cedric.bertrand@univ-perp.fr",
+                        "affiliation": "Centre de Recherches Insulaires et Observatoire de l\u2019Environnement, Perpignan, France",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Marie-Virginie",
+                        "lastName": "Salvia",
+                        "email": "marievirginie.salvia@univ-perp.fr",
+                        "affiliation": "Centre de Recherches Insulaires et Observatoire de l\u2019Environnement, Perpignan, France",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Extraction",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Liquid Chromatography",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16435"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "High Resolution Mass Spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                            "version": "",
+                            "description": "MetaboLights Controlled Vocabulary"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Method Development",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C189155"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Data Analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                            "version": "",
+                            "description": "MetaboLights Controlled Vocabulary"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Chemometrics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "operation",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://edamontology.org/operation_3931"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Soil",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                            "version": "",
+                            "description": "MetaboLights Controlled Vocabulary"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Pesticides",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OMIT",
+                            "file": "http://purl.obolibrary.org/obo/omit.owl",
+                            "version": "",
+                            "description": "Ontology for MicroRNA Target"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OMIT_0011566"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "LC\u2013HRMS-Driven Computational Toolbox to Assess Extraction Protocols Dedicated to Untargeted Analysis: How to Ease Analyzing Pesticide-Contaminated Soils?",
+                        "authorList": "Ghosson Hikmat, Raviglione Delphine, Bertrand C\u00e9dric, Salvia Marie-Virginie",
+                        "pubMedID": "38305221",
+                        "doi": "10.1021/acs.analchem.3c03242",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "Characteristic response of formulation ingredients revealed by ultra high performance liquid chromatography-electrospray ionization-high resolution mass spectrometry-based untargeted screening of pesticides in soil.",
+                        "authorList": "Ghosson H, Raviglione D, Salvia MV, Bertrand C.",
+                        "pubMedID": "37431179",
+                        "doi": "10.1002/jms.4962",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Geographic location",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Geographic Location",
+                            "termSource": {
+                                "comments": [],
+                                "name": "GAZ",
+                                "file": "https://www.ebi.ac.uk/ols4/api",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000448"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Extraction",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Solvent",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "solvent",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHEBI",
+                                "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                                "version": "",
+                                "description": "Chemical Entities of Biological Interest Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHEBI_46787"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Experimental design",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Experimental design",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The laboratory experimental design was based on 150 soil microcosms (75 of SP and 75 of ST). For each soil type, three different environmental conditions were applied: uncontaminated control soils (Ctr), soils contaminated with the Tartan Super 360\u2122 formulated Glyphosate (Gly), and soils contaminated with the Beloukha\u00ae formulated Nonanoic acid (Bel). Each environmental condition consisted of 50 microcosms (25 for SP and 25 for ST). Then, each environmental condition of a given soil type was divided into 5 batches, each consisting of 5 microcosms (5 environmental/biological replicates). These 5 batches were dedicated to test the 5 different extraction protocols: E1, E2, E3, E4 and E5.</p><p>Soil microcosms were prepared by weighing 40.00 g (\u00b1 0.50 g) of moist soil in Polystyrene Multiroir\u2122 boxes (internal length: 55 mm, internal width: 40 mm, internal height: 43 mm). They were all incubated in a GC 401 growth chamber (N\u00fcve, Saracalar, Turkey) for 10 days in order to re-establish the biological and microbial activity. Aerobic incubation conditions were 24 hours day/night cycle with alternation of light/dark, 28 \u00b0C/18 \u00b0C of temperature, and 40 % RH/65 % RH of humidity. The soil moisture was maintained at 20 % during the incubation and throughout the experiment, following a standardized environmental protocol implemented and published in previous works, aiming to assure conditions that are comparable to real environmental cases.</p><p>Polluted soil samples were spiked with herbicide spiking solutions 4 hours before extractions. Spiking was done by applying 1 mL of spiking solutions on soil microcosms. This corresponds to one-time the agronomic field dose of each herbicide (12.60 \u00b5g of Glyphosate, and 54.40 \u00b5g of Nonanoic acid per gram of soil). 1 mL of H2O for HPLC LC-MS grade (solvent of herbicide spiking solutions) was applied on unpolluted control soils. For all samples, the 1 mL was applied slowly on the upper layer of soil and then microcosms were smoothly shaken. This in order to assure an optimal dispersion of the applied solutions on the soil surface.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Blank extractions and QC preparation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Blank extractions and QC preparation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For each extraction protocol, 3 replicates of blank extraction (BLKX) were performed by applying the same extraction procedures on empty 50 mL fisherbrand centrifuge tubes. This is in order to apply blank subtraction and to eliminate extraction contaminations from the dataset when data are processed. On the other hand, two types of pool QC samples were prepared for LC-HRMS and MS/MS analyses. First, \u201cE\u201d-pools (E1QC, E2QC, E3QC, E4QC and E5QC) were prepared by mixing similar volume aliquots (30 \u00b5L) from all soil extracts issued form the same extraction protocol, i.e. the 30 samples issued from an extraction protocol \u201cE\u201d, consisting of the three environmental conditions (Ctr, Gly and Bel), applied on the two soil types (SP and ST). Then, 200 \u00b5L were taken from each of the \u201cE\u201d-pools and mixed in order to prepare the \u201cpool QC\u201d containing similar volume aliquots from all the 150 soil extracts.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001100"
+                        },
+                        "description": "<p>Two different soils were selected for the study: \u201c<strong>Soil of Perpignan</strong>\u201d (<strong>SP</strong>), and \u201c<strong>Soil of Torreilles</strong>\u201d (<strong>ST</strong>). <strong>SP </strong>was collected from an arable field at the agricultural domain of the \u201cInstitut Universitaire de Technologie\u201d (IUT) of Perpignan, France (42\u00b040'53.7'N 2\u00b053'54.8'E). <strong>ST </strong>was collected from an arable field at the agricultural domain of the \u201cCentre Exp\u00e9rimental des Fruits et L\u00e9gumes du Roussillon\u201d (Sica CENTREX) of Torreilles, France (42\u00b045'15.1'N 2\u00b059'03.4'E). For both soils, the surface layer (15 cm) was collected on 3 different points separated by 1.5 meter.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001105"
+                        },
+                        "description": "<p>5 different extraction protocols: <strong>E1</strong>, <strong>E2</strong>, <strong>E3</strong>, <strong>E4 </strong>and <strong>E5 </strong>were applied for meta-metabolome analyses. For all extractions, 15.00 g (\u00b1 0.10 g) of soil material were taken from the microcosm after homogenization, and then transferred into a 50 mL fisherbrand centrifuge tube. </p><p><br></p><p><strong>E1 </strong>corresponds to an adapted version of the protocol published by Romdhane et al. First, 3 mL of cold <strong>HCl</strong> 0.10 M solution (5 \u00b0C) are added in the 50 mL tube containing soil material, and then samples are shaken for 30 sec using Vortex hand shaker. Then, 15 mL of cold <strong>EtOAc</strong> (5 \u00b0C) are added and a 15 sec shaking is applied using the Vortex hand shaker. After, samples are swirled for 60 min using a KM-2 AKKU rotating shaker (Edmund B\u00fchler GmbH, Bodelshausen, Germany), with a rotating speed of 420 RPM. Next, samples are centrifuged for 10 min at a rotation speed of 4700 RPM and a temperature of 10 \u00b0C using an Allegra X-30R Centrifuge (Beckman Coulter, Brea, CA, U.S.). After centrifugation, 10 mL of the supernatant are transferred into a new 50 mL fisherbrand centrifuge tube. The remaining supernatant is eliminated and then new 15 mL of the cold <strong>EtOAc</strong> (5 \u00b0C) are introduced in the tube containing soil material. The same 15 sec Vortex shaking, 60 min swirling and 10 min centrifugation procedures are repeated. Then 10 mL of the new supernatant are taken and added to the first 10 mL taken at the first stage. A total volume of 20 mL of extract is thus collected. It is homogenized by shaking on Vortex hand shaker. Then, 10 mL of the recovered extract are transferred into a 15 mL Soda glass test tube. </p><p><br></p><p><strong>E2 </strong>and <strong>E3 </strong>correspond to two adapted versions of the protocol published by Anastassiades et al. For <strong>E2</strong>: 20 mL of cold <strong>MeOH</strong> (5 \u00b0C) are added in the 50 mL tube containing soil material, and then samples are shaken for 30 sec using Vortex hand shaker. Next, samples are swirled for 10 min using BenchMixer\u2122 Multi-Tube Vortexer (Benchmark Scientific, Sayreville, NJ, U.S.) at a rotation speed of 2500 RPM. After, samples are centrifuged for 10 min at a rotation speed of 4700 RPM and a temperature of 10 \u00b0C using the Allegra X-30R Centrifuge. After centrifugation, 10 mL of the supernatant are transferred into a 15 mL Soda glass test tube. For <strong>E3</strong>, the same procedure of extraction is applied by using cold <strong>MeOH + 1 % FA (v/v)</strong> (5 \u00b0C) instead of MeOH as extraction solvent. </p><p><br></p><p><strong>E4 </strong>and <strong>E5 </strong>are the novel extraction protocols proposed by the present work. For<strong> E4</strong>: 10 mL of cold <strong>ACN/iPA 70:30 (v/v)</strong> (5 \u00b0C) are added in the 50 mL tube containing soil material. After, samples are shaken for 30 sec using Vortex hand shaker and then swirled for 5 min using BenchMixer\u2122 Multi-Tube Vortexer at a rotation speed of 2500 RPM. Then, samples are centrifuged for 10 min at a rotation speed of 4700 RPM and a temperature of 10 \u00b0C using the Allegra X-30R Centrifuge. After centrifugation, 7 mL of the supernatant are transferred into a new 50 mL fisherbrand centrifuge tube. Then, 10 mL of cold <strong>H2O/MeOH 90:10 (v/v)</strong> (5 \u00b0C) are introduced in the tube containing the soil material. The tube is then shaken, swirled and centrifuged under the same conditions as for the first step. After centrifugation, 7 mL of the supernatant are taken and added to the first 7 mL taken at the first stage. A total volume of 14 mL of extract is thus collected. It is homogenized by shaking on Vortex hand shaker and then 10 mL of the recovered extract are transferred into a 15 mL Soda glass test tube. For<strong> E5</strong>, the same procedure of extraction is applied by using cold (5 \u00b0C) acidified solvents <strong>(ACN/iPA 70:30 (v/v) + 1 % FA (v/v)</strong> and <strong>H2O/MeOH 90:10 (v/v) + 1 % FA (v/v)</strong>).</p><p><br></p><p>For all extraction protocols, the 10 mL recovered extracts are evaporated under vacuum at 30 \u00b0C until dry, using an EZ-2plus evaporator (Genevac, Ipswich, U.K.). The dry residue is then re-dissolved in 1 mL of cold solvents (5 \u00b0C): MeOH for E1 and E2, MeOH + 1 % FA (v/v) for E3, H2O/ACN/iPA/MeOH 45:35:15:5 (v/v/v/v) for E4, and H2O/ACN/iPA/MeOH 45:35:15:5 (v/v/v/v) + 1 % FA (v/v) for E5. Then samples are spiked with Chloramphenicol and Diclofenac as Internal Standards (IS) (final concentration of 2 \u00b5g mL-1 for each). After, samples are dissolved and homogenized by mixing for 30 sec using the Vortex hand shaker, and then transferred into 2 mL vials after filtration through 0.22 \u00b5m PTFE filters.</p><p><br></p><p>For each extraction protocol, 3 replicates of<strong> blank extraction (BLKX) </strong>were performed by applying the same extraction procedures on empty 50 mL fisherbrand centrifuge tubes. This is in order to apply blank subtraction and to eliminate extraction contaminations from the dataset when data are processed. On the other hand, <strong>2 types of pool QC samples</strong> were prepared for LC-HRMS and MS/MS analyses. First, <strong>\u201cE\u201d-pools</strong> (E1QC, E2QC, E3QC, E4QC and E5QC) were prepared by mixing similar volume aliquots (30 \u00b5L) from all soil extracts issued form the same extraction protocol, i.e. the 30 samples issued from an extraction protocol \u201cE\u201d, consisting of the three environmental conditions (Ctr, Gly and Bel), applied on the two soil types (SP and ST). Then, 200 \u00b5L were taken from each of the \u201cE\u201d-pools and mixed in order to prepare the \u201c<strong>pool QC</strong>\u201d containing similar volume aliquots from all the 150 soil extracts.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001108"
+                        },
+                        "description": "<p>LC-HRMS method developments and analyses were performed using a Vanquish UHPLC+ Focused LC system equipped with an online degasser, a binary pump system, a temperature-controlled autosampler, and a column compartment (Thermo Fisher Scientific, Waltham, MA, U.S.), coupled with a maXis Electrospray-Quadrupole/Time-of-Flight (ESI-Q/ToF) mass spectrometer (Bruker Daltonics, Bremen, Germany; Billerica, MA, U.S.).</p><p>UHPLC column Luna\u00ae Omega Polar C18 (particle size: 1.6 \u00b5m, pore size: 100 \u00c5, length: 100 mm, internal diameter: 2.1 mm, solid support: fully porous Silica) from Phenomenex (Torrance, CA, U.S.) was selected to achieve compounds separation. It was chosen in order to widen the band of the analyzable metabolites (in term of polarity), as the modified C18 columns has proven their performance in enhancing the retention efficiency for polar and semi-polar metabolites. The column was equipped with a Phenomenex SecurityGuard\u2122 ULTRA UHPLC Polar C18 2.1 mm column guard cartridges for protection during analyses. The mobile phase consisted of two phases of elution solvents: phase A is H2O + 0.1 % FA (v/v), and phase B is ACN + 0.1 % FA (v/v). Chromatographic separation was conducted by applying the following elution gradient: 0 % (B) (100 % aqueous) during 2.50 min, from 0 % to 100 % (B) in 12.50 min, 100 % (B) during 2.00 min, from 100 % to 0 % (B) in 1.00 min, and 0 % (B) during 2.00 min (a total of 20.00 min per run). The flow rate was set to 450 \u00b5L min-1, column oven temperature was maintained at 30 \u00b0C. The injection volume was 5 \u00b5L. Only the elution from 0.20 min to 18.00 min was introduced into the mass spectrometer. The rest was diverted to waste in order to reduce ESI source and MS system fouling.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001109"
+                        },
+                        "description": "<p>Full HRMS acquisitions</p><p>For the ESI-Q/ToF conditions, three main MS segments were established: two Full HRMS acquisition segments, and a calibration segment. The first Full HRMS acquisition segment was set between 0.20-15.00 min of Retention Time (RT), and the second was between 15.00-18.00 min of RT. The calibration segment was between 0.00-0.20 min of RT, which corresponds to LC void time (dead time). For the first Full HRMS acquisition segment: scan range was set between 90 m/z and 1000 m/z with 1.20 Hz of spectra rate (0.83 sec for 1 scan), corresponding to 7638 spectra summation (no rolling average was applied). Spectra acquisition was in both Profile (Continuum) and Line (Centroid). Maximum Intensity was used for Line Spectra Calculation. \u201cFocus\u201d mode was active. For the ESI Source, a positive ion polarity mode was applied with a capillary voltage of 3500 V and an end plate offset of -500 V. Nitrogen nebulizer pressure was set to 2.4 Bar, the dry gas flow to 10.0 L min-1, and the dry heater temperature to 200 \u00b0C. Tune parameters for Funnels, Quadrupole and Collision Cell were optimized in order to favor the transfer of ions with m/z between 90 and 1000 to the ToF analyzer. The second Full HRMS acquisition segment was particularly dedicated to analyze the LC elution range with 100 % organic phase (B). All parameters are the same as for the first acquisition segment, except for the dry gas flow that was set to 8.0 L min-1 in order to enhance the detection of compounds eluted at this stage of the LC gradient. In fact, when the mobile phase is 100 % ACN, the volatility of the nebulized solvent is higher and thus a lower dry gas flow allows better compounds detection. For the calibration segment, a pre-run internal mass-scale calibration was performed in High Precision Calibration (HPC) mode using Sodium Formate (NaF) calibration solution (0.05 % FA + 0.50 mL NaOH 1.0 M in 50 mL of H2O/iPA 50:50 (v/v)) that was automatically infused at the beginning of each injection. All parameters were the same as for the first Full HRMS acquisition segment, except for the nebulizer pressure that was set to 0.7 Bar (the suitable pressure for the syringe infusion flow rate equal to 3 \u00b5L min-1), and for the dry gas flow that was adjusted to 4.0 L min-1 in order to reduce the de-clustering. The resolving power was experimentally assessed at the Full Width at Half Maximum (FWHM) of m/z peaks along the scan range.</p><p><br></p><p>MS/MS acquisitions</p><p>Two different Data Dependent Acquisition-based (DDA) MS/MS methods were set for compounds fragmentation by Collision-Induced Dissociation (CID) in Q/ToF\u2019s Nitrogen-supplied Hexapole collision cell. The three segments (two for acquisition and one for calibration) previously described for the Full HRMS method were applied for both MS/MS methods. The same ESI Source, Funnels, Quadrupole and ion transfer parameters were set. Acquisition settings were however adapted for the fragmentation. The scan range was expanded to detect small fragments. It was set between m/z 50 and 1000 with a spectra rate equal to 2.00 Hz (0.50 sec for 1 scan, corresponding to 4545 spectra summation). The spectra rate was increased in order to acquire a higher number of MS/MS spectra. Spectra acquisition was in both Profile and Line. Maximum Intensity was used for Line Spectra Calculation. \u201cFocus\u201d mode was active. Auto MS/MS mode (DDA) with an absolute intensity threshold equal to 3500 cts was applied for the two acquisition segments.</p><p>For method N\u00b01: the selection was based on the number of precursors. It was set to 3, i.e., a first Full HRMS scan selects the most 3 intense ions (precursors), and then 3 different MS/MS spectra are generated, each corresponding to one of the three selected precursors (after they were isolated in the Quadrupole and fragmented in the Hexapole). The active exclusion was set to 5 spectra (i.e. when a precursor is fragmented for 5 times, it will be excluded to allow the selection and the fragmentation of a new different precursor).</p><p>For method N\u00b02: the number of precursors selected for an MS/MS scan was set to 1. The active exclusion was set to 4 spectra.</p><p>For both methods, the exclusion will be released after 1 min. The precursor will be reconsidered for fragmentation if its intensity increases by a factor of 2 in the next scan. An additional \u201cSmart Exclusion\u201d was also activated (set to 5 \u00d7) in order to enhance background exclusion. For CID, an increasing collision energy ramp following the increase of m/z is set.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001106"
+                        },
+                        "description": "<p>LC system, LC-ESI-Q/ToF hyphenation and analytical sequence piloting were performed using HyStar 3.2.49.4 (Bruker Daltonics). ESI-Q/ToF piloting, LC-HRMS and MS/MS data acquisition were performed using otofControl 4.0.97.4560 (Bruker Daltonics). Raw LC-HRMS data were acquired in \u201c.d\u201d folder format. A new post-acquisition mass-scale internal calibration (HPC mode) was performed using Compass DataAnalysis 4.3 (Bruker Daltonics), and then \u201c.d\u201d files were converted to NetCDF using the same software in order to process them using Galaxy Workflow4Metabolomics platform. All the NetCDF files will be published on the MetaboLights platform. The pre-processing workflow and all its detailed parameters are published on the Galaxy Workflow4Metabolomics platform. In brief, the following XCMS-based data pre-processing pipeline was applied: a \u201ccentWave\u201d peak piking13 is performed (ROI considered when detecting 5 consecutive scans with minimum intensity equal to 2000 and maximum m/z deviation of 5 ppm \u2013 S/N cutoff: 10), followed by a first \u201cPeakDensity\u201d peak grouping (bandwidth: 15 sec). Then, a loess/non-linear \u201cPeakGroups\u201d retention time adjustment is applied (degree of smoothing: 0.8), followed by a second \u201cPeakDensity\u201d peak grouping (same parameters as the first), a peak filling step, and a CAMERA-based peak annotation14 (correlation threshold: 0.75). The considered signal value for ion features was the chromatographic peak area. After, the blank subtraction was applied by eliminating all features detected more than one time in blank extraction injections. Next, an \u201cintra-batch\u201d signal correction was applied using the \u201cbatch correction\u201d function with a \u201cloess\u201d regression model15 (0.8 of span). After generating the data matrix, data analyses and visualization were performed using different open-source tools that will be mentioned subsequently. Manual raw Full HRMS and MS/MS data exploring was also performed using Compass DataAnalysis 4.3.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001107"
+                        },
+                        "description": "<p>All the 861 ion traces were tentatively annotated by using a SIRIUS 4.4.29 software-based methodology using exact m/z, isotope patterns, and MS/MS spectra if available (described in a previous work: https://doi.org/10.1002/rcm.8977).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Additional analyses preparation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Additional analyses preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>'8STDMeOH' and '8STDQuat' are mixtures of standards including Methionine, Leucine, Isoleucine, Glyphosate, Diquat, Nonanoic acid, Diclofenac (IS) and Chloramphenicol (IS) at 10 \u00b5g/mL of concentration, dissolved in MeOH and H2O/ACN/iPA/MeOH 45:35:15:5 (v/v/v/v), respectively. These mixtures were used to confirm the identity of the mentioned compounds in the different samples at level 1 of identification confidence.</p><p>'BLKInjMeOH' and 'BLKInjQuat' are blanc injections used to stabilize the analytical system, containing MeOH and H2O/ACN/iPA/MeOH 45:35:15:5 (v/v/v/v), respectively.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS2044_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

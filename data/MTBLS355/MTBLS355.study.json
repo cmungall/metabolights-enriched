@@ -1,0 +1,606 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-03-01T00:00:00",
+        "statusUpdateTime": "2023-03-01T19:21:18.774286",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS355",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2016-06-16",
+        "publicReleaseDate": "2017-07-17",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS355",
+                "filename": "s_MTBLS355.txt",
+                "title": "Nontargeted and targeted metabolomics measurements of abiotic stress responses in three-week-old Arabidopsis thaliana plants' rosette leaf tissue",
+                "description": "Nontargeted and targeted metabolomics measurements of abiotic stress responses in three-week-old Arabidopsis thaliana plants' rosette leaf tissue for Col-0 wild type plants and double/triple knockout mutants of aquaporins (pip2;1 pip2;2 and pip2;1 pip2;2 pip2;4) treated with drought, heat at different air humidities, or combined drought-heat stress at different air humidities. This experiment contains FT-ICR-MS measurements for 103 Arabidopsis thaliana rosette leaf samples covering three genotypes under six different environmental conditions. The three genotypes comprise the Col-0 wildtype and two loss-of-function mutants of aquaporins, a pip2;1 pip2;2 double mutant and a pip2;1 pip2;2 pip2;4 triple mutant (respective AGI locus identifiers: AT3G53420, AT2G37170, AT5G60660). The six conditions include control condition (well-watered, 22 \u00b0C, 70% relative air humidity), drought stress (one week without watering), heat stress without changing the absolute humidity of the ambient air (6 hours at 33 \u00b0C, 37% relative air humidity), heat stress with supplemented air humidity to maintain a constant vapor pressure deficit before and during the heat episode (6 hours at 33 \u00b0C, 84% relative air humidity), and the combinations of drought pretreatment with each of the two heat stress variants (one week of drought followed by 6 hours of heat stress). Samples from all conditions were harvested at the same time (within 15 min starting at 5 pm). For validation, GC-TOF-MS measurements were done for two genotypes (wildtype, double mutant) and two conditions (drought, control) on partially overlapping samples.",
+                "submissionDate": "2016-06-16",
+                "publicReleaseDate": "2017-07-17",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Elisabeth",
+                        "lastName": "Georgii",
+                        "email": "elisabeth.georgii@helmholtz-muenchen.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "submitter",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Anton",
+                        "lastName": "Sch\u00e4ffner",
+                        "email": "schaeffner@helmholtz-muenchen.de",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "R",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "genotype design",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001748"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "stimulus or stress design",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001762"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Relationships between drought, heat and air humidity responses revealed by transcriptome-metabolome co-analysis.",
+                        "authorList": "Georgii E, Jin M, Zhao J, Kanawati B, Schmitt-Kopplin P, Albert A, Winkler JB, Sch\u00e4ffner AR.",
+                        "pubMedID": "28693422",
+                        "doi": "10.1186/s12870-017-1062-y",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype design",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001748"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Stimulus",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "stimulus or stress design",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001762"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The plants were grown on soil in climate simulation chambers with 11/13 h light/dark cycle (light 08:30 am to 07:30 pm), 200 \u03bcmol/m^2/s photosynthetic photon flux density, 22 \u00b0C air temperature and 0.79 kPa VPD, corresponding to 70% relative air humidity. 3-week-old plants were flooded with water up to 60% of the pot height for 15 min by an automatic flooding system. After flooding, the plants used for drought stress (D) and combined drought and heat stresses (DH) stopped being watered and the soil moisture was regularly monitored. When the soil water content dropped to approximately 20% of the initial water content after 1 week, heat stress (H) was applied to both well-watered plants and drought-treated plants, raising the temperature to 33 \u00b0C for 6 h from 11:00 am to 5:00 pm. For one set of plants, the absolute air humidity was kept unchanged during the temperature increase, resulting in 37% relative air humidity and 3.17 kPa VPD; this condition is labeled 'LrH' (low relative air humidity). For another set of plants, the heat treatments were done with supplemented air humidity at 84% relative air humidity, to maintain the VPD at 0.79 kPa; the condition is labeled 'HrH' (high relative air humidity). In total 5 replicates of each genotype were generated for each environmental scenario; they were randomly distributed in the chambers to exclude position effects. Each replicate consisted of 7 or 8 rosettes that were harvested after treatment, collected into plastic bags (4 oz. 118 mL, Whirl-Pak), immediately frozen in liquid nitrogen and stored at -80 \u00b0C until use. Samples from all conditions were harvested at the same time (within 15 min starting at 5:00 pm).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>FT-ICR-MS (extraction):</strong></p><p>Samples were ground at 2500 rpm for 2.5 min using the mixer mill MM 400 (Retsch, Germany), and 100 mg powder used for metabolite extraction. Metabolite extraction was performed as described previously<strong>[1]</strong> with slight modifications. Briefly, 44 \u03bcg/mL loganin and 3 \u03bcg/mL nitrophenol were added to extraction buffer 1 (methanol/chloroform/H2O 2.5:1:1 v/v/v) as internal standards. Next 2 mL pre-cooled extraction buffer 1 (-20 \u00b0C) was added to 100 mg plant material and mixed at 4 \u00b0C for 30 min. After centrifugation (10 min, 14,000 rpm, 4 \u00b0C), 1 mL of the supernatant (supernatant A) was transferred into a fresh 2 mL Eppendorf tube and the remaining pellet was extracted in a second step with 1 mL pre-cooled (4 \u00b0C) extraction buffer 2 (methanol/chloroform 1:1 v/v). After a second centrifugation, 500 \u03bcL of the supernatant (supernatant B) were mixed with supernatant A. The chloroform phase was then separated from the water/methanol phase by addition of 250 \u03bcL of HPLC grade water (4 \u00b0C, Merck). The aqueous phase was divided into several 200 \u03bcL aliquots and dried completely using a Speed-Vac.</p><p><br></p><p><strong>GC-TOF-MS (extraction and derivatization):</strong></p><p>For the extraction ~100 mg plant material (fresh weight) was ground in 900 \u00b5L cold (-20 \u00b0C) 80% methanol containing 20 \u03bcL ribitol (0.2 mg/mL in water) and 10 \u03bcL 13C-sorbitol (0.2 mg/mL in water), which were added as internal standards for the quantification of metabolite abundances. After incubation at 70 \u00b0C for 15 min, the extract was centrifuged for 15 min at 25,000 x g. For further analysis, 50 \u03bcL of the supernatant was dried in vacuo. The pellet was resuspended in 10 \u03bcL of methoxyaminhydrochloride (20 mg/mL in pyridine) and derivatized for 90 min at 37 \u00b0C. After the addition of 20 \u00b5L of BSTFA (N,O-Bis[trimethylsilyl]trifluoroacetamide) containing 5 \u03bcL retention time standard mixture of linear alkanes (n-decane, n-dodecane, n-pentadecane, n-nonadecane, n-docosane, n-octacosane, n-dotriacontane), the mix was incubated at 37 \u00b0C for further 45 min<strong>[2][3][4]</strong>.  </p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Weckwerth, W., Wenzel, K., Fiehn, O. (2004) Process for the integrated extraction, identification and quantification of metabolites, proteins and RNA to reveal their co-regulation in biochemical networks. Proteomics 4(1), 78\u201383. doi:10.1016/j.biosystems.2005.05.017</p><p><strong>[2]</strong> Roessner U, Luedemann A, Brust D, Fiehn O, Linke T, Willmitzer L, Fernie AR. (2001) Metabolic profiling allows comprehensive phenotyping of genetically or environmentally modified plant systems. Plant Cell, 13, 11-29. doi: http:/\u200b/\u200bdx.\u200bdoi.\u200borg/\u200b10.\u200b1105/\u200btpc.\u200b13.\u200b1.\u200b11</p><p><strong>[3]</strong> Lisec J, Schauer N, Kopka J, Willmitzer L, Fernie AR. (2006) Gas chromatography mass spectrometry-based metabolite profiling in plants. Nature Protocols, 1, 387-396. DOI:10.1038/nprot.2006.59</p><p><strong>[4]</strong> Erban A, Schauer N, Fernie AR, Kopka J. (2007) Nonsupervised construction and application of mass spectral and retention time index libraries from time-of-flight gas chromatography-mass spectrometry metabolite profiles. Methods in Molecular Biology, 358,19-38. DOI:10.1007/978-1-59745-244-1_2</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>FT-ICR-MS:</strong></p><p>No chromatography was performed in this assay.</p><p><br></p><p><strong>GC-TOF-MS:</strong></p><p>A volume of 1 \u03bcL of each sample was injected into a GC-TOF-MS system (Pegasus HT, Leco, St Joseph, USA). Samples were derivatized and injected by an autosampler system (Combi PAL, CTC Analytics AG, Zwingen, Switzerland). Helium acted as carrier gas at a constant flow rate of 1 mL/min. Gas chromatography was performed on an Agilent GC (7890A, Agilent, Santa Clara, USA) using a 30 m VF-5ms column with 10 m EZ-Guard column. The injection temperature of the split/splitless injector (Agilent, Santa Clara, USA) was set to 250 \u00b0C. Transfer line and ion source were set to 250 \u00b0C. The initial oven temperature (70 \u00b0C) was permanently increased to a final temperature of 320 \u00b0C by 9 \u00b0C/min. To avoid solvent contaminations the solvent delay was set to 340 s. Metabolites that passed the column were released into the TOF-MS.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>FT-ICR-MS:</strong></p><p>A Solarix FT-ICR mass spectrometer (Bruker Daltonics, Bremen, Germany) coupled to a 12 Tesla magnet (Magnex, UK) was used for the experimental study. The electrospray ionization source (Apollo II, Bruker Daltonics, Bremen, Germany) was used in the negative ionization mode to ionize the studied analytes in 50% methanolic solution (Lichrosolv, Sigma-Aldrich, Schnelldorf, Germany). The sample solutions were injected directly to the ionization source by the use of a microliter pump at a flow rate of 2 \u00b5L/min. A source heater temperature of 200 \u00b0C was maintained and no nozzle \u2013 skimmer fragmentation was performed in the ionization source. The instrument was previously calibrated by the use of Arginine negative cluster ions starting from a methanolic arginine solution of 5 mg/L. Ions were accumulated in the collision cell for 300 ms for thermalization and enrichment prior to ICR ion detection. The base pressure in the ICR vacuum chamber was 7 x 10^-10 mbar and in the quadrupole and hexapole regions 3 x 10^-6 mbar. High pressure in the quadrupole and hexapole regions is necessary to co-linearize the ions in the radial plane and decelerate the radial components of the ion kinetic energy. 300 scans were accumulated for each mass spectrum. The instrumental mass range m/z 147-1000 amu was scanned.</p><p><br></p><p><strong>GC-TOF-MS:</strong></p><p>The transfer line, connecting the GC and the TOF-MS, was set to 250 \u00b0C as well as the ion source where the instreaming metabolites got ionized and fractionated by an ion pulse of 70 eV. Mass spectra were recorded at 20 scans/s with an m/z 35-800 scanning range using a LECO Pegasus HT TOFMS. Chromatograms and mass spectra were evaluated using ChromaTOF 4.5 and TagFinder 4.1 software<strong>[1]</strong>. There are 2 files for each sample, splitless (suffix '_SL') and split 10 (suffix '_Split'). Highly abundant metabolites (sugars, organic acids) were measured in split mode, and other metabolites in splitless mode. The sample naming is consistent with the processed files.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Luedemann A, Strassburg K, Erban A, Kopka J. (2008) TagFinder for the quantitative analysis of gas chromatography - mass spectrometry (GC-MS)-based metabolite profiling experiments. Bioinformatics, 24, 732-737. DOI: 10.1093/bioinformatics/btn023.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>FT-ICR-MS:</strong></p><p>The spectra were merged across samples with an error tolerance of 1 ppm. The intensities in each sample were normalized by total ion current (TIC). To focus on reliably detected masses, we selected the 663 masses detected in at least two thirds of the samples in at least one condition. The data were log2 transformed and corrected for experiment and measurement batch effects using the nlme package in R<strong>[1]</strong>. Missing values are marked as NA; they did not exceed the detection threshold of 5e^+05.</p><p><br></p><p><strong>GC-TOF-MS:</strong></p><p>The data were log2 transformed and corrected for experimental batch effect with the nlme package<strong>[1]</strong>.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Pinheiro JC, Bates DM. (2000) Mixed-Effects Models in S and S-PLUS, Springer.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>FT-ICR-MS:</strong></p><p>Mapping of masses to putative metabolites was performed with MassTRIX<strong>[1]</strong> and ChemSpider<strong>[2]</strong> using the metabolism data sources ChEMBL, BioCyc, AraCyc, MassBank, KEGG and Golm Metabolome Database. </p><p><br></p><p><strong>GC-TOF-MS:</strong></p><p>Chromatograms and mass spectra were evaluated using ChromaTOF 4.5 and TagFinder 4.1 software<strong>[3]</strong>.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Suhre K, Schmitt-Kopplin P. (2008) MassTRIX: mass translator into pathways. Nucleic Acids Research, 36, W481\u2013W484. https://doi.org/10.1093/nar/gkn194</p><p><strong>[2]</strong> Pence HE, William A. (2010) ChemSpider: An Online Chemical Information Resource. J Chem Educ 87: 1123\u20131124. DOI: 10.1021/ed100697w </p><p><strong>[3]</strong> Luedemann A, Strassburg K, Erban A, Kopka J. (2008) TagFinder for the quantitative analysis of gas chromatography - mass spectrometry (GC-MS)-based metabolite profiling experiments. Bioinformatics, 24, 732-737. DOI: 10.1093/bioinformatics/</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Direct infusion MS -",
+                        "filename": "a_MTBLS355_FT_ICR_MS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS - ",
+                        "filename": "a_MTBLS355_GC_MS-SPLIT.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS -",
+                        "filename": "a_MTBLS355_GC_MS-SL.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

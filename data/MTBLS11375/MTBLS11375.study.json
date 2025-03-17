@@ -1,0 +1,512 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-10-17T00:00:00",
+        "statusUpdateTime": "2024-10-17T13:56:30.120269",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS11375",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2024-10-14",
+        "publicReleaseDate": "2024-10-17",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://www.ebi.ac.uk/metabolights/ontology",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/ontology",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS11375",
+                "filename": "s_MTBLS11375.txt",
+                "title": "LC-MS groundwater analysis 'Hainich Critical Zone exploratory', dataset extension (MS1)",
+                "description": "<p>Understanding biogeochemical conversions of dissolved organic matter (DOM) in aquifers is paramount for the effective management of groundwater supplies. On its passage through the critical zone, DOM is subject to biogeochemical conversions and therefore carries cross-habitat information useful for monitoring and predicting the stability of groundwater ecosystem services. Groundwater metabolomics assesses this information. However, challenges arise from insufficient knowledge on groundwater metabolite composition and dynamics, and the necessity to maintain analytical conditions for long-term monitoring. We explored fractured sedimentary bedrock by 5-year untargeted metabolomics monitoring for oxic perched and anoxic phreatic sites along a hillslope recharge area, to evaluate DOM as groundwater tracer. Dimension reduction by principal component analysis revealed that metabolome dissimilarities between distant wells coincide with transient cross-stratal flow indicated by groundwater levels and environmental tracers. The metabolome was highly variable lacking seasonal patterns, and did not segregate by geographic location of sampling wells thus ruling out surface vegetation or (agricultura) land use as driving factor. The metabolome time series provide detailed insights into subsurface responses to recharge dynamics. Metabolomics monitoring provides information on groundwater flows, and allows concluding about below ground ecology and water quality evolution, required to understand the impact of interannual wet-dry cycles.</p><p><br></p><p>This study is an extension of groundwater monitoring untargeted <strong>MS1 data </strong>previously published in <a href='https://www.ebi.ac.uk/metabolights/MTBLS3450' rel='noopener noreferrer' target='_blank'><strong>MTBLS3450</strong></a> and <a href='https://www.ebi.ac.uk/metabolights/editor/MTBLS8433' rel='noopener noreferrer' target='_blank' style='color: currentcolor;'><strong>MTBLS8433</strong></a></p>",
+                "submissionDate": "2024-10-14",
+                "publicReleaseDate": "2024-10-17",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Christian",
+                        "lastName": "Zerfa\u00df",
+                        "email": "c.zerfass.cz@gmail.com",
+                        "affiliation": "IAAC",
+                        "address": "FSU Jena, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://www.ebi.ac.uk/metabolights/ontology",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Georg",
+                        "lastName": "Pohnert",
+                        "email": "georg.pohnert@uni-jena.de",
+                        "affiliation": "IAAC",
+                        "address": "FSU Jena",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://www.ebi.ac.uk/metabolights/ontology",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/ontology",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "environmental contaminant",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_78298"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Unraveling the temporal variability and functional resilience of groundwater microbiomes",
+                        "authorList": "He Wang, Martina Herrmann, Simon A. Schroeter, Christian Zerfa\u00df, Robert Lehmann, Katharina Lehmann, Arina Ivanova, Georg Pohnert, Gerd Gleixner, Susan E. Trumbore, Kai Uwe Totsche, Kirsten K\u00fcsel",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Draft",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://www.ebi.ac.uk/metabolights/ontology",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C85255"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Date",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Date",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://www.ebi.ac.uk/metabolights/ontology",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25164"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Location",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Geography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://www.ebi.ac.uk/metabolights/ontology",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16633"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>This entry is an extension of&nbsp;<strong>MTBLS3450&nbsp;</strong>with corresponding sampling and processing methodology.</p><p><br></p><p>The exemplary studied groundwater recharge area is part of the Hainich Critical Zone Exploratory (or observatory, CZO) in NW Thuringia, central Germany. It was established by the Collaborative Research Centre AquaDiva focussing on subsurface biodiversity, groundwater quality and its surface- and subsurface controls<strong>[1]</strong>. Groundwater samples were provided during joint, usually monthly sampling campaigns of the CRC AquaDiva as described previously<strong>[1][2]</strong>. Each 5 L of groundwater per well was sampled in triplicate borosilicate bottles by employing submersible pumps (MP1 or SQE 5-70, Grundfos, Denmark) and PE-HD tubing, after representative conditions were achieved by monitoring physicochemical parameters until stabilization<strong>[2]</strong>.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong>&nbsp;K\u00fcsel K, Totsche KU, Trumbore SE, Lehmann R, Steinh\u00e4user C, Herrmann M. How deep can surface signals be traced in the critical zone? Merging biodiversity with biogeochemistry research in a central German Muschelkalk landscape. Frontiers in Earth Science. 2016 Apr 26;4:32. doi:10.3389/feart.2016.00032.</p><p><strong>[2]</strong>&nbsp;Lehmann R, Totsche KU. Multi-directional flow dynamics shape groundwater quality in sloping bedrock strata. Journal of Hydrology. 2020 Jan 1;580:124291. doi:10.1016/j.jhydrol.2019.124291.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples collected during a 3-d campaign were stored dark and chilled until subsequent transfer and immediate processing. Metabolite extraction was carried out by GF/C filtering (1.5 \u00b5m, VWR 516-0875) followed by solid phase extraction (SPE) on Strata-X 33 \u00b5m polymeric reversed phase cartridges (500 mg, Phenomenex 8B-S100-HCH). Prior to extraction, the SPE cartridges were placed on a Supelco Visiprep DL 24 manifold (Merck/Sigma-Aldrich 57265) and conditioned with 5 mL LC-MS grade methanol. Subsequently, GF/C filters placed in a Swinnex 47 mm diameter filter holder (Carl Roth, XE88.1) were assembled onto the cartridges, and connected via Teflon tubes to the sample bottles. Flow of sample was maintained by applying vacuum (up to -500 mbar as measured by a manifold-attached manometer). After 5 L groundwater had run through, 5 mL of LC-MS grade water was applied for washing the SPE cartridges (GF/C filter already detached), and vacuum was applied for 5 min for cartridge drying. For elution, 4 mL of a 1:1 mixture methanol/acetonitrile (LC-MS grade) was applied and extracts were collected in 4 mL glass vials. The solvent was evaporated by applying N2 stream or vacuum and subsequently dissolved in 100 \u00b5L of a 1:1 mixture of methanol/tetrahydrofuran (LC-MS grade). Samples were transferred to LC glass vials (with insets) and if sediments formed, clear supernatants were transferred to new vials by pipetting. From these, 1 \u00b5L was injected into the LC-MS in technical triplicates.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>LC separation was conducted on a <strong>Thermo Scientific Dionex UltiMate 3000 system</strong> and <strong>Kinetex Core Shell C18 (1.7 um, 100 A, 100 x 2.1 mm; Phenomenex)</strong> column, at 25 \u00b0C. Solvent A was H2O, 2% acetonitrile, 0.1% formic acid and Solvent B was acetonitrile. LC-gradient was as follows: 0.0-0.2 min 100% A; 0.2-8.0 min linear gradient to 0% A; 8.0-11.0 min 0% A; 11.1-12.0 min 100% A. The flow rate for chromatographic separation was 0.4 ml/min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>LC-MS was performed using a <strong>Q Exactive orbitrap mass spectrometer (Thermo Fisher Scientific, Germany)</strong>. A heated electrospray ionization (HESI) source was used with the following ionization and mass spectrometry settings: mass range <strong>100-1500 m/z</strong>, resolution 70,000 m/\u0394m, AGC target 3 x 10^6, polarity positive and negative (only positive used in later analysis), maximum inject time 200 ms, spray voltage 3.0 kV (positive mode) and 2.5 kV (negative mode), capillary temperature 360 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Conversion of Thermo Fisher Xcalibur .raw files to mzXML files with <strong>ProteoWizard[1]</strong>. Data analysis with <strong>XCMS[2]-[4]</strong> including peak identification and integration, retention time alignment, correspondence and peak filling.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Chambers MC, Maclean B, Burke R, Amodei D, Ruderman DL, Neumann S, Gatto L, Fischer B, Pratt B, Egertson J, Hoff K, Kessner D, Tasman N, Shulman N, Frewen B, Baker TA, Brusniak MY, Paulse C, Creasy D, Flashner L, Kani K, Moulding C, Seymour SL, Nuwaysir LM, Lefebvre B, Kuhlmann F, Roark J, Rainer P, Detlev S, Hemenway T, Huhmer A, Langridge J, Connolly B, Chadick T, Holly K, Eckels J, Deutsch EW, Moritz RL, Katz JE, Agus DB, MacCoss M, Tabb DL, Mallick P. A cross-platform toolkit for mass spectrometry and proteomics. Nat Biotechnol. 2012 Oct;30(10):918-20. doi:10.1038/nbt.2377. PMID:23051804.</p><p><strong>[2]</strong> Benton HP, Want EJ, Ebbels TM. Correction of mass calibration gaps in liquid chromatography-mass spectrometry metabolomics data. Bioinformatics. 2010 Oct 1;26(19):2488-9. doi:10.1093/bioinformatics/btq441. Epub 2010 Jul 29. PMID:20671148.</p><p><strong>[3]</strong> Smith CA, Want EJ, O'Maille G, Abagyan R, Siuzdak G. XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification. Anal Chem. 2006 Feb 1;78(3):779-87. doi:10.1021/ac051437y. PMID:16448051.</p><p><strong>[4]</strong> Tautenhahn R, B\u00f6ttcher C, Neumann S. Highly sensitive feature detection for high resolution LC/MS. BMC Bioinformatics. 2008 Nov 28;9:504. doi:10.1186/1471-2105-9-504. PMID:19040729.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Statistical analysis based on distinct MS1-based chromatographic features, no annotation was conducted.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - reverse phase",
+                        "filename": "a_MTBLS11375_LC-MS_alternating_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

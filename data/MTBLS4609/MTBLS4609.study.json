@@ -1,0 +1,887 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-08-15T00:00:00",
+        "statusUpdateTime": "2022-08-15T16:19:06.842203",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS4609",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2022-03-31",
+        "publicReleaseDate": "2022-08-15",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UBERON",
+                "file": "",
+                "version": "4/1/2022",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "ENVO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS4609",
+                "filename": "s_MTBLS4609.txt",
+                "title": "Hidden molecular clues in marine sediments revealed by untargeted mass spectrometry imaging",
+                "description": "<p>Mass spectrometry imaging (MSI) in sedimentary archives can produce records of molecular proxies at \u03bcm-scale resolution. For example, in annually varved sediments of the Santa Barbara Basin, such a fine resolution allows deciphering sub-annual distributions of archaeal tetraether lipids, haptophyte-derived alkenones and sterols. Herein, we reported the establishment of an untargeted data processing workflow aimed at dissecting the MSI datasets and extracting information beyond that obtained by targeted analysis of known molecular proxies. The combination of MSI and the untargeted workflow not only increases the spatial resolution for molecular stratigraphy but also dramatically broadens the number and diversity of molecular signals evaluated, enabling us to discover unique molecular signatures imprinted by various biogeochemical processes. We applied the proposed workflow to two MSI datasets that were both measured on the uppermost \u223c10&nbsp;cm of the Santa Barbara Basin sediments while covering different mass ranges. Two matrices of 18625 x 293 and 18963 x 323 (number of spectra x number of peaks) were, respectively, extracted after peak alignment using bin-wise kernel density estimation and subsequent peak picking by peak prominence filtering combined with geochemical context-based filtering. Feature extraction by non-negative matrix factorization revealed in total 15 stable molecular clusters with distinct spatial distributions in the sediments. Each cluster typically comprised several to dozens of compounds, with the majority of compounds in each cluster likely belonging to similar chemical taxonomies. Some of these clusters can be linked to specific biogeochemical processes. For example, chlorin-like compounds are possibly related to diatom production, alkenones are related to coccolithophorid production, and steranes and long-chain fatty acids likely represent terrigenous input. Supervised learning from these data mining results further extracted molecular signatures with proxy potential that appear to be linked to specific environmental conditions inferred from historical oceanographic data. However, generalizability to other sedimentary settings will require further investigation.</p>",
+                "submissionDate": "2022-03-31",
+                "publicReleaseDate": "2022-08-15",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Weimin",
+                        "lastName": "Liu",
+                        "email": "wliu@marum.de",
+                        "affiliation": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen",
+                        "address": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen, Bremen, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Susanne",
+                        "lastName": "Alfken",
+                        "email": "salfken@marum.de",
+                        "affiliation": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen",
+                        "address": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen, Bremen, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Lars",
+                        "lastName": "W\u00f6rmer",
+                        "email": "lwoermer@marum.de",
+                        "affiliation": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen",
+                        "address": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen, Bremen,Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Julius",
+                        "lastName": "Lipp",
+                        "email": "jlipp@uni-bremen.de",
+                        "affiliation": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen",
+                        "address": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen, Bremen, Germany",
+                        "fax": "",
+                        "midInitials": "Sebastian",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Kai-Uwe",
+                        "lastName": "Hinrichs",
+                        "email": "khinrichs@uni-bremen.de",
+                        "affiliation": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen, Bremen, Germany",
+                        "address": "Organic Geochemistry Group, MARUM \u2013 Center for Marine Environmental Sciences, University of Bremen",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "matrix-assisted laser desorption-ionisation imaging mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000054"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra high resolution molecular stratigraphy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Machine Learning",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C176231"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "feature extraction",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000494"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "biogeochemical process",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ENVO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ENVO_02500030"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Hidden molecular clues in marine sediments revealed by untargeted mass spectrometry imaging",
+                        "authorList": "Liu Weimin, Alfken Susanne, W\u00f6rmer Lars, Lipp Julius S., Hinrichs Kai-Uwe",
+                        "pubMedID": "",
+                        "doi": "10.3389/feart.2022.931157",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sediment depth",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Depth",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25333"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Oxygen concentration",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "concentration",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002820"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sea surface temperature",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "temperature",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001702"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The sample employed in the study was collected from an intact <strong>sediment slab </strong>from box core SPR0901-05BC retrieved in 2009 from the Santa Barbara Basin (SBB). The chosen segments from the 30 cm long slab cover the topmost ~5 cm and 5-10 cm from a box core that had significantly compacted since 2009. The interior sediment of the slab remained anoxic. The segments were sampled using double L channels resulting in a width of 1.5 and 0.7 cm thickness.</p><p><br></p><p>A total of 4 MSI datasets acquired from the uppermost ~10 cm of box core SPR0901\u201005BC collected from the center of SBB were employed to evaluate the data processing workflow proposed in this study. The sediment samples and MALDI-FT-ICR-MS analysis protocol have been described in detail<strong>[1]</strong>. Dataset A1 and A2 published previously<strong>[1] </strong>were measured with a mass window of 520-580 Da for mapping the&nbsp;index and dataset B1 and B2 published previously<strong>[2]</strong> with a wider mass window of 375-525 Da for mapping the stanol/stenol ratios. A1 and B1 were obtained from the uppermost ~ 5 cm of the sediment and A2 and B2 were obtained from 5-10 cm interval on the sediment. For the sake of brevity, A1 and A2, B1 and B2 were merged respectively in this study, and the resulting new datasets were coded as datasets A and B.</p><p><br></p><p><strong>Water column data treatment</strong></p><p>The seasonally measured water column data, including temperature, salinity, oxygen concentrations and nutrient concentrations, were obtained at the CalCOFI (California Cooperative Oceanic Fisheries Investigation) station 81.8 46.9, situated in the center of Santa Barbara Basin and in close proximity to the core location. The water column data were treated by the same approach described previously<strong>[1]</strong>, i.e., including the integration over water parcel and interpolation.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1] </strong>Alfken S, W\u00f6rmer L, Lipp JS, Wendt J, Schimmelmann A, Hinrichs KU. Mechanistic insights into molecular proxies through comparison of subannually resolved sedimentary records with instrumental water column data in the santa barbara basin, Southern California. Paleoceanography and Paleoclimatology. 2020 Oct;35(10):e2020PA004076. doi:10.1029/2020PA004076.</p><p><strong>[2]</strong> Alfken S, W\u00f6rmer L, Lipp JS, Napier T, Elvert M, Wendt J, Schimmelmann A, Hinrichs KU. Disrupted coherence between upwelling strength and redox conditions reflects source water change in Santa Barbara Basin during the 20th century. Paleoceanography and Paleoclimatology. 2021 Dec;36(12):e2021PA004354. doi:10.1029/2021PA004354.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Preparation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Preparation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The collected samples were prepared as previously described<strong>[1]</strong>. Shortly, the intact and freeze-dried 5\u2010cm sediment pieces by were stabilizing the intact, freeze\u2010dried 5\u2010cm sediment pieces in a gelatin\u2010based mixture (5% gelatin, 2% sodium carboxymethyl cellulose; Sigma Aldrich Chemie GmbH, Munich, Germany) and subsequently sliced into sequential 60\u2010\u03bcm thick sections with a cryomicrotome (Microm HM 505 E Cryostat, GMI, Ramsey, Minnesota, USA). The 60\u2010\u03bcm slices were adhered onto indium tin oxide (ITO)\u2010coated glass slides.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1] </strong>Alfken S, W\u00f6rmer L, Lipp JS, Wendt J, Taubner H, Schimmelmann A, Hinrichs KU. Micrometer scale imaging of sedimentary climate archives\u2013Sample preparation for combined elemental and lipid biomarker analysis. Organic Geochemistry. 2019 Jan 1;127:81-91. doi:10.1016/j.orggeochem.2018.11.002.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample mounting",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sectioning instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Section thickness",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>MALDI-FT-ICR-MS high\u2010resolution mass spectrometry data were produced by rastering with the laser across the samples in a defined rectangular area at a 200\u2010\u03bcm resolution spot distance. Mass spectra were generated on individual slices with a 95% data reduction during acquisition in the <strong>ftmsControl</strong> software program (Bruker Daltonik). To improve sensitivity, spectra were acquired in continuous accumulation of selected ions (CASI) mode with an isolation window of 450 \u00b1 75 and 550 \u00b1 30 m/z. External mass calibration was performed in electrospray ionization mode with sodium trifluoroacetate (NaTFA), followed by internal lock mass calibration of single MSI spectra on the unspecific, but highly abundant m/z of 433.38047 corresponding to the Na+ adduct of a C30H50 compound (e.g., squalene, diploptene) and the Na+ adduct of pheophorbide (m/z 557.25231). Laser power, number of shots and frequency were optimized for best signal intensities with final settings of 35%, 700 and 1,000 Hz, respectively.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument manufacurer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Target material",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Spatial resolution",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pixel size x",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pixel size y",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Max count of pixel x",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Max count of pixel y",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Max dimension x",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Max dimension y",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Inlet type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Detector",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Detector mode",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Resolving power",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Resolving power m/z",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Native spectrum identifier format",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data file content",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Spectrum representation",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Raw data file format",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument software",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument software version",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Line scan direction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Linescan sequence",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan pattern",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of scans",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Histology",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Histology",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>No histology was carried out in this experiment.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Stain",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "High-res image",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The MSI datasets were first exported to plain text files (*.txt) from <strong>Data Analysis </strong>version 4.4 software (Bruker Daltonics). These plain text files were taken as inputs by the proposed workflow in this study, which is implemented in an in-house developed <strong>python</strong> package that is publicly available (<a href='https://github.com/weimin-liu/msi_feature_extraction' rel='noopener noreferrer' target='_blank'>https://github.com/weimin-liu/msi_feature_extraction</a>). In brief, the workflow includes a data cleaning module for mass calibration, peak normalization, peak alignment and peak picking, and a data mining module for molecular signatures extraction and clustering of molecules. In addition, <strong>ElasticNet </strong>was employed to train multivariate linear regression models for indicating environmental conditions using the data mining results, in order to demonstrate the potential of supervised learning for molecular proxy discovery.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data Transformation software",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Data Transformation software version",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chemical formulas of the detected compounds were assigned by their accurate mass-to-charge-ratios obtained by the cluster-wise KDE approach proposed in this study. We used mass bins&nbsp;with an interval of 1 Da to collect m/z from all spectra and get an array of bins. We then fitted KDE to the distribution of m/z within each sorted bin using a Gaussian kernel function, the bandwidth of which is automatically selected by improved Sheather Jones algorithm implemented in <strong>KDEpy[1]</strong>, which is robust in fitting multimodal distributions. Reference m/z ratios were detected on the KDE curve by first normalizing its height to [0,1] and then picking local maxima with peak prominence<strong>[2]</strong> greater than a pre-defined threshold.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Odland T. tommyod/KDEpy: Kernel Density Estimation in Python (v0.9.10). Zenodo. 2018. doi:10.5281/zenodo.2392268.</p><p><strong>[2]</strong> Virtanen P, Gommers R, Oliphant TE, Haberland M, Reddy T, Cournapeau D, Burovski E, Peterson P, Weckesser W, Bright J, van der Walt SJ, Brett M, Wilson J, Millman KJ, Mayorov N, Nelson ARJ, Jones E, Kern R, Larson E, Carey CJ, Polat \u0130, Feng Y, Moore EW, VanderPlas J, Laxalde D, Perktold J, Cimrman R, Henriksen I, Quintero EA, Harris CR, Archibald AM, Ribeiro AH, Pedregosa F, van Mulbregt P; SciPy 1.0 Contributors. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nat Methods. 2020 Mar;17(3):261-272. doi:10.1038/s41592-019-0686-2. Epub 2020 Feb 3. Erratum in: Nat Methods. 2020 Feb 24;: PMID:32015543.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "MS Imaging -",
+                        "filename": "a_MTBLS4609_MSImaging___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

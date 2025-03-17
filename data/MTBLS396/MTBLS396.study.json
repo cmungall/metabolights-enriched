@@ -1,0 +1,980 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-11-29T16:53:28.843000",
+        "statusUpdateTime": "2017-11-29T16:53:28.843000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS396",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2016-10-28",
+        "publicReleaseDate": "2017-11-07",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CSEO",
+                "file": "http://data.bioontology.org/ontologies/CSEO",
+                "version": "2",
+                "description": "Cigarette Smoke Exposure Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS396",
+                "filename": "s_MTBLS396.txt",
+                "title": "Lipid Data Analyzer: Analysis of a complex biological system from murine liver samples (Murine liver lipidome experiment)",
+                "description": "Lipid Data Analyzer (LDA; http://genome.tugraz.at/lda2) provides automated and reliable annotation of lipid species and their molecular structures in high-throughput data from chromatography-coupled tandem mass spectrometry using embedded rule sets. Using various low- and high-resolution mass spectrometry instruments with several collision energies, the method's platform independence is proved. The software's reliability, flexibility, and ability to identify novel lipid molecular species may now render current state-of-the-art lipid libraries obsolete. </br></br> The biological data was used to fine-tune the developed decision rule sets. In particular, the high numbers of isobaric species and structural isomers contained in these samples helped in the detection of decisive differences for many isobaric subclasses/adducts. </br></br> Control experiment 1 assays for this study can be found in the MetaboLights study MTBLS394.</br> Control experiment 2 assays for this study can be found in the MetaboLights study MTBLS391.</br> Control experiment 3 assays for this study can be found in the MetaboLights study MTBLS398.</br> LipidBlast benchmarking assays for this study can be found in the MetaboLights study MTBLS397.</br> HCD characterization and regioisomer detection assays for this study can be found in the MetaboLights study MTBLS462.</br> <br/>Linked Studies: <a href='https://www.ebi.ac.uk/metabolights/MTBLS391' target='_blank'><span class='label label-success'>MTBLS391</span></a> <a href='https://www.ebi.ac.uk/metabolights/MTBLS394' target='_blank'><span class='label label-success'>MTBLS394</span></a> <a href='https://www.ebi.ac.uk/metabolights/MTBLS397' target='_blank'><span class='label label-success'>MTBLS397</span></a> <a href='https://www.ebi.ac.uk/metabolights/MTBLS398' target='_blank'><span class='label label-success'>MTBLS398</span></a> <a href='https://www.ebi.ac.uk/metabolights/MTBLS462' target='_blank'><span class='label label-success'>MTBLS462</span></a>",
+                "submissionDate": "2016-10-28",
+                "publicReleaseDate": "2017-11-07",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "J\u00fcrgen",
+                        "lastName": "Hartler",
+                        "email": "juergen.hartler@tugraz.at",
+                        "affiliation": "Institute of Molecular Biotechnology, Graz University of Technology",
+                        "address": "Petersgasse 14/V\n8010 Graz, Austria",
+                        "fax": "+43-316-873-105322",
+                        "midInitials": "",
+                        "phone": "+43-316-873-5322",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "author",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Harald",
+                        "lastName": "K\u00f6feler",
+                        "email": "harald.koefeler@klinikum-graz.at",
+                        "affiliation": "Center for Medical Research, Medical University of Graz",
+                        "address": "Stiftingtalstrasse 24\n8010 Graz, Austria",
+                        "fax": "+43-316-385-73009",
+                        "midInitials": "C",
+                        "phone": "+43-316-385-73005",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "author",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Gerhard",
+                        "lastName": "Thallinger",
+                        "email": "gerhard.thallinger@tugraz.at",
+                        "affiliation": "Institute of Molecular Biotechnology, Graz University of Technology",
+                        "address": "Petersgasse 14/V\n8010 Graz, Austria",
+                        "fax": "+43-316-873-105343",
+                        "midInitials": "G",
+                        "phone": "+43-316-873-5343",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "author",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CSEO",
+                            "file": "http://data.bioontology.org/ontologies/CSEO",
+                            "version": "2",
+                            "description": "Cigarette Smoke Exposure Ontology"
+                        },
+                        "termAccession": "http://scai.fraunhofer.de/CSEO#lipidomics"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Software Engineering",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17147"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Deciphering lipid structures based on platform-independent decision rules.",
+                        "authorList": "Hartler J, Triebl A, Ziegl A, Tr\u00f6tzm\u00fcller M, Rechberger GN, Zeleznik OA, Zierler KA, Torta F, Cazenave-Gassiot A, Wenk MR, Fauland A, Wheelock CE, Armando AM, Quehenberger O, Zhang Q, Wakelam MJO, Haemmerle G, Spener F, K\u00f6feler HC, Thallinger GG.",
+                        "pubMedID": "29058722",
+                        "doi": "10.1038/nmeth.4470",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Liver samples from wild type mice with ad libitum access to water and a standard chow diet were excised as described previously [1].\n</p>\nRef:</br>\n[1] Zierler KA, Jaeger D, Pollak NM, Eder S, Rechberger GN, Radner FP, Woelkart G, Kolb D, Schmidt A, Kumari M, Preiss-Landl K, Pieske B, Mayer B, Zimmermann R, Lass A, Zechner R, Haemmerle G. Functional cardiac lipolysis in mice critically depends on comparative gene identification-58. J Biol Chem. 2013 Apr 5;288(14):9892-904. doi:10.1074/jbc.M112.420620. PMID:23413028</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Three liver aliquots (25-40 mg) from three different mice were homogenized using a BioPulverizer (BioSpec Products, Bartlesville, OK, USA) and extracted according to [1]. 1.5 ml methanol and 5 ml MTBE (methyl-tert-butyl ether) were added to liver homogenate in 12 ml glass test tubes with PTFE-lined caps, and the mixture was incubated for 10 min in an overhead shaker at room temperature. After addition of 1.25 ml deionized water and 10 min of additional shaking, the mixture was centrifuged for 5 min at 2,000 x g and the upper phase was transferred to a new test tube. The lower phase was re-extracted with 2 ml of the upper phase of MTBE/methanol/deionized water 10:3:2.5 (v/v/v). The upper phases were combined, evaporated in a vacuum centrifuge and dissolved in 1 ml chloroform/methanol 1:1 (v/v) for storage at -20 \u00b0C. Animal procedures were approved by the Austrian Federal Ministry for Science and Research and the Ethics Committee of the University of Graz (BMWFW-66.007/0006-WF/3b/2014).\n</p>\nThe three liver extracts were measured in quintuplicates each.\n</p>\nRef:</br>\n[1] Matyash V, Liebisch G, Kurzchalia TV, Shevchenko A, Schwudke D. Lipid extraction by methyl-tert-butyl ether for high-throughput lipidomics. J Lipid Res. 2008 May;49(5):1137-46. doi:10.1194/jlr.D700041-JLR200. PMID:18281723</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Orbitrap Velos Pro CID and HCD:</br>\nChromatographic separation of lipids was performed on a Waters BEH C8 column (100 x 1 mm, 1.7 \u00b5m) (Waters, Milford, MA, USA), thermostated to 50 \u00b0C in a Dionex Ultimate XRS UHPLC (ultra-high performance liquid chromatography) system. Mobile phase A for chromatographic separation was deionized water containing 10 mmol/l ammonium formate and 0.1 vol% of formic acid. Mobile phase B was acetonitrile/2-propanol 5:2 (v/v) with the same additives. Gradient elution started at 50% mobile phase B, rising to 100% B over 40 min, 100% B was held for 10 min and the column was re-equilibrated with 50% B for 8 min before the next injection. Flow rate was 150 \u00b5l/min and injection volume was 2 \u00b5l.\n</p>\nQTRAP 4000:</br>\nChromatographic separation was performed on an Agilent HPLC 1100 system (Agilent Technologies, Waldbronn, Germany). A Kinetex C8 column (100 x 2.1 mm, 1.7 \u00b5m) (Phenomenex, Torrance, CA, USA) was used. Mobile phases were identical as used for Orbitrap Velos Pro. Gradient elution started at 50% mobile phase B, rising to 100% B over 30 min, 100% B was held for 15 min and the column was re-equilibrated with 50% B for 13 min. Flow rate was 250 \u00b5l/min and 2 \u00b5l of the sample were injected.\n</p>\nOrbitrap Elite:</br>\nChromatography was performed on a Gemini-NX C18 (150 x 2 mm) column (Phenomenex, Torrance, CA, USA) using a Shimadzu Prominence 20-AD system (Shimadzu, Kyoto, Japan). Mobile phase A was water and mobile phase B was acetonitrile/2-propanol 5:2 (v/v), both containing 10 mmol/l ammonium formate and 0.1 vol% formic acid as additives. Eight \u00b5l of sample were injected onto the column and eluted with a gradient of 50-100% B over 25 min, 100% B was held for 20 min before the column was re-equilibrated with 50% B. Flow rate was 450 \u00b5l/min, the column oven temperature was 50 \u00b0C and the samples were kept at 4 \u00b0C.\n</p>\nQTRAP 6500:</br>\nA Waters Acquity UPLC system (Waters Technologies, Milford, MA, USA) with a Phenomenex Kinetex C18 column (150 x 2.1 mm, 1.7 \u00b5m) was used for chromatographic separation. Gradient elution started at 40% mobile phase B for 10 min, then rising to 100% B over 10 min. 100% B was held for 30 min and the column was equilibrated with 50% B for 8 min. Flow rate was 300 \u00b5l/min and 10 \u00b5l of sample was injected.\n</p>\nQTOF G6550A:</br>\nChromatographic separation was performed using an Agilent C18 Zorbax RRHD 100 x 2.1 mm, 1.8 \u00b5m column thermostated to 50 \u00b0C in an Agilent 1290 Infinity UHPLC system (Agilent, Santa Clara, CA, USA). Mobile phases A and B were acetonitrile/water 40:60 (v/v) and 2-propanol:acetonitrile 90:10 (v/v), respectively, both containing 10 mmol/l ammonium formate. Gradient elution started at 10% mobile phase B, rising to 25% B in 1 min, to 60% B in 4.5 min, to 85% B in 8.5 min, and to 100% B in 4 min. 100% B was held for 1 min before the column was re-equilibrated for a further 1.5 min, leading to a total run time of 20.5 min. Flow rate was 400 \u00b5l/min, and 2 \u00b5l of sample were injected.\n</p>\nQ Exactive:</br>\nChromatographic separation of lipids was performed on a Waters (Waters, Milford, MA, USA) BEH C8 column (100 x 1 mm, 1.7 \u00b5m), thermostated to 50 \u00b0C in a Thermo Ultimate 3000 UHPLC system. Mobile phase A for chromatographic separation was deionized water with 10 mmol/l ammonium formate and 0.1 vol% of formic acid as additives. Mobile phase B was a mixture of acetonitrile/2-propanol 5:2 (v/v) with the same additives. Gradient elution started at 50% mobile phase B, rising to 100% B in 40 min, 100% B were held for 8 min and the column was re-equilibrated with 50% B for 7 min before the next injection. The flow rate was 150 \u00b5l/min and injection volume was 2 \u00b5l.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Orbitrap Velos Pro CID and HCD:</br>\nThe Orbitrap Velos Pro hybrid mass spectrometer (Thermo Fisher Scientific, Waltham, MA, USA) was operated in Data Dependent Acquisition (DDA) mode using a HESI II (heated electrospray ionization) ion source. Prior to experiments, lens settings and source parameters were optimized to the signal of PE 34:1 (using protonated/deprotonated molecular ion in positive/negative ion mode, respectively) infused into the column effluent of 80% mobile phase B with a mixing tee. Ion source parameters for positive polarity were as follows: Source Voltage 4.5 kV; source temperature 375 \u00b0C; sheath gas 25 arbitrary units (AU); aux gas 9 AU; sweep gas 0 AU; capillary temperature 300 \u00b0C. Ion source parameters for negative ion mode were: Source voltage 3.8 kV; source temperature 325 \u00b0C; sheath gas 30 AU; aux gas 10 AU; sweep gas 0 AU; capillary temperature 300 \u00b0C. Full scan spectra from m/z 400 to 1,000 for positive ion mode and from m/z 400 to 1,000 in negative ion mode were acquired at a target resolution of 100,000 (FWHM at m/z 400). From each full scan spectrum, ions were selected for sequential fragmentation either in the linear ion trap (collision-induced dissociation (CID) experiments) or in the C-trap (higher-energy collision dissociation (HCD) experiments) and detected in the ion trap or the Orbitrap analyzer, respectively. For CID experiments, the 10 most abundant ions of the full scan spectrum were fragmented using He as collision gas (isolation width 1.5 m/z; activation Q 0.2; activation time 10 ms). Normalized collision energy was 50 in both positive and negative ion mode. For HCD experiments, fragment spectra of the 4 most abundant ions were collected in the Orbitrap mass analyzer at a target resolution of 7,500 (FWHM at m/z 400, isolation width 1.5 m/z; activation time 0.1 ms). Exclusion time (duration after fragmentation for excluding ions with similar m/z) was set to 10 s. Normalized collision energy settings were 25 and 50 for positive and negative ion mode, respectively.\n</p>\nQTRAP 4000:</br>\nThe QTRAP 4000 (AB Sciex, Concord, Canada) was controlled by Analyst v. 1.6.1 software and operated in Information Dependent Acquisition (IDA) mode, using an enhanced MS (EMS) scan from m/z 400 to 1,050 and 400 to 1,000 in positive and negative ion mode, respectively, at 1,000 Da/s as a survey scan. Prior to analysis, source parameters were optimized using flow injection analysis into an isocratic flow of 80% mobile phase B. Analytes were PC 36:1 (m/z 788.6-184) for positive ion mode and PE 36:2 (m/z 742-279) for negative ion mode. The optimized source parameters of the Turbo V ion source for positive ion mode were as follows: Curtain gas 15 AU; collision gas high; ionspray voltage 5,000 V; temperature 450 \u00b0C; gas 1 50 AU; gas 2 50 AU; declustering potential 60 V; collision energy spread 0; collision energy 45 V. Source parameters for negative ion mode were: Curtain gas 10 AU; collision gas high; ionspray voltage 4,500 V; temperature 600 \u00b0C; gas 1 20 AU; gas 2 50 AU; declustering potential 95 V; collision energy spread 0; collision energy 45 V. From each survey scan, the four most abundant ions exceeding 1,000 counts were chosen for enhanced product ion (EPI) scans at 4,000 Da/s. Previously detected target ions were excluded for 10 s.\n</p>\nOrbitrap Elite:</br>\nMS/MS data was acquired on an Orbitrap Elite mass spectrometer (Thermo Fisher Scientific, Waltham, MA, USA) in DDA mode. Source parameters for both polarities were as follows: Capillary temperature 380 \u00b0C; source heater temperature 380 \u00b0C; sheath gas 60 AU; aux gas 20 AU; sweep gas 5 AU. Source voltage was 3.5 kV and 5 kV for positive and negative ion mode, respectively. Full scan spectra in the range of m/z 400 to 1,050 were acquired at a target resolution of 120,000 (FWHM at m/z 400). The four most abundant ions from each spectrum were subjected to fragmentation in the C-trap, and the tandem mass spectra were recorded at a target resolution of 15,000 (FWHM at m/z 400). Isolation width was 1.5 m/z, activation time was 0.1 ms, normalized collision energy was 25 in positive ion mode and 50 in negative ion mode, and the exclusion time was 15 s.\n</p>\nQTRAP 6500:</br>\nThe QTRAP 6500 (AB Sciex, Concord, ON, Canada), controlled by Analyst v. 1.6.2 software, operated in IDA mode, using an EMS scan from m/z 400 to 1,000 at 10,000 Da/s as a survey scan. Source parameters were automatically optimized using flow injection analysis into an isocratic flow of 80% mobile phase B. Analytes were PC 34:1 (m/z 760-184) for positive ion mode and PE 34:1 (m/z 716-281) for negative ion mode. The optimized source parameters of the Turbo V ion source for positive ion mode were as follows: Curtain gas 20 AU; collision gas high; ionspray voltage 5,000 V; temperature 300 \u00b0C; gas 1 30 AU; gas 2 30 AU; declustering potential 100; collision energy spread 0; collision energy 45 V. Source parameters for negative ion mode were: curtain gas 20; collision gas high; ionspray voltage 4,500 V; temperature 300 \u00b0C; gas 1 30 AU; gas 2 30 AU; declustering potential 150; collision energy spread 0; collision energy 10 V. From each survey scan, the eight most abundant ions exceeding 100,000 counts were chosen for EPI at 10,000 Da/s. Previously detected target ions were excluded for a duration of 6 s.\n</p>\nQTOF G6550A:</br>\nThe Agilent G6550A QTOF mass spectrometer was operated in AutoMSMS mode. From the full scan spectra, acquired from m/z 100 to 1,700 at a rate of 4 spectra/s, tandem mass spectra of the 15 most abundant precursor ions were acquired at a scan rate of 20 spectra/s and a collision energy setting of 30. Previously detected target ions were excluded after three spectra for 9 s. Source parameters for positive and negative ion mode were as follows: Gas temperature 200 \u00b0C; gas flow 14 AU; nebulizer 35 AU; sheath gas temperature 350 \u00b0C; sheath gas flow 11 AU; capillary voltage 3,500 V; nozzle voltage 1,000 V; fragmentor 175; skimmer 65; octopole RF peak 750.\n</p>\nQ Exactive:</br>\nThe Q Exactive mass spectrometer (Thermo Fisher Scientific Inc., Waltham, MA, USA) was operated in DDA mode. Ion source parameters for positive polarity were as follows: Spray voltage 4.5 kV; aux gas heater temperature 375 \u00b0C; sheath gas 35 AU; aux gas 10 AU; sweep gas 0 AU; capillary temperature 320 \u00b0C. Ion source parameters for negative ion mode were: Spray voltage 3.8 kV; aux gas heater temperature 325 \u00b0C; sheath gas 40 AU; aux gas 20 AU; sweep gas 0 AU; capillary temperature 300 \u00b0C. For both positive and negative ion mode, full scan spectra from m/z 400 to 1,050 were acquired at a target resolution of 140,000 (FWHM at m/z 200) from which ions were selected for fragmentation. Automatic gain control (AGC) target was set to 1e6 ions and the maximum injection time to 500 ms. For the DDA MS/MS scan for both positive and negative ion mode, target resolution was set to 17,500 (FWHM at m/z 200), AGC target to 5e4 ions, maximum injection time to 50 ms and isolation window to 1.5 m/z. The 10 most abundant ions from the full scan spectra were selected for the MS/MS scan. Normalized collision energy was 25 for positive ion mode and 30 for negative ion mode.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data was transformed by msconvert to mzXML, and by LDA in chrom format.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "MS1 peaks were identified as described in an earlier paper[1] and MS/MS spectra were interpreted by decision rule sets as described in the referenced paper of this study.\n</p>\nFor the metabolites assignment, a pipe aka vertical bar character was used to discriminate between the individual MS runs, while a comma character was used to account for several identifications (e.g. several retention times) and ambiguous identifications (e.g. DG 20:0/18:0/-,20:0/-/18:0 corresponds to a diacylglyceride where 20:0 is identified to be on the sn-1 position, while 18:0 might be at sn-2 or sn-3).\n</p>\nRef:</br>\n[1] Hartler J, Tr\u00f6tzm\u00fcller M, Chitraju C, Spener F, K\u00f6feler HC, Thallinger GG. Lipid Data Analyzer: unattended identification and quantitation of lipids in LC-MS data. Bioinformatics. 2011 Feb 15;27(4):572-7. doi:10.1093/bioinformatics/btq699. PMID:21169379</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Orbitrap velos CID positive (Thermo Scientific)",
+                        "filename": "a_MTBLS396_biol_OrbCID_P_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Orbitrap velos CID negative (Thermo Scientific)",
+                        "filename": "a_MTBLS396_biol_OrbCID_N_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Orbitrap velos HCD positive (Thermo Scientific)",
+                        "filename": "a_MTBLS396_biol_OrbHCD_P_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Orbitrap velos HCD negative (Thermo Scientific)",
+                        "filename": "a_MTBLS396_biol_OrbHCD_N_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "QTRAP 4000 positive (AB Sciex)",
+                        "filename": "a_MTBLS396_biol_QTRAP4000_P_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "QTRAP 4000 negative (AB Sciex)",
+                        "filename": "a_MTBLS396_biol_QTRAP4000_N_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Orbitrap elite positive (Thermo Scientific)",
+                        "filename": "a_MTBLS396_biol_OrbElite_P_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Orbitrap elite negative (Thermo Scientific)",
+                        "filename": "a_MTBLS396_biol_OrbElite_N_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "QTRAP 6500 positive (AB Sciex)",
+                        "filename": "a_MTBLS396_biol_QTRAP6500_P_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "QTRAP 6500 negative (AB Sciex)",
+                        "filename": "a_MTBLS396_biol_QTRAP6500_N_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "QTOF G6550A positive (Agilent)",
+                        "filename": "a_MTBLS396_biol_QTOFG6550A_P_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "QTOF G6550A negative (Agilent)",
+                        "filename": "a_MTBLS396_biol_QTOFG6550A_N_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "QExactive positive (Thermo Scientific)",
+                        "filename": "a_MTBLS396_biol_QExa_P_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "QExactive negative (Thermo Scientific)",
+                        "filename": "a_MTBLS396_biol_QExa_N_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

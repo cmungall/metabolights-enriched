@@ -1,0 +1,540 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-12-09T14:04:29.538555",
+        "statusUpdateTime": "2024-12-09T14:04:29.538555",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS7425",
+        "title": "Identification of the modifications in artificial E. coli rRNAs",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2023-03-16",
+        "publicReleaseDate": "2024-12-09",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                "version": "",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                "version": "",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                "version": "",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "GO",
+                "file": "http://purl.obolibrary.org/obo/go/extensions/go-plus.owl",
+                "version": "",
+                "description": "Gene Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://purl.obolibrary.org/obo/ms.owl",
+                "version": "",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                "version": "",
+                "description": "MetaboLights Controlled Vocabulary"
+            },
+            {
+                "comments": [],
+                "name": "NCBITaxon",
+                "file": "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+                "version": "",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                "version": "",
+                "description": "Ontology for Biomedical Investigations"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS7425",
+                "filename": "s_MTBLS7425.txt",
+                "title": "Identification of the modifications in artificial E. coli rRNAs",
+                "description": "Ribosome biogenesis is pivotal in the self-replication of life. In Escherichia coli, three ribosomal RNAs and 54 ribosomal proteins are synthesized and subjected to cooperative hierarchical assembly facilitated by numerous accessory factors. Realizing ribosome biogenesis in vitro is a critical milestone for understanding the self-replication of life and creating artificial cells. Despite its importance, this goal has not yet been achieved owing to its complexity. In this study, we report the successful realization of ribosome biogenesis in vitro. Specifically, we developed a highly specific and sensitive reporter assay for the detection of nascent ribosomes. The reporter assay allowed for combinatorial and iterative exploration of reaction conditions for ribosome biogenesis, leading to the simultaneous, autonomous synthesis of both small and large subunits of ribosomes in vitro through transcription, translation, processing, and assembly in a single reaction space. Our achievement represents a crucial advancement toward revealing the fundamental principles underlying the self-replication of life and creating artificial cells.",
+                "submissionDate": "2023-03-16",
+                "publicReleaseDate": "2024-12-09",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Aoki",
+                        "lastName": "Wataru",
+                        "email": "aoki.wataru.6a@kyoto-u.ac.jp",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Funded Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C63403"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ribosomal RNA",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                            "version": "",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_18111"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "RNA modification",
+                        "termSource": {
+                            "comments": [],
+                            "name": "GO",
+                            "file": "http://purl.obolibrary.org/obo/go/extensions/go-plus.owl",
+                            "version": "",
+                            "description": "Gene Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/GO_0009451"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Ribosome",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C13274"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Reporter Assay",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                            "version": "",
+                            "description": "MetaboLights Controlled Vocabulary"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Identification of the modifications in artificial E. coli rRNAs",
+                        "authorList": "Wataru Aoki",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "in preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Compound",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                                "version": "",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000470"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001100"
+                        },
+                        "description": "<p>E. coli rRNA genes with streptavidin-binding aptamer (Sb-aptamer) were expressed in E. coli S150 extracts. The rRNA genes were expressed for 3 h. rRNAs with Sb-aptamer were purified using streptavidin agarose under a subunit dissociation condition (1 mM Mg2+). Specifically, the reaction solutions were mixed with 50 \u03bcL streptavidin agarose (Thermo Fisher Scientific) and 1.5 mL ribosome dissociation buffer (20 mM HEPES-KOH, 1 mM magnesium glutamate, 200 mM potassium glutamate, and 4 mM DTT, pH = 7.5) and incubated for 16 h at 4 \u00b0C. The streptavidin agarose was washed seven times using 1 mL ribosome dissociation buffer to remove native subunits. The rRNAs with Sb-aptamer were eluted using ribosome dissociation buffer containing 25 mM biotin (Nacalai Tesque). The purified samples were stored at -80 degrees Celsius until use.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001105"
+                        },
+                        "description": "<p>The purified rRNAs with Sb-aptamer were purified as described above. After purifying the rRNAs using the RNeasy\u00ae Mini kit (QIAGEN), their purity and size were determined using Bioanalyzer and the RNA 6000 pico Kit (Agilent, Santa Clara, CA, USA). A 20 \u03bcL solution containing 9 ng of rRNAs, 20 mM HEPES-KOH (pH 7.6), 2 units of Nuclease P1 (FUJIFILM Wako Pure Chemical Corporation), and 0.25 units of bacterial alkaline phosphatase (Takara Bio, Shiga, Japan) was incubated at 37 \u00b0C for 3 h. The control was purified and pretreated in the same manner using E. coli rRNAs without the Sb-aptamer.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001108"
+                        },
+                        "description": "<p>The nucleoside solution (4 \u03bcL) was injected into the NEXERA X2\u2013LCMS-8060 NX system (Shimadzu, Kyoto, Japan). The nucleosides were first separated on an Inertsil ODS-3 column (GL Sciences, Tokyo, Japan) using a mobile phase with a continuous gradient of 100 % of solution A (5 mM ammonium acetate in water, pH 5.3) to 100 % of solution B (60 % acetonitrile in water) in 17 min at a flow rate of 0.4 mL/min at 40 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001109"
+                        },
+                        "description": "<p>Nucleosides were analyzed by electrospray ionization and a triple quadrupole mass spectrometry (LCMS-8060 NX system) in the multiple reaction monitoring mode. The positive ionization mode was used. Temperatures for the interface, desolvation line, and heat block were 300 \u00b0C, 250 \u00b0C, and 400 \u00b0C, respectively.&nbsp;The m/z of the single-protonated precursor ion and product ion corresponding to each nucleoside species are as follows: G (284.0; 152.1), m62A (296.0; 164.0), m1G (298.0; 166.0), Gm (298.1; 152.1), m2A (282.3; 150.1), m6A (282.3; 150.1), Cm (258.3; 112.1), m5U (259.1; 127.0), m5C (258.0;126.0), \u03a8 (245.1; 209.0), m2G (298.0; 166.0), and m7G (298.0; 166.0). Mass spectrometry data were analyzed using LabSolutions (Shimadzu). Q1 pre bias (V) is between -11 and -14. Q3 pre bias (V) is between -21 to -30. Scan rate (dwell time [msec]) is between 16 and 41.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001106"
+                        },
+                        "description": "<p>Chromatograms were displayed using the Shimadzu 'LabSolutions' software. No other software was used in this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001107"
+                        },
+                        "description": "<p>Nucleosides were identified by the multiple reaction monitoring mode based on authentic standards. The m/z of the single-protonated precursor ion and product ion corresponding to each nucleoside species are as follows: G (284.0; 152.1), m62A (296.0; 164.0), m1G (298.0; 166.0), Gm (298.1; 152.1), m2A (282.3; 150.1), m6A (282.3; 150.1), Cm (258.3; 112.1), m5U (259.1; 127.0), m5C (258.0;126.0), \u03a8 (245.1; 209.0), m2G (298.0; 166.0), and m7G (298.0; 166.0).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS7425_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

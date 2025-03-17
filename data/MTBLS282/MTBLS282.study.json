@@ -1,0 +1,511 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-04-28T14:55:49",
+        "statusUpdateTime": "2016-04-28T14:55:49",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS282",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-11-20",
+        "publicReleaseDate": "2016-04-28",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "DOID",
+                "file": "http://data.bioontology.org/ontologies/DOID",
+                "version": "568",
+                "description": "Human Disease Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CNO",
+                "file": "http://data.bioontology.org/ontologies/CNO",
+                "version": "8",
+                "description": "Computational Neuroscience Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS282",
+                "filename": "s_MTBLS282.txt",
+                "title": "3D DESI mass spectrometry imaging of 51 serial sections from a human liver metastasis",
+                "description": "51 serial sections from a single human liver metastasis are made available in this dataset. Four neighbouring sections were placed on a single slide and analysed together. The tissue sections were analysed by desorption electrospray ionisation mass spectrometry imaging (DESI-MSI) according to the procedure outlined in the associated GigaScience publication. The data files are made available in centroid- and profile-mode imzML format. Additionally, high- and low-resolution H&E-stained optical images are included.",
+                "submissionDate": "2015-11-20",
+                "publicReleaseDate": "2016-04-28",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "James",
+                        "lastName": "McKenzie",
+                        "email": "j.mckenzie@imperial.ac.uk",
+                        "affiliation": "Imperial College, London",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "S",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Data curator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Zoltan",
+                        "lastName": "Takats",
+                        "email": "z.takats@imperial.ac.uk",
+                        "affiliation": "Imperial College, London",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "liver cancer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "DOID",
+                            "file": "http://data.bioontology.org/ontologies/DOID",
+                            "version": "568",
+                            "description": "Human Disease Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/DOID_3571"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "desorption electrospray ionisation mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000484"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Benchmark datasets for 3D MALDI- and DESI-imaging mass spectrometry.",
+                        "authorList": "Oetjen J, Veselkov K, Watrous J, McKenzie JS, Becker M, Hauberg-Lotte L, Kobarg JH, Strittmatter N, Mr\u00f3z AK, Hoffmann F, Trede D, Palmer A, Schiffler S, Steinhorst K, Aichler M, Goldin R, Guntinas-Lichius O, von Eggeling F, Thiele H, Maedler K, Walch A, Maass P, Dorrestein PC, Takats Z, Alexandrov T.",
+                        "pubMedID": "25941567",
+                        "doi": "10.1186/s13742-015-0059-4",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Section location",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "3D coordinates",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CNO",
+                                "file": "http://data.bioontology.org/ontologies/CNO",
+                                "version": "8",
+                                "description": "Computational Neuroscience Ontology"
+                            },
+                            "termAccession": "http://purl.org/incf/ontology/Computational_Neurosciences/cno_alpha.owl#cno_0000154"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The human adenocarcinoma sample was excised during a surgical operation performed at the Imperial College Healthcare NHS Trust.  The sample and procedures were carried out in accordance with ethical approval (11/LO/0686).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Preparation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Preparation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The tissue specimen was snap-frozen in liquid nitrogen and stored in a freezer at -80 \u00b0C prior to cryosectioning at 10 \u00b5m thickness using a Microm HM550 Cryostat (Thermo Fisher Scientific, Runcorn, UK) set at -16 \u00b0C, and thaw mounted onto SuperFrost\u00ae Glass slides (Thermo Fisher Scientific). Distilled water was used to mount the sample to the sample holder, and the cryosectioning was performed without embedding medium. The built-in vacutome function of the cryostat was used to facilitate sectioning. The slides were stored in closed containers at -80 \u00b0C prior to analysis and allowed to thaw at room temperature under nitrogen flow prior to DESI-imaging MS acquisition. Sections were cut to a thickness of 10 \u00b5m, and every tenth section was imaged. The instrumental spatial resolution of 100 \u00b5m resulted in voxels of 100 cubic \u00b5m. Four sections were placed on each slide in this order: 1) top right; 2) bottom right; 3) bottom left; 4) top left, i.e. proceeding clockwise from the top right.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample mounting",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample preservation",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sectioning instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Section thickness",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "DESI imaging was performed in negative ion mode over an m/z range of 150 - 1,500 using a Thermo Exactive instrument (Thermo Scientific GmbH, Bremen, Germany) coupled to a home-built automated DESI-imaging source as described previously [1]. The solvent used for DESI analysis was methanol/water (95/5 v/v) at a flow rate of 1.5 ml/min. Nitrogen was used as a nebulizing gas at a pressure of 7 bar. The distance between the DESI spray tip and the sample surface was set to 1.5 mm; the distance between the DESI spray tip and the mass spectrometer was set to 14 mm; and the distance between the inlet capillary and the sample surface was 0.1 mm. The spray angle was 80\u00b0, whereas the collection angle was fixed at 10\u00b0. The spray voltage used for analysis was 4.5 kV. Each row of pixels was acquired as a continuous line scan over the sample surface and saved in a separate raw file.\n</p>\nRef:</br>\n[1] Gerbig S, Golf O, Balog J, Denes J, Baranyai Z, Zarand A, Raso E, Timar J, Takats Z. Analysis of colorectal adenocarcinoma tissue by desorption electrospray ionization mass spectrometric imaging. Anal Bioanal Chem. 2012 Jun;403(8):2315-25. doi:10.1007/s00216-012-5841-x. PMID:22447214</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Spatial resolution",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Histology",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Histology",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The sections were stained with H&E and found to mostly consist of adenocarcinoma metastasis and normal liver. Additionally there is an area of connective tissue containing blood vessels and bile ducts.\n</p>\nThe stained images typically require to be rotated by 90 degrees clockwise in order to match the MS data.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Stain",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "High-res image",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Low-res image",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All Thermo raw files of one imaging experiment were then converted to imzML format using the imzML converter v1.1.4.5i [1]. The imzML files were named with reference to the section number and location of the section on the slide. For example, in the file named \u201c120TopL, 90TopR, 110BottomL, 100BottomR-centroid.imzML\u201d, the top-right section was the 90th section cut from the sample at a depth of 900 \u00b5m.\n</p>\nRef:</br>\n[1] MALDI MSI Interest Group: Msimaging. http://www.maldi-msi.org (2011).</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "No metabolite identification has been performed.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive",
+                        "filename": "a_MTBLS282_ml-icl-liver3d_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

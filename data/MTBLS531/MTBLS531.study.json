@@ -1,0 +1,525 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-02-25T00:00:00",
+        "statusUpdateTime": "2024-02-25T20:09:58.277721",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\Users\\mwilliam\\Google Drive\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS531",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-08-29",
+        "publicReleaseDate": "2018-09-20",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS531",
+                "filename": "s_MTBLS531.txt",
+                "title": "A Multi-Omics Analysis of Glycine max Leaves Reveals Alteration in Flavonoid and Isoflavonoid Metabolism Upon Ethylene and Abscisic Acid Treatment",
+                "description": "Phytohormones are central to plant growth and development. Despite the advancement in our knowledge of hormone signaling, downstream targets, and their interactions upon hormones action remain largely fragmented, especially at the protein and metabolite levels. With an aim to get new insight into the effects of two hormones, ethylene (ET) and abscisic acid (ABA), this study utilizes an integrated proteomics and metabolomics approach to investigate their individual and combined (ABA+ET) signaling in soybean leaves. Targeting low-abundance proteins, our previously established protamine sulfate precipitation method was applied, followed by label-free quantification of identified proteins. A total of 4129 unique protein groups including 1083 differentially modulated in one (individual) or other (combined) treatments were discerned. Functional annotation of the identified proteins showed an increased abundance of proteins related to the flavonoid and isoflavonoid biosynthesis and MAPK signaling pathway in response to ET treatment. HPLC analysis showed an accumulation of isoflavones (genistin, daidzein, and genistein) upon ET treatment, in agreement with the proteomics results. A metabolome analysis assigned 79 metabolites and further confirmed the accumulation of flavonoids and isoflavonoids in response to ET. A potential cross-talk between ET and MAPK signaling, leading to the accumulation of flavonoids and isoflavonoids in soybean leaves is suggested.",
+                "submissionDate": "2017-08-29",
+                "publicReleaseDate": "2018-09-20",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Sun Tae",
+                        "lastName": "Kim",
+                        "email": "stkim5505@gmail.com",
+                        "affiliation": "Pusan National University",
+                        "address": "Department of Plant Bioscience, Pusan National University, Miryang, 627-706, South Korea.",
+                        "fax": "+82-55-350-5509",
+                        "midInitials": "",
+                        "phone": "+82-55-350-5505",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ravi",
+                        "lastName": "Gupta",
+                        "email": "ravigupta07@ymail.com",
+                        "affiliation": "Pusan National University",
+                        "address": "Department of Plant Bioscience, Pusan National University, Miryang, 627-706, South Korea.",
+                        "fax": "+82-55-350-5509",
+                        "midInitials": "",
+                        "phone": "+82-55-350-5505",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "study investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ethylene group",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_29362"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "(+)-abscisic acid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_2365"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "isoflavonoid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_50753"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "flavonoid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_47916"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A Multi-Omics Analysis of Glycine max Leaves Reveals Alteration in Flavonoid and Isoflavonoid Metabolism Upon Ethylene and Abscisic Acid Treatment.",
+                        "authorList": "Gupta R, Min CW, Kramer K, Agrawal GK, Rakwal R, Park KH, Wang Y, Finkemeier I, Kim ST.",
+                        "pubMedID": "29457974",
+                        "doi": "10.1002/pmic.201700366",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Hormone treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "biological replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002091"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Soybean seeds (Glycine max cv. Daewon) were planted in small pots and allowed to grow in a growth chamber at 25 \u00b0C (16/8 h day/light cycle, 70% relative humidity) for 1 month. Ethephon (5 mM, a natural precursor of ET) and ABA (500 \u03bcM) were prepared in the deionized water and 50 mL of solution was evenly sprayed, using a foliar spray, over 4 pots containing 5 soybean plants per pot. An equal volume of deionized water was sprayed as a control with each treatment performed in quadruplicate, resulting in 16 (4 x 4) pots per treatment. After treatments, whole trays were shifted to transparent acrylic chambers and sealed to prevent the evaporation of ET produced. Leaves were harvested 72 h after treatment and powdered using liquid nitrogen. All the treatments were performed in 4 biological replicates.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Control- and hormone-treated leaves were dried at 80 \u00b0C overnight and ground to fine powder using pestle and mortar. For the extraction of isoflavones, 1 g of dried leaves were homogenized in 70% methanol, vortexed for 10 min, and then sonicated for 2 h in a water bath type sonicator. After sonication, extracts were centrifuged at 12,000 x g for 10 min, filtered through a 0.22 \u03bcm syringe filter, and used for LC-MS analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The samples were analyzed in a Triple TOF 5600 Q-TOF LC/MS/MS system (AB Sciex, CA) using an Ultimate 3000 RSLC HPLC system (Thermo Fisher Scientific Inc., MA, USA), including a degasser, an auto-sampler, diode array detector, and a binary pump. The LC separation was performed on a column (KinetexF5 2.6 \u03bcm 100 \u00c5, LC Column 100 x 2.1 mm, Phenomenex, 00D-4723-AN) with a mobile phase A (0.1% formic acid in water) and a mobile phase B (0.1% formic acid in ACN). The flow rate was 0.25 mL/min. The linear gradient was as follows for solvent B (in A): 0-25 min, 5-100%; 25-27 min hold at 100%; 27-30 min, 95-5% and 30-33 min hold at 5%. The autosampler was set at 4 \u00b0C and the injection volume was 5 \u03bcL.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectra were acquired on a AB Sciex Triple TOF 5600 Q-TOF LC/MS/MS system under positive electrospray ionization (ESI) with an ion-spray voltage of 4500 V. The source temperature was 450 \u00b0C. The curtain gas, ion source gas 1 and ion source gas 2 were 35, 65 and 55 psi, respectively. 2 full-scan mass spectra were acquired over an m/z range of 50-2000 on the MS mode[1].</p><p><br></p><p>Ref:</p><p>[1] I. M. Abu-Reidah, M. S. Ali-Shtayeh, R. M. Jamous, D. Arr\u00e1ez-Rom\u00e1n, A. Segura-Carretero. Comprehensive metabolite profiling of Arum palaestinum (Araceae) leaves by using liquid chromatography\u2013tandem mass spectrometry. Food Res. Int. 2015, 70, 74. doi:10.1016/j.foodres.2015.01.023</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The data were collected using Analyst TF 1.7 software and feature finding (i.e., peak picking) was performed using Elements software (version 1.3.1, Proteome Software Inc., Portland, OR, USA).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Candidate metabolite identifications were generated by matching experimental data to spectral library data using exact mass with a mass tolerance of 20 ppm. If both the experimental and library data contained MS2 spectra, MS2 peaks were matched between experimental and library spectra using a fragment mass tolerance of 0.5 Da. HMDB (45-905 entries) and NIST (181-194 entries) libraries were searched to generate candidate metabolite identifications. The following molecular modifications (adducts, in-source fragments, multimerizations and neutral losses) were considered when matching features to library metabolites: [M+Na]+ and [M+H]+. Each replicate group's intensities were normalized to align the median intensities and the inner quartile widths with a bilinear mapping in log space. Multivariate data analysis was carried out using MetaboAnalyst software[1].</p><p><br></p><p>Ref: </p><p>[1] Xia J, Sinelnikov IV, Han B, Wishart DS. MetaboAnalyst 3.0-making metabolomics more meaningful. Nucleic Acids Res. 2015 Jul 1;43(W1):W251-7. doi:10.1093/nar/gkv380. PMID:25897128</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography Tandem MS (LC-MS/MS)",
+                        "filename": "a_MTBLS531_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

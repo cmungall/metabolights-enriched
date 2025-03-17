@@ -1,0 +1,617 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-08-07T14:20:48.019000",
+        "statusUpdateTime": "2018-08-07T14:20:48.019000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "E:ISAcreatorMetaboLightsConfigurationsMetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS496",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-07-31",
+        "publicReleaseDate": "2018-08-07",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "PR",
+                "file": "http://data.bioontology.org/ontologies/PR",
+                "version": "64",
+                "description": "Protein Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS496",
+                "filename": "s_MTBLS496.txt",
+                "title": "Metabolomic profiling of Campylobacter jejuni with resistance gene ermB by ultra-high performance liquid chromatography-quadrupole time-of-flight mass spectrometry and tandem quadrupole mass spectrometry",
+                "description": "The metabolome changes of Campylobacter jejuni with resistant gene ermB remain unclear. Here, we described an untargeted metabolomic workflow based on ultra-high performance liquid chromatography-quadrupole time-of-flight mass spectrometry to investigate the metabolites perturbations mediated by ermB in C. jejuni. After optimization of extractants and chromatographic conditions, the combination of 100% methanol extraction with a 12 min gradient by C18 column was adopted for untargeted metabolomic profiling in reversed phase separation. Meanwhile, 60% methanol extraction followed by a 14 min separation using hydrophilic interaction chromatography column was suitable to complementally expand the metabolite coverage of C. jejuni. Multivariate statistical analysis was performed by means of orthogonal projection to latent structures-discriminant analysis to select metabolic features. The selected features were further confirmed by ultra-high performance liquid chromatography-tandem quadrupole mass spectrometry. A total of thirty-six differential metabolites between the susceptible strain (C. jejuni NCTC 11168) and resistant stain (C. jejuni NCTC 11168 with ermB) were identified. These pivotal metabolites were primarily participated in biological processes as cell signaling, membrane integrity/stability, fuel and energy source/storage and nutrient. The biofilm formation capability of resistant strain was inferior to that of susceptible strain, confirming the influence of ermB on membrane integrity/stability of C. jejuni. Our findings revealed important metabolic regulatory pathways associated with resistant C. jejuni with ermB.",
+                "submissionDate": "2017-07-31",
+                "publicReleaseDate": "2018-08-07",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Xia",
+                        "lastName": "Xi",
+                        "email": "xiaxi802011@163.com",
+                        "affiliation": "China Agricultural University",
+                        "address": "No.2 Yuanmingyuan West Road, Beijing, China",
+                        "fax": "+8610-62731201",
+                        "midInitials": "",
+                        "phone": "+8610-62732802",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ermB",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "antibiotic resistance",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BAO",
+                            "file": "http://data.bioontology.org/ontologies/BAO",
+                            "version": "19",
+                            "description": "BioAssay Ontology"
+                        },
+                        "termAccession": "http://www.bioassayontology.org/bao#BAO_0000099"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolomic profiling of Campylobacter jejuni with resistance gene ermB by ultra-high performance liquid chromatography-quadrupole time-of-flight mass spectrometry and tandem quadrupole mass spectrometry.",
+                        "authorList": "Fu Q, Liu D, Wang Y, Li X, Wang L, Yu F, Shen J, Xia X.",
+                        "pubMedID": "29453015",
+                        "doi": "10.1016/j.jchromb.2018.02.009",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "methanol extract",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Concentration",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C41185"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The parent strain C. jejuni NCTC 11168 (CJ-11168) and resistant strain C. jejuni NCTC 11168 with ermB (CJ-ermB) were both cultivated in MHA plate under the microaerobic environment (85% N2, 10% CO2, 5% O2) at 42 \u00b0C. The minimum inhibition concentration of CJ-ermB was 128 \u00b5g/ml for erythromycin. Cells at the bacterial exponential growth phase were collected, transferred into 1 ml 0.85% NaCl, and followed by centrifugation at 10000 x g, -10 \u00b0C for 10 min. The supernatants were discarded, and the cell pellets were washed 2 more times with 0.85% NaCl. 20 mg of cell pellets (wet weight) were prepared as a single sample. 6 replicates were prepared for both CJ-11168 and CJ-ermB.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Flash freezing in liquid nitrogen (-196 \u00b0C) was adopted to quench the metabolism and decrease the possibility of cell lysis. The metabolites were extracted with methanol for reversed phase separation or 60% methanol for hydrophilic interaction chromatography (HILIC) separation by freezing-thawing cycles. Specifically, the cell pellet was vortex-mixed with 1 ml of extractant, put in the liquid nitrogen for 2 min for freezing, and then thawed on the ice. The mixture was centrifuged at 10000 x g for 10 min at -10 \u00b0C, and the supernatant was transferred to another clean centrifuge tube. The extraction was repeated for 3 times. Mixed standard solution containing sulfadiazine, difloxacin, monensin, tylosin, and chloramphenicol was spiked into the combined supernatant for quality control (QC) at a final concentration of 500 ng/ml. The extracts were evaporated to dryness by a vacuum rotation evaporator and dissolved in 500 \u00b5l of final solution by 1 min vortexing. The final solution was acetonitrile:water (50:50, v/v, containing 0.1% formic acid) for reversed phase separation, or acetonitrile:0.5 mM ammonium acetate (95:5, v/v) for HILIC separation. The reconstituted solution was centrifuged at 20,000 x g for 10\u202f min at \u221210\u202f \u00b0C before injection into the UHPLC-MS system.\n</p>\nMixed standard solution containing sulfadiazine, difloxacin, monensin, tylosin, and chloramphenicol was spiked into the individual study samples for quality control (QC) at a final concentration of 500 ng/ml. QC sample was extracted and processed as the above extracting procedures for metabolites.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Samples were analyzed using an UHPLC-QTOF/MS (Acquity-Synapt HDMS, Waters, Milford, MA, USA) and separated by reversed phase column and HILIC column, respectively. For the reversed phase separation, a BEH Shield RP18 column (2.1 x 50 mm i.d., 1.7 \u00b5m) was used at 30 \u00b0C with mobile phase A (0.1% formic acid in water) and phase B (0.1% formic acid in acetonitrile). The gradient conditions were optimized as follows: 0\u22121 min, 2\u22125% B; 1\u22128 min, 5\u221290% B; 8\u221210 min, 90\u2212100% B; 10\u221210.1 min, 100\u22122% B; 10.1-12 min, 2% B. For the HILIC separation, a BEH Amide column (50 x 2.1 mm i.d., 1.7 \u00b5m) was adopted with mobile phase A (95% acetonitrile + 5% 0.5 mM ammonium acetate) and phase B (50% acetonitrile + 50% 0.5 mM ammonium acetate). The gradient conditions were optimized as follows: 0\u22120.5 min, 1% B; 0.5\u221210 min, 1\u2212100% B; 10\u221211 min, 100% B; 11\u221211.1 min, 100-1% B; 11.1\u221214 min, 1% B. The flow rate was 0.3 ml/min. The injection volume was 10 \u00b5l.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The MS system was operated separately in electrospray ionization positive (ESI+) and negative (ESI\u2212) mode with MS resolution of 10,000 FWHM for each sample in reversed phase and HILIC separation. The mass range was set at m/z 100\u22121000 Da in the full-scan mode. The optimized ESI parameters were as follows: capillary voltage, 3 kV; cone voltage, 35 V; source temperature, 100 \u00b0C; desolvation temperature, 350 \u00b0C; desolvation gas flow, 600 l/h. For accurate mass measurement, leucine enkephalin was used as the lock spray standard ([M+H]+=556.2771; [M\u2212H]\u2212=554.2615) at a concentration of 100 ng/ml under a flow rate of 50 \u00b5l/min.\n</p>\nTo verify the reliability of UHPLC-QTOF/MS analysis, relative quantification of metabolite features was performed by UHPLC-triple quadrupole mass spectrometry (MS/MS) (Acquity-Quattro LC, Waters) with ESI multiple reaction monitoring (MRM) detection. The LC separation conditions were identical to untargeted profiling. Typical MS source parameters were as follows: capillary voltage, 3.5 kV; source temperature, 100 \u00b0C; desolvation temperature, 350 \u00b0C; desolvation gas flow, 600 l/h. The transitions as well as corresponding collision energy of each feature were summarized in Table S1 of the paper associsted with this study. The fold change (FC) was calculated by comparing the mean response of each features in CJ-ermB versus that of CJ-11168. The features with FC>=1.5 were selected for further identification.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "UHPLC-QTOF/MS raw data files were processed with MarkerLynx XS software (Waters). Peak picking parameters were as follows: intensity threshold, 100; mass window, 0.02; retention time (RT) window, 0.1; noise elimination level, 6.0; peak widths automatically detection. Multivariate statistical analysis was performed by EZinfo software (Waters) for orthogonal projection to latent structures\u2212discriminant analysis (OPLS\u2212DA) to maximize the differences of metabolic profiles between parent and resistant strains. The combined S plots and variable importance in the projection (VIP) plots from the OPLS\u2212DA analysis were used to select distinct variables as potential biomarkers\n(VIP scores\u202f>=2.0, SIMICA-P\u202f<=\u202f\u22120.9 or >=0.9).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Identification of selected features was firstly performed by elemental composition analysis. The mass error and isotopic pattern of the selected ion (i-fit) were used to assess the accuracy of potential formulas. After that, Mass Fragment (Waters) was applied to facilitate the MS/MS fragment ion analysis. Later, databases query containing Lipdmaps, Markers, Kyoto Encyclopedia of Genes and Genomes (KEGG), Metlin, Chemspider, Human Metabolome Database (HMDB), Massbank was performed with a mass tolerant of 0.01 Da. Finally, the identities of specific metabolites were confirmed by comparing their MS/MS spectra and chromatographic retention behavior with that of commercial standards.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS496_POS_RP_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS496_NEG_RP_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS496_POS_HILIC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS496_NEG_HILIC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

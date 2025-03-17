@@ -1,0 +1,557 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-05-16T09:41:53.354000",
+        "statusUpdateTime": "2018-05-16T09:41:53.354000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS656",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-04-02",
+        "publicReleaseDate": "2018-05-16",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS656",
+                "filename": "s_MTBLS656.txt",
+                "title": "A Pilot Characterization of the Human Chronobiome",
+                "description": "Physiological function, disease expression and drug effects vary by time-of-day. Clock disruption in mice results in cardio-metabolic, immunological and neurological dysfunction; circadian misalignment using forced desynchrony increases cardiovascular risk factors in humans. Here we integrated data from remote sensors, physiological and multi-omics analyses to assess the feasibility of detecting time dependent signals - the chronobiome - despite the noise attributable to the behavioral differences of free-living human volunteers. The majority (62%) of sensor readouts showed time-specific variability including the expected variation in blood pressure, heart rate, and cortisol. While variance in the multi-omics is dominated by inter-individual differences, temporal patterns are evident in the metabolome (5.4% in plasma, 5.6% in saliva) and in several genera of the oral microbiome. This demonstrates, despite a small sample size and limited sampling, the feasibility of characterizing at scale the human chronobiome in the wild. Such reference data at scale are a prerequisite to detect and mechanistically interpret discordant data derived from patients with temporal patterns of disease expression, to develop time-specific therapeutic strategies and to refine existing treatments.",
+                "submissionDate": "2018-04-02",
+                "publicReleaseDate": "2018-05-16",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Carsten",
+                        "lastName": "Skarke",
+                        "email": "cskarke@pennmedicine.upenn.edu",
+                        "affiliation": "Philadelphia PA 19104",
+                        "address": "3400 Civic Center Blvd, Bldg 421",
+                        "fax": "",
+                        "midInitials": "D",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Seth",
+                        "lastName": "Rhoades",
+                        "email": "seth.d.rhoades@vanderbilt.edu",
+                        "affiliation": "3400 Civic Center Blvd, Bldg 421",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "M",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Aalim",
+                        "lastName": "Weljie",
+                        "email": "aalim@mail.med.upenn.edu",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "metabolomic profiling",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000752"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "replicate",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "circadian rhythm",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004354"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A Pilot Characterization of the Human Chronobiome",
+                        "authorList": "Skarke C, Lahens NF, Rhoades SD, Campbell A, Bittinger K, Bailey A, Hoffmann C, Olson RS, Chen L, Yang G, Price TS, Moore JH, Bushman FD, Greene CS, Grant GR, Weljie AM, FitzGerald GA.",
+                        "pubMedID": "29215023",
+                        "doi": "10.1038/s41598-017-17362-6",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Collection Time",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The design of this pilot study (see Fig 1 in the paper associated with this study) combined longitudinal assessments over 4 months (activity, light exposure, sleep times, and communication) with additional deep phenotyping over 48 hr ambulatory blood pressure monitoring, biospecimen collections for multiomics biology, and food intake). The 48 hr assessments were conducted twice, 2 weeks apart, timed at around the midpoint of the 4-month data collection. Given that acute alcohol ingestion dampens biological rhythms in humans[1,2], volunteers were asked to abstain from alcohol for both 48-hr sessions beginning 24 hr beforehand. Caffeine and high fat foods were permissible. Healthy, male volunteers were enrolled after protocol approval by the Institutional Review Board which included an institutional security and privacy information impact assessment (SPIA) and registration (clinicaltrials.gov NCT02249793). All study procedures and associated risks were explained verbally and in writing prior to obtaining consent from the study volunteers. They were non-smokers and abstained from the use of vitamins, non-steroidal anti-inflammatory drugs (NSAIDs including aspirin) and illicit drugs as assessed by cotinine (Craig Medical, Vista, CA), platelet aggregometry[3] and a urine drug screen (RDI, Poteau, OK), respectively, for at least 2 weeks before enrollment and at the start of each 48 hr session. After enrollment and authorization (WeP Project Agreement), the Munich ChronoType Questionnaire (MCTQ) was administered online[4]. Health status and safety was assessed by routine medical history, physical exam, and laboratory work (hematology, biochemistry, and urinalysis) at the time of screening and again on completion of the study. Vital signs were recorded and queries for adverse events were made at each clinical visit. Aside from general health, the main inclusion criterion was to own a smartphone running an Android operating system, version 2.3 or higher. The main exclusion criteria comprised travel across time zones and irregular work hr, e.g. night shifts. To assess the function of the renin\u2013angiotensin\u2013aldosterone system (RAAS) and kidney, biospecimens were taken twice, once during each 48 hr session, to measure urinary electrolytes and aldosterone, cortisol, renin activity, creatinine clearance, GFR, and BUN.\n</p>\nBiospecimens:</br>\nPlasma, serum, saliva, oral and rectal swabs were collected at 0, 12, 24, 36, and 48 hr in each session. Biospecimens were stored at -80 \u00b0C until analysis.\n</p>\nRef:<br/>\n[1] Danel, T. & Touitou, Y. Alcohol decreases the nocturnal peak of TSH in healthy volunteers. Psychopharmacology (Berl) 170, 213-214, doi:10.1007/s00213-003-1532-9 (2003).</br>\n[2] Eastman, C. I., Stewart, K. T. & Weed, M. R. Evening alcohol consumption alters the circadian rhythm of body temperature. Chronobiol Int 11, 141-142 (1994).</br>\n[3] Pedersen, A. K. & FitzGerald, G. A. Cyclooxygenase inhibition, platelet function, and metabolite formation during chronic sulfinpyrazone dosing. Clin Pharmacol Ther 37, 36-42 (1985).</br>\n[4] Roenneberg, T., Wirz-Justice, A. & Merrow, M. Life between clocks: daily temporal patterns ofhuman chronotypes. J Biol Rhythms 18, 80-90 (2003).</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Na-heparin plasma and saliva samples (100 \u00b5l) from both 48 hr sessions, n=60, were submitted for analysis. The following standards and their concentrations were spiked into each sample: 13C6 Citrate, 7.5 \u00b5g/ml; 13C4 Fumarate, 2.5 \u00b5g/ml; 13C5 15N1 Glutamate, 2.5 \u00b5g/ml; 13C6 Arginine, 1 \u00b5g/ml; 13C3 Lactate, 2.5 \u00b5g/ml; 13C6 Glucose, 7.5 \u00b5g/ml; Lysine d4, 2.5 \u00b5g/ml.\n</p>\nFor the sample preparation, 200 \u00b5l of methanol and 100 \u00b5l of chloroform were added to 50 \u00b5l of plasma or saliva and samples were then sonicated for 15 min. 100 \u00b5l of chloroform and distilled H2O were then added and samples were subsequently centrifuged for 7 min at 13,000 rpm at 4 \u00b0C. 200 \u00b5l was pipetted from the upper aqueous layer of each sample into a new tube. Samples were evaporated for 2-24 hr in a speedvac and stored at -80 \u00b0C until analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Liquid chromatography conditions and mass spectrometer parameters were replicated based on previous published methods[1]. Briefly, each sample of 5 \u00b5l was injected on a XBridge BEH 2.5 \u00b5m 100 mm x 2.1 mm Amide column using an Aquity H-class UPLC system (Waters Corporation, USA). Each sample was resolved for 22 min and the UPLC gradient starts with 15% A and 85% B at 0.15 ml/min, ramped to 70% A and 30% B in 5 min, followed by an isocratic hold for 10 min. The column was washed in 98% A and 2% B and re-equilibrated in the starting conditions before the next injection. The column eluent was introduced directly into the mass spectrometer.\n</p>\nQuality control (QC) samples, which consisted of a pooled sample of all samples, were injected at the beginning of the batch for LC column equilibration and every 8 injections during the analysis to account for instrumental drift.\n</p>\nRef:</br>\n[1] Rhoades SD, Weljie AM. Comprehensive Optimization of LC-MS Metabolomics Methods Using Design of Experiments (COLMeD). Metabolomics. 2016 Dec;12(12):pii: 183. doi: 10.1007/s11306-016-1132-4.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Mass spectrometry was performed on a triple quadrupole (TQD) instrument (Micro TQ-S, Waters Corporation, USA) operating in positive and negative ion-switching modes with capillary voltages of 3000 and 2000 V respectively. The desolvation gas flow was set to 900 l/hr and the temperature was set to 450 \u00b0C. The source temperature was set at 150 \u00b0C.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data processing was done by using Waters TargetLynx software (version 4.1). Ion counts were exported from TargetLynx and subsequently processed in R (version 3.2). For every metabolic feature, a locally-weighted scatterplot smoothing function (LOESS) was fitted to the QC data, which was then used as a normalization factor for the samples as a function of run order. Additionally, metabolic features which appeared in less than 50% of the QC samples and displayed a relative standard deviation (RSD) greater than 30% were dropped from the final dataset. Note that for this publication, due to inconsistent signal in the first replicate of the saliva samples, only the second replicates were considered for further data analysis, likewise instrument performance limited the plasma analysis to the first replicate.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data was acquired as Multiple reaction monitoring\u2019s (MRM) to target specific metabolites and Multiple reaction monitoring\u2019s (MRMs) were established for metabolites based on the previously published method[1], along with validation either through standards or mass spectrometry databases. The entire set of duplicate sample injections were bracketed with a test mix of standard metabolites at the beginning and at the end of the run to evaluate instrument performance with respect to sensitivity and mass accuracy. The sample queue was randomized to remove bias.\n</p>\nRef:</br>\n[1] Yuan, M., Breitkopf, S. B., Yang, X. & Asara, J. M. A positive/negative ion-switching, targeted mass spectrometry-based metabolomics platform for bodily fluids, cells, and fresh and fixed tissue. Nat Protoc 7, 872-881, doi:10.1038/nprot.2012.024 (2012).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Xevo TQ MS (Waters)",
+                        "filename": "a_MTBLS656_plasma_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Xevo TQ MS (Waters)",
+                        "filename": "a_MTBLS656_saliva_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

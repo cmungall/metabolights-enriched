@@ -1,0 +1,798 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-08-23T15:23:24.296000",
+        "statusUpdateTime": "2017-08-23T15:23:24.296000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:UsersUUDocumentsStephanieISAcreatorMetaboLightsConfigurationsMetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS401",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2016-11-03",
+        "publicReleaseDate": "2017-08-23",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS401",
+                "filename": "s_MTBLS401.txt",
+                "title": "Mass spectrometry based metabolomics for in vitro systems pharmacology: Pitfalls, challenges, and computational solutions",
+                "description": "<p><strong>INTRODUCTION:</strong> Mass spectrometry based metabolomics has become a promising complement and alternative to transcriptomics and proteomics in many fields including in vitro systems pharmacology. Despite several merits, metabolomics based on liquid chromatography mass spectrometry (LC-MS) is a developing area that is yet attached to several pitfalls and challenges. To reach a level of high reliability and robustness, these issues need to be tackled by implementation of refined experimental and computational protocols.</p><p><strong>OBJECTIVES:</strong> This study illustrates some key pitfalls in LC-MS based metabolomics and introduces an automated computational procedure to compensate for them.</p><p><strong>METHODS:</strong> Non-cancerous mammary gland derived cells were exposed to 21 chemicals from four pharmacological classes plus a set of 6 pesticides. Changes in the metabolome of cell lysates were assessed after 24h using LC-MS. A data processing pipeline was established and evaluated to handle issues including contaminants, carry over effects, intensity decay and inherent methodology variability and biases. A key component in this pipeline is a latent variable method called OOS-DA (optimal orthonormal system for discriminant analysis), being theoretically more easily motivated than PLS-DA in this context, as it is rooted in pattern classification rather than regression modeling.</p><p><strong>RESULTS:</strong> The pipeline is shown to reduce experimental variability/biases and is used to confirm that LC-MS spectra hold drug class specific information.</p><p><strong>CONCLUSIONS:</strong> LC-MS based metabolomics is a promising methodology, but comes with pitfalls and challenges. Key difficulties can be largely overcome by means of a computational procedure of the kind introduced and demonstrated here. The pipeline is freely available on www.github.com/stephanieherman/MS-data-processing.</p>",
+                "submissionDate": "2016-11-03",
+                "publicReleaseDate": "2017-08-23",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Stephanie",
+                        "lastName": "Herman",
+                        "email": "stephanie.herman@medsci.uu.se",
+                        "affiliation": "Uppsala University",
+                        "address": "Department of Medical Sciences\nAkademiska sjukhuset, Ing. 61, 3tr, 4tr",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+46708148747",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Mats",
+                        "lastName": "Gustafsson",
+                        "email": "Mats.Gustafsson@medsci.uu.se",
+                        "affiliation": "Uppsala University",
+                        "address": "Department of Medical Sciences\nRoom 647 Ing:61, Tr:3 Akademiska sjukhuset, Ing. 61, 3tr, 4tr",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+4618-6114241",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Kim",
+                        "lastName": "Kultima",
+                        "email": "Kim.Kultima@medsci.uu.se",
+                        "affiliation": "Uppsala University",
+                        "address": "Department of Medical Sciences\nAkademiska sjukhuset, Ing. 61, 3tr, 4tr",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+4618-6114248",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Payam",
+                        "lastName": "Emami Khoonsari",
+                        "email": "",
+                        "affiliation": "Department of Medical Sciences, Clinical Chemistry, Uppsala University, Uppsala, Sweden.",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Obaid",
+                        "lastName": "Aftab",
+                        "email": "",
+                        "affiliation": "Department of Medical Sciences, Cancer Pharmacology and Computational Medicine, Uppsala University, Uppsala, Sweden.",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Shibu",
+                        "lastName": "Krishnan",
+                        "email": "",
+                        "affiliation": "Department of Medical Sciences, Clinical Chemistry, Uppsala University, Uppsala, Sweden.",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Emil",
+                        "lastName": "Str\u00f6mbom",
+                        "email": "",
+                        "affiliation": "Department of Medical Sciences, Cancer Pharmacology and Computational Medicine, Uppsala University, Uppsala, Sweden.",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Rolf",
+                        "lastName": "Larsson",
+                        "email": "",
+                        "affiliation": "Department of Medical Sciences, Cancer Pharmacology and Computational Medicine, Uppsala University, Uppsala, Sweden.",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ulf",
+                        "lastName": "Hammerling",
+                        "email": "",
+                        "affiliation": "Department of Medical Sciences, Cancer Pharmacology and Computational Medicine, Uppsala University, Uppsala, Sweden.",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ola",
+                        "lastName": "Spjuth",
+                        "email": "",
+                        "affiliation": "Science for Life Laboratory, Uppsala University, Uppsala, Sweden.",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "18.10e",
+                            "description": "NCI Thesaurus OBO Edition"
+                        },
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "software pipeline",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OBI",
+                            "file": "http://data.bioontology.org/ontologies/OBI",
+                            "version": "29",
+                            "description": "Ontology for Biomedical Investigations"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0001943"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "drug",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_23888"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Mass spectrometry based metabolomics for in vitro systems pharmacology: pitfalls, challenges, and computational solutions.",
+                        "authorList": "Herman S, Emami Khoonsari P, Aftab O, Krishnan S, Str\u00f6mbom E, Larsson R, Hammerling U, Spjuth O, Kultima K, Gustafsson M.",
+                        "pubMedID": "28596718",
+                        "doi": "10.1007/s11306-017-1213-z",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "batch",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "sample batch",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MS",
+                                "file": "http://data.bioontology.org/ontologies/MS",
+                                "version": "86",
+                                "description": "Mass Spectrometry Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/MS_1000053"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "Immortalized, non-cancerous MCF-10A (ATCC, www.atcc.org, Manassas, VA), derived from normal human mammary gland, were grown in MEBM supplemented with MEGM Single Quots and cholera toxin (Lonza, Basel, Switzerland) on cover glasses placed inside petri dishes (Thermo Fisher Scientific, NuncTM, 8.8 cm^2). After reaching ~70% confluence, equivalent to ~2 million cells, the cells were exposed to one of 27 agents for 24 h. Three biological replicates were created in order to catch biological variation. After 24 h incubation in presence of test agents, cells were harvested. Cover glasses were carefully lifted from the bottom of the petri plates using tweezers and then dipped into the stirring water of the washing unit to rinse both sides of the cover glasses. They were then quickly placed in the quenching solution (80% methanol) followed by detachment of cells using a rubber-tipped cell scraper (Sarstedt, N\u00fcmbrecht, Germany).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "Detached cells were transferred to 1.5 ml conical centrifuge tubes and centrifuged for 10 min at 21,000 x g 4\u00b0C. The supernatants collected were freeze dried using centrifugal vacuum concentrator (1-2 hr) and resolubilized in 5% methanol and 0.1% formic acid for analysis.\n</p>\nThe whole sample preparation procedure was split into four weeks, creating four sample batches. Each batch contained three Mebendazole replicates to catch batch effects.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "20 \u00b5l of sample was injected to a Thermo Ultimate 3000 HPLC system with a Thermo Accucore aQ RP C18 column (100 x 2.1 mm, 2.7 \u00b5m particle size). The analytical gradient was initialized with an isocratic flow for three min (0% B) followed by five min (0-20% B), six min (20-100% B), three min (100% B), two min (100% C) and lastly re-equilibration of column for six min (0% B), where A is 0.1% formic acid, B is 89.9% acetonitrile, 10% isopropanol and 0.1% FA and C is 100% methanol, at a flow rate of 0.4 ml/min.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "Eluting compounds were measured using a Thermo Q-Exactive Orbitrap mass spectrometer in positive mode, using a mass range of 130-900 with a 70 000 mass resolution, AGC target 1e^6, maximum injection time 200 ms, spray voltage of 4 kV, capillary temperature 350 \u00b0C, arbitrary units of sheat gas 30 and auxiliary gas 10.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "The acquired raw data was converted to an open source format (.mzML) by msconvert from ProteoWizard [1].\n</p>\nRef:</br>\n[1] Chambers MC, Maclean B, Burke R, Amodei D, Ruderman DL, Neumann S, Gatto L, Fischer B, Pratt B, Egertson J, et al. A cross-platform toolkit for mass spectrometry and proteomics. Nature biotechnology. 2012;30:918\u2013920. doi:10.1038/nbt.2377. PMID:23051804.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "The data was processed using the following pipeline within the OpenMS platform [1]: The raw data was centroided using PeakPickerHiRes [2] and the features (possible metabolites) were quantified by FeatureFinderMetabo [3] using the following parameters (the default value were used for unmentioned parameters): noise_threshold_int: 5000; chrom_peak_snr: 3; chrom_fwhm: 3; mass_error_ppm: 5 ppm; trace_termination_outliers: 3; min_sample_rate: 0.7; min_trace_length: 1; max_trace_length: 35; width_filtering: auto; local_rt_range: 30; local_mz_range: 6.5; charge_lower_bound: 1; charge_upper_bound: 10; use_smoothed_intensities: false. The resulting features were linked across the samples using FeatureLinkerUnlabelledQT [2], allowing 15 s retention time tolerance and 5 ppm mass deviation (the linking was performed irrespective of change state across the samples).\n</p>\nRef:</br>\n[1] Sturm M, Bertsch A, Gr\u00f6pl C, Hildebrandt A, Hussong R, Lange E, Pfeifer N, Schulz-Trieglaff O, Zerck A, Reinert K, Kohlbacher O. BMC Bioinformatics. 2008 Mar 26;9:163. doi:10.1186/1471-2105-9-163. PMID:18366760.</br>\n[2] Weisser H, Nahnsen S, Grossmann J, Nilse L, Quandt A, Brauer H, Sturm M, Kenar E, Kohlbacher O, Aebersold R, Malmstr\u00f6m L. An automated pipeline for high-throughput label-free quantitative proteomics. J Proteome Res. 2013 Apr 5;12(4):1628-44. doi:10.1021/pr300992u. PMID:23391308</br>\n[3] Kenar E, Franken H, Forcisi S, W\u00f6rmann K, H\u00e4ring HU, Lehmann R, Schmitt-Kopplin P, Zell A, Kohlbacher O. Automated label-free quantification of metabolites from liquid chromatography-mass spectrometry data. Mol Cell Proteomics. 2014 Jan;13(1):348-59. doi:10.1074/mcp.M113.031278. PMID:24176773</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive (Thermo Scientific)",
+                        "filename": "a_MTBLS401_cell_study_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

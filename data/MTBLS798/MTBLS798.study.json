@@ -1,0 +1,473 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-07-26T12:13:13.478000",
+        "statusUpdateTime": "2019-07-26T12:13:13.478000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS798",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-12-05",
+        "publicReleaseDate": "2019-07-26",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "4",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "23",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "43",
+                "description": "Units of Measurement Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS798",
+                "filename": "s_MTBLS798.txt",
+                "title": "A Novel Metabolic Signature To Predict the Requirement of Dialysis or Renal Transplantation in Patients with Chronic Kidney Disease",
+                "description": "Identification of chronic kidney disease patients at risk of progressing to end-stage renal disease (ESRD) is essential for treatment decision-making and clinical trial design. Here, we explored whether proton nuclear magnetic resonance (NMR) spectroscopy of blood plasma improves the currently best performing kidney failure risk equation, the so-called Tangri score. Our study cohort comprised 4640 participants from the German Chronic Kidney Disease (GCKD) study, of whom 185 (3.99%) progressed over a mean observation time of 3.70 \u00b1 0.88 years to ESRD requiring either dialysis or transplantation. The original four-variable Tangri risk equation yielded a C statistic of 0.863 (95% CI, 0.831-0.900). Upon inclusion of NMR features by state-of-the-art machine learning methods, the C statistic improved to 0.875 (95% CI, 0.850-0.911), thereby outperforming the Tangri score in 94 out of 100 subsampling rounds. Of the 24 NMR features included in the model, creatinine, high-density lipoprotein, valine, acetyl groups of glycoproteins, and Ca2+-EDTA carried the highest weights. In conclusion, proton NMR-based plasma fingerprinting improved markedly the detection of patients at risk of developing ESRD, thus enabling enhanced patient treatment.",
+                "submissionDate": "2018-12-05",
+                "publicReleaseDate": "2019-07-26",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Wolfram",
+                        "lastName": "Gronwald",
+                        "email": "wolfram.gronwald@ukr.de",
+                        "affiliation": "University of Regensburg",
+                        "address": "Institute of Functional Genomics\nUniversity of Regensburg\nAm BioPark 9\n93053 Regensburg, Germany.",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolomics",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "chronic kidney disease",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0003884"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A Novel Metabolic Signature To Predict the Requirement of Dialysis or Renal Transplantation in Patients with Chronic Kidney Disease",
+                        "authorList": "Zacharias Helena U., Altenbuchinger Michael, Schultheiss Ulla T., Samol Claudia, Kotsis Fruzsina, Poguntke Inga, Sekula Peggy, Krumsiek Jan, K\u00f6ttgen Anna, Spang Rainer, Oefner Peter J., Gronwald Wolfram",
+                        "pubMedID": "30817158",
+                        "doi": "10.1021/acs.jproteome.8b00983",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "In total, 4,869 CKD patients were included in this study. They comprised a subset of the German Chronic Kidney Disease (GCKD) study cohort. In short, patients with moderate CKD (estimated glomerular filtration rate (eGFR) 30-60 ml/min per 1.73 m^2 or overt proteinuria at higher eGFR) were included. Written informed consent had been obtained from all study participants before inclusion. Baseline EDTA-plasma specimens had been collected in dedicated vacutainer tubes (Sarstedt, N\u00fcmbrecht, Germany) from each patient, aliquoted, and stored at -80 \u00b0C until measurement.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "No extraction procedure was carried out for this study.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For NMR measurements, 400 \u03bcl of unfiltered EDTA-plasma were mixed with 200 \u03bcl of 0.1 mol/l phosphate buffer, pH 7.4, 50 \u03bcl of 0.75% (w/v) 3-trimethylsilyl-2,2,3,3-tetradeuteropropionate (TSP) dissolved in deuterium oxide, and 10 \u03bcl of 81.97 mmol/l formic acid (all from Sigma-Aldrich, Taufkirchen, Germany), the latter serving as internal standard for referencing and quantification[1].\n</br></br>\nRef:</br>\n[1] Wallmeier J, Samol C, Ellmann L, Zacharias HU, Vogl FC, Garcia M, Dettmer K, Oefner PJ, Gronwald W. Quantification of Metabolites by NMR Spectroscopy in the Presence of Protein. J Proteome Res. 2017 Apr 7;16(4):1784-1796. doi:10.1021/acs.jproteome.7b00057. PMID:28294621</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "NMR experiments were carried out on a 600 MHz Bruker Avance III (Bruker BioSpin GmbH, Rheinstetten, Germany) employing a triple-resonance (1H, 13C 31P, 2H lock) cryogenic probe equipped with z-gradients and an automatic cooled sample changer.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Since the presence of broad protein signals might hinder the interpretation of metabolite signals, all 1D 1H spectra were acquired employing a Carr-Purcell-Meiboom-Gill (CPMG) pulse-sequence to suppress unspecific overlapping macromolecular signals. For each 1D 1H CPMG spectrum, 128 scans were collected into 73728 data points employing presaturation during relaxation for water suppression. 4 dummy scans were acquired prior to measurement, the spectral width was 20.02 ppm, the relaxation delay was 4 s, and the acquisition time amounted to 3.07 s. The filtering delay amounted to 0.08 s, resulting in a total acquisition time of about 16 min/sample.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Spectra were automatically Fourier-transformed and semi-automatically phase and baseline corrected.\n</br></br>\nAll spectra were referenced with respect to the formic acid signal at 8.463 ppm. Since signal positions between spectra may be subject to minor shifts due to slight differences in pH, salt concentration, and/or temperature between samples, equidistant binning was employed to compensate for these effects. The spectral region from 9.5 - 0.5 ppm was evenly split into 900 buckets of 0.01 ppm width using Amix VIEWER 3.9.13 (Bruker BioSpin GmbH). All spectral data were scaled relative to the formic acid signal from 8.5 - 8.45 ppm in order to reduce variations in spectrometer performance. For further analysis, data were imported into R version 3.2.1[1].\n</br></br>\nRef:</br>\n[1] Development Core Team, R. R: A Language and Environment for Statistical Computing; R Foundation for Statistical Computing: Vienna, Austria, 2009.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "NMR signals were identified by comparison with reference spectra available from the Bruker Biofluid Reference Compound Database BBIOREFCODE 2-0-3 or employing in-house spectra of pure compounds acquired under equal experimental conditions[1].\n</br></br>\nRef:</br>\n[1] Zacharias HU, Hochrein J, Klein MS, Samol C, Oefner PJ, Gronwald W. Current experimental, bioinformatic and statistical methods used in NMR based metabolomics. Curr. Metabol. 2013, 1, 253\u2013268. doi:10.2174/2213235X113019990001</br>\n",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "23",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "23",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Nuclear Magnetic Resonance (NMR)",
+                        "filename": "a_MTBLS798_NMR_spectroscopy.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

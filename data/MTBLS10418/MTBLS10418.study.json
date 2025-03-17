@@ -1,0 +1,715 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-07-10T15:02:14.109951",
+        "statusUpdateTime": "2024-07-10T15:02:14.109951",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS10418",
+        "title": "Liquid Chromatography-Mass Spectrometry Quantification of Phytochemicals in Withania somnifera Using Data-Dependent Acquisition, Multiple-Reaction-Monitoring, and Parallel-Reaction-Monitoring with an Inclusion List",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2024-06-11",
+        "publicReleaseDate": "2024-07-10",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://purl.obolibrary.org/obo/bto.owl",
+                "version": "",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                "version": "",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                "version": "",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                "version": "",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://purl.obolibrary.org/obo/ms.owl",
+                "version": "",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MSIO",
+                "file": "http://purl.obolibrary.org/obo/msio.owl",
+                "version": "",
+                "description": "Metabolomics Standards Initiative Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                "version": "",
+                "description": "MetaboLights Controlled Vocabulary"
+            },
+            {
+                "comments": [],
+                "name": "NCBITaxon",
+                "file": "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+                "version": "",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                "version": "",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://purl.obolibrary.org/obo/uo.owl",
+                "version": "",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MESH",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS10418",
+                "filename": "s_MTBLS10418.txt",
+                "title": "Liquid Chromatography-Mass Spectrometry Quantification of Phytochemicals in Withania somnifera Using Data-Dependent Acquisition, Multiple-Reaction-Monitoring, and Parallel-Reaction-Monitoring with an Inclusion List",
+                "description": "<p>Characterization of botanical extracts by mass spectrometry-based metabolomics analysis helps in determining the phytochemical composition that underlies their bioactivity and potential health benefits, while also supporting reproducibility of effects in clinical trials. The quantification of seven withanolides in Withania somnifera using three mass-spectrometry methods was evaluated using Deming regression. Two high-resolution time-of-flight mass spectrometry methods were used, one operating in data-dependent acquisition mode and the other in parallel-reaction-monitoring mode with an inclusion list. The two high-resolution time-of-flight mass spectrometry methods were compared to a multiple-reaction-monitoring method. We evaluated in-source fragmentation of steroidal glycosides and optimized the methods accordingly. A novel software approach to integrating parallel-reaction-monitoring data acquired with an inclusion list was developed. Combining and comparing quantitative results allowed for quantitative specificity, good precision,  and adjustment of instrument source conditions for optimal quantification by multiple-reaction-monitoring mass spectrometry, an analytical method that is widely accessible in analytical and phytochemical laboratories.</p><p><br></p><p><strong>Linked R Script</strong></p><p>An R script for PRM data analysis collected with an inclusion list is available in <a href='https://github.com/marneylc/prm' rel='noopener noreferrer' target='_blank'>Github</a>.</p>",
+                "submissionDate": "2024-06-11",
+                "publicReleaseDate": "2024-07-10",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Luke",
+                        "lastName": "Marney",
+                        "email": "marneyl@oregonstate.edu",
+                        "affiliation": "Oregon State University",
+                        "address": "2750 SW Campus Way",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "5096794731",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "parallel reaction monitoring",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                            "version": "",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002870"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "multiple reaction monitoring",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                            "version": "",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002869"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Data-Dependent Acquisition",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C161785"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "withanolide",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://purl.obolibrary.org/obo/chebi.owl",
+                            "version": "",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_74716"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Ashwagandha",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MESH",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/MESH/C030693"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Comparison",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                            "version": "",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C49156"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Deming regression",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                            "version": "",
+                            "description": "MetaboLights Controlled Vocabulary"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                            "version": "",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                            "version": "",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                            "version": "",
+                            "description": "MetaboLights Controlled Vocabulary"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Liquid Chromatography-Mass Spectrometry Quantification of Phytochemicals in Withania somnifera Using Data-Dependent Acquisition, Multiple-Reaction-Monitoring, and Parallel-Reaction-Monitoring with an Inclusion List",
+                        "authorList": "Luke C. Marney, Jaewoo Choi, Armando Alcazar Magana, Liping Yang, Natascha Techen, Md N. Alam, Mikah Brandes, Amala Soumyanath, Jan F. Stevens, Claudia S. Maier",
+                        "pubMedID": "",
+                        "doi": "10.3389/fchem.2024.1373535",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Accepted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C62559"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Concentration",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "concentration",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "http://purl.obolibrary.org/obo/chmo.owl",
+                                "version": "",
+                                "description": "Chemical Methods Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002820"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Country",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Country",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25464"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Batch",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "block",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://www.ebi.ac.uk/efo/efo.owl",
+                                "version": "",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005067"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Here we evaluated 2 MS2 strategies, multiple-reaction monitoring (<strong>MRM</strong>) and parallel-reaction monitoring (<strong>PRM</strong>) mass spectrometry, to obtain accurate quantification of specialized <em>Withania somnifera </em>(<strong>WS</strong>) metabolites, focusing on a subset of withanolides.</p><p><br></p><p>The following <strong>WS</strong> root samples grown in Oregon USA or India were used in this study: BEN-WS-1, Oregon Wild Harvest (OWH) Batch : 190700054, Oregon; BEN-WS-2, OWH Batch : 200600195, Oregon; BEN-WS-3, Organic India Batch : UAW-248, India; BEN-WS-4, OWH Batch : 180300075, India; BEN-WS-5, OWH Batch : 160200160, Oregon; BEN-WS-6, OWH Batch 181000097, India; BEN-WS-7, NOW Capsules (commercial product) Batch : 3156947-11-47, unknown origin; BEN-WS-8, OWH Batch : 2010000162, Oregon; BEN-WS-9, OWH Batch : 201200142, Oregon; ASH-10, Mountain Rose Herbs Lot : 25760-CT, Oregon. When appropriate, a sample of the root powders are catalogued at the Oregon State University Herbarium. Voucher samples of all roots are also stored at Oregon Health Science University (Soumyanath Lab).&nbsp;Except for ASH-10 and BEN-WS-7, samples were verified as <strong>WS</strong> by genetic testing at the University of Mississippi (<strong>Figure S8</strong> and <strong>Table S1</strong> of the paper associated with the study).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>In order to prepare stock solutions of extracts from the different <strong>WS</strong> root powders, 10 mg of root powder was suspended in <strong>1 mL aqueous methanol</strong> <strong>(70:30 methanol:water v/v, 0.1 % formic acid)</strong> and extracted by sonication for 15 min at room temperature. Samples were vortexed for 30 s and then sonicated again for 15 min at room temperature. After sonication, extracts were centrifuged to separate plant debris from aqueous methanol (14000 x g for 10 min) and 200 \u00b5L aliquots of the supernatant were transferred to LC-MS vials and diluted to a suitable concentration within the quantitative linearity of the instruments (0.5 \u00b5g/mL, 0.25 \u00b5g/mL, and 0.025 \u00b5g/mL).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For the <strong>DDA </strong>and <strong>PRM </strong>analysis, chromatographic separation was achieved using a <strong>Shimadzu Nexera UHPLC</strong> system and an <strong>Inertsil Phenyl-3 (2 \u00b5m, 2.1 mm x 150 mm; GL Sciences)</strong> column.&nbsp;The injection volume was 3 \u03bcL. Gradient elution was performed using a mobile phase consisting of solvent A: 10 mM ammonium formate in water containing 0.1% formic acid, and solvent B: 0.1% formic acid in acetonitrile. Flow rate was set at 0.6 mL/min. The total LC-method time was 12 min, and the gradient design was 0 min, 30% B; 8 min, 50% B; 8.5 min, 98% B; 8.5-10 min, 98% B; 10.5 min, 30% B; 10.5-12 min, 30% B.</p><p><br></p><p>For the <strong>MRM </strong>analysis, chromatographic separation was achieved using a <strong>Waters ACQUITY UPLC system</strong> and an <strong>Inertsil Phenyl-3 (2 \u00b5m, 2.1 mm x 150 mm; GL Sciences)</strong> column. The column oven temperature was 60 \u00b0C. The temperature of the autosampler was set at 6 \u00b0C, with the rest of parameters being similar to those used for the <strong>DDA </strong>and <strong>PRM </strong>analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data-dependent acquisitions (<strong>DDA</strong>) were conducted using a <strong>AB SCIEX TripleTOF 5600</strong> mass spectrometer to obtain precursor and fragment ion information, aiding in annotating compounds in <strong>WS</strong> extracts. DDA analyses were conducted using positive electrospray ionization (ESI+) mode. For detecting ions, the following parameter settings were used to operate the mass spectrometer: spray voltage 5500 V; source temperature 550 \u00b0C and a period cycle time of 700 ms was used. In addition, the following settings were used: full scan with ion accumulation of 250 ms, followed by a dynamic MS/MS selection of the 4 most intense ions with 100 ms accumulation. After 3 MS/MS acquisitions, the precursor ions (fragmented) were excluded for 30 s. Collision energy was 35 V with collision energy spread (CES) of 10 V ramped through each MS/MS scan using a range of<strong> m/z 70\u20131100</strong>.</p><p><br></p><p>Parallel reaction monitoring with an inclusion list (<strong>PRM</strong>) was conducted using a <strong>AB SCIEX TripleTOF 5600</strong> mass spectrometer with an inclusion list of 93 masses and retention times. MS2 spectra were collected during a 1 min window around known retention times of each mass in positive ionization mode. Precursor signals for ions in the inclusion list must exceed 50 cps to collect MS2 data. The maximum number of candidate ions per cycle was set to 8. A spray voltage of 5500 V, source temperature 550 \u00b0C, and a cycle time of 1.1001 s was used. Additional parameters are as follows: full scan with ion accumulation of 250 ms, followed by MS/MS selection on inclusion list ions with a 100 ms accumulation; no MS/MS acquisitions of precursor (fragmented) ions were excluded. Collision energy was 35 V with collision energy spread (CES) of 10 V ramped through each MS/MS scan using a range of<strong> m/z 70\u20131100</strong>.</p><p><br></p><p>Selected <strong>WS </strong>components were quantified by LC-<strong>MRM</strong>-MS using a <strong>Waters Xevo TQ-XS</strong> equipped with an Acquity UPLC I class system and Z-spray source (Waters, Milford, MA, USA). ESI+ had the following parameters: capillary voltage, 2.1 kV; source temperature, 150 \u00b0C; cone gas flow rate, 150 L/h; desolvation gas flow rate, 800 L/h; desolvation temperature, 400 \u00b0C. Cone voltage and collision energy were optimized for each compound. Data was acquired in multiple reaction monitoring (MRM) mode using MassLynx 4.1 software, tracking the transition of precursor/product ion specific for each compound (Supplementary Table 2). The <strong>WS</strong> components were identified by comparison with retention time and ions of individual standards, and the quantification was conducted using TargetLynx 4.2. A chromatogram is shown for the 7 target compounds in Fig 2 of the paper associated to this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>LC-HRMS/MS <strong>DDA </strong>data was analyzed for target quantification of withanolides using <strong>PeakView</strong> and<strong> MultiQuant (Sciex)</strong>, where peak areas of each withanolide and <strong>digoxin-d3</strong> internal standard were determined for every sample and replicate. All quantitative data is produced by normalizing peak area to the peak area of <strong style='color: rgb(54, 54, 54);'>digoxin-d3</strong>.</p><p><br></p><p>LC-HRMS/MS <strong>PRM </strong>data was analyzed with in-house software written in R and available for download on <a href='https://github.com/marneylc/prm' rel='noopener noreferrer' target='_blank'>GitHub</a>. Briefly, data is imported and MS2 scans corresponding to inclusion list precursor ions are collected within a suitable retention time window. A reference MS2 spectra for each target is used to select the top fragment ions to integrate. Those ions are integrated over the retention time window providing one value for quantitation.</p><p><br></p><p><strong>Evaluation and Comparison of Methods</strong></p><p>Standard solutions for calibration curves included 7withanolide standards (Fig S9-S11) at a range of concentrations (0.0005, 0.001, 0.005, 0.01, 0.05, 0.10, 0.50, 1.00, 5 and 10 \u03bcg/mL) plus internal standard <strong>digoxin-d3</strong> (1 \u03bcg/mL) in 70% methanol containing 0.1% formic acid. The same calibration standards and samples from each extract containing <strong>digoxin-d3</strong> (1 \u03bcg/mL) were run in triplicate first by LC-HRMS/MS <strong>DDA </strong>acquisition, then by LC-HRMS/MS <strong>PRM </strong>acquisition, and then by LC-<strong>MRM</strong>-MS. Data was processed by calculating peak areas of each analyte normalized to the internal standard peak area with <strong>MarkerView (Sciex)</strong> for LC-HRMS/MS <strong>DDA</strong>, our in-house R script for LC-HRMS/MS <strong>PRM</strong>, and <strong>TargetLynx (Waters Corp.)</strong> for LC-<strong>MRM</strong>-MS. The collected peak area data was collated in Excel. Calibration curves were then calculated in R with 6 weighted linear regression utilizing 1/x scaling (Fig S9-S11) and resulting quantification in ng/mL was completed in Excel. </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/resources/Metabolights.owl",
+                                "version": "",
+                                "description": "MetaboLights Controlled Vocabulary"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Concentrations of the target withanolides in the 10 <strong>WS </strong>root samples for 3 dilutions (0.5 \u03bcg/mL, 209 0.25 \u03bcg/mL, and 0.025 \u03bcg/mL) were calculated by comparison of peak area ratio (analyte area/internal standard area) to calibration curves of peak area ratio to concentration constructed using standard withanolides and <strong>digoxin-d3</strong> internal standard. </p><p><br></p><p>Deming regression was performed in R with the <a href='https://CRAN.R-project.org/package=mcr' rel='noopener noreferrer' target='_blank'><strong>mcr package</strong></a> comparing data obtained for the content of each withanolide in the 10 root samples at 3 dilutions for LC-HRMS/MS <strong>DDA </strong>versus LC-<strong>MRM</strong>-MS and LC-<strong>PRM</strong>-MS versus LC-<strong>MRM</strong>-MS. Deming regression is a regression model that calculates the best fit line by optimizing the sum-of-squares of the residuals at an angle defined by the variance in both x and y directions. In this study we assumed equal variance in either method by fitting the best line that minimized residuals at a 90\u00b0 angle to the line, which makes it similar to orthogonal least squares.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS10418_DDA_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS10418_PRM_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://purl.obolibrary.org/obo/obi.owl",
+                                "version": "",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS10418_MRM_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,576 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-02-12T00:00:00",
+        "statusUpdateTime": "2024-02-12T11:16:52.036043",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1629",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2020-04-03",
+        "publicReleaseDate": "2024-02-12",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "PLANA",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "APO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "",
+                "version": "20/04/2021",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EUPATH",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1629",
+                "filename": "s_MTBLS1629.txt",
+                "title": "Paternal microbiome perturbations impact offspring fitness",
+                "description": "<p>The gut microbiota operates at the interface of host-environment interactions to influence human homeostasis and metabolic networks. Environmental factors that unbalance gut microbial ecosystems can therefore elicit physiological and disease-associated responses across somatic tissues. However, the systemic impact of the gut microbiome on the germline - and consequently on the F1 offspring it gives rise to - is unexplored. Here we show that the gut microbiota act as a key interface between paternal preconception environment and intergenerational health in mice. Perturbations to the gut microbiota of prospective fathers increase the probability of their offspring presenting with low birth weight, severe growth restriction and premature mortality. Transmission of disease risk occurs via the germline and is provoked by pervasive gut microbiome perturbations, including non-absorbable antibiotics or osmotic laxatives, but is rescued by restoring the paternal microbiota before conception. This effect is linked with a dynamic response to induced dysbiosis in the male reproductive system, including impaired leptin signalling, altered testicular metabolite profiles and remapped small RNA payloads in sperm. As a result, dysbiotic fathers trigger an elevated risk of in utero placental insufficiency, revealing a placental origin of mammalian intergenerational effects. Our study defines a regulatory \u2018gut-germline axis\u2019 in males, which is sensitive to environmental exposures and programs offspring fitness through impacting placental function.</p>",
+                "submissionDate": "2020-04-03",
+                "publicReleaseDate": "2024-02-12",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Zimmermann",
+                        "lastName": "Michael",
+                        "email": "Michael.zimmermann@embl.de",
+                        "affiliation": "group leader",
+                        "address": "EMBL, Heidelberg",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Microbiome",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C68564"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Offspring",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42708"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Reproductive System",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C12841"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Paternal microbiome perturbations impact offspring fitness.",
+                        "authorList": "Argaw-Denboba A, Schmidt TSB, Di Giacomo M, Ranjan B, Devendran S, Mastrorilli E, Lloyd CT, Pugliese D, Paribeni V, Dabin J, Pisaniello A, Espinola S, Crevenna A, Ghosh S, Humphreys N, Boruc O, Sarkies P, Zimmermann M, Bork P, Hackett JA.",
+                        "pubMedID": "38693261",
+                        "doi": "10.1038/s41586-024-07336-w",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Timepoint",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Testis samples were harvested from both <strong>control</strong> (<strong>CON)</strong> and <strong>non-absorbable antibiotics</strong> (<strong>nABX</strong>)-treated sire males across the 3 breeding timepoints: immediately after <strong>6-week treatment</strong> (11 weeks old mice), <strong>4-week after treatment withdrawal/recovery</strong> (15 weeks old mice) and <strong>8-week after treatment withdrawal/recovery</strong> (19 weeks old mice). Immediately after collection, samples were snap-frozen in liquid nitrogen and stored at -80 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Upon retrieval, 300 \u03bcL of ice-cold solvent mixture (acetonitrile:methanol:water, 2:2:1) and two Tungsten Carbide Beads, 3 mm from Qiagen (Hilden, Germany) were added to each testicle sample. Samples were homogenized using Qiagen tissueLyser II at 30% strength for 5 min. The lysed samples were centrifuged at 12,700 RCF at 4 \u00b0C for 10 min. An equal volume (125 \u03bcL) of extraction supernatant was transferred to two Nunc 96-well, V-shape plates and evaporated in the Genevac centrifugal concentrator (Genevac, Ipswich, UK) at 25 \u00b0C for 2 h. Concentrated samples were stored at -80 \u00b0C and resuspended in 20 \u03bcL of same solvent mixture for LC-MS analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chromatographic separation was performed using an Agilent InfinityLab Poroshell 120 EC-C18, 3.0 mm x 150 mm, 2.7 \u03bcm column and an Agilent 1290 Infinity II LC system coupled to a 6550 iFunnel qToF mass spectrometer. Column temperature was maintained at 45 \u00b0C with a flowrate of 0.4 mL/min. The following mobile phases were used: mobile phase A: water with 0.1% formic acid and mobile phase B: acetonitrile with 0.1% formic acid. In total 5 mL of sample were injected at 5% mobile phase B, maintained for 0.10 min, followed by a linear gradient to 30% B in 0.5 min, followed by a linear gradient to 95% B in 10 min and maintained at 95% B for 1 min. The column was allowed to re-equilibrate with starting conditions for 3 min before each sample injection protocol description.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The mass spectrometer was operated in both positive and negative scanning mode (50-1700 m/z) with the following source parameters: VCap: 3500 V; nozzle voltage: 2000 V; gas temperature: 275 \u00b0C; drying gas: 13 L/min; nebulizer: 45 psi; sheath gas temperature: 275 \u00b0C; sheath gas flow: 12 L/min, fragmentor: 130 V and skimmer: 0 V. Online mass calibration was performed using a second ionization source and a constant flow (10 \u00b5L/min) of reference mass solvent (119.0363 and 1033.9881<em> </em>m/z for negative and 121.0509 and 922.0098 m/z for positive operation mode, respectively). Each sample was measured separately in both positive and negative ionization mode.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The <strong>MassHunter Qualitative Analysis</strong> (Agilent Technologies, version 10.0) was used to extract metabolic feature from the acquired LC-MS data. The following setting were applied: peak filter of absolute height: 5000 counts, limit assigned charge states to 1, only \u00b1H+ charged molecules were included with compound quality scores greater than 80%. Peak alignment and identification were carried out using <strong>Mass Profiler Professional</strong> (Agilent, version 15.1) with default parameters: mass tolerance of 2 mDa or 20 ppm and retention time tolerance of 0.2 min or 2%. Extracted and aligned features were exported as .csv file for further data analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>No metabolite identification was carried out in this experiment.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS -",
+                        "filename": "a_MTBLS1629_LC-MS_positive_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS1629_LC-MS_negative_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

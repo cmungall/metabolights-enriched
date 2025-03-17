@@ -1,0 +1,539 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2021-06-21T00:00:00",
+        "statusUpdateTime": "2021-06-21T17:04:19.442080",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2406",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-01-20",
+        "publicReleaseDate": "2021-06-21",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "ERO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2406",
+                "filename": "s_MTBLS2406.txt",
+                "title": "Multi-Omics Analysis Reveals Disturbance of Nanosecond Pulsed Electric Field in the Serum Metabolic Spectrum and Gut Microbiota",
+                "description": "<p>Nanosecond pulsed electric field (nsPEF) is a novel ablation technique that based on high-intensity electric voltage to achieve tumor-killing effect in the target region, and increasingly considered for treating tumours of the liver, kidneys, and other organs with rich blood supply. When we were looking at the safety and feasibility of applying nsPEF on porcine livers, we found that the indicators of liver function after ablation fluctuated. To further study the influence of this technique in the treatment of liver, we collected serum and fecal specimens of the pigs pre-treatment and post-treatment. The gut microbiota of pigs was sequenced by Illumina Miseq platform for analyzing the diversity and alterations of gut microbiota. Liquid chromatography-mass spectrometry (LC-MS) based metabonomic analysis and Pearson coefficient method were also used to construct the interaction system of different metabolites, metabolic pathways and flora.&nbsp;</p>",
+                "submissionDate": "2021-01-20",
+                "publicReleaseDate": "2021-06-21",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Yeping",
+                        "lastName": "Dong",
+                        "email": "604921732@qq.com",
+                        "affiliation": "Zhejiang Shuren University",
+                        "address": "Shulan Hangzhou Hospital, Shulan International Medical College, Zhejiang Shuren University, Hangzhou 310011, Zhejiang, China",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "19817156415",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "EFO",
+                                    "file": "http://data.bioontology.org/ontologies/EFO",
+                                    "version": "132",
+                                    "description": "Experimental Factor Ontology"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51826"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Nanosecond pulsed electric field",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "feasibility study",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ERO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ERO_0001402"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Safety",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C60828"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tumor",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000616"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Ablation Therapy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C20985"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Multi-Omics Analysis Reveals Disturbance of Nanosecond Pulsed Electric Field in the Serum Metabolic Spectrum and Gut Microbiota",
+                        "authorList": "Yeping Dong, Jiahua Lu, Ting Wang, Zhiliang Huang, Xinhua Chen, Zhigang Ren, Liangjie Hong, Haiyu Wang, Dezhi Yang, Haiyang Xie, Wu Zhang",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Blood collection",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A total of 10 male Yorkshire pigs (45\u201355 kg; mean, 50 kg 3-4 months) were purchased and maintained by the Animal Research Center of Zhejiang Chinese Medical University Laboratory.</p><p><br></p><p>Blood samples were collected from the auricular veins 1 h prior to nsPEF treatment for identification of baseline parameters. After nsPEF treatment, blood samples were collected periodically (at 1 h, 1 d, 3 d and 7 d post treatment) to monitor liver function. The blood sample was divided into 2 parts. The other part was centrifuged once, and the supernatant was stored in the refrigerator at -80 \u00b0C for metabolomics analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>50 serum samples (10 for each time point) stored at -80 \u00b0C were thawed on ice and then dissolved in methanol for internal standardization. After homogenization and purification, the supernatants were resolved in water and methanol, and transferred to LC vials pending analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>ACQUITY UPLC I-Class system (Waters Corporation, Milford, USA) combined with VION IMS QTOF Mass spectrometer (Waters Corporation, Milford, USA) were used for the untargeted metabolic profiling. An ACQUITY UPLC BEH C18 column (1.7 \u03bcm, 2.1 \u00d7 100 mm) was used for metabolite separation. All the samples were kept on ice during the procedure and the injection volume was 1 \u03bcl.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Spectral data was collected on a Waters VION IMS QTOF Mass spectrometer, in either ESI positive or negative ion modes, with parameters as follows: a low-energy scan (CE 4eV), and a high-energy scan (CE ramp 20-45eV) to fragment the ions. Argon (99.999%) was used as collision-induced dissociation gas; scan rate: 0.2 s/scan capillary voltage, 3 kV (negative mode)/3.8kV (positive mode); source temperature, 320 \u00b0C; desolvation gas temperature, 350 \u00b0C; desolvation gas flow, 900 l/h, and cone gas flow, 50 l/h. Nitrogen (&gt;99.5%) was employed as desolvation and cone gas. For lock mass correction, a 250 ng/ml standard solution of leucine-enkephalin in acetonitrile/water/formic acid (50:49.9:0.1, v/ v/v) was continuously infused (5 \u03bcl/min) through the reference probe and scanned every 30 s.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The proqenesis QI software (Waters Corporation, Milford, USA) was used to collect and analyze the LC-MS raw information for feature alignment, signal integration, and normalization to construct a 3D-data matrix containing retention time-m/z pairs, peak intensities, and sample information.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were then identified and annotated by progenesis QI (Waters Corporation, Milford, USA) Data Processing Software, based on MS/MS fragmentation data from the public databases including HMDB and LipidMaps. The internal standard was adopted for data QC. We then evaluated the preprocessed data using a strategy combining multivariate and univariate methods. Supervised orthogonal partial least square-discriminant analysis (OPLS-DA) was used to discriminate the serum metabolites that were altered after the analysis between the 2 groups of samples. The validation of OPLS-DA models was performed following the 7-fold cross-validation process. Variable importance in the projection (VIP) value was used to rank the contribution of each variable for the established OPLS-DA model. Variables with VIP value &gt; 1 were seen as significant for group discrimination. The differentially expressed metabolites were selected by combining the VIP value threshold (VIP &gt; 1) obtained by the OPLS-DA model with p-values (p&lt;0.05) from a 2-tailed Student's t test on the normalized peak areas.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS2406_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS2406_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

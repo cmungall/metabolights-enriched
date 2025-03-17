@@ -1,0 +1,643 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-10-08T16:44:00.105000",
+        "statusUpdateTime": "2019-10-08T16:44:00.105000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1066",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2019-06-21",
+        "publicReleaseDate": "2019-10-08",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1066",
+                "filename": "s_MTBLS1066.txt",
+                "title": "Untargeted Metabolomics Reveals Molecular Effects of Ketogenic Diet on Healthy and Tumor Xenograft Mouse Models",
+                "description": "The application of ketogenic diet (KD) (high fat/low carbohydrate/adequate protein) as an auxiliary cancer therapy is a field of growing attention. KD provides sufficient energy supply for healthy cells, while possibly impairing energy production in highly glycolytic tumor cells. Moreover, KD regulates insulin and tumor related growth factors (like insulin growth factor-1, IGF-1). In order to provide molecular evidence for the proposed additional inhibition of tumor growth when combining chemotherapy with KD, we applied untargeted quantitative metabolome analysis on a spontaneous breast cancer xenograft mouse model, using MDA-MB-468 cells. Healthy mice and mice bearing breast cancer xenografts and receiving cyclophosphamide chemotherapy were compared after treatment with control diet and KD. Metabolomic profiling was performed on plasma samples, applying high-performance liquid chromatography coupled to tandem mass spectrometry. Statistical analysis revealed metabolic fingerprints comprising numerous significantly regulated features in the group of mice bearing breast cancer. This fingerprint disappeared after treatment with KD, resulting in recovery to the metabolic status observed in healthy mice receiving control diet. Moreover, amino acid metabolism as well as fatty acid transport were found to be affected by both the tumor and the applied KD. Our results provide clear evidence of a significant molecular effect of adjuvant KD in the context of tumor growth inhibition and suggest additional mechanisms of tumor suppression beyond the proposed constrain in energy supply of tumor cells.",
+                "submissionDate": "2019-06-21",
+                "publicReleaseDate": "2019-10-08",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "David",
+                        "lastName": "Licha",
+                        "email": "david.licha@sbg.ac.at",
+                        "affiliation": "Bionalytical Research Lab, Department of Biosciences, University of Salzburg",
+                        "address": "Hellbrunnerstrasse 34, 5020 Salzburg, Austria",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "PhD student",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MTBLS",
+                                    "file": "https://www.ebi.ac.uk/metabolights/",
+                                    "version": "1.0",
+                                    "description": "User defined terms"
+                                },
+                                "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Ketogenic Diet",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0009371"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "breast cancer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MONDO_0007254"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Xenograft",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0003942"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Untargeted Metabolomics Reveals Molecular Effects of Ketogenic Diet on Healthy and Tumor Xenograft Mouse Models.",
+                        "authorList": "Licha D, Vidali S, Aminzadeh-Gohari S, Alka O, Breitkreuz L, Kohlbacher O, Reischl RJ, Feichtinger RG, Kofler B, Huber CG.",
+                        "pubMedID": "31398922",
+                        "doi": "10.3390/ijms20163873",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Health status",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Health Status",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16669"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Diet",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Diet",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1.0",
+                                "description": "User defined terms"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>MDA-MB-468 cell line (ATCC, HTB-132) was used for the generation of breast cancer xenografts. Cells were cultivated in high glucose DMEM medium (Sigma-Aldrich, St. Louis, MO, USA) supplemented with heat-inactivated fetal bovine serum (Gibco, Vienna, Austria) and penicillin/streptomycin amphotericin B solution (Lonza, Cologne, Germany).</p><p><br></p><p>All in vivo experiments were performed on female CD-1 nu/nu mice (Charles River, Sulzfeld, Germany), the animals were group-housed and had unlimited access to food and water. Xenografts were established as previously described[1][2]. Briefly, a suspension of 1.5 x 10^7 MDA-MB-468 cells in serum-free medium and matrigel (BD Biosciences, Austria) were injected into the right flank of 5- to 6-week-old mice.</p><p><br></p><p>As soon as tumor size reached 300\u2013350 mm^3 (i.e., 2\u20135 weeks after injection of tumor cells), mice were randomized into different dietary intervention groups (CTRL, LCT-MCT8; n = 5\u20136)[1]. As mice are able to keep blood glucose levels and show lower ketosis on 2:1 to 4:1 diets, compared to humans, we decided to use an 8:1 diet in our mouse model, to reach at least a ketosis over 2 mmol/l. Dietary interventions were combined with oral metronomic chemotherapy with CPA (30 mg/kg). The healthy, 7 weeks old, mice were fed with the experimental diets (CTRL, LCT-MCT8; see Table S2 in the paper associated with this study)[1][2]. All animals were monitored twice a week for body weight using a digital scale. Blood glucose and ketone body (beta-hydroxybutyrate) levels were monitored once a week using a specific enzyme-based kit (Precision Xceed, Abbott Laboratories, Vienna, Austria). Tumor volume was measured twice a week in the xenografts bearing mice, by using a caliper and calculating the volume according to the formula 4/3 Pi \u00d7 d1/2 \u00d7 d2/2 \u00d7 d3/2 (d\u2014dimension).</p><p><br></p><p>Breast cancer bearing mice were euthanized after 80 days of treatment, whereas healthy mice after 40 days. Therefore, mice were injected with 10 \u03bcl/g of anesthetic mix (ketamine 20.5 mg/mL, xylazine 5.4 mg/mL, acepromazine 270 \u03bcg/ml in saline solution), and after checking for absence of reflexes from the paw, heart puncture was performed. Mice were then immediately euthanized via head-neck dislocation. Blood was transferred into tubes (BD Microtainer\u00ae PSTTM LH tubes; BD Biosciences, Vienna, Austria) and plasma was collected as described in the manufacture\u2019s protocol, and snap frozen in liquid nitrogen[1][2].</p><p><br></p><p>Ref:</p><p>[1] Aminzadeh-Gohari S., Feichtinger R.G., Vidali S., Locker F., Rutherford T., O\u2019Donnel M., St\u00f6ger-Kleiber A., Mayr J.A., Sperl W., Kofler B. A ketogenic diet supplemented with medium-chain triglycerides enhances the anti-tumor and anti-angiogenic efficacy of chemotherapy on neuroblastoma xenografts in a cd1-nu mouse model. Oncotarget. 2017;8:64728\u201364744. doi:10.18632/oncotarget.20041. PMID:29029389</p><p>[2] Vidali S., Aminzadeh-Gohari S., Feichtinger R.G., Vatrinet R., Koller A., Locker F., Rutherford T., O\u2019Donnell M., St\u00f6ger-Kleiber A., Lambert B., et al. The ketogenic diet is not feasible as a therapy in a cd-1 nu/nu mouse model of renal cell carcinoma with features of stauffer\u2019s syndrome. Oncotarget. 2017;8:57201\u201357215. doi:10.18632/oncotarget.19306. PMID:28915665</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were extracted by adding 810 \u00b5l of ice-cold methanol (VWR, Rednor, Pennsylvania, USA), containing 10 \u00b5mol/l ethylparaben (Fluka, Buchs, Switzerland), 2 \u00b5mol/l 3-nitro-L-tyrosine (Sigma-Aldrich, St. Louis, MO, USA), and 4 \u00b5mol/l d4-succinate (Sigma-Aldrich) to 90 \u00b5l of plasma. The internal standards ethylparaben, 3-nitro-L-tyrosine and d4-succinate were used for quality control for the assessment of the system stability. Proteins were pelleted in a centrifuge (HERMLE, Wehingen, Germany) at 18,620 rpm for 10 min at 4 \u00b0C. The supernatant was evaporated to dryness in a vacuum concentrator (Eppendorf, Hamburg, Germany) at room temperature, followed by resuspension in 90 \u00b5l 50% methanol.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>An ultra-high-performance liquid chromatography (UHPLC) system consisting of an Accela 1250 pump, a Column Oven 300 (all from Thermo Fisher Scientific, Bremen, Germany), and an LC PAL DLW Option Autosampler with a 100 \u00b5l syringe (from CTC Analytics AG, Zwingen, Switzerland) was coupled to a hybrid quadrupole-Orbitrap mass spectrometer (Model Q Exactive Plus; Thermo Fisher Scientific). A quality control sample (pool) was generated by merging an aliquot (10 \u00b5l) of all samples included in the study. Prior to injection into the UHPLC-MS system, samples and pools were diluted 1:5 with Millipore water for reversed phase mode and 1:3 with acetonitrile (VWR, Rednor, PA, USA) for HILIC mode separation.</p><p><br></p><p>Each sequence started with 3 blank runs, followed by 3 pool injections and finished with 1 pool and 1 blank run. In between, a blank run and a pool run were conducted after every third sample. Each sample was measured in 4 different selectivity and ionization mode combinations, which were RP\u2014positive ionization, RP\u2014negative ionization, HILIC\u2014positive ionization, and HILIC\u2014negative ionization, resulting in 4 data sets per study. For each combination an exclusion list of the 100 most abundant ions obtained from prior blank runs was generated, to avoid MS fragmentation of chemical or electronic noise signals.</p><p><br></p><p>For RP-UHPLC separations, a 100 x 2.1 mm i.d. Hypersil Gold aQ column (Thermo Fisher Scientific) packed with 1.9 \u00b5m octadecyl silica particles was applied. For column protection, a 4.0 x 3.0 mm i.d. C18 Security Guard pre-column (Phenomenex, Torrance, CA, USA) was installed. In reversed phase mode, mobile phase A and B were Millipore water and acetonitrile, both containing 0.10% formic acid (Sigma-Aldrich). The HPLC method started with holding 100% A for 1.5 min, followed by a linear gradient to 100% B in 6.5 min. After washing for 2.0 min at 100% B, the column was re-equilibrated to starting conditions for 3.0 min, resulting in a total run time of 13.0 min.</p><p><br></p><p>HILIC-UHPLC separations were performed using a 150 x 2.0 mm i.d. Nucleodur HILIC column (Macherey-Nagel, D\u00fcren, Germany), packed with 1.8 \u00b5m zwitterionic functionalized particles. Additionally, a 4.0 x 2.0 mm i.d. Nucleodur HILIC 1.8 \u00b5m pre-column, also from Macherey-Nagel was applied to protect the column. In the HILIC mode, mobile phase A contained 50 mM ammonium formate in 50% acetonitrile, while mobile phase B was 10 mM ammonium formate (Sigma-Aldrich) in 90% acetonitrile. After holding 100% B for 3.0 min a linear gradient to 100% A in 17.0 min was applied. The column was washed for 2.0 min at 100% A and re-equilibrated to starting conditions for 8.0 min, resulting in a total run time of 30.0 min. In both modes a flow rate of 0.30 \u00b5l/min and an injection volume of 2.70 \u00b5l were applied. The column temperature was held constant at 30 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectrometry data was collected on a Thermo Q Exactive Plus hybrid quadrupole-Orbitrap mass spectrometer (Thermo Fisher Scientific) equipped with a heated electrospray ion source operating in the positive or negative ion mode. Apart from the run time of 13.0 min in RP mode and 30.0 min in HILIC mode, MS settings of the data-dependent Top 5 method were identical for both selectivity modes. Scan range and resolution of MS1 scans were set to 80\u2013850 m/z and 70,000, respectively, using an AGC target of 1 x 10^6 and a maximum injection time of 50 ms. The 5 most abundant ions of the MS1 scan were isolated with an isolation window of 0.8 m/z, fragmented via HCD applying stepped normalized collision energies of 20, 40, 60 and acquired in centroid mode. The maximum injection time was set to 64 ms with an AGC target of 5 x 10^4 at a resolution of 17,500. In addition to an exclusion of charges greater than 2, dynamic exclusion of 5.0 s was used, in order to avoid multiple fragmentations of the same ions. Using these settings, all samples were measured in the positive and negative ionization mode in separated sequences for each selectivity and ionization mode. Tune parameters were a capillary temperature of 320 \u00b0C, a probe heater temperature of 350 \u00b0C and an S-lens level of 50 for both ionization modes. Differing settings were a sprayer voltage of 4.0 and 3.5 kV, sheath gas flow rate of 35 and 45, as well as an auxiliary gas flow rate of 5 and 10 in positive and negative ionization mode, respectively.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Acquired raw files were converted to .mzML files using the MSConvert tool of the ProteoWizard software (version 3.0.8688). The resulting files were further processed using a bioinformatic workflow in the Konstanz Information Miner (KNIME) [1], version 3.3.4 with integrated OpenMS 2.1.0 software [2] (see Tables S3\u2013S7 in the paper associated with this study for detailed settings). The applied KNIME workflow can be accessed here https://www.myexperiment.org/workflows/5109.html. After peak picking, feature detection and feature alignment, data was filtered, normalized and statistically evaluated using Linear Models for Microarray Data (LIMMA) [3] followed by Benjamini-Hochberg correction [4] for multiple testing.</p><p><br></p><p>The MTX study design and data treatment involved stringent filtering of 'noise' signals or such originating from the chemical background, which enabled the reduction of chemical and electronic artefacts. Along that line, the HPLC-MS signals were aligned retention time wise, followed by exclusion of features that did not exceed a threshold of 5-fold the median intensity of the corresponding signal in the blank from further data processing. In the next step, data was normalized via a robust regression to account for variations occurring during sample preparation and measurement. Features showing instable signals in the quality control runs and those not being present in a sufficient number of replicates or treatment conditions were removed. Filtering was based on peak area threshold in blank runs, as well as on relative standard deviation in quality control samples and occurrence in biological replicates. </p><p><br></p><p>Ref:</p><p>[1] Berthold, M.R.; Cebron, N.; Dill, F.; Gabriel, T.R.; K\u00f6tter, T.; Meinl, T.; Ohl, P.; Thiel, K.; Wiswedel, B. Knime-the konstanz information miner: Version 2.0 and beyond. AcM SIGKDD explorations Newsletter 2009, 11, 26-31.</p><p>[2] R\u00f6st, H.L.; Sachsenberg, T.; Aiche, S.; Bielow, C.; Weisser, H.; Aicheler, F.; Andreotti, S.; Ehrlich, H.-C.; Gutenbrunner, P.; Kenar, E., et al. Openms: A flexible open-source software platform for mass spectrometry data analysis. Nat. Methods 2016, 13, 741. doi:10.1038/nmeth.3959. PMID:27575624</p><p>[3] Smyth, G.K. Linear models and empirical bayes methods for assessing differential expression in microarray experiments. Stat. Appl. Genet. Mol. Biol. 2004, 3, 1-25. doi:10.2202/1544-6115.1027. PMID:16646809</p><p>[4] Hochberg, Y.; Benjamini, Y. More powerful procedures for multiple significance testing. Stat. Med. 1990, 9, 811-818. doi:10.1002/sim.4780090710. PMID:2218183</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Identification was done in a multiple step approach: (1) Monoisotopic mass search in the HMDB[1]; (2) molecular structure database search using SIRIUS in combination with CSI:FingerID[2]-[5]; (3) manual fragment spectra search using METLIN for all signals that resulted in a hit after step 1, but not after step 2[6]; (4) verification of database hits via comparison of retention time and fragment spectra of reference standards. For detailed settings of the applied software used for identification see Tables S8 and S9 in the paper associated with this study. Principal component analyses were generated using SIMCA (version 13.0.3.0; Umetrics, Umea, Sweden).</p><p><br></p><p>All reference standards, besides N(5)-acetylornithine, 5,6-dihydrouridine, and N-acetyltaurine were purchased from Sigma Aldrich and measured on the same instrument using the same methods as for plasma and tumor tissue samples. N(5)-acetylornithine and 5,6-dihydrouridine were customly synthesized by MedChemTronica (Sollentuna, Sweden) and AKos GmbH (L\u00f6rrach, Germany) respectively, while N-acetytaurine was synthesized inhouse. Retention time and MS2 spectra concordance between samples and standards was assessed manually by visual comparison.</p><p><br></p><p>Ref:</p><p>[1] Wishart, D.S.; Jewison, T.; Guo, A.C.; Wilson, M.; Knox, C.; Liu, Y.; Djoumbou, Y.; Mandal, R.; Aziat, F.; Dong, E. Hmdb 3.0 - the human metabolome database in 2013. Nucleic Acids Res. 2012, 41, D801-D807. doi:10.1093/nar/gks1065. PMID:23161693</p><p>[2] R\u00f6st, H.L.; Sachsenberg, T.; Aiche, S.; Bielow, C.; Weisser, H.; Aicheler, F.; Andreotti, S.; Ehrlich, H.-C.; Gutenbrunner, P.; Kenar, E., et al. Openms: A flexible open-source software platform for mass spectrometry data analysis. Nat. Methods 2016, 13, 741. doi:10.1038/nmeth.3959. PMID:27575624</p><p>[3] B\u00f6cker, S.; Letzel, M.C.; Lipt\u00e1k, Z.; Pervukhin, A. Sirius: Decomposing isotope patterns for metabolite identification. Bioinformatics 2008, 25, 218-224. doi:10.1093/bioinformatics/btn603. PMID:19015140</p><p>[4] B\u00f6cker, S.; D\u00fchrkop, K. Fragmentation trees reloaded. Journal of cheminformatics 2016, 8, 5. doi:10.1186/s13321-016-0116-8. PMID:26839597</p><p>[5] D\u00fchrkop, K.; Shen, H.; Meusel, M.; Rousu, J.; B\u00f6cker, S. Searching molecular structure databases with tandem mass spectra using csi: Fingerid. Proc. Natl. Acad. Sci. U.S.A.2015, 112, 12580-12585. doi:10.1073/pnas.1509788112. PMID:26392543</p><p>[6] Smith, C.A.; O'Maille, G.; Want, E.J.; Qin, C.; Trauger, S.A.; Brandon, T.R.; Custodio, D.E.; Abagyan, R.; Siuzdak, G. Metlin: A metabolite mass spectral database. Ther. Drug Monitoring 2005, 27, 747-751. doi:10.1097/01.ftd.0000179845.53213.39. PMID:16404815</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS1066_POS_HILIC_LCMS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - hilic",
+                        "filename": "a_MTBLS1066_NEG_HILIC_LCMS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS1066_POS_RP_LCMS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS1066_NEG_RP_LCMS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

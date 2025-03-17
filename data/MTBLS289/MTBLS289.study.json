@@ -1,0 +1,608 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-04-29T10:41:53",
+        "statusUpdateTime": "2016-04-29T10:41:53",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS289",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2015-12-03",
+        "publicReleaseDate": "2016-04-28",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "28",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "DOID",
+                "file": "http://data.bioontology.org/ontologies/DOID",
+                "version": "568",
+                "description": "Human Disease Ontology"
+            },
+            {
+                "comments": [],
+                "name": "JERM",
+                "file": "http://data.bioontology.org/ontologies/JERM",
+                "version": "14",
+                "description": "SysMO JERM Ontology of Systems Biology for Micro-Organisms"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "40",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CCONT",
+                "file": "http://data.bioontology.org/ontologies/CCONT",
+                "version": "2",
+                "description": "Cell Culture Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS289",
+                "filename": "s_MTBLS289.txt",
+                "title": "Analysis of colorectal adenocarcinoma tissue samples by DESI mass spectrometry imaging",
+                "description": "Ex vivo colorectal adenocarcinoma samples were analysed by desorption electrospray ionisation using an Orbitrap mass spectrometer. The samples were analysed in negative mode over the m/z range 600-1000. Some of the samples presented in this dataset were analysed as part of [1]. The study makes available imzML files of profile and centroid mode data, as well as low- and high- resolution optical image files of H&E-stained sections. These files can be found in the zip file named after each tissue section. </p> Ref:</br> [1] Gerbig S, Golf O, Balog J, Denes J, Baranyai Z, Zarand A, Raso E, Timar J, Takats Z. Analysis of colorectal adenocarcinoma tissue by desorption electrospray ionization mass spectrometric imaging. Anal Bioanal Chem. 2012 Jun;403(8):2315-25. doi:10.1007/s00216-012-5841-x. PMID:22447214</br>",
+                "submissionDate": "2015-12-03",
+                "publicReleaseDate": "2016-04-28",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "James",
+                        "lastName": "McKenzie",
+                        "email": "j.mckenzie@imperial.ac.uk",
+                        "affiliation": "Imperial College, London",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "S",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Data curator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Zoltan",
+                        "lastName": "Takats",
+                        "email": "z.takats@imperial.ac.uk",
+                        "affiliation": "Imperial College, London",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "colorectal adenocarcinoma",
+                        "termSource": {
+                            "comments": [],
+                            "name": "DOID",
+                            "file": "http://data.bioontology.org/ontologies/DOID",
+                            "version": "568",
+                            "description": "Human Disease Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/DOID_0050861"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "desorption electrospray ionisation mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000484"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Analysis of colorectal adenocarcinoma tissue by desorption electrospray ionization mass spectrometric imaging.",
+                        "authorList": "Gerbig S, Golf O, Balog J, Denes J, Baranyai Z, Zarand A, Raso E, Timar J, Takats Z.",
+                        "pubMedID": "22447214",
+                        "doi": "10.1007/s00216-012-5841-x",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Patient ID",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Patient",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16960"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Tissue type",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Tissue",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12801"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Tissue location",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Location",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25341"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Specimen",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Biospecimen",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70699"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Year analysed",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Date",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25164"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Tissue specimens were removed during surgical interventions and were fresh-frozen immediately at -196 \u00b0C. Specimens were transported to 2nd Institute of Pathology, Semmelweis University on dry ice and were stored at -80 \u00b0C prior to further processing.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Preparation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Preparation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Series of 12-\u00b5m-thick sections were prepared using a Thermo Shandon Cryotome. Samples were transferred to the mass spectrometry facility on dry ice and were immediately stored in a -85 \u00b0C freezer to avoid deterioration of the tissue. Prior to measurements, samples were thawed and immediately analyzed. The research protocol was approved by IRB of the National Health Science Council (TUKEB83/2009).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample mounting",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample preservation",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sectioning instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Section thickness",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For imaging measurements, a home-built motorized DESI ion source was used and the software has also been developed. More technical detail and a photograph of the home-built DESI ion source are provided in the Electronic Supplementary Material of the associated publication. In addition, an Omni Spray 2D motorized Prosolia ion source (Model OS-3201) and Osprey software for controlling the stage were used.\n</p>\nThe analysis was performed using a LTQ XL Orbitrap Discovery mass spectrometer (Thermo Fisher Scientific Inc., Bremen, Germany). This spectrometer consists of a linear ion trap in the front part and an Orbitrap analyzer in the rear part. The Orbitrap analyzer was used for the acquisition of reported data. The mass resolution used for all measurements was set to 30,000 with a mass accuracy of better than 4 ppm.\n</p>\nSpatial resolution of the imaging experiments was set to 100 \u00b5m unless otherwise stated. Scanning speed of the DESI sprayer over the tissue sample was 100 \u00b5m/s.\nThe height distance between the DESI sprayer and the sample surface was set to 4 mm; the distance between the sprayer and the inlet capillary was 7 mm. All presented spectra were recorded in negative ion mode. All mass spectra were recorded in the mass range of m/z = 600\u20131,000.\n</p>\nAdditional instrument parameters of imaging experiments of colorectal adenocarcinoma samples:</br>\nSpray angle: 80\u00b0; High voltage: 5 kV; Solvent flow rate: 1 \u00b5l/min; Inlet capillary temperature: 250 \u00b0C; Nitrogen pressure: 7 bar; Tube lens: 120 V.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Spatial resolution",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Histology",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Histology",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Neighbouring tissue sections to those analysed by DESI were stained with H&E and subjected to histopathological assessment. High and low resolution optical images are made available.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Stain",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "High-res image",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Low-res image",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16681"
+                        },
+                        "description": "All Thermo raw mass spectrometric data were converted to imzML format via imzML Converter (version 1.0.5) [1]. Both profile and centroid mode data files are made available in this study.\n</p>\nRef:</br>\n[1] MALDI MSI Interest Group: Msimaging. http://www.maldi-msi.org (2011).</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "40",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "No metabolite identification has been included in this submission.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Exactive",
+                        "filename": "a_MTBLS289_ml-icl-colo-new_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

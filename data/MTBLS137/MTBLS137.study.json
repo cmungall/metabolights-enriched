@@ -1,0 +1,521 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-11-23T15:40:53",
+        "statusUpdateTime": "2016-11-23T15:40:53",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS137",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2014-11-05",
+        "publicReleaseDate": "2014-11-09",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "96",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "3",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "23",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "24",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS137",
+                "filename": "s_MTBLS137.txt",
+                "title": "MetaDB a Data Processing Workflow in Untargeted MS-Based Metabolomics Experiments",
+                "description": "This dataset reports the UPLC-QTof MS untargeted analysis of Vitis vinifera L. leaves, collected from Italy (Trentino) and Germany (Mecklenburg West-Pomerania), from two fungus-resistant grape varieties (PIWI), Regent and Phoenix. For each variety, 40 leaves were sampled from 10 plants (4 leaves/plant) in Italy, and other 40 with the same process in Germany. The leaves from each plant were homogenized and extracted separately, in the same day, under a randomized order. A quality control (QC) sample was prepared by pooling a small aliquot from each sample. </p> The aim of the project, was to use this sample/data set as an illustrative example for the use the pipeline MetaDB (https://github.com/rmylonas/MetaDB). MetaDB has been developed in order to combine, with a user-friendly web based, different bioinformatic tools used in metabolomics, which takes care a) metadata organization, b) creation of randomized sequences including QC sample, c) data quality evaluation, d) data storage organization, e) data analysis and f) submission to public repositories.",
+                "submissionDate": "2014-11-05",
+                "publicReleaseDate": "2014-11-09",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Panagiotis",
+                        "lastName": "Arapitsas",
+                        "email": "panagiotis.arapitsas@fmach.it",
+                        "affiliation": "Fondazione E. Mach",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Roman",
+                        "lastName": "Mylonas",
+                        "email": "roman.mylonas@fmach.it",
+                        "affiliation": "Fondazione E. Mach",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Pietro",
+                        "lastName": "Franceschi",
+                        "email": "pietro.franceschi@fmach.it",
+                        "affiliation": "Fondazione E. Mach",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Ron",
+                        "lastName": "Wehrens",
+                        "email": "ron.wehrens@wur.nl",
+                        "affiliation": "Fondazione E. Mach",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Training Dataset",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "software pipeline",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OBI",
+                            "file": "http://data.bioontology.org/ontologies/OBI",
+                            "version": "23",
+                            "description": "Ontology for Biomedical Investigations"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0001943"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The data processing workflow in untargeted MS-based metabolomics experiments",
+                        "authorList": "Pietro Franceschi, Roman Mylonas, Nir Shahaf, Matthias Scholz, Panagiotis Arapitsas, Domenico Masuero, Georg Weingart, Silvia Carlin, Urska Vrhovsek, Fulvio Mattivi, Ron Wehrens",
+                        "pubMedID": "25566535",
+                        "doi": "10.3389/fbioe.2014.00072",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Variety",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "cultivar",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005136"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Country",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Country",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25464"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Grape leaves were obtained from Regent and Phoenix varieties cultivated at experimental vineyards in Rattey (Mecklenburg West-Pomerania, North Germany) and San Michele all\u00b4Adige (Trentino, North Italy). Adult, undamaged, and healthy leaves from above the grape main zone were sampled at the development stage of the berries when the grape had ~70% of their size. For each variety/country condition, 4 leaves (not growing any more) per plant were collected, from 10 plants, from the same insertion level. The leaves from each plant were pooled together, frozen immediately in liquid nitrogen and stored at -80 \u00b0C, until analysis. The sampling was made for both countries in July 2012, and German samples were packed in dry ice and shipped to Italy within 24 hr.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All four leaves of each biological replicate were grounded together under nitrogen into a fine homogeneous powder by using mortar and pestle, and then the powder was transferred into falcon tubes and stored at -80 \u00b0C until further treatment. 0.5 g of each sample was then weighed into 15 ml amber vials and 50 \u00b5l of the internal standard (IS) o-coumaric acid (2 mg/ml MeOH), 1.2 ml of H2O:CH3OH (1:2) and 0.8 ml of CHCl3 were then added. The extraction mixture was vortexed for 1 min, sonicated for 10 min, shaken for 15 min at room temperature using an orbital shaker (Grant-Bio Rotator PTR-60) and centrifuged at 4 \u00b0C and 1000 x g for 10 min. 1.5 ml of the upper aqueous methanolic phase was filtered into LC-MS certificated vials through a 0.2 \u00b5m filter and analyzed. To avoid bias, the extractions were performed according to a randomized sequence using the sequence calculation platform \u201cwww.randomization.org\u201d [1]. QC samples were obtained by mixing an aliquot of the powder obtained from the different samples.\n</p>\nRef:</br>\n[1] Ehrhardt C, Arapitsas P, Stefanini M, Flick G, Mattivi F. Analysis of the phenolic composition of fungus-resistant grape varieties cultivated in Italy and Germany using UHPLC-MS/MS. J Mass Spectrom. 2014 Sep;49(9):860-9. PMID:25230183</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "A Waters Acquity UPLC (Waters, Manchester, UK) controlled by MassLynx 4.1 was used. All samples were analysed on a reverse phase (RP) ACQUITY UPLC 1.8 \u00b5m, 2.1 x 150 mm HSS T3 column (Waters) protected with an Acquity UPLC\u00ae BEH HSS T3 1.8 \u00b5m, 2.1 x 5 mm precolumn (Waters), at 40 \u00b0C and under a mobile phase flow rate of 0.28 ml/min. Water was used as weak eluting solvent (A) and methanol as strong eluting solvent (B); formic acid 0.1% v/v was used as additive in both eluents. The multistep linear gradient used was as follows: 0-1 min, 100% A isocratic; 1-3 min, 100-90% A; 3-18 min, 90-60% A; 18-21 min, 60-0% A; 21-25.5 min, 0% A isocratic; 25.5-25.6 min, 0-100% A; 25.6-28 min 100% isocratic. Injection volume was 10 \u00b5l, and the samples were kept at 4 \u00b0C throughout the analysis [1].\n</p>\nRef:</br>\n[1] Arapitsas P, Speri G, Angeli A, Perenzoni D, Mattivi F. The influence of storage on the \u201cchemical age\u201d of red wines. Metabolomics. Oct 2014, 10(5), 816-832.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The Waters Acquity UPLC was coupled via an electrospray ionization (ESI) interface to a Synapt HDMS QTOF MS (Waters, Manchester, UK) operating in W-mode and controlled by MassLynx 4.1 was used. Mass spectrometric data were collected in positive ESI mode over a mass range of 50 to 2000 amu with scan duration of 0.3 s in centroid mode. The transfer collision energy and trap collision energy were set at 6 V and 4 V respectively. The source parameters were set as follows: capillary 3 kV, sampling cone 25 V, extraction cone 3 V, source temperature 150 \u00baC, desolvation temperature 500 \u00baC, desolvation gas flow 1000 l/h and nebulizer gas 50 l/h. External calibration of the instrument was performed at the beginning of each batch of analysis by direct infusion of a sodium formate solution (10% formic acid/0.1 M NaOH/Acetonitrile at a ratio of 1/1/8), controlling the mass accuracy from 40 to 2000 m/z (less than 5 ppm) and mass resolution (over 14000 FWHM). LockMass calibration was applied using a solution of leucine enkephaline (0.5 mg/l, m/z 556.2771) at 0.1 ml/min [1].\n</p>\nRef:</br>\n[1] Arapitsas P, Speri G, Angeli A, Perenzoni D, Mattivi F. The influence of storage on the \u201cchemical age\u201d of red wines. Metabolomics. Oct 2014, 10(5), 816-832.</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "MS Data Acquisition, Conversion, and Storage:</br>\nThe ISA-Tab file was uploaded to the metaDB web-interface to prepare the randomized sample list. The analytical sequence has the following pattern: at the beginning, there is 1 Blank, 1 chemical standard mix, followed by repetition of 4 samples, 1 StdMix until there are no samples left. The acquisition sequence was then exported as a comma separated version (CSV) file and directly imported into MassLynx (Waters Corporation) to set up the acquisition run. After the analytical run, the raw data were converted to CDF by using the Databridge conversion software included in Masslynx (Waters Corporation). The raw data and their converted version were uploaded to the final storage space through MetaDB.\n</p>\nData Processing:</br>\nOnce extracted files were added (indicated by a blue \u201cprocessed\u201d), they were selected in the web-interface and analyzed using metaMS. All runs apart from the blank injections and the standard mixtures were selected. The data with retention times lower than 1 min and higher than 21 min were disregarded, annotation was not performed. The data were preprocessed with a set of parameters optimized for the specific chromatographic and instrumental conditions. The specific settings are included in the test virtual machine.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "No metabolites were searched for or extracted from the data.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "23",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "23",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "SYNAPT HDMS (Waters)",
+                        "filename": "a_MTBLS137_grape_leaves_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

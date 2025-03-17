@@ -1,0 +1,570 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-01-16T00:00:00",
+        "statusUpdateTime": "2024-01-16T18:31:29.695971",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS8682",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "28/09/2023",
+        "publicReleaseDate": "2023-11-08",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OGMS",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS8682",
+                "filename": "s_MTBLS8682.txt",
+                "title": "Mirabegron displays anticancer effects by globally browning adipose tissues",
+                "description": "<p>Metabolic reprogramming in malignant cells is a hallmark of cancer that relies on augmented glycolytic metabolism to support their growth, invasion and metastasis. However, the impact of global adipose metabolism on tumor growth and the drug development by targeting adipose metabolism remain largely unexplored. Here we show that a therapeutic paradigm of drugs is effective for treating various cancer types by browning adipose tissues. Mirabegron, a clinically available drug for overactive bladders, displays potent anticancer effects in various animal cancer models, including untreatable cancers such as pancreatic ductal adenocarcinoma and hepatocellular carcinoma, via the browning of adipose tissues. Genetic deletion of the uncoupling protein 1 (UCP1), a key thermogenic protein in adipose tissues, ablates the anticancer effect. Similarly, the removal of brown adipose tissue (BAT), which is responsible for non-shivering thermogenesis, attenuates the anticancer activity of mirabegron. These findings demonstrate that mirabegron represents a paradigm of anticancer drugs with a distinct mechanism for the effective treatment of multiple cancers.</p>",
+                "submissionDate": "28/09/2023",
+                "publicReleaseDate": "2023-11-08",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Sun",
+                        "lastName": "Xiaoting",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "cancer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000311"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Glycolysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C28152"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "mirabegron",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_65349"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "brown adipose tissue",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BTO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/BTO_0000156"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Mirabegron displays anticancer effects by globally browning adipose tissues",
+                        "authorList": "Sun X, Sui W, Mu Z, Xie S, Deng J, Li S, Seki T, Wu J, Jing X, He X, Wang Y, Li X, Yang Y, Huang P, Ge M, Cao Y.",
+                        "pubMedID": "37993438",
+                        "doi": "10.1038/s41467-023-43350-8",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Ethical regulations statement</strong></p><p>All animal experiments were approved by the Animal Experimental Ethical Committee of Fudan University, Shanghai, China (20190430) and in accordance with the Animal Research: Reporting of In Vivo Experiments (ARRIVE) guidelines.</p><p><br></p><p><strong>Cell culture</strong></p><p>Murine pancreatic cancer cell line Panc02 was kindly provided by Dr Maximilian Schnurr at the University of Munich, Germany<strong>[1]</strong>. Murine hepatocellular carcinoma cell line Hepa1-6 was purchased from ATCC (CRL-1830). Murine MC-38 colon adenocarcinoma cell line was kindly provided by Dr. Rub\u00e9n Hern\u00e1ndez at the University of Navarra, Spain. MC-38, Panc02 and Hepa1-6 cells were cultured and maintained in a Dulbecco's Modified Eagle's Medium (DMEM, D6429, Merck) supplemented with 10% FBS, 100 units/mL penicillin and 100 \u03bcg/mL streptomycin (P4333, Merck)<strong>[2]</strong>.</p><p><br></p><p><strong>Animals</strong></p><p>Male 6-8-week-old C57BL/6 mice and male Ucp1-/- mice in the C57BL/6 background (Stock No. T037633) were purchased from GemPharmatech, China and maintained under a 12-h dark/12-h light cycle with food (SCXK2020-0004, Beijing Keao Xieli Feed) and water provided ad libitum. Male 9-10-week-old C57Bl/6J background-ApcMin/+ mice (Stock no. 002020) were obtained from the Jackson Laboratory. Mice were randomly divided into groups for all experiments. No statistical methods were used to predetermine sample size. The Investigators were not blinded to allocation during experiments and outcome assessment.</p><p><br></p><p><strong>Mouse tumor models</strong></p><p>Approximately 1 x 10^6 MC-38 tumor cells and 1 x 10^6 Panc02 cells in 100 \u03bcL Phosphate buffered saline (PBS) were subcutaneously implanted into each C57BL/6 mouse. For the intraliver injection model, isoflurane-anesthetized 6-8-week-old male C57BL/6 mice were surgically operated on and were injected with approximately 0.5 x 10^6 Hepa1-6 cells in 40 \u03bcL PBS into the liver lobe, followed by a closure of incision with the sterile surgical suture (CR436, Jinhuan Medical, China). Tumor sizes were measured with a caliper and tumor volumes were calculated according to the standard formula (length x width^2 x 0.52)<strong>[3]</strong>. For the genetic spontaneous intestinal adenoma model, ApcMin/+ mice, that usually developed multiple intestinal adenomas between weeks 10 and 14, were used. All tumor sizes were \u2264\u20092.5\u2009cm^3 and did not exceed the maximal tumor size allowed by the ethical approval. Fresh tissues including tumors and adipose depots were harvested and kept in dry ice or liquid nitrogen for metabolomics analysis or RNA and protein extraction. A portion of fresh tissues was fixed with 4% paraformaldehyde (PFA) (MA0192, Meilunbio, China) overnight for histological and immunohistochemical analyses.</p><p><br></p><p><strong>Drug treatment</strong></p><p>Mirabegron (223673-61-8, BOC sciences, USA) was dissolved in polyethylene glycol (PEG, 91893, Sigma-Aldrich) as a 100 mg/mL stock, which was further diluted in PBS upon use. Mirabegron was orally administrated in each mouse at 0.8, 3.2, 8 and 10 mg/kg bodyweight/day until mice were sacrificed for further analysis. CL-316, 243 (1499, Tocris Bioscience, USA) was injected into each mouse at 1 mg/kg bodyweight/day. Isoproterenol (HY-B0468, MedChemExpress, USA) was injected into each mouse at 1 mg/kg bodyweight/day. Propranolol (HY-B0573B, MedChemExpress, USA) was injected into each mouse at 2 mg/kg bodyweight/day. L-748,337 (HY-103211, MedChemExpress, USA) and SR59230A (HY-100672, MedChemExpress, USA) were injected into each mouse at 5 mg/kg bodyweight/day. Drugs were given to tumor-bearing mice after 14 days of tumor implantation when tumor size reached approximately 0.2 cm^3.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Yang Y, Andersson P, Hosaka K, Zhang Y, Cao R, Iwamoto H, Yang X, Nakamura M, Wang J, Zhuang R, Morikawa H, Xue Y, Braun H, Beyaert R, Samani N, Nakae S, Hams E, Dissing S, Fallon PG, Langer R, Cao Y. The PDGF-BB-SOX7 axis-modulated IL-33 in pericytes and stromal cells promotes metastasis through tumour-associated macrophages. Nat Commun. 2016 May 6;7:11385. doi:10.1038/ncomms11385. PMID:27150562.</p><p><strong>[2]</strong> Wang Y, Sun Q, Ye Y, Sun X, Xie S, Zhan Y, Song J, Fan X, Zhang B, Yang M, Lv L, Hosaka K, Yang Y, Nie G. FGF-2 signaling in nasopharyngeal carcinoma modulates pericyte-macrophage crosstalk and metastasis. JCI Insight. 2022 May 23;7(10):e157874. doi:10.1172/jci.insight.157874. PMID:35439170.</p><p><strong>[3]</strong> Sun Q, Wang Y, Ji H, Sun X, Xie S, Chen L, Li S, Zeng W, Chen R, Tang Q, Zuo J, Hou L, Hosaka K, Lu Y, Liu Y, Ye Y, Yang Y. Lenvatinib for effectively treating antiangiogenic drug-resistant nasopharyngeal carcinoma. Cell Death Dis. 2022 Aug 19;13(8):724. doi:10.1038/s41419-022-05171-3. PMID:35985991.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were extracted from snap-frozen tumor samples using a 400 \u00b5L methanol:water (4:1, v/v) solution in a high throughput tissue crusher (Wonbio-96C, Shanghai Wanbo Biotechnology, China) at 50 Hz for 6 min, then followed by vortex for 30 s and ultrasound at 40 kHz for 30 min at 5 \u00b0C. The samples were placed at -20 \u00b0C&nbsp;for 30 min,&nbsp;followed by&nbsp;centrifugation at 13,000 x g at 4 \u00b0C&nbsp;for 15 min. The supernatant was transferred to sample vials for LC-MS/MS analysis. Pooled quality control samples were prepared and tested in the same manner as the analytic samples to monitor the stability of the analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Chromatographic separation of the metabolites was performed on a Thermo UHPLC system equipped with an ACQUITY BEH C18 column (100 mm x 2.1 mm i.d., 1.7 \u00b5m; Waters, Milford, USA). The mobile phases consisted of 0.1% formic acid in water (solvent A) and 0.1% formic acid in acetonitrile:isopropanol (1:1, v/v) (solvent B). The solvent gradient changed according to the following conditions: from 0 to 3 min, from 95% (A):5% (B) to 80% (A):20% (B); from 3 to 9 min, from 80% (A):20% (B) to 5% (A):95% (B); from 9 to 13 min, from 5% (A):95% (B) to 5% (A):95% (B); from 13 to 13.1 min, from 5% (A):95% (B) to 95% (A):5% (B), from 13.1 to 16 min, from 95% (A):5% (B) to 95% (A):5% (B) for equilibrating the systems. The sample injection volume was 2 \u03bcL and the flow rate was set to 0.4 mL/min. The column temperature was maintained at 40 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The mass spectrometric data was collected using a Thermo UHPLC-Q Exactive Mass Spectrometer equipped with an electrospray ionization (ESI) source. The optimal conditions were set as followed: Aus gas heater temperature, 400 \u00b0C; sheath gas flow rate,&nbsp;40 psi; Aus gas flow rate, 30 psi; ion-spray voltage floating (ISVF), -2800 V in negative mode and 3500 V in positive mode; normalized collision energy, 20-40-60V rolling for MS/MS. Data acquisition was performed with the Data Dependent Acquisition (DDA) mode. The detection was carried out over a mass range of 70-1050 m/z.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>After UPLC-TOF/MS analyses, the raw data were imported into the Progenesis QI 2.3 (Nonlinear Dynamics, Waters, USA) for peak detection and alignment. Metabolic features detected at least 80% in any set of samples were retained. Mass spectra of these metabolic features were identified by databases including Human metabolome database (HMDB) (http://www.hmdb.ca/) and Metlin database (https://metlin.scripps.edu/). For metabolites having MS/MS confirmation, only the ones with MS/MS fragments score above 30 were considered as confidently identified. Statistical analysis was performed using ropls&nbsp;v1.6.2 (http://bioconductor.org/packages/release/bioc/html/ropls.html) R package from Bioconductor on Majorbio Cloud Platform (https://cloud.majorbio.com). Unsupervised principal component analysis (PCA), orthogonal partial least squares discriminate analysis (OPLS-DA), variable importance in the projection (VIP) and differential metabolites analysis were performed.&nbsp;Metabolites were further mapped into their biochemical pathways through metabolic enrichment and pathway analysis based on the KEGG database (http://www. genome.jp/kegg/).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectra of these metabolic features were identified by databases including Human metabolome database (HMDB) (http://www.hmdb.ca/) and Metlin database (https://metlin.scripps.edu/). For metabolites having MS/MS confirmation, only the ones with MS/MS fragments score above 30 were considered as confidently identified.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS8682_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS8682_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

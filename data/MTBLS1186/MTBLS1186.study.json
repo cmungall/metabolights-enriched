@@ -1,0 +1,537 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-07-02T00:00:00",
+        "statusUpdateTime": "2020-07-02T15:07:30.226931",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\Program Files\\ISA\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1186",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2019-08-22",
+        "publicReleaseDate": "2020-07-02",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "85",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MESH",
+                "file": "http://data.bioontology.org/ontologies/MESH",
+                "version": "19",
+                "description": "Medical Subject Headings"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "195",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "22",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "150",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "IDO",
+                "file": "http://data.bioontology.org/ontologies/IDO",
+                "version": "11",
+                "description": "Infectious Disease Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1186",
+                "filename": "s_MTBLS1186.txt",
+                "title": "The impact of persistent colonization by Vibrio fischeri on the metabolome of the host squid Euprymna scolopes",
+                "description": "<p>Associations between animals and microbes affect not only the immediate tissues where they occur, but also the entire host. Metabolomics, the study of small biomolecules generated during metabolic processes, provides a window into how mutualistic interactions shape host biochemistry. The Hawaiian bobtail squid, Euprymna scolopes, is amenable to metabolomic studies of symbiosis because the host can be reared with or without its species-specific symbiont, Vibrio fischeri. In addition, unlike many invertebrates, the host squid has a closed circulatory system. This feature allows a direct sampling of the refined collection of metabolites circulating through the body, a focused approach that has been highly successful with mammals. Here, we show that rearing E. scolopes without its natural symbiont significantly affected one quarter of the more than 100 hemolymph metabolites defined by gas chromatography mass-spectrometry analysis. Further, as in mammals, which harbor complex consortia of bacterial symbionts, the metabolite signature oscillated on symbiont-driven daily rhythms and was dependent on the sex of the host. Thus, our results provide evidence that the population of even a single symbiont species can influence host hemolymph biochemistry as a function of symbiotic state, host sex, and circadian rhythm.</p>",
+                "submissionDate": "2019-08-22",
+                "publicReleaseDate": "2020-07-02",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Manuel",
+                        "lastName": "Liebeke",
+                        "email": "mliebeke@mpi-bremen.de",
+                        "affiliation": "Max Planck Institute for Marine Microbiology",
+                        "address": "Max Planck Institute for Marine Microbiology\nCelsiusstrasse 1\nD-28359 Bremen\nGermany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+49 421 2028-822",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "EFO",
+                                    "file": "http://data.bioontology.org/ontologies/EFO",
+                                    "version": "195",
+                                    "description": "Experimental Factor Ontology"
+                                },
+                                "termAccession": "http://www.ebi.ac.uk/efo/EFO_0009736"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Circadian rhythm",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "195",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004354"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Aliivibrio fischeri",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITAXON",
+                            "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                            "version": "2",
+                            "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_668"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Gas chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "22",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000497"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "symbiont host role",
+                        "termSource": {
+                            "comments": [],
+                            "name": "IDO",
+                            "file": "http://data.bioontology.org/ontologies/IDO",
+                            "version": "11",
+                            "description": "Infectious Disease Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/IDO_0000408"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "The impact of persistent colonization by Vibrio fischeri on  the metabolome of the host squid Euprymna scolopes",
+                        "authorList": "Eric J. Koch, Silvia Moriano-Gutierrez, Edward G. Ruby, Margaret McFall-Ngai, Manuel Liebeke.",
+                        "pubMedID": "",
+                        "doi": "10.1242/jeb.212860",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "195",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Gender",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Gender",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "85",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17357"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Symbiotic status",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Symbiosis",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MESH",
+                                "file": "http://data.bioontology.org/ontologies/MESH",
+                                "version": "19",
+                                "description": "Medical Subject Headings"
+                            },
+                            "termAccession": "http://purl.bioontology.org/ontology/MESH/D013559"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Time of day",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Time",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "195",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000721"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Colonization procedures</strong></p><p>For colonization of the host animal, wild-type Vibrio fischeri strain ES114<strong>[1]</strong> was first grown in the nutrient-rich medium LBS (Luria-Bertani salt medium)<strong>[2]</strong>. Prior to inoculation, a subculture was grown to an optical density at 600 nm (OD600) of ~0.6 in seawater-tryptone medium (SWT)<strong>[3]</strong>. Bacteria were added to the squid\u2019s seawater at a final concentration of ~10^4 colony-forming units (CFU) per ml for ~12 h. Colonization was confirmed for each animal at 24 h postinoculation by checking luminescence output using a TD-20/20 luminometer (Turner Design, Sunnyvale, CA, USA).</p><p><br></p><p><strong>Animal husbandry</strong></p><p>Specimens of E. scolopes were collected in Maunalua Bay, Hawai\u02bbi, and transported to the University of Wisconsin-Madison. The squid were maintained in Instant Ocean artificial seawater (Spectrum Brands, Blacksburg, VA, USA) as previously described<strong>[4]</strong>. Egg clutches were incubated in 9.5 l aquaria<strong>[5]</strong>. Within 12 h of hatching, juvenile squid were either inoculated with V. fischeri or maintained APO overnight, and introduced into rearing vessels the following morning. Hatchlings from different egg clutches were maintained separately. The squid were maintained on a 12-h light/12-h dark schedule, and reared as previously described for 6 wk[5]. Briefly, 25-60 squid were housed per vessel and fed live mysid shrimp (Mysidopsis bahia) 3-6 times per day. At 8 wk post-hatching, the squid were transferred to 65 l black high-density polyethylene tanks with 6-10 squid per tank as they approached maturity. Each tank contained a hang-on biofilter to maintain water quality, and 50% (by volume) water changes were performed every 3 d or more often if required. The squid were fed freshwater shrimp (Palemonetes spp.) overnight with the average size used increasing with that of the squid. Maintenance of SYM or APO conditions in each tank was monitored by periodically plating 50 \u00b5l of seawater onto LBS and examining for the presence (SYM) or absence (APO) of growth of V. fischeri colonies.</p><p><br></p><p><strong>Hemolymph sampling</strong></p><p>Prior to sampling, squid were confirmed to be either SYM or APO (see above). At least 8 animals were sampled for each treatment group (male/symbiotic, male/aposymbiotic, female/symbiotic, female/aposymbiotic) to ensure comparability. Squid were anesthetized with 2% ethanol in seawater, and hemolymph was extracted from the cephalic artery using a 28-gauge needle at 3 times over the day-night cycle: 1100 h (5 h after dawn), 1900 h (2 h after dusk) and 0400 h (2 h before dawn). Each squid was sampled only once, with 125-200 \u00b5l of hemolymph recovered.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Boettcher KJ and Ruby EG. Depressed light emission by symbiotic Vibrio fischeri of the sepiolid squid Euprymna scolopes. J Bacteriol. 1990 Jul;172(7):3701-6. doi:10.1128/jb.172.7.3701-3706.1990. PMID:2163384</p><p><strong>[2]</strong> Stabb EV, Reich KA, Ruby EG. Vibrio fischeri genes hvnA and hvnB encode secreted NAD(+)-glycohydrolases. J Bacteriol. 2001 Jan;183(1):309-17. doi:10.1128/JB.183.1.309-317.2001. PMID:11114931</p><p><strong>[3]</strong> Bose JL, Rosenberg CS, Stabb EV. Effects of luxCDABEG induction in Vibrio fischeri: enhancement of symbiotic colonization and conditional attenuation of growth in culture. doi:10.1007/s00203-008-0387-1. PMID:18521572</p><p><strong>[4]</strong> McFall-Ngai M and Montgomery MK. Biol Bull. 1990 Dec;179(3):332-339. doi:10.2307/1542325. PMID:29314961</p><p><strong>[5]</strong> Koch EJ, Miyashiro T, McFall-Ngai MJ, Ruby EG. Features governing symbiont persistence in the squid-vibrio association. Mol Ecol. 2014 Mar;23(6):1624-34. doi:10.1111/mec.12474. PMID:24118200</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Following extraction, the hemocytes were removed by centrifuging the samples at 5,000 rpm for 10 min at 4 \u00baC to pellet the cells. Next, 100 \u00b5l of hemolymph supernatant fraction were transferred to a 1.5 ml tube and 50 \u00b5l of 0.1 mg/ml adonitol solution were added as an internal standard. To precipitate proteins, ~600 \u00b5l of methanol at -20 \u00baC were added to each sample at a 1:4 volume/volume ratio of sample/methanol, and the solution was vortexed, incubated at 20 \u00baC and centrifuged at 11,000 rpm for 30 min at 4 \u00baC to pellet precipitated proteins. The supernatant was removed and the protein pellet was resuspended, and the precipitation procedure was performed a second time to ensure maximum extraction of metabolites; the 2 supernatant fractions were combined and stored at -80 \u00baC. Once all samples were obtained, they were dried using a SpeedVac (ThermoSavant, Holbrook, NY, USA) and stored at -80 \u00baC.</p><p><br></p><p>Dried hemolymph extracts were derivatized with 40 \u00b5l methoxyamine hydrochloride solution (0.02% weight/volume in pyridine) at 37 \u00b0C for 90 min under constant shaking (1350 rpm). After a 1-min spin-down of the sample, a second derivatization followed by the addition of 80 \u00b5l N-methyl-N-(trimethylsilyl) trifluoroacetamide (MSTFA) with further heating and shaking at 37 \u00b0C for 30 min. The samples were centrifuged for 1 min, and 80 \u00b5l of the supernatant were transferred to a small glass vial-inlet for GC-MS analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The GC-MS analysis was performed on an Agilent 7890B gas chromatograph connected to an Agilent 5977A MSD (Agilent Technologies, Santa Clara, CA, USA) as described earlier<strong>[1]</strong>. Samples were run randomized and injected in splitless mode (1 \u00b5l) with an Agilent 7693 autosampler injector and separated using a DB5-MS column (Agilent Technologies, Santa Clara, CA, USA) with helium as the carrier gas. After injection, the GC oven-temperature program was started with a temperature of 60 \u00b0C for 2 min, and the heat increased at 10 \u00b0C/min up to 325 \u00b0C, and held at 325 \u00b0C for 5 mins.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Liebeke M and Bundy JG. Tissue disruption and extraction methods for metabolic profiling of an invertebrate sentinel species. Metabolomics 8, 819\u2013830(2012). doi:10.1007/s11306-011-0377-1</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectra were acquired on an Agilent 5977A MSD in electron ionization mode at 70 eV across the mass range of 50\u2013600 m/z and a scan rate of 2 scans/s.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Raw Agilent data files were converted to mzXML files using Msconvert<strong>[1]</strong>.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Holman JD, Tabb DL, Mallick P. Employing ProteoWizard to Convert Raw Mass Spectrometry Data. Curr Protoc Bioinformatics. 2014 Jun 17;46:13.24.1-9. doi:10.1002/0471250953.bi1324s46. PMID:24939128</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were assigned using the NIST 2.0 Library (Version a Dec 2012) and, if available, verified by injection of pure standard compounds under the same chromatographic conditions. Metabolites were named 'unknown' when MS spectra had a &lt;70% match factor in the NIST Library. Metabolites with a match factor &lt;70%, but which had characteristic mass-spectrometry fragments for a class of metabolites and an approximate retention time window match, were named according to their compound class (e.g. disaccharide or monosaccharide).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Gas Chromatography MS - Positive (GC-MS (Positive))",
+                        "filename": "a_MTBLS1186_GC-MS_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

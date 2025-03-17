@@ -1,0 +1,544 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-08-23T10:38:46.259000",
+        "statusUpdateTime": "2019-08-23T10:38:46.259000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "D:\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1044",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2019-06-11",
+        "publicReleaseDate": "2019-08-23",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1044",
+                "filename": "s_MTBLS1044.txt",
+                "title": "Systematic identification of metabolites controlling gene expression in E. coli",
+                "description": "Metabolism controls gene expression through allosteric interactions between metabolites and transcription factors. These interactions are usually measured with in vitro assays, but there are no methods to identify them at a genome-scale in vivo. Here we show that dynamic transcriptome and metabolome data identify metabolites that control transcription factors in E. coli. By switching an E. coli culture between starvation and growth, we induce strong metabolite concentration changes and gene expression changes. Using Network Component Analysis we calculate the activities of 209 transcriptional regulators and correlate them with metabolites. This approach captures, for instance, the in vivo kinetics of CRP regulation by cyclic-AMP. By testing correlations between all pairs of transcription factors and metabolites, we predict putative effectors of 71 transcription factors, and validate five interactions in vitro. These results show that combining transcriptomics and metabolomics generates hypotheses about metabolism-transcription interactions that drive transitions between physiological states.",
+                "submissionDate": "2019-06-11",
+                "publicReleaseDate": "2019-08-23",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Hannes",
+                        "lastName": "Link",
+                        "email": "hannes.link@synmikro.mpi-marburg.mpg.de",
+                        "affiliation": "Max Planck Institute for terrestrial Microbiology ",
+                        "address": "Karl-von-Frisch-Str. 16,D-35043 Marburg, Germany",
+                        "fax": "",
+                        "midInitials": "P",
+                        "phone": "+49 6421 28-21624",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "EFO",
+                                    "file": "http://data.bioontology.org/ontologies/EFO",
+                                    "version": "146",
+                                    "description": "Experimental Factor Ontology"
+                                },
+                                "termAccession": "http://www.ebi.ac.uk/efo/EFO_0009736"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Martin",
+                        "lastName": "Lempp",
+                        "email": "martin.lempp@synmikro.mpi-marburg.mpg.de",
+                        "affiliation": "Max Planck Institute for terrestrial Microbiology",
+                        "address": "Karl-von-Frisch-Str. 16,D-35043 Marburg, Germany",
+                        "fax": "",
+                        "midInitials": "W",
+                        "phone": "+49 6421 28 21623",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "EFO",
+                                    "file": "http://data.bioontology.org/ontologies/EFO",
+                                    "version": "146",
+                                    "description": "Experimental Factor Ontology"
+                                },
+                                "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001739"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Gene Expression",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Transcription Factor",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Systematic identification of metabolites controlling gene expression in E. coli.",
+                        "authorList": "Lempp M, Farke N, Kuntz M, Freibert SA, Lill R, Link H.",
+                        "pubMedID": "31578326",
+                        "doi": "10.1038/s41467-019-12474-1",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "time elapsed",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "146",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Biological samples are collected in replicates from a stirred 0.5 l bioreactor containing an E. coli BW25113 culture in a switch between growth starvation and growth medium.<br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "1 ml E. coli culture aliquots were vacuum-filtered on a 0.45 \u03bcm pore size nitrocellulose filter (Millipore, Burlington, MA). Cell on filters were directly transferred into 1 ml 40:40:20 acetonitrile/methanol/water kept at -20 \u00b0C. After an incubation of 2 h at -20 \u00b0C, samples were transferred into reaction tubes and centrifuged for 20 min at 17.000 rcf at -9 \u00b0C.",
+                        "uri": "http://dx.doi.org/10.1021/acs.analchem.6b03731",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Chromatographic separations were performed on an Agilent 1290 Infinity II LC System equipped with A) an Acquity UPLC BEH Amide column (2.1 x 30 mm, particle size 1.8 \u00b5m, Waters) and B) an iHilic-Fusion (P) HPLC column (2.1 x 50 mm, particle size 5 \u00b5m, Hilicon) applying the following binary gradient at a flow rate of 400 \u00b5l/min:</br>\nA) 0-1.3 min: isocratic 10% A (water/formic acid, 99.9/0.1 (v/v), 10 mM ammonium formate), 90% B (acetonitrile/formic acid, 99.9/0.1 (v/v)); 1.3-1.5 min linear from 90% to 40% B; 1.5-1.7 min linear from 40% to 90% B, 1.7-2 min isocratic 90% B The injection volume was 3.0 \u00b5l (full loop injection).</br>\nB) 0-1.3 min: isocratic 10% A (water/formic acid, 99.8/0.2 (v/v), 10 mM ammonium carbonate), 90% B (acetonitrile); 1.3-1.5 min linear from 90% to 40% B; 1.5-1.7 min linear from 40% to 90% B, 1.7-2 min isocratic 90% B The injection volume was 3.0 \u00b5l (full loop injection).</br>",
+                        "uri": "http://dx.doi.org/10.1021/acs.analchem.6b03731",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Eluting compounds were detected using a Agilent 6495 triple quadrupole mass spectrometer (Agilent Technologies) equipped with an Agilent Jet Stream electrospray ion source in positive and negative ion mode. Source gas temperature was set to 200 \u00b0C, with 14 l/min drying gas and a nebulizer pressure of 24 psi. Sheath gas temperature was set to 300 \u00b0C and flow to 11 l/min. Electrospray nozzle and capillary voltages were set to 500 and 2500 V, respectively. Compounds were selected in 12C- and 13C isoforms as described previously[1].\n</br></br>\nRef:</br>\n[1] Guder JC, Schramm T, Sander T, Link H. Time-Optimized Isotope Ratio LC-MS/MS for High-Throughput Quantification of Primary Metabolites. Anal Chem. 2017 Feb 7;89(3):1624-1631. doi:10.1021/acs.analchem.6b03731. PMID:28050903</br>",
+                        "uri": "http://dx.doi.org/10.1021/acs.analchem.6b03731",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "LC\u2212MS/MS raw data were converted using MSconvert.",
+                        "uri": "http://dx.doi.org/10.1021/acs.analchem.6b03731",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data processing and analysis was performed with Matlab R2014b. Selection of peaks of metabolite i in j = N samples was as follows: (1) peaks with a prominence >0.1 were selected in the 12C and 13C channel of metabolite i. (2) If 12C and 13C maxima lay 5 data points next to each other, these peak pairs were retained. (3) The correlation of all peak pairs was determined using 11 data points around the maximum of the 12C peak, and the highest correlating peak pair was selected. After peaks were selected for sample 1 to N, the retention time occurring most often in all samples was determined as RTi = mode(RTij), where j = 1 \u2212 N. This ensured that the same peak pairs were selected for all samples. Subsequently the 12C peak and 13C peak next to RTi were selected in all samples and the correlation was again determined as described previously[1].\n</br></br>\nRef:</br>\n[1] Guder JC, Schramm T, Sander T, Link H. Time-Optimized Isotope Ratio LC-MS/MS for High-Throughput Quantification of Primary Metabolites. Anal Chem. 2017 Feb 7;89(3):1624-1631. doi:10.1021/acs.analchem.6b03731. PMID:28050903</br>",
+                        "uri": "http://dx.doi.org/10.1021/acs.analchem.6b03731",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Alternating (LC-MS (Alternating))",
+                        "filename": "a_MTBLS1044_BEH_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Alternating (LC-MS (Alternating))",
+                        "filename": "a_MTBLS1044_iHILIC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

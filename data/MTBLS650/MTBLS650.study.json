@@ -1,0 +1,625 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-03-12T12:07:34.023000",
+        "statusUpdateTime": "2019-03-12T12:07:34.023000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\Users\\Simona\\Downloads\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS650",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-03-21",
+        "publicReleaseDate": "2019-03-12",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MESH",
+                "file": "http://data.bioontology.org/ontologies/MESH",
+                "version": "10",
+                "description": "Medical Subject Headings"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS650",
+                "filename": "s_MTBLS650.txt",
+                "title": "Global untargeted serum metabolomic analyses nominate metabolic pathways responsive to loss of expression of the orphan metallo beta-lactamase, MBLAC1",
+                "description": "The <i>C. elegans</i> gene swip-10 encodes an orphan metallo beta-lactamase that genetic studies indicate is vital for limiting neuronal excitability and viability. Sequence analysis indicates that the mammalian gene Mblac1 is the likely ortholog of swip-10, with greatest sequence identity localized to the encoded protein's single metallo beta-lactamase domain. The substrate for the SWIP-10 protein remains unknown and to date no functional roles have been ascribed to MBLAC1, though we have shown that the protein binds the neuroprotective beta-lactam antibiotic, ceftriaxone. To gain insight into the functional role of MBLAC1 in vivo, we used CRISPR/Cas9 methods to disrupt N-terminal coding sequences of the mouse Mblac1 gene, resulting in a complete loss of protein expression in viable, homozygous knockout (KO) animals. Using serum from both WT and KO mice, we performed global, untargeted metabolomic analyses, resolving small molecules via hydrophilic interaction chromatography (HILIC) based ultra-performance liquid chromatography, coupled to mass spectrometry (UPLC-MS/MS). Unsupervised principal component analysis reliably segregated the metabolomes of MBLAC1 KO and WT mice, with 92 features subsequently nominated as significantly different by ANOVA, and for which we made tentative and putative metabolite assignments. Bioinformatic analyses of these molecules nominate validated pathways subserving bile acid biosynthesis and linoleate metabolism, networks known to be responsive to metabolic and oxidative stress. Our findings lead to hypotheses that can guide future targeted studies seeking to identify the substrate for MBLAC1 and how substrate hydrolysis supports the neuroprotective actions of ceftriaxone.<br>",
+                "submissionDate": "2018-03-21",
+                "publicReleaseDate": "2019-03-12",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Simona",
+                        "lastName": "Codreanu",
+                        "email": "simona.codreanu@vanderbilt.edu",
+                        "affiliation": "Vanderbilt University",
+                        "address": "Department of Chemistry, Vanderbilt University, Nashville, USA",
+                        "fax": "",
+                        "midInitials": "G",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Submitter",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Ultra-Performance Liquid Chromatography-Mass Spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Beta-Lactamase",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16964"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ceftriaxone",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_29007"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "SWIP-10 protein, C elegans",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MESH",
+                            "file": "http://data.bioontology.org/ontologies/MESH",
+                            "version": "10",
+                            "description": "Medical Subject Headings"
+                        },
+                        "termAccession": "http://purl.bioontology.org/ontology/MESH/C000601014"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Global untargeted serum metabolomic analyses nominate metabolic pathways responsive to loss of expression of the orphan metallo \u03b2-lactamase, MBLAC1.",
+                        "authorList": "Gibson CL, Codreanu SG, Schrimpe-Rutledge AC, Retzlaff CL, Wright J, Mortlock DP, Sherrod SD, McLean JA, Blakely RD.",
+                        "pubMedID": "29868674",
+                        "doi": "10.1039/c7mo00022g",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "biological replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002091"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sample type",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Group",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "http://data.bioontology.org/ontologies/NCIT",
+                                "version": "44",
+                                "description": "National Cancer Institute Thesaurus"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C43359"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Our initial untargeted study made use of serum collected from 3, age-(12\u201316 weeks) and sex-(female) matched WT and KO mice. WT mice were commercially obtained C57BL/6J mice (Jackson Labs, Bar Harbor Maine, USA). Our subsequent pathway validation study reported is derived from serum collected from 4 sex-(female) matched WT and KO littermates (aged 12\u201316 weeks) bred from Mblac1 heterozygous parents. Following rapid decapitation of mice, 0.5\u20130.75 ml of trunk blood (blood immediately collected from the body at the site of decapitation) was collected, allowed to coagulate on ice for 30 min and centrifuged (15 min at 5000 rpm).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Serum (50 \u00b5l) was collected into fresh tubes followed by addition of ice cold 80% methanol (5x by volume), then stored at -80 \u00b0C overnight. On the next day, samples were centrifuged at 10 000 rpm for 15 min to eliminate methanol precipitated proteins. This methanol precipitation step was repeated and the metabolite containing supernatant was dried via speed-vacuum and stored at -80 \u00b0C until analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For mass spectrometry analysis, dried extracts were reconstituted in 100 \u00b5l of acetonitrile/water (80:20, v/v) and centrifuged for 5 min at 15 000 rpm to remove insoluble material. Quality control (QC) samples were prepared by pooling equal volumes from each experimental sample.<br><br>MS analyses were performed on a Q-Exactive HF hybrid mass spectrometer (Thermo Fisher Scientific, Bremen, Germany) equipped with a Vanquish UHPLC binary system and autosampler (Thermo Fisher Scientific, Germany). Extracts (5 \u00b5l injection volume) were separated on a SeQuant ZIC-HILIC 3.5 \u00b5m, 2.1 mm x 100 mm column (Millipore Corporation, Darmstadt, Germany) held at 40 \u00b0C. Liquid chromatography was performed at a 200 \u00b5l/min using solvent A (5 mM ammonium formate in 90% water, 10% acetonitrile) and solvent B (5 mM ammonium formate in 90% acetonitrile, 10% water) with the following gradient: 90% B for 2 min, 90\u201340% B over 16 min, 40% B held 2 min, and 40\u201390% B over 10 min, 90% B held 10 min (gradient length 40 min).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Full MS analyses were acquired on a Thermo Fisher Scientific Q-Exactive HF hybrid mass spectrometer over a mass range of m/z 70\u20131050 under an ESI positive profile mode and separately under an ESI negative profile mode. Full mass scan was used at a resolution of 120 000 with a scan rate at ~3.5 Hz. The automatic gain control (AGC) target was set at 1 x 10^6 ions, and maximum ion injection time (IT) was at 100 ms. Source ionization parameters were optimized with the spray voltage at 3.0 kV, and other parameters were as follows: transfer temperature at 280 \u00b0C; S-Lens level at 40; heater temperature at 325 \u00b0C; Sheath gas at 40, Aux gas at 10, and sweep gas flow at 1. Data dependent(DD) MS/MS spectra were acquired using a data dependent scanning mode in which 1 full MS scan (m/z 70\u20131050) was followed by 2 MS/MS scans. MS/MS scans are acquired in profile mode using an isolation width of 1.3 m/z, stepped collision energy (NCE 20, 40, 60), and a dynamic exclusion of 6 s. MS/MS spectra were collected at a resolution of 15 000 with an AGC target set at 2 x 10^5 ions, and IT of 100 ms. To assess instrument performance and reproducibility throughout our experimental run sequence, we monitored the retention times and peak areas for a subset of identified endogenous molecules (n = 10) observed in the 3 DD QC pool runs bracketing the experimental FMS QC and experimental run sequence (visualized using Skyline (www.skyline.ms)[1]).<br><br>Full MS (FMS) data was acquired for the QC pool, in both HILIC-POS (3 FMS QC runs) and HILIC-NEG (1 FMS QC runs) methods, to use as a retention time alignment reference within Progenesis QI for subsequent normalization and data quantitation. MS/MS (data dependent (DD)) acquisitions for pooled QCs were run to assess instrument performance over time and used for feature annotation.<br><br>Ref:<br>[1] MacLean B, Tomazela DM, Shulman N, Chambers M, Finney GL, Frewen B, Kern R, Tabb DL, Liebler DC, MacCoss MJ. Skyline: an open source document editor for creating and analyzing targeted proteomics experiments. Bioinformatics. 2010 Apr 1;26(7):966-8. doi:10.1093/bioinformatics/btq054. PMID:20147306",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<div>UPLC-MS/MS raw data were imported, processed, normalized, and reviewed using Progenesis QI v.2.1 (Non-linear Dynamics, Newcastle, UK).</div>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<div>Tentative and putative annotations were determined within Progenesis using accurate mass measurements (&lt;5 ppm error), isotope distribution similarity, and manual assessment of fragmentation spectrum matching (when applicable) from the Human Metabolome Database (HMDB)[1], Metlin[2], MassBank[3], and the National Institute of Standards and Technology (NIST) database[4]. Additional putative annotations were assigned using Compound Discoverer 2.0 (Thermo Scientific, Waltham,MA, USA).&nbsp; Increased confidence in the annotation of many features was achieved by manually assessing spectral match and RT consistencies between experimental data and chemical standards within a curated in-house library. Chemical standards (purchased from Sigma Aldrich (St. Louis, MO) unless otherwise specified) were prepared at a concentration of 10 ng/\u00b5l in acetonitrile/water (80/20, v/v).</div><div><br></div><div>Ref:</div><div>[1] Wishart DS, Jewison T, Guo AC, Wilson M, Knox C, Liu Yet al. HMDB 3.0--The Human Metabolome Database in 2013. Nucleic Acids Res. 2013 Jan;41(Database issue):D801-7. doi: 10.1093/nar/gks1065. PMID:23161693</div><div>[2] Smith CA, O'Maille G, Want EJ, Qin C, Trauger SA, Brandon TR, Custodio DE, Abagyan R, Siuzdak G. METLIN: a metabolite mass spectral database. Ther Drug Monit. 2005 Dec;27(6):747-51. PMID:16404815</div><div>[3] Horai H, Arita M, Kanaya S, Nihei Y, Ikeda T, Suwa K, Ojima Y et al. MassBank: a public repository for sharing mass spectral data for life sciences. J Mass Spectrom. 2010 Jul;45(7):703-14. doi:10.1002/jms.1777. PMID:20623627</div><div>[4] F. S. A. Jablonski, C. J. Powell and A. Y. Lee, NIST Electron Elastic-Scattering Cross-Section Database \u2013 Version 4.0, National Institute of Standards and Technology, Gaithersburg, MD, 2016. doi:10.6028/NIST.NSRDS.64</div>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS650_POS_UPLC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Negative (LC-MS (Negative))",
+                        "filename": "a_MTBLS650_NEG_UPLC_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography Tandem MS (LC-MS/MS (Positive))",
+                        "filename": "a_MTBLS650_POS_MS2_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography Tandem MS (LC-MS/MS (Negative))",
+                        "filename": "a_MTBLS650_NEG_MS2_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

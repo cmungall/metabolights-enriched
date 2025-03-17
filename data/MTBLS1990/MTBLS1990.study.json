@@ -1,0 +1,829 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-05-24T00:00:00",
+        "statusUpdateTime": "2023-05-24T18:12:07.573177",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1990",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-08-07",
+        "publicReleaseDate": "2023-05-24",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "AGRO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1990",
+                "filename": "s_MTBLS1990.txt",
+                "title": "Metabolic profiling of maternal serum of women at high-risk of spontaneous preterm birth using NMR and MGWAS approach",
+                "description": "Preterm birth (PTB) is a leading global cause of infant mortality. Risk factors include genetics, lifestyle choices and infection. Understanding the mechanism of PTB could aid the development of novel approaches to prevent PTB. This study aimed to investigate the metabolic biomarkers of PTB in early pregnancy and the association of significant metabolites with participant genotypes. Maternal sera collected at 16 and 20 weeks of gestation, from women who previously experienced PTB (high-risk) and women who did not (low-risk controls), were analysed using 1H nuclear magnetic resonance (NMR) metabolomics and genome-wide screening microarray. ANOVA and probabilistic neural network (PNN) modelling were performed on the spectral bins. Metabolomics genome-wide association (MGWAS) of the spectral bins and genotype data from the same participants was applied to determine potential metabolite-gene pathways. Phenylalanine, acetate and lactate metabolite differences between PTB cases and controls were obtained by ANOVA and PNN showed strong prediction at week 20 (AUC = 0.89). MGWAS identified several metabolite bins with strong genetic associations. Cis-eQTL analysis highlighted TRAF1 (involved in the inflammatory pathway) local to a non-coding SNP associated with lactate at week 20 of gestation. MGWAS of a well-defined cohort of participants highlighted a lactate-TRAF1 relationship that could potentially contribute to PTB.",
+                "submissionDate": "2020-08-07",
+                "publicReleaseDate": "2023-05-24",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Ana",
+                        "lastName": "Alfirevic",
+                        "email": "Ana.Alfirevic@liverpool.ac.uk",
+                        "affiliation": "Institute of Systems, Molecular and Integrative Biology",
+                        "address": "Department of Pharmacology and Therapeutics, University of Liverpool, Block A: Waterhouse Buildings, 1-5 Brownlow Street, Liverpool, L69 3GL",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "044 151 794 5551",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Zarko",
+                        "lastName": "Alfirevic",
+                        "email": "zarko@liv.ac.uk",
+                        "affiliation": "Institute of Systems, Molecular and Integrative Biology",
+                        "address": "Harris-Wellbeing Research Centre, University Department, Liverpool Women's Hospital, Crown Street, Liverpool, L8 7SS, UK",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "044 151 795 9553",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Juhi",
+                        "lastName": "Gupta",
+                        "email": "hljgupta@liverpool.ac.uk",
+                        "affiliation": "Institute of Systems, Molecular and Integrative Biology",
+                        "address": "epartment of Pharmacology and Therapeutics, University of Liverpool, Block A: Waterhouse Buildings, 1-5",
+                        "fax": "",
+                        "midInitials": "K",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "first author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "MS",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/MS_1002034"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Marie",
+                        "lastName": "Phelan",
+                        "email": "mphelan@liverpool.ac.uk",
+                        "affiliation": "Institute of Systems, Molecular and Integrative Biology,",
+                        "address": "Technology Directorate, NMR Metabolomics Facility, NMR Centre for Structural Biology, Crown Street, L69 7ZB, UK",
+                        "fax": "",
+                        "midInitials": "M",
+                        "phone": "+44 151 795 4398",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "AGRO",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/AGRO_00000373"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Angharad",
+                        "lastName": "Care",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Laura",
+                        "lastName": "Goodfellow",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Lu-Yun",
+                        "lastName": "Lian",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Bertram",
+                        "lastName": "M\u00fcller-Myhsok",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "mGAWS",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "probabilistic neural network",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "premature birth",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0003917"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "biomarker",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_59163"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolic profiling of maternal serum of women at high-risk of spontaneous preterm birth using NMR and MGWAS approach.",
+                        "authorList": "Gupta JK, Care A, Goodfellow L, Alfirevic Z, Lian LY, M\u00fcller-Myhsok B, Alfirevic A, Phelan MM.",
+                        "pubMedID": "34402867",
+                        "doi": "10.1042/bsr20210759",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Pregnancy outcome",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Pregnancy Outcome",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C90491"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Gestation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "pregnancy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002950"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Participant recruitment:</strong></p><p>Participants with singleton pregnancies, visiting between April 2012 to December 2017, were prospectively recruited at 16 and 20 wk of gestation at the Liverpool Women\u2019s Hospital Preterm Birth Prevention Clinic. Women who previously experienced preterm birth (\u2264 34 wk) and subsequently delivered \u2264 37 wk in the index pregnancy were categorised as high-risk (HTERM). Low-risk control patients were parous women with all previous births at term and who delivered \u2265 39 wk in the index pregnancy (LTERM). Women who had spontaneous PTB \u2264 34+0 weeks gestation were reviewed and classified as a phenotype of SPTB or PPROM. All non-iatrogenic spontaneous will hereon refer to PTB as sPTB (the sub-categories of which are SPTB and PPROM).</p><p><br></p><p><strong>Sample preparation:</strong></p><p>Samples were collected from all women who attended the clinic at 16 and 20 wk of gestation. In addition, women who only attended the clinic at either 16 or 20 wk of gestation were included (7.8% of all women sampled). Maternal serum samples were collected in BD vacutainer with clot activators and stored at room temperature (20-25 \u00b0C) for 30 min. The samples were centrifuged at 3000 rpm at 4 \u00b0C for 10 min. Aliquots of 500 \u00b5l were prepared and stored at \u221280 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>No extractions were performed in this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Serum (500 \u00b5l) was thawed at room temperature and diluted with 500 \u00b5l of 200 mM phosphate (PO43\u2212) buffer (pH 7.4) and D2O. Phosphate buffer was made using dibasic sodium phosphate (Na2HPO4, VWR International, US: Mr = 141.96) and monobasic sodium phosphate (NaH2PO4, Acros Organics Fisher Scientific, UK: Mr = 119.98) in 20% D2O (Sigma, UK). In approximately 4.5% of samples, serum volume available was &lt;500 \u00b5l, 200 \u00b5l of ddH2O was added to ensure a volume of &gt;500 \u00b5l diluted serum (all samples were normalised including those diluted to mitigate batch effects and the diluted samples were spread equitably between all 4 sample groups, ranging between 2.4 and 5.6%). Samples were briefly vortexed and centrifuged at 21.5 rpm (~21,500 x g), 4 \u00b0C for 5 min. Serum-buffer mix (600 \u00b5l) was transferred into 5 mm diameter NMR tubes.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Spectra were acquired on a 600 MHz NMR solution-state spectrometer Bruker Avance III system (Bruker, GmBH, Germany) at 37 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>A one-dimensional vendor supplied (1D) Carr-Purcell-Meiboom-Gill (CPMG) pulse sequence was applied to attenuate signals from high molecular weight components<strong>[1]</strong> with 32 transients, 20 ppm spectral width with 4 s interscan delay.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Soininen P, Kangas AJ, W\u00fcrtz P, Tukiainen T, Tynkkynen T, Laatikainen R, J\u00e4rvelin MR, K\u00e4h\u00f6nen M, Lehtim\u00e4ki T, Viikari J, Raitakari OT, Savolainen MJ, Ala-Korpela M. High-throughput serum NMR metabonomics for cost-effective holistic studies on systemic metabolism. Analyst. 2009 Sep;134(9):1781-5. doi:10.1039/b910205a. PMID:19684899.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Spectra were automatically processed via standard vendor routines to ensure consistent Fourier transformation, window function and phasing (Bruker macro apk0.noe). Spectra were aligned indirectly to Trimethylsilyl propionate via glucose anomeric doublet (5.204 ppm). Quality control (QC) measures were performed manually according to 'The Metabolite Standards Initiative' \u2013 MSI<strong>[1] </strong>briefly via measurement of the Line-Width Half Height (LWHH) of a representative peak \u2013 the anomeric glucose located 5.244 ppm (&lt; 3 Hz), ensuring a flat baseline for each sample spectrum, checking consistent signal-to-noise ratio across spectra and ensuring good water suppression (i.e. water signal is narrow, and &lt; 0.4 ppm wide). Where the spectra failed QC the sample were repeated.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Sumner LW, Amberg A, Barrett D, Beale MH, Beger R, Daykin CA, Fan TW, Fiehn O et al. Proposed minimum reporting standards for chemical analysis Chemical Analysis Working Group (CAWG) Metabolomics Standards Initiative (MSI). Metabolomics. 2007 Sep;3(3):211-221. doi:10.1007/s11306-007-0082-2. PMID:24039616.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite annotation was determined through peak fitting of serum spectra initially using the metabolite library provided through <strong>Chenomx software v8.2</strong> (Chenomx Inc., Canada) followed by comparison to in-house library spectra for specific metabolites of interest (using 1D 1H and 2D 1H 13C HSQC where appropriate standard spectra acquired on the same instruments under identical conditions). Peaks were converted to spectra 'bins' by manual preparation of a \u2019pattern file' (a text file generated manually defining the left and right ppm boundaries for each individual peak [or multiplet] in the spectrum). Peaks were then integrated over each bin boundary and divided by the width of each bin using the software <strong>AMIX</strong> (Bruker, Coventry U.K.). The resultant bin or bucket table contained 145 individual bins, 99 with metabolite specific annotation corresponding to 34 unique metabolites. A further 46 bins that were not assigned to known metabolite signals. Metabolite annotations and identifications are defined as per 'The Metabolite Standards Initiative' \u2013 MSI<strong>[1]</strong>, briefly metabolites annotated to an external library (i.e. Chenomx) were assigned to 'level 2 - annotation' whereas metabolites with identities confirmed using 2 independent terms (such as 1H and 13C chemical shifts) from an in-house source were assigned to 'level 1 - identification'. Representative spectra can be found in <strong>Figure S1</strong> of the paper associated with this study.</p><p><br></p><p><strong>Statistical analysis:</strong></p><p>Univariate statistical analysis was performed using R statistical computing environment [r-project.org]. Data were first normalised per spectrum using Probabilistic Quotient Normalisation (PQN)<strong>[2]</strong> to offset any dilution effects from the sample preparation. 1-way ANOVA with Tukey\u2019s HSD multiple testing was employed on the 145 variable dataset using R packages <strong>'car'</strong> (Companion to Applied Regression). The 4 individual phenotypes (HTERM, LTERM, SPTB and PPROM) were included in the analysis and a significance level of P &lt; 0.05 was applied<strong>[3]</strong>. <strong>MetaboAnalyst</strong> was used to perform multivariate analysis with spectra normalised to the median and variables scaled using the Pareto method. Principal component analysis (PCA) was employed to appraise spectra quality and ensure no outliers were present and partial least squares discriminant analysis (PLS-DA) a widely used supervised, multivariate, classification method in chemometrics. PLS-DA classification, with 10-fold cross-validation to evaluate the predictive model, using R packages <strong>'pls\u2019[4]</strong> and <strong>\u2019caret'[5]</strong>. The Q2 value describes the cross-validated sum of squares (R2), which is provided with the model prediction accuracy score by <strong>MetaboAnalyst[6]</strong>. The <strong>PNN algorithm</strong> was executed on all 145 metabolite bins per timepoint using a predictive modelling software: <strong>DTREG</strong> (<a href='https://www.dtreg.com/' rel='noopener noreferrer' target='_blank'>https://www.dtreg.com/</a>)[7]. Leave-one-out cross-validation (LOOCV) was applied and the AUC values obtained for each gestation timepoint. For this analysis, the phenotypes were combined: sPTB cases (SPTB and PPROM) and controls (HTERM and LTERM).</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Sumner LW, Amberg A, Barrett D, Beale MH, Beger R, Daykin CA, Fan TW, Fiehn O et al. Proposed minimum reporting standards for chemical analysis Chemical Analysis Working Group (CAWG) Metabolomics Standards Initiative (MSI). Metabolomics. 2007 Sep;3(3):211-221. doi:10.1007/s11306-007-0082-2. PMID:24039616.</p><p><strong>[2]</strong> Dieterle F, Ross A, Schlotterbeck G, Senn H. Probabilistic quotient normalization as robust method to account for dilution of complex biological mixtures. Application in 1H NMR metabonomics. Anal Chem. 2006 Jul 1;78(13):4281-90. doi:10.1021/ac051632c. PMID:16808434.</p><p><strong>[3]</strong> Fox J. and Weisberg S. (2019) An R Companion to Applied Regression, 3rd Ed, Sage, Thousand Oaks, CA</p><p><strong>[4]</strong> Wehrens R. and Mevik B. (2007) pls: Partial Least Squares Regression (PLSR) and Principal Component Regression (PCR), R package version 2.1-0.</p><p><strong>[5]</strong> Kuhn M. (2008) Building Predictive Models in R Using the caret Package. J. Statistical Software 28, 1\u201326 doi:10.18637/jss.v028.i05.</p><p><strong>[6]</strong> Chong J, Wishart DS, Xia J. Using MetaboAnalyst 4.0 for Comprehensive and Integrative Metabolomics Data Analysis. Curr Protoc Bioinformatics. 2019 Dec;68(1):e86. doi:10.1002/cpbi.86. PMID:31756036.</p><p><strong>[7]</strong> Sherrod PH. (2014) DTREG predictive modeling software. <a href='http://www.dtreg.com' rel='noopener noreferrer' target='_blank'>http://www.dtreg.com</a></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Nuclear Magnetic Resonance (NMR) -",
+                        "filename": "a_MTBLS1990_NMR_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

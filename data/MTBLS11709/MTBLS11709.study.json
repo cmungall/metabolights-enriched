@@ -1,0 +1,508 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2025-01-23T20:16:00.958683",
+        "statusUpdateTime": "2025-01-23T20:16:00.958683",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS11709",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2024-11-18",
+        "publicReleaseDate": "2025-01-23",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "Metabolights",
+                "version": "",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "Metabolights",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "UPa",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS11709",
+                "filename": "s_MTBLS11709.txt",
+                "title": "CYP46A1 promotes Parkinson\u2019s disease",
+                "description": "Parkinson\u2019s disease (PD) is a neurodegenerative disease characterized by the death of dopaminergic neurons in the substantia nigra and the formation of Lewy bodies that are composed of aggregated \u03b1-synuclein (\u03b1-Syn). However, the factors that regulate \u03b1-Syn pathology and nigrostriatal dopaminergic degeneration remain poorly understood. Previous studies demonstrate cholesterol 24-hydroxylase (CYP46A1) increases the risk for PD. Moreover, 24-hydroxycholesterol (24-OHC), a brain-specific oxysterol that is catalyzed by CYP46A1, is elevated in the cerebrospinal fluid of PD patients. Herein, we show that the levels of CYP46A1 and 24-OHC are elevated in PD patients and increase with age in a mouse model. Overexpression of CYP46A1 intensifies \u03b1-Syn pathology, whereas genetic removal of CYP46A1 attenuates \u03b1-Syn neurotoxicity and nigrostriatal dopaminergic degeneration in the brain. Moreover, supplementation with exogenous 24-OHC exacerbates the mitochondrial dysfunction induced by \u03b1-Syn fibrils. Intracerebral injection of 24-OHC enhances the spread of \u03b1-Syn pathology and dopaminergic neurodegeneration via elevated X-box binding protein 1 (XBP1) and lymphocyte-activation gene 3 (LAG3) levels. Thus, elevated CYP46A1 and 24-OHC promote neurotoxicity and the spread of \u03b1-Syn via the XBP1\u2012LAG3 axis. Strategies aimed at inhibiting the CYP46A1-24-OHC axis and LAG3 could hold promise as disease-modifying therapies for PD.",
+                "submissionDate": "2024-11-18",
+                "publicReleaseDate": "2025-01-23",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Lijun",
+                        "lastName": "Dai",
+                        "email": "dailijun@whu.edu.cn",
+                        "affiliation": "",
+                        "address": "Department of Neurology, Renmin Hospital of Wuhan University, Wuhan 430060, China",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "15623509198",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "Metabolights",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "Metabolights",
+                            "version": "",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "cholesterol metabolism",
+                        "termSource": {
+                            "comments": [],
+                            "name": "UPa",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/UPa_UPA00296"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "lipid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_18059"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "CYP46A1 promotes Parkinson\u2019s disease",
+                        "authorList": "Lijun Dai",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "in preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "gene",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The striatum of 6-month-old wild-type mice and CYP46A1 knockout mice was used for lipidomics analysis. The mice were housed under standard conditions (12-hour light/dark cycle, free access to food and water). No additional treatments or interventions were applied before sample collection. At 6 months of age, the mice were anesthetized using isoflurane (or specify other anesthesia if applicable) and cardiac perfusion was performed with ice-cold PBS (30 mL per mouse, at a controlled flow rate of 10 mL/min). Immediately after perfusion, the brain tissue was dissected on ice, and the striatum was carefully isolated using a stereotaxic atlas to ensure accuracy. The striatal tissues were snap-frozen in liquid nitrogen and stored at -80\u00b0C until further analysis. Each group (wild-type and CYP46A1 knockout) consisted of four mice, and the experiment was performed in duplicate to ensure reproducibility.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>In lipidomics analysis, the striatal tissue from wild-type and CYP46A1 knockout mice was first homogenized in ice-cold methanol using a tissue homogenizer. Liquid-liquid extraction was then performed using chloroform and methanol in a 2:1 (v/v) ratio. The organic phase was collected and dried under a nitrogen stream. The dried samples were reconstituted in 200 \u00b5L of acetonitrile:water (1:1, v/v) solution for further analysis. For control samples, a pooled sample was prepared by combining equal volumes of striatal extracts from four mice in each group (wild-type and CYP46A1 knockout). Additionally, lipid standards with known concentrations (e.g., 1 \u00b5M deuterated phosphatidylcholine) were used for calibration and quantification. Quality control samples were prepared by pooling striatal extracts from wild-type and CYP46A1 knockout mice, and these were analyzed at regular intervals to monitor the consistency of the extraction and analysis processes. A solvent blank was also prepared using acetonitrile:water (1:1, v/v), processed in parallel with all samples to detect potential solvent contamination.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The chromatography was performed using a Waters ACQUITY UPLC system coupled with a Thermo Q Exactive mass spectrometer. The chromatographic separation was achieved using an ACQUITY UPLC BEH C18 column (2.1 \u00d7 100 mm, 1.7 \u03bcm). The mobile phase consisted of two components: A (acetonitrile:water, 6:4, v/v, with 10 mM ammonium formate) and B (isopropyl alcohol:acetonitrile, 9:1, v/v, with 10 mM ammonium formate). The column temperature was maintained at 50 \u00b0C, and the flow rate was set at 0.3 mL/min. The injection volume was 1 \u03bcL, with the automatic injector temperature set to 4 \u00b0C. The gradient elution program started with 70% A and 30% B, held for 1 minute, then decreased to 0% A and 100% B at 10.5 minutes, held for 2 minutes, and finally returned to 70% A and 30% B by 12.51 minutes, holding until 16 minutes.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectrometry analysis was performed using a Thermo Q Exactive mass spectrometer coupled with a Waters ACQUITY UPLC system. The ionization was achieved using an electrospray ionization (ESI) source, with both positive and negative ionization modes employed. The m/z range was set from 200 to 1200. In positive ion mode (ESI+), the heater temperature was set to 300 \u00b0C, sheath gas flow rate to 45 arb, aux gas flow rate to 15 arb, and sweep gas flow rate to 1 arb. The spray voltage was 3.0 kV, and the capillary temperature was maintained at 350 \u00b0C, with an S-Lens RF Level of 30%. In negative ion mode (ESI-), the heater temperature remained at 300 \u00b0C, while the spray voltage was increased to 3.2 kV and the S-Lens RF Level was set to 60%. The scan mode included full scan (m/z 200\u20131200) and data-dependent MS2 (TopN = 10) with a resolution of 70,000 for MS1 and 17,500 for MS2. High-energy collision dissociation (HCD) was used as the collision mode for fragmentation.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Raw data from LC-MS/MS analysis were processed using LipidSearch software (Thermo Fisher Scientific), which was used to extract peak intensities and perform spectral alignment. The data were then further processed using MZmine 2.53 for peak detection, alignment, and normalization. To reduce noise and improve signal quality, a series of filtering steps were applied, including intensity thresholding and smoothing. For multivariate analysis, data were log-transformed and auto-scaled to standardize the dataset. PCA (Principal Component Analysis) and PLS-DA (Partial Least Squares Discriminant Analysis) were applied to visualize and identify significant patterns and group differences.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite identification was performed using LipidSearch software (Thermo Fisher Scientific) for spectral processing and database searching. The extracted data were analyzed with MZmine 2.53 to identify peaks and metabolites. Reference databases such as the Human Metabolome Database (HMDB), MassBank, and Metlin were used to match the features with known metabolites. For improved accuracy, the retention time and m/z values were compared to available standards. Metabolites were identified with confidence levels based on their match to the database or standards. Additionally, isotopic pattern matching was used to confirm lipid species. Finally, metabolites were mapped to metabolic pathways using the KEGG database to understand their biological relevance.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive",
+                        "filename": "a_MTBLS11709_LC-MS_positive__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative",
+                        "filename": "a_MTBLS11709_LC-MS_negative__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

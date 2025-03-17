@@ -1,0 +1,646 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2018-03-15T09:46:26.442000",
+        "statusUpdateTime": "2018-03-15T09:46:26.442000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "C:\\ISAcreatorMetaboLights\\ISAcreatorMetaboLights\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS570",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2017-11-14",
+        "publicReleaseDate": "2018-03-13",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "BIRNLEX",
+                "file": "http://data.bioontology.org/ontologies/BIRNLEX",
+                "version": "1",
+                "description": "Biomedical Informatics Research Network Project Lexicon"
+            },
+            {
+                "comments": [],
+                "name": "CCONT",
+                "file": "http://data.bioontology.org/ontologies/CCONT",
+                "version": "2",
+                "description": "Cell Culture Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "ONL-DP",
+                "file": "http://data.bioontology.org/ontologies/ONL-DP",
+                "version": "1",
+                "description": "Dataset processing"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BAO",
+                "file": "http://data.bioontology.org/ontologies/BAO",
+                "version": "19",
+                "description": "BioAssay Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "80",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS570",
+                "filename": "s_MTBLS570.txt",
+                "title": "Metabolomic profiling of macrophages determines the discrete metabolomic signature and metabolomic interactome triggered by polarising immune stimuli",
+                "description": "Priming and activating immune stimuli have profound effects on macrophages, however, studies generally evaluate stimuli in isolation rather than in combination. In this study we have investigated the effects of pro-inflammatory and anti-inflammatory stimuli either alone or in combination on macrophage metabolism. These stimuli include host factors such as IFN\u03b3 and ovalbumin-immunoglobulin immune complexes, or pathogen factors such as LPS. Untargeted LC-MS based metabolomics provided an in-depth profile of the macrophage metabolome, and revealed specific changes in metabolite abundance upon either individual stimuli or combined stimuli. Here, by factoring in an interaction term in the linear model, we define the metabolome interactome. This approach allowed us to determine whether stimuli interact in a synergistic or antagonistic manner. In conclusion this study demonstrates a robust approach to interrogate immune-metabolism, especially systems that model host-pathogen interactions.",
+                "submissionDate": "2017-11-14",
+                "publicReleaseDate": "2018-03-13",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Kevin",
+                        "lastName": "Rattigan",
+                        "email": "Kevin.Rattigan@glasgow.ac.uk",
+                        "affiliation": "University of Glasgow",
+                        "address": "338, Wwcrc, Mvls, Ics, Garscube Estate, Glasgow G61 1QH,",
+                        "fax": "",
+                        "midInitials": "M",
+                        "phone": "07741172805",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "researcher",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "BAO",
+                                    "file": "http://data.bioontology.org/ontologies/BAO",
+                                    "version": "19",
+                                    "description": "BioAssay Ontology"
+                                },
+                                "termAccession": "http://www.bioassayontology.org/bao#BAO_0165001"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Michael",
+                        "lastName": "Barrett",
+                        "email": "Michael.Barrett@glasgow.ac.uk",
+                        "affiliation": "University of Glasgow",
+                        "address": "RB521 Level B5, Iii - Gbrc, University Place, Glasgow G12 8TA",
+                        "fax": "",
+                        "midInitials": "P",
+                        "phone": "01413306904",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "BIRNLEX",
+                                    "file": "http://data.bioontology.org/ontologies/BIRNLEX",
+                                    "version": "1",
+                                    "description": "Biomedical Informatics Research Network Project Lexicon"
+                                },
+                                "termAccession": "http://bioontology.org/projects/ontologies/birnlex#birnlex_2152"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "inflammation",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MP_0001845"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "non-targeted object",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ONL-DP",
+                            "file": "http://data.bioontology.org/ontologies/ONL-DP",
+                            "version": "1",
+                            "description": "Dataset processing"
+                        },
+                        "termAccession": "http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-extension-of-dolce.owl#non-targeted-object"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolomic profiling of macrophages determines the discrete metabolomic signature and metabolomic interactome triggered by polarising immune stimuli.",
+                        "authorList": "Rattigan KM, Pountain AW, Regnault C, Achcar F, Vincent IM, Goodyear CS, Barrett MP",
+                        "pubMedID": "29538444",
+                        "doi": "10.1371/journal.pone.0194126",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Accepted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Inflammation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "inflammation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CCONT",
+                                "file": "http://data.bioontology.org/ontologies/CCONT",
+                                "version": "2",
+                                "description": "Cell Culture Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/MP_0001845"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Dataset",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "block",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005067"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Male C57 BL/6 mice, aged 8-12 weeks were used to generate bone marrow derived macrophages (BMDM). Approval for these procedures was given prior to their initiation by the University of Glasgow ethics committee and by the U.K. Home Office under License No. 60/4314.\n</p>\nOn day 0, bones were cut at each end and a 23-gauge needle (Kenke Sass Wolf Fine-Ject\u00ae) was used to flush out bone marrow from leg bone with complete RPMI (RPMI (Thermo Fisher) supplemented with 2 mM L-glutamine, 1% (v/v) penicillin streptomycin solution (Sigma), 10% FBS (Thermo Fisher) :cRPMI) into a 9 cm Petri dish (Thermo Fisher). To obtain a single cell suspension, cells were passed through a 70 \u00b5M cell strainer (Easy strainer\u2122 Greiner bio-one), pelleted by centrifugation (300 RCF, 5 min) and resuspended in cRMPI to obtain a density of 6-7 x 10^6 cells/ml. Cell number was calculated using Trypan blue exclusion (1:1 cells: Trypan blue (Sigma)) to ensure that >95% were viable. The BMDM were matured using 20% L929 supernatant over 7 days (5% CO2, 37 \u00baC). On day three, 5 ml cRMPI and 2 ml L929 supernatant were added. On day 6 BMDM were harvested. Medium was removed by aspiration and plates were washed once with warm dPBS to remove remaining non-adherent cells. Note that this wash was only done for experiments involving overnight IFNgamma treatments. To each plate 6 ml of ice-cold dPBS was added for 1-2 min. Cells were detached by gentle scraping, transferred to a 50 ml falcon tube. Plates rinsed once more with 6 ml of ice-cold dPBS, transferring the same 6 ml between plates to collect remaining cells. Cells were pelleted by centrifugation (300 RCF, 5 min), resuspended in cRMPI and viable cell number was calculated using Trypan blue exclusion. Cell density was then adjusted by dilution to desired density (10^6 cells/ml in this study). Next, cells were left to re-adhere overnight in tissue culture plates. Typically 6, and 98 flat well plates were used (Costar). Fore LCMS experiments 3 x 10^6 macrophages/well/replicate were seeded in a 6 well plate at a density of 10^6 cells/ml. The stimuli used were murine IFNgamma (Peprotech, 315-05), LPS (Sigma: E. coli 0111:B4, Ref L2630) and OIC. IFNgamma (100 U/ml: 0.02 \u00b5G/ml) was added for overnight stimulation, after which either LPS (100 nG/ml) or ova immune complexes (OIC) were added for 6 hr. To make ova immune complexes, 136.4 \u00b5g anti ova (Creative diagnostics: DPAB26522 polyclonal rabbit serpinb14)) and 13.63 \u00b5g albumin (Sigma: A3912) were dissolved in dPBS (Gibco, Magnesium and Calcium free), mixed and incubated at 37 \u00baC for 30 min prior to use. Note that LPS and OIC were added to wells without replacing medium (i.e. IFNgamma was not removed).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Samples were extracted in a volume of 400 \u00b5l chloroform/methanol/water, 1:3:1 (CMW). Medium was aspirated and cells were washed once with dPBS (Magnesium and Calcium free, no EDTA), aspirating immediately. Ice-cold extraction solvent (chloroform/methanol/water, 1:3:1) was added to each well, including an empty well (for solvent blank), and cells were left shaking (1 hr, 4 \u00baC). Solvent was then transferred to 1.5 ml micro-tubes, and centrifuged (18,000 RCF, 15 min, 4 \u00baC). Supernatant was immediately transferred to 2 ml screw-cap tubes. Sample from each tube was transferred to a new screw-cap tube for pooled sample. At this point, samples were capped with Argon, and then stored at -80 \u00baC until LC-MS analysis. To calculate protein levels post extraction, NaOH (0.1 M, 400 \u00b5l/10^6 cells) was added to each well. The plates were left shaking (15 min 4 \u00baC). Plates were next centrifuged (300 RCF, 5 min) and 10 \u00b5l of supernatant transferred to a 96 well plate. To the same plate, a 10 \u00b5l of a BSA (Sigma) dilution series (2 fold: 0.5-0 mg/ml in 0.1 M NaOH) was added. Finally, 190 \u00b5l of Bradford reagent (BioRad) was added to each plate on top of samples and standards. Absorbance was measured at 595 nm using a FLUOstar OPTIMA micro-plate reader.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "All samples were separated with high performance liquid chromatography (HPLC) on a Dionex Ultimate 3000 RSLC system (Thermo) using ZIC-pHILIC (Merck) column. A 10 \u00b5l injection volume was used and samples were maintained at 4 \u00baC during analysis. A linear biphasic LC gradient was conducted from 80% B to 20% B over 26 min, where solvent B was acetonitrile and solvent A was 20 mM ammonium carbonate in water. The flow rate was 300 \u00b5l/min, and column temperature maintained at 25 \u00baC. Each sample was run in a randomized order, with a pooled sample run between every 4 samples.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The mass spectrometry platform used was a qExactive Orbitrap mass spectrometer (Thermo). Analysis was performed in positive and negative mode. The MS set up was calibrated [Thermo calmix (Pierce\u2122 calibration solutions from Thermo Scientific) with masses at lower m/z; 74.0393 m/z (C2H6NO2: +ve) and 89.0244 (C3H5NO3: -ve)] in both ionization modes before analysis and a tune file targeted towards the lower m/z range was used. Full scan (MS1) data was acquired in both ionization modes in profile mode at 50,000 resolution (at m/z range 70-1400), an automatic gain control (AGC) target of 106 cts, with spray voltages +4.5 kV (capillary +50 V, tube: +70 kV, skimmer: +20 V) and -3.5 kV (capillary -50 V, tube: -70 kV, skimmer: -20 V), capillary temperature 275 \u00baC, probe temperature 150 \u00baC, sheath gas flow rate 40, auxiliary gas flow rate 5 a.u., and a sweep gas flow rate of 1 a.u.\n</p>\nFor fragmentation the settings used were:</br>\nFull MS / dd-MS\u00b2 (TopN)</br>\nGeneral</br>\nRuntime: 0 to 46 min</br>\nPolarity: Positive</br>\nIn-source CID: 0.0 eV</br>\nDefault charge state: 1</br>\nInclusion: -</br>\nExclusion: -</br>\nTags: -</br>\nFull MS</br>\nMicroscans: 1</br>\nResolution: 70,000</br>\nAGC target: 1e^6</br>\nMaximum IT: 250 ms</br>\nNumber of scan ranges: 1</br>\nScan range: 70 to 1050 m/z</br>\nSpectrum data type: Profile</br>\ndd-MS\u00b2 / dd-SIM</br>\nMicroscans: 1</br>\nResolution: 35,000</br>\nAGC target: 2e^5</br>\nMaximum IT: 120 ms</br>\nLoop count: 5</br>\nMSX count: 1</br>\nTopN: 5</br>\nIsolation window: 4.0 m/z</br>\nIsolation offset: 0.0 m/z</br>\nScan range: 200 to 2000 m/z</br>\nFixed first mass: -</br>\nNCE / stepped NCE: 65</br>\nSpectrum data type: Profile</br>\ndd Settings</br>\nUnderfill ratio: 20.0%</br>\nIntensity threshold: 3.3e^5</br>\nApex trigger: -</br>\nCharge exclusion: -</br>\nPeptide match: Off</br>\nExclude isotopes: on</br>\nDynamic exclusion: 10.0 s</br>\nIf idle ..: do not pick others</br>\n</p>\nNegative mode is the same but with Negative polarity. TopN is the number of features it fragments and NCE is the collision energy, it uses such a large isolation window as it is a quadrupole that picks the ions. There is no in-source CID. 10s dynamic exclusion so it doesn\u2019t constantly fragment the same peak. The AGC is the automatic gain control, it collects a set number of ions and injects them into the orbitrap, the maximum IT is a hard limit on cycle time so it doesn\u2019t sit idle if it can\u2019t reach the AGC. Resolution is lower during MS2 to improve sensitivity.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Raw data files were converted to mzData format (splitting on polarity) using Proteowizard: pwiz\\msconvert.exe (http://proteowizard.sourceforge.net/) and processed using the XCMS package (http://bioconductor.org/packages/release/bioc/html/xcms.html).\n</p>\nXCMS settings for processing:</br>\nLC/MS data with centWave() were prefilter #points= 3 prefilter=(1000); Mzfif=0.001; snthr=3; ppm=2; peakwidth=(5,100).\n</p>\nmzMatch and IDEOM[1] software were used for untargeted analysis (R-3.1.2 x64).\n</p>\nRef:</br>\n[1] Creek DJ, Jankevics A, Burgess KE, Breitling R, Barrett MP. IDEOM: an Excel interface for analysis of LC-MS-based metabolomics data. Bioinformatics. 2012 Apr 1;28(7):1048-9. doi:10.1093/bioinformatics/bts069. PMID:22308147</br>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For mzMatch the settings were:</br>\nGrouping RT window: 0.5; Mzmatch grouping m/z ppm: 5; Relative Std Dev (RSD) filter: 0.80; Noise filter (codadw): 0.80; Intensity filter (LOQ): 1000; Minimum detections #: 3.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "qExactive (Thermo Scientific)",
+                        "filename": "a_MTBLS570_data1_POS_LCMS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "qExactive (Thermo Scientific)",
+                        "filename": "a_MTBLS570_data1_NEG_LCMS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "qExactive (Thermo Scientific)",
+                        "filename": "a_MTBLS570_data2_POS_LCMS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "qExactive (Thermo Scientific)",
+                        "filename": "a_MTBLS570_data2_NEG_LCMS.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,558 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2019-11-19T15:51:43.584000",
+        "statusUpdateTime": "2019-11-19T15:51:43.584000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "D:\\Configurations\\MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS736",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2018-08-28",
+        "publicReleaseDate": "2019-11-19",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "6",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "129",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "44",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "22",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "29",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS736",
+                "filename": "s_MTBLS736.txt",
+                "title": "Comprehensive evaluation of untargeted metabolomics data processing software in feature detection, quantification and discriminating marker selection (AB SCIEX TripleTOF 6600 assay)",
+                "description": "<p>Data analysis represents a key challenge for untargeted metabolomics studies and it commonly requires extensive processing of more than thousands of metabolite peaks included in raw high-resolution MS data. Although a number of software packages have been developed to facilitate untargeted data processing, they have not been comprehensively scrutinized in the capability of feature detection, quantification and marker selection using a well-defined benchmark sample set. In this study, we acquired a benchmark dataset from standard mixtures consisting of 1100 compounds with specified concentration ratios including 130 compounds with significant variation of concentrations. Five software evaluated here (MS-Dial, MZmine 2, XCMS, MarkerView, and Compound Discoverer) showed similar performance in detection of true features derived from compounds in the mixtures. However, significant differences between untargeted metabolomics software were observed in relative quantification of true features in the benchmark dataset. MZmine 2 outperformed the other software in terms of quantification accuracy and it reported the most true discriminating markers together with the fewest false markers. Further-more, we assessed selection of discriminating markers by different software using both the benchmark dataset and a real-case metabolomics dataset to propose combined usage of two software for increasing confidence of biomarker identification. Our findings from comprehensive evaluation of untargeted metabolomics software would help guide future improvements of these widely used bioinformatics tools and enable users to properly interpret their metabolomics results. </p><p><br></p><p> <strong>AB SCIEX TripleTOF 6600 assay</strong> protocols and data are reported in the current study <strong>MTBLS736</strong>.</p><p> <strong>Thermo Q Exactive HF assay</strong> protocols and data are reported in <a href='https://www.ebi.ac.uk/metabolights/MTBLS733' target='_blank'><strong>MTBLS733</strong></a>.</p>",
+                "submissionDate": "2018-08-28",
+                "publicReleaseDate": "2019-11-19",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Shui",
+                        "lastName": "Wenqing",
+                        "email": "shuiwq@shanghaitech.edu.cn",
+                        "affiliation": "iHuman Institute",
+                        "address": "393 Middle Huaxia Road, Pudong, Shanghai, 201210",
+                        "fax": "+86-21-54201292",
+                        "midInitials": "",
+                        "phone": "+86-21-20685005",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "PI",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Li",
+                        "lastName": "Zhucui",
+                        "email": "lizhucuicas@163.com",
+                        "affiliation": "iHuman Institute",
+                        "address": "393 Middle Huaxia Road, Pudong, Shanghai, 201210",
+                        "fax": "+86-21-54201292",
+                        "midInitials": "",
+                        "phone": "+86-21-20685005",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Student",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Lu",
+                        "lastName": "Yan",
+                        "email": "luyan1@shanghaitech.edu.cn",
+                        "affiliation": "iHuman Institute",
+                        "address": "393 Middle Huaxia Road, Pudong, Shanghai, 201210",
+                        "fax": "+86-21-54201292",
+                        "midInitials": "",
+                        "phone": "+86-21-20685005",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Student",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Data processing software",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "129",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1001457"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Comparative marker selection",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "http://data.bioontology.org/ontologies/NCIT",
+                            "version": "44",
+                            "description": "National Cancer Institute Thesaurus"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C64198"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Mzmine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "129",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1002342"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "MS-Dial",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Xcms",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "129",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1001582"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Markerview software",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "129",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1000665"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Compound discoverer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "129",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1002880"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Comprehensive evaluation of untargeted metabolomics data processing software in feature detection, quantification and discriminating marker selection",
+                        "authorList": "Zhucui Li, Yan Lu, Yufeng Guo, Haijie Cao, Qinhong Wang, Wenqing Shui",
+                        "pubMedID": "29907290",
+                        "doi": "10.1016/j.aca.2018.05.001",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "technical replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MS",
+                                "file": "http://data.bioontology.org/ontologies/MS",
+                                "version": "129",
+                                "description": "Mass Spectrometry Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/MS_1001808"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>To obtain total metabolite extracts from black pepper (Piper nigrum), its seeds were pulverized into powder.</p><p><br></p><p>1100 compounds including drugs and metabolites were mixed at specific concentrations to prepare 2 standard mixtures SA and SB. Both SA and SB stocks contained 970 compounds with equal concentration of 10 \u03bcM to be in the matrix group. The rest of 130 compounds were prepared at variable concentration ratios of 1/16, 1/4, 1/2, 2/1, 4/1 and 16/1 in SB:SA to be in 6 differential groups. The stocks were diluted to 100 nM for compounds in the matrix group in acetonitrile/H2O (v/v, 1:1) solvent prior to LC-MS analysis. The MS intensities of all detectable compounds were in the typical dynamic range of the MS instruments used in this work.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The powder (50 g) was extracted with 200 ml of 70% ethanol, and the crude materials were extracted twice by heating reflux in a magnetic heated stirrer (YU HUA, China) at 70 \u00b0C for 1 h each time. After filtration and removal of the organic solvents by vacuum evaporation at 55 \u00b0C, the remaining materials were dried out by in a speed vacuum machine (Labconco, USA), and the resulting powder was stored at \u221220\u202f\u00b0C.</p><p><br></p><p>The powder of black pepper metabolite extracts (10 mg) was dissolved with 100 \u03bcl 95% DMSO to make a stock solution of 100 mg/ml. The stock was diluted with the EBOV NP incubation buffer (20mM Tris-HCl, 200 mM NaCl, 5 mM DTT, pH 8.5) to a concentration of 2.5 mg/ml. Then Ebola virus nucleoprotein (EBOV NP) at 40 \u03bcM was mixed with the diluted extract at 1:1 (v/v) in 50 \u03bcl, and incubation was kept at 16 \u00b0C for 40 min. The protein incubation sample was then subjected to ultrafiltration and compound dissociation in order to collect compounds in the metabolite extracts that were associated with EBOV NP. A protein-free control was prepared using the buffer substitute for EBOV NP during incubation. Compounds from the protein incubation sample and the control were reconstituted in 20% methanol, and analyzed by LC-MS. All samples were prepared in 4 replicates and analyzed separately.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The standard mixtures were analyzed on an AB SCIEX TripleTOF 6600 interfaced with Shimazu L30A UPLC operating in the positive ion mode. Chromatographic separation was performed on a ZORBAX Eclipse Plus C18 column (3.5 \u03bcm, 2.1 x 100 mm, Agilent) at a flow rate of 300 \u03bcl/min and maintained at 40 \u00b0C, with the mobile phases of water/0.1% formic acid (A) and acetonitrile/0.1% formic acid (B). LC gradient was as follows: 0\u20132 min, 5% B; 2\u20132.1 min, 5\u201320% B; 2.1\u201322 min, 20\u201335% B; 22\u201330 min, 35\u201360% B; 30\u201330.5 min, 60\u201390% B; 30.5\u201335 min, 90% B and re-equilibration for 5 min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Full-scan mass spectra were acquired in the range of 100\u20131500 m/z with major ESI source settings: voltage 5.0\u20135.5 kV, gas temperature 500 \u00b0C, curtain gas 35 psi, nebulizer gas 55 psi, heater gas 55 psi. MS1 accumulation time was 200 ms. Each standard mixture was analyzed in 4 replicates.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectral data was processed by instrument-specific software MarkerView 1.3 (AB SCIEX). The dataset was also processed by open source software XCMS online (v2.3.0), MZmine 2 (v2.28) and MS-Dial (v2.52). For each untargeted data processing software, multiple parameters were tuned and the optimized settings were summarized in Tables S1\u2013S5 in the paper associated with this study. After detection of total features, degeneracies were removed using MS-FLO with default settings except the m/z tolerance changed to 0.005, and consensus features (nonzero features across all replicates) were retained for further analysis. Features from untargeted data analysis were matched to benchmark features from targeted data analysis within restraints of mass accuracy (&lt;10 ppm) and RT shift (&lt;0.3 min). MSstats was also used to calculate fold changes of SB:SA for features quantified by untargeted data analysis. Features with fold-change &gt;2 or &lt;0.5 (p&lt;0.05, n=4) were selected as discriminating markers.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>These markers were filtered to match compounds registered in a Traditional Chinese Medicine database (TCMDB) within restraints of accurate mass (&lt;10 ppm) and isotope envelop (&lt;15% deviation).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "22",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - Positive (LC-MS (Positive))",
+                        "filename": "a_MTBLS736_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

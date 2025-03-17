@@ -1,0 +1,557 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-04-06T00:00:00",
+        "statusUpdateTime": "2020-04-06T15:24:21.711355",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1443",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2020-01-09",
+        "publicReleaseDate": "2020-04-06",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "80",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEMINF",
+                "file": "http://data.bioontology.org/ontologies/CHEMINF",
+                "version": "29",
+                "description": "Chemical Information Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "5",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "http://data.bioontology.org/ontologies/NCIT",
+                "version": "85",
+                "description": "National Cancer Institute Thesaurus"
+            },
+            {
+                "comments": [],
+                "name": "MEO",
+                "file": "http://data.bioontology.org/ontologies/MEO",
+                "version": "8",
+                "description": "Metagenome and Microbes Environmental Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "150",
+                "description": "Mass Spectrometry Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1443",
+                "filename": "s_MTBLS1443.txt",
+                "title": "Use of untargeted LC-MS metabolome to discriminate Italian mono-varietal red wines, produced in their different terroirs",
+                "description": "The aim of this project was to register in a LC-MS-based untargeted single-batch analysis, the metabolome of 11 single-cultivar, single-vintage Italian red wines (Aglianico, Cannonau, Corvina, Montepulciano, Nebbiolo, Nerello, Primitivo, Raboso, Sagrantino, Sangiovese and Teroldego) from 12 regions across Italy, each one produced in their terroirs under ad hoc legal frameworks to guarantee their quality and origin. The data provided indications regarding the similarity between the cultivars, and highlighted a rich list of putative Biomarkers of Origin Wines (pBOWs) characterizing each individual cultivar-terroir combination, where Primitivo, Teroldego and Nebbiolo had the maximum number of unique pBOWs. The pBOWs included anthocyanins (Teroldego), flavanols (Aglianico, Sangiovese, Nerello and Nebbiolo), amino acids and N-containing metabolites (Primitivo), hydroxycinnamates (Cannonau) and flavonols (Sangiovese). The raw data generated in this study are publicly available and, therefore, accessible and reusable as a baseline dataset for future investigations.",
+                "submissionDate": "2020-01-09",
+                "publicReleaseDate": "2020-04-06",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Panagiotis",
+                        "lastName": "Arapitsas",
+                        "email": "panagiotis.arapitsas@gmail.com",
+                        "affiliation": "Fondazione Edmund Mach",
+                        "address": "via E. Mach, 1",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+390461615565",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "http://data.bioontology.org/ontologies/NCIT",
+                                    "version": "85",
+                                    "description": "National Cancer Institute Thesaurus"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "5",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "biomarker",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "80",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_59163"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "red wine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MEO",
+                            "file": "http://data.bioontology.org/ontologies/MEO",
+                            "version": "8",
+                            "description": "Metagenome and Microbes Environmental Ontology"
+                        },
+                        "termAccession": "http://purl.jp/bio/11/meo/MEO_0000076"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "oenology",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Use of untargeted LC-MS metabolome to discriminate Italian mono-varietal red wines, produced in their different terroirs.",
+                        "authorList": "Arapitsas P, Ugliano M, Marangon M, Piombino P, Rolle L, Gerbi V, Versari A, Mattivi F.",
+                        "pubMedID": "32271564",
+                        "doi": "10.1021/acs.jafc.0c00879",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Cultivar",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Cultivar",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005136"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Region",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "geographic location",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHEMINF",
+                                "file": "http://data.bioontology.org/ontologies/CHEMINF",
+                                "version": "29",
+                                "description": "Chemical Information Ontology"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000448"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A total of 111 Italian red wines, 100% mono-varietal, all vinified in 2016 from 11 diverse Italian grape varieties harvested in the corresponding main geographical areas of production (12 wine regions), were sampled directly from the producers. The wine sample set included: 11 Teroldego (TER) from Trentino-Alto Adige; 7 Corvina (COR) from Veneto; 10 Raboso Piave (RAB) from Veneto); 13 Nebbiolo (NEB) from Piedmont; 10 Sangiovese (SAT) from Tuscany; 9 Sangiovese (SAR) from Romagna; 10 Sagrantino (SAG) from Umbria; 9 Montepulciano (MON) from Abruzzo; 9 Cannonau (CAN) from Sardinia; 10 Aglianico (AGL) from Campania; 11 Primitivo (PRI) from Puglia; and 3 Nerello Mascalese (NER) from Sicily. Each winery prepared their sample(s) according to their internal protocol by keeping the following rules: a) the sample should be the most representative of the area of production; b) wines should be fermented in stainless steel vats; c) fermentation should be run in real scale; d) the sampling should be made before the malolactic fermentation; e) without oak-barrels aging; f) samples should be protected with 50 mg/l of free SO2 before bottling; and g) all bottles should be bark and closed with a Select Green 500 cork type (Nomacorc, France).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Wines were uncorked and an aliquot was transferred into a 15 ml amber vial (filled to its capacity). Then a quality control (QC) pooled sample was prepared by pooling 1 ml of each wine. Then 1 ml of each wine sample/QC was diluted with 2 ml Milli-Q sonicated water and was finally filtrated with 0.2 \u03bcm PTFE filters into a 2 ml amber vial (MS certificated) prior to LC/MS analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A Waters Acquity UPLC coupled via an electrospray ionization (ESI) interface to a Synapt HDMS QTOF MS (Waters, Manchester, UK) operating in W-mode and controlled by MassLynx 4.1 was used. The column was a reversed phase (RP) ACQUITY UPLC 1.8 \u00b5m 2.1 x 150 mm HSS T3 column (Waters); column manager was set at 40 \u00baC; the mobile phase flow rate was 0.28 ml/min; and the eluents was water and methanol both with 0.1% formic acid. The multistep linear gradient used was as follows: 0-1 min, 100% A isocratic; 1-3 min, 100-90% A; 3-18 min, 90-60% A; 18-21 min, 60-0% A; 21-25.5 min, 0% A isocratic; 25.5-25.6 min, 0-100% A; 25.6-28 min 100% isocratic. Injection volume was 10 \u00b5l and the samples were kept at 4 \u00baC throughout the analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>A Waters Acquity UPLC coupled via an electrospray ionization (ESI) interface to a Synapt HDMS QTOF MS (Waters, Manchester, UK) operating in W-mode and controlled by MassLynx 4.1 was used. Mass spectrometric data were collected by separate runs in positive and negative ESI mode over a mass range of 50 to 2000 amu with scan duration of 0.4 s in centroid mode. The transfer collision energy and trap collision energy were set at 6 V and 4 V. The source parameters were set as follows: capillary 3 kV for positive scan and 2.5 kV for negative scan, sampling cone 25 V, extraction cone 3 V, source temperature 150 \u00baC, desolvation temperature 500 \u00baC, desolvation gas flow 1000 l/h and nebulizer gas 50 l/h. External calibration of the instrument was performed at the beginning of each batch of analysis by direct infusion of a sodium formate solution (10% formic acid/0.1 M NaOH/Acetonitrile at a ratio of 1/1/8), controlling the mass accuracy from 40 to 2000 m/z (less than 5 ppm) and mass resolution (over 14000 FWHM). LockMass calibration was applied using a solution of leucine enkephaline (0.5 mg/l, m/z 556.2771 for positive and 554.2620 for negative ion mode) at 0.1 ml/min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For quality control during the runs and data analysis, we used PCA (Principal Component Analysis) plots generated by Progenesis QI (Version 2.4, Nonlinear Dynamics), checking the distribution/clustering of the QC injections. Progenesis QI parameters used for alignment were done on default mode by Progenesis QI with peak picking performed at maximum level; and the first min and the last 6 min of the run excluded from data processing.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Annotation was performed manually by comparing retention times and mass spectra accuracy with a mass tolerance of 5 ppm, based on the group\u2019s previous experience with the specific instrumentation mass resolution<strong>[1]</strong>, and in accordance with the 4 levels described previously<strong>[2]</strong>. From the 131 annotated metabolites (see Table S4 of the paper associated with this study), 78 were identified (level 1), 2 were putatively annotated (level 2), and 51 were putatively characterised (level 3). Putative annotations and characterizations were made by using spectral features (mass difference less than 5 ppm of theoretical value and the isotopic pattern), along with literature information about chromatographic properties and mass spectra records from an external database such as HMDB, KEGG, MassBank and an internal database for the wine metabolome based on the bibliography. Only a few annotated metabolites had a mass difference higher than 5 ppm in respect to the theoretical value, but less than 10, with the higher mass accuracy error explained by the specific instrument capabilities/characteristics (high or low m/z values, high or low peak intensity)<strong>[1]</strong>.</p><p><br></p><p>Known wine metabolites, previously annotated by using the same protocol, were integrated semi-manually using the TargetLynx tools of Waters MassLynx 4.1 software (Milford, MA). The TargetLynx parameters were set at chromatogram mass window 0.08 Da; retention time window \u00b1 0.2 min; smoothing iterations 1; and smoothing width 2.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Shahaf N, Franceschi P, Arapitsas P, Rogachev I, Vrhovsek U, Wehrens R. Constructing a mass measurement error surface to improve automatic annotations in liquid chromatography/mass spectrometry based metabolomics. Rapid Commun Mass Spectrom. 2013 Nov 15;27(21):2425-31. doi:10.1002/rcm.6705. PMID:24097399</p><p><strong>[2]</strong> Sumner LW, Amberg A, Barrett D, Beale MH, Beger R, Daykin CA, Fan TW, Fiehn O, Goodacre R, Griffin JL, Hankemeier T, Hardy N, Harnly J, Higashi R, Kopka J, Lane AN, Lindon JC, Marriott P, Nicholls AW, Reily MD, Thaden JJ, Viant MR. Proposed minimum reporting standards for chemical analysis Chemical Analysis Working Group (CAWG) Metabolomics Standards Initiative (MSI). Metabolomics. 2007 Sep;3(3):211-221. doi:10.1007/s11306-007-0082-2. PMID:24039616</p><p><br></p><p>In the Metabolite Annotation File (MAF) each metabolite has been assigned a literature reference as follows:</p><p><br></p><p><strong>[1]</strong> Arapitsas P, Speri G, Angeli A, Perenzoni D, Mattivi F. The Influence of Storage on the 'Chemical Age' of Red Wines. Metabolomics 2014, 10 (5), 816\u2013832. doi:10.1007/s11306-014-0638-x.</p><p><strong>[2]</strong> Shahaf N, Franceschi P, Arapitsas P, Rogachev I, Vrhovsek U, Wehrens R. Constructing a mass measurement error surface to improve automatic annotations in liquid chromatography/mass spectrometry based metabolomics. Rapid Commun Mass Spectrom. 2013 Nov 15;27(21):2425-31. doi:10.1002/rcm.6705. PMID:24097399</p><p><strong>[3]</strong> Moro L, Da Ros A, da Mota RV, Purgatto E, Mattivi F, Arapitsas P. LC-MS untargeted approach showed that methyl jasmonate application on Vitis labrusca L. grapes increases phenolics at subtropical Brazilian regions. Metabolomics. 2020 Jan 23;16(2):18. doi:10.1007/s11306-020-1641-z. PMID:31974665</p><p><strong>[4]</strong> Arapitsas P, Scholz M, Vrhovsek U, Di Blasi S, Biondi Bartolini A, Masuero D, Perenzoni D, Rigo A, Mattivi F. A metabolomic approach to the study of wine micro-oxygenation. PLoS One. 2012;7(5):e37783. doi:10.1371/journal.pone.0037783. PMID:22662221</p><p><strong>[5]</strong> Hayasaka Y, Black CA, Hack J, Smith P. Structural characterization of reaction products of caftaric acid and bisulfite present in a commercial wine using high resolution mass spectrometric and nuclear magnetic resonance techniques. Food Chem. 2017 Sep 1;230:99-107. doi:10.1016/j.foodchem.2017.03.005. PMID:28407977</p><p><strong>[6]</strong> Arapitsas P, Guella G, Mattivi F. The impact of SO2 on wine flavanols and indoles in relation to wine style and age. Sci Rep. 2018 Jan 16;8(1):858. doi:10.1038/s41598-018-19185-5. PMID:29339827</p><p><strong>[7]</strong> Arapitsas P, Ugliano M, Perenzoni D, Angeli A, Pangrazzi P, Mattivi F. Wine metabolomics reveals new sulfonated products in bottled white wines, promoted by small amounts of oxygen. J Chromatogr A. 2016 Jan 15;1429:155-65. doi:10.1016/j.chroma.2015.12.010. PMID:26709023</p><p><strong>[8]</strong> Fabre S, Absalon C, Pinaud N, Venencie C, Teissedre PL, Fouquet E, Pianet I. Isolation, characterization, and determination of a new compound in red wine. Anal Bioanal Chem. 2014 Feb;406(4):1201-8. doi:10.1007/s00216-013-7244-z. PMID:23912831</p><p><strong>[9]</strong> Ma L and Waterhouse AL. Flavanols react preferentially with quinones through an electron transfer reaction, stimulating rather than preventing wine browning. Anal Chim Acta. 2018 Dec 18;1039:162-171. doi:10.1016/j.aca.2018.07.013. PMID:30322547</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - POS - reverse phase",
+                        "filename": "a_MTBLS1443_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - NEG - reverse phase",
+                        "filename": "a_MTBLS1443_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

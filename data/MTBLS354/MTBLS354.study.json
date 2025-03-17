@@ -1,0 +1,534 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2017-09-05T09:07:10.027000",
+        "statusUpdateTime": "2017-09-05T09:07:10.027000",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS354",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2016-06-08",
+        "publicReleaseDate": "2016-08-11",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "22",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "18",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "146",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NEMO",
+                "file": "http://data.bioontology.org/ontologies/NEMO",
+                "version": "24",
+                "description": "Neural ElectroMagnetic Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "http://data.bioontology.org/ontologies/CHEBI",
+                "version": "99",
+                "description": "Chemical Entities of Biological Interest Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS354",
+                "filename": "s_MTBLS354.txt",
+                "title": "Lipid metabolites as potential diagnostic and prognostic biomarkers for acute community acquired pneumonia",
+                "description": "Early diagnosis of acute community-acquired pneumonia (CAP) is important in patient triage and treatment decisions. To identify biomarkers that distinguish patients with CAP from non-CAP controls, we conducted an untargeted global metabolome analysis for plasma samples from142 patients with CAP (CAP cases) and 97 without CAP (non-CAP controls). Thirteen lipid metabolites could discriminate between CAP cases and non-CAP controls with area-under-the-receiver-operating-characteristic curve of > 8 (P \u2264 10-9). The levels of glycosphingolipids, sphingomyelins, lysophosphatidylcholines and L-palmitoylcarnitine were higher, while the levels of lysophosphatidylethanolamines were lower in the CAP cases than those in non-CAP controls. All 13 metabolites could distinguish CAP cases from the non-infection, extrapulmonary infection and non-CAP respiratory tract infection subgroups. The levels of trihexosylceramide (d18:1/16:0) were higher, while the levels of lysophosphatidylethanolamines were lower, in the fatal than those of non-fatal CAP cases. Our \ufb01ndings suggest that lipid metabolites are potential diagnostic and prognostic biomarkers for CAP.",
+                "submissionDate": "2016-06-08",
+                "publicReleaseDate": "2016-08-11",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Yuen",
+                        "lastName": "Kwok-Yung",
+                        "email": "kyyuen@hku.hk",
+                        "affiliation": "university of Hong Kong",
+                        "address": "Department of Microbiology, The University of Hong Kong, Hong Kong SAR, China",
+                        "fax": "+852-28551241",
+                        "midInitials": "K",
+                        "phone": "+852-22554892",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "principal investigator",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "biomarker",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_59163"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "glycolipid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_33563"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "phospholipid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_16247"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "pneumonia",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "146",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0003106"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "sphingolipid",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "http://data.bioontology.org/ontologies/CHEBI",
+                            "version": "99",
+                            "description": "Chemical Entities of Biological Interest Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_26739"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra high performance liquid chromatography",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "18",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000795"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": null,
+                        "termAccession": ""
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Lipid metabolites as potential diagnostic and prognostic biomarkers for acute community acquired pneumonia.",
+                        "authorList": "To, Kelvin K.W. ; Lee, Kim-Chung ; Wong, Samson S.Y. ; Sze, Kong-Hung ; Ke, Yi-Hong ; Lui, Yin-Ming ; Tang, Bone S.F. ; Li, Iris W.S. ; Lau, Susanna K.P. ; Hung, Ivan F.N. ; Law, Chun-Yiu ; Lam, Ching-Wan ; Yuen, Kwok-Yung",
+                        "pubMedID": "27105773",
+                        "doi": "http://dx.doi.org/10.1016/j.diagmicrobio.2016.03.012",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "disease state",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease_state",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NEMO",
+                                "file": "http://data.bioontology.org/ontologies/NEMO",
+                                "version": "24",
+                                "description": "Neural ElectroMagnetic Ontology"
+                            },
+                            "termAccession": "http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5159000"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "This study included patients admitted to Queen Mary Hospital in Hong Kong between 2007 and 2013. Archived plasma samples collected at admission were retrieved for metabolomics study. CAP cases were hospitalized adult patients 18 years or above with radiological evidence of consolidation within 48 hours of admission and at least one of the following symptoms (cough with or without sputumproduction, dyspnea, tachypnea, pleuritic chest pain) plus one auscultatory \ufb01nding or one sign of infection (core body temperature >38 \u00b0C, shivers, leukocyte count >10,000 cells/\u03bcl or <4000 cells/\u03bcl [1].\n </p>\n\nRef: </br>\n[1] M\u00fcller F, Christ-Crain M, Bregenzer T, Krause M, Zimmerli W, Mueller B, et al.\nProcalcitonin levels predict bacteremia in patients with community-acquired pneumonia:a prospective cohort trial. Chest. 2010 Jul;138(1):121-9. doi: 10.1378/chest.09-2920. Epub 2010 Mar 18. ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "For metabolomics analysis, 100 \u03bcl of plasma was thawed at 4 \u00b0C and plasma proteins were precipitated with 400 \u03bcl of methanol/ethanol/acetone mixture at a ratio of 1:1:1 (v/v/v). The sample extract was vigorously vortexed for 1 min, and centrifuged at 14,000 rpm at 4 \u00b0C for 10 min. The supernatant was collected for ultra-high-performance liquid chromatography-electrospray ionization-quadrupole time-of-flight mass spectrometry (UHPLC-ESI-Q-TOF-MS) analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "UHPLC-ESI-Q-TOF-MS was performed as we described previously [1]. Waters Acquity UPLC BEH C18 column (2.1 x 100 mm, 1.7 \u03bcm, Milford Massachusetts, USA) was used for the chromatographic separation of plasma supernatant with injection volume of 5 \u03bcl. Temperatures of the column and autosampler were maintained at 45 \u00b0C and 10 \u00b0C, respectively. The separation was performed at a flow rate of 0.4 ml/min under a gradient program in which mobile phase A was composed of 0.1% formic acid (v/v) in water and mobile phase B was composed of acetonitrile. The gradient program was applied as follows: time (t) = 0 min, 5% B; t = 0.5 min, 5% B; t = 5.5 min, 48% B; t = 16 min, 78% B; t = 31min, 80% B; t = 33min, 99.5% B; t = 37min, 99.5% B; t = 37.1 min, 5% B. The stop time was 40 min.\n</p>\nRef:</br>\n[1] To KK, Lee KC, Wong SS, Lo KC, Lui YM, Jahan AS, et al  Lipid mediators of in\ufb02ammation as novel plasma biomarkers to identify patients with bacteremia. J Infect. 2015 May;70(5):433-44. doi: 10.1016/j.jinf.2015.02.011. Epub 2015 Feb 26.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The electrospray ionization (ESI) mass spectra were acquired in both positive and negative ion modes using Agilent Jet Stream ESI source with capillary voltages at +3800V and -3500V, respectively. Other source conditions were kept constant in all the experiments as follow: gas temperature was kept constant at 320 \u00b0C, drying gas (nitrogen) was set at the rate of 7 l/min, and the pressure of nebulizer gas (nitrogen) was 30 psi. The sheath gas was kept at a flow rate of 10 l/min at a temperature of 380 \u00b0C. The voltages of the fragmentor, skimmer 1, and octopoleRFPeak were 135V, 50V and 500V, respectively. The mass data was collected between m/z 80 and 1,700 at the acquisition rate of 2 scans per second. Two reference masses at m/z 121.0509 (protonated molecular ion of C5H4N4) and m/z 922.0098 (protonated molecular ion of C18H18O6N3P3F24) for positive mode as well as m/z 119.0363 (deprotonated molecular ion of C5H4N4) and m/z 966.0007 (formate adduct of C18H18O6N3P3F24) for negative mode were used as constant mass correction during liquid chromatography-mass spectrometry (LC-MS) run. Product ion scanning experiments were conducted using ultra-high purity nitrogen as collision gas with same parameters set in MS acquisition, the collision energy (CE) was set at 10, 20 or 40eV to generate the best quality of MS/MS spectra for the putative identification and structural elucidation of the significant metabolites.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "The metabolomic data was analyzed and reported according to the Metabolomics Standards Initiative (http://msi-workgroups.sourceforge.net/). The LC-MS data was processed using XCMS package (http://www.bioconductor.org/packages/2.8/bioc/html/xcms.html) operating in R script (http://www.r-project.org/). Data was further processed with normalization, scaling, filtering and statistical analysis using MetaboAnalyst 3.0 (www.metaboanalyst.ca). </p>\nThe MS data was log2-transformed, mean-centered, and divided by the standard deviation of each variable scaling for statistical analysis. To identify molecular features (MFs) that can distinguish CAP cases with non-CAP controls, both multivariate and univariate analyses were performed. For multivariate analyses, principal component analysis (PCA) and partial-least squares discrimination analysis (PLS-DA) were performed for unsupervised and supervised analyses, respectively. PLS-DA models were validated based on accuracy, multiple correlation coefficient (R2) and cross-validated R2 (Q2) in cross-validation and permutation test by applying 2,000 iterations, and the significance of the variables was ranked using the variable importance in projection (VIP) score. For univariate analysis, volcano plots were constructed and analyzed using Student\u2019s t-test. Significant MFs with VIP score of >1 in PLSDA and volcano plot analysis of fold-change >1.5 and P values <0.05 were included for univariate receiver operating characteristic (ROC) analysis using ROCEET (http://www.roccet.ca). The classical ROC curve analysis was performed. Area-under-receiver operating characteristic curve (AUC) was calculated by Monte Carlo Cross Validation using sub-sampling. Significant MFs with AUC \u22650.8 were identified and box-whisker plots were generated using Analyse-it software (Analyse-it, UK). The data was subsequently processed with hierarchical clustering analysis employing Eluclidean distance measure with average clustering algorithm using MetaboAnalyst 3.0. ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Significant variables were selected for product ion scanning experiments. MS/MS spectra were processed using Agilent MassHunter Qualitative Analysis software (version B.05.00, Agilent Technologies, USA) to generate potential molecular formula based on the accurate mass and isotopic pattern recognitions of parent and fragment ions. All putative identities were confirmed by matching with entries in the METLIN database (http://metlin.scripps.edu/), Human Metabolome Database (HMDB) (http://www.hmdb.ca/), MassBank (http://www.massbank.jp/), LipidMaps (http://www.lipidmaps.org/), KEGG database (http://www.genome.jp/kegg) using exact molecular weights, nitrogen rule or MS/MS fragmentation pattern data and literature search. Efforts were made to distinguish metabolites from the other isobaric compounds whenever possible by its elution order and virtue of difference in fragmentation pattern corresponding to its structural characteristics.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "6540 Q-TOF LC/MS (Agilent)",
+                        "filename": "a_MTBLS354_cap_metabolite_profiling_mass_spectrometry.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "6540 Q-TOF LC/MS (Agilent)",
+                        "filename": "a_MTBLS354_cap_metabolite_profiling_mass_spectrometry-1.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

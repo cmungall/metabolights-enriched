@@ -1,0 +1,650 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-08-16T13:40:33.506926",
+        "statusUpdateTime": "2024-08-16T13:40:33.506926",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS10858",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2024-08-09",
+        "publicReleaseDate": "2024-08-16",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "FOBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "ontologyCREDIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS10858",
+                "filename": "s_MTBLS10858.txt",
+                "title": "Exploring Lipidomic Profiles and Their Correlation with Hormone Receptor and HER2 Status in Breast Cancer",
+                "description": "Dysregulated lipid metabolism promotes the progression of various cancers, including breast cancer. This study aimed to explore the lipidomic profiles of breast cancer patients, providing insights into the correlation between lipid compositions and tumor subtypes characterized by hormone receptor (HR) and human epidermal growth factor receptor 2 (HER2) status. Briefly, 30 breast cancer patients were categorized into four cohorts based on their HR and HER2 status: HR+, HER2 zero (HR+ HER2-0); HR+, HER2 low (HR+ HER2-low); HR+, HER2 pos (HR+ HER2-pos); and HR-, HER2 positive (HR- HER2-pos). Lipidomic profiles were analyzed using high-throughput liquid chromatography-mass spectrometry (LC-MS). Data were processed through principal component analysis (PCA), Partial Least Squares Discriminant Analysis (PLS-DA), and Random Forest (RF) classification to assess lipidomic variations and significant lipid features among these groups. Profiles of lipids, particularly triglycerides (TG) such as TG (16:0_18:1_18:1) +NH4, were significantly different across the cohorts. PCA and PLS-DA analyses identified unique lipid profiles in the HR+ HER2-pos and HR+ HER2-0 groups, while RF highlighted PIP3(21:2)+NH4 as a crucial lipid feature for accurate patient grouping. Advanced statistical analysis showed significant correlations between lipid carbon chain length and the number of double bonds with the classifications, providing insights into the role of structural lipid properties in tumor biology. Additionally, a clustering heatmap and network analysis indicated significant lipid-lipid interactions. Pathway enrichment analysis showed critical biological pathways, such as the assembly of active LPL and LIPC lipase complexes. In conclusion, the study underscores the importance of lipidomic profiling is crucial in understanding the metabolic alterations associated with different breast cancer subtypes. These findings highlight specific lipid features and interactions that may serve as potential biomarkers for breast cancer classification and target pathways for therapeutic intervention. Furthermore, advanced lipidomic analyses can be integrated to decipher complex biological data, offering a foundation for further research into the role of lipid metabolism in cancer progression.",
+                "submissionDate": "2024-08-09",
+                "publicReleaseDate": "2024-08-16",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Xiaojun",
+                        "lastName": "Qian",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Data Curation",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "OMIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/OMIT_0028885"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Xiaolin",
+                        "lastName": "Jin",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Administration",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25409"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jiaying",
+                        "lastName": "He",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Methodology",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C86572"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Junjing",
+                        "lastName": "Zhang",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Validation process",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "OBI",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/OBI_0302911"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Shan",
+                        "lastName": "Hu",
+                        "email": "sxrmyyhs@163.com",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "conceptualization role",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "ontologyCREDIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.org/credit/ontology#CREDIT_00000001"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153193"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "breast cancer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000075"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "LC-MS",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000524"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Biomarkers",
+                        "termSource": {
+                            "comments": [],
+                            "name": "FOBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/FOBI_01501"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Exploring Lipidomic Profiles and Their Correlation with Hormone Receptor and HER2 Status in Breast Cancer",
+                        "authorList": "Xiaojun Qian, Xiaolin Jin, Jiaying He, Junjing Zhang, Shan Hu1",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Age",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "age",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25150"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Cohort",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "cohort",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004445"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Blood samples are provided voluntarily by breast cancer patients</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Lipids were extracted according to MTBE method. Briefly, a 200 \u00b5L volume of water was added to sample and vortexed for 5 s. Subsequently, 240 \u00b5L of precooling methanol was added and the mixture vortexed for 30 s. After that, 800 \u00b5L of MTBE was added and the mixture was ultrasound 20 min at 4 \u00b0C followed by sitting still for 30 min at room temperature. The solution was centrifuged at 14,000 x g for 15 min at 10 \u00b0C and the upper organic solvent layer was obtained and dried under nitrogen.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples were separated using a UHPLC Nexera LC-30A ultra-high-performance liquid chromatography system. A C18 column was employed; column temperature was set at 45 \u00b0C; flow rate was maintained at 300 \u03bcL/min. The mobile phase consisted of solvent A: acetonitrile-water solution (acetonitrile:water, 6:4, v/v) + 0.1% formic acid + 0.1 mM ammonium formate, and solvent B: acetonitrile-isopropanol solution (acetonitrile:isopropanol, 1:9, v/v) + 0.1% formic acid + 0.1 mM ammonium formate. The gradient elution program was as follows: 0.0-2.0 min, B held at 30%; 2.0-25.0 min, B linearly increased from 30 to 100%; 25.0-35.0 min, B held at 30%. Throughout the analytical process, samples were kept at 10 \u00b0C in an autosampler. To minimize the impact of instrument detection signal fluctuations, samples were analyzed in a random sequence.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Detection was performed using electrospray ionization (ESI) in both positive and negative ion modes. After separation by UHPLC, samples were analyzed using a Q Exactive series mass spectrometer (Thermo Scientific). The ESI source conditions were as follows: Heater Temperature: 300 \u00b0C, Sheath Gas Flow rate: 45 arb, Auxiliary Gas Flow Rate: 15 arb, Sweep Gas Flow Rate: 1 arb, Spray Voltage: 3.0 kV, Capillary Temperature: 350 \u00b0C, S-Lens RF Level: 50%, MS1 scan ranges: 200-1800 m/z. The mass-to-charge ratios (m/z) of lipid molecules and their fragments were acquired using the following method: after each full scan, 10x MS2 scans (HCD) were collected. The resolution at m/z 200 for MS1 was 70,000 and for MS2 was 17,500.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The raw MS data (wiff / wiff.scan) were converted to mzXML files using ProteoWizard MSConvert before importing into freely available XCMS software.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>'Lipid Search' is a search engine for the identification of lipid species based on MS/MS math. LipidSearch contains more than 30 lipid classes and more than 1,500,000 fragment ions in the database. Both mass tolerance for precursor and fragment were set to 5 ppm.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS10858_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS10858_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

@@ -1,0 +1,811 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-04-12T00:00:00",
+        "statusUpdateTime": "2023-04-12T16:04:20.537099",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1206",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2019-08-30",
+        "publicReleaseDate": "2021-09-23",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            },
+            {
+                "comments": [],
+                "name": "ECOCORE",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1206",
+                "filename": "s_MTBLS1206.txt",
+                "title": "A Metabolomic Approach for Predicting Diurnal Changes in Cortisol",
+                "description": "<p><strong>INTRODUCTION:</strong> The dysregulation of cortisol secretion has been associated with a number of mental health and mood disorders. However, diagnostics for mental health and mood disorders are behavioral and lack biological contexts.</p><p><strong>OBJECTIVES:</strong> The goal of this work is to identify volatile metabolites capable of predicting changes in total urinary cortisol across the diurnal cycle for long-term stress monitoring in psychological disorders.</p><p><strong>METHODS:</strong> We applied comprehensive two-dimensional gas chromatography coupled with time-of-flight mass spectrometry to sample the urinary volatile metabolome using an untargeted approach across three time points in a single day for 60 subjects.</p><p><strong>RESULTS:</strong> The finalized multiple regression model includes 14 volatile metabolites and 7 interaction terms. A review of the selected metabolites suggests pyrrole, 6-methyl-5-hepten-2-one and 1-iodo-2-methylundecane may originate from endogenous metabolic mechanisms influenced by glucocorticoid signaling mechanisms.</p><p><strong>CONCLUSION:</strong> This analysis demonstrated the feasibility of using specific volatile metabolites for the prediction of secreted cortisol across time.</p>",
+                "submissionDate": "2019-08-30",
+                "publicReleaseDate": "2021-09-23",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Jarrett",
+                        "lastName": "Eshima",
+                        "email": "jeshima@asu.edu",
+                        "affiliation": "Arizona State Univeristy",
+                        "address": "550 E. Orange Street Tempe, AZ 85281",
+                        "fax": "",
+                        "midInitials": "B",
+                        "phone": "4807668688",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Grant Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51825"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Trenton",
+                        "lastName": "Davis",
+                        "email": "tjdavi18@asu.edu",
+                        "affiliation": "Arizona State University",
+                        "address": "400 E Tyler Mall Tempe, AZ 85281",
+                        "fax": "",
+                        "midInitials": "J",
+                        "phone": "5738235718",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Grant Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51825"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Heather",
+                        "lastName": "Bean",
+                        "email": "Heather.D.Bean@asu.edu",
+                        "affiliation": "Arizona State University",
+                        "address": "400 E Tyler Mall Tempe AZ, 85281",
+                        "fax": "",
+                        "midInitials": "D",
+                        "phone": "4807273395",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "John",
+                        "lastName": "Fricks",
+                        "email": "jfricks@asu.edu",
+                        "affiliation": "Arizona State University",
+                        "address": "901 S. Palm Walk Tempe AZ, 85281",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Grant Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51825"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Barbara",
+                        "lastName": "Smith",
+                        "email": "BarbaraSmith@asu.edu",
+                        "affiliation": "Arizona State University",
+                        "address": "550 E Orange Street",
+                        "fax": "",
+                        "midInitials": "S",
+                        "phone": "4807278988",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Grant Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51826"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "volatile organic compound",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_134179"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "cortisol",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_17650"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "two-dimensional gas chromatography mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "mental health",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0003935"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "circadian rhythm",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004354"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "headspace solid-phase micro-extraction",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001589"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Personalized Medicine",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C84342"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "diurnal",
+                        "termSource": {
+                            "comments": [],
+                            "name": "ECOCORE",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/ECOCORE_00000080"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "A Metabolomic Approach for Predicting Diurnal Changes in Cortisol.",
+                        "authorList": "Eshima J, Davis TJ, Bean HD, Fricks J, Smith BS.",
+                        "pubMedID": "32414047",
+                        "doi": "10.3390/metabo10050194",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Collection Time Point",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Temporal Qualifier",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C21514"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Sex",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Gender",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C17357"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Subject Recruitment:</strong></p><p>The volatile analysis performed in this study involved the collection of 3 different urine samples from 60 healthy male and female subjects (30 male and 30 female), according to the approved IRB. Subjects were recruited at random from Arizona State University, Tempe campus. A screening survey was implemented to assess physical and mental health prior to recruitment. Subjects were asked to self-report on their average and current stress levels, using a 0-10-point scale, with current stress results shown in <strong>Table 3</strong>, in the paper associated with this study. A qualitative stress cutoff &gt; 6 was set to exclude individuals that recently experienced heightened levels of stress in an effort to target the healthy diurnal cortisol rhythm. A score of 6 was selected based on patient comments accompanying their self-reported score. Scores of \u2265 7 were typically accompanied by comments indicating the participants were experiencing stressful events not typically encountered with high frequency, such as multiple exams, difficult classes, and job interviews. To avoid potential outlier cortisol observations, scores \u2265 7 were excluded. Interested participants that had indicated they were currently taking medication were excluded from the study. Women taking birth control were accepted into the study and comprised 13 of the 30 healthy female subjects. Study subjects spanned 18 to 54 yr old, averaging 22 yr old, with no specific age range established as a study criterion.</p><p><br></p><p><strong>Sample Collection:</strong></p><p>Subjects accepted into the study provided unique samples in the morning, afternoon, and evening, at similarly-spaced intervals across a single day (5\u20137 h between collection periods depending on lunch timing; 12 h separated morning and evening samples). Subjects were asked to withhold from food and liquid consumption 2 h and 20 min prior to sample collection, respectively. The food consumption restriction was established based on a foundational study analyzing gastric emptying-time using 51Cr release<strong>[1]</strong>. Results from this study indicated that a time period of 90 min was sufficient for gastric emptying in healthy patients. Subjects were given 90 min post-waking to provided their first sample, a restriction implemented to target morning first pass urine. Afternoon samples were collected directly before lunch. Evening samples were collected 2 h before dinner (with at least 5 h since the prior sample collection) or 2 h after dinner. Prior to all sample collection, subjects were screened using a self-reported survey to ensure adherence to study criteria (i.e., food, drink, and medication). Collection containers were gently agitated for 10 s, then 4x 10 ml samples were aliquoted into cryovials and stored at \u221280 \u00b0C until testing. Volatile analysis was completed within 3 mth of the first sample collection date. Urine samples were sent for LC-MS/MS analysis at a commercial lab to quantify total free urinary cortisol (LabXpress, Phoenix AZ), with all values reported in micrograms (\u00b5g).</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Griffith GH, Owen GM, Kirkman S, Shields R. Measurement of rate of gastric emptying using chromium-51. Lancet. 1966 Jun 4;1(7449):1244-5. doi:10.1016/s0140-6736(66)90247-9. PMID:4161213.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Volatile Extraction (HS-SPME):</strong></p><p>Cryovials containing 10 ml of subject urine were thawed at room temperature for 1 h Vials were then inverted 5x to promote a homogeneous mixture. 5 ml of the urine sample was aliquoted into a 10 ml heat-treated glass vial (Sigma-Aldrich, St. Louis, MO, USA). Screw-tight PTFE/silicone septa (Sigma-Aldrich) were used to seal the sample and generate a sampling headspace.</p><p><br></p><p>Volatiles were extracted from the headspace of biological samples using <strong>solid-phase microextraction</strong> (<strong>HS-SPME</strong>; 1 cm, divinylbenzene/carboxen/polydimethylsiloxane, 50/30 \u00b5m; Sigma-Aldrich). This <strong>SPME</strong> fiber coating biases towards low molecular weight volatiles; however, the fiber has been previously identified as the most effective coating to maximize urinary volatile headspace extraction<strong>[1]</strong>. Headspace equilibrium was promoted by agitating the samples at 250 rpm for 5 min at 50 \u00b0C prior to inserting the <strong>SPME</strong> fiber. The literature suggests an agitation time of 4-5 min is sufficient to reach equilibrium for volatile metabolites<strong>[2]</strong>. Sampling was performed by exposing the <strong>SPME</strong> fiber to the urine headspace for 45 min during agitation at 250 rpm and heating at 50 \u00b0C. <strong>SPME</strong> fibers were heated for 5 min at 270 \u00b0C between samples to minimize analyte carryover. <strong>SPME</strong> fibers were replaced every 60 injections to improve sample reproducibility.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Risticevic S, Pawliszyn J. Solid-phase microextraction in targeted and nontargeted analysis: displacement and desorption effects. Anal Chem. 2013 Oct 1;85(19):8987-95. doi:10.1021/ac4003112. PMID:23984948.</p><p><strong>[2]</strong> Marine SS, Clemons J. Determination of limonene oxidation products using SPME and GC-MS. J Chromatogr Sci. 2003 Jan;41(1):31-5. doi:10.1093/chromsci/41.1.31. PMID:12597594.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>GCxGC-TOF-MS Analysis:</strong></p><p>Volatile analysis was performed using <strong>GCxGC-TOF-MS</strong> (Pegasus 4D, Leco Corp., St. Joseph, MI, USA). The first-dimension column consisted of a Rxi-624Sil MS (60 m x 0.25 mm x 1.4 \u00b5m (length x internal diameter x film-thickness); Restek, Bellefonte, PA) and the second-dimension column consisted of Stabilwax (100% polyethylene glycol; 15 m x 0.25 mm x 0.5 \u00b5m); Restek). Detection and data acquisition parameters were controlled using ChromaTOF software, Version 4.60.8.0 (Leco Corp., St. Joseph, MI, USA). Columns were heated independently using 2 separate ovens. The primary oven was initiated at 50 \u00b0C and held for 2 min, then increased at 5 \u00b0C/min until reaching 230 \u00b0C and held for 10 min. The secondary oven was maintained at 5 \u00b0C above the primary oven. A quad jet modulator was used with a 2 s modulation period. Each modulation period consisted of an alternating 0.5 s hot pulse and 0.5 s cold pulse. The modulator was maintained at a temperature offset of 15 \u00b0C relative to the secondary oven. UHP Helium (99.999%) was used as the carrier gas to maintain a flow rate of 1 ml/min. A split injection ratio of 50:1 was used. The inlet and transfer line temperatures were held at 250 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model 1",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type 1",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model 2",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type 2",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>GCxGC-TOF-MS Analysis:</strong></p><p>Mass spectra were collected at a rate of 100 Hz over a mass range of 40\u2013500 with an ionization energy of -70 eV. Samples were randomized and urinary volatile metabolite data were collected over 3 continuous weeks of <strong>GCxGC-TOF-MS</strong> analysis. A perfluorotributylamine (PFTBA) standard was run at the start of each day to tune the MS. Blanks (empty vials) were run daily prior to clinical samples to monitor for system contamination. Alkane standard mix (C8-C20; Sigma-Aldrich) was sampled at the beginning, middle, and end of the sample set for calculating retention indices.</p><p><br></p><p>Instrument methodology was optimized (volume and degradation) for volatile analysis using our previously established approach<strong>[1]</strong>. In brief, <strong>SPME</strong> extraction was tested in triplicate for urine volumes of 0.5 ml, 1.0 ml, 2.5 ml, and 5.0 ml, and a maximum number of features identified at 5.0 ml sample volume with statistical significance (\u03b1 = 0.01). Sample degradation was analyzed using a 4 \u00b0C temperature-controlled sampling tray. 30 aliquots (5 ml) of the same urine sample were analyzed by <strong>GCxGC-TOF-MS</strong>, resulting in less than 5% relative standard deviation in the number of detected VOCs. From this preliminary analysis, it was determined that urine samples remained viable for up to 39 h in the temperature-controlled sampling tray, prior to testing.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Eshima J, Ong S, Davis TJ, Miranda C, Krishnamurthy D, Nachtsheim A, Stufken J, Plaisier C, Fricks J, Bean HD, Smith BS. Monitoring changes in the healthy female metabolome across the menstrual cycle using GC \u00d7 GC-TOFMS. J Chromatogr B Analyt Technol Biomed Life Sci. 2019 Jul 15;1121:48-57. doi:10.1016/j.jchromb.2019.04.046. PMID:31108321.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Pre-Processing:</strong></p><p>Volatile profiles were processed and aligned using the <strong>Statistical Compare</strong> package within the <strong>ChromaTOF</strong> software. The baseline signal was drawn through the middle of the noise. S/N used in peak selection was set at 50:1 for a minimum of 2 apexing masses. Subpeaks in the second dimension were required to meet a S/N \u2265 6, mass spectral match \u2265 600, and a retention time shift \u2264 to 0.2 s to be combined within an individual chromatogram. For chromatographic alignment, peaks had to have \u2264 2 s retention time shift in the first dimension and \u2264 0.2 s retention time shift in the second dimension. Additionally, a minimum spectral similarity score of 600 (60%) was required prior to alignment. A secondary round of peak picking was performed during alignment using a S/N threshold of 5. Peaks eluting prior to 358 s, as well as peaks identified in blank samples, were excluded from statistical analysis. Compound abundance was obtained by integrating the areas of aligned peaks using the unique ion mass. The resulting aligned peaks were then compared to the <strong>National Institute of Standards and Technology (NIST) 2011 Mass Spectral Library</strong>. Tentative peak names were assigned to mass spectra with similarity scores \u2265 600. Analytes with a spectral similarity score &lt;600 were labeled 'unknown'. However, tentative names from the instrument library search provide a foundation for targeted method development.</p><p><br></p><p><strong>Post-Processing:</strong></p><p>Raw metabolite abundances were normalized using <strong>Probabilistic Quotient Normalization (PQN)[1]</strong>. Abundance values were then log10 transformed, centered, and scaled using <strong>R, Version 3.3.2</strong> (The R Foundation for Statistical Computing, Vienna, Austria). Compounds that were not present in at least half of all samples were removed (<strong>MATLAB 2018b</strong>; Mathworks Inc., Natick, MA, USA) in an effort to improve the translatability of the results. 2 outliers (male subject 6 morning, 44.3 \u00b5g; male subject 29 afternoon, 97 \u00b5g) were removed from all post-processing and subsequent statistical analysis, given that the adult reference range for total free urinary cortisol in 24 h is roughly 3.5\u201345 \u00b5g<strong>[2]</strong>. A 2-way <strong>ANOVA</strong> with replication was performed to determine if sex (p = 0.013) and time of day (p = 0.034) were statistically significant sources of variation for use as interaction term factors in the multiple regression model. Given that our dataset contains far more variables than observations, the 2-way <strong>ANOVA</strong> and elastic-net were used in an exploratory manner to reduce the total number of variables used in the regression.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Dieterle F, Ross A, Schlotterbeck G, Senn H. Probabilistic quotient normalization as robust method to account for dilution of complex biological mixtures. Application in 1H NMR metabonomics. Anal Chem. 2006 Jul 1;78(13):4281-90. doi:10.1021/ac051632c. PMID:16808434.</p><p><strong>[2]</strong> Mayo Clinic Laboratories. [(accessed on 1 May 2020)]; Available online: <a href='https://www.mayocliniclabs.com/test-catalog/Clinical+and+Interpretive/8546' rel='noopener noreferrer' target='_blank'>https://www.mayocliniclabs.com/test-catalog/Clinical+and+Interpretive/8546</a>.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Compound ID:</strong></p><p>Putative metabolic biomarkers identified by the statistical analysis were assigned ID confidence levels, ranging from 1\u20134 (1 being most confident), using previously published guidelines established by the <strong>Metabolomics Standards Initiative[1]</strong>. Compounds that were verified with an \u226580% mass spectral match on a forward search in the <strong>NIST 2011 library</strong> and with linear <strong>retention index (RI)</strong> data consistent with the mid-polar Rxi-624Sil stationary phase received a confidence level of 2. Volatile metabolites included in the predictive model with an ID level of 2 were verified by analytical grade standards \u226598% pure (pyrrole, 6-methyl-5-hepten-2-one; Sigma Aldrich) to reduce the confidence level to 1. RIs were calculated using the following equation, with a 5\u201335% cutoff used for level 2 classification<strong>[2]</strong>:</p><p><br></p><p><strong>(RI_{experimental} - RI_{non-polar})/(RI_{polar} - RI_{non-polar}) * 100 = 5 - 35%</strong></p><p><br></p><p>Mean RIs for non-polar and polar columns were obtained from the <strong>NIST 2011 RI database</strong> and published studies<strong>[3][4]</strong>. Peaks with a spectral match \u226580% but without confirmatory RI (see <strong>Equation</strong> above) or homologous series information were assigned an ID confidence level of 3, using <strong>NIST</strong> non-polar RIs as supporting evidence for naming. Compounds that could not be validated against RI or homologous series data with a spectral match less than or equal to 80% received an ID confidence level of 4. Tentative names assigned to level 4 compounds by the software were replaced with functional group identifiers if second-dimension elution time provided sufficient evidence<strong>[5]</strong>. Otherwise, level 4 volatile metabolites in <strong>Table 1</strong> and <strong>Table 2</strong>, in the paper associated with this study, were reported as 'unknown'.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Sumner LW, Amberg A, Barrett D, Beale MH, Beger R, Daykin CA, Fan TW, Fiehn O et al. Proposed minimum reporting standards for chemical analysis Chemical Analysis Working Group (CAWG) Metabolomics Standards Initiative (MSI). Metabolomics. 2007 Sep;3(3):211-221. doi:10.1007/s11306-007-0082-2. PMID:24039616.</p><p><strong>[2]</strong> Bean HD, Rees CA, Hill JE. Comparative analysis of the volatile metabolomes of Pseudomonas aeruginosa clinical isolates. J Breath Res. 2016 Nov 21;10(4):047102. doi:10.1088/1752-7155/10/4/047102. PMID:27869104.</p><p><strong>[3]</strong> Li, F., Feng, X., Zhang, D. et al. Physical properties, compositions and volatile profiles of Chinese dry-cured hams from different regions. Food Measure 14, 492\u2013504 (2020). doi:10.1007/s11694-019-00158-9.</p><p><strong>[4]</strong> Raffo A, Carcea M, Castagna C, Magr\u00ec A. Improvement of a headspace solid phase microextraction-gas chromatography/mass spectrometry method for the analysis of wheat bread volatile compounds. J Chromatogr A. 2015 Aug 7;1406:266-78. doi:10.1016/j.chroma.2015.06.009. PMID:26118802.</p><p><strong>[5]</strong> Bean HD, Dimandja JM, Hill JE. Bacterial volatile discovery using solid phase microextraction and comprehensive two-dimensional gas chromatography-time-of-flight mass spectrometry. J Chromatogr B Analyt Technol Biomed Life Sci. 2012 Jul 15;901:41-6. doi:10.1016/j.jchromb.2012.05.038. PMID:22727751.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Tandem Gas Chromatography MS - positive",
+                        "filename": "a_MTBLS1206_GCxGC-MS_positive__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

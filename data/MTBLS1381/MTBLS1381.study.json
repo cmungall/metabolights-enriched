@@ -1,0 +1,544 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2020-04-15T00:00:00",
+        "statusUpdateTime": "2020-04-15T09:07:23.609497",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS1381",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2019-11-20",
+        "publicReleaseDate": "2020-04-15",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "OMIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "2019-12-17",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS1381",
+                "filename": "s_MTBLS1381.txt",
+                "title": "LipidCreator workbench to probe the lipidomic landscape - Platelet isolation and stimulation, targeted lipid mediator profiling",
+                "description": "<p>Here we present LipidCreator, a software that fully supports targeted lipidomics assay development. LipidCreator offers a comprehensive framework to compute MS/MS fragment masses for over 60 lipid classes. LipidCreator provides all functionalities needed to define fragments, manage stable isotope labeling, optimize collision energy and generate in silico spectral libraries. We validate LipidCreator assays computationally and analytically and prove that it is capable to generate large targeted experiments to analyze blood and to dissect lipid-signaling pathways such as in human platelets.</p><p><br></p><p>In MTBLS1381, to validate the performance and accuracy of the transition lists provided by LipidCreator and their applicabability on other MS platforms, we used the transition lists for targeted profiling of lipid mediators in human platelet material. Platelets were stimulated with 0.01 U/ml thrombin, 1 U/ml thrombin, 1 \u00b5g/ml CRP or 5 \u00b5g/ml CRP for 5 min. The MS profiling of unstimulated and stimulated platelet material (pellet and supernatant) was performed after HPLC separation on an AB Sciex QTrap 6500 (Applied Biosystems, Darmstadt, Germany) in negative mode. Samples were measured in triplicates, interspersed with blank and standard runs.</p><p><br></p><p>Studies linked to this manuscript include;</p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1333' rel='noopener noreferrer' target='_blank'>MTBLS1333; LipidCreator: Collision Energy Optimization and Fragment Intensity Prediction for Lipid Mediators - Thermo QExactive HF</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1334' rel='noopener noreferrer' target='_blank'>MTBLS1334; LipidCreator: Collision Energy Optimization and Fragment Intensity Prediction for Lipid Mediators - Agilent QTof</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1369' rel='noopener noreferrer' target='_blank'>MTBLS1369; LipidCreator: Platelet isolation and stimulation - Targeted Phospho- and Glycerolipid Profiling</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1375' rel='noopener noreferrer' target='_blank'>MTBLS1375; LipidCreator: Targeted lipidomics analysis of Human Plasma samples and comparison with NIST SRM 1950 standard</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1376' rel='noopener noreferrer' target='_blank'>MTBLS1376; LipidCreator: Targeted lipidomics analysis of S. cerevisiae to determine true and false identification</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1381' rel='noopener noreferrer' target='_blank'>MTBLS1381; LipidCreator: Platelet isolation and stimulation - Targeted Lipid Mediator Profiling</a></p><p><a href='https://www.ebi.ac.uk/metabolights/MTBLS1382' rel='noopener noreferrer' target='_blank'>MTBLS1382; LipidCreator: Platelet isolation and stimulation - DIA Lipid Mediator Validation</a></p>",
+                "submissionDate": "2019-11-20",
+                "publicReleaseDate": "2020-04-15",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Nils",
+                        "lastName": "Hoffmann",
+                        "email": "nils.hoffmann@cebitec.uni-bielefeld.de",
+                        "affiliation": "Leibniz-Institut f\u00fcr Analytische Wissenschaften \u2013 ISAS \u2013 e.V.",
+                        "address": "ISAS e.V.\nOtto-Hahn-Stra\u00dfe 6b\n44227 Dortmund, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+4923113924239",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Bing",
+                        "lastName": "Peng",
+                        "email": "bing.peng@isas.de",
+                        "affiliation": "Leibniz-Institut f\u00fcr Analytische Wissenschaften \u2013 ISAS \u2013 e.V.",
+                        "address": "ISAS e.V.\nOtto-Hahn-Stra\u00dfe 6b\n44227 Dortmund, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Robert",
+                        "lastName": "Ahrends",
+                        "email": "robert.ahrends@isas.de",
+                        "affiliation": "Leibniz-Institut f\u00fcr Analytische Wissenschaften \u2013 ISAS \u2013 e.V.",
+                        "address": "ISAS e.V.\nOtto-Hahn-Stra\u00dfe 6b\n44227 Dortmund, Germany",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+4923113924173",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000069"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "LipidCreator workbench to probe the lipidomic landscape",
+                        "authorList": "Bing Peng, Dominik Kopczynski, Brian S Pratt, Christer S Ejsing, Bo Burla, Martin Hermansson, Peter Imre Benke, Sock Hwee Tan, Mark Y. Chan, Federico Torta, Dominik Schwudke, Sven Meckelmann, Cristina Coman, Oliver J. Schmitz, Brendan MacLean, Oliver Borst, Markus Wenk, Nils Hoffmann, Robert Ahrends",
+                        "pubMedID": "",
+                        "doi": "10.1038/s41467-020-15960-z",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Concentration",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Concentration",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CHMO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002820"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Blood from five individual healthy volunteers was collected in ACD-buffer and centrifuged at 200 x g for 20&nbsp;mins. The obtained platelet-rich plasma was added to modified Tyrode-HEPES (N-2-hydroxyethyl-piperazone-N\u00b42-ethanesulfonic acid) buffer (137&nbsp;mM NaCl, 2&nbsp;mM KCl, 12&nbsp;mM NaHCO3, 5&nbsp;mM glucose, 0.3&nbsp;mM Na2HPO4, 10&nbsp;mM HEPES, pH 6.5). After centrifugation at 900 x g for 10 mins and removal of the supernatant, the resulting platelet pellet was resuspended in Tyrode-HEPES buffer (pH 7.4, supplemented with 1&nbsp;mM CaCl2). Freshly isolated and resuspended human platelets were stimulated with 0.01 U/ml thrombin, 1 U/ml thrombin, 1 \u00b5g/ml CRP or 5 \u00b5g/ml CRP for 5 min. After centrifugation for 5 min at 640 x g at 25 \u00b0C, the pellet and supernatant were separated and separately snap frozen in liquid nitrogen.</p><p><br></p><p>The platelet study was approved by the institutional ethics committee (270/2011BO1) at University Hospital T\u00fcbingen (Germany) and complies with the declaration of Helsinki and good clinical practice guidelines, all volunteers gave informed consent for blood samples.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Lipid (except fatty acid and its derivatives) extraction was carried out according to Matyash et al. [1] with small modifications. In brief, 225&nbsp;\u00b5l of MeOH (4&nbsp;\u00b0C) were added to platelet cell pellet or platelet supernatant in an Eppendorf polypropylene tube that was placed on ice. After a few seconds of treatment with ultrasonication and vortexing, 8&nbsp;\u00b5l of the SPLASH standard and 750&nbsp;\u00b5l MTBE (4 \u00b0C) were added. The mixture was incubated for 1&nbsp;h at 4&nbsp;\u00b0C in a thermomixer at 650&nbsp;rpm. Subsequently 188&nbsp;\u00b5l of ultrapure water was added to induce phase separation. The samples were centrifuged at 10,000 x g for 10&nbsp;mins at 4&nbsp;\u00b0C, afterwards the upper organic layer was transferred to another Eppendorf tube and dried under continuous N2 flow. The dried lipid extract was re-suspended in 100&nbsp;\u00b5l of IPA/MeOH/CHCl3 (4:2:1, v/v/v) for further MS analysis. The lower layer was used to precipitate proteins by adding 903&nbsp;\u00b5l MeOH after removing the interphase and samples were stored at -80&nbsp;\u00b0C for 3&nbsp;hrs in order to perform protein precipitation. Protein pellets were collected after centrifugation at 19,000 x g for 30&nbsp;mins at 4&nbsp;\u00b0C and stored in 1&nbsp;% SDS, 150&nbsp;mM NaCl, 50&nbsp;mM Tris (pH 7.8) solution at -80&nbsp;\u00b0C. Protein amount was quantified by BCA (bicinchoninic acid assay, Thermo Fisher Scientific, Rockford, USA).</p><p>To extract lipid mediators, additional 20&nbsp;\u00b5l of acetic acid (99.99%, 17.5M) was added together with mediator internal standard mixture (consisting of 0.5&nbsp;mg/l of TXB2-d4 and PGE2-d4; 5&nbsp;mg/l of PGD2-d4, 12-HETE-d8 and AA-d8; 0.2&nbsp;mg/l of 15-HETE-d8 and 13-HODE-d4; 0.01&nbsp;mg/l of DHA-d5; and 0.02&nbsp;mg/l of EPA-d5) and 750&nbsp;\u00b5l MTBE into the sample. After that, same incubation and centrifugation procedures as described above were applied. The dried lipid extract was re-suspended in 50&nbsp;\u00b5l of MeOH for further MS analysis. Protein pellets were collected and protein amount was quantified as described above.</p><p><br></p><p>References:</p><p>[1] Matyash, V., Liebisch, G., Kurzchalia, T.V., Shevchenko, A. &amp; Schwudke, D. Lipid extraction by methyl-tert-butyl ether for high-throughput lipidomics. Journal of lipid research 49, 1137-1146 (2008).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For the reverse-phase liquid chromatography (LC), an UltiMate 3000-system from Thermo Fisher Scientific (Darmstadt, Germany) was employed. The chromatographic separation was performed according to Bird et al. [1] on an Ascentis Express C18 main column (150 mm \u00d7 2.1 mm, 2.7 \u00b5m, Supelco) fitted with a guard cartridge (5 mm \u00d7 2.1 mm, 2.7 \u00b5m, Supelco). The temperatures of the autosampler and the column oven were set to 10 \u00b0C and 30 \u00b0C, respectively. Solvent A was ACN/H2O (3:7, v/v) and 0.1 % formic acid while solvent B was IPA/ACN (1:1, v/v). The separation was carried out at a flow rate of 0.4 ml/min with the following 20 min long gradient: initial (0 % B), 0.0-1.0 min (hold 0 % B), 1.0-13.0 min (0-100 % B), 13.0-16.0 min (hold 100 % B), 16.0 min (0 % B), 16.0-20.0 min (hold 0 % B). Solvent A was also used as transfer solution for injection. Samples and standards were injected with a volume of 5 \u00b5l and analyzed in triplicates, respectively.</p><p><br></p><p>References:</p><p>[1] Bird, S.S., Marur, V.R., Sniatynski, M.J., Greenberg, H.K. &amp; Kristal, B.S. Lipidomics profiling by high-resolution LC-MS and high-energy collisional dissociation fragmentation: focus on characterization of mitochondrial cardiolipins and monolysocardiolipins. Analytical Chemistry 83, 940-949 (2011).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The LC was coupled to a QTRAP 6500 (Applied Biosystems, Darmstadt, Germany) which was equipped with an electrospray ion source (Turbo V Ion Source). The following ESI source settings were used for negative mode: curtain gas 10 arbitrary units, temperature 525 \u00b0C, ion source gas I 30 arbitrary units, ion source gas II 55 arbitrary units, collision gas medium; ion spray voltage -4500 V, entrance potential -10 V, and exit potential 10 V.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Wiff data files were acquired using Analyst (version 1.6.1). Data was converted to mzML using the ProteoWizard msConvert tool (version 3.0.11537). The data was centroided using vendor peak picking and MS1 and MS2 peaks were selected for export with 64 bit float encoding and scan-wise zlib compression.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data analysis for native QTrap data (MRM) was performed with Skyline (64-bit, 4.2.0.18305). Metabolite identification and integration was performed using Skyline with custom MRM inclusion lists generated by LipidCreator. The final metabolite table reports representative quantities for each biological replicate, as reported in the Skyline documents HuPl_5donors_Mediators_SN_2019-07-24_15-27-24.sky.zip and HuPl_5donors_Mediators_pellet_2019-07-24_15-25-22.sky.zip, which are available for download from <a href='https://panoramaweb.org/lipidcreator.url' rel='noopener noreferrer' target='_blank'>https://panoramaweb.org/lipidcreator.url</a>. The absolutely quantified values (pmol/mg protein) are provided in a separate XLS file (HuPl_mediators_quantified.xls) in the MetaboLights study folder. Transition lists and integrated peak tables exported from Skyline, together with an R script to create the MetaboLights maf metabolite tables, are provided in the project directory.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - reverse phase",
+                        "filename": "a_MTBLS1381_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

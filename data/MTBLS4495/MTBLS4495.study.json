@@ -1,0 +1,550 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-07-11T00:00:00",
+        "statusUpdateTime": "2022-07-11T15:50:34.114239",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS4495",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2022-03-14",
+        "publicReleaseDate": "2022-07-11",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "PRIDE",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHEBI",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS4495",
+                "filename": "s_MTBLS4495.txt",
+                "title": "Innate Immune Training of Human Macrophages by Cathelicidin Analogs",
+                "description": "Trained innate immunity can be induced in human macrophages by microbial ligands, but it is unknown if exposure to endogenous alarmins such as cathelicidins can have similar effects. Previously, we demonstrated sustained protection against infection by the chicken cathelicidin-2 analog DCATH-2. Thus, we assessed the capacity of cathelicidins to induce trained immunity. PMA23 differentiated THP-1 (dTHP1) cells were trained with cathelicidin analogs for 24 hours, and restimulated after a 3-day rest period. DCATH-2 training of dTHP-1 cells amplified their proinflammatory cytokine response when restimulated with TLR2/4 agonists. Trained cells displayed a biased cellular metabolism towards mTOR-dependent aerobic glycolysis and long-chain fatty acid accumulation and augmented microbicidal activity. DCATH-2-induced trained immunity was inhibited by histone acetylase inhibitors, suggesting epigenetic regulation, and depended on caveolae/lipid raft-mediated uptake, MAPK p38 and purinergic signaling. To our knowledge, this is the first report of trained immunity by host defense peptides.",
+                "submissionDate": "2022-03-14",
+                "publicReleaseDate": "2022-07-11",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Esther",
+                        "lastName": "Zaal",
+                        "email": "e.a.zaal@uu.nl",
+                        "affiliation": "Division Cell Biology, Metablism and Cancer",
+                        "address": "Utrecht University",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "immunometabolism",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000146"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "targeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000272"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "cathelicidin",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHEBI",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_81578"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Glycolysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C28152"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Innate Immune Training of Human Macrophages by Cathelicidin Analogs",
+                        "authorList": "Albert van Dijk, Jennifer Anten, Anne Bakker, Arie Evers, Anna Hoekstra, Jung-Chin Chang, Maake Scheenstra, Edwin Veldhuizen, Mihai Netea, Celia Berkers, Henk Haagsman",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Accepted manuscript",
+                            "termSource": {
+                                "comments": [],
+                                "name": "PRIDE",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/PRIDE_0000399"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Stimulation",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Stimulation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C61406"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "DCATH treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Rapamycin treatment",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "treatment",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000727"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Reagents and Cell Line </strong></p><p>Salmonella enterica subsp. enterica serovar minnesota R595 LPS, E. coli serotype O111:B4 LPS, Pam3CSK4, Pam2CSK4, phorbol 12-myristate 13-acetate (Sigma-Aldrich, Saint Louis, MO, USA), mTOR inhibitor rapamycin (Sigma-Aldrich), PI3K inhibitor wortmannin, Akt inhibitors triciribine and AZD5363 (SelleckChem, Houston, TX, USA), HIF-1a inhibitor ascorbate (Sigma-Aldrich), AMPK activators 5-aminoimidazole-4-carboxamide ribonucleotide (AICAR; Sigma-Aldrich), and metformin, MAPK p38 inhibitor SB203580, MAPK ERK inhibitor PD98059 (Sigma-Aldrich), JNK inhibitor SP600125 (Sigma-Aldrich), histone acetyl transferase inhibitors epigallocatechin gallate (EGCG, Sigma-Aldrich), anacardic acid (Sigma-Aldrich), curcumin (Sigma-Aldrich), and garcinol (Enzo Life Sciences, NY, USA), NFkB inhibitor Bay-11-7085, histone methyltransferase inhibitor (MTA, Sigma-Aldrich), HMTase inhibitor MM-102 (SelleckChem), P2X/P2Y receptor inhibitor suramin (Sigma-Aldrich), P2X7 receptor inhibitor KN-62 (Sigma-Aldrich), lipid raft/caveola-mediated endocytosis inhibitor nystatin (Sigma-Aldrich), clathrin-mediated endocytosis inhibitor chlorpromazine (Sigma-Aldrich). THP-1 (human monocytic leukemia cell line) cells were purchased from the American Type Culture Center (ATCC, Manassas, VA, USA). Oligomycin A, FCCP, Antimycin A, Rotenone, 2-deoxyglucose, and DMEM powder (without glucose, L-glutamine, phenol red, sodium pyruvate and sodium bicarbonate) were all purchased from Sigma-Aldrich. Sodium pyruvate (100 mM solution), MEM non-essential amino acid mixture, glutamax, and penicillin-streptomycin solution were purchased from Gibco.</p><p><br></p><p><strong>Stimulation Experiments </strong></p><p>THP-1 cells were cultured in Iscove Modified Dulbecco Media (IMDM; Life technologies) containing Glutamax-I, sodium pyruvate, 10% fetal bovine serum at 37 \u00b0C and 5% CO2. For differentiation to macrophage-like cells, THP-1 cells were grown in IMDM/FBS medium containing 8 or 100 nM PMA and seeded in 96 wells (5 \u00d7 104 cells/well), 24 wells (3 \u00d7 105 cells/well) or 6 wells plates (1 \u00d7 106 cells/well) during 48 h. Subsequently, dTHP-1 were washed with pre-warmed IMDM/FBS, left overnight to rest and primed during 1 to 24 h with 2-10 \u00b5M peptides of fresh IMDM/FBS medium, washed 3 times in medium. After 3 days rest cells were stimulated with various stimuli: S. minnesota LPS (10 ng/ml), E. coli LPS (10 or 50 ng/ml), Pam3CSK4 (1\u00b5g/ml) or Pam2CSK4 (1 \u00b5g/ml). After 24 h supernatants were collected and stored at -20 \u00b0C. For inhibition, dTHP-1 cells were pre-incubated for 1 h before priming and during priming with rapamycin (10 nM), wortmannin (1 \u00b5M), ascorbate (5 \u00b5M), AICAR (50 nM), metformin (0.3 mM), triciribine (1 and 5 \u00b5M), AZD5363 (1 and 5 \u00b5M), SB203580 (10 \u00b5M), PD98059 (10 \u00b5M), SP600125 (10 \u00b5M), EGCG (40 \u00b5M), anacardic acid (50 \u00b5M), curcumin (10 \u00b5M), garcinol (10 \u00b5M), MTA (1 mM), MM-102 (25 \u00b5M), Bay-11-7085 (10 \u00b5M), suramin (50 \u00b5M), KN-62 (3 \u00b5M), nystatin (10 \u00b5g/ml), and chlorpromazine (10 \u00b5M).</p><p><br></p><p><strong>Metabolomics Experiments</strong></p><p>dTHP-1 cells were seeded (1 \u00d710^6 cells/well) in 6 wells plates and primed during 24 h with DCATH-2 as described using medium as control. Cell supernatants, cell lysates and medium controls were collected before and after 24 h priming in the absence and presence of 10 nM rapamycin, after washing followed by 3 days rest and after subsequent 24 h LPS (E. coli O111:B4) stimulation.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For sample collections, cells were washed once in ice-cold DPBS, lysed with by adding 1 ml cold methanol/acetonitrile/water (2:2:1) lysis buffer, scraped and transferred in to vials. Cell supernatants and medium control samples (10 \u03bcL) were directly mixed with 200 \u03bcL lysis buffer. Samples were shaken for 10 min at 4 \u00b0C and centrifuged for 15 min at 18,000 x g and 4 \u00b0C. Supernatants were flash frozen in liquid nitrogen and stored at -80 \u00b0C for analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Liquid chromatography analysis was performed using a Dionex Ultimate 3000 auto sampler and pump (Thermofisher scientific). Metabolites were separated using a Sequant ZIC-pHILIC column (2.1 x 150 mm, 5 mm, guard column 2.1 x 20 mm, 5 mm; Merck) using a linear gradient of acetonitrile and 20 mM (NH4)2CO3, 0.1% NH4OH in UPLC/MS grade water (Biosolve BV, Valkenswaard, The Netherlands) and a flow rate of 150 \u03bcL/min.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectrometry analysis was performed using an Exactive mass spectrometer (Thermofisher scientific). The mass spectrometry operated in polarity-switching mode with spray voltages of 4.5 and -3.5 kV.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>No data transformation was performed in this study. </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolites were identified and peak intensities quantified using <strong>LCquan software </strong>(Thermofisher scientific) on the basis of exact mass within 5 ppm and further validated by concordance with retention times of commercially available standards. Peak intensities were normalized on cell counts of parallel wells before and after LPS stimulation.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS4495_LC-MS_alternating_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

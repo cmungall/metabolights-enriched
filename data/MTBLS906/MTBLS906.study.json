@@ -1,0 +1,760 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-01-19T00:00:00",
+        "statusUpdateTime": "2022-01-19T13:28:33.044876",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS906",
+        "title": "Investigation",
+        "description": "",
+        "submissionDate": "2019-04-03",
+        "publicReleaseDate": "2022-01-19",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MSIO",
+                "file": "http://purl.obolibrary.org/obo/msio.owl",
+                "version": "1.0.1",
+                "description": "Metabolomics Standards Initiative Ontology (MSIO)"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "User defined terms"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS906",
+                "filename": "s_MTBLS906.txt",
+                "title": "Monitoring of system conditioning after blank injections in untargeted UPLC-MS metabolomic analysis",
+                "description": "Ultra-performance liquid chromatography - mass spectrometry (UPLC-MS) is widely used for untargeted metabolomics in biomedical research. To optimize the quality and precision of UPLC-MS metabolomic analysis, evaluation of blank samples for the elimination of background features is required. Although blanks are usually run either at the beginning or at the end of a sequence of samples, a systematic analysis of their effect of the instrument performance has not been properly documented. Using the analysis of two common bio-fluids (plasma and urine), we describe how the injection of blank samples within a sequence of samples may affect both the chromatographic and MS detection performance depending on several factors, including the sample matrix and the physicochemical properties of the metabolites of interest. The analysis of blanks and post-blank conditioning samples using t-tests, PCA and guided-PCA provides useful information for the elimination of background UPLC-MS features, the identification of column carry over and the selection of the number of samples required to achieve a stable performance.",
+                "submissionDate": "2019-04-03",
+                "publicReleaseDate": "2022-01-19",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Teresa",
+                        "lastName": "Mart\u00ednez-Sena",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Giovanna",
+                        "lastName": "Luongo",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Daniel",
+                        "lastName": "Sanjuan-Herr\u00e1ez",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Jos\u00e9 V",
+                        "lastName": "Castell",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "M\u00e1ximo",
+                        "lastName": "Vento",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Guillermo",
+                        "lastName": "Quint\u00e1s",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Julia",
+                        "lastName": "Kuligowski",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Conditioning",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C41258"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Instrument performance",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "User defined terms"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "longitudinal data analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "OBI",
+                            "file": "http://data.bioontology.org/ontologies/OBI",
+                            "version": "29",
+                            "description": "Ontology for Biomedical Investigations"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0200082"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Monitoring of system conditioning after blank injections in untargeted UPLC-MS metabolomic analysis.",
+                        "authorList": "Mart\u00ednez-Sena T, Luongo G, Sanjuan-Herr\u00e1ez D, Castell JV, Vento M, Quint\u00e1s G, Kuligowski J.",
+                        "pubMedID": "31285473",
+                        "doi": "10.1038/s41598-019-46371-w",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p class='ql-align-justify'><strong>Standards and reagents</strong></p><p class='ql-align-justify'>Acetonitrile (CH3CN, LC-MS grade) was obtained from Scharlau (Barcelona, Spain) and formic acid (HCOOH, \u226595%) from Sigma-Aldrich Qu\u00edmica SL (Madrid, Spain). Ultra-pure water was generated by a Milli-Q Integral Water Purifcation System from Merck Millipore (Darmstadt, Germany). Phenylalanine-D5, tryptophan-D5 and cafeine-D9 were purchased from C/D/N Isotopes Inc. (Quebec, Canada). </p><p class='ql-align-justify'><br></p><p class='ql-align-justify'><strong>Sample preparation</strong></p><p class='ql-align-justify'>Ethical approval for this study was obtained from the Ethics Committee for Biomedical Research of the Instituto de Investigaci\u00f3n Sanitaria Hospital Universitario y Polit\u00e9cnico La Fe (Valencia, Spain) (approval code EudraCT: 2014-000537-24) and all methods were performed in accordance with the relevant guidelines and regulations. A <strong>blood </strong>and a <strong>urine </strong>sample were collected from a volunteer who had given written informed consent to participate in the study. </p><p class='ql-align-justify'><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>3 mL of heparinized <strong>blood </strong>was centrifuged at 1,500 \u00d7 g (10 min, 4 \u00b0C). The plasma layer was collected and further centrifuged at 2,500 \u00d7 g (15min, 4 \u00b0C). 600 \u03bcL of the plasma fraction were withdrawn and 1800 \u03bcL of cold (4 \u00b0C) CH3CN was added for protein precipitation. The sample was homogenized (Vortex shaker, 10 s) and centrifuged at 10,000 \u00d7 g (10 min, 4 \u00b0C). 1,000 \u03bcL of the supernatant was collected and evaporated under vacuum at 25 \u00b0C. The residue was reconstituted in 700 \u03bcL of a 1 \u03bcM injection standard solution containing phenylalanine-D5, tryptophan-D5 and cafeine-D9 in H2O:CH3CN (98:2, 0.1% v/v HCOOH). </p><p><br></p><p>The <strong>urine </strong>sample was centrifuged at 2,500 \u00d7 g (10 min, 4 \u00b0C) and 250 \u03bcL of the supernatant were diluted with 500 \u03bcL of an injection standard solution containing phenylalanine-D5, tryptophan-D5 and cafeine-D9 in H2O:CH3CN (98:2, 0.1% v/v HCOOH) at a final concentration of 1 \u03bcM. </p><p><br></p><p><strong>Extraction blanks</strong> were prepared replacing blood or urine by MilliQ water and applying the same standard operating procedure as for <strong>plasma </strong>or <strong>urine </strong>samples.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p class='ql-align-justify'>Chromatographic analysis was performed using a reversed phase Kinetex C18 (50\u00d72.1 mm, 1.7 \u00b5m, Phenomenex) column on an Agilent 1290 Infnity UPLC chromatograph equipped with an iFunnel quadrupole time of fight (QTOF) Agilent 6550 spectrometer (Agilent Technologies, CA, USA). Autosampler and column temperatures were set to 4 \u00b0C and 55 \u00b0C, respectively, and the injection volume was 4 \u00b5L. Binary gradient elution (channel A: H2O, 0.1% v/v HCOOH, channel B: CH3CN, 0.1% v/v HCOOH) was performed at a flow rate of 400 \u00b5L/min as follows: initial conditions of 98% A followed by a linear gradient from 2% to 20% B in 0.3 min and from 20% to 95% B in 2.2 min. 95% B was held for 3.75 min and then, a 0.15 min gradient was used to return to the initial conditions, which were held for additional 1.6 min. Standard needle wash was carried out between injections using H2O:CH3CN (1:1 v/v) as solvent to reduce autosampler carryover from one sample to the next.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Full scan MS data from 100 to 1700 m/z was collected on an iFunnel quadrupole time of flight (QTOF) Agilent 6550 spectrometer (Agilent Technologies, CA, USA). The following positive electrospray ionization parameters were selected: gas T, 200 \u00b0C; drying gas, 14 L/min; nebulizer, 37psig; sheath gas T, 350 \u00b0C; sheath gas flow, 11 L/min.</p><p><br></p><p>Automatic MS spectra calibration during the analysis using the 149.02332 (phthalic anhydride), 121.050873 (purine) and 922.009798 (HP-0921) m/z as references was carried out introducing a reference standard into the source via a reference sprayer valve. Data obtained during initial column conditioning was not included from data analysis.</p><p><br></p><p>An aliquot of the plasma and urine pooled samples was repeatedly analyzed using the auto MS/MS method with the following inclusion m/z precursor ranges: 70-200, 200-350, 350-500, 500-650, 650-800, 800-950, 950-1100 and 1100-1200 using, in all replicates, centroid mode at a rate of 3 spectra/s in the extended dynamic range mode (2GHz). Collision energy was set to 30V, MS/MS fragmentation with automated selection of 3 precursor ions per cycle.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>No data transformation was supplied for this study. </p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Peak table generation</strong></p><p>Peak table generation was carried out for each batch (i.e. urine and plasma analysis) separately using <strong>XCMS[1]</strong>. The centWave method was used for peak detection with the following parameters: mass accuracy: 20 ppm, peak width: (5,25), snthresh: 12, prefilter: (5,5000). A minimum difference in m/z of 7.5 mDa was selected for overlapping peaks. Intensity weighted m/z values of each feature were calculated using the wMean function. Peak limits used for integration were found through descent on the Mexican hat filtered data. Grouping before and after RT correction was carried out using the nearest method and 9 s as rtCheck argument. Finally, missing data points were filled by reintegrating the raw data files in the regions of the missing peaks using the fillPeaks method.</p><p><br></p><p><strong>Within-batch effect elimination</strong></p><p>Samples injected before a blank were used as reference (i.e. QCs) for the correction of within-batch effects to facilitate the interpretation and comparison of changes in the instrumental responses caused by system deconditioning. Within batch effect correction was carried out using the non-parametric Quality Control \u2013 Support Vector Regression Correction (QC-SVRC) approach employing a Radial Basis Function kernel. QC-SVRC requires the selection of 3 structural hyperparameters: the tolerance threshold (epsilon), the penalty term applied to margin slack values (C) and the kernel width (gamma). The selection was carried out using a pre-selection of C and optimization of epsilon and gamma using a grid search, leave-one-out cross validation and the RMSECV as target function. C was selected for each UPLC-MS feature as the median value of the intensities observed in QC replicates. The epsilon search range was selected based on the expected instrumental precision (3-10% of the median value of the intensities observed for the whole set of QC replicates). The&nbsp;gamma search interval selected was [1, 105].</p><p><br></p><p><strong>Data clean-up</strong></p><p>Data clean-up was carried out after within-batch effect correction using the set of blank samples for each batch independently. UPLC-MS features were classified as unreliable and removed from further analysis if at least one of the following conditions was fulfilled: i) the median value in blank samples multiplied by 9 was greater than the median value in samples; ii) more than 10% of the QC replicates showed peak area values lower than the 3 times median value in blank samples, and iii) RSD(QCs)&gt;20% after batch effect correction.</p><p><br></p><p>A total of 2661 and 2776 MSMS spectra from the analysis of the plasma and urine QC were collected to support putative metabolite identification by matching the acquired spectra and the <strong>HMDB </strong>and <strong>LipidBlast </strong>reference databases using in-house sofware and <strong>LipiDex</strong>, for the automatic identification process<strong>[2]</strong>.&nbsp;</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1] </strong>Smith CA, Want EJ, O'Maille G, Abagyan R, Siuzdak G. XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification. Anal Chem. 2006 Feb 1;78(3):779-87. doi:10.1021/ac051437y. PMID:16448051.</p><p><strong>[2] </strong>&nbsp;Calder\u00f3n-Santiago M, Priego-Capote F, Luque de Castro MD. Enhanced detection and identification in metabolomics by use of LC-MS/MS untargeted analysis in combination with gas-phase fractionation. Anal Chem. 2014 Aug 5;86(15):7558-65. doi:10.1021/ac501353n. Epub 2014 Jul 18. PMID:24992377.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS906_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

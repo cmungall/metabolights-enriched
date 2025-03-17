@@ -1,0 +1,587 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-08-26T00:00:00",
+        "statusUpdateTime": "2024-08-26T12:05:38.802881",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS8735",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "10/10/2023",
+        "publicReleaseDate": "2024-08-26",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "T4FS",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "12/03/2024",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "SIO",
+                "file": "https://www.ebi.ac.uk/ols4/api",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS8735",
+                "filename": "s_MTBLS8735.txt",
+                "title": "Streamlining LC-MS/MS Data Analysis in R with Open-Source *xcms* and\n*RforMassSpectrometry*: An End-to-End Workflow",
+                "description": "<p>Despite untargeted LC-MS/MS data being a powerful approach for large-scale metabolomics analysis, a significant challenge in the field lies in the reproducible and efficient analysis of such data, in particular. The power of R-based analysis workflows lies in their high customizability and adaptability to specific instrumental and experimental setups, but, while various specialized packages exist for individual analysis steps, their seamless integration and application to large cohort datasets remains elusive. Addressing this gap, we present an comprehensible end-to-end R workflow that leverages <em>xcms</em> and packages of the <em>RforMassSpectrometry</em> environment to encompass all aspects of pre-processing and downstream analyses for LC-MS/MS datasets in a reproducible manner.</p><p>This workflow delineates a step-by-step analysis of an example untargeted metabolomics dataset tailored to quantify the small polar metabolome in human plasma samples and aimed to identify differences between individuals suffering from a cardiovascular disease and healthy controls. The objective of the workflow is to meticulously detail each step, from the preprocessing of raw mzML files to the annotation of differentially abundant ions between the two groups. Our workflow seamlessly integrates Bioconductor packages, offering adaptability to diverse study designs and analysis requirements.</p><p>This workflow facilitates preprocessing, feature detection, alignment, normalization, statistical analysis and annotation within a unified framework, thereby enhancing the efficiency of metabolomic investigations. We also discuss alternative approaches to accommodate various dataset and goals, while emphasizing proper quality management for LC-MS data analysis. The source code of the workflow is available at https://github.com/EuracBiomedicalResearch/end-to-end-untargeted-metabolomics.</p>",
+                "submissionDate": "10/10/2023",
+                "publicReleaseDate": "2024-08-26",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Philippine",
+                        "lastName": "Louail",
+                        "email": "philippine.louail@eurac.edu",
+                        "affiliation": "Eurac Research - University of Jena",
+                        "address": "A.- Volta - Str.\nEurac research, 21",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "+39 3273182047",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Johannes",
+                        "lastName": "Rainer",
+                        "email": "johannes.rainer@eurac.edu",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "LC-MS label-free quantitation analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000180"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "12/03/2024",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "12/03/2024",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "data analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "SIO",
+                            "file": "https://www.ebi.ac.uk/ols4/api",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://semanticscience.org/resource/SIO_001051"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "End-to-end workflow for LC-MS/MS analysis using RforMassSpectrometry and XCMS",
+                        "authorList": "Philippine Louail, Johannes Rainer",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "In preparation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001795"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Age",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Age",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25150"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Phenotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Phenotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16977"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Blood samples (5 mL) were collected from 3 individuals with a cardiovascular disease (CVD) and 3 age and sex-matched healthy controls in EDTA coated tubes and centrifuged at 1500 x g for 15 min. Supernatants were collected, centrifuged again at 16,000 x g for 15 min to obtain cell- and platelet-free plasma, and stored at -80 \u00b0C as 400 \u00b5L aliquots until usage. Pools of human serum samples (described in https://doi.org/10.3390/metabo12030205) were used as quality control (QC) samples. The current data set represents data from 6 randomly selected individuals from a larger study/data set.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For extraction, 50 \u03bcL of plasma were transferred with 200 \u03bcL of acetonitrile with 1% formic acid and a mix of internal standards (see below) to a Ostro protein removal and phospholipid removal plate (Ostro, Waters Corporation, Milford, MA, USA) and filtered for 7 min under 12 psi and for 5 min under 25 psi pressure. The extract was evaporated to dryness under vacuum at 38 \u00b0C for 120 min in a vacuum evaporator (EZ-2 vacuum evaporator, Genevac, Ipswich, UK).</p><p><br></p><p>For measurement, all samples were reconstituted with 150 \u03bcL of a acetonitrile/water (50:50, v/v) solution, shaked for 5 min at 400 rpm and filtered using a Sirocco protein removal plate (Sirocco, Waters Corporation, Milford, MA, USA) at 12 psi for 7 and 25 psi for 5 min.</p><p><br></p><p>The list of internal standards consisted of: internal standards: Alanine 13C315N (0.9 \u03bcg/mL), arginine 13C615N4 (1.8 \u03bcg/mL), aspartic acid 13C415N (1.3 \u03bcg/mL), cystine 13C615N2 (1.2 \u03bcg/mL), glutamic acid 13C515N (1.5 \u03bcg/mL), glycine 13C215N (0.8 \u03bcg/mL), histidine 13C615N3 (1.6 \u03bcg/mL), isoleucine 13C615N (1.3 \u03bcg/mL), leucine 13C615N (1.3 \u03bcg/mL), lysine 13C615N2 (1.5 \u03bcg/mL), methionine 13C515N (1.5 \u03bcg/mL), phenylalanine 13C915N (1.7 \u03bcg/mL), proline 13C515N (1.2 \u03bcg/mL), serine 13C315N (1.1 \u03bcg/mL), threonine 13C415N (1.2 \u03bcg/ mL), tyrosine 13C915N (1.8 \u03bcg/mL) and valine 13C515N (1.2 \u03bcg/mL).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>All samples were analyzed using ultra-high-performance liquid chromatography (UHPLC) (Agilent 1290; Agilent Technologies, Santa Clara, CA, USA) coupled to a Q-TOF mass spectrometer (TripleTOF 5600+; AB Sciex, Foster City, CA, USA). The chromatographic separation was based on hydrophilic interaction liquid chromatography (HILIC) and performed using an Acquity BEH amide, 100 x 2.1 mm column (Waters Corporation, Milford, MA, USA). Separation mobile phase A consisted of acetonitrile + 0.1% formic acid, and separation mobile phase B consisted of water + 0.1% formic acid. The injection volume was 5 \u03bcL, and the flow rate was 0.6 mL/min. The following linear gradients were used: 0.0 min 95% A and 1.0 min 95% A, 4.0 min 30% A and 5.0 min 30% A, 5.1 min 95% A, and 8.0 min 95% A.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The mass spectrometer was operated in full scan mode in the mass range from 50 to 1000 m/z and with an accumulation time of 250 ms. In ESI+ mode, the source temperature was set at 700 \u00b0C, the declustering potential at 30 V, the collision energy at 6 V, the ion spray voltage at 5120 V, the curtain gas at 25 psi, and ion source gases 1 and 2 at 60 psi. The instrument was mass calibrated by automatic calibration after every two sample injections, infusing the Sciex Positive Calibration Solution (part no. 4460131, AB Sciex, Foster City, CA, USA) for positive mode. LC-MS system maintenance was performed at the beginning of each plate batch to ensure high-quality data. Moreover, to monitor the retention time, mass accuracy and signal intensity, a system-suitability solution was injected. This solution was prepared in acetonitrile/water (50:50, v/v) and consisted of labeled amino acid standards at the following concentrations: alanine 13C315N (0.9 \u03bcg/mL), arginine 13C615N4 (1.8 \u03bcg/mL), glutamic acid 13C515N (1.5 \u03bcg/mL), methionine 13C515N (1.5 \u03bcg/mL), phenylalanine 13C915N (1.7 \u03bcg/mL), serine 13C315N (1.1 \u03bcg/mL) and valine 13C515N (1.2 \u03bcg/mL). In addition, to equilibrate the LC-MS system before the sample ran, pooled QC samples were injected 15 times in both the positive and negative modes. At the end of the equilibration injection sequence, we injected blanks to avoid carryover. Samples were then analyzed in a randomized order and pooled QC samples were injected between every 8 samples.</p><p><br></p><p>For LC-MS/MS data, the same settings were applied. Accumulation time for MS1 was set to 250 ms and for MS2 to 50 ms. Ions were selected for fragmentation based on an inclusion list and selecting the top 17 ions based on a data dependent acquisition (DDA) strategy. Dynamic background subtraction was disabled to ensure ions from the inclusion list being (preferentially) selected. The list of ions from the inclusion list were (m/z-rt pairs): 96.0445-41.5, 138.0547-148.3, 160.0369-162.4, 161.0400-162.3, 181.0719-47.2, 181.0722-34.3, 182.0747-46.8, 182.0750-34.3, 188.1757-169.9, 194.4682-32.6, 195.0877-32.6, 195.0878-38.6, 196.0904-32.6, 197.0924-32.9, 229.1298-181.5, 273.1318-34.0, 274.9944-131.5, 349.0759-170.8, 366.1097-183.8, 381.0798-183.7, 414.3011-58.5, 472.2010-36.4, 472.3038-57.4, 494.2857-58.8, 538.2597-136.8, 617.9998-32.1, 646.0309-29.6, 647.0342-29.8.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Detailed information on data preprocessing, analysis and annotation are provided here: https://github.com/EuracBiomedicalResearch/end-to-end-untargeted-metabolomics. The analysis was performed in R version 4.4 with packages from the Bioconductor 3.19 release, in particular, xcms, Spectra and MetaboAnnotation. In brief, preprocessing was performed using xcms, with chromatographic peaks identified using the CentWave algorithm and refined using the 'MergeNeighboringPeaksParam' approach. Retention time alignment was performed using the PeakGroups method and correspondence with the PeakDensity method. Gap filling was performed using the 'ChromPeakAreaParam' approach. Data was normalized using median scaling. In a first filtering step the data set was reduced to features with at least 2 non-missing values in at least one of the study sample groups. Subsequently, a dispersion ratio (Dratio) filter was applied removing features with a Dratio larger than 0.4.</p><p><br></p><p>For differential abundance analysis, per-feature multiple regression models were fitted to the data using Bioconductor's limma package. P-values for significance of differential expression between the groups were adjusted for multiple hypothesis testing using the method from Benjamini and Hochberg for a strong control of the false discovery rate. Features with an adjusted p-value &lt; 0.05 were considered significant.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Annotation of significant features from the differential abundance analysis were annotated based on matching of acquired MS2 spectra on the same study samples to reference MS2 spectra from MassBank (version 2023.11) and visually inspecting/validating the results. For features without MS2 spectra, MS1-based annotation based on similarity of the features' m/z values with theoretical m/z of reference compounds' ions were reported. The analysis was performed using the MetaboAnnotation Bioconductor package.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS8735_LC-MS_positive_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS8735_LC-MSMS_positive_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

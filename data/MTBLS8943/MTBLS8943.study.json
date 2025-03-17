@@ -1,0 +1,819 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2023-11-16T00:00:00",
+        "statusUpdateTime": "2023-11-16T22:05:47.208281",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS8943",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2023-11-13",
+        "publicReleaseDate": "2023-11-16",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "ZFA",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "",
+                "version": "2023-11-14",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "",
+                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                "version": "18.10e",
+                "description": "NCI Thesaurus OBO Edition"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS8943",
+                "filename": "s_MTBLS8943.txt",
+                "title": "NMR-Based Metabolomics of Non-Human Primate Ocular Tissues: A Dataset",
+                "description": "Model animals are employed in experiments as substitutes for human tissues and fluids, particularly when accessing particular human samples (such as cerebrospinal fluid, brain, ocular tissues, etc.) poses significant challenges or is ethically constrained. Nonhuman primates are frequently regarded as superior animal models for investigating human ophthalmological diseases. However, despite this recognition, the metabolomic composition of ocular tissues in non-human primates remains predominantly unexplored. In this work, we present a dataset on metabolite concentrations in serum and ocular tissues, including aqueous humor (AH), vitreous humor (VH), and lens, in two Macaque species: crab-eating macaque (Macaca fascicularis) and rhesus macaque (Macaca mulatta). A total of 99 compounds were quantified in 45 samples, shedding light on the previously unknown metabolomic profiles of primate eye tissues.",
+                "submissionDate": "2023-11-13",
+                "publicReleaseDate": "2023-11-16",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Vadim",
+                        "lastName": "Yanshole",
+                        "email": "vadim.yanshole@tomo.nsc.ru",
+                        "affiliation": "ITC SB RAS",
+                        "address": "Institutskaya 3a, Novosibirsk, Russia",
+                        "fax": "",
+                        "midInitials": "V.",
+                        "phone": "+73833303136",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Maxim",
+                        "lastName": "Fomenko",
+                        "email": "m.fomenko@tomo.nsc.ru",
+                        "affiliation": "ITC SB RAS",
+                        "address": "Institutskaya 3a, Novosibirsk, Russia",
+                        "fax": "",
+                        "midInitials": "V.",
+                        "phone": "+73833303136",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Lyudmila",
+                        "lastName": "Yanshole",
+                        "email": "lucy@tomo.nsc.ru",
+                        "affiliation": "ITC SB RAS",
+                        "address": "Institutskaya 3a, Novosibirsk, Russia",
+                        "fax": "",
+                        "midInitials": "V.",
+                        "phone": "+73833303136",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Nataliya",
+                        "lastName": "Osik",
+                        "email": "n.osik@tomo.nsc.ru",
+                        "affiliation": "ITC SB RAS",
+                        "address": "Institutskaya 3a, Novosibirsk, Russia",
+                        "fax": "",
+                        "midInitials": "A.",
+                        "phone": "+73833303136",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Elena",
+                        "lastName": " Radomskaya",
+                        "email": "zoomlenazoom@gmail.com",
+                        "affiliation": "National Research Centre \u00abKurchatov Institute\u00bb, Research Institute of Medical Primatology",
+                        "address": "Mira Str. 177, s. Vesyoloe, Sochi, 354376, Russia",
+                        "fax": "",
+                        "midInitials": "Y.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Dmitry",
+                        "lastName": "Bulgin",
+                        "email": "molmed1999@yahoo.com",
+                        "affiliation": "National Research Centre \u00abKurchatov Institute\u00bb, Research Institute of Medical Primatology",
+                        "address": "Mira Str. 177, s. Vesyoloe, Sochi, 354376, Russia",
+                        "fax": "",
+                        "midInitials": "V.",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C25936"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Yuri",
+                        "lastName": "Tsentalovich",
+                        "email": "yura@tomo.nsc.ru",
+                        "affiliation": "ITC SB RAS",
+                        "address": "Institutskaya 3a, Novosibirsk, Russia",
+                        "fax": "",
+                        "midInitials": "P.",
+                        "phone": "+73833303136",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Supervisor",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C134832"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Elena",
+                        "lastName": "Radomskaya",
+                        "email": "",
+                        "affiliation": "",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "",
+                                    "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                    "version": "18.10e",
+                                    "description": "NCI Thesaurus OBO Edition"
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C42781"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "nuclear magnetic resonance spectroscopy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000591"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Quantitative Concept",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C70766"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Animal Model of Disease",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C16504"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Macaque",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C14231"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "NMR-Based Metabolomics of Non-Human Primate Ocular Tissues: A Dataset",
+                        "authorList": "Yanshole Vadim V., Fomenko Maxim V., Yanshole Lyudmila V., Osik Nataliya A., Radomskaya Elena Y., Bulgin Dmitry V., Tsentalovich Yuri P.",
+                        "pubMedID": "",
+                        "doi": "10.20944/preprints202312.0072.v1",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "preprint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0010558"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Specimen type",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Biospecimen Type",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C70713"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Tissue",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Tissue",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C12801"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Species",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Species",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C45293"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>The research was carried out in line with the ARVO Statement for the Use of Animals in Ophthalmic and Vision Research and the European Union Directive 2010/63/EU on the protection of animals used for scientific purposes, and approved by bioethics committee of the Research Institute of Medical Primatology (Record 80/1 from 02.12.2021).</p><p><br></p><p><strong>Intravital (n=7)</strong> and <strong>post-mortem blood samples</strong> from <strong>Crab-eating macaques (<em>Macaca fascicularis</em>) (n=8)</strong> and <strong>Rhesus macaques (<em>Macaca mulatta</em>) (n=3)</strong> were obtained by venipuncture using a syringe with a 21G needle. Within 10-15 min after the blood collection, blood samples were centrifuged (3000 x g, 10 min), and the plasma obtained was transferred into separate vials. The plasma samples were immediately frozen and kept at -70\u00b0 C until analysis.</p><p><br></p><p>Euthanasia was performed for <strong>Crab-eating macaques (<em>Macaca fascicularis</em>) (n=8)</strong> and <strong>Rhesus macaques (<em>Macaca mulatta</em>) (n=3)</strong> by intravenous administration of 5.0 ml of Anestofol 5% (Interpharm, Russia) with preliminary general anesthesia by intravenous injection of 0.10 ml/kg of Xila (2% xylazine) (Interchemie Werken 'de Adelaar' BV, the Netherlands ) and 0.05 ml/kg of Zoletil (Virbac Sante Animale, France). The samples of <strong>aqueous humor (AH)</strong> were taken from the anterior chamber by the cornea puncture with the 21G needle. Then the cornea was cut along the iris border, the lens was extracted, and <strong>vitreous humor (VH)</strong> was collected with the 21G needle. The samples of AH, VH, and lens were frozen and kept at -70\u00b0 C.</p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Prior to homogenization, each sample was weighed. Typical lens weight was 90-100 mg, typical plasma volume was 300 \u00b5l, VH volume was 600 \u00b5l, AH volume was 70-200 \u00b5l. The lenses were homogenized in glass vials using a TissueRuptor II rotor-stator homogenizer (Qiagen, Venlo, Netherlands) with 1600 \u00b5l of cold MeOH (-20 \u00b0C), followed by the addition of 800 \u00b5l of water and 1600 \u00b5l of cold chloroform. AH, VH, and plasma samples were extracted without homogenization. The mixture was shaken for 20 min in a shaker and then left at -20 \u00b0C for 30 min. After that, the mixture was centrifuged at 16,100 x g, +4 \u00b0C for 30 min, which resulted in 2 immiscible liquid layers separated by a lipid-protein layer. The upper aqueous layer (MeOH-H2O) was collected, divided into 2 parts for NMR (2/3) and LC-MS (1/3) analyses, and vacuum-dried for further analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Extraction Method",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR sample",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR sample",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Dried extracts were re-dissolved in 600 \u03bcl of D2O containing 2 x 10^\u20135 M of sodium 4,4-dimethyl-4-silapentane-1-sulfonic acid (DSS) as an internal standard and 20 mM of deuterated phosphate buffer (pH 7.2) and placed into standard 5 mm glass NMR tube.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR tube type",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Solvent",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Sample pH",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Temperature",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR spectroscopy",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>The 1H NMR measurements were conducted using an AVANCE III HD 700 MHz NMR spectrometer (Bruker BioSpin, Rheinstetten, Germany). The NMR spectra were acquired using a 5 mm TXI ATMA NMR probe by summing 96 transients while maintaining the sample temperature at 25 \u00b0C and using a 90-degree detection pulse with vendor pulse sequence name zgpr. To allow for relaxation of all spins, a repetition time of 20 s was used between scans. Prior to acquisition, low power radiation was applied at the water resonance frequency to presaturate the water signal.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "NMR Probe",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Number of transients",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Pulse sequence name",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Magnetic field strength",
+                                    "termSource": {
+                                        "comments": [],
+                                        "name": "",
+                                        "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                        "version": "18.10e",
+                                        "description": "NCI Thesaurus OBO Edition"
+                                    },
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "NMR assay",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "NMR assay",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>The concentrations of metabolites in the samples were determined by the peak area integration relatively to the internal standard DSS, and then recalculated into metabolite concentrations in the tissue (for the lens, in nmoles/g of the tissue wet weight, and for AH, VH, and serum, in nmoles/ml).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>The baseline processing, identification, and integration of spectral NMR peaks (quantification) were done using the <strong>MestReNova v12.0 </strong>(Mestrelab Research, A Coruna, Spain).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": {
+                                "comments": [],
+                                "name": "",
+                                "file": "http://purl.obolibrary.org/obo/ncit.owl",
+                                "version": "18.10e",
+                                "description": "NCI Thesaurus OBO Edition"
+                            },
+                            "termAccession": ""
+                        },
+                        "description": "<p>Metabolite identification was conducted by analyzing their NMR spectra, which were sourced from literature, databases <strong>(HMDB</strong>, <strong>METLIN</strong>, <strong>BMRB</strong>, and <strong>SpectraBase</strong>), an in-house NMR library<strong>[1]-[3]</strong>, and <strong>AMDB[4]</strong>. In instances where NMR signal assignment was not straightforward, the identification of metabolites were verified by spiking the lens extract with commercially available standard compounds. To identify unknown signals, the metabolomic extract was fractionated by HILIC and MS, <strong>MS/MS</strong> and NMR analysis conducted on each fraction, as previously described[1]. Despite these efforts, several signals in the NMR spectra remained unassigned. The metabolite concentrations in the lenses were determined in nmol/g by integrating NMR signals relative to the internal standard DSS, and then normalized to the wet weight of the tissue. On average, 60-80 compounds were identified for each species. However, quantifying some compounds was unreliable due to weak signals or overlapping with other signals. The final table contains only 100 reliably identified and quantified metabolites. The raw data could contain more information on as yet unidentified metabolites.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Yanshole VV, Yanshole LV, Zelentsova EA, Tsentalovich YP. Ovothiol A is the Main Antioxidant in Fish Lens. Metabolites. 2019 May 10;9(5):95. doi:10.3390/metabo9050095. PMID:31083459.</p><p><strong>[2]</strong> Tsentalovich YP, Zelentsova EA, Yanshole LV, Yanshole VV, Odud IM. Most abundant metabolites in tissues of freshwater fish pike-perch (Sander lucioperca). Sci Rep. 2020 Oct 13;10(1):17128. doi:10.1038/s41598-020-73895-3. PMID:33051472.</p><p><strong>[3]</strong> Tsentalovich YP, Verkhovod TD, Yanshole VV, Kiryutin AS, Yanshole LV, Fursova AZh, Stepakov DA, Novoselov VP, Sagdeev RZ. Metabolomic composition of normal aged and cataractous human lenses. Exp Eye Res. 2015 May;134:15-23. doi:10.1016/j.exer.2015.03.008. PMID:25773987.</p><p><strong>[4]</strong> <a href='https://amdb.online/' rel='noopener noreferrer' target='_blank'>https://amdb.online/</a></p><p><br></p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "NMR spectroscopy",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000623"
+                        },
+                        "technologyPlatform": "Nuclear Magnetic Resonance (NMR) -",
+                        "filename": "a_MTBLS8943_NMR___metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

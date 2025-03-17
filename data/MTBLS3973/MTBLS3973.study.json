@@ -1,0 +1,558 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-08-19T00:00:00",
+        "statusUpdateTime": "2024-08-19T09:07:33.928366",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS3973",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-12-13",
+        "publicReleaseDate": "2024-08-19",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "FMA",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MONDO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "DOID",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "UBERON",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS3973",
+                "filename": "s_MTBLS3973.txt",
+                "title": "Metabolic profiling of prostate cancer in skeletal microenvironments identifies G6PD as a key mediator of growth and survival",
+                "description": "<p>The spread of cancer to bone is invariably fatal, with complex cross-talk between tumor cells and the bone microenvironment responsible for driving disease progression. By combining in silico analysis of patient datasets with metabolomic profiling of prostate cancer cells cultured with bone cells, we demonstrate the changing energy requirements of prostate cancer cells in the bone microenvironment, identifying the pentose phosphate pathway (PPP) as elevated in prostate cancer bone metastasis, with increased expression of the PPP rate-limiting enzyme glucose-6-phosphate dehydrogenase (G6PD) associated with a reduction in progression-free survival. Genetic and pharmacologic manipulation demonstrates that G6PD inhibition reduces prostate cancer growth and migration, associated with changes in cellular redox state and increased chemosensitivity. Genetic blockade of G6PD in vivo results in reduction of tumor growth within bone. In summary, we demonstrate the metabolic plasticity of prostate cancer cells in the bone microenvironment, identifying the PPP and G6PD as metabolic targets for the treatment of prostate cancer bone metastasis.</p>",
+                "submissionDate": "2021-12-13",
+                "publicReleaseDate": "2024-08-19",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Jessica",
+                        "lastName": "Whitburn",
+                        "email": "jesswhitburn@gmail.com",
+                        "affiliation": "Urology SpR",
+                        "address": "The Botnar Center, Headington, Oxford",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "07868716871",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Study Author",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C70965"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "prostate cancer",
+                        "termSource": {
+                            "comments": [],
+                            "name": "DOID",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/DOID_10283"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Metastatic Bone Disease",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C176946"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Stroma of bone marrow",
+                        "termSource": {
+                            "comments": [],
+                            "name": "UBERON",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/UBERON_0007195"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "capillary electrophoresis-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000702"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Metabolic profiling of prostate cancer in skeletal microenvironments identifies G6PD as a key mediator of growth and survival.",
+                        "authorList": "Whitburn J, Rao SR, Morris EV, Tabata S, Hirayama A, Soga T, Edwards JR, Kaya Z, Palmer C, Hamdy FC, Edwards CM.",
+                        "pubMedID": "35213227",
+                        "doi": "10.1126/sciadv.abf9096",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Stromal co-culture",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "stromal cell",
+                            "termSource": {
+                                "comments": [],
+                                "name": "BTO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/BTO_0002064"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Replicate",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "replicate",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000683"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Cell culture</strong></p><p>Prostate cancer (PC3) and bone marrow stromal cells (HS5, 2T3 or ST2) were seeded at a density of 5 x 10^5 in 6 well plates or transwell filters (0.4 \u00b5m pore size; Cat. 3412, Corning) and cultured in RPMI 1640 medium (Sigma, Cat. R0883) supplemented with 10% fetal bovine serum (FBS) (Cat. FCS-SA, Labtech), 1% L-glutamine (Cat. G7513, Sigma), 1% penicillin/streptomycin (Cat. P0781, Sigma), 1% vitamins (Cat. 11120-037, Gibco), 1% sodium pyruvate (S8636, Sigma), 1% non-essential amino acids (Cat. M7145, Sigma) (complete RPMI medium). After 24 h cells were washed in 1x phosphate buffered saline (PBS) and harvested for analysis.</p><p><br></p><p><strong>Capillary electrophoresis mass spectrometry analysis</strong></p><p>Capillary electrophoresis mass spectrometry analysis was performed at the Institute for Advanced Biosciences, Keio University, Tsuruoka, Japan, under the supervision of T.S. The concentrations of all the charged metabolites were measured by capillary electrophoresis time-of-flight mass spectrometry (Agilent Technologies, Palo Alto, CA, USA) using the methods described previously<strong>[1][2]</strong>.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Soga T, Igarashi K, Ito C, Mizobuchi K, Zimmermann HP, Tomita M. Metabolomic profiling of anionic metabolites by capillary electrophoresis mass spectrometry. Anal Chem. 2009 Aug 1;81(15):6165-74. doi:10.1021/ac900675k. PMID:19522513.</p><p><strong>[2]</strong> Soga T, Ohashi Y, Ueno Y, Naraoka H, Tomita M, Nishioka T. Quantitative metabolome analysis using capillary electrophoresis mass spectrometry. J Proteome Res. 2003 Sep-Oct;2(5):488-94. doi:10.1021/pr034020m. PMID:14582645.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Cells were washed twice with 5% mannitol solution and covered with 700 \u00b5L of methanol containing 25 \u00b5M internal standards [20 \u03bcM each of methionine sulphone, 2-(N-morpholino)-ethanesulphonic acid (MES) and D-Camphor-10-sulphonic acid (CSA)] for 10 min. The resulting extracts were mixed with 200 \u00b5L of Milli-Q water and 400 \u00b5L of chloroform and centrifuged at 4600 x g for 15 min at 4 \u00b0C. Then 400 \u00b5L of the aqueous phase of the sample solution was subjected to ultrafiltration through a 5 kDa cut-off filter (Human metabolome Technologies) to remove proteins. The filtrate was centrifugally concentrated and dissolved in 25 \u03bcL Milli-Q water that contained reference compounds (200 \u03bcM each of 3-aminopyrrolidine and trimesate) immediately prior to metabolome analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Capillary Electrophoresis",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Capillary Electrophoresis",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Cationic metabolites were separated through a fused-silica capillary (50 \u03bc\ufeffm i.d. x 100 cm) filled with 1 mol/L formic acid as electrolyte, and a methanol/water (50%, v/v) containing 0.1 \u03bcmol/L hexakis(2,2-difluoroethoxy)phosphazene was delivered as sheath liquid at a rate of 10 \u03bcL/min. The capillary temperature was maintained at 20 \u00b0C. The sample solution was injected at 5 kPa for 3 s, and the separation voltage was set at 30 kV. Anionic metabolites were separated through a COSMO(+) capillary (50 \u03bcm i.d. x 105 cm, Nacalai Tesque, Kyoto, Japan) filled with 50 mmol/L ammonium acetate (pH 8.5) as electrolyte, and an ammonium acetate (5 mmol/L) in 50% (v/v) methanol/water containing 0.1 \u03bcmol/L hexakis(2,2-difluoroethoxy)phosphazene was delivered as sheath liquid at a rate of 10 \u03bcL/min. The sample solution was injected at 5 kPa for 30 s, and -30 kV was applied to sample separation.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "CE Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For cationic metabolites analysis, ESI-TOF-MS was conducted in the positive ion mode, and the capillary, fragmentor, skimmer and Oct RF voltages were set at 4000, 75, 50 and 125 V, respectively. Nebulizer gas pressure was configured at 7 psig and the heated nitrogen gas (300 \u00b0C) was supplied at a rate of 10 L/min. For anionic metabolites analysis, ESI-TOF-MS was conducted in the negative ion mode, and the capillary, fragmentor, skimmer and Oct RF voltages were set at 3500, 100, 50 and 200 V, respectively. Other conditions were identical for cationic metabolite analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Raw data were processed using our proprietary automatic integration software (MasterHands)<strong>[1][2]</strong>.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Sugimoto M, Wong DT, Hirayama A, Soga T, Tomita M. Capillary electrophoresis mass spectrometry-based saliva metabolomics identified oral, breast and pancreatic cancer-specific profiles. Metabolomics. 2010 Mar;6(1):78-95. doi:10.1007/s11306-009-0178-y. Epub 2009 Sep 10. PMID:20300169.</p><p><strong>[2]</strong> Sugimoto M, Kawakami M, Robert M, Soga T, Tomita M. Bioinformatics Tools for Mass Spectroscopy-Based Metabolomic Data Processing and Analysis. Curr Bioinform. 2012 Mar;7(1):96-108. doi:10.2174/157489312799304431. PMID:22438836.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Analysis was performed using MasterHands Software (v2.13.0.8h, Keio University). Each peak was identified by matching m/z values and normalized migration times of corresponding authentic standard compounds.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Capillary electrophoresis MS - positive",
+                        "filename": "a_MTBLS3973_CE-MS_positive__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Capillary electrophoresis MS - negative",
+                        "filename": "a_MTBLS3973_CE-MS_negative__metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

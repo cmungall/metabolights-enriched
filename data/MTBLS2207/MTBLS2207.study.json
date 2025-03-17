@@ -1,0 +1,537 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2021-04-29T00:00:00",
+        "statusUpdateTime": "2021-04-29T17:59:05.076330",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS2207",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2020-11-02",
+        "publicReleaseDate": "2021-04-29",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS2207",
+                "filename": "s_MTBLS2207.txt",
+                "title": "Improving Metabolite Identification with DecoID for Database-Assisted Deconvolution of Metabolomic MS/MS Spectra",
+                "description": "<p>Chimeric MS/MS spectra contain fragments from multiple precursor ions and therefore hinder compound identification in metabolomics. Historically, deconvolution of these chimeric spectra has been challenging and relied upon specific experimental methods that introduce variation in the ratios of precursor ions between multiple MS/MS scans. DecoID introduces a complementary, method-independent approach where database spectra are computationally mixed to match an experimentally acquired spectrum using LASSO regression. When applied to human plasma, DecoID increased the number of identified metabolites by over 30%.</p>",
+                "submissionDate": "2020-11-02",
+                "publicReleaseDate": "2021-04-29",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Gary",
+                        "lastName": "Patti",
+                        "email": "gjpattij@wustl.edu",
+                        "affiliation": "Washington University in St. Louis",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "J",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Data-Independent Acquisition",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C161786"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Data-Dependent Acquisition",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C161785"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Software Development",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C67226"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Improving Metabolite Identification with DecoID for Database-Assisted Deconvolution of Metabolomic MS/MS Spectra",
+                        "authorList": "Ethan Stancliffe, Michaela Schwaiger-Haber, Miriam Sindelar, Gary J. Patti",
+                        "pubMedID": "34239103",
+                        "doi": "10.1038/s41592-021-01195-3",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Sample origin",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Sample origin",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1.0",
+                                "description": "Metabolights Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/placeholder"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Mass Spectrometry Metabolite Library (IROA Technologies) was purchased from Sigma-Aldrich (St. Louis, MO). The metabolite standards of plates 1-6 were reconstituted according to the protocol from IROA. An aliquot of each well was taken to prepare a pool. After drying in a vacuum concentrator, the standard mixture was reconstituted in 50% acetonitrile, 50% water to yield a final concentration of approximately 5-10 \u00b5M (dependent on the molecular weight).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Standard Reference Material SRM 1950 (frozen human plasma) was ordered from the National Institute of Standards and Technology (NIST). It was extracted with 80% ethanol (1:10 dilution), kept at -20 \u00b0C for 1 h, and centrifuged (14,000 x g, 10 min, 4 \u00b0C). The supernatant was directly used for LC/MS analysis.&nbsp;</p><p><br></p><p>An additional standard mix containing 81 metabolites was prepared for the spike-in experiments (see <strong>Table S7</strong> in the paper associated with this study). Dried unlabeled metabolite yeast extract from P. pastoris was purchased from Cambridge Isotope Laboratories (CIL). It was reconstituted in 1 ml water and diluted 1:20 in 50% acetonitrile. Dried unlabeled E. coli extract was obtained as part of the credentialed E. coli kit from CIL. It was reconstituted in 100 \u03bcl of 50% acetonitrile. Pooled human plasma was purchased from Innovative Research, Inc (Novi, MI, USA), extracted with 80% methanol, and incubated at -20 \u00b0C for 1 h. All 3 extracts were then centrifuged (14,000 x g, 10 min, 4 \u00b0C) and spiked with the metabolite standard mix to yield a final concentration of 10 \u03bcM (1:10 dilution) prior to analysis. Only the portion of the spiked-in standards not used for parameter optimization were used to evaluate performance in the spike-in datasets.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Liquid chromatography was performed with a SeQuant ZIC-pHILIC column (100 x 2.1 mm, 5 \u03bcm, polymer, including a guard column 20 x 2.1 mm, 5 \u03bcm, polymer, Merck-Millipore). Mobile phase A was 95% water, 5% acetonitrile with 20 mM ammonium bicarbonate, 0.1% ammonium hydroxide (25% ammonia in water) and 2.5 \u03bcM medronic acid. Mobile phase B was 95% acetonitrile, 5% water (v/v) and 2.5 \u03bcM medronic acid. Medronic acid and/or phosphate alone has been shown to improve peak shapes<strong>[1]</strong>. A Vanquish Horizon UHPLC system (Thermo Fisher Scientific) was used at a flow rate of 0.250 ml/min and 40 \u00b0C. The following linear gradient was applied: 0-1 min 90% B, 1-14 min decrease to 25% B, 14-14.5 min 25% B, 15 min 90% B for re-equilibration until 22 min. The flow rate was increased to 0.400 ml/min from 15.5-20 min. The samples were kept at 6 \u00b0C in the autosampler, and the injection volume was 2 \u03bcl.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> Spalding JL, Naser FJ, Mahieu NG, Johnson SL, Patti GJ. Trace Phosphate Improves ZIC-pHILIC Peak Shape, Sensitivity, and Coverage for Untargeted Metabolomics. J Proteome Res. 2018 Oct 5;17(10):3537-3546. doi: 10.1021/acs.jproteome.8b00487. PMID:30160483.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The LC system was coupled to an Orbitrap ID-X Tribrid mass spectrometer (Thermo Fisher Scientific) via electrospray ionization in positive and negative mode with a spray voltage of 3.5 and 2.8 kV, respectively. The RF lens value was 60%. Data were acquired in data-dependent acquisition (DDA) mode and data-independent acquisition (DIA) mode with a mass range of 67-900 m/z. For DDA, an inclusion list with the m/z values ([M+H]+ for positive mode, [M-H]- for negative mode) for the standard mixture compounds was used. MS1 scans were acquired at a resolution of 120K with an automatic gain control (AGC) target of 2e^5 and a maximum injection time of 200 ms. Different isolation windows of 1, 3, and 5 m/z were used. A normalized collision energy (NCE) of 40% was used. Data were acquired with 15K resolution, an AGC target of 2.5e^4, and a maximum injection time of 50 ms. For DIA, full scans with 60K resolution, an AGC target of 2e^5, and a maximum injection time of 100 ms were acquired. The isolation windows for fragmentation were 20 m/z, the collision energy (NCE) 40%, the resolution 15K, the AGC target 4e^5, and the maximum injection time 22 ms. All isolation windows used for the datasets analyzed can be found in <strong>Table S5</strong> in the paper associated with this study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Raw data was converted to .mzML using MS-convert with vendor centroiding of MS1 and MS2 spectra.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Data in this study is used as validation of a metabolite identification workflow (see the paper associated with this study for more details). Metabolite IDs were performed with MS1 and MS2 matching. The list of IROA metabolites detected in both polarities, along with their retention times, is available in <strong>Table S6</strong> in the paper associated with the study.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS2207_LC-MS_positive_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - hilic",
+                        "filename": "a_MTBLS2207_LC-MS_negative_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

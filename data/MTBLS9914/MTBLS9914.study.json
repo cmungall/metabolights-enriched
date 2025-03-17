@@ -1,0 +1,655 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2024-04-30T00:00:00",
+        "statusUpdateTime": "2024-04-30T15:20:07.279850",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS9914",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "10/04/2024",
+        "publicReleaseDate": "30/04/2024",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "132",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1",
+                "description": "Metabolights Ontology"
+            },
+            {
+                "comments": [],
+                "name": "SIO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CL",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS9914",
+                "filename": "s_MTBLS9914.txt",
+                "title": "Cell of origin epigenetic priming determines susceptibility to Tet2 mutation",
+                "description": "<p>Hematopoietic stem cell (HSC) mutations can result in clonal hematopoiesis (CH) with heterogeneous clinical outcomes. Here, we investigated how the cell state preceding <em>Tet2</em> mutation impacts the pre-malignant phenotype. Using an inducible system for clonal analysis of myeloid progenitors, we found that the epigenetic features of clones at similar differentiation status were highly heterogeneous and functionally responded differently to <em>Tet2</em> mutation. Cell differentiation stage also influenced <em>Tet2</em> mutation response indicating that the cell of origin's epigenome modulates clone-specific behaviors in CH. Molecular features associated with higher risk outcomes include <em>Sox4</em> that sensitized cells to <em>Tet2</em> inactivation, inducing dedifferentiation, altered metabolism and increasing the <em>in vivo</em> clonal output of mutant cells, as confirmed in primary GMP and HSC models. Our findings validate the hypothesis that epigenetic features can predispose specific clones for dominance, explaining why identical genetic mutations can result in different phenotypes.</p>",
+                "submissionDate": "10/04/2024",
+                "publicReleaseDate": "30/04/2024",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Giulia",
+                        "lastName": "Schiroli",
+                        "email": "gschiroli@mgh.harvard.edu",
+                        "affiliation": "Massachusetts General Hospital",
+                        "address": "185 Cambridge Street, Boston 02114",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Christina",
+                        "lastName": "Mayerhofer",
+                        "email": "cmayerhofer@fas.harvard.edu",
+                        "affiliation": "Harvard University",
+                        "address": "7 Divinity Avenue, Cambridge, MA 02138",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "David",
+                        "lastName": "Scadden",
+                        "email": "dscadden@mgh.harvard.edu",
+                        "affiliation": "Massachusetts General Hospital",
+                        "address": "185 Cambridge Street, Boston 02114",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Principal Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C19924"
+                            }
+                        ]
+                    },
+                    {
+                        "comments": [],
+                        "firstName": "Charles",
+                        "lastName": "Vidoudez",
+                        "email": "vidoudez@fas.harvard.edu",
+                        "affiliation": "Harvard University",
+                        "address": "7 Divinity Avenue Cambridge 02138",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Co-Investigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C51812"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000715"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "clonal hematopoiesis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "132",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0010819"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Cell of origin epigenetic priming determines susceptibility to<i>Tet2</i>mutation",
+                        "authorList": "Schiroli Giulia, Kartha Vinay, Duarte Fabiana M., Kristiansen Trine A., Mayerhofer Christina, Shrestha Rojesh, Earl Andrew, Hu Yan, Tay Tristan, Rhee Catherine, Buenrostro Jason D., Scadden David T.",
+                        "pubMedID": "",
+                        "doi": "10.1101/2023.09.04.556230",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Preprint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "MTBLS",
+                                "file": "https://www.ebi.ac.uk/metabolights/",
+                                "version": "1",
+                                "description": "Metabolights Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000004"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Cell",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "cell",
+                            "termSource": {
+                                "comments": [],
+                                "name": "CL",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/CL_0000000"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Genotype",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "genotype",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "132",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000513"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Cell lines</strong></p><p>HoxB8 retrovirus fused to Estrogen Receptor domain (Hoxb8-ER) conditionally immortalized clones were generated at Massachusetts General Hospital and maintained in RPMI medium (Thermo Fisher) supplemented with 1% Penicillin/Streptomycin, 1% Glutamine, 0.5 \u03bcM beta-estradiol (Sigma, E2758) and conditioned media containing different cytokines. For the neutrophil-biased cells, media contained approximately 100 ng/mL SCF (generated from a Chinese hamster ovary cell line that stably secretes SCF), whereas for macrophage progenitors GM-CSF 10 ng/mL (Peprotech). Hoxb8-ER cultures were kept in a 5% CO2 humidified atmosphere at 37 \u00b0C. 293T cell line used for retroviral and lentiviral production was obtained from ATCC (CRL-3216).</p><p><br></p><p><strong>Primary cells</strong></p><p>For bone marrow (BM) transplant studies, primary mouse Lin- Kit+ Sca+ cells were seeded at the concentration of 5 x 10^5 cells/mL in serum-free StemSpan medium (StemCell Technologies) supplemented with 1% Penicillin/Streptomycin, 1% Glutamine, and mouse early-acting cytokines (mSCF 100 ng/mL, mFlt3-L 100 ng/mL, mTPO 50 ng/mL and mIL-6 20 ng/mL; all purchased from Peprotech). For PVA-expansion studies, Lin- Kit+ Sca+ Cd150+ Cd48- Epcr+ cells were seeded in 1X Ham\u2019s F-12 Nutrient Mix liquid media (Gibco), supplemented with 1 M HEPES (Gibco), 1% Penicillin/Streptomycin/Glutamine, 1% ITSX (Gibco), mSCF 10 ng/mL, mTPO 100 ng/mL (Peprotech), 1 mg/mL PVA (Millipore Sigma). Further details are provided in the following sections. Hematopoietic stem cells (HSC) cultures were kept in a 5% CO2 humidified atmosphere at 37 \u00b0C.</p><p><br></p><p><strong>Generation of HOXB8-ER clones</strong></p><p>Immortalization of murine BM cells with Hoxb8-ER was done as previously described<strong>[1]</strong> with the following modifications. Filtered BM cells were layered over Ficoll-Plaque-Plus (GE Healthcare Biosciences), and centrifuged at 400 x g for 25 min at RT without break to enrich for mononuclear cells. Cells were incubated in a 6-well tissue culture plate for 48 h at 37 \u00b0C with 5% CO2 prior to the retroviral transduction in RPMI (RPMI-1640, Corning) with 10% 2 mM L-glutamine and 100 U penicillin/streptomycin (all from Thermo Fisher), supplemented with 20 ng/mL stem cell factor (mSCF), 10 ng/mL interleukin-764 3 (mIL-3) and 10 ng/mL interleukin-6 (mIL-6). Non-adherent cells were harvested and 5 x 10^5 cells were plated onto a 12-well tissue culture plate (Corning) coated with 10 mg/mL human fibronectin (Sigma). 1 mL of ecotropic retrovirus encoding MSCVneo-HA-ER-Hoxb8 was applied in the presence of 8 mg/mL polybrene and spinoculation was performed at 1000 x g for 60 min at RT. After transduction cells were maintained in RPMI supplemented with 0.5 \u03bcM beta-estradiol (Sigma, E2758) and conditioned media containing approximately 100 ng/mL SCF for the generation of neutrophil-biased cells or GM-CSF 10 ng/mL (Peprotech) for the generation of macrophage progenitors. Antibiotic selection was performed by adding G418 at 1 mg/mL final concentration until untransduced control cells the control were not viable (usually ~7 days). After selection, cells were FACS sorted into 96 well plates with culture media for the generation of single cell clones. For generation of Tet2 KO lines, each clone was transduced with integrase-defective lentiviral vector encoding for Cre recombinase or GFP as control at a Multiplicity of Infection (MOI) of 200.</p><p><br></p><p><strong>Metabolomics Analysis</strong></p><p>Briefly, HOXB8 Granulocytic-Monocytic Progenitors (GMP) clones were grown in RPMI medium supplemented with 1% Penicillin/Streptomycin, 1% Glutamine, 0.5 \u03bcM beta-estradiol and CHO conditioned media containing ~100 ng/mL SCF. HSC samples were collected from the BM of primary transplanted mice. Lineage negative cells were pre-enriched using Lineage depletion kit (Miltentyi) and Lin- Kit+ Sca+ cells were FACS-sorted. For metabolomics analysis, at least 3 biological replicates were used for each GMP clones and primary sorted HSC samples from mouse BM.</p><p><br></p><p><strong>Ref:</strong></p><p><strong>[1]</strong> Wang GG, Calvo KR, Pasillas MP, Sykes DB, H\u00e4cker H, Kamps MP. Quantitative production of macrophages or neutrophils ex vivo using conditional Hoxb8. Nat Methods. 2006 Apr;3(4):287-93. doi:10.1038/nmeth865. PMID:16554834.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>GMP clones samples were pelleted and lysed by adding 100 \u03bcL ice-cold 80% methanol in water and polar metabolites were extracted using a methanol:chloroform phase separation (1 mL methanol containing 2.5 \u03bcM of an internal standard (fully 13C-, 15N-labeled amino acid mix; Cambridge Isotope Laboratories), 500 \u03bcL water and 1 mL chloroform). The samples were mixed on shaker at 4 \u00b0C for 15 min and centrifuged at 5000 x g 15 min at 4 \u00b0C. The aqueous phase was recovered and dried under nitrogen flow and resuspended in 30% acetonitrile in water, with a volume scaled to the extracted cell number (i.e., 30 \u03bcL was used for the highest cell number samples and was scaled for each sample). In total 14 \u03bcL of each sample was transferred to glass microinserts and used for MS1 runs. The rest of each sample was combined to create a pool sample for MS2/MS3 acquisition.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Samples were run a Vanquish LC coupled to an ID-X mass spectrometer (Thermo Electron North America, Madison, WI, USA). A volume of 5 \u03bcL was injected on a ZIC-pHILIC column (150 x 2.1 mm, 5 micron particles; Merck). The flow rate was 0.15 mL/min, except for the first 30 s where it was ramped from 0.05 mL/min to 0.15 mL/min. The mobiles phase were 20 mM ammonium carbonate in water with 0.1% ammonium hydroxide for A and acetonitrile 97% in water for B. The gradient consisted of an isocratic step of 0.5 min at 93% B, then a gradient to 40% B in 18.5 min, then to 0% B in 9 min, followed by an isocratic step at 0% B for 5 min and back to 93% B in 3 min. The column was re-equilibrated at 93% B for 9 min. The same LC method was used for all LC-MS runs.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The liquid chromatographic system was coupled to a ID-X tribrid Mass spectrometer (Thermo Electron North America, Madison, WI, USA) fitted with an electrospray source (ESI). For MS1 only run, data was acquired in MS1 full-scan with polarity-switching, resolution 120,000, RF lens 30%, normalized AGC target 25%, max IT 50 ms, range 65-1000 m/z. The mass accuracy was within a 3 ppm range. Internal calibration was used. For MS2/3 runs (on the pool sample), data was acquired using AquireX deepscan with 5 repetitions (in data-dependent mode), separately, in each polarity (to aquire as many MS2/3 spectra as possible). Data dependent MS2 was acquired with a 1.5 m/z isolation window, HCD assisted collision (selecting the best energy from 15, 25, 45 and 65) and analyzing the resulting fragments in the orbitrap with a 30,000 resolution. Data dependent MS3 was acquired on the top 3 fragments using a 40% CID fragmentation and analyzing the fragment in the orbitrap at 15,000 resolution. Samples were analyzed in MS1 only. First a solvent blank and an injection of the pool were run, acquiring only MS1 data. All peaks found in the blank were added to an exclusion list. All peak found in the Pool sample were added to an inclusion list. The pool sample was then reinjected and analyzed in MS2/3 mode, in positive and negative mode separately, using the inclusion and exclusion lists to select the ions to fragment. All peaks that were fragmented in the run were then added to the exclusion list and removed from the inclusion list. The sample was reinjected a total 4 times to achieve as much MS2/3 coverage as possible (DeepScan mode for AquireX). For the targeted analysis, a standard mix at 1 \u03bcM of each target was prepared and run after the samples to confirm retention times.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>For untargeted analysis, Compound Discoverer (CD, version 3.3, Thermofisher Scientific) was used to generate a list of compounds (monoisotopic molecular weight and RT couples, peaks were detected, de-adducted, combined from positive and negative mode) and to integrate the corresponding area. MS2/3 data from the pool samples were associated with the corresponding peaks. If a compound in samples was always less than 5 fold the average intensity in the blanks, it was removed from the results. Data was gap filled by reintegrating peaks or local noise for samples where a peak was not original detected. Intensities were median centered by sample. Targeted metabolite measurements were normalized to the internal 13C/15N-labelled amino acid standard. For untargeted metabolomics functional analysis, area and m/z (as [M+H]+ adducts calculated from the monoisotopic masses generated in CD) were processed using Metaboanalyst 5.0 software. Positive ion mode, 5.0 ppm tolerance and retention time (min) were provided as input parameters. Mouse KEGG database was used for Mummichog Pathway Analysis. For all files, msConvert (ProteoWizard) was used to generate the mzML files, with peak picking selected to centroid the data.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Compounds were identified in Compound Discoverer, and based on the MS2/3 data acquired on the pool sample. Fragmentation spectra were searched against an internal library (with matching retention time, to generate level 1 identification) and mzCloud (to generate level 2 and level 3 identifications). All identifications were manually inspected / curated. Basic stereochemistry was removed from most identification from the databases results. Each identification is associated with a level of confidence (below).</p><p><br></p><p><strong>Level 1</strong>: Identification was based first on an internal mzVault (MS2) library with matching retention time created using authentic standards.</p><p><strong>Level 2</strong>: Identification was based secondly on matches (based on MS trees) with the online mzCloud database.</p><p><strong>Level 3</strong>: No good identification was obtained by library match, however some information was obtained from the MS2 or there was a retention&nbsp;time match with a standard without MS2 match. The name contains the description.</p><p><strong>Level 4</strong>: For the other compounds, compound discoverer calculated the formulae based on the observed m/z within 3 ppm. Formulae were ranked based on ppm, distribution of the natural isotopes and fragments if available. The top formula was assigned then automatically based on a combined score.</p><p><strong>Level 5</strong>: This was assigned to compounds where no formula could be calculated.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - alternating - hilic",
+                        "filename": "a_MTBLS9914_LC-MS_alternating_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS9914_LC-MS_positive_hilic_metabolite_profiling-1.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - hilic",
+                        "filename": "a_MTBLS9914_LC-MS_negative_hilic_metabolite_profiling-1.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

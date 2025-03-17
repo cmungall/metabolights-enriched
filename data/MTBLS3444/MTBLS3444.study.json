@@ -1,0 +1,530 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2022-01-14T00:00:00",
+        "statusUpdateTime": "2022-01-14T12:45:41.232597",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS3444",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2021-09-09",
+        "publicReleaseDate": "2022-01-14",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "DOID",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EDAM",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS3444",
+                "filename": "s_MTBLS3444.txt",
+                "title": "Serum lipidomics study looking for specific endometrial polyps biomarkers distinguishing from endometrial cancer or hyperplasia",
+                "description": "<p>Endometrial diseases are common gynecological diseases that disorder women of childbearing age and perimenopausal women, including endometrial polyps (EP),&nbsp;endometrial cancer (EC), and endometrial hyperplasia (EH). Clinically, biopsy or imaging methods are usually used to screen and diagnose endometrial diseases, but due to their invasiveness and heterogeneity, a noninvasive, convenient, objective and accurate biomarker is needed for the differential diagnosis of EP and EC or EH. In the present study, serum samples from 396 patients with endometrial disease and 225 healthy volunteers were analyzed by UPLC-Q-TOF/MS non-targeted lipidomics. A combination of multivariate (Orthogonal partial least-squares discriminant analysis) and univariate (Student t-test) analyses were used to identify and qualify 6, 8, and 7 potential biomarkers in serum from patients with EP, EC, and EH, respectively.&nbsp;With the aid of logistic regression algorithm and receiver operating characteristic (ROC) curve analysis, A biomarker panel including four specific EP biomarkers, 6-Keto-PGF1\u03b1, PA(37:4), LysoPC(20:1) and PS (36:0), had good classification and diagnostic ability in distinguishing EP from EC or EH. The biomarker panel can be used as a rapid diagnostic method to assist imaging examination to effectively differentially diagnose endometrial diseases, and provide a reference for clinicians in the identification and diagnosis of endometrial diseases.&nbsp;</p>",
+                "submissionDate": "2021-09-09",
+                "publicReleaseDate": "2022-01-14",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Yubo",
+                        "lastName": "Li",
+                        "email": "yaowufenxi001@sina.com",
+                        "affiliation": "Tianjin University of Traditional Chinese Medicine",
+                        "address": " No. 10 Poyang Lake Road, West Zone, Tuanbo New City, Jinghai District, Tianjin, China.",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Corresponding Author indicator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C164481"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Endometrial Disorder",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C3504"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C153193"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Biomarkers",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EDAM",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://edamontology.org/topic_3360"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "quadrupole time-of-flight mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002719"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "ultra high performance liquid chromatography",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000795"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Serum lipidomics study looking for specific endometrial polyps biomarkers distinguishing from endometrial cancer or hyperplasia",
+                        "authorList": "Xingxu Yan, Wen Zhao, Jinxia Wei, Yaqi Yao, Guijiang Sun, Lei Wang, Wenqing Zhang, Siyu Chen, Wenjie Zhou, Huan Zhao, Xiaomeng Li, Yu Xiao, Yubo Li",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Disease",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "disease",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000408"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Cohort Study",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Cohort Study",
+                            "termSource": {
+                                "comments": [],
+                                "name": "NCIT",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/NCIT_C15208"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Participants and serum collection</p><p>All of the 551&nbsp;serum samples were collected from the Second Hospital of Tianjin Medical University and Fu Xing Hospital, Capital Medical University between 2019 and 2020. In this study, serum samples were first collected from a discovery set of 95 subjects in the Second Hospital of Tianjin Medical University.&nbsp;Subsequently, it was extended to Fu Xing Hospital, Capital Medical University, and 456 serum samples of validation set were collected.&nbsp;</p><p>&nbsp;</p><p>The inclusion criteria of the disease patients were as follows: (1) The patient was diagnosed by postoperative histopathology and their preoperative serum samples were collected; (2) The patient had detailed and complete medical record information such as age, menstruation, past medical history, and family medical history. The inclusion criteria of the HC volunteers were as follows: All indicators of physical examination were normal (such as hematuria routine, liver and kidney function and other laboratory tests).</p><p>&nbsp;</p><p>The exclusion criteria of the disease patients were as follows: (1) The patient Identified known congenital diseases; (2) The patient had a history of uterine surgery (except cesarean section or cervical conization), endometrial ablation, or uterine artery embolization; (3) The patient had a history of infections of the reproductive system, malignant or potentially malignant tumors, major chronic diseases, and metabolic diseases; (4) The patient received hormone replacement therapy within 3 months before surgery; (5) Women who were pregnant, breastfeeding or cannot rule out pregnancy. The exclusion criteria for the HC volunteers were as follows: (1) There were no related gynecological diseases, chronic diseases and metabolic diseases such as diabetes, etc; (2) There were no family genetic diseases and infectious diseases.</p><p>&nbsp;</p><p>The pathological diagnostic criteria for EP referred to the 2012 American Association of Gynecologic Laparoscopists (AAGL) diagnosis and treatment practice guidelines. The diagnostic criteria for EC referred to the 2014 World Health Organization (WHO) classification of female reproductive tract tumors and the 2015 International Federation of Gynecology and Obstetrics (FIGO) standards. For EH, referred to the guidelines for the management of EH jointly issued by the Royal College of Obstetricians and Gynecologists (RCOG) and the British Society of Gynecological Endoscopy (BSGE) in 2016.</p><p>&nbsp;</p><p>The study was approved by the ethics committee of the Fu Xing Hospital, Capital Medical University, and conducted under the 1964 Helsinki declaration and its later amendments or comparable ethical standards. Each participant signed an informed consent form. Trial registration: ChiCTR, ChiCTR1900027286.</p><p>&nbsp;</p><p>The samples used were collected from blood samples of gynecological patients and health control (HC) volunteers, and centrifuged at 3,500 rpm/min at 4 \u00b0C for 15 min within 2 h, and then centrifuged the supernatant removed at 4 \u00b0C for 8 min. Finally, after taking out the supernatant and divided it into 2 mL cryotubes, it was ensured that at least 1 mL is present in each sample tube, and stored at \u221280 \u00b0C until analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>In order to extract lipid metabolites from the serum, 320 \u03bcL&nbsp;of solvent mixture (CH2CL2/methanol 3:1) was added to 80 \u03bcL&nbsp;of serum sample, vortex mixing for 60 s. Then centrifuged at 11,000 rpm for 10 min, and take 80 \u03bcL&nbsp;of the lower organic layer and dry it under nitrogen at room temperature. 160 \u03bcL&nbsp;of solvent mixture (acetonitrile/isopropanol 1:1) were added then vortexed for 60 s, followed by centrifugation at 11,000 rpm for 5 min before taking 120 \u03bcL&nbsp;of supernatant for lipidomics analysis.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>We used Waters ACQUITY UPLC (Waters Company, US) for lipidomics research, and chromatographic separation was performed on a ACQUITY UPLC BEH C18 column (2.1\u00d7100mm, 1.7\u03bcm, Waters Company, Milford, US). The injection volume was 2 \u03bcL and the column temperature was set to 50 \u00b0C. The flow rate was set to 0.25ml/min. The mobile phase composition included phase A: water: methanol: acetonitrile (3:1:1, containing 5mM ammonium formate), phase B: isopropanol (containing 10mM ammonium formate). UPLC elution gradient conditions: 0-0.5 min, 20% B; 0.5-5 min, 20-40% B; 5-15 min, 40-98% B; 15-17 min, 98% B; 17-17.1 min, 20% B.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Mass spectrometry conditions of the Xevo G2 Q-Tof used an electrospray ionization (ESI) to perform detection and analysis in the positive ion mode. Capillary voltage: 3.0kV. Desolvent gas flow rate: 800L/h. Ion source temperature: 120 \u00b0C. Desolvent gas temperature: 4,000 \u00b0C. Cone voltage: 40 V. Cone hole blow back nitrogen flow rate: 50 L/h. Scan range: <em>m/z</em> 50-1000. The auxiliary spray and solvent removal gas was high-purity nitrogen.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>Masslynx </strong>(<strong>Version 4.1</strong>, Waters, US) software was used to identify chromatographic peaks from the data collected by UPLC-Q-TOF/MS non-targeted lipidomics, and obtained the total number of ions after the normalization of the intensity of each ion, which can form original data including retention time, m/z values and normalized peak area. Mass error: 0.01 Da; retention time error: 0.5 min; S/N = 6. After 80% reduction, the missing values were filled by K nearest neighbour method (the number of nearest neighbours was 5).</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p><strong>SIMCA </strong>software (<strong>Version 14.1</strong>, Umetrics, Sweden) was used to model with principal component analysis&nbsp;(PCA)&nbsp;and&nbsp;orthogonal partial least-squares discriminant analysis (OPLS-DA), and the established models were evaluated by examining R2X, Q2&nbsp;and R2Y parameters and performing replacement test. OPLS-DA variable contribution index-variable importance in projection (VIP)&nbsp;and t test (<strong>SPSS 26.0</strong>, IBM, US) showed significant index-p-value were used to screen the differential metabolic small molecules, and according to the secondary fragment information of metabolites, they were searched and checked in <strong>HMDB </strong>(<a href='http://www.hmdb.ca/' rel='noopener noreferrer' target='_blank'>http://www.hmdb.ca/</a>) database to determine the potential biomarkers of diseases.</p><p><br></p><p>PCA was first used to remove outlier samples. The discovery set excluded 1 healthy control group sample, 1 polyp group sample and 2 hyperplasia group samples, while the validation set excluded 29 healthy control group samples, 35 polyp group samples, 23 cancer group samples, 24 hyperplasia group samples and 23 intrauterine adhesion group samples. Then PLS-DA was used to determine the differential metabolites of different groups.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - reverse phase",
+                        "filename": "a_MTBLS3444_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

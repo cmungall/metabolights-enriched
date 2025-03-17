@@ -1,0 +1,728 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "MANUAL_CURATION",
+        "modifiedTime": "2016-11-25T17:39:23",
+        "statusUpdateTime": "2016-11-25T17:39:23",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": ""
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": ""
+            }
+        ],
+        "identifier": "MTBLS146",
+        "title": "BGI Investigation into pregnancy profiles",
+        "description": "",
+        "submissionDate": "2014-11-26",
+        "publicReleaseDate": "2015-03-03",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+                "version": "2",
+                "description": "National Center for Biotechnology Information (NCBI) Organismal Classification"
+            },
+            {
+                "comments": [],
+                "name": "CHMO",
+                "file": "http://data.bioontology.org/ontologies/CHMO",
+                "version": "12",
+                "description": "Chemical Methods Ontology"
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "http://data.bioontology.org/ontologies/EFO",
+                "version": "113",
+                "description": "Experimental Factor Ontology"
+            },
+            {
+                "comments": [],
+                "name": "BTO",
+                "file": "http://data.bioontology.org/ontologies/BTO",
+                "version": "20",
+                "description": "BRENDA Tissue and Enzyme Source Ontology"
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "21",
+                "description": "Ontology for Biomedical Investigations"
+            },
+            {
+                "comments": [],
+                "name": "UO",
+                "file": "http://data.bioontology.org/ontologies/UO",
+                "version": "42",
+                "description": "Units of Measurement Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "96",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MS",
+                "file": "http://data.bioontology.org/ontologies/MS",
+                "version": "86",
+                "description": "Mass Spectrometry Ontology"
+            },
+            {
+                "comments": [],
+                "name": "MTBLS",
+                "file": "https://www.ebi.ac.uk/metabolights/",
+                "version": "1.0",
+                "description": "Metabolights Ontology"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [
+                    {
+                        "name": "Study Funding Agency",
+                        "value": ""
+                    },
+                    {
+                        "name": "Study Grant Number",
+                        "value": ""
+                    }
+                ],
+                "identifier": "MTBLS146",
+                "filename": "s_MTBLS146.txt",
+                "title": "Pregnancy-Induced Metabolic Phenotype Variations in Maternal Plasma",
+                "description": "Metabolic variations occur during normal pregnancy to provide the growing fetus with a supply of nutrients required for its development and to ensure the health of the woman during gestation. Mass spectrometry-based metabolomics was employed to study the metabolic phenotype variations in the maternal plasma that are induced by pregnancy in each of its three trimesters. Nontargeted metabolomics analysis showed that pregnancy significantly altered the profile of metabolites in maternal plasma. The levels of six metabolites were found to change significantly throughout pregnancy, with related metabolic pathway variations observed in biopterin metabolism, phospholipid metabolism, amino acid derivatives, and fatty acid oxidation. In particular, there was a pronounced elevation of dihydrobiopterin (BH2), a compound produced in the synthesis of dopa, dopamine, norepinephrine, and epinephrine, in the second trimester, whereas it was markedly decreased in the third trimester. The turnover of BH2 and tryptophan catabolites indicated that the fluctuations of neurotransmitters throughout pregnancy might reveal the metabolic adaption in the maternal body for the growth of the fetus. Furthermore, 11 lipid classes and 41 carnitine species were also determined and this showed variations in the presence of long-chain acylcarnitines and lysophospholipids in later pregnancy, suggesting changes of acylcarnitines and lysophospholipids to meet the energy demands in pregnant women.",
+                "submissionDate": "2014-11-26",
+                "publicReleaseDate": "2015-03-03",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Hemi",
+                        "lastName": "Luan",
+                        "email": "hemi.luan@gmail.com",
+                        "affiliation": "Hong Kong Baptist University",
+                        "address": "",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "",
+                                "termSource": null,
+                                "termAccession": ""
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "pregnancy",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "http://data.bioontology.org/ontologies/EFO",
+                            "version": "113",
+                            "description": "Experimental Factor Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002950"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "high-performance liquid chromatography-mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "12",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "blood plasma",
+                        "termSource": {
+                            "comments": [],
+                            "name": "BTO",
+                            "file": "http://data.bioontology.org/ontologies/BTO",
+                            "version": "20",
+                            "description": "BRENDA Tissue and Enzyme Source Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/BTO_0000131"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Shotgun lipidomics",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000262"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "carnitine profiling",
+                        "termSource": null,
+                        "termAccession": ""
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "untargeted metabolites",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MTBLS",
+                            "file": "https://www.ebi.ac.uk/metabolights/",
+                            "version": "1.0",
+                            "description": "Metabolights Ontology"
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000279"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "tandem mass spectrometry",
+                        "termSource": {
+                            "comments": [],
+                            "name": "CHMO",
+                            "file": "http://data.bioontology.org/ontologies/CHMO",
+                            "version": "12",
+                            "description": "Chemical Methods Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000575"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "flow injection analysis",
+                        "termSource": {
+                            "comments": [],
+                            "name": "MS",
+                            "file": "http://data.bioontology.org/ontologies/MS",
+                            "version": "86",
+                            "description": "Mass Spectrometry Ontology"
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/MS_1000058"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Pregnancy-Induced Metabolic Phenotype Variations in Maternal Plasma",
+                        "authorList": "Hemi Luan, Nan Meng, Ping Liu, Qiang Feng, Shuhai Lin, Jin Fu, Robert Davidson, Xiaomin Chen, Weiqiao Rao, Fang Chen, Hui Jiang, Xun Xu, Zongwei Cai, Jun Wang",
+                        "pubMedID": "24450375",
+                        "doi": "10.1021/pr401068k",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "title": "Non-targeted metabolomics and lipidomics LC-MS data from maternal plasma of 180 healthy pregnant women.",
+                        "authorList": "Luan H, Meng N, Liu P, Fu J, Chen X, Rao W, Jiang H, Xu X, Cai Z, Wang J, Wang J.",
+                        "pubMedID": "25859341",
+                        "doi": "10.1186/s13742-015-0054-9",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Published",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Run order",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "Run order",
+                            "termSource": null,
+                            "termAccession": ""
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Batch number",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "block",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005067"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Pregnancy duration",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "timepoint",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000724"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Weight",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "body weight",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004338"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Height",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "body height",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004339"
+                        }
+                    },
+                    {
+                        "comments": [],
+                        "factorName": "Current chronological age",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "age",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "http://data.bioontology.org/ontologies/EFO",
+                                "version": "113",
+                                "description": "Experimental Factor Ontology"
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000246"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Venous blood was collected using Vacuette EDTA blood collection tubes in the morning before breakfast from all the participants, and then plasma samples were separated at 2200 x g for 5 min at 4 \u00b0C from vein blood and stored at \u221280 \u00b0C until use. Independent samples were collected for each subject in independent class instead of multiple collection for each subject, which more closely reflected pregnancy-related variability larger than intersubject changes in the general population.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "collection tube",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "physiology at collection",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Non-targeted metabolic profiling,:</br>\n50 \u03bcl of thawed plasma samples were collected and then precipitated by 200 \u03bcl of methanol. After centrifugation at 14000 x g for 10 min at 4 \u00b0C, the supernatant was transferred to a 1.5 ml polypropylene tube and 10 \u03bcl of the supernatant was injected into the HPLC\u2013MS. A 'quality control' (QC) sample was also prepared by mixing equal volumes (10 \u03bcl) from each plasma sample before sample preparation as they were aliquoted for analysis. This 'pooled' sample was used to estimate a 'mean' profile representing all the analytes encountered during the analysis.\n</p>\nShotgun lipidomics and carnitine profiling:</br>\n10 \u03bcl of plasma was placed in a 1 ml glass vial. Then 8 \u03bcl of the internal standards mixture consisting of ceramide (Cer, d18:1/17:0), phosphatidylserine (PS, 17:0), phosphatidylcholine (PC, 18:3), l-\u03b1-phosphatidylinositol (Soy PI), phosphoethanolamine (PE, 17:0), and phosphoglycerol (PG, 17:0) with a concentration of 10 \u03bcM for each lipid was added. Afterwards, 800 \u03bcl of chloroform/methanol/water (20:10:1, V/V/V) containing 300 mM ammonium acetate was added again and the mixture was vortexed. After centrifuging for 10 min at 14000 x g, 10 \u00b0C on a centrifuge (Eppendorf, Hamburg, Germany), 100 \u03bcl of the lower organic layer was diluted with 100 \u03bcl of methanol/chloroform (2:1, V/V) containing 10 mM ammonium acetate. The final mixture were transferred into a new vial and stored at -20 \u00b0C until analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Non-targeted Metabolic Profiling:</br>\nLC\u2013MS system was run in binary gradient mode. Solvent A was 0.1% (v/v) formic acid/water, and solvent B was 0.1% (v/v) formic acid/methanol. The flow rate was 0.2 ml/min. A C-18 column (150 mm \u00d7 2.1 mm, 3.5 \u03bcm, Agilent, USA) was used for all analysis. The gradient was as follows: 5% B at 0 min, 5% B at 5 min, 100% B at 8 min, 100% B at 9 min, 5% B at 18 min, and 5% B at 20 min. The pooled 'QC' sample was injected five times at the beginning of the run to ensure system equilibrium and then every 10 samples to further monitor the stability of the analysis.",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "LC\u2013MS data was acquired using Shimadzu Prominence HPLC system (Shimadzu) coupled online to a LTQ Orbitrap Velos instrument (Thermo Fisher Scientific, MA, USA) set at 30000 resolution (at m/z 400). Sample analysis was carried out in both positive and negative ion modes. The mass scanning range was 50\u20131500 m/z, and the capillary temperature was 350 \u00b0C. Nitrogen sheath gas was set at a flow rate of 30 l/min. Nitrogen auxiliary gas was set at a flow rate of 10 l/min. Spray voltage was set to 4.5 kV for positive ion mode and 3 kV for negative ion mode.\n</p>\nLipidome and carnitine profiling were detected by multiplexed precursor ion scanning (MPIS) analysis. First, 100 \u03bcl of final extract was loaded in a well of a 96-well plate (Eppendorf, Hamburg, Germany) and then sealed with aluminum foil. The final extracts were then analyzed using a QTRAP 5500 System equipped with a Shimadzu Prominence HPLC system (Shimadzu). Liquid chromatography and flow injection analysis\u2013mass spectrometry were employed to acquire the data. The electrospray source was operated in the positive ion mode. Optimized source parameters were: ionspray voltage 5.5 kV, source temperature 300 \u00b0C, curtain gas 30. Collision energies ranged from 25 to 30 V for various lipid species in precursor ion or neutral loss scan modes. Flow injections analysis was performed with a mixture of chloroform\u2013methanol\u201310 mM ammonium acetate in water (300/665/35, V/V/V) at a flow rate of 200 \u03bcl/min. Total analysis time per sample was 3.6 min. PC, PE, PS, PI, PG, Cer, and carnitines were monitored by consecutive positive ion mode PIS m/z 184.1, 141.0, 185.0, 277.0, 189.0, 264.2, and 85.1, respectively. ",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "mass resolution",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "run order",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "batch number",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Data pretreatment including peak picking, peak grouping, retention time correction, second peak grouping, and annotation of isotopes and adducts was achieved using XCMS and CAMERA software implemented with the freely available R statistical language (v 2.13.1).(24) LC\u2013MS raw data files were initially converted into netCDF format then directly processed by the XCMS and CAMERA toolbox. A list of the ion intensities of each peak detected was generated using retention time (RT) and the m/z data pairs as identifiers for each ion. The resulting three-dimensional matrix contained arbitrarily assigned peak indices (retention time\u2013m/z pairs), sample names (observations), and ion intensity information (variables).",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "Exact molecular mass data (m/z) from significant peaks were used to search the online HMDB database (http://www.hmdb.ca) for metabolite identities. A metabolite name was reported when a mass difference between observed and theoretical mass was <10 ppm. Isotopic distribution measurements were used to further validate the metabolite molecular formula of matched metabolites. The identities of key metabolites were confirmed by comparison of their MS/MS spectra and retention time with those obtained using commercially available reference standards",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "21",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "21",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ Orbitrap Velos (Thermo Scientific)",
+                        "filename": "a_MTBLS146_pregnancy_positive.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "21",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "21",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "LTQ Orbitrap Velos (Thermo Scientific)",
+                        "filename": "a_MTBLS146_pregnancy_negative.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "21",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "21",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "API 5500 QTRAP (AB Sciex)",
+                        "filename": "a_MTBLS146_pregnancy_targeted.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}

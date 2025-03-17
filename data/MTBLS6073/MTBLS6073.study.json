@@ -1,0 +1,513 @@
+{
+    "mtblsStudy": {
+        "studyStatus": "Public",
+        "curationRequest": "NO_CURATION",
+        "modifiedTime": "2024-09-26T16:14:06.904193",
+        "statusUpdateTime": "2024-09-26T16:14:06.904193",
+        "read_access": true,
+        "write_access": false,
+        "is_curator": false
+    },
+    "isaInvestigation": {
+        "comments": [
+            {
+                "name": "Created With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            },
+            {
+                "name": "Last Opened With Configuration",
+                "value": "MetaboLightsConfig20150707"
+            }
+        ],
+        "identifier": "MTBLS6073",
+        "title": "Investigation",
+        "description": "Created using the MetaboLights Online Editor (MOE)",
+        "submissionDate": "2022-10-04",
+        "publicReleaseDate": "2024-09-26",
+        "filename": "",
+        "people": [],
+        "publications": [],
+        "ontologySourceReferences": [
+            {
+                "comments": [],
+                "name": "NCBITAXON",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "EFO",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "NCIT",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "PW",
+                "file": "",
+                "version": "",
+                "description": ""
+            },
+            {
+                "comments": [],
+                "name": "OBI",
+                "file": "http://data.bioontology.org/ontologies/OBI",
+                "version": "29",
+                "description": "Ontology for Biomedical Investigations"
+            }
+        ],
+        "studies": [
+            {
+                "comments": [],
+                "identifier": "MTBLS6073",
+                "filename": "s_MTBLS6073.txt",
+                "title": "Integration of metabolomics and transcriptome reveals toxicity variations of Alternaria",
+                "description": "Alternaria, a widespread fungal genus, infects a wide range of crops and produces various toxins, such as Tentoxin (TEN), Tenuazonic acid (TeA), Alternariol (AOH) during infection, leading to a major concern about safety of these crops. Although the toxin-producing ability varies among different Alternaria species, the underlying mechanisms are still unclear. In this study, several Alternaria toxins were frequently detected in Tibetan barley (Hordeum vulgare var. coeleste Linnaeus) and wheat (Triticum aestivum Linn) in Tibet, especially TEN and TeA, which were detected in half of the crops. 153 barley and wheat samples collected from 5 different regions in Tibet were used for toxin detection/quantification, isolation and identification of the corresponding toxin producing fungi.\nAccording to levels of toxins produced in vivo, different isolates of Alternaria alternaria recovered from the above collected sampled were divided into three groups designated as high toxin-producing strains (HT), medium toxin-producing strains (LT) and no toxin-producing strains (NT). Metabolomics and transcriptomics were employed to investigate the potential mechanism of variations in toxin production among different isolates. Metabolomics analysis revealed high levels of amino acids and secondary metabolites in HT. Various precursors of TeA/TEN were also highly accumulated in HT, especially isoleucine ( which was one of essential gradients of TEN biosynthesis, which may account for high toxin production in HT strains in metabolome. Further transcriptome analysis revealed that the expression levels of genes relevant to precursors of TEN/TeA were higher in HT, especially CC77DRAFT_360136, CC77DRAFT_546209, CC77DRAFT_1033655 and CC77DRAFT_1090532, showing the molecular basis for toxin-producing variations among three strains. Importantly, our topological regulation network results identified the candidate genes that regulated these four genes involved in toxin-producing, and these genes may be essential for variations in toxin producing ability of these Alternaria strains. Overall, this comprehensive analysis expects to provide a better understanding to decipher the mechanism of toxicity based on molecular and metabolic levels.\n",
+                "submissionDate": "2022-10-04",
+                "publicReleaseDate": "2024-09-26",
+                "people": [
+                    {
+                        "comments": [],
+                        "firstName": "Wei",
+                        "lastName": "na",
+                        "email": "weina2022@126.com",
+                        "affiliation": "Institutions of Agricultural Product Quality Standard and Testing Research, Tibet Academy and Animal Husbandry Sciences",
+                        "address": "149th Jinzhu West Road, Chengguan district, Lhasa, Tibet",
+                        "fax": "",
+                        "midInitials": "",
+                        "phone": "",
+                        "roles": [
+                            {
+                                "comments": [],
+                                "annotationValue": "Subinvestigator",
+                                "termSource": {
+                                    "comments": [],
+                                    "name": "NCIT",
+                                    "file": "",
+                                    "version": "",
+                                    "description": ""
+                                },
+                                "termAccession": "http://purl.obolibrary.org/obo/NCIT_C54622"
+                            }
+                        ]
+                    }
+                ],
+                "studyDesignDescriptors": [
+                    {
+                        "comments": [],
+                        "annotationValue": "Alternaria",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCBITAXON",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_5598"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "transcriptome",
+                        "termSource": {
+                            "comments": [],
+                            "name": "EFO",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0004421"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "Metabolic Pathway",
+                        "termSource": {
+                            "comments": [],
+                            "name": "NCIT",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C18611"
+                    },
+                    {
+                        "comments": [],
+                        "annotationValue": "aflatoxin metabolic pathway",
+                        "termSource": {
+                            "comments": [],
+                            "name": "PW",
+                            "file": "",
+                            "version": "",
+                            "description": ""
+                        },
+                        "termAccession": "http://purl.obolibrary.org/obo/PW_0001366"
+                    }
+                ],
+                "publications": [
+                    {
+                        "comments": [],
+                        "title": "Integration of metabolomics and transcriptome reveals toxicity variations of Alternaria",
+                        "authorList": "Wei na",
+                        "pubMedID": "",
+                        "doi": "",
+                        "status": {
+                            "comments": [],
+                            "annotationValue": "Submitted",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001794"
+                        }
+                    }
+                ],
+                "factors": [
+                    {
+                        "comments": [],
+                        "factorName": "Strain",
+                        "factorType": {
+                            "comments": [],
+                            "annotationValue": "strain",
+                            "termSource": {
+                                "comments": [],
+                                "name": "EFO",
+                                "file": "",
+                                "version": "",
+                                "description": ""
+                            },
+                            "termAccession": "http://www.ebi.ac.uk/efo/EFO_0005135"
+                        }
+                    }
+                ],
+                "protocols": [
+                    {
+                        "comments": [],
+                        "name": "Sample collection",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Sample collection",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>In total 192 grain samples of wheat (Triticum aestivum L.)<strong>[1]</strong> and Tibetan barley (Hordeum vulgare var. coeleste Linnaeus)<strong>[2]</strong> grown at different altitudes in Tibet were collected and surface-disinfected for 50 s with 75% alcohol, followed by washing 3x times with sterile water for 1 min at each time before being dried in the biosafety hood. Briefly, 10 seeds were selected and placed on potato dextrose agar (PDA) plates containing 0.1 g/L chloramphenicol for 3-5 days at 28 \u00b0C in the dark. Mycelia with morphological characteristics of A. alternaria emerging around the seeds on PDA were picked, re-streaked on a new PDA for 7 days to obtain mono-conidial cultures. This process was repeated one more time. Mycelia from the above mono-conidial cultures were collected and stored in glycerol at -80 \u00b0C freezer as fungal culture stocks.</p><p><br></p><p>DNA was extracted from fungal mycelia of over 1000 mono-conidial cultures recovered from PDA by manufacturer's instructions (Solarbio, D2300) according to previous publication<strong>[3]</strong>. Universal primers ITS1 (5\u2019-TCCGTAGGTGAACCTGCGG-3\u2019)&nbsp;and ITS4 (5\u2019-TCCTCCGCTTATTGATATGC-3\u2019) were used for PCR amplification<strong>[4]</strong>. The amplicons were sequenced using the ITS1 or ITS4 primer by Shanghai Personalbio Technology CO., LTD (Shanghai, China). The results were analyzed using the Basic Local Alignment Search Tool (BLAST) against sequences at the National Center for Biotechnology Information (NCBI) (https://blast.ncbi.nlm.nih.gov/Blast.cgi) to achieve to the preliminary fungal identification.</p><p><br></p><p><strong>Refs:</strong></p><p><strong>[1]</strong> (57)</p><p><strong>[2]</strong> (135)</p><p><strong>[3]</strong> (Schoch et al., 2012)</p><p><strong>[4]</strong> (White et al. 1990)</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Extraction",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Extraction",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Each sample was weighed at 5 g (accuration with 0.02 g) and suspended at 10 mL of water. Then the samples were mixed with 10 mL of 1:9 formic acid and acetonitrile solution and gentally shaked at room temperature for 1 h. Next, the samples were added in QuEChERS salt pack and centrifuged at 8800 rpm for 5 min. After filtration, 1 mL of the sample filtrate was directly added to the SPE cartridge, then mixed with 0.5 mL of acetonitrile for eluting, drying, all the effluent was collected at final. The collected samples were mixed with 50% acetonitrile aqueous solution and they were made up to 1 mL after filteration with 0.22 \u03bcm organic filter membranes. Finally, all pre-treated samples were applied for quantification of alternaria toxin by the liquid chromatography-tandem mass spectrometry (LC-MS). The chromatographic conditions were as follows: C18 column, the column temperature was 30 \u00b0C, the injection volume was 1 \u00b5L; the mobile phase A was 2 mol/L (containing 0.1 % formic acid) ammonium acetate, and the mobile phase B was methanol. The spray voltage was 5 500 V, the sheath gas was 60 psi, the auxiliary gas was 55 psi, and the ion source temperature was 550 \u00b0C.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Post Extraction",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Derivatization",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Chromatography",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Chromatography",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>LC-MS/MS analyses were performed using an UHPLC system (Vanquish, Thermo Fisher Scientific) with a UPLC BEH Amide column (2.1 mm x 100 mm, 1.7 \u03bcm) coupled to Orbitrap Exploris 120 mass spectrometer (Orbitrap MS, Thermo). The mobile phase consisted of 25 mmol/L ammonium acetate and&nbsp;25&nbsp;ammonia hydroxide in water (pH = 9.75) (A) and acetonitrile (B). The auto-sampler temperature was 4 \u00b0C and the injection volume was 2 \u03bcL.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Chromatography Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Autosampler model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column model",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Column type",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Guard column",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Mass spectrometry",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Mass spectrometry",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The Orbitrap Exploris 120 mass spectrometer was used for its ability to acquire MS/MS spectra on <strong>information-dependent acquisition</strong> (<strong>IDA</strong>) mode in the control of the acquisition software (Xcalibur, Thermo). In this mode, the acquisition software continuously evaluates the full scan MS spectrum. The ESI source conditions were set as following: sheath gas flow rate as 50 Arb, Aux gas flow rate as 15 Arb, capillary temperature 320 \u00b0C, full MS resolution as 60000, MS/MS resolution as 15000 collision energy as 10/30/60 in NCE mode, spray voltage as 3.8 kV (positive) or -3.4 kV (negative), respectively.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan polarity",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Scan m/z range",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Instrument",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Ion source",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            },
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "Mass analyzer",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Data transformation",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Data transformation",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>The raw data were converted to the <strong>mzXML</strong> format using <strong>ProteoWizard</strong> and processed with an in-house program, which was developed using <strong>R</strong> and based on <strong>XCMS</strong>, for peak detection, extraction, alignment and integration.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    },
+                    {
+                        "comments": [],
+                        "name": "Metabolite identification",
+                        "protocolType": {
+                            "comments": [],
+                            "annotationValue": "Metabolite identification",
+                            "termSource": null,
+                            "termAccession": ""
+                        },
+                        "description": "<p>Then an in-house MS2&nbsp;database (BiotreeDB) was applied in metabolite annotation. The cutoff for annotation was set at 0.3.</p>",
+                        "uri": "",
+                        "version": "",
+                        "parameters": [
+                            {
+                                "comments": [],
+                                "parameterName": {
+                                    "comments": [],
+                                    "annotationValue": "",
+                                    "termSource": null,
+                                    "termAccession": ""
+                                }
+                            }
+                        ],
+                        "components": []
+                    }
+                ],
+                "assays": [
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - positive - hilic",
+                        "filename": "a_MTBLS6073_LC-MS_positive_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    },
+                    {
+                        "comments": [],
+                        "measurementType": {
+                            "comments": [],
+                            "annotationValue": "metabolite profiling",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000366"
+                        },
+                        "technologyType": {
+                            "comments": [],
+                            "annotationValue": "mass spectrometry",
+                            "termSource": {
+                                "comments": [],
+                                "name": "OBI",
+                                "file": "http://data.bioontology.org/ontologies/OBI",
+                                "version": "29",
+                                "description": "Ontology for Biomedical Investigations"
+                            },
+                            "termAccession": "http://purl.obolibrary.org/obo/OBI_0000470"
+                        },
+                        "technologyPlatform": "Liquid Chromatography MS - negative - hilic",
+                        "filename": "a_MTBLS6073_LC-MS_negative_hilic_metabolite_profiling.txt",
+                        "dataFiles": [],
+                        "processSequence": [],
+                        "sources": [],
+                        "samples": [],
+                        "otherMaterials": [],
+                        "characteristicCategories": [],
+                        "units": [],
+                        "graph": null
+                    }
+                ],
+                "sources": [],
+                "samples": [],
+                "processSequence": [],
+                "characteristicCategories": [],
+                "units": []
+            }
+        ]
+    },
+    "validation": {
+        "errors": [],
+        "warnings": []
+    }
+}
