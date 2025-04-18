@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/13996/cmungall/metabolights-enriched.svg)](https://zenodo.org/badge/latestdoi/13996/cmungall/metabolights-enriched)
+
 # Metabolights Enriched MAF files
 
 All EBI metabolights sample MAF files, enriched with:
